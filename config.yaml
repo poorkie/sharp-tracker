@@ -1,0 +1,99 @@
+# ---------------------------------------------------------------
+# Sharp Tracker settings. Edit these, commit, and the next run
+# picks them up. Secrets (API keys, phone numbers) do NOT go here;
+# they go in GitHub -> Settings -> Secrets and variables -> Actions.
+# ---------------------------------------------------------------
+
+# Times in alerts are shown in this time zone.
+timezone: America/Chicago
+
+# Which leagues to watch. The key is the prefix Polymarket uses on
+# game slugs (e.g. "nhl-nyr-bos-2026-11-10"). odds_key is the
+# matching sport key on The Odds API, used for the sportsbook check.
+sports:
+  nhl: { odds_key: icehockey_nhl }
+  nfl: { odds_key: americanfootball_nfl }
+  nba: { odds_key: basketball_nba }
+  mlb: { odds_key: baseball_mlb }
+  cfb: { odds_key: americanfootball_ncaaf }
+  cbb: { odds_key: basketball_ncaab }
+  epl: { odds_key: soccer_epl }
+
+# Market types to watch. Polymarket labels game markets with a
+# sportsMarketType; "moneyline" is the cleanest signal. Add
+# "spreads" and "totals" if you want those too.
+market_types: [moneyline]
+
+# Only look at games starting within this many hours. Games that
+# have already started are skipped (live betting is mostly noise).
+lookahead_hours: 36
+
+# Trades smaller than this (in dollars) are ignored entirely.
+min_trade_usd: 200
+
+# ---- Wallet grading: who counts as "smart money" ---------------
+grading:
+  # Only grade on single-game bets (slug contains a date). Futures
+  # like "who wins the Stanley Cup" are excluded from the score.
+  games_only: true
+  # A wallet needs at least this many graded bets in a sport.
+  min_bets: 25
+  # Shrinkage: every wallet starts as if it had this many bets at
+  # prior_roi. Small samples get pulled hard toward that; a lucky
+  # 8-2 run does not make someone sharp.
+  prior_bets: 40
+  prior_roi: -0.03
+  # Thresholds on the shrunk ROI and the t-stat of per-bet returns.
+  sharp:  { min_roi: 0.02, min_t: 1.0 }
+  elite:  { min_roi: 0.07, min_t: 2.0 }
+  # Re-grade every wallet after this many days.
+  regrade_days: 7
+  # API budget per run for grading wallets we haven't graded yet.
+  max_new_grades_per_run: 25
+  # How many past positions to pull per wallet (most recent first).
+  history_limit: 1500
+  # Wallets that place a single trade this big get queued for grading.
+  discover_trade_usd: 1000
+
+# Seed list of candidate wallets from Polymarket's sports leaderboard.
+leaderboard:
+  periods: [month, all]
+  limit: 250
+
+# ---- Alert rules -----------------------------------------------
+consensus:
+  # Fire when at least this many sharp wallets are net-long the
+  # same side of the same game...
+  min_wallets: 3
+  # ...with at least this much combined money...
+  min_total_usd: 2500
+  # ...counting trades from the last N hours...
+  window_hours: 24
+  # ...and sharp money on the OTHER side is at most this fraction
+  # of the money on our side (0.35 = 35%).
+  max_opposing_ratio: 0.35
+
+single_elite:
+  # Also alert when one ELITE wallet makes a big bet on its own.
+  enabled: true
+  min_usd: 5000
+
+# Re-alert on the same side only if the sharp money grew by this
+# fraction since the last alert (0.5 = 50% more).
+realert_growth: 0.5
+
+# Skip alerts when the price is already too lopsided to be useful.
+price_band: { min: 0.08, max: 0.92 }
+
+# ---- Sportsbook comparison (The Odds API) ----------------------
+odds:
+  enabled: true
+  # Free tier is 500 credits/month, so odds are only fetched when a
+  # signal fires, and cached this long per sport.
+  cache_minutes: 120
+  regions: us
+
+# ---- Where alerts go -------------------------------------------
+# One or more of: ntfy, twilio, email, console
+alerts:
+  channels: [ntfy]
