@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "*/10 * * * *"   # every 10 min (GitHub often runs these a few minutes late)
   workflow_dispatch: {}       # lets you hit "Run workflow" by hand
+  push:                       # also run right after code/config changes
+    branches: [main]
+    paths: ["config.yaml", "run.py", "sharp/**", ".github/workflows/**"]
 
 permissions:
   contents: write             # needed to commit state + RECORD.md back
