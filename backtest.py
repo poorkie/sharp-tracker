@@ -87,6 +87,109 @@ def lock_price(token: str, start: datetime) -> float | None:
     return float(pts[-1]["p"]) if pts else None
 
 
+def run_pre_lock(test, tier, sports, ccfg, workers) -> dict:
+    """Rebuild signals from timestamped trades, counting only sharp trades
+    placed before kickoff minus 15 min, so in-game bets can't leak in."""
+    holders = defaultdict(set)   # cid -> sharp wallets holding anything there
+    sport_of_cid = {}
+    for w, items in test.items():
+        for b, r in items:
+            if tier.get((w, b.sport)) in ("SHARP", "ELITE"):
+                holders[r["condition_id"]].add(w)
+                sport_of_cid[r["condition_id"]] = b.sport
+    cids = [c for c, ws in holders.items() if len(ws) >= 2]
+    log.info("pre-lock: %d markets with 2+ sharp holders", len(cids))
+    markets = {m.get("conditionId"): m for m in api.markets_by_condition(cids, closed=True)}
+
+    def one(cid):
+        m = markets.get(cid)
+        if not m:
+            return []
+        start = parse_time(m.get("gameStartTime")) or parse_time(m.get("eventStartTime"))
+        toks = api.parse_json_list(m.get("clobTokenIds"))
+        prices = [float(p) for p in api.parse_json_list(m.get("outcomePrices"))]
+        if not start or len(toks) != len(prices) or not toks:
+            return []
+        lock_ts = int(start.timestamp()) - 15 * 60
+        try:
+            trades = api.trades_for_conditions([cid], 100, lock_ts - 7 * 86400, max_rows=20000)
+        except Exception as e:
+            log.warning("trades %s: %s", cid, e)
+            return []
+        sport = sport_of_cid[cid]
+        flow = defaultdict(lambda: defaultdict(float))   # idx -> wallet -> net $
+        cost = defaultdict(lambda: defaultdict(float))
+        shares = defaultdict(lambda: defaultdict(float))
+        for t in trades:
+            if int(t.get("timestamp", 0)) > lock_ts:
+                continue
+            w = (t.get("proxy_wallet") or "").lower()
+            tr = tier.get((w, sport))
+            if tr not in ("SHARP", "ELITE"):
+                continue
+            idx = int(t.get("outcome_index", -1))
+            if idx < 0:
+                continue
+            cash = float(t["size"]) * float(t["price"])
+            if t.get("side") == "BUY":
+                flow[idx][w] += cash
+                cost[idx][w] += cash
+                shares[idx][w] += float(t["size"])
+            else:
+                flow[idx][w] -= cash
+        out = []
+        for idx, ws in flow.items():
+            longs = {w: v for w, v in ws.items() if v > 0}
+            total = sum(longs.values())
+            opp = sum(v for j, o in flow.items() if j != idx for v in o.values() if v > 0)
+            elites = [w for w in longs if tier.get((w, sport)) == "ELITE"]
+            kinds = []
+            if len(longs) >= ccfg["min_wallets"] and total >= ccfg["min_total_usd"] \
+                    and opp <= ccfg["max_opposing_ratio"] * total:
+                kinds.append("consensus_3plus")
+            if len(elites) >= 2 and sum(longs[w] for w in elites) >= 2000 \
+                    and opp <= ccfg["max_opposing_ratio"] * total:
+                kinds.append("elite_2plus")
+            if any(longs[w] >= 5000 for w in elites) and opp <= ccfg["max_opposing_ratio"] * total:
+                kinds.append("single_elite_5k")
+            if not kinds:
+                continue
+            lp = lock_price(toks[idx], start)
+            c = sum(cost[idx][w] for w in longs)
+            s = sum(shares[idx][w] for w in longs)
+            out.append({"cid": cid, "sport": sport, "idx": idx, "kinds": kinds,
+                        "won": prices[idx] >= 0.99, "void": 0.01 < prices[idx] < 0.99,
+                        "lock_price": lp, "sharp_avg": round(c / s, 3) if s else None,
+                        "wallets": len(longs), "sharp_usd": round(total),
+                        "market_type": m.get("sportsMarketType"), "question": m.get("question"),
+                        "start": start.isoformat()})
+        return out
+
+    with ThreadPoolExecutor(workers) as ex:
+        sigs = [s for batch in ex.map(one, cids) for s in batch if not s["void"]]
+
+    def stats(rows):
+        rs = [r for r in rows if r["lock_price"] and 0.08 <= r["lock_price"] <= 0.92]
+        n = len(rs)
+        pnl = sum(100 * (1 - r["lock_price"]) / r["lock_price"] if r["won"] else -100 for r in rs)
+        mv = [r["lock_price"] - r["sharp_avg"] for r in rs if r["sharp_avg"]]
+        return {"bets": n, "wins": sum(r["won"] for r in rs), "units": round(pnl / 100, 2),
+                "roi": round(pnl / (100 * n), 4) if n else 0,
+                "avg_price": round(sum(r["lock_price"] for r in rs) / n, 3) if n else 0,
+                "avg_move_after_sharps": round(sum(mv) / len(mv), 4) if mv else None}
+
+    res = {}
+    for kind in ("consensus_3plus", "elite_2plus", "single_elite_5k"):
+        rows = [s for s in sigs if kind in s["kinds"]]
+        res[kind] = {"all": stats(rows),
+                     "by_sport": {sp: stats([r for r in rows if r["sport"] == sp])
+                                  for sp in sorted({r["sport"] for r in rows})},
+                     "by_type": {t: stats([r for r in rows if str(r["market_type"]) == t])
+                                 for t in sorted({str(r["market_type"]) for r in rows})}}
+    res["signals"] = sigs
+    return res
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--cutoff", default="2026-09-01")
@@ -126,6 +229,9 @@ def main():
             groups[tier.get((w, b.sport), "UNGRADED")].append(b)
             groups[f"{b.sport}:{tier.get((w, b.sport), 'UNGRADED')}"].append(b)
     persistence = {k: group_stats(v) for k, v in sorted(groups.items())}
+
+    # ---- C: same idea, but only counting trades placed BEFORE the lock ----
+    pre_lock = run_pre_lock(test, tier, sports, ccfg, args.workers)
 
     # ---- B: consensus follow at lock price ----
     by_cid = defaultdict(lambda: defaultdict(dict))  # cid -> token -> wallet -> (cost, row)
@@ -195,6 +301,7 @@ def main():
 
     out = {"cutoff": args.cutoff, "run_at": datetime.now(timezone.utc).isoformat(),
            "wallets": len(wallets), "persistence": persistence, "follow": follow_res,
+           "pre_lock": pre_lock,
            "signals": sorted(resolved, key=lambda r: r["start"] or "")}
     (ROOT / "docs").mkdir(exist_ok=True)
     (ROOT / "docs/backtest.json").write_text(json.dumps(out, indent=1, default=str))
@@ -219,6 +326,21 @@ def main():
         for k, s in follow_res[key].items():
             L.append(f"| {k} | {s['bets']} | {s['wins']} | {s['units']:+.2f} | {s['roi']:+.1%} |")
     L += ["", f"Signals without a lock price (skipped in lock rows): {follow_res['no_lock_price']}", ""]
+    L += ["## C. Honest version: only sharp trades placed BEFORE the 15-min lock count", "",
+          "$100 per signal at the lock price. This is the number that matters.", ""]
+    for kind, label in (("consensus_3plus", "3+ sharps agree"), ("elite_2plus", "2+ ELITE agree"),
+                        ("single_elite_5k", "Single ELITE bet $5k+")):
+        blk = pre_lock[kind]
+        s = blk["all"]
+        mv = f"{s['avg_move_after_sharps'] * 100:+.1f}¢" if s["avg_move_after_sharps"] is not None else "–"
+        L += [f"### {label}", "",
+              f"**{s['bets']} bets, {s['wins']}-{s['bets'] - s['wins']}, {s['units']:+.2f}u, ROI {s['roi']:+.1%}**, "
+              f"avg lock price {s['avg_price']:.3f}, price move from sharp entry to lock {mv}", "",
+              "| Split | Bets | W | Units | ROI |", "|---|---|---|---|---|"]
+        for grp in ("by_sport", "by_type"):
+            for k, v in blk[grp].items():
+                L.append(f"| {k} | {v['bets']} | {v['wins']} | {v['units']:+.2f} | {v['roi']:+.1%} |")
+        L.append("")
     (ROOT / "BACKTEST.md").write_text("\n".join(L))
     print("\n".join(L))
 
