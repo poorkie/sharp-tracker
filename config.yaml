@@ -49,7 +49,7 @@ grading:
   # Re-grade every wallet after this many days.
   regrade_days: 7
   # API budget per run for grading wallets we haven't graded yet.
-  max_new_grades_per_run: 25
+  max_new_grades_per_run: 60
   # How many past positions to pull per wallet (most recent first).
   history_limit: 1500
   # Wallets that place a single trade this big get queued for grading.
