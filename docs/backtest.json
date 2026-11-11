@@ -1,6 +1,6 @@
 {
  "cutoff": "2026-09-01",
- "run_at": "2026-11-11T23:13:09.159287+00:00",
+ "run_at": "2026-11-11T23:19:51.567640+00:00",
  "wallets": 599,
  "persistence": {
   "ELITE": {
@@ -31,10 +31,10 @@
    "avg_price": 0.525
   },
   "UNGRADED": {
-   "bets": 115824,
-   "staked": 369605944,
-   "pnl": 17761233,
-   "roi_dollar": 0.0481,
+   "bets": 115817,
+   "staked": 369559442,
+   "pnl": 17755177,
+   "roi_dollar": 0.048,
    "roi_flat": 0.2936,
    "hit_rate": 0.484,
    "avg_price": 0.498
@@ -58,12 +58,12 @@
    "avg_price": 0.5
   },
   "cbb:UNGRADED": {
-   "bets": 6811,
-   "staked": 2089873,
-   "pnl": -36749,
-   "roi_dollar": -0.0176,
+   "bets": 6825,
+   "staked": 2091137,
+   "pnl": -35880,
+   "roi_dollar": -0.0172,
    "roi_flat": 0.0384,
-   "hit_rate": 0.481,
+   "hit_rate": 0.482,
    "avg_price": 0.492
   },
   "cfb:ELITE": {
@@ -94,9 +94,9 @@
    "avg_price": 0.507
   },
   "cfb:UNGRADED": {
-   "bets": 23812,
-   "staked": 52919679,
-   "pnl": 1564802,
+   "bets": 23810,
+   "staked": 52918764,
+   "pnl": 1565728,
    "roi_dollar": 0.0296,
    "roi_flat": 0.0155,
    "hit_rate": 0.478,
@@ -130,11 +130,11 @@
    "avg_price": 0.517
   },
   "epl:UNGRADED": {
-   "bets": 7462,
-   "staked": 35129780,
-   "pnl": 2595514,
-   "roi_dollar": 0.0739,
-   "roi_flat": 0.0163,
+   "bets": 7463,
+   "staked": 35132321,
+   "pnl": 2592973,
+   "roi_dollar": 0.0738,
+   "roi_flat": 0.0162,
    "hit_rate": 0.49,
    "avg_price": 0.485
   },
@@ -202,11 +202,11 @@
    "avg_price": 0.542
   },
   "nba:UNGRADED": {
-   "bets": 50776,
-   "staked": 122012391,
-   "pnl": 2596354,
-   "roi_dollar": 0.0213,
-   "roi_flat": 0.6381,
+   "bets": 50760,
+   "staked": 121970651,
+   "pnl": 2591734,
+   "roi_dollar": 0.0212,
+   "roi_flat": 0.6384,
    "hit_rate": 0.478,
    "avg_price": 0.495
   },
@@ -238,9 +238,9 @@
    "avg_price": 0.474
   },
   "nfl:UNGRADED": {
-   "bets": 15939,
-   "staked": 133856287,
-   "pnl": 10595961,
+   "bets": 15937,
+   "staked": 133848749,
+   "pnl": 10595363,
    "roi_dollar": 0.0792,
    "roi_flat": 0.0741,
    "hit_rate": 0.492,
@@ -274,9 +274,9 @@
    "avg_price": 0.49
   },
   "nhl:UNGRADED": {
-   "bets": 10389,
-   "staked": 20764350,
-   "pnl": -87203,
+   "bets": 10387,
+   "staked": 20764237,
+   "pnl": -87294,
    "roi_dollar": -0.0042,
    "roi_flat": -0.0365,
    "hit_rate": 0.509,
@@ -377,6 +377,2006 @@
    }
   },
   "no_lock_price": 0
+ },
+ "pre_lock": {
+  "consensus_3plus": {
+   "all": {
+    "bets": 24,
+    "wins": 7,
+    "units": -10.82,
+    "roi": -0.4507,
+    "avg_price": 0.515,
+    "avg_move_after_sharps": -0.0001
+   },
+   "by_sport": {
+    "mlb": {
+     "bets": 19,
+     "wins": 5,
+     "units": -9.59,
+     "roi": -0.5048,
+     "avg_price": 0.509,
+     "avg_move_after_sharps": 0.0029
+    },
+    "nba": {
+     "bets": 4,
+     "wins": 1,
+     "units": -2.13,
+     "roi": -0.5327,
+     "avg_price": 0.54,
+     "avg_move_after_sharps": -0.017
+    },
+    "nfl": {
+     "bets": 1,
+     "wins": 1,
+     "units": 0.9,
+     "roi": 0.9048,
+     "avg_price": 0.525,
+     "avg_move_after_sharps": 0.01
+    }
+   },
+   "by_type": {
+    "moneyline": {
+     "bets": 9,
+     "wins": 2,
+     "units": -5.56,
+     "roi": -0.6173,
+     "avg_price": 0.516,
+     "avg_move_after_sharps": -0.0038
+    },
+    "spreads": {
+     "bets": 3,
+     "wins": 2,
+     "units": 0.77,
+     "roi": 0.258,
+     "avg_price": 0.522,
+     "avg_move_after_sharps": 0.0107
+    },
+    "totals": {
+     "bets": 12,
+     "wins": 3,
+     "units": -6.03,
+     "roi": -0.5029,
+     "avg_price": 0.513,
+     "avg_move_after_sharps": 0.0
+    }
+   }
+  },
+  "elite_2plus": {
+   "all": {
+    "bets": 61,
+    "wins": 31,
+    "units": 5.29,
+    "roi": 0.0868,
+    "avg_price": 0.484,
+    "avg_move_after_sharps": -0.001
+   },
+   "by_sport": {
+    "mlb": {
+     "bets": 59,
+     "wins": 29,
+     "units": 2.65,
+     "roi": 0.0449,
+     "avg_price": 0.485,
+     "avg_move_after_sharps": -0.0013
+    },
+    "nfl": {
+     "bets": 2,
+     "wins": 2,
+     "units": 2.64,
+     "roi": 1.3222,
+     "avg_price": 0.445,
+     "avg_move_after_sharps": 0.0085
+    }
+   },
+   "by_type": {
+    "baseball_team_first_five_total": {
+     "bets": 1,
+     "wins": 0,
+     "units": -1.0,
+     "roi": -1.0,
+     "avg_price": 0.435,
+     "avg_move_after_sharps": -0.001
+    },
+    "moneyline": {
+     "bets": 19,
+     "wins": 9,
+     "units": 2.67,
+     "roi": 0.1404,
+     "avg_price": 0.461,
+     "avg_move_after_sharps": -0.0054
+    },
+    "spreads": {
+     "bets": 3,
+     "wins": 3,
+     "units": 2.64,
+     "roi": 0.881,
+     "avg_price": 0.532,
+     "avg_move_after_sharps": 0.019
+    },
+    "totals": {
+     "bets": 38,
+     "wins": 19,
+     "units": 0.98,
+     "roi": 0.0258,
+     "avg_price": 0.493,
+     "avg_move_after_sharps": -0.0004
+    }
+   }
+  },
+  "single_elite_5k": {
+   "all": {
+    "bets": 52,
+    "wins": 32,
+    "units": 8.85,
+    "roi": 0.1702,
+    "avg_price": 0.542,
+    "avg_move_after_sharps": 0.0017
+   },
+   "by_sport": {
+    "epl": {
+     "bets": 6,
+     "wins": 2,
+     "units": -2.17,
+     "roi": -0.3614,
+     "avg_price": 0.462,
+     "avg_move_after_sharps": 0.012
+    },
+    "mlb": {
+     "bets": 22,
+     "wins": 13,
+     "units": 5.67,
+     "roi": 0.2577,
+     "avg_price": 0.505,
+     "avg_move_after_sharps": 0.0004
+    },
+    "nfl": {
+     "bets": 23,
+     "wins": 17,
+     "units": 6.35,
+     "roi": 0.2759,
+     "avg_price": 0.608,
+     "avg_move_after_sharps": 0.0005
+    },
+    "nhl": {
+     "bets": 1,
+     "wins": 0,
+     "units": -1.0,
+     "roi": -1.0,
+     "avg_price": 0.355,
+     "avg_move_after_sharps": -0.005
+    }
+   },
+   "by_type": {
+    "moneyline": {
+     "bets": 30,
+     "wins": 17,
+     "units": 3.77,
+     "roi": 0.1257,
+     "avg_price": 0.518,
+     "avg_move_after_sharps": 0.0007
+    },
+    "spreads": {
+     "bets": 11,
+     "wins": 8,
+     "units": 2.71,
+     "roi": 0.2466,
+     "avg_price": 0.64,
+     "avg_move_after_sharps": -0.0003
+    },
+    "totals": {
+     "bets": 11,
+     "wins": 7,
+     "units": 2.37,
+     "roi": 0.2151,
+     "avg_price": 0.51,
+     "avg_move_after_sharps": 0.0062
+    }
+   }
+  },
+  "signals": [
+   {
+    "cid": "0x0f9601588797b122840aa7170cf1e936f6026061c66ae04dc8ed2f151ce1f070",
+    "sport": "nfl",
+    "idx": 1,
+    "kinds": [
+     "consensus_3plus",
+     "elite_2plus",
+     "single_elite_5k"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.525,
+    "sharp_avg": 0.515,
+    "wallets": 3,
+    "sharp_usd": 158542,
+    "market_type": "spreads",
+    "question": "Spread: Eagles (-3.5)",
+    "start": "2026-09-29T00:15:00+00:00"
+   },
+   {
+    "cid": "0x7bac333f88898b0be7c34cc49c184f50896d4daf4ab59a4e74a8f0a887db2092",
+    "sport": "nfl",
+    "idx": 0,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.585,
+    "sharp_avg": 0.61,
+    "wallets": 1,
+    "sharp_usd": 7204,
+    "market_type": "moneyline",
+    "question": "Packers vs. Buccaneers",
+    "start": "2026-10-04T17:00:00+00:00"
+   },
+   {
+    "cid": "0xed537832cbf6774d5b54da06732b53ce6866d82941e593ca71292f8e247babc5",
+    "sport": "nfl",
+    "idx": 0,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.845,
+    "sharp_avg": 0.84,
+    "wallets": 1,
+    "sharp_usd": 8400,
+    "market_type": "moneyline",
+    "question": "Chiefs vs. Dolphins",
+    "start": "2026-09-27T17:00:00+00:00"
+   },
+   {
+    "cid": "0x99106842b4a3afb9a8f15345bbdc5396e30a3d289824c60aa9a5ca78b23f4fb3",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.625,
+    "sharp_avg": 0.62,
+    "wallets": 1,
+    "sharp_usd": 20119,
+    "market_type": "moneyline",
+    "question": "New York Mets vs. Tampa Bay Rays",
+    "start": "2026-09-02T22:40:00+00:00"
+   },
+   {
+    "cid": "0x99420999aa6893471d18bf282e746c9f9729197603344c549f7ba2bc40920bfb",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.475,
+    "sharp_avg": 0.47,
+    "wallets": 1,
+    "sharp_usd": 8978,
+    "market_type": "totals",
+    "question": "Cleveland Guardians vs. Tampa Bay Rays: O/U 6.5",
+    "start": "2026-10-14T00:00:00+00:00"
+   },
+   {
+    "cid": "0xb2af4547242ef164befadb387a9de5ab78eb1afc09c26fc1c65c6810a7cc6e39",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "elite_2plus"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.485,
+    "sharp_avg": 0.504,
+    "wallets": 2,
+    "sharp_usd": 3978,
+    "market_type": "totals",
+    "question": "Los Angeles Dodgers vs. Atlanta Braves: O/U 6.5",
+    "start": "2026-10-06T22:00:00+00:00"
+   },
+   {
+    "cid": "0x66f9fbea80942a3424cc5cb4f19eb53960a965913c0152f8348fa46ab7d3eb25",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "elite_2plus",
+     "single_elite_5k"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.315,
+    "sharp_avg": 0.315,
+    "wallets": 2,
+    "sharp_usd": 10595,
+    "market_type": "moneyline",
+    "question": "Atlanta Braves vs. Los Angeles Dodgers",
+    "start": "2026-10-05T00:00:00+00:00"
+   },
+   {
+    "cid": "0x3c80445e6248383d45606d5c8cde91ffc86f8312fa366b68e62d18d8b5019322",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.515,
+    "sharp_avg": 0.51,
+    "wallets": 1,
+    "sharp_usd": 8218,
+    "market_type": "moneyline",
+    "question": "Philadelphia Phillies vs. Atlanta Braves",
+    "start": "2026-09-30T18:00:00+00:00"
+   },
+   {
+    "cid": "0x4b89caf655c9602405a1c0366a1de9cc976f88d3b85ff69a808754ed2e81f36b",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.625,
+    "sharp_avg": 0.63,
+    "wallets": 1,
+    "sharp_usd": 16149,
+    "market_type": "moneyline",
+    "question": "Philadelphia Phillies vs. Atlanta Braves",
+    "start": "2026-09-29T18:00:00+00:00"
+   },
+   {
+    "cid": "0xa626e3115cf4c057c8d3f02f432dec54b484da2618d68da59f1a5c51853d4785",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "elite_2plus"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.535,
+    "sharp_avg": 0.515,
+    "wallets": 2,
+    "sharp_usd": 8013,
+    "market_type": "spreads",
+    "question": "Spread: Los Angeles Dodgers (-2.5)",
+    "start": "2026-09-26T20:05:00+00:00"
+   },
+   {
+    "cid": "0xa69826a08aefbfb213677dc6c9e1203c53aef78aaf43a3728bce502b4e37d6ee",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "elite_2plus"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.315,
+    "sharp_avg": 0.32,
+    "wallets": 2,
+    "sharp_usd": 8275,
+    "market_type": "moneyline",
+    "question": "Cincinnati Reds vs. Atlanta Braves",
+    "start": "2026-09-24T23:15:00+00:00"
+   },
+   {
+    "cid": "0xba5bd1e8a214aae3ab50871c6abd9eecdb9841880e6c59b9d73f0da3a47b7849",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "elite_2plus"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.455,
+    "sharp_avg": 0.46,
+    "wallets": 2,
+    "sharp_usd": 4900,
+    "market_type": "totals",
+    "question": "Los Angeles Angels vs. Athletics: O/U 9.5",
+    "start": "2026-09-24T01:40:00+00:00"
+   },
+   {
+    "cid": "0x635bc7ea3fd56e53aa7b9b482d2e6204d4463209155071d0c3421304d6181b72",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "elite_2plus"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.545,
+    "sharp_avg": 0.5,
+    "wallets": 2,
+    "sharp_usd": 3507,
+    "market_type": "totals",
+    "question": "Arizona Diamondbacks vs. Colorado Rockies: O/U 11.5",
+    "start": "2026-09-24T00:40:00+00:00"
+   },
+   {
+    "cid": "0x72338a5f288ab9cd9f383bc60da9f4190e9aa60b032582630075d7372e65568b",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "elite_2plus",
+     "single_elite_5k"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.495,
+    "sharp_avg": 0.48,
+    "wallets": 2,
+    "sharp_usd": 8741,
+    "market_type": "totals",
+    "question": "Los Angeles Angels vs. Athletics: O/U 9.5",
+    "start": "2026-09-23T01:40:00+00:00"
+   },
+   {
+    "cid": "0xe1810cf8925b6a7b130720ff838a14e428a1330613b0f0c7014d1e5cec1853a4",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "consensus_3plus",
+     "elite_2plus",
+     "single_elite_5k"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.545,
+    "sharp_avg": 0.507,
+    "wallets": 3,
+    "sharp_usd": 13535,
+    "market_type": "totals",
+    "question": "Minnesota Twins vs. San Francisco Giants: O/U 8.5",
+    "start": "2026-09-22T01:45:00+00:00"
+   },
+   {
+    "cid": "0xcb6a632628337e0fa7ac591d8ebafec9e10ba5a03a58d389736d16b3244886e9",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.495,
+    "sharp_avg": 0.5,
+    "wallets": 1,
+    "sharp_usd": 9670,
+    "market_type": "moneyline",
+    "question": "New York Yankees vs. Arizona Diamondbacks",
+    "start": "2026-09-19T01:40:00+00:00"
+   },
+   {
+    "cid": "0xaab58cad3348a57761c0417f6751487e2d4815edcb8ae7fd00e1f8dff8a091c6",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "elite_2plus"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.5235,
+    "sharp_avg": 0.522,
+    "wallets": 2,
+    "sharp_usd": 2188,
+    "market_type": "moneyline",
+    "question": "Boston Red Sox vs. Texas Rangers",
+    "start": "2026-09-18T00:05:00+00:00"
+   },
+   {
+    "cid": "0xfa68058758833e98592b947c244ee5f71c3ecb1ed06a776baba0dd2f9384d396",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "elite_2plus",
+     "single_elite_5k"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.405,
+    "sharp_avg": 0.41,
+    "wallets": 2,
+    "sharp_usd": 11422,
+    "market_type": "moneyline",
+    "question": "Miami Marlins vs. Arizona Diamondbacks",
+    "start": "2026-09-16T01:40:00+00:00"
+   },
+   {
+    "cid": "0x53911b8c09e375ebc0416916fb74fc8fb709208784694370248b0010f0492edd",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "elite_2plus"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.475,
+    "sharp_avg": 0.467,
+    "wallets": 2,
+    "sharp_usd": 2321,
+    "market_type": "totals",
+    "question": "Miami Marlins vs. Arizona Diamondbacks: O/U 8.5",
+    "start": "2026-09-16T01:40:00+00:00"
+   },
+   {
+    "cid": "0x0aaf837bf8427078bd25b66230d3719dc9a380df3a902d1df94e45605157d18c",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "elite_2plus",
+     "single_elite_5k"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.445,
+    "sharp_avg": 0.441,
+    "wallets": 2,
+    "sharp_usd": 7238,
+    "market_type": "totals",
+    "question": "Kansas City Royals vs. Houston Astros: O/U 8.5",
+    "start": "2026-09-16T00:10:00+00:00"
+   },
+   {
+    "cid": "0x6fef3eabbb55254cdb156346d1fe81dd1298a8bc7ae6b266151bd20926476f8d",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "elite_2plus"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.495,
+    "sharp_avg": 0.49,
+    "wallets": 2,
+    "sharp_usd": 6555,
+    "market_type": "moneyline",
+    "question": "Seattle Mariners vs. Los Angeles Angels",
+    "start": "2026-09-15T01:38:00+00:00"
+   },
+   {
+    "cid": "0xf2b6f22346703c11acb9038e87c7354fa07dfd0ef6a73e5c12f80ce524eb911e",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.425,
+    "sharp_avg": 0.44,
+    "wallets": 1,
+    "sharp_usd": 5186,
+    "market_type": "moneyline",
+    "question": "Baltimore Orioles vs. New York Mets",
+    "start": "2026-09-14T23:10:00+00:00"
+   },
+   {
+    "cid": "0x517e89108f7f6ffff098646b1350ff2d7fe0532ac1d146078fdb0c9df8db7adc",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "elite_2plus"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.485,
+    "sharp_avg": 0.49,
+    "wallets": 2,
+    "sharp_usd": 4632,
+    "market_type": "totals",
+    "question": "Atlanta Braves vs. Chicago Cubs: O/U 9.5",
+    "start": "2026-09-14T23:40:00+00:00"
+   },
+   {
+    "cid": "0x064c302d931d0099c9e4a95ba9afb13fcf473ab5f2b54fb3ac4c1aa5076012ba",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "elite_2plus"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.505,
+    "sharp_avg": 0.502,
+    "wallets": 2,
+    "sharp_usd": 4535,
+    "market_type": "totals",
+    "question": "Pittsburgh Pirates vs. Chicago Cubs: O/U 9.5",
+    "start": "2026-09-12T18:20:00+00:00"
+   },
+   {
+    "cid": "0xdd2d6efd6b1f2c6891df3dd43a110a8bd59293c404f68f3502a811953e5b2f77",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "elite_2plus",
+     "single_elite_5k"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.625,
+    "sharp_avg": 0.6,
+    "wallets": 2,
+    "sharp_usd": 7225,
+    "market_type": "totals",
+    "question": "Kansas City Royals vs. Boston Red Sox: O/U 9.5",
+    "start": "2026-09-11T23:10:00+00:00"
+   },
+   {
+    "cid": "0xe39fa5b5b5ef21ba599e171497045ec7879fb72bcca6dec697607760660ea980",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "elite_2plus"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.535,
+    "sharp_avg": 0.54,
+    "wallets": 2,
+    "sharp_usd": 5071,
+    "market_type": "totals",
+    "question": "Cincinnati Reds vs. Milwaukee Brewers: O/U 7.5",
+    "start": "2026-09-11T23:45:00+00:00"
+   },
+   {
+    "cid": "0x1ed7d60c35951e552eb11f848bd4b01efb29a68cdcc4a4f0cafa06c43f7338aa",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "consensus_3plus",
+     "elite_2plus",
+     "single_elite_5k"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.635,
+    "sharp_avg": 0.63,
+    "wallets": 4,
+    "sharp_usd": 11003,
+    "market_type": "moneyline",
+    "question": "Pittsburgh Pirates vs. Chicago Cubs",
+    "start": "2026-09-11T18:20:00+00:00"
+   },
+   {
+    "cid": "0xeb9178f98b236beb911828b79acec332fc14c1e0600c9c7e6e02d3b6e52affa1",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "consensus_3plus",
+     "elite_2plus"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.465,
+    "sharp_avg": 0.465,
+    "wallets": 4,
+    "sharp_usd": 9426,
+    "market_type": "totals",
+    "question": "Cincinnati Reds vs. Los Angeles Dodgers: O/U 8.5",
+    "start": "2026-09-10T02:10:00+00:00"
+   },
+   {
+    "cid": "0x658ec816793916e90f31a84569a045a5c3e23b6a0e786c7e34086cf6189d748c",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "elite_2plus"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.415,
+    "sharp_avg": 0.4,
+    "wallets": 2,
+    "sharp_usd": 3141,
+    "market_type": "totals",
+    "question": "Chicago Cubs vs. Milwaukee Brewers: O/U 8.5",
+    "start": "2026-09-09T23:40:00+00:00"
+   },
+   {
+    "cid": "0x59b6872032450c1296b97f57029e3af6d2b5ecce026d6f6e1af8292873167033",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "elite_2plus"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.445,
+    "sharp_avg": 0.445,
+    "wallets": 2,
+    "sharp_usd": 4575,
+    "market_type": "totals",
+    "question": "Texas Rangers vs. Seattle Mariners: O/U 7.5",
+    "start": "2026-09-09T20:10:00+00:00"
+   },
+   {
+    "cid": "0x8ae42f3878c8064bb704d71ba9363966284b50fbc0d94edb508abd8fa0a5936c",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "consensus_3plus",
+     "elite_2plus"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.535,
+    "sharp_avg": 0.508,
+    "wallets": 3,
+    "sharp_usd": 5535,
+    "market_type": "spreads",
+    "question": "Spread: Milwaukee Brewers (-1.5)",
+    "start": "2026-09-08T23:40:00+00:00"
+   },
+   {
+    "cid": "0x5e013a01e8d6f78035ce4cd0da503c30522cc60d683ee288a62f7e6fcc52cb03",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "consensus_3plus",
+     "elite_2plus"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.505,
+    "sharp_avg": 0.5,
+    "wallets": 3,
+    "sharp_usd": 5806,
+    "market_type": "totals",
+    "question": "Los Angeles Angels vs. Boston Red Sox: O/U 8.5",
+    "start": "2026-09-07T17:35:00+00:00"
+   },
+   {
+    "cid": "0xc9977ccdfd11fdf81aeffd38997af3412372917664fbe869966f896ae1ef485e",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "elite_2plus"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.455,
+    "sharp_avg": 0.45,
+    "wallets": 2,
+    "sharp_usd": 4509,
+    "market_type": "totals",
+    "question": "Miami Marlins vs. Kansas City Royals: O/U 9.5",
+    "start": "2026-09-03T23:40:00+00:00"
+   },
+   {
+    "cid": "0xd670e99f38952e39ddf04cd4e19c0df4e8fecd7ac5dd63cb3231c14870c528f9",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "elite_2plus"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.595,
+    "sharp_avg": 0.6,
+    "wallets": 2,
+    "sharp_usd": 2926,
+    "market_type": "moneyline",
+    "question": "New York Yankees vs. Los Angeles Angels",
+    "start": "2026-09-03T01:38:00+00:00"
+   },
+   {
+    "cid": "0x9e8345ef61995457041dded86ec4b24ead5ddd1b6563f543efe30cf373b1866a",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "consensus_3plus",
+     "elite_2plus"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.515,
+    "sharp_avg": 0.602,
+    "wallets": 3,
+    "sharp_usd": 42808,
+    "market_type": "totals",
+    "question": "Seattle Mariners vs. Boston Red Sox: O/U 7.5",
+    "start": "2026-09-01T22:45:00+00:00"
+   },
+   {
+    "cid": "0x057ec6d5f642d9de61c95d1ad3d686d6894879e86a6391722be96a06e1e68b9d",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.485,
+    "sharp_avg": 0.49,
+    "wallets": 1,
+    "sharp_usd": 7932,
+    "market_type": "totals",
+    "question": "Tampa Bay Rays vs. Cleveland Guardians: O/U 6.5",
+    "start": "2026-10-18T00:08:00+00:00"
+   },
+   {
+    "cid": "0xf543bef8af4f7f1047265f4df15df1266f01212f7266f23f0ebe3f32c922a9c6",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "consensus_3plus"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.545,
+    "sharp_avg": 0.54,
+    "wallets": 3,
+    "sharp_usd": 2768,
+    "market_type": "moneyline",
+    "question": "Los Angeles Dodgers vs. Milwaukee Brewers",
+    "start": "2026-10-12T21:00:00+00:00"
+   },
+   {
+    "cid": "0xd315e9b718c2c0184df8f72828d707b6efd8244eed76297a372c3cbad54d05f3",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "consensus_3plus",
+     "elite_2plus"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.445,
+    "sharp_avg": 0.441,
+    "wallets": 4,
+    "sharp_usd": 16563,
+    "market_type": "moneyline",
+    "question": "Boston Red Sox vs. New York Yankees",
+    "start": "2026-10-01T00:00:00+00:00"
+   },
+   {
+    "cid": "0x875c23fd6e26f4b3cda9997b5f942250dadb23611e57b3553974acb980d09fb4",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "elite_2plus"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.435,
+    "sharp_avg": 0.464,
+    "wallets": 2,
+    "sharp_usd": 2486,
+    "market_type": "totals",
+    "question": "Cincinnati Reds vs. Atlanta Braves: O/U 7.5",
+    "start": "2026-09-24T23:15:00+00:00"
+   },
+   {
+    "cid": "0x78e16b2e0a9ee3b0d6e3d8f4f6bcec90a1a57605e98c0b357814c67d0b05d482",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "elite_2plus"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.495,
+    "sharp_avg": 0.48,
+    "wallets": 2,
+    "sharp_usd": 2355,
+    "market_type": "totals",
+    "question": "Houston Astros vs. Seattle Mariners: O/U 7.5",
+    "start": "2026-09-24T02:10:00+00:00"
+   },
+   {
+    "cid": "0xe691e06381429c9c740829f4f1902df4f71c72f3c714693c09546f33b050c509",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "elite_2plus"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.485,
+    "sharp_avg": 0.49,
+    "wallets": 2,
+    "sharp_usd": 5034,
+    "market_type": "totals",
+    "question": "Tampa Bay Rays vs. New York Yankees: O/U 6.5",
+    "start": "2026-09-23T23:05:00+00:00"
+   },
+   {
+    "cid": "0xae1178f35b1da4e0bac92fc4b952a79171436bf18966d5b61808b6272a5164ca",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "elite_2plus"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.475,
+    "sharp_avg": 0.52,
+    "wallets": 2,
+    "sharp_usd": 3964,
+    "market_type": "totals",
+    "question": "Boston Red Sox vs. Tampa Bay Rays: O/U 7.5",
+    "start": "2026-09-20T17:40:00+00:00"
+   },
+   {
+    "cid": "0x31507678b813cbec2b9202fb5502c25c32b75f3502a5521980f82504d3ed083f",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "consensus_3plus",
+     "elite_2plus",
+     "single_elite_5k"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.475,
+    "sharp_avg": 0.481,
+    "wallets": 3,
+    "sharp_usd": 10136,
+    "market_type": "moneyline",
+    "question": "Minnesota Twins vs. Los Angeles Angels",
+    "start": "2026-09-20T01:38:00+00:00"
+   },
+   {
+    "cid": "0xe97c22fb1c79ffe17855ce075089dd53fd820a1a7f837240f3ecc2672cc3c8c6",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "elite_2plus"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.435,
+    "sharp_avg": 0.438,
+    "wallets": 2,
+    "sharp_usd": 3420,
+    "market_type": "moneyline",
+    "question": "Chicago Cubs vs. Cincinnati Reds",
+    "start": "2026-09-19T22:40:00+00:00"
+   },
+   {
+    "cid": "0x04195c4222c838829c4001509b5f02e23516d99558f82847b8c6f7b799a45442",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "elite_2plus"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.425,
+    "sharp_avg": 0.437,
+    "wallets": 2,
+    "sharp_usd": 2386,
+    "market_type": "totals",
+    "question": "Boston Red Sox vs. Tampa Bay Rays: O/U 7.5",
+    "start": "2026-09-18T23:10:00+00:00"
+   },
+   {
+    "cid": "0x7f7a45b70afd9d907e8a897a23dad91cc170aa07b14003ff2088757e0942d111",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "elite_2plus"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.515,
+    "sharp_avg": 0.534,
+    "wallets": 2,
+    "sharp_usd": 2922,
+    "market_type": "totals",
+    "question": "Milwaukee Brewers vs. Pittsburgh Pirates: O/U 7.5",
+    "start": "2026-09-16T22:40:00+00:00"
+   },
+   {
+    "cid": "0xa1155a103dda85133bf720ed319f486201393cef1c4db4e57ba2ab01afb4f98b",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "consensus_3plus",
+     "elite_2plus"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.495,
+    "sharp_avg": 0.463,
+    "wallets": 3,
+    "sharp_usd": 8580,
+    "market_type": "totals",
+    "question": "Detroit Tigers vs. Toronto Blue Jays: O/U 8.5",
+    "start": "2026-09-16T19:07:00+00:00"
+   },
+   {
+    "cid": "0x7f9f055cffa7cd992515b6dd37f01d92d76e69d94a67bae9b3dde6f99a7c0308",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "elite_2plus",
+     "single_elite_5k"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.445,
+    "sharp_avg": 0.503,
+    "wallets": 2,
+    "sharp_usd": 6323,
+    "market_type": "moneyline",
+    "question": "Boston Red Sox vs. Texas Rangers",
+    "start": "2026-09-16T00:05:00+00:00"
+   },
+   {
+    "cid": "0x60efd8d08c678338feb77a06922ddff3036e7c9579b201045b6d5aaad2ca144b",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "elite_2plus"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.435,
+    "sharp_avg": 0.439,
+    "wallets": 2,
+    "sharp_usd": 4144,
+    "market_type": "totals",
+    "question": "Boston Red Sox vs. Texas Rangers: O/U 8.5",
+    "start": "2026-09-16T00:05:00+00:00"
+   },
+   {
+    "cid": "0xdab2cc296d3368b621fe2c555440eb63e65e88f5b7f1c8643f1e815d4e8b830e",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "consensus_3plus",
+     "elite_2plus"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.535,
+    "sharp_avg": 0.529,
+    "wallets": 3,
+    "sharp_usd": 9381,
+    "market_type": "totals",
+    "question": "San Diego Padres vs. Colorado Rockies: O/U 11.5",
+    "start": "2026-09-15T00:40:00+00:00"
+   },
+   {
+    "cid": "0x0dd3095c4a9828809fcbe1c2e7f964a42568ff3ea1589192d9160814c03af81a",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "consensus_3plus",
+     "elite_2plus"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.375,
+    "sharp_avg": 0.395,
+    "wallets": 3,
+    "sharp_usd": 2686,
+    "market_type": "moneyline",
+    "question": "Colorado Rockies vs. Detroit Tigers",
+    "start": "2026-09-13T16:10:00+00:00"
+   },
+   {
+    "cid": "0x7ed35c6b3e0afd120e291f434b0e220970906b7b91572c1490c657e89f2d3d17",
+    "sport": "epl",
+    "idx": 1,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.355,
+    "sharp_avg": 0.36,
+    "wallets": 1,
+    "sharp_usd": 11434,
+    "market_type": "moneyline",
+    "question": "Will Arsenal FC win on 2026-10-18?",
+    "start": "2026-10-18T15:30:00+00:00"
+   },
+   {
+    "cid": "0x60c99dee159d03fa313f0fdabd6f0eb6f527c8db0564253b4179546c08aa862d",
+    "sport": "nhl",
+    "idx": 0,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.355,
+    "sharp_avg": 0.36,
+    "wallets": 1,
+    "sharp_usd": 10233,
+    "market_type": "moneyline",
+    "question": "Sharks vs. Bruins",
+    "start": "2026-10-24T23:00:00+00:00"
+   },
+   {
+    "cid": "0xe7c0c5512d77261c314114f7139d5e7d07a2a7cd3e6c6277e27e6d9a20eb83cc",
+    "sport": "epl",
+    "idx": 1,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.565,
+    "sharp_avg": 0.503,
+    "wallets": 2,
+    "sharp_usd": 54358,
+    "market_type": "moneyline",
+    "question": "Will Chelsea FC win on 2026-11-08?",
+    "start": "2026-11-08T14:00:00+00:00"
+   },
+   {
+    "cid": "0x59d4686a0e96b928d1753cce07d056fe3344d66d975c36c9de57d3d0c18b2b97",
+    "sport": "epl",
+    "idx": 1,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.485,
+    "sharp_avg": 0.494,
+    "wallets": 2,
+    "sharp_usd": 65017,
+    "market_type": "moneyline",
+    "question": "Will Chelsea FC win on 2026-10-24?",
+    "start": "2026-10-24T16:30:00+00:00"
+   },
+   {
+    "cid": "0x491b785c82d65c7ab9c65bb51df9e58e9b3fc53dbc8b4ee1aef49db0244b6560",
+    "sport": "epl",
+    "idx": 1,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.315,
+    "sharp_avg": 0.323,
+    "wallets": 2,
+    "sharp_usd": 122534,
+    "market_type": "moneyline",
+    "question": "Will Brighton & Hove Albion FC win on 2026-10-18?",
+    "start": "2026-10-18T13:00:00+00:00"
+   },
+   {
+    "cid": "0xfea1799a95cf212c9128cf905f498bc2d9addfa8003f3729630d60f4e657d600",
+    "sport": "epl",
+    "idx": 1,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.565,
+    "sharp_avg": 0.532,
+    "wallets": 2,
+    "sharp_usd": 11919,
+    "market_type": "moneyline",
+    "question": "Will Manchester City FC win on 2026-09-13?",
+    "start": "2026-09-13T15:30:00+00:00"
+   },
+   {
+    "cid": "0xb360db111b8fe883c20ae92a0a3e79d607044a7a0c89399f50e672acaa824691",
+    "sport": "epl",
+    "idx": 1,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.485,
+    "sharp_avg": 0.486,
+    "wallets": 2,
+    "sharp_usd": 20232,
+    "market_type": "moneyline",
+    "question": "Will Brighton & Hove Albion FC win on 2026-09-13?",
+    "start": "2026-09-13T13:00:00+00:00"
+   },
+   {
+    "cid": "0xc734669e3773a6311c6abefbfabb4a019c85abd68368602db246b3ddaf704fe8",
+    "sport": "nba",
+    "idx": 0,
+    "kinds": [
+     "consensus_3plus"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.505,
+    "sharp_avg": 0.51,
+    "wallets": 3,
+    "sharp_usd": 53528,
+    "market_type": "spreads",
+    "question": "Spread: Trail Blazers (-7.5)",
+    "start": "2026-10-30T02:00:00+00:00"
+   },
+   {
+    "cid": "0xc7db36794c62024a534e102bc83c9b5bf7c3ac80ca59106aec8816b57ec4c6f8",
+    "sport": "nba",
+    "idx": 0,
+    "kinds": [
+     "consensus_3plus"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.635,
+    "sharp_avg": 0.694,
+    "wallets": 3,
+    "sharp_usd": 3159,
+    "market_type": "moneyline",
+    "question": "Thunder vs. Mavericks",
+    "start": "2026-10-29T01:30:00+00:00"
+   },
+   {
+    "cid": "0x72c60fefc9c01a60ab4bcc0862b812ee7b4947d103af06097a25f96bd3f9cfaa",
+    "sport": "nba",
+    "idx": 1,
+    "kinds": [
+     "consensus_3plus"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.485,
+    "sharp_avg": 0.503,
+    "wallets": 3,
+    "sharp_usd": 44155,
+    "market_type": "totals",
+    "question": "Nets vs. Celtics: O/U 222.5",
+    "start": "2026-10-27T23:30:00+00:00"
+   },
+   {
+    "cid": "0x9ea47f0acf34fc1b7bc61575546656775c34341d48e85a4da180b679e5a8bd73",
+    "sport": "nba",
+    "idx": 0,
+    "kinds": [
+     "consensus_3plus"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.535,
+    "sharp_avg": 0.521,
+    "wallets": 3,
+    "sharp_usd": 26515,
+    "market_type": "moneyline",
+    "question": "Pistons vs. 76ers",
+    "start": "2026-10-25T23:30:00+00:00"
+   },
+   {
+    "cid": "0x4035a3698bc1d430ddff7dc6a243cef28612358be70a69565c206a70d02ac80b",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "elite_2plus"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.615,
+    "sharp_avg": 0.621,
+    "wallets": 2,
+    "sharp_usd": 2232,
+    "market_type": "moneyline",
+    "question": "Los Angeles Dodgers vs. Miami Marlins",
+    "start": "2026-09-12T20:10:00+00:00"
+   },
+   {
+    "cid": "0x66a40873fe305b452b562efc98c31e9b6a3c22e3640d00deb625d70ccbc42956",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "elite_2plus"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.495,
+    "sharp_avg": 0.505,
+    "wallets": 2,
+    "sharp_usd": 3528,
+    "market_type": "totals",
+    "question": "Pittsburgh Pirates vs. Chicago White Sox: O/U 8.5",
+    "start": "2026-09-08T23:40:00+00:00"
+   },
+   {
+    "cid": "0x95fa2624fec5d9cc4f1498483302234f13e73f35413f7a3abbe10a632f52994c",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.645,
+    "sharp_avg": 0.65,
+    "wallets": 2,
+    "sharp_usd": 27383,
+    "market_type": "moneyline",
+    "question": "Toronto Blue Jays vs. Athletics",
+    "start": "2026-09-08T02:05:00+00:00"
+   },
+   {
+    "cid": "0x3dbf759fa4640a47ea99d2dbaaf6925dfb99337c68190c886207a895eb376640",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "consensus_3plus",
+     "elite_2plus"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.505,
+    "sharp_avg": 0.496,
+    "wallets": 3,
+    "sharp_usd": 3818,
+    "market_type": "moneyline",
+    "question": "Arizona Diamondbacks vs. Kansas City Royals",
+    "start": "2026-09-07T18:10:00+00:00"
+   },
+   {
+    "cid": "0xc761631b6075ccb434e762f6bae85c88bf74ff20f99f152a8825380c8bf30917",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "consensus_3plus",
+     "elite_2plus",
+     "single_elite_5k"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.485,
+    "sharp_avg": 0.482,
+    "wallets": 3,
+    "sharp_usd": 18990,
+    "market_type": "totals",
+    "question": "Minnesota Twins vs. Chicago White Sox: O/U 8.5",
+    "start": "2026-09-06T22:20:00+00:00"
+   },
+   {
+    "cid": "0x51acb9f49f62d46ac57493b18f7d7b140f200207dbb2c5a40571b2193614a97f",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "consensus_3plus",
+     "elite_2plus"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.455,
+    "sharp_avg": 0.447,
+    "wallets": 3,
+    "sharp_usd": 3229,
+    "market_type": "totals",
+    "question": "Atlanta Braves vs. Philadelphia Phillies: O/U 6.5",
+    "start": "2026-09-04T22:40:00+00:00"
+   },
+   {
+    "cid": "0x28d9fa2abdd0492e607de01121f78a33cc670e09c71c89ea52dafe6c7f34a286",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "consensus_3plus",
+     "elite_2plus"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.64,
+    "sharp_avg": 0.66,
+    "wallets": 3,
+    "sharp_usd": 7653,
+    "market_type": "totals",
+    "question": "Seattle Mariners vs. Boston Red Sox: O/U 8.5",
+    "start": "2026-09-01T22:45:00+00:00"
+   },
+   {
+    "cid": "0x6fe90c6a80569ce724246416ed52d373c5e7cfaed153c596ce274a11a9491de7",
+    "sport": "nba",
+    "idx": 0,
+    "kinds": [
+     "consensus_3plus"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.075,
+    "sharp_avg": 0.07,
+    "wallets": 3,
+    "sharp_usd": 3879,
+    "market_type": "moneyline",
+    "question": "Kings vs. Spurs",
+    "start": "2026-10-28T00:00:00+00:00"
+   },
+   {
+    "cid": "0x00175589d9a20da7fc783d639788f42c51d7505c7147f38bfa72fe7223d1cabc",
+    "sport": "nfl",
+    "idx": 0,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.625,
+    "sharp_avg": 0.63,
+    "wallets": 1,
+    "sharp_usd": 50400,
+    "market_type": "moneyline",
+    "question": "Rams vs. Eagles",
+    "start": "2026-10-04T17:00:00+00:00"
+   },
+   {
+    "cid": "0xed203f42ae15344ac944092c1e4574eeadb72f26a449d0a592516ac32c40ef26",
+    "sport": "nfl",
+    "idx": 1,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.485,
+    "sharp_avg": 0.498,
+    "wallets": 1,
+    "sharp_usd": 48228,
+    "market_type": "totals",
+    "question": "Colts vs. Commanders: O/U 46.5",
+    "start": "2026-10-04T13:30:00+00:00"
+   },
+   {
+    "cid": "0x78d330c13885ac6fd36f082f2c502aefdb2a9bd53cc6a5765ce4375b650b9d35",
+    "sport": "nfl",
+    "idx": 1,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.595,
+    "sharp_avg": 0.59,
+    "wallets": 1,
+    "sharp_usd": 82719,
+    "market_type": "moneyline",
+    "question": "Patriots vs. Jaguars",
+    "start": "2026-09-27T17:00:00+00:00"
+   },
+   {
+    "cid": "0x8a9f8be5bef9bc8d36c7895707a4f2561d49de9f5467b6675ba206196e8bd2e2",
+    "sport": "nfl",
+    "idx": 0,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.585,
+    "sharp_avg": 0.58,
+    "wallets": 1,
+    "sharp_usd": 75400,
+    "market_type": "moneyline",
+    "question": "Steelers vs. Browns",
+    "start": "2026-10-02T00:15:00+00:00"
+   },
+   {
+    "cid": "0x363bc3aff317061cdb8ab82c69b7ac7161f40cd156bbe67a80772f05ab6ed9bf",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "elite_2plus"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.565,
+    "sharp_avg": 0.554,
+    "wallets": 2,
+    "sharp_usd": 5718,
+    "market_type": "moneyline",
+    "question": "Chicago Cubs vs. San Diego Padres",
+    "start": "2026-10-01T02:00:00+00:00"
+   },
+   {
+    "cid": "0x95f345095db7ade90544047a7b8dd285f73e9bb9d311828788ebf43185501a52",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "elite_2plus",
+     "single_elite_5k"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.315,
+    "sharp_avg": 0.313,
+    "wallets": 2,
+    "sharp_usd": 18020,
+    "market_type": "moneyline",
+    "question": "Cincinnati Reds vs. Atlanta Braves",
+    "start": "2026-09-22T23:15:00+00:00"
+   },
+   {
+    "cid": "0x99464d6811273faec6e0e03ed8806e06e13e9ae758f25b175f96b40ec38befda",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "elite_2plus"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.415,
+    "sharp_avg": 0.396,
+    "wallets": 2,
+    "sharp_usd": 6097,
+    "market_type": "totals",
+    "question": "Cincinnati Reds vs. Atlanta Braves: O/U 8.5",
+    "start": "2026-09-22T23:15:00+00:00"
+   },
+   {
+    "cid": "0xf721d8c374adb16fb5f5048508639c809dc3b4da8117acf72f042963967c3ae8",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.565,
+    "sharp_avg": 0.56,
+    "wallets": 1,
+    "sharp_usd": 7064,
+    "market_type": "moneyline",
+    "question": "Seattle Mariners vs. Colorado Rockies",
+    "start": "2026-09-20T00:10:00+00:00"
+   },
+   {
+    "cid": "0x61a815795b30a6a9f44044ade2ed6647117412d90109f3a5cbe652e65d3c100e",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "elite_2plus"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.495,
+    "sharp_avg": 0.5,
+    "wallets": 2,
+    "sharp_usd": 3187,
+    "market_type": "totals",
+    "question": "Chicago Cubs vs. Milwaukee Brewers: O/U 7.5",
+    "start": "2026-09-09T23:40:00+00:00"
+   },
+   {
+    "cid": "0x6488bff9c95ae5415a5ce0431cdf1b235503297475e5a3962581bd8589e6c254",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "elite_2plus"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.455,
+    "sharp_avg": 0.478,
+    "wallets": 2,
+    "sharp_usd": 2036,
+    "market_type": "totals",
+    "question": "Milwaukee Brewers vs. Chicago Cubs: O/U 10.5",
+    "start": "2026-09-01T23:40:00+00:00"
+   },
+   {
+    "cid": "0x14cc4dbfaa696004f4d62bb2342490ab8257838ebdeb64ac4cc9ab3fcad94c0c",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "elite_2plus"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.435,
+    "sharp_avg": 0.436,
+    "wallets": 2,
+    "sharp_usd": 4540,
+    "market_type": "baseball_team_first_five_total",
+    "question": "Milwaukee Brewers vs. San Diego Padres: 1st 5 Innings O/U 4.5",
+    "start": "2026-10-08T02:00:00+00:00"
+   },
+   {
+    "cid": "0x25e6415031e3e4f95f69b866999852c3c2f4ef2bac7ef2576f8768853be6e8e0",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "consensus_3plus",
+     "elite_2plus"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.485,
+    "sharp_avg": 0.497,
+    "wallets": 3,
+    "sharp_usd": 4779,
+    "market_type": "totals",
+    "question": "Washington Nationals vs. San Diego Padres: O/U 8.5",
+    "start": "2026-09-09T20:10:00+00:00"
+   },
+   {
+    "cid": "0x5cbc7bd657d18d5be2a69ba4fee25c434288211b6e1227375ba5400d2c2e7fcb",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "elite_2plus"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.515,
+    "sharp_avg": 0.517,
+    "wallets": 2,
+    "sharp_usd": 2978,
+    "market_type": "totals",
+    "question": "New York Mets vs. Miami Marlins: O/U 8.5",
+    "start": "2026-09-07T17:10:00+00:00"
+   },
+   {
+    "cid": "0xf55240dc48aab9c74a5d5757e9ea0de1a21fb0fc17110f94afe5c68b4bd7c6e1",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "elite_2plus",
+     "single_elite_5k"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.555,
+    "sharp_avg": 0.557,
+    "wallets": 2,
+    "sharp_usd": 9892,
+    "market_type": "totals",
+    "question": "Philadelphia Phillies vs. Atlanta Braves: O/U 6.5",
+    "start": "2026-09-11T23:15:00+00:00"
+   },
+   {
+    "cid": "0x53f2504b223744d6ba7b369e3bbe83b0363cc443248a3dc8d7ddee7ea2a5b7e5",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "elite_2plus"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.445,
+    "sharp_avg": 0.499,
+    "wallets": 2,
+    "sharp_usd": 2772,
+    "market_type": "moneyline",
+    "question": "Philadelphia Phillies vs. Atlanta Braves",
+    "start": "2026-09-12T23:15:00+00:00"
+   },
+   {
+    "cid": "0x404bcedd7f040bf409cf4934ac9d7b5068e660003b85b061b6b101b08a5b374b",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "elite_2plus",
+     "single_elite_5k"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.505,
+    "sharp_avg": 0.502,
+    "wallets": 2,
+    "sharp_usd": 9868,
+    "market_type": "totals",
+    "question": "Seattle Mariners vs. Athletics: O/U 10.5",
+    "start": "2026-09-12T01:40:00+00:00"
+   },
+   {
+    "cid": "0x2e9440dedca55f3049311c8c840d15d000460118472d09b7842b02dd01c325c8",
+    "sport": "mlb",
+    "idx": 1,
+    "kinds": [
+     "consensus_3plus",
+     "elite_2plus"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.545,
+    "sharp_avg": 0.5,
+    "wallets": 3,
+    "sharp_usd": 5902,
+    "market_type": "totals",
+    "question": "St. Louis Cardinals vs. San Francisco Giants: O/U 8.5",
+    "start": "2026-09-09T19:45:00+00:00"
+   },
+   {
+    "cid": "0xf01cb0496b167cdf775f4e1f94c709c97428359b72783aa89e42453a7f06fe71",
+    "sport": "mlb",
+    "idx": 0,
+    "kinds": [
+     "consensus_3plus",
+     "elite_2plus"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.495,
+    "sharp_avg": 0.481,
+    "wallets": 3,
+    "sharp_usd": 4769,
+    "market_type": "moneyline",
+    "question": "Detroit Tigers vs. Minnesota Twins",
+    "start": "2026-09-01T23:40:00+00:00"
+   },
+   {
+    "cid": "0x32bb553d02fa5b149e659432d4e803eb291c6e78ad7264b02553be50ba5486ca",
+    "sport": "nfl",
+    "idx": 0,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.495,
+    "sharp_avg": 0.49,
+    "wallets": 1,
+    "sharp_usd": 6000,
+    "market_type": "spreads",
+    "question": "Spread: Bears (-3.5)",
+    "start": "2026-10-04T17:00:00+00:00"
+   },
+   {
+    "cid": "0xc5a91043c51452c8db48b2420953e906237025c4dd0f7609f0ea1b56f1752c51",
+    "sport": "nfl",
+    "idx": 1,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.445,
+    "sharp_avg": 0.43,
+    "wallets": 1,
+    "sharp_usd": 29138,
+    "market_type": "moneyline",
+    "question": "Panthers vs. Falcons",
+    "start": "2026-09-20T17:00:00+00:00"
+   },
+   {
+    "cid": "0x71cb322cecc95314c0492f68a8ddddf870b7df42e155d557b0703b21769da6c3",
+    "sport": "nfl",
+    "idx": 1,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.795,
+    "sharp_avg": 0.8,
+    "wallets": 1,
+    "sharp_usd": 40000,
+    "market_type": "moneyline",
+    "question": "Raiders vs. 49ers",
+    "start": "2026-11-08T21:25:00+00:00"
+   },
+   {
+    "cid": "0x21ece1251c7de1ab84823624bbaa4fa279b2d648292cae1a7405259cf9b8f723",
+    "sport": "nfl",
+    "idx": 1,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.735,
+    "sharp_avg": 0.73,
+    "wallets": 1,
+    "sharp_usd": 8388,
+    "market_type": "spreads",
+    "question": "Spread: Bills (-3.5)",
+    "start": "2026-10-13T00:15:00+00:00"
+   },
+   {
+    "cid": "0x0e3a0c094915becafa576d7c6bdc8903dfbca777eb90e33e4529f2d209645a4c",
+    "sport": "nfl",
+    "idx": 1,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.745,
+    "sharp_avg": 0.75,
+    "wallets": 1,
+    "sharp_usd": 18625,
+    "market_type": "spreads",
+    "question": "Spread: Chargers (-3.5)",
+    "start": "2026-10-11T20:05:00+00:00"
+   },
+   {
+    "cid": "0xb6c6417d9f33e9cf72751b6930aab6a24c38a8c077e0d992eec2f895b6924cc6",
+    "sport": "nfl",
+    "idx": 0,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.445,
+    "sharp_avg": 0.44,
+    "wallets": 1,
+    "sharp_usd": 35097,
+    "market_type": "spreads",
+    "question": "Spread: 49ers (-3.5)",
+    "start": "2026-10-04T20:25:00+00:00"
+   },
+   {
+    "cid": "0xceac6a20eaf7ab5c955e0f4d667b79f9d2eeede4f7952dbafc046669c6d537b6",
+    "sport": "nfl",
+    "idx": 0,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.715,
+    "sharp_avg": 0.73,
+    "wallets": 1,
+    "sharp_usd": 8212,
+    "market_type": "spreads",
+    "question": "Spread: Vikings (-3.5)",
+    "start": "2026-10-04T20:05:00+00:00"
+   },
+   {
+    "cid": "0xe60540dd8b6e4e1aa38e5a30ef976d8f54b37084477cb1ea447deadf52297480",
+    "sport": "nfl",
+    "idx": 0,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.685,
+    "sharp_avg": 0.67,
+    "wallets": 1,
+    "sharp_usd": 32334,
+    "market_type": "moneyline",
+    "question": "Chiefs vs. Raiders",
+    "start": "2026-10-04T20:25:00+00:00"
+   },
+   {
+    "cid": "0x533ebdda80928a85bd45cd972e7c130a8311f1f3a272b43edeedbec89d631b7f",
+    "sport": "nfl",
+    "idx": 1,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.755,
+    "sharp_avg": 0.78,
+    "wallets": 1,
+    "sharp_usd": 10717,
+    "market_type": "spreads",
+    "question": "Spread: Bears (-3.5)",
+    "start": "2026-09-29T00:15:00+00:00"
+   },
+   {
+    "cid": "0x3ce1a8eb83552ffab3794a33b4ab7d7da750a9cd2246da324b37c5e5b0478575",
+    "sport": "nfl",
+    "idx": 1,
+    "kinds": [
+     "elite_2plus",
+     "single_elite_5k"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.365,
+    "sharp_avg": 0.358,
+    "wallets": 2,
+    "sharp_usd": 74333,
+    "market_type": "moneyline",
+    "question": "Eagles vs. Bears",
+    "start": "2026-09-29T00:15:00+00:00"
+   },
+   {
+    "cid": "0x8a2f7f148962cacd883e87cb72fe6cf1cf452f542b1e2d508eb9a80be025025e",
+    "sport": "nfl",
+    "idx": 1,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.645,
+    "sharp_avg": 0.66,
+    "wallets": 1,
+    "sharp_usd": 9735,
+    "market_type": "spreads",
+    "question": "Spread: Broncos (-3.5)",
+    "start": "2026-09-28T00:20:00+00:00"
+   },
+   {
+    "cid": "0x49888908755ab84d1d003f3bdd1cd8fc57bad5b29027f786619e58389ec9f3d4",
+    "sport": "nfl",
+    "idx": 1,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.705,
+    "sharp_avg": 0.71,
+    "wallets": 1,
+    "sharp_usd": 7498,
+    "market_type": "spreads",
+    "question": "Spread: 49ers (-14.5)",
+    "start": "2026-09-27T20:05:00+00:00"
+   },
+   {
+    "cid": "0x6dfd9b0958c035f2e4ac544be17b1b877a083e0e64bac845de45b6d0fd62487e",
+    "sport": "nfl",
+    "idx": 1,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.515,
+    "sharp_avg": 0.52,
+    "wallets": 1,
+    "sharp_usd": 32361,
+    "market_type": "totals",
+    "question": "Panthers vs. Falcons: O/U 43.5",
+    "start": "2026-09-20T17:00:00+00:00"
+   },
+   {
+    "cid": "0x3dd5a9a57210560fe11f668ead4f31156443ce848c58135413a15d77d70e2a1b",
+    "sport": "nfl",
+    "idx": 1,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.415,
+    "sharp_avg": 0.4,
+    "wallets": 1,
+    "sharp_usd": 14935,
+    "market_type": "moneyline",
+    "question": "Giants vs. Eagles",
+    "start": "2026-11-08T18:00:00+00:00"
+   },
+   {
+    "cid": "0xa4477f5f7fe81699b162492181a425d69de1adb1a6831ea695381cfa276596ba",
+    "sport": "nfl",
+    "idx": 1,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": true,
+    "void": false,
+    "lock_price": 0.495,
+    "sharp_avg": 0.453,
+    "wallets": 1,
+    "sharp_usd": 8898,
+    "market_type": "spreads",
+    "question": "Spread: Seahawks (-2.5)",
+    "start": "2026-10-16T00:15:00+00:00"
+   },
+   {
+    "cid": "0xd8dd04a1aa58ad9b713ea64ca64729e77762453be308d7fb5dba07e4bde3b763",
+    "sport": "nfl",
+    "idx": 1,
+    "kinds": [
+     "single_elite_5k"
+    ],
+    "won": false,
+    "void": false,
+    "lock_price": 0.775,
+    "sharp_avg": 0.78,
+    "wallets": 1,
+    "sharp_usd": 10741,
+    "market_type": "spreads",
+    "question": "Spread: Panthers (-3.5)",
+    "start": "2026-10-05T00:20:00+00:00"
+   }
+  ]
  },
  "signals": [
   {
