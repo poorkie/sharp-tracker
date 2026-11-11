@@ -44,7 +44,7 @@
  {
   "alerted_at": "2026-11-11T21:40:17.131149+00:00",
   "book_fair": null,
-  "close_price": 0.455,
+  "close_price": 0.445,
   "clv": null,
   "condition_id": "0xd77d584f6a9fb2937e5c16f9494bbab607695f202db17181b51c29c5968e34a8",
   "entry_price": 0.455,
@@ -124,5 +124,26 @@
   "sharp_usd": 17343.15,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-bos-tor-2026-11-11"
+ },
+ {
+  "alerted_at": "2026-11-11T23:50:15.441242+00:00",
+  "book_fair": null,
+  "close_price": 0.445,
+  "clv": null,
+  "condition_id": "0xd77d584f6a9fb2937e5c16f9494bbab607695f202db17181b51c29c5968e34a8",
+  "entry_price": 0.445,
+  "event_title": "Lightning vs. Sabres",
+  "game_start": "2026-11-12T00:00:00+00:00",
+  "id": "0xd77d584f-1-1794441015",
+  "kind": "CONSENSUS",
+  "n_wallets": 3,
+  "outcome": "Sabres",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Lightning vs. Sabres",
+  "result": null,
+  "sharp_usd": 9933.87,
+  "sport": "nhl",
+  "url": "https://polymarket.com/event/nhl-tb-buf-2026-11-11"
  }
 ]
