@@ -138,6 +138,17 @@ def parse_json_list(v: Any) -> list:
     return []
 
 
+CLOB = "https://clob.polymarket.com"
+
+
+def price_history(token_id: str, start_ts: int, end_ts: int, fidelity_min: int = 5) -> list[dict]:
+    """[{t: unix, p: price}, ...] for one outcome token."""
+    body = get_json(f"{CLOB}/prices-history", {
+        "market": token_id, "startTs": start_ts, "endTs": end_ts, "fidelity": fidelity_min,
+    }) or {}
+    return body.get("history") or []
+
+
 # ---------------- The Odds API ----------------
 
 def sportsbook_odds(sport_key: str, api_key: str, regions: str) -> list[dict]:
