@@ -252,5 +252,29 @@
   "sharp_usd": 2740.47,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-cha-phx-2026-11-12"
+ },
+ {
+  "alerted_at": "2026-11-12T17:27:32.646689+00:00",
+  "book_fair": null,
+  "books": [],
+  "close_price": 0.525,
+  "clv": null,
+  "condition_id": "0x741ce9470a95cb442d0d967f15b9432750615b62f97f53dbe478bbbe24fd8074",
+  "entry_price": 0.525,
+  "event_title": "Commanders vs. Giants",
+  "game_start": "2026-11-13T01:15:00+00:00",
+  "id": "0x741ce947-1-1794504452",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "spreads",
+  "max_prob": 0.558,
+  "n_wallets": 2,
+  "outcome": "Commanders +2.5",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Spread: Giants (-2.5)",
+  "result": null,
+  "sharp_usd": 28904.99,
+  "sport": "nfl",
+  "url": "https://polymarket.com/event/nfl-was-nyg-2026-11-13"
  }
 ]

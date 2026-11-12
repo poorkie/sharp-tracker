@@ -1,30 +1,31 @@
 # Sharp Tracker: graded record
 
-Updated 2026-11-12 17:20 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
+Updated 2026-11-12 17:27 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
 
 ## Overall
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
-| All alerts | 4-5 | -3.50u | -38.9% | +0.3¢ | 22% | 3 |
+| All alerts | 4-5 | -3.50u | -38.9% | +0.3¢ | 22% | 4 |
 
 ## By signal
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
 | CONSENSUS | 4-4 | -2.50u | -31.2% | -0.1¢ | 12% | 2 |
 | ELITE | 0-1 | -1.00u | -100.0% | +4.0¢ | 100% | 0 |
-| ELITE_CONSENSUS | 0-0 | +0.00u | +0.0% | +0.0¢ | 0% | 1 |
+| ELITE_CONSENSUS | 0-0 | +0.00u | +0.0% | +0.0¢ | 0% | 2 |
 
 ## By sport
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
 | CFB | 0-0 | +0.00u | +0.0% | +0.0¢ | 0% | 1 |
 | NBA | 4-2 | -0.50u | -8.3% | +0.7¢ | 33% | 1 |
-| NFL | 0-0 | +0.00u | +0.0% | +0.0¢ | 0% | 1 |
+| NFL | 0-0 | +0.00u | +0.0% | +0.0¢ | 0% | 2 |
 | NHL | 0-3 | -3.00u | -100.0% | -0.3¢ | 0% | 0 |
 
 ## Last 50 alerts
 | Alerted (UTC) | Sport | Pick | Entry | Close | Books fair | Sharps | Result |
 |---|---|---|---|---|---|---|---|
+| 2026-11-12 17:27 | NFL | [Commanders +2.5: Commanders vs. Giants](https://polymarket.com/event/nfl-was-nyg-2026-11-13) | 0.53 | 0.53 | – | 2 / $28,905 | pending |
 | 2026-11-12 16:25 | NBA | [Suns: Hornets vs. Suns](https://polymarket.com/event/nba-cha-phx-2026-11-12) | 0.67 | 0.67 | – | 2 / $2,740 | pending |
 | 2026-11-12 15:50 | CFB | [Florida State: Florida State vs. Pittsburgh](https://polymarket.com/event/cfb-flst-pitt-2026-11-13) | 0.39 | 0.39 | – | 3 / $5,554 | pending |
 | 2026-11-12 12:30 | NFL | [Giants: Commanders vs. Giants](https://polymarket.com/event/nfl-was-nyg-2026-11-13) | 0.54 | 0.55 | – | 3 / $4,415 | pending |
