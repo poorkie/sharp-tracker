@@ -145,5 +145,26 @@
   "sharp_usd": 9933.87,
   "sport": "nhl",
   "url": "https://polymarket.com/event/nhl-tb-buf-2026-11-11"
+ },
+ {
+  "alerted_at": "2026-11-12T00:30:18.721200+00:00",
+  "book_fair": null,
+  "close_price": 0.425,
+  "clv": null,
+  "condition_id": "0x16c487b2daac449cb41da7e175b4422415ba498e81614898acde6fd0ed73042f",
+  "entry_price": 0.425,
+  "event_title": "Penguins vs. Sharks",
+  "game_start": "2026-11-12T03:00:00+00:00",
+  "id": "0x16c487b2-1-1794443418",
+  "kind": "CONSENSUS",
+  "n_wallets": 3,
+  "outcome": "Sharks",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Penguins vs. Sharks",
+  "result": null,
+  "sharp_usd": 4647.09,
+  "sport": "nhl",
+  "url": "https://polymarket.com/event/nhl-pit-sj-2026-11-11"
  }
 ]

@@ -1,27 +1,28 @@
 # Sharp Tracker: graded record
 
-Updated 2026-11-12 00:20 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
+Updated 2026-11-12 00:30 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
 
 ## Overall
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
-| All alerts | 0-0 | +0.00u | +0.0% | +0.0¢ | 0% | 7 |
+| All alerts | 0-0 | +0.00u | +0.0% | +0.0¢ | 0% | 8 |
 
 ## By signal
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
-| CONSENSUS | 0-0 | +0.00u | +0.0% | +0.0¢ | 0% | 6 |
+| CONSENSUS | 0-0 | +0.00u | +0.0% | +0.0¢ | 0% | 7 |
 | ELITE | 0-0 | +0.00u | +0.0% | +0.0¢ | 0% | 1 |
 
 ## By sport
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
 | NBA | 0-0 | +0.00u | +0.0% | +0.0¢ | 0% | 5 |
-| NHL | 0-0 | +0.00u | +0.0% | +0.0¢ | 0% | 2 |
+| NHL | 0-0 | +0.00u | +0.0% | +0.0¢ | 0% | 3 |
 
 ## Last 50 alerts
 | Alerted (UTC) | Sport | Pick | Entry | Close | Books fair | Sharps | Result |
 |---|---|---|---|---|---|---|---|
+| 2026-11-12 00:30 | NHL | [Sharks: Penguins vs. Sharks](https://polymarket.com/event/nhl-pit-sj-2026-11-11) | 0.42 | 0.42 | – | 3 / $4,647 | pending |
 | 2026-11-11 23:50 | NHL | [Sabres: Lightning vs. Sabres](https://polymarket.com/event/nhl-tb-buf-2026-11-11) | 0.45 | 0.45 | – | 3 / $9,934 | pending |
 | 2026-11-11 23:40 | NBA | [Celtics: Celtics vs. Raptors](https://polymarket.com/event/nba-bos-tor-2026-11-11) | 0.66 | 0.66 | – | 6 / $17,343 | pending |
 | 2026-11-11 23:30 | NBA | [Knicks: Cavaliers vs. Knicks](https://polymarket.com/event/nba-cle-nyk-2026-11-11) | 0.67 | 0.67 | – | 4 / $229,211 | pending |
