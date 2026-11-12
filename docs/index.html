@@ -160,8 +160,10 @@ function renderLive() {
   const rows = D.live.filter(r => liveSport === "ALL" || r.sport === liveSport);
   const alerted = D.live.filter(r => r.alerted).length;
   stats($("#live-stats"), [
-    ["Games watched", D.stats.markets], ["Sides with sharp $", D.live.length],
-    ["Alerts live", alerted, alerted ? "pos" : ""], ["Sharps found", D.stats.sharps]]);
+    ["Games watched", D.stats.games ?? D.stats.markets],
+    ["Sides with Elite $", D.live.filter(r => r.elites).length],
+    ["Picks live", alerted, alerted ? "pos" : ""],
+    ["Elite wallets", D.stats.elites ?? D.stats.sharps]]);
   filters($("#live-filters"), [...new Set(D.live.map(r => r.sport))], liveSport, s => { liveSport = s; renderLive(); });
   if (!rows.length) {
     $("#live").innerHTML = `<div class="empty"><b>Quiet right now</b>No graded sharp wallets have money on upcoming games yet.
@@ -253,7 +255,7 @@ async function load() {
   $("#dot").classList.toggle("stale", mins > 40);
   $("#ct-live").textContent = D.live.length;
   $("#ct-record").textContent = D.record.overall.w + D.record.overall.l || "";
-  $("#ct-sharps").textContent = D.stats.sharps;
+  $("#ct-sharps").textContent = D.stats.elites ?? D.stats.sharps;
   renderLive(); renderRecord(); renderSharps();
 }
 load();

@@ -77,7 +77,7 @@ def sharps_table(wallets: dict, limit: int = 200) -> list[dict]:
 
 def write(path: Path, now: datetime, live: list, wallets: dict, book: list,
           n_markets: int, queue_len: int, min_wallets: int = 3,
-          markets_by_sport: dict | None = None) -> None:
+          markets_by_sport: dict | None = None, games: int = 0) -> None:
     by_sport, by_kind, by_type = defaultdict(list), defaultdict(list), defaultdict(list)
     for e in book:
         by_sport[e["sport"]].append(e)
@@ -88,6 +88,9 @@ def write(path: Path, now: datetime, live: list, wallets: dict, book: list,
         "updated": now.isoformat(),
         "stats": {
             "markets": n_markets,
+            "games": games,
+            "elites": sum(1 for v in wallets.values()
+                          if any(g.get("tier") == "ELITE" for g in v["grades"].values())),
             "graded": len(wallets),
             "sharps": len({r["wallet"] for r in sharps}),
             "queue": queue_len,

@@ -277,7 +277,8 @@ def main():
             cfg["odds"].get("worth_margin", 0.03))
         site.write(ROOT / "docs" / "data.json", now, live, wallets, book,
                    len(by_cid), len(queue), cfg["consensus"]["min_wallets"],
-                   dict(Counter(m["sport"] for m in upcoming)))
+                   dict(Counter(m["sport"] for m in upcoming)),
+                   len({m["event_slug"] for m in upcoming}))
 
 
 if __name__ == "__main__":
