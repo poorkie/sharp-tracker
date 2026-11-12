@@ -346,7 +346,8 @@ def main():
                    len({m["event_slug"] for m in upcoming}),
                    links, cfg["lock"]["minutes_before_start"],
                    activity.feed(act_log, by_cid, grades, entity,
-                                 {f"{e['condition_id']}:{e['outcome_index']}" for e in book}))
+                                 {f"{e['condition_id']}:{e['outcome_index']}" for e in book},
+                                 min_usd=cfg["min_trade_usd"]))
 
 
 if __name__ == "__main__":

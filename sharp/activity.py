@@ -47,7 +47,7 @@ def record(log: dict, trades: list[dict], holders_cache: dict, tracked: set[str]
 
 
 def feed(log: dict, markets: dict, grades: dict, entity: dict, picked: set[str],
-         merge_minutes: int = 10, limit: int = 400) -> list[dict]:
+         merge_minutes: int = 10, limit: int = 400, min_usd: float = 200) -> list[dict]:
     """Rows for the website: merged fills, newest first, upcoming games only."""
     rows = sorted((r for r in log.get("rows", []) if r["cid"] in markets),
                   key=lambda r: (r["w"], r["cid"], r["i"], r["side"], r["ts"]))
@@ -68,7 +68,7 @@ def feed(log: dict, markets: dict, grades: dict, entity: dict, picked: set[str],
     for r in merged:
         m = markets[r["cid"]]
         g = (grades.get(r["w"]) or {}).get(m["sport"]) or {}
-        if g.get("tier") not in ("SHARP", "ELITE"):
+        if g.get("tier") not in ("SHARP", "ELITE") or r["usd"] < min_usd:
             continue
         idx = r["i"]
         out.append({
