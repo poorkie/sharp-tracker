@@ -75,14 +75,20 @@ def upcoming_markets(cfg: dict, now: datetime) -> list[dict]:
     out: list[dict] = []
     by_tag: dict[str, list] = {}
     for sport, scfg in cfg["sports"].items():
-        tag = (scfg or {}).get("tag", sport)
-        if tag not in by_tag:
-            try:
-                by_tag[tag] = api.events_by_tag(tag)
-            except Exception as e:  # one league failing shouldn't kill the run
-                log.error("events for %s failed: %s", tag, e)
-                by_tag[tag] = []
-        events = by_tag[tag]
+        tags = (scfg or {}).get("tag", sport)
+        tags = tags if isinstance(tags, list) else [tags]
+        events = []
+        for tag in tags:  # try each tag until one has games for this league
+            if tag not in by_tag:
+                try:
+                    by_tag[tag] = api.events_by_tag(tag)
+                except Exception as e:  # one league failing shouldn't kill the run
+                    log.error("events for %s failed: %s", tag, e)
+                    by_tag[tag] = []
+            hits = [ev for ev in by_tag[tag] if (ev.get("slug") or "").startswith(sport + "-")]
+            if hits:
+                events = hits
+                break
         before = len(out)
         for ev in events:
             slug = ev.get("slug") or ""

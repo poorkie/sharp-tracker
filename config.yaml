@@ -20,8 +20,8 @@ sports:
   nba: { odds_key: basketball_nba }
   mlb: { odds_key: baseball_mlb }
   cfb: { odds_key: americanfootball_ncaaf, alerts: false }
-  cbb: { odds_key: basketball_ncaab }
-  epl: { odds_key: soccer_epl }
+  cbb: { odds_key: basketball_ncaab, tag: [cbb, ncaab, college-basketball, basketball, sports] }
+  epl: { odds_key: soccer_epl, tag: [epl, premier-league, soccer] }
   lol: { tag: esports }
   dota2: { tag: esports }
   atp: { tag: tennis }
