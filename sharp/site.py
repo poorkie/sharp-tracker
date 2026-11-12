@@ -84,7 +84,8 @@ def sharps_table(wallets: dict, limit: int = 200) -> list[dict]:
 def write(path: Path, now: datetime, live: list, wallets: dict, book: list,
           n_markets: int, queue_len: int, min_wallets: int = 3,
           markets_by_sport: dict | None = None, games: int = 0,
-          links: list | None = None, lock_minutes: int = 15) -> None:
+          links: list | None = None, lock_minutes: int = 15,
+          activity: list | None = None) -> None:
     by_sport, by_kind, by_type = defaultdict(list), defaultdict(list), defaultdict(list)
     for e in book:
         by_sport[e["sport"]].append(e)
@@ -122,6 +123,7 @@ def write(path: Path, now: datetime, live: list, wallets: dict, book: list,
             "by_kind": {k: summary(v) for k, v in sorted(by_kind.items())},
             "by_type": {k: summary(v) for k, v in sorted(by_type.items())},
         },
+        "activity": activity or [],
         "alerts": sorted(book, key=lambda e: e["alerted_at"], reverse=True)[:300],
     }
     path.parent.mkdir(parents=True, exist_ok=True)

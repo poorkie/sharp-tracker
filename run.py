@@ -19,7 +19,7 @@ from collections import Counter
 
 import yaml
 
-from sharp import api, clusters, grading, holders, ledger, markets, notify, odds, signals, site
+from sharp import activity, api, clusters, grading, holders, ledger, markets, notify, odds, signals, site
 
 ROOT = Path(__file__).parent
 STATE = ROOT / "state"
@@ -234,6 +234,7 @@ def main():
     odds_cache = load("odds_cache.json", {})
     holders_cache = load("holders_cache.json", {})
     cotrade = load("cotrade.json", {})
+    act_log = load("activity.json", {})
 
     refresh_candidates(cfg, wallets, queue, meta, now)
     grade_some(cfg, wallets, queue, now, meta)
@@ -267,6 +268,8 @@ def main():
     clusters.update_cotrade(cotrade, trades, tracked, now, cfg["clusters"].get("cotimed_seconds", 30))
     entity, links = clusters.build(wallets, cotrade, cfg["clusters"])
     log.info("holders added %d positions; %d linked wallet pairs", n_held, len(links))
+
+    activity.record(act_log, trades, holders_cache, tracked, now)
 
     found = signals.find_signals(flows, by_cid, grades, cfg, entity)
     log.info("%d signals", len(found))
@@ -331,6 +334,7 @@ def main():
         save("holders_cache.json", holders_cache)
         save("cotrade.json", cotrade)
         save("links.json", links)
+        save("activity.json", act_log)
         (ROOT / "RECORD.md").write_text(ledger.render_record(book, now))
         live = site.live_board(
             flows, by_cid, grades, set(sent),
@@ -340,7 +344,9 @@ def main():
                    len(by_cid), len(queue), cfg["consensus"]["min_wallets"],
                    dict(Counter(m["sport"] for m in upcoming)),
                    len({m["event_slug"] for m in upcoming}),
-                   links, cfg["lock"]["minutes_before_start"])
+                   links, cfg["lock"]["minutes_before_start"],
+                   activity.feed(act_log, by_cid, grades, entity,
+                                 {f"{e['condition_id']}:{e['outcome_index']}" for e in book}))
 
 
 if __name__ == "__main__":

@@ -350,3 +350,19 @@ def test_lock_play_pass_and_locked_record(monkeypatch):
     k = ledger.summary_locked([e1, e2, e3])
     assert (k["n"], k["w"], k["passed"], k["passed_w"]) == (1, 1, 2, 2)
     assert abs(k["units"] - 1.17) < 0.01
+
+
+def test_activity_merges_fills_and_sorts_newest_first():
+    from sharp import activity
+    log = {}
+    g = {"a": grade("ELITE"), "b": grade("SHARP"), "z": grade("NONE")}
+    t0 = int(NOW.timestamp())
+    trades = [{**trade("a", "BUY", 500), "timestamp": t0 - 900},
+              {**trade("a", "BUY", 700), "timestamp": t0 - 700},   # same side within 10 min: merged
+              {**trade("b", "BUY", 300, idx=1, price=0.54), "timestamp": t0 - 60},
+              {**trade("z", "BUY", 9000), "timestamp": t0}]          # not graded sharp: ignored
+    activity.record(log, trades, {}, {"a", "b"}, NOW)
+    activity.record(log, trades, {}, {"a", "b"}, NOW)              # re-seen trades aren't duplicated
+    rows = activity.feed(log, MKT, g, {}, {"c1:0"})
+    assert [r["wallet"] for r in rows] == ["b", "a"]
+    assert abs(rows[1]["usd"] - 1200) < 1e-6 and rows[1]["is_pick"] and rows[1]["pick"] == "Rangers"
