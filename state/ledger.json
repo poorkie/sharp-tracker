@@ -166,5 +166,26 @@
   "sharp_usd": 4647.09,
   "sport": "nhl",
   "url": "https://polymarket.com/event/nhl-pit-sj-2026-11-11"
+ },
+ {
+  "alerted_at": "2026-11-12T00:40:17.358565+00:00",
+  "book_fair": null,
+  "close_price": 0.885,
+  "clv": null,
+  "condition_id": "0xa32ddacae93db4fa4a82c5258b664464b2dde332540693baf0a87256774513e8",
+  "entry_price": 0.885,
+  "event_title": "Lakers vs. Bucks",
+  "game_start": "2026-11-12T01:00:00+00:00",
+  "id": "0xa32ddaca-0-1794444017",
+  "kind": "CONSENSUS",
+  "n_wallets": 4,
+  "outcome": "Lakers",
+  "outcome_index": 0,
+  "pnl_100": null,
+  "question": "Lakers vs. Bucks",
+  "result": null,
+  "sharp_usd": 267409.92,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-lal-mil-2026-11-11"
  }
 ]
