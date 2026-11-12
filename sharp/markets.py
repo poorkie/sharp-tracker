@@ -73,13 +73,16 @@ def upcoming_markets(cfg: dict, now: datetime) -> list[dict]:
     horizon = now + timedelta(hours=cfg["lookahead_hours"])
     wanted = set(cfg["market_types"])
     out: list[dict] = []
+    by_tag: dict[str, list] = {}
     for sport, scfg in cfg["sports"].items():
         tag = (scfg or {}).get("tag", sport)
-        try:
-            events = api.events_by_tag(tag)
-        except Exception as e:  # one league failing shouldn't kill the run
-            log.error("events for %s failed: %s", sport, e)
-            continue
+        if tag not in by_tag:
+            try:
+                by_tag[tag] = api.events_by_tag(tag)
+            except Exception as e:  # one league failing shouldn't kill the run
+                log.error("events for %s failed: %s", tag, e)
+                by_tag[tag] = []
+        events = by_tag[tag]
         before = len(out)
         for ev in events:
             slug = ev.get("slug") or ""

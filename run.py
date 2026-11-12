@@ -40,27 +40,37 @@ def save(name: str, obj) -> None:
 # ---------------- steps ----------------
 
 def refresh_candidates(cfg, wallets, queue, meta, now):
+    cats = cfg["leaderboard"].get("categories", ["sports"])
     last = meta.get("leaderboard_at")
-    if last and now - datetime.fromisoformat(last) < timedelta(hours=24):
+    if (last and now - datetime.fromisoformat(last) < timedelta(hours=24)
+            and meta.get("leaderboard_cats") == cats):
         return
     added = 0
-    for period in cfg["leaderboard"]["periods"]:
-        try:
-            rows = api.leaderboard("sports", period, cfg["leaderboard"]["limit"])
-        except Exception as e:
-            log.error("leaderboard %s failed: %s", period, e)
-            continue
-        for r in rows:
-            w = (r.get("user_id") or "").lower()
-            if w and w not in wallets and w not in queue:
-                queue.append(w)
-                added += 1
+    for cat in cats:
+        for period in cfg["leaderboard"]["periods"]:
+            try:
+                rows = api.leaderboard(cat, period, cfg["leaderboard"]["limit"])
+            except Exception as e:
+                log.warning("leaderboard %s/%s failed: %s", cat, period, e)
+                continue
+            for r in rows:
+                w = (r.get("user_id") or "").lower()
+                if w and w not in wallets and w not in queue:
+                    queue.append(w)
+                    added += 1
     meta["leaderboard_at"] = now.isoformat()
+    meta["leaderboard_cats"] = cats
     log.info("leaderboard: queued %d new wallets", added)
 
 
-def grade_some(cfg, wallets, queue, now):
+def grade_some(cfg, wallets, queue, now, meta=None):
     g = cfg["grading"]
+    if meta is not None and meta.get("grading_version") != g.get("version", 1):
+        # grading rules or leagues changed: mark every wallet for a re-grade
+        for v in wallets.values():
+            v["graded_at"] = "2000-01-01T00:00:00+00:00"
+        meta["grading_version"] = g.get("version", 1)
+        log.info("grading version changed: re-grading all %d wallets", len(wallets))
     stale = sorted(
         (w for w, v in wallets.items()
          if now - datetime.fromisoformat(v["graded_at"]) > timedelta(days=g["regrade_days"])),
@@ -200,7 +210,7 @@ def main():
     odds_cache = load("odds_cache.json", {})
 
     refresh_candidates(cfg, wallets, queue, meta, now)
-    grade_some(cfg, wallets, queue, now)
+    grade_some(cfg, wallets, queue, now, meta)
 
     upcoming = markets.upcoming_markets(cfg, now)
     by_cid = {m["condition_id"]: m for m in upcoming}
@@ -224,6 +234,8 @@ def main():
     # with the most Elite money behind it
     for sig in sorted(found, key=lambda x: -x["sharp_usd"]):
         if not signals.should_alert(sig, sent, cfg["realert_growth"]):
+            continue
+        if (cfg["sports"].get(sig["market"]["sport"]) or {}).get("alerts", True) is False:
             continue
         if ledger.has_same_game_line(book, sig):
             log.info("skip %s: already picked another line on this game", sig["outcome"])

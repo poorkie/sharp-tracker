@@ -10,14 +10,22 @@ timezone: America/Chicago
 # Which leagues to watch. The key is the prefix Polymarket uses on
 # game slugs (e.g. "nhl-nyr-bos-2026-11-10"). odds_key is the
 # matching sport key on The Odds API, used for the sportsbook check.
+# "tag" is the Polymarket tag to search when it differs from the key.
+# alerts: false keeps grading/tracking a league but sends no picks.
+# League check (Nov 2026): LoL, Dota 2, ATP, WTA added (Elite beat the
+# pack after the cutoff); CFB paused (Elite -8.6% on a small sample).
 sports:
   nhl: { odds_key: icehockey_nhl }
   nfl: { odds_key: americanfootball_nfl }
   nba: { odds_key: basketball_nba }
   mlb: { odds_key: baseball_mlb }
-  cfb: { odds_key: americanfootball_ncaaf }
+  cfb: { odds_key: americanfootball_ncaaf, alerts: false }
   cbb: { odds_key: basketball_ncaab }
   epl: { odds_key: soccer_epl }
+  lol: { tag: esports }
+  dota2: { tag: esports }
+  atp: { tag: tennis }
+  wta: { tag: tennis }
 
 # Market types to watch. Polymarket labels game markets with a
 # sportsMarketType; "moneyline" is the cleanest signal. Add
@@ -33,6 +41,8 @@ min_trade_usd: 200
 
 # ---- Wallet grading: who counts as "smart money" ---------------
 grading:
+  # Bump this to re-grade every wallet (e.g. after adding leagues).
+  version: 2
   # Only grade on single-game bets (slug contains a date). Futures
   # like "who wins the Stanley Cup" are excluded from the score.
   games_only: true
@@ -57,6 +67,7 @@ grading:
 
 # Seed list of candidate wallets from Polymarket's sports leaderboard.
 leaderboard:
+  categories: [sports, esports]
   periods: [month, all]
   limit: 250
 
