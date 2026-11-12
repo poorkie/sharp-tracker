@@ -254,7 +254,7 @@
  {
   "alerted_at": "2026-11-12T12:30:21.168717+00:00",
   "book_fair": null,
-  "close_price": 0.535,
+  "close_price": 0.545,
   "clv": null,
   "condition_id": "0x3e2266088f5b074f7c6e5805ac2eb29b03a65aabce5c7f557d209f92edb92321",
   "entry_price": 0.535,
@@ -269,6 +269,27 @@
   "question": "Commanders vs. Giants",
   "result": null,
   "sharp_usd": 4414.81,
+  "sport": "nfl",
+  "url": "https://polymarket.com/event/nfl-was-nyg-2026-11-13"
+ },
+ {
+  "alerted_at": "2026-11-12T12:40:19.359411+00:00",
+  "book_fair": null,
+  "close_price": 0.455,
+  "clv": null,
+  "condition_id": "0x3e2266088f5b074f7c6e5805ac2eb29b03a65aabce5c7f557d209f92edb92321",
+  "entry_price": 0.455,
+  "event_title": "Commanders vs. Giants",
+  "game_start": "2026-11-13T01:15:00+00:00",
+  "id": "0x3e226608-0-1794487219",
+  "kind": "ELITE",
+  "n_wallets": 1,
+  "outcome": "Commanders",
+  "outcome_index": 0,
+  "pnl_100": null,
+  "question": "Commanders vs. Giants",
+  "result": null,
+  "sharp_usd": 23000.0,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-was-nyg-2026-11-13"
  }
