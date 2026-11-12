@@ -1,28 +1,28 @@
 # Sharp Tracker: graded record
 
-Updated 2026-11-12 06:00 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
+Updated 2026-11-12 06:10 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
 
 ## Overall
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
-| All alerts | 4-6 | -4.50u | -45.0% | +0.4¢ | 30% | 2 |
+| All alerts | 4-7 | -5.50u | -50.0% | +0.4¢ | 27% | 1 |
 
 ## By signal
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
-| CONSENSUS | 4-5 | -3.50u | -38.9% | +0.0¢ | 22% | 2 |
+| CONSENSUS | 4-6 | -4.50u | -45.0% | +0.0¢ | 20% | 1 |
 | ELITE | 0-1 | -1.00u | -100.0% | +4.0¢ | 100% | 0 |
 
 ## By sport
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
 | NBA | 4-4 | -2.50u | -31.2% | +0.6¢ | 38% | 0 |
-| NHL | 0-2 | -2.00u | -100.0% | -0.5¢ | 0% | 2 |
+| NHL | 0-3 | -3.00u | -100.0% | -0.3¢ | 0% | 1 |
 
 ## Last 50 alerts
 | Alerted (UTC) | Sport | Pick | Entry | Close | Books fair | Sharps | Result |
 |---|---|---|---|---|---|---|---|
-| 2026-11-12 02:50 | NHL | [Ducks: Predators vs. Ducks](https://polymarket.com/event/nhl-nsh-ana-2026-11-11) | 0.56 | 0.56 | – | 3 / $6,523 | pending |
+| 2026-11-12 02:50 | NHL | [Ducks: Predators vs. Ducks](https://polymarket.com/event/nhl-nsh-ana-2026-11-11) | 0.56 | 0.56 | – | 3 / $6,523 | LOSS (-100) |
 | 2026-11-12 02:40 | NBA | [Trail Blazers: Thunder vs. Trail Blazers](https://polymarket.com/event/nba-okc-por-2026-11-11) | 0.57 | 0.58 | – | 3 / $18,170 | WIN (+74) |
 | 2026-11-12 00:50 | NBA | [Spurs: Spurs vs. Bulls](https://polymarket.com/event/nba-sas-chi-2026-11-11) | 0.91 | 0.91 | – | 3 / $5,509 | WIN (+10) |
 | 2026-11-12 00:40 | NBA | [Lakers: Lakers vs. Bucks](https://polymarket.com/event/nba-lal-mil-2026-11-11) | 0.89 | 0.89 | – | 4 / $267,410 | WIN (+13) |
