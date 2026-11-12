@@ -29,6 +29,15 @@ def has_other_side(ledger: list, sig: dict) -> bool:
                and e["outcome_index"] != sig["outcome_index"] for e in ledger)
 
 
+def has_same_game_line(ledger: list, sig: dict) -> bool:
+    """True if we already picked a different line (e.g. +6.5 vs +7.5) of the
+    same bet type on the same game. One pick per game per bet type."""
+    m = sig["market"]
+    mt = m.get("market_type", "moneyline")
+    return any(e["url"] == m["url"] and e.get("market_type", "moneyline") == mt
+               and e["condition_id"] != sig["condition_id"] for e in ledger)
+
+
 def record_alert(ledger: list, sig: dict, fair: float | None, now: datetime) -> dict:
     """One graded bet per market side. A re-alert (more sharp money came in)
     updates the existing pick; the entry price stays at the FIRST alert."""

@@ -220,8 +220,13 @@ def main():
     found = signals.find_signals(flows, by_cid, grades, cfg)
     log.info("%d signals", len(found))
 
-    for sig in found:
+    # strongest first, so when a game has several lines we pick the one
+    # with the most Elite money behind it
+    for sig in sorted(found, key=lambda x: -x["sharp_usd"]):
         if not signals.should_alert(sig, sent, cfg["realert_growth"]):
+            continue
+        if ledger.has_same_game_line(book, sig):
+            log.info("skip %s: already picked another line on this game", sig["outcome"])
             continue
         if ledger.has_other_side(book, sig):
             log.info("skip %s: already alerted the other side", sig["outcome"])

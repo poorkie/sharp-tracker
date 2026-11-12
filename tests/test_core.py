@@ -243,3 +243,14 @@ def test_pick_labels():
     tot = {"question": "Knicks vs. Cavaliers: O/U 221.5", "market_type": "totals", "outcomes": ["Over", "Under"]}
     assert pick_label(sp, 0) == "Knicks -4.5" and pick_label(sp, 1) == "Cavaliers +4.5"
     assert pick_label(tot, 0) == "Over 221.5"
+
+
+def test_one_line_per_game_and_type():
+    book = []
+    a = {**_sig("c1", 0, 3000), "market": {**MKT["c1"], "market_type": "spreads"}}
+    b = {**_sig("c9", 0, 2500), "market": {**MKT["c1"], "market_type": "spreads"}}
+    c = {**_sig("c8", 0, 2500), "market": {**MKT["c1"], "market_type": "totals"}}
+    ledger.record_alert(book, a, None, NOW)
+    assert ledger.has_same_game_line(book, b)        # alt spread on same game: blocked
+    assert not ledger.has_same_game_line(book, c)    # a total on same game: allowed
+    assert not ledger.has_same_game_line(book, a)    # same market: handled as an update
