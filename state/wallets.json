@@ -20772,6 +20772,76 @@
   "graded_at": "2026-11-12T18:24:51.028765+00:00",
   "grades": {}
  },
+ "0x2117912fee43e703fe9626fc934ad8653cf39bed": {
+  "graded_at": "2026-11-12T22:30:18.258339+00:00",
+  "grades": {
+   "cfb": {
+    "avg_price": 0.746,
+    "hit_edge": 0.004,
+    "hit_rate": 0.75,
+    "n": 4,
+    "pnl": 689.0,
+    "roi": 0.123,
+    "shrunk_roi": -0.0161,
+    "sport": "cfb",
+    "staked": 5599.36,
+    "t_stat": 0.06,
+    "tier": "NONE"
+   },
+   "epl": {
+    "avg_price": 0.749,
+    "hit_edge": 0.251,
+    "hit_rate": 1.0,
+    "n": 2,
+    "pnl": 536.4,
+    "roi": 0.3213,
+    "shrunk_roi": -0.0133,
+    "sport": "epl",
+    "staked": 1669.66,
+    "t_stat": 2.02,
+    "tier": "NONE"
+   },
+   "lol": {
+    "avg_price": 0.72,
+    "hit_edge": -0.1,
+    "hit_rate": 0.62,
+    "n": 92,
+    "pnl": 8652.9,
+    "roi": 0.1317,
+    "shrunk_roi": 0.0827,
+    "sport": "lol",
+    "staked": 65725.45,
+    "t_stat": 0.42,
+    "tier": "NONE"
+   },
+   "mlb": {
+    "avg_price": 0.885,
+    "hit_edge": 0.115,
+    "hit_rate": 1.0,
+    "n": 1,
+    "pnl": 260.73,
+    "roi": 0.1296,
+    "shrunk_roi": -0.0261,
+    "sport": "mlb",
+    "staked": 2011.82,
+    "t_stat": 0.0,
+    "tier": "NONE"
+   },
+   "nfl": {
+    "avg_price": 0.67,
+    "hit_edge": 0.33,
+    "hit_rate": 1.0,
+    "n": 3,
+    "pnl": 355.1,
+    "roi": 0.2458,
+    "shrunk_roi": -0.0108,
+    "sport": "nfl",
+    "staked": 1444.68,
+    "t_stat": 2.0,
+    "tier": "NONE"
+   }
+  }
+ },
  "0x2117ae94a97d69b78cbc81b6680a62deb1955c26": {
   "graded_at": "2026-11-12T18:24:51.028765+00:00",
   "grades": {
@@ -90567,6 +90637,24 @@
     "sport": "wta",
     "staked": 14703.72,
     "t_stat": 2.02,
+    "tier": "NONE"
+   }
+  }
+ },
+ "0x94d71d0d28709da91fd44c7d89da272fe86dbef5": {
+  "graded_at": "2026-11-12T22:30:18.258339+00:00",
+  "grades": {
+   "nba": {
+    "avg_price": 0.238,
+    "hit_edge": 0.065,
+    "hit_rate": 0.303,
+    "n": 314,
+    "pnl": -72181.0,
+    "roi": -0.0308,
+    "shrunk_roi": -0.0307,
+    "sport": "nba",
+    "staked": 2340110.82,
+    "t_stat": 0.29,
     "tier": "NONE"
    }
   }
