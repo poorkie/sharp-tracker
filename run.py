@@ -156,7 +156,7 @@ def main():
     queue = load("queue.json", [])
     meta = load("meta.json", {})
     sent = load("sent.json", {})
-    book = load("ledger.json", [])
+    book = ledger.dedupe(load("ledger.json", []))
     odds_cache = load("odds_cache.json", {})
 
     refresh_candidates(cfg, wallets, queue, meta, now)
@@ -183,10 +183,16 @@ def main():
     for sig in found:
         if not signals.should_alert(sig, sent, cfg["realert_growth"]):
             continue
+        if ledger.has_other_side(book, sig):
+            log.info("skip %s: already alerted the other side", sig["outcome"])
+            continue
         fair = book_fair_prob(cfg, sig["market"], sig["outcome_index"], odds_cache, now)
         title, body = format_alert(sig, fair, tz)
+        is_update = ledger.find(book, sig) is not None
+        if is_update:
+            title = "UPDATE · " + title
         notify.send(channels, title, body, sig["market"]["url"])
-        ledger.add_alert(book, sig, fair, now)
+        ledger.record_alert(book, sig, fair, now)
         sent[f"{sig['condition_id']}:{sig['outcome_index']}"] = sig["sharp_usd"]
 
     ledger.update_closing_prices(book, by_cid, now)

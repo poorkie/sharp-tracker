@@ -195,3 +195,28 @@ def test_alert_format():
     assert title == "SHARP CONSENSUS · NHL"
     assert "Rangers @ 46¢ (+117)" in body and "Poly cheaper by 3.0¢" in body
     assert "CST" in body
+
+
+def _sig(cid, idx, usd, outcome="Knicks"):
+    return {"condition_id": cid, "outcome_index": idx, "outcome": outcome, "kind": "CONSENSUS",
+            "price": 0.6, "sharp_usd": usd, "wallets": [1, 2, 3], "market": MKT["c1"]}
+
+
+def test_realert_updates_not_duplicates():
+    book = []
+    ledger.record_alert(book, _sig("c1", 0, 3000), None, NOW)
+    ledger.record_alert(book, {**_sig("c1", 0, 9000), "price": 0.7}, None, NOW + timedelta(hours=1))
+    assert len(book) == 1 and book[0]["entry_price"] == 0.6 and book[0]["sharp_usd"] == 9000
+    assert book[0]["updates"] == 1
+
+
+def test_other_side_blocked_and_dedupe_repairs_old_ledgers():
+    book = []
+    ledger.record_alert(book, _sig("c1", 0, 3000), None, NOW)
+    assert ledger.has_other_side(book, _sig("c1", 1, 5000))
+    old = []
+    for i, (cid, idx) in enumerate([("c1", 0), ("c1", 0), ("c1", 1), ("c2", 0), ("c1", 0)]):
+        old.append(ledger.add_alert([], _sig(cid, idx, 1000 * (i + 1)), None, NOW + timedelta(minutes=i)))
+    fixed = ledger.dedupe(old)
+    assert [(e["condition_id"], e["outcome_index"]) for e in fixed] == [("c1", 0), ("c2", 0)]
+    assert fixed[0]["sharp_usd"] == 5000 and fixed[0]["entry_price"] == 0.6

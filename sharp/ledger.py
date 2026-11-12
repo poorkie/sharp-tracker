@@ -18,6 +18,50 @@ from .markets import parse_time
 log = logging.getLogger(__name__)
 
 
+def find(ledger: list, sig: dict) -> dict | None:
+    return next((e for e in ledger if e["condition_id"] == sig["condition_id"]
+                 and e["outcome_index"] == sig["outcome_index"]), None)
+
+
+def has_other_side(ledger: list, sig: dict) -> bool:
+    """True if we already logged a pick on a different side of this market."""
+    return any(e["condition_id"] == sig["condition_id"]
+               and e["outcome_index"] != sig["outcome_index"] for e in ledger)
+
+
+def record_alert(ledger: list, sig: dict, fair: float | None, now: datetime) -> dict:
+    """One graded bet per market side. A re-alert (more sharp money came in)
+    updates the existing pick; the entry price stays at the FIRST alert."""
+    e = find(ledger, sig)
+    if e is None:
+        return add_alert(ledger, sig, fair, now)
+    e["sharp_usd"] = max(e["sharp_usd"], sig["sharp_usd"])
+    e["n_wallets"] = max(e["n_wallets"], len(sig["wallets"]))
+    e["updates"] = e.get("updates", 0) + 1
+    if e.get("book_fair") is None:
+        e["book_fair"] = fair
+    return e
+
+
+def dedupe(ledger: list) -> list:
+    """Repair older ledgers: merge repeat alerts on the same side (keep the
+    first one's price) and drop picks on the opposite side of a market that
+    was already picked."""
+    out: list = []
+    for e in sorted(ledger, key=lambda x: x["alerted_at"]):
+        same = next((x for x in out if x["condition_id"] == e["condition_id"]
+                     and x["outcome_index"] == e["outcome_index"]), None)
+        if same:
+            same["sharp_usd"] = max(same["sharp_usd"], e["sharp_usd"])
+            same["n_wallets"] = max(same["n_wallets"], e["n_wallets"])
+            same["updates"] = same.get("updates", 0) + 1
+            continue
+        if any(x["condition_id"] == e["condition_id"] for x in out):
+            continue
+        out.append(e)
+    return out
+
+
 def add_alert(ledger: list, sig: dict, fair: float | None, now: datetime) -> dict:
     m = sig["market"]
     entry = {
