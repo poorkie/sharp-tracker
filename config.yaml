@@ -62,11 +62,15 @@ leaderboard:
 
 # ---- Alert rules -----------------------------------------------
 consensus:
-  # Fire when at least this many sharp wallets are net-long the
+  # Which wallet tiers count toward a pick. Backtest (Nov 2026): ELITE
+  # kept winning out of sample, SHARP did not, so only ELITE counts.
+  # Sharp-tier money on the OTHER side still counts against a pick.
+  alert_tiers: [ELITE]
+  # Fire when at least this many of those wallets are net-long the
   # same side of the same game...
-  min_wallets: 3
+  min_wallets: 2
   # ...with at least this much combined money...
-  min_total_usd: 2500
+  min_total_usd: 2000
   # ...counting trades from the last N hours...
   window_hours: 24
   # ...and sharp money on the OTHER side is at most this fraction

@@ -168,7 +168,7 @@ function renderLive() {
     const edge = r.book_fair != null && r.price != null ? r.book_fair - r.price : null;
     return `<article class="card ${r.alerted ? "alerted" : ""}">
       <div class="top"><span class="sport">${esc(r.sport.toUpperCase())}</span><span>${when(r.game_start)}</span>
-        ${r.alerted ? `<span class="pill go">ALERT SENT</span>` : `<span class="pill build">BUILDING ${r.wallets.length}/${need}</span>`}</div>
+        ${r.alerted ? `<span class="pill go">ALERT SENT</span>` : `<span class="pill build">${r.elites || 0}/${need} ELITE</span>`}</div>
       <div class="game">${esc(r.event_title)}</div>
       <div class="pick"><span class="team">${esc(r.outcome)}</span><span class="px">${cents(r.price)}</span><span class="am">${amer(r.price)}</span></div>
       <div class="flow"><div class="bar"><i style="width:${(share * 100).toFixed(1)}%"></i></div>
@@ -198,7 +198,7 @@ function renderRecord() {
     ["ROI", pct(o.roi), sign(o.roi)], ["Avg CLV", (o.avg_clv >= 0 ? "+" : "") + (o.avg_clv * 100).toFixed(1) + "¢", sign(o.avg_clv)]]);
   $("#rec-sport").innerHTML = recHead + (Object.entries(D.record.by_sport).map(([k, s]) => recRow(k.toUpperCase(), s)).join("") ||
     `<tr><td colspan="7" class="mute">No alerts yet</td></tr>`);
-  $("#rec-kind").innerHTML = recHead + (Object.entries(D.record.by_kind).map(([k, s]) => recRow(k === "ELITE" ? "Single elite" : "Consensus", s)).join("") ||
+  $("#rec-kind").innerHTML = recHead + (Object.entries(D.record.by_kind).map(([k, s]) => recRow({ELITE: "Single Elite $5k+", ELITE_CONSENSUS: "2+ Elite agree", CONSENSUS: "3+ sharps (old rule, retired)"}[k] || k, s)).join("") ||
     `<tr><td colspan="7" class="mute">No alerts yet</td></tr>`);
   $("#rec-alerts").innerHTML = `<tr><th>Alerted</th><th>Sport</th><th>Pick</th><th>Entry</th><th>Close</th><th>Books</th><th>Sharps</th><th>Result</th></tr>` +
     (D.alerts.map(e => `<tr><td>${new Date(e.alerted_at).toLocaleString([], {month:"short", day:"numeric", hour:"numeric", minute:"2-digit"})}</td>

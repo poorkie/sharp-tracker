@@ -67,15 +67,19 @@ def find_signals(flows: dict, markets: dict, grades: dict, cfg: dict) -> list[di
         if not m:
             continue
         for f in sides:
-            longs = {w: v for w, v in f.wallets.items() if v > 0}
+            sport = m["sport"]
+            tiers = set(c.get("alert_tiers", ["SHARP", "ELITE"]))
+            # only wallets in the alert tiers count toward a pick...
+            longs = {w: v for w, v in f.wallets.items()
+                     if v > 0 and grades[w][sport]["tier"] in tiers}
             if not longs:
                 continue
+            # ...but ANY graded sharp betting the other side counts against it
             opposing = sum(o.total for o in sides if o.outcome_index != f.outcome_index)
             price = (m["prices"][f.outcome_index]
                      if f.outcome_index < len(m["prices"]) else None)
             if price is None or not (band["min"] <= price <= band["max"]):
                 continue
-            sport = m["sport"]
             wallet_info = sorted(
                 ({"wallet": w, "usd": round(v, 2), "entry": round(f.avg_entry(w), 3),
                   **{k: grades[w][sport][k] for k in ("tier", "shrunk_roi", "n", "t_stat")}}
@@ -85,7 +89,7 @@ def find_signals(flows: dict, markets: dict, grades: dict, cfg: dict) -> list[di
             kind = None
             if (len(longs) >= c["min_wallets"] and total >= c["min_total_usd"]
                     and opposing <= c["max_opposing_ratio"] * total):
-                kind = "CONSENSUS"
+                kind = "ELITE_CONSENSUS" if tiers == {"ELITE"} else "CONSENSUS"
             elif se["enabled"]:
                 big = [x for x in wallet_info if x["tier"] == "ELITE" and x["usd"] >= se["min_usd"]]
                 if big and opposing <= c["max_opposing_ratio"] * total:

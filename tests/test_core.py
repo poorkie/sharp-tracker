@@ -89,24 +89,29 @@ def run_sig(trades, grades):
     return signals.find_signals(flows, MKT, grades, CFG)
 
 
-def test_consensus_fires():
-    g = {w: grade("SHARP") for w in ("a", "b", "c")}
-    s = run_sig([trade("a", "BUY", 1000), trade("b", "BUY", 900), trade("c", "BUY", 800)], g)
-    assert len(s) == 1 and s[0]["kind"] == "CONSENSUS" and s[0]["outcome"] == "Rangers"
+def test_elite_consensus_fires():
+    g = {w: grade("ELITE") for w in ("a", "b")}
+    s = run_sig([trade("a", "BUY", 1200), trade("b", "BUY", 1000)], g)
+    assert len(s) == 1 and s[0]["kind"] == "ELITE_CONSENSUS" and s[0]["outcome"] == "Rangers"
     assert abs(s[0]["wallets"][0]["entry"] - 0.46) < 1e-6
 
 
-def test_non_sharps_and_scalpers_ignored():
-    g = {"a": grade("SHARP"), "b": grade("SHARP"), "c": grade("SHARP"), "d": grade("NONE")}
-    trades = [trade("a", "BUY", 1000), trade("b", "BUY", 900),
-              trade("c", "BUY", 800), trade("c", "SELL", 800),  # c scalped out
-              trade("d", "BUY", 50000)]                          # big but not sharp
+def test_sharp_tier_no_longer_triggers_picks():
+    g = {w: grade("SHARP") for w in ("a", "b", "c", "d")}
+    trades = [trade(w, "BUY", 3000) for w in ("a", "b", "c", "d")]
     assert run_sig(trades, g) == []
 
 
-def test_sharp_opposition_blocks():
-    g = {w: grade("SHARP") for w in ("a", "b", "c", "x")}
-    trades = [trade("a", "BUY", 1000), trade("b", "BUY", 900), trade("c", "BUY", 800),
+def test_non_elites_and_scalpers_ignored():
+    g = {"a": grade("ELITE"), "b": grade("ELITE"), "d": grade("NONE")}
+    trades = [trade("a", "BUY", 1500), trade("b", "BUY", 1500), trade("b", "SELL", 1500),  # b scalped out
+              trade("d", "BUY", 50000)]                                                   # big, not graded
+    assert run_sig(trades, g) == []
+
+
+def test_sharp_money_on_other_side_still_blocks():
+    g = {"a": grade("ELITE"), "b": grade("ELITE"), "x": grade("SHARP")}
+    trades = [trade("a", "BUY", 1500), trade("b", "BUY", 1500),
               trade("x", "BUY", 2000, idx=1, price=0.54)]
     assert run_sig(trades, g) == []
 

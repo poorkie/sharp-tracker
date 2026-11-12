@@ -121,7 +121,8 @@ def format_alert(sig, fair, tz) -> tuple[str, str]:
     m = sig["market"]
     p = sig["price"]
     start = markets.parse_time(m["game_start"]).astimezone(tz)
-    title = f"{'SHARP CONSENSUS' if sig['kind'] == 'CONSENSUS' else 'ELITE BET'} · {m['sport'].upper()}"
+    label = {"CONSENSUS": "SHARP CONSENSUS", "ELITE_CONSENSUS": "ELITE CONSENSUS"}.get(sig["kind"], "ELITE BET")
+    title = f"{label} · {m['sport'].upper()}"
     lines = [
         f"{sig['outcome']} @ {p * 100:.0f}¢ ({odds.prob_to_american(p)})",
         f"{m['event_title']} · {start.strftime('%a %-I:%M %p %Z')}",

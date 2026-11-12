@@ -40,6 +40,7 @@ def live_board(flows: dict, markets: dict, grades: dict, alerted_keys: set,
                 "game_start": m["game_start"],
                 "url": m["url"],
                 "sharp_usd": round(sum(longs.values()), 2),
+                "elites": sum(1 for w in longs if grades[w][sport]["tier"] == "ELITE"),
                 "opposing_usd": round(opposing, 2),
                 "wallets": sorted(
                     ({"wallet": w, "usd": round(v, 2), "entry": round(f.avg_entry(w), 3),
