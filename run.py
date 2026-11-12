@@ -15,6 +15,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import re
+from collections import Counter
 
 import yaml
 
@@ -275,7 +276,8 @@ def main():
             lambda m, i: book_view(cfg, m, i, odds_cache, now, allow_fetch=False),
             cfg["odds"].get("worth_margin", 0.03))
         site.write(ROOT / "docs" / "data.json", now, live, wallets, book,
-                   len(by_cid), len(queue), cfg["consensus"]["min_wallets"])
+                   len(by_cid), len(queue), cfg["consensus"]["min_wallets"],
+                   dict(Counter(m["sport"] for m in upcoming)))
 
 
 if __name__ == "__main__":

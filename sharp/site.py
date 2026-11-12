@@ -76,7 +76,8 @@ def sharps_table(wallets: dict, limit: int = 200) -> list[dict]:
 
 
 def write(path: Path, now: datetime, live: list, wallets: dict, book: list,
-          n_markets: int, queue_len: int, min_wallets: int = 3) -> None:
+          n_markets: int, queue_len: int, min_wallets: int = 3,
+          markets_by_sport: dict | None = None) -> None:
     by_sport, by_kind, by_type = defaultdict(list), defaultdict(list), defaultdict(list)
     for e in book:
         by_sport[e["sport"]].append(e)
@@ -91,6 +92,7 @@ def write(path: Path, now: datetime, live: list, wallets: dict, book: list,
             "sharps": len({r["wallet"] for r in sharps}),
             "queue": queue_len,
             "min_wallets": min_wallets,
+            "markets_by_sport": markets_by_sport or {},
         },
         "live": live,
         "sharps": sharps,
