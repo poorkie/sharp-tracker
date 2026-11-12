@@ -212,7 +212,7 @@
  {
   "alerted_at": "2026-11-12T02:40:15.975810+00:00",
   "book_fair": null,
-  "close_price": 0.575,
+  "close_price": 0.585,
   "clv": null,
   "condition_id": "0x6a14965298ff31012f31e97f4a660af3183ab557e8af0bd61425688e4eaad6d8",
   "entry_price": 0.575,
@@ -229,5 +229,26 @@
   "sharp_usd": 18169.69,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-okc-por-2026-11-11"
+ },
+ {
+  "alerted_at": "2026-11-12T02:50:18.611612+00:00",
+  "book_fair": null,
+  "close_price": 0.565,
+  "clv": null,
+  "condition_id": "0x58648d15d2b19535ccd07012c7fe4327aed98a7930665c434310268fc87aab75",
+  "entry_price": 0.565,
+  "event_title": "Predators vs. Ducks",
+  "game_start": "2026-11-12T03:00:00+00:00",
+  "id": "0x58648d15-1-1794451818",
+  "kind": "CONSENSUS",
+  "n_wallets": 3,
+  "outcome": "Ducks",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Predators vs. Ducks",
+  "result": null,
+  "sharp_usd": 6522.65,
+  "sport": "nhl",
+  "url": "https://polymarket.com/event/nhl-nsh-ana-2026-11-11"
  }
 ]
