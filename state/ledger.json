@@ -300,5 +300,29 @@
   "sharp_usd": 4069.63,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-was-nyg-2026-11-13"
+ },
+ {
+  "alerted_at": "2026-11-12T20:00:24.934529+00:00",
+  "book_fair": null,
+  "books": [],
+  "close_price": 0.465,
+  "clv": null,
+  "condition_id": "0x43841c531b289e831ee7b54eca98580c4a23b2c24534ff851a242738ad8bb572",
+  "entry_price": 0.465,
+  "event_title": "Raptors vs. 76ers",
+  "game_start": "2026-11-13T00:00:00+00:00",
+  "id": "0x43841c53-1-1794513624",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "spreads",
+  "max_prob": 0.434,
+  "n_wallets": 2,
+  "outcome": "Raptors +6.5",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Spread: 76ers (-6.5)",
+  "result": null,
+  "sharp_usd": 3201.43,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-tor-phi-2026-11-12"
  }
 ]
