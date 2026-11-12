@@ -250,5 +250,26 @@
   "sharp_usd": 6522.65,
   "sport": "nhl",
   "url": "https://polymarket.com/event/nhl-nsh-ana-2026-11-11"
+ },
+ {
+  "alerted_at": "2026-11-12T12:30:21.168717+00:00",
+  "book_fair": null,
+  "close_price": 0.535,
+  "clv": null,
+  "condition_id": "0x3e2266088f5b074f7c6e5805ac2eb29b03a65aabce5c7f557d209f92edb92321",
+  "entry_price": 0.535,
+  "event_title": "Commanders vs. Giants",
+  "game_start": "2026-11-13T01:15:00+00:00",
+  "id": "0x3e226608-1-1794486621",
+  "kind": "CONSENSUS",
+  "n_wallets": 3,
+  "outcome": "Giants",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Commanders vs. Giants",
+  "result": null,
+  "sharp_usd": 4414.81,
+  "sport": "nfl",
+  "url": "https://polymarket.com/event/nfl-was-nyg-2026-11-13"
  }
 ]
