@@ -8,7 +8,7 @@ on:
         default: "2026-09-01"
   push:
     branches: [main]
-    paths: ["backtest.py", "props.py", ".github/workflows/backtest.yml"]
+    paths: ["backtest.py", "props.py", "sports_check.py", ".github/workflows/backtest.yml"]
 
 permissions:
   contents: write
@@ -33,13 +33,17 @@ jobs:
       - name: Which analysis
         id: which
         run: |
-          if git diff --name-only HEAD~1 HEAD 2>/dev/null | grep -q '^props.py$'; then echo "script=props.py" >> $GITHUB_OUTPUT; else echo "script=backtest.py" >> $GITHUB_OUTPUT; fi
+          changed=$(git diff --name-only HEAD~1 HEAD 2>/dev/null || true)
+          if echo "$changed" | grep -q '^sports_check.py$'; then s=sports_check.py
+          elif echo "$changed" | grep -q '^props.py$'; then s=props.py
+          else s=backtest.py; fi
+          echo "script=$s" >> $GITHUB_OUTPUT
       - run: python ${{ steps.which.outputs.script }} --cutoff "${{ github.event.inputs.cutoff || '2026-09-01' }}"
       - name: Save results
         run: |
           git config user.name "sharp-tracker-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add BACKTEST.md docs/backtest.json PROPS.md docs/props.json 2>/dev/null || true
+          git add BACKTEST.md docs/backtest.json PROPS.md docs/props.json SPORTS.md docs/sports_check.json 2>/dev/null || true
           git commit -m "backtest results" || exit 0
           for i in 1 2 3 4 5; do
             git pull --rebase -X theirs --quiet && git push && exit 0
