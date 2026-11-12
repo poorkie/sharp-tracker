@@ -96,6 +96,9 @@ odds:
   # signal fires, and cached this long per sport.
   cache_minutes: 120
   regions: us
+  # "Worth it up to" = what the Elite wallets paid on average plus this
+  # many cents of win probability (0.03 = 3¢). Above that, skip the bet.
+  worth_margin: 0.03
 
 # ---- Where alerts go -------------------------------------------
 # One or more of: ntfy, twilio, email, console

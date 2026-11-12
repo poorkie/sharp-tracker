@@ -81,8 +81,9 @@ def grade_some(cfg, wallets, queue, now):
     log.info("graded %d wallets this run; %d graded total, %d sharp", len(todo), len(wallets), sharp)
 
 
-def book_fair_prob(cfg, m, idx, odds_cache, now, allow_fetch=True) -> float | None:
-    """No-vig sportsbook probability for outcome `idx` of market `m`.
+def book_view(cfg, m, idx, odds_cache, now, allow_fetch=True) -> dict | None:
+    """Sportsbook picture for outcome `idx` of market `m`:
+    {"fair": no-vig prob, "lines": [{book, price, prob}, ...] best first}.
     Only spends API credits when allow_fetch is set (i.e. for alerts)."""
     key = os.environ.get("ODDS_API_KEY")
     sport_key = (cfg["sports"].get(m["sport"]) or {}).get("odds_key")
@@ -105,19 +106,46 @@ def book_fair_prob(cfg, m, idx, odds_cache, now, allow_fetch=True) -> float | No
     outs = m["outcomes"]
     if idx >= len(outs):
         return None
-    if len(outs) == 2 and set(o.lower() for o in outs) != {"yes", "no"}:
-        hit = odds.find_fair_prob(cached["games"], outs[idx], start, outs[1 - idx])
-        return round(hit[0], 4) if hit else None
+    yes_no = set(o.lower() for o in outs) == {"yes", "no"}
+    if len(outs) == 2 and not yes_no:
+        found = odds.find_game(cached["games"], outs[idx], start, outs[1 - idx])
+        if not found:
+            return None
+        g, name = found
+        fair = odds.fair_probs(g).get(name)
+        return {"fair": round(fair, 4) if fair else None, "lines": odds.book_lines(g, name)}
     mt = re.search(r"will (.+?) win", m["question"] or "", re.I)
-    if mt:
-        hit = odds.find_fair_prob(cached["games"], mt.group(1), start)
-        if hit:
-            p = hit[0] if outs[idx].lower() == "yes" else 1 - hit[0]
-            return round(p, 4)
+    if mt and yes_no:
+        found = odds.find_game(cached["games"], mt.group(1), start)
+        if found:
+            g, name = found
+            fair = odds.fair_probs(g).get(name)
+            if fair is None:
+                return None
+            if outs[idx].lower() == "yes":
+                return {"fair": round(fair, 4), "lines": odds.book_lines(g, name)}
+            return {"fair": round(1 - fair, 4), "lines": []}  # "No" isn't a book moneyline
     return None
 
 
-def format_alert(sig, fair, tz) -> tuple[str, str]:
+def book_fair_prob(cfg, m, idx, odds_cache, now, allow_fetch=True) -> float | None:
+    v = book_view(cfg, m, idx, odds_cache, now, allow_fetch)
+    return v["fair"] if v else None
+
+
+def worth_up_to(sig, margin: float) -> float | None:
+    """Highest win-probability price still worth paying: what the Elite
+    wallets paid on average, plus a small margin."""
+    ws = [w for w in sig["wallets"] if w.get("entry")]
+    usd = sum(w["usd"] for w in ws)
+    if not usd:
+        return None
+    avg = sum(w["usd"] * w["entry"] for w in ws) / usd
+    return round(min(avg + margin, 0.97), 4)
+
+
+def format_alert(sig, view, tz, max_prob=None) -> tuple[str, str]:
+    fair = view["fair"] if view else None
     m = sig["market"]
     p = sig["price"]
     start = markets.parse_time(m["game_start"]).astimezone(tz)
@@ -133,6 +161,17 @@ def format_alert(sig, fair, tz) -> tuple[str, str]:
         edge = fair - p
         lines.append(f"Books fair {fair:.0%} ({odds.prob_to_american(fair)}) · "
                      f"{'Poly cheaper' if edge > 0 else 'Poly pricier'} by {abs(edge) * 100:.1f}¢")
+    if max_prob:
+        ok = p <= max_prob
+        lines.append(f"Worth it up to {odds.prob_to_american(max_prob)} ({max_prob * 100:.0f}¢) · "
+                     f"Polymarket {'✅ OK' if ok else '❌ too high'}")
+    if view and view.get("lines"):
+        best = view["lines"][0]
+        tag = "✅" if (not max_prob or best["prob"] <= max_prob) else "❌ above max"
+        lines.append(f"Best book: {best['book']} {odds.fmt_american(best['price'])} {tag}")
+        others = ", ".join(f"{b['book']} {odds.fmt_american(b['price'])}" for b in view["lines"][1:4])
+        if others:
+            lines.append(f"Also: {others}")
     for w in sig["wallets"][:3]:
         lines.append(f"{w['wallet'][:6]}… {w['tier']} ROI {w['shrunk_roi']:+.0%} "
                      f"n={w['n']} · ${w['usd']:,.0f} @ {w['entry'] * 100:.0f}¢")
@@ -187,13 +226,18 @@ def main():
         if ledger.has_other_side(book, sig):
             log.info("skip %s: already alerted the other side", sig["outcome"])
             continue
-        fair = book_fair_prob(cfg, sig["market"], sig["outcome_index"], odds_cache, now)
-        title, body = format_alert(sig, fair, tz)
+        view = book_view(cfg, sig["market"], sig["outcome_index"], odds_cache, now)
+        fair = view["fair"] if view else None
+        max_prob = worth_up_to(sig, cfg["odds"].get("worth_margin", 0.03))
+        title, body = format_alert(sig, view, tz, max_prob)
         is_update = ledger.find(book, sig) is not None
         if is_update:
             title = "UPDATE · " + title
         notify.send(channels, title, body, sig["market"]["url"])
-        ledger.record_alert(book, sig, fair, now)
+        entry = ledger.record_alert(book, sig, fair, now)
+        if not entry.get("books"):
+            entry["books"] = (view or {}).get("lines") or []
+            entry["max_prob"] = max_prob
         sent[f"{sig['condition_id']}:{sig['outcome_index']}"] = sig["sharp_usd"]
 
     ledger.update_closing_prices(book, by_cid, now)
@@ -211,7 +255,8 @@ def main():
         (ROOT / "RECORD.md").write_text(ledger.render_record(book, now))
         live = site.live_board(
             flows, by_cid, grades, set(sent),
-            lambda m, i: book_fair_prob(cfg, m, i, odds_cache, now, allow_fetch=False))
+            lambda m, i: book_view(cfg, m, i, odds_cache, now, allow_fetch=False),
+            cfg["odds"].get("worth_margin", 0.03))
         site.write(ROOT / "docs" / "data.json", now, live, wallets, book,
                    len(by_cid), len(queue), cfg["consensus"]["min_wallets"])
 

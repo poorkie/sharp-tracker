@@ -49,9 +49,9 @@ def team_matches(poly_name: str, book_name: str) -> bool:
     return len(a_last) > 3 and a_last == b_last
 
 
-def find_fair_prob(odds_games: list[dict], team: str, game_start: datetime | None,
-                   opponent: str | None = None) -> tuple[float, int] | None:
-    """Return (fair prob for `team`, number of books) or None."""
+def find_game(odds_games: list[dict], team: str, game_start: datetime | None,
+              opponent: str | None = None) -> tuple[dict, str] | None:
+    """Locate the sportsbook game for a Polymarket team. Returns (game, book's team name)."""
     for g in odds_games:
         names = [g.get("home_team", ""), g.get("away_team", "")]
         hit = next((n for n in names if team_matches(team, n)), None)
@@ -63,10 +63,38 @@ def find_fair_prob(odds_games: list[dict], team: str, game_start: datetime | Non
             ct = datetime.fromisoformat(g["commence_time"].replace("Z", "+00:00"))
             if abs((ct - game_start).total_seconds()) > 12 * 3600:
                 continue
-        fp = fair_probs(g)
-        if hit in fp:
-            return fp[hit], len(g.get("bookmakers", []))
+        return g, hit
     return None
+
+
+def find_fair_prob(odds_games: list[dict], team: str, game_start: datetime | None,
+                   opponent: str | None = None) -> tuple[float, int] | None:
+    """Return (fair prob for `team`, number of books) or None."""
+    found = find_game(odds_games, team, game_start, opponent)
+    if not found:
+        return None
+    g, hit = found
+    fp = fair_probs(g)
+    return (fp[hit], len(g.get("bookmakers", []))) if hit in fp else None
+
+
+def book_lines(game: dict, team: str) -> list[dict]:
+    """Each book's moneyline for `team`, best (highest payout) first."""
+    out = []
+    for book in game.get("bookmakers", []):
+        for mkt in book.get("markets", []):
+            if mkt.get("key") != "h2h":
+                continue
+            for o in mkt.get("outcomes", []):
+                if o.get("name") == team:
+                    price = float(o["price"])
+                    out.append({"book": book.get("title") or book.get("key"),
+                                "price": int(price), "prob": round(american_to_prob(price), 4)})
+    return sorted(out, key=lambda x: x["prob"])
+
+
+def fmt_american(price: int | float) -> str:
+    return f"+{int(price)}" if price > 0 else str(int(price))
 
 
 def now_utc() -> datetime:

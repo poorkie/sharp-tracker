@@ -10,7 +10,7 @@ from .ledger import summary
 
 
 def live_board(flows: dict, markets: dict, grades: dict, alerted_keys: set,
-               fair_lookup) -> list[dict]:
+               view_lookup, margin: float = 0.03) -> list[dict]:
     """Every side of every upcoming game that has sharp money on it,
     whether or not it has crossed the alert threshold yet."""
     by_market = defaultdict(list)
@@ -36,7 +36,7 @@ def live_board(flows: dict, markets: dict, grades: dict, alerted_keys: set,
                 "event_title": m["event_title"],
                 "outcome": f.outcome or m["outcomes"][idx],
                 "price": price,
-                "book_fair": fair_lookup(m, idx),
+                **_books(view_lookup(m, idx)),
                 "game_start": m["game_start"],
                 "url": m["url"],
                 "sharp_usd": round(sum(longs.values()), 2),
@@ -48,8 +48,19 @@ def live_board(flows: dict, markets: dict, grades: dict, alerted_keys: set,
                       "n": grades[w][sport]["n"]} for w, v in longs.items()),
                     key=lambda x: -x["usd"]),
             })
+    for r in rows:
+        el = [w for w in r["wallets"] if w["tier"] == "ELITE" and w["entry"]] or \
+             [w for w in r["wallets"] if w["entry"]]
+        usd = sum(w["usd"] for w in el)
+        r["max_prob"] = round(min(sum(w["usd"] * w["entry"] for w in el) / usd + margin, 0.97), 4) if usd else None
     rows.sort(key=lambda r: (not r["alerted"], -len(r["wallets"]), -r["sharp_usd"]))
     return rows
+
+
+def _books(view) -> dict:
+    if not view:
+        return {"book_fair": None, "books": []}
+    return {"book_fair": view.get("fair"), "books": (view.get("lines") or [])[:5]}
 
 
 def sharps_table(wallets: dict, limit: int = 200) -> list[dict]:

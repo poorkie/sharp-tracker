@@ -135,9 +135,9 @@ def test_dedupe():
 GAME = {"home_team": "Boston Bruins", "away_team": "New York Rangers",
         "commence_time": (NOW + timedelta(hours=5)).isoformat().replace("+00:00", "Z"),
         "bookmakers": [
-            {"markets": [{"key": "h2h", "outcomes": [
+            {"title": "BookA", "markets": [{"key": "h2h", "outcomes": [
                 {"name": "Boston Bruins", "price": -130}, {"name": "New York Rangers", "price": 110}]}]},
-            {"markets": [{"key": "h2h", "outcomes": [
+            {"title": "BookB", "markets": [{"key": "h2h", "outcomes": [
                 {"name": "Boston Bruins", "price": -125}, {"name": "New York Rangers", "price": 105}]}]},
         ]}
 
@@ -196,10 +196,20 @@ def test_alert_format():
            "opposing_usd": 0, "market": MKT["c1"],
            "wallets": [{"wallet": "0xabcdef1234", "tier": "SHARP", "shrunk_roi": 0.05,
                         "n": 140, "usd": 1000, "entry": 0.45}]}
-    title, body = run.format_alert(sig, 0.49, ZoneInfo("America/Chicago"))
+    view = {"fair": 0.49, "lines": odds.book_lines(GAME, "New York Rangers")}
+    max_prob = run.worth_up_to(sig, 0.03)
+    assert max_prob == 0.48
+    title, body = run.format_alert(sig, view, ZoneInfo("America/Chicago"), max_prob)
     assert title == "SHARP CONSENSUS · NHL"
     assert "Rangers @ 46¢ (+117)" in body and "Poly cheaper by 3.0¢" in body
+    assert "Worth it up to +108 (48¢) · Polymarket ✅ OK" in body
+    assert "Best book: BookA +110 ✅" in body and "Also: BookB +105" in body
     assert "CST" in body
+
+
+def test_book_lines_best_first():
+    lines = odds.book_lines(GAME, "Boston Bruins")
+    assert [l["price"] for l in lines] == [-125, -130]
 
 
 def _sig(cid, idx, usd, outcome="Knicks"):

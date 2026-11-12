@@ -55,6 +55,11 @@ h2{font:700 18px var(--disp);letter-spacing:.08em;text-transform:uppercase;color
 .bar i{display:block;background:var(--green)}
 .flowlbl{display:flex;justify-content:space-between;font:12px var(--mono);color:var(--mute);margin-top:6px}
 .books{font:12.5px var(--mono);padding:9px 10px;background:var(--panel2);border-radius:8px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 8px}
+.bk{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px;font:12px var(--mono)}
+.bk span{background:var(--panel2);border:1px solid var(--line);border-radius:6px;padding:3px 7px}
+.bk span.best{border-color:var(--green-d);color:var(--green)}
+.bk span.over{opacity:.45;text-decoration:line-through}
+.bk.mute{color:var(--dim)}
 details{margin-top:10px}
 summary{cursor:pointer;font:12px var(--mono);color:var(--blue);list-style:none}
 summary::-webkit-details-marker{display:none}
@@ -173,9 +178,11 @@ function renderLive() {
       <div class="pick"><span class="team">${esc(r.outcome)}</span><span class="px">${cents(r.price)}</span><span class="am">${amer(r.price)}</span></div>
       <div class="flow"><div class="bar"><i style="width:${(share * 100).toFixed(1)}%"></i></div>
         <div class="flowlbl"><span class="pos">${money(r.sharp_usd)} sharp on this side</span><span>${money(r.opposing_usd)} other side</span></div></div>
-      <div class="books">${edge == null ? `<span class="mute">Books: no line yet</span>` :
-        `<span>Books fair ${Math.round(r.book_fair * 100)}% <span class="mute">${amer(r.book_fair)}</span></span>
-         <span class="${sign(edge)}">Poly ${edge > 0 ? "cheaper" : "pricier"} ${Math.abs(edge * 100).toFixed(1)}¢</span>`}</div>
+      <div class="books">${r.max_prob ? `<span>Worth it up to <b>${amer(r.max_prob)}</b> <span class="mute">(${cents(r.max_prob)})</span></span>
+         <span class="${r.price <= r.max_prob ? "pos" : "neg"}">${r.price <= r.max_prob ? "✅ Still good" : "❌ Price ran"}</span>` : ""}</div>
+      ${r.books && r.books.length ? `<div class="bk">${r.books.map((b, i) => `<span class="${i === 0 ? "best" : ""} ${r.max_prob && b.prob > r.max_prob ? "over" : ""}">${esc(b.book)} <b>${b.price > 0 ? "+" + b.price : b.price}</b></span>`).join("")}</div>`
+        : edge == null ? `<div class="bk mute">Sportsbook lines appear once a pick fires</div>` : ""}
+      ${edge == null ? "" : `<div class="flowlbl"><span>Books fair ${Math.round(r.book_fair * 100)}%</span><span class="${sign(edge)}">Poly ${edge > 0 ? "cheaper" : "pricier"} ${Math.abs(edge * 100).toFixed(1)}¢</span></div>`}
       <details><summary>▸ ${r.wallets.length} sharp wallet${r.wallets.length > 1 ? "s" : ""}</summary><div class="wl">
         ${r.wallets.map(w => `<div class="w"><span class="tier ${w.tier}">${w.tier}</span>
           <a href="https://polymarket.com/profile/${esc(w.wallet)}" target="_blank" rel="noopener">${short(w.wallet)}</a>
@@ -200,11 +207,11 @@ function renderRecord() {
     `<tr><td colspan="7" class="mute">No alerts yet</td></tr>`);
   $("#rec-kind").innerHTML = recHead + (Object.entries(D.record.by_kind).map(([k, s]) => recRow({ELITE: "Single Elite $5k+", ELITE_CONSENSUS: "2+ Elite agree", CONSENSUS: "3+ sharps (old rule, retired)"}[k] || k, s)).join("") ||
     `<tr><td colspan="7" class="mute">No alerts yet</td></tr>`);
-  $("#rec-alerts").innerHTML = `<tr><th>Alerted</th><th>Sport</th><th>Pick</th><th>Entry</th><th>Close</th><th>Books</th><th>Sharps</th><th>Result</th></tr>` +
+  $("#rec-alerts").innerHTML = `<tr><th>Alerted</th><th>Sport</th><th>Pick</th><th>Entry</th><th>Close</th><th>Best book</th><th>Sharps</th><th>Result</th></tr>` +
     (D.alerts.map(e => `<tr><td>${new Date(e.alerted_at).toLocaleString([], {month:"short", day:"numeric", hour:"numeric", minute:"2-digit"})}</td>
       <td>${e.sport.toUpperCase()}</td><td class="pk"><a href="${esc(e.url)}" target="_blank" rel="noopener"><b>${esc(e.outcome)}</b></a> <span class="mute">${esc(e.event_title)}</span></td>
       <td>${cents(e.entry_price)}</td><td class="${sign(e.close_price - e.entry_price)}">${cents(e.close_price)}</td>
-      <td>${e.book_fair ? Math.round(e.book_fair * 100) + "%" : "–"}</td><td>${e.n_wallets} · ${money(e.sharp_usd)}</td>
+      <td>${e.books && e.books.length ? esc(e.books[0].book) + " " + (e.books[0].price > 0 ? "+" : "") + e.books[0].price : "–"}</td><td>${e.n_wallets} · ${money(e.sharp_usd)}</td>
       <td><span class="res ${e.result || "pending"}">${e.result || "PENDING"}</span>${e.pnl_100 != null && e.result !== "VOID" ? ` <span class="${sign(e.pnl_100)}">${e.pnl_100 > 0 ? "+" : ""}${Math.round(e.pnl_100)}</span>` : ""}</td></tr>`).join("") ||
     `<tr><td colspan="8" class="mute">Alerts will appear here once the engine sends its first one.</td></tr>`);
 }
