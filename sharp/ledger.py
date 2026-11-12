@@ -110,6 +110,38 @@ def update_closing_prices(ledger: list, markets: dict, now: datetime) -> None:
             e["close_price"] = m["prices"][e["outcome_index"]]
 
 
+def lock_picks(ledger: list, markets: dict, still_in: set, now: datetime,
+               minutes: int = 15) -> list[dict]:
+    """Final call shortly before the game. Each open pick gets a locked price
+    and a verdict:
+      PLAY  - Elite money is still in and the price is at or under 'worth it'
+      PASS  - the price ran past 'worth it', or the Elite money left
+    The locked record (PLAY picks at the lock price) is the honest number a
+    follower could actually have gotten."""
+    newly = []
+    for e in ledger:
+        if e["result"] is not None or e.get("lock"):
+            continue
+        start = parse_time(e["game_start"])
+        if not start or now < start - timedelta(minutes=minutes):
+            continue
+        m = markets.get(e["condition_id"])
+        live = m is not None and now < start and e["outcome_index"] < len(m["prices"])
+        price = m["prices"][e["outcome_index"]] if live else e["close_price"]
+        key = f"{e['condition_id']}:{e['outcome_index']}"
+        max_prob = e.get("max_prob")
+        if key not in still_in:
+            verdict, reason = "PASS", "Elite money left"
+        elif max_prob and price > max_prob:
+            verdict, reason = "PASS", "price ran past worth-it"
+        else:
+            verdict, reason = "PLAY", "Elite still in, price OK"
+        e["lock"] = {"at": now.isoformat(), "price": price, "verdict": verdict,
+                     "reason": reason, "late": not live}
+        newly.append(e)
+    return newly
+
+
 def grade_results(ledger: list, now: datetime) -> int:
     pending = [e for e in ledger if e["result"] is None
                and (parse_time(e["game_start"]) or now) < now - timedelta(hours=3)]
@@ -137,6 +169,10 @@ def grade_results(ledger: list, now: datetime) -> int:
         else:
             e["result"], e["pnl_100"] = "VOID", 0.0
         e["clv"] = round(e["close_price"] - e["entry_price"], 4)
+        lk = e.get("lock")
+        if lk and lk["verdict"] == "PLAY" and e["result"] in ("WIN", "LOSS"):
+            lp = lk["price"]
+            lk["pnl_100"] = round(100 * (1 - lp) / lp, 2) if e["result"] == "WIN" else -100.0
         graded += 1
     return graded
 
@@ -155,6 +191,22 @@ def summary(rows: list) -> dict:
         "beat_close": round(sum(c > 0 for c in clvs) / len(clvs), 3) if clvs else 0.0,
         "pending": sum(r["result"] is None for r in rows),
     }
+
+
+def summary_locked(rows: list) -> dict:
+    """Record of PLAY verdicts at the lock price, plus how the passes did."""
+    played = [r for r in rows if (r.get("lock") or {}).get("verdict") == "PLAY"
+              and r["result"] in ("WIN", "LOSS")]
+    passed = [r for r in rows if (r.get("lock") or {}).get("verdict") == "PASS"
+              and r["result"] in ("WIN", "LOSS")]
+    n = len(played)
+    w = sum(r["result"] == "WIN" for r in played)
+    pnl = sum(r["lock"].get("pnl_100", 0) for r in played)
+    return {"n": n, "w": w, "l": n - w, "units": round(pnl / 100, 2),
+            "roi": round(pnl / (100 * n), 4) if n else 0.0,
+            "pending": sum(1 for r in rows if (r.get("lock") or {}).get("verdict") == "PLAY"
+                           and r["result"] is None),
+            "passed": len(passed), "passed_w": sum(r["result"] == "WIN" for r in passed)}
 
 
 def render_record(ledger: list, now: datetime) -> str:

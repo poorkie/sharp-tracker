@@ -44,6 +44,9 @@ h2{font:700 18px var(--disp);letter-spacing:.08em;text-transform:uppercase;color
 .sport{font:700 12px var(--disp);letter-spacing:.1em;background:var(--panel2);border:1px solid var(--line);padding:2px 7px;border-radius:4px;color:var(--ink)}
 .pill{font:600 11px var(--mono);padding:3px 8px;border-radius:20px;letter-spacing:.04em}
 .pill.go{background:var(--green);color:#04210f}
+.pill.pass{background:#3a1717;color:var(--red);border:1px solid #5a2323}
+.tag{font:600 10px var(--mono);padding:1px 5px;border-radius:3px;background:var(--panel2);border:1px solid var(--line);color:var(--mute);margin-left:4px}
+.tag.link{color:var(--amber);border-color:#4a3a1c}
 .pill.build{background:var(--panel2);color:var(--amber);border:1px solid #4a3a1c}
 .game{margin:10px 0 2px;color:var(--mute);font-size:13.5px}
 .pick{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
@@ -115,6 +118,7 @@ footer{color:var(--dim);font-size:12px;margin-top:40px;border-top:1px solid var(
   <section id="tab-record" class="hide">
     <div class="stats" id="rec-stats"></div>
     <p class="note">Every alert is logged at the Polymarket price when it fired and graded automatically after the game, losses included. Units assume a flat $100 per alert. <b>CLV</b> (closing line value) is the price at game start minus the alert price: if it stays positive over a big sample, the alerts are beating the market.</p>
+    <p class="note" id="rec-note2" style="margin-top:8px"></p>
     <h2>By sport</h2><div class="tw"><table id="rec-sport"></table></div>
     <h2>By signal</h2><div class="tw"><table id="rec-kind"></table></div>
     <h2>By bet type</h2><div class="tw"><table id="rec-type"></table></div>
@@ -156,6 +160,18 @@ function filters(el, sports, cur, set) {
   el.onclick = e => { if (e.target.dataset.s) set(e.target.dataset.s); };
 }
 
+function lockIn(r) {
+  const mins = Math.round((new Date(r.game_start) - Date.now()) / 60000) - (D.stats.lock_minutes || 15);
+  return mins <= 0 ? "locking" : mins < 90 ? `locks in ${mins}m` : `locks in ${Math.round(mins / 60)}h`;
+}
+function pill(r, need) {
+  if (r.lock) return r.lock.verdict === "PLAY"
+    ? `<span class="pill go">🔒 PLAY @ ${cents(r.lock.price)}</span>`
+    : `<span class="pill pass" title="${esc(r.lock.reason)}">🔒 PASS</span>`;
+  if (r.alerted) return `<span class="pill go">PICK · ${lockIn(r)}</span>`;
+  return `<span class="pill build">${r.elite_people ?? r.elites ?? 0}/${need} ELITE</span>`;
+}
+
 function renderLive() {
   const rows = D.live.filter(r => liveSport === "ALL" || r.sport === liveSport);
   const alerted = D.live.filter(r => r.alerted).length;
@@ -176,7 +192,7 @@ function renderLive() {
     const edge = r.book_fair != null && r.price != null ? r.book_fair - r.price : null;
     return `<article class="card ${r.alerted ? "alerted" : ""}">
       <div class="top"><span class="sport">${esc(r.sport.toUpperCase())}${r.market_type && r.market_type !== "moneyline" ? " · " + ({spreads: "SPREAD", totals: "O/U"}[r.market_type] || r.market_type.toUpperCase()) : ""}</span><span>${when(r.game_start)}</span>
-        ${r.alerted ? `<span class="pill go">ALERT SENT</span>` : `<span class="pill build">${r.elites || 0}/${need} ELITE</span>`}</div>
+        ${pill(r, need)}</div>
       <div class="game">${esc(r.event_title)}</div>
       <div class="pick"><span class="team">${esc(r.outcome)}</span><span class="px">${cents(r.price)}</span><span class="am">${amer(r.price)}</span></div>
       <div class="flow"><div class="bar"><i style="width:${(share * 100).toFixed(1)}%"></i></div>
@@ -189,7 +205,7 @@ function renderLive() {
       <details><summary>▸ ${r.wallets.length} sharp wallet${r.wallets.length > 1 ? "s" : ""}</summary><div class="wl">
         ${r.wallets.map(w => `<div class="w"><span class="tier ${w.tier}">${w.tier}</span>
           <a href="https://polymarket.com/profile/${esc(w.wallet)}" target="_blank" rel="noopener">${short(w.wallet)}</a>
-          <span>${money(w.usd)} @ ${cents(w.entry)} <span class="mute">· ROI ${pct(w.roi, 0)} n=${w.n}</span></span></div>`).join("")}
+          <span>${money(w.usd)} @ ${cents(w.entry)} <span class="mute">· ROI ${pct(w.roi, 0)} n=${w.n}</span>${w.via === "holding" ? `<span class="tag">holding</span>` : ""}${r.wallets.filter(x => x.person === w.person).length > 1 ? `<span class="tag link" title="These wallets look like one person and count once">🔗 same person</span>` : ""}</span></div>`).join("")}
       </div></details>
       <a href="${esc(r.url)}" target="_blank" rel="noopener" style="position:absolute;inset:auto 16px 14px auto;font:12px var(--mono);color:var(--mute)">Polymarket ↗</a>
     </article>`; }).join("")}</div>`;
@@ -203,22 +219,30 @@ function recRow(label, s) {
 const recHead = `<tr><th></th><th>Record</th><th>Units</th><th>ROI</th><th>Avg CLV</th><th>Beat close</th><th>Pending</th></tr>`;
 
 function renderRecord() {
-  const o = D.record.overall;
-  stats($("#rec-stats"), [["Record", `${o.w}-${o.l}`], ["Units", (o.units >= 0 ? "+" : "") + o.units.toFixed(2) + "u", sign(o.units)],
+  const o = D.record.overall, k = D.record.locked || {n: 0, w: 0, l: 0, units: 0, roi: 0, passed: 0, passed_w: 0, pending: 0};
+  const useLock = k.n + k.pending + k.passed > 0;
+  stats($("#rec-stats"), useLock ? [
+    ["Locked record", `${k.w}-${k.l}`], ["Units", (k.units >= 0 ? "+" : "") + k.units.toFixed(2) + "u", sign(k.units)],
+    ["ROI", pct(k.roi), sign(k.roi)], ["Passed", `${k.passed} <span style="font-size:14px" class="mute">(went ${k.passed_w}-${k.passed - k.passed_w})</span>`]
+  ] : [["Record", `${o.w}-${o.l}`], ["Units", (o.units >= 0 ? "+" : "") + o.units.toFixed(2) + "u", sign(o.units)],
     ["ROI", pct(o.roi), sign(o.roi)], ["Avg CLV", (o.avg_clv >= 0 ? "+" : "") + (o.avg_clv * 100).toFixed(1) + "¢", sign(o.avg_clv)]]);
+  $("#rec-note2").innerHTML = useLock
+    ? `<b>Locked record</b> counts only picks that were still a PLAY ${D.stats.lock_minutes || 15} minutes before the game, at that price. At the first-alert price, all picks: ${o.w}-${o.l}, ${(o.units >= 0 ? "+" : "") + o.units.toFixed(2)}u.`
+    : "";
   $("#rec-sport").innerHTML = recHead + (Object.entries(D.record.by_sport).map(([k, s]) => recRow(k.toUpperCase(), s)).join("") ||
     `<tr><td colspan="7" class="mute">No alerts yet</td></tr>`);
   $("#rec-kind").innerHTML = recHead + (Object.entries(D.record.by_kind).map(([k, s]) => recRow({ELITE: "Single Elite $5k+", ELITE_CONSENSUS: "2+ Elite agree", CONSENSUS: "3+ sharps (old rule, retired)"}[k] || k, s)).join("") ||
     `<tr><td colspan="7" class="mute">No alerts yet</td></tr>`);
   $("#rec-type").innerHTML = recHead + (Object.entries(D.record.by_type || {}).map(([k, s]) => recRow({moneyline: "Moneyline", spreads: "Spread", totals: "Over/Under"}[k] || k, s)).join("") ||
     `<tr><td colspan="7" class="mute">No alerts yet</td></tr>`);
-  $("#rec-alerts").innerHTML = `<tr><th>Alerted</th><th>Sport</th><th>Pick</th><th>Entry</th><th>Close</th><th>Best book</th><th>Sharps</th><th>Result</th></tr>` +
+  $("#rec-alerts").innerHTML = `<tr><th>Alerted</th><th>Sport</th><th>Pick</th><th>Entry</th><th>Close</th><th>Best book</th><th>Sharps</th><th>Lock</th><th>Result</th></tr>` +
     (D.alerts.map(e => `<tr><td>${new Date(e.alerted_at).toLocaleString([], {month:"short", day:"numeric", hour:"numeric", minute:"2-digit"})}</td>
       <td>${e.sport.toUpperCase()}</td><td class="pk"><a href="${esc(e.url)}" target="_blank" rel="noopener"><b>${esc(e.outcome)}</b></a> <span class="mute">${esc(e.event_title)}</span></td>
       <td>${cents(e.entry_price)}</td><td class="${sign(e.close_price - e.entry_price)}">${cents(e.close_price)}</td>
       <td>${e.books && e.books.length ? esc(e.books[0].book) + " " + (e.books[0].price > 0 ? "+" : "") + e.books[0].price : "–"}</td><td>${e.n_wallets} · ${money(e.sharp_usd)}</td>
+      <td>${e.lock ? (e.lock.verdict === "PLAY" ? `<span class="pos">PLAY ${cents(e.lock.price)}</span>` : `<span class="neg" title="${esc(e.lock.reason)}">PASS</span>`) : "–"}</td>
       <td><span class="res ${e.result || "pending"}">${e.result || "PENDING"}</span>${e.pnl_100 != null && e.result !== "VOID" ? ` <span class="${sign(e.pnl_100)}">${e.pnl_100 > 0 ? "+" : ""}${Math.round(e.pnl_100)}</span>` : ""}</td></tr>`).join("") ||
-    `<tr><td colspan="8" class="mute">Alerts will appear here once the engine sends its first one.</td></tr>`);
+    `<tr><td colspan="9" class="mute">Alerts will appear here once the engine sends its first one.</td></tr>`);
 }
 
 function renderSharps() {

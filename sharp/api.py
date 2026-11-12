@@ -138,6 +138,19 @@ def parse_json_list(v: Any) -> list:
     return []
 
 
+def holders(condition_id: str, per_outcome: int = 50) -> list[dict]:
+    """Top holders of one market with entry economics, flattened across
+    outcome tokens. Rows: proxy_wallet, outcome_index, amount (shares),
+    avg_price, entry_cost_usdc, ..."""
+    body = get_json(f"{DATA}/holders", {
+        "condition": condition_id, "limit": min(per_outcome, 100), "include_pnl": "true",
+    }) or {}
+    out = []
+    for group in body.get("data") or []:
+        out.extend(group.get("holders") or [])
+    return out
+
+
 CLOB = "https://clob.polymarket.com"
 
 

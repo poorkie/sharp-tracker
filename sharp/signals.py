@@ -54,8 +54,12 @@ def net_flows(trades: list[dict], grades: dict, sport_of_cond: dict) -> dict:
     return flows
 
 
-def find_signals(flows: dict, markets: dict, grades: dict, cfg: dict) -> list[dict]:
-    """Apply consensus + single-elite rules. markets: condition_id -> market."""
+def find_signals(flows: dict, markets: dict, grades: dict, cfg: dict,
+                 entity: dict | None = None) -> list[dict]:
+    """Apply consensus + single-elite rules. markets: condition_id -> market.
+    entity maps wallet -> person (linked wallets share one id); rules count
+    distinct people, not wallets."""
+    entity = entity or {}
     c = cfg["consensus"]
     se = cfg["single_elite"]
     band = cfg["price_band"]
@@ -82,19 +86,31 @@ def find_signals(flows: dict, markets: dict, grades: dict, cfg: dict) -> list[di
                      if f.outcome_index < len(m["prices"]) else None)
             if price is None or not (band["min"] <= price <= band["max"]):
                 continue
+            held = getattr(f, "from_holders", set())
             wallet_info = sorted(
                 ({"wallet": w, "usd": round(v, 2), "entry": round(f.avg_entry(w), 3),
+                  "person": entity.get(w, w), "linked": entity.get(w, w) != w or
+                  any(entity.get(o, o) == entity.get(w, w) for o in longs if o != w),
+                  "via": "holding" if w in held else "trade",
                   **{k: grades[w][sport][k] for k in ("tier", "shrunk_roi", "n", "t_stat")}}
                  for w, v in longs.items()),
                 key=lambda x: -x["usd"])
             total = sum(longs.values())
+            per_person: dict[str, float] = defaultdict(float)
+            for x in wallet_info:
+                per_person[x["person"]] += x["usd"]
+            people = len(per_person)
             kind = None
-            if (len(longs) >= c["min_wallets"] and total >= c["min_total_usd"]
+            if (people >= c["min_wallets"] and total >= c["min_total_usd"]
                     and opposing <= c["max_opposing_ratio"] * total):
                 kind = "ELITE_CONSENSUS" if tiers == {"ELITE"} else "CONSENSUS"
             elif se["enabled"]:
-                big = [x for x in wallet_info if x["tier"] == "ELITE" and x["usd"] >= se["min_usd"]]
-                if big and opposing <= c["max_opposing_ratio"] * total:
+                elite_people = defaultdict(float)
+                for x in wallet_info:
+                    if x["tier"] == "ELITE":
+                        elite_people[x["person"]] += x["usd"]
+                if any(v >= se["min_usd"] for v in elite_people.values()) \
+                        and opposing <= c["max_opposing_ratio"] * total:
                     kind = "ELITE"
             if not kind:
                 continue
@@ -102,7 +118,7 @@ def find_signals(flows: dict, markets: dict, grades: dict, cfg: dict) -> list[di
                 "kind": kind, "condition_id": cid, "outcome_index": f.outcome_index,
                 "outcome": pick_label(m, f.outcome_index, f.outcome),
                 "sharp_usd": round(total, 2), "opposing_usd": round(opposing, 2),
-                "wallets": wallet_info, "price": price, "market": m,
+                "wallets": wallet_info, "people": people, "price": price, "market": m,
             })
     return signals
 

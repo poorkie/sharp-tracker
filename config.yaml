@@ -42,7 +42,7 @@ min_trade_usd: 200
 # ---- Wallet grading: who counts as "smart money" ---------------
 grading:
   # Bump this to re-grade every wallet (e.g. after adding leagues).
-  version: 2
+  version: 3
   # Only grade on single-game bets (slug contains a date). Futures
   # like "who wins the Stanley Cup" are excluded from the score.
   games_only: true
@@ -92,6 +92,41 @@ single_elite:
   # Also alert when one ELITE wallet makes a big bet on its own.
   enabled: true
   min_usd: 5000
+
+# ---- Multi-wallet detection ----------------------------------
+# Wallets that look like one person are merged; pick rules count people.
+clusters:
+  # Strict on purpose: real sharps often agree, and merging two genuinely
+  # different people would wrongly kill a consensus pick.
+  # "same bets": share at least this many recent game bets on the same side...
+  min_shared_bets: 40
+  # ...covering at least this fraction of the smaller wallet's recent bets...
+  min_overlap: 0.8
+  # ...and bet against each other at most this often (vs. same-side bets).
+  max_opposite_share: 0.05
+  # "same timing": bought the same side within cotimed_seconds at least
+  # min_cotimed times, and in at least cotimed_share of the games both bet.
+  # (Copy-trading bots get caught here too, which is right: a copy of
+  # someone's bet isn't a second opinion.)
+  cotimed_seconds: 30
+  min_cotimed: 6
+  cotimed_share: 0.8
+
+# ---- Top holders ------------------------------------------------
+holders:
+  # Check holders for games starting within this many hours...
+  hours_before_start: 18
+  # ...refreshing each market at most this often...
+  refresh_minutes: 60
+  # ...and at most this many markets per run (API budget).
+  max_markets_per_run: 120
+  per_outcome: 50
+  # Unknown wallets holding at least this much get queued for grading.
+  discover_usd: 1000
+
+# ---- 15-minute lock --------------------------------------------
+lock:
+  minutes_before_start: 15
 
 # Re-alert on the same side only if the sharp money grew by this
 # fraction since the last alert (0.5 = 50% more).

@@ -254,3 +254,99 @@ def test_one_line_per_game_and_type():
     assert ledger.has_same_game_line(book, b)        # alt spread on same game: blocked
     assert not ledger.has_same_game_line(book, c)    # a total on same game: allowed
     assert not ledger.has_same_game_line(book, a)    # same market: handled as an update
+
+
+# ---------- multi-wallet detection ----------
+
+from sharp import clusters, holders as holders_mod
+
+CL = CFG["clusters"]
+
+
+def _rows(n, start=0, flip=False, prefix="nba"):
+    return [{"event_slug": f"{prefix}-a-b-2026-10-{(i % 27) + 1:02d}", "condition_id": f"m{i}",
+             "token_id": f"m{i}-{'b' if flip else 'a'}"} for i in range(start, start + n)]
+
+
+def _wallets(fps):
+    return {w: {"grades": {"nba": {"tier": "ELITE"}}, "fp": fp} for w, fp in fps.items()}
+
+
+def test_same_bets_links_wallets_but_not_strangers():
+    fa = clusters.fingerprint(_rows(60), SPORTS)
+    fb = clusters.fingerprint(_rows(60, start=5), SPORTS)         # 55 shared, same side
+    fe = clusters.fingerprint(_rows(60, start=30), SPORTS)        # 30 shared: agree often, not same person
+    fc = clusters.fingerprint(_rows(60, start=200), SPORTS)       # different bets
+    fd = clusters.fingerprint(_rows(60, flip=True), SPORTS)       # same games, other side
+    ent, links = clusters.build(_wallets({"a": fa, "b": fb, "c": fc, "d": fd, "e": fe}), {}, CL)
+    assert ent["a"] == ent["b"] and ent["c"] == "c" and ent["d"] == "d" and ent["e"] == "e"
+    assert links[0]["why"] == "same bets"
+
+
+def test_same_timing_links_wallets():
+    st = {}
+    trades = []
+    for g in range(7):
+        trades += [{"proxy_wallet": "x", "condition_id": f"g{g}", "outcome_index": 0, "side": "BUY", "timestamp": 1000 * g},
+                   {"proxy_wallet": "y", "condition_id": f"g{g}", "outcome_index": 0, "side": "BUY", "timestamp": 1000 * g + 30}]
+    clusters.update_cotrade(st, trades, {"x", "y"}, NOW)
+    clusters.update_cotrade(st, trades, {"x", "y"}, NOW)          # re-seen: not double counted
+    assert st["pairs"]["x|y"] == {"both": 7, "together": 7}
+    ent, _ = clusters.build(_wallets({"x": [], "y": []}), st, CL)
+    assert ent["x"] == ent["y"]
+
+
+def test_linked_wallets_count_as_one_person():
+    g = {w: grade("ELITE") for w in ("a", "b")}
+    trades = [trade("a", "BUY", 1500), trade("b", "BUY", 1500)]
+    flows = signals.net_flows(trades, g, {"c1": "nhl"})
+    assert signals.find_signals(flows, MKT, g, CFG, {"a": "a", "b": "a"}) == []
+    s = signals.find_signals(flows, MKT, g, CFG, {"a": "a", "b": "b"})
+    assert len(s) == 1 and s[0]["people"] == 2
+
+
+# ---------- top holders ----------
+
+def test_holders_add_positions_and_net_hedgers():
+    g = {"a": grade("ELITE"), "b": grade("ELITE"), "h": grade("ELITE")}
+    cache = {"c1": {"at": NOW.isoformat(), "rows": [
+        {"w": "a", "i": 0, "s": 3000, "p": 0.42},                    # bought days ago
+        {"w": "b", "i": 0, "s": 2500, "p": 0.44},
+        {"w": "h", "i": 0, "s": 1000, "p": 0.45}, {"w": "h", "i": 1, "s": 1000, "p": 0.55},  # hedger
+    ]}}
+    flows = {}
+    assert holders_mod.merge(flows, cache, MKT, g) == 2
+    s = signals.find_signals(flows, MKT, g, CFG)
+    assert len(s) == 1 and s[0]["kind"] == "ELITE_CONSENSUS"
+    assert {w["via"] for w in s[0]["wallets"]} == {"holding"}
+    assert abs(s[0]["wallets"][0]["entry"] - 0.42) < 1e-9
+
+
+# ---------- 15-minute lock ----------
+
+def _pick(price=0.46, max_prob=0.49, start_in_min=10):
+    m = {**MKT["c1"], "game_start": (NOW + timedelta(minutes=start_in_min)).isoformat()}
+    e = ledger.add_alert([], {**_sig("c1", 0, 3000), "price": price, "market": m}, None, NOW - timedelta(hours=3))
+    e["max_prob"] = max_prob
+    return e, {"c1": {**m, "prices": [price, 1 - price]}}
+
+
+def test_lock_play_pass_and_locked_record(monkeypatch):
+    e1, mk = _pick()
+    assert ledger.lock_picks([e1], mk, {"c1:0"}, NOW) and e1["lock"]["verdict"] == "PLAY"
+    e2, mk2 = _pick(price=0.46, max_prob=0.40)
+    ledger.lock_picks([e2], mk2, {"c1:0"}, NOW)
+    assert e2["lock"]["verdict"] == "PASS" and "price" in e2["lock"]["reason"]
+    e3, mk3 = _pick()
+    ledger.lock_picks([e3], mk3, set(), NOW)
+    assert e3["lock"]["verdict"] == "PASS" and "left" in e3["lock"]["reason"]
+    e4, mk4 = _pick(start_in_min=60)                              # too early to lock
+    assert ledger.lock_picks([e4], mk4, {"c1:0"}, NOW) == []
+    for e in (e1, e2, e3):
+        e["game_start"] = (NOW - timedelta(hours=5)).isoformat()
+    monkeypatch.setattr(ledger.api, "markets_by_condition",
+                        lambda ids, closed: [{"conditionId": "c1", "outcomePrices": '["1","0"]'}])
+    ledger.grade_results([e1, e2, e3], NOW)
+    k = ledger.summary_locked([e1, e2, e3])
+    assert (k["n"], k["w"], k["passed"], k["passed_w"]) == (1, 1, 2, 2)
+    assert abs(k["units"] - 1.17) < 0.01

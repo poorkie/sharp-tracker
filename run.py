@@ -19,7 +19,7 @@ from collections import Counter
 
 import yaml
 
-from sharp import api, grading, ledger, markets, notify, odds, signals, site
+from sharp import api, clusters, grading, holders, ledger, markets, notify, odds, signals, site
 
 ROOT = Path(__file__).parent
 STATE = ROOT / "state"
@@ -84,8 +84,10 @@ def grade_some(cfg, wallets, queue, now, meta=None):
         except Exception as e:
             log.warning("grading %s failed: %s", w, e)
             continue
-        wallets[w] = {"graded_at": now.isoformat(),
-                      "grades": grading.grade_wallet(rows, cfg["sports"], g)}
+        grades_w = grading.grade_wallet(rows, cfg["sports"], g)
+        wallets[w] = {"graded_at": now.isoformat(), "grades": grades_w}
+        if any(x["tier"] in ("SHARP", "ELITE") for x in grades_w.values()):
+            wallets[w]["fp"] = clusters.fingerprint(rows, cfg["sports"])
         if w in queue:
             queue.remove(w)
     sharp = sum(any(x["tier"] != "NONE" for x in v["grades"].values()) for v in wallets.values())
@@ -155,6 +157,28 @@ def worth_up_to(sig, margin: float) -> float | None:
     return round(min(avg + margin, 0.97), 4)
 
 
+def people_text(sig) -> str:
+    n_people = sig.get("people", len(sig["wallets"]))
+    n_w = len(sig["wallets"])
+    t = f"{n_people} Elite bettor{'s' if n_people != 1 else ''}"
+    return t + (f" ({n_w} wallets)" if n_w != n_people else "")
+
+
+def format_lock(e, tz) -> tuple[str, str]:
+    lk = e["lock"]
+    p = lk["price"]
+    ok = lk["verdict"] == "PLAY"
+    title = f"🔒 FINAL: {'PLAY' if ok else 'PASS'} · {e['sport'].upper()}"
+    lines = [f"{e['outcome']} @ {p * 100:.0f}¢ ({odds.prob_to_american(p)})",
+             f"{e['event_title']}", lk["reason"]]
+    if e.get("max_prob"):
+        lines.append(f"Worth it up to {odds.prob_to_american(e['max_prob'])} ({e['max_prob'] * 100:.0f}¢)")
+    if ok and e.get("books"):
+        b = e["books"][0]
+        lines.append(f"Best book at alert: {b['book']} {odds.fmt_american(b['price'])}")
+    return title, "\n".join(lines)
+
+
 def format_alert(sig, view, tz, max_prob=None) -> tuple[str, str]:
     fair = view["fair"] if view else None
     m = sig["market"]
@@ -165,8 +189,7 @@ def format_alert(sig, view, tz, max_prob=None) -> tuple[str, str]:
     lines = [
         f"{sig['outcome']} @ {p * 100:.0f}¢ ({odds.prob_to_american(p)})",
         f"{m['event_title']} · {start.strftime('%a %-I:%M %p %Z')}",
-        f"{len(sig['wallets'])} sharp{'s' if len(sig['wallets']) > 1 else ''} · "
-        f"${sig['sharp_usd']:,.0f} in · ${sig['opposing_usd']:,.0f} other side",
+        f"{people_text(sig)} · ${sig['sharp_usd']:,.0f} in · ${sig['opposing_usd']:,.0f} other side",
     ]
     if fair is not None:
         edge = fair - p
@@ -209,6 +232,8 @@ def main():
     sent = load("sent.json", {})
     book = ledger.dedupe(load("ledger.json", []))
     odds_cache = load("odds_cache.json", {})
+    holders_cache = load("holders_cache.json", {})
+    cotrade = load("cotrade.json", {})
 
     refresh_candidates(cfg, wallets, queue, meta, now)
     grade_some(cfg, wallets, queue, now, meta)
@@ -227,8 +252,23 @@ def main():
             queue.append(w)
 
     grades = {w: v["grades"] for w, v in wallets.items()}
+    tracked = {w for w, g in grades.items()
+               if any(x.get("tier") in ("SHARP", "ELITE") for x in g.values())}
+
+    # top holders: positions graded wallets already hold (bought any time)
+    for w in holders.refresh(holders_cache, upcoming, tracked, now, cfg):
+        if w not in wallets and w not in queue:
+            queue.append(w)
+
     flows = signals.net_flows(trades, grades, {c: m["sport"] for c, m in by_cid.items()})
-    found = signals.find_signals(flows, by_cid, grades, cfg)
+    n_held = holders.merge(flows, holders_cache, by_cid, grades)
+
+    # multi-wallet detection
+    clusters.update_cotrade(cotrade, trades, tracked, now, cfg["clusters"].get("cotimed_seconds", 30))
+    entity, links = clusters.build(wallets, cotrade, cfg["clusters"])
+    log.info("holders added %d positions; %d linked wallet pairs", n_held, len(links))
+
+    found = signals.find_signals(flows, by_cid, grades, cfg, entity)
     log.info("%d signals", len(found))
 
     # strongest first, so when a game has several lines we pick the one
@@ -258,6 +298,24 @@ def main():
             entry["max_prob"] = max_prob
         sent[f"{sig['condition_id']}:{sig['outcome_index']}"] = sig["sharp_usd"]
 
+    # 15-minute lock: final PLAY/PASS on each open pick
+    alert_tiers = set(cfg["consensus"].get("alert_tiers", ["ELITE"]))
+    found_keys = {f"{x['condition_id']}:{x['outcome_index']}" for x in found}
+    still_in = set(found_keys)
+    for e in book:
+        f = flows.get((e["condition_id"], e["outcome_index"]))
+        if f is None:
+            continue
+        sport = e["sport"]
+        elite_usd = sum(v for w, v in f.wallets.items()
+                        if v > 0 and (grades.get(w) or {}).get(sport, {}).get("tier") in alert_tiers)
+        if elite_usd >= 0.5 * e["sharp_usd"]:
+            still_in.add(f"{e['condition_id']}:{e['outcome_index']}")
+    for e in ledger.lock_picks(book, by_cid, still_in, now, cfg["lock"]["minutes_before_start"]):
+        title, body = format_lock(e, tz)
+        notify.send(channels, title, body, e["url"])
+        log.info("locked %s: %s", e["outcome"], e["lock"]["verdict"])
+
     ledger.update_closing_prices(book, by_cid, now)
     n = ledger.grade_results(book, now)
     if n:
@@ -270,15 +328,19 @@ def main():
         save("sent.json", sent)
         save("ledger.json", book)
         save("odds_cache.json", odds_cache)
+        save("holders_cache.json", holders_cache)
+        save("cotrade.json", cotrade)
+        save("links.json", links)
         (ROOT / "RECORD.md").write_text(ledger.render_record(book, now))
         live = site.live_board(
             flows, by_cid, grades, set(sent),
             lambda m, i: book_view(cfg, m, i, odds_cache, now, allow_fetch=False),
-            cfg["odds"].get("worth_margin", 0.03))
+            cfg["odds"].get("worth_margin", 0.03), entity)
         site.write(ROOT / "docs" / "data.json", now, live, wallets, book,
                    len(by_cid), len(queue), cfg["consensus"]["min_wallets"],
                    dict(Counter(m["sport"] for m in upcoming)),
-                   len({m["event_slug"] for m in upcoming}))
+                   len({m["event_slug"] for m in upcoming}),
+                   links, cfg["lock"]["minutes_before_start"])
 
 
 if __name__ == "__main__":
