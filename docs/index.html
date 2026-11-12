@@ -117,6 +117,7 @@ footer{color:var(--dim);font-size:12px;margin-top:40px;border-top:1px solid var(
     <p class="note">Every alert is logged at the Polymarket price when it fired and graded automatically after the game, losses included. Units assume a flat $100 per alert. <b>CLV</b> (closing line value) is the price at game start minus the alert price: if it stays positive over a big sample, the alerts are beating the market.</p>
     <h2>By sport</h2><div class="tw"><table id="rec-sport"></table></div>
     <h2>By signal</h2><div class="tw"><table id="rec-kind"></table></div>
+    <h2>By bet type</h2><div class="tw"><table id="rec-type"></table></div>
     <h2>Alert history</h2><div class="tw"><table id="rec-alerts"></table></div>
   </section>
 
@@ -172,7 +173,7 @@ function renderLive() {
     const total = r.sharp_usd + r.opposing_usd, share = total ? r.sharp_usd / total : 1;
     const edge = r.book_fair != null && r.price != null ? r.book_fair - r.price : null;
     return `<article class="card ${r.alerted ? "alerted" : ""}">
-      <div class="top"><span class="sport">${esc(r.sport.toUpperCase())}</span><span>${when(r.game_start)}</span>
+      <div class="top"><span class="sport">${esc(r.sport.toUpperCase())}${r.market_type && r.market_type !== "moneyline" ? " · " + ({spreads: "SPREAD", totals: "O/U"}[r.market_type] || r.market_type.toUpperCase()) : ""}</span><span>${when(r.game_start)}</span>
         ${r.alerted ? `<span class="pill go">ALERT SENT</span>` : `<span class="pill build">${r.elites || 0}/${need} ELITE</span>`}</div>
       <div class="game">${esc(r.event_title)}</div>
       <div class="pick"><span class="team">${esc(r.outcome)}</span><span class="px">${cents(r.price)}</span><span class="am">${amer(r.price)}</span></div>
@@ -206,6 +207,8 @@ function renderRecord() {
   $("#rec-sport").innerHTML = recHead + (Object.entries(D.record.by_sport).map(([k, s]) => recRow(k.toUpperCase(), s)).join("") ||
     `<tr><td colspan="7" class="mute">No alerts yet</td></tr>`);
   $("#rec-kind").innerHTML = recHead + (Object.entries(D.record.by_kind).map(([k, s]) => recRow({ELITE: "Single Elite $5k+", ELITE_CONSENSUS: "2+ Elite agree", CONSENSUS: "3+ sharps (old rule, retired)"}[k] || k, s)).join("") ||
+    `<tr><td colspan="7" class="mute">No alerts yet</td></tr>`);
+  $("#rec-type").innerHTML = recHead + (Object.entries(D.record.by_type || {}).map(([k, s]) => recRow({moneyline: "Moneyline", spreads: "Spread", totals: "Over/Under"}[k] || k, s)).join("") ||
     `<tr><td colspan="7" class="mute">No alerts yet</td></tr>`);
   $("#rec-alerts").innerHTML = `<tr><th>Alerted</th><th>Sport</th><th>Pick</th><th>Entry</th><th>Close</th><th>Best book</th><th>Sharps</th><th>Result</th></tr>` +
     (D.alerts.map(e => `<tr><td>${new Date(e.alerted_at).toLocaleString([], {month:"short", day:"numeric", hour:"numeric", minute:"2-digit"})}</td>

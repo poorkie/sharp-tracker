@@ -22,7 +22,7 @@ sports:
 # Market types to watch. Polymarket labels game markets with a
 # sportsMarketType; "moneyline" is the cleanest signal. Add
 # "spreads" and "totals" if you want those too.
-market_types: [moneyline]
+market_types: [moneyline, spreads, totals]
 
 # Only look at games starting within this many hours. Games that
 # have already started are skipped (live betting is mostly noise).

@@ -47,6 +47,28 @@ def game_start(m: dict, ev: dict) -> datetime | None:
     return parse_time(mt.group(1) + "T23:00:00+00:00") if mt else None
 
 
+LINE = re.compile(r"([+-]?\d+(?:\.\d+)?)")
+
+
+def pick_label(m: dict, idx: int, outcome: str | None = None) -> str:
+    """Readable pick: 'Knicks', 'Knicks -4.5', 'Over 221.5'."""
+    outs = m.get("outcomes") or []
+    name = outcome or (outs[idx] if idx < len(outs) else "")
+    q = m.get("question") or ""
+    mt = m.get("market_type")
+    if mt == "totals":
+        ln = re.search(r"O/U\s*(\d+(?:\.\d+)?)", q, re.I) or LINE.search(q.split(":")[-1])
+        return f"{name} {ln.group(1)}" if ln else name
+    if mt == "spreads":
+        mm = re.search(r"([^:(]+?)\s*\(([+-]?\d+(?:\.\d+)?)\)", q)
+        if mm:
+            team, line = mm.group(1).strip(), float(mm.group(2))
+            if team.lower() not in name.lower() and name.lower() not in team.lower():
+                line = -line
+            return f"{name} {line:+g}"
+    return name
+
+
 def upcoming_markets(cfg: dict, now: datetime) -> list[dict]:
     horizon = now + timedelta(hours=cfg["lookahead_hours"])
     wanted = set(cfg["market_types"])

@@ -75,6 +75,7 @@ def add_alert(ledger: list, sig: dict, fair: float | None, now: datetime) -> dic
         "condition_id": sig["condition_id"],
         "outcome_index": sig["outcome_index"],
         "outcome": sig["outcome"],
+        "market_type": m.get("market_type", "moneyline"),
         "entry_price": sig["price"],
         "book_fair": fair,
         "sharp_usd": sig["sharp_usd"],

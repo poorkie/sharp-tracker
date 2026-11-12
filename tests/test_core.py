@@ -235,3 +235,11 @@ def test_other_side_blocked_and_dedupe_repairs_old_ledgers():
     fixed = ledger.dedupe(old)
     assert [(e["condition_id"], e["outcome_index"]) for e in fixed] == [("c1", 0), ("c2", 0)]
     assert fixed[0]["sharp_usd"] == 5000 and fixed[0]["entry_price"] == 0.6
+
+
+def test_pick_labels():
+    from sharp.markets import pick_label
+    sp = {"question": "Spread: Knicks (-4.5)", "market_type": "spreads", "outcomes": ["Knicks", "Cavaliers"]}
+    tot = {"question": "Knicks vs. Cavaliers: O/U 221.5", "market_type": "totals", "outcomes": ["Over", "Under"]}
+    assert pick_label(sp, 0) == "Knicks -4.5" and pick_label(sp, 1) == "Cavaliers +4.5"
+    assert pick_label(tot, 0) == "Over 221.5"

@@ -7,6 +7,7 @@ from datetime import datetime
 from pathlib import Path
 
 from .ledger import summary
+from .markets import pick_label
 
 
 def live_board(flows: dict, markets: dict, grades: dict, alerted_keys: set,
@@ -34,7 +35,8 @@ def live_board(flows: dict, markets: dict, grades: dict, alerted_keys: set,
                 "alerted": f"{cid}:{idx}" in alerted_keys,
                 "sport": sport,
                 "event_title": m["event_title"],
-                "outcome": f.outcome or m["outcomes"][idx],
+                "outcome": pick_label(m, idx, f.outcome),
+                "market_type": m.get("market_type", "moneyline"),
                 "price": price,
                 **_books(view_lookup(m, idx)),
                 "game_start": m["game_start"],
@@ -75,10 +77,11 @@ def sharps_table(wallets: dict, limit: int = 200) -> list[dict]:
 
 def write(path: Path, now: datetime, live: list, wallets: dict, book: list,
           n_markets: int, queue_len: int, min_wallets: int = 3) -> None:
-    by_sport, by_kind = defaultdict(list), defaultdict(list)
+    by_sport, by_kind, by_type = defaultdict(list), defaultdict(list), defaultdict(list)
     for e in book:
         by_sport[e["sport"]].append(e)
         by_kind[e["kind"]].append(e)
+        by_type[e.get("market_type", "moneyline")].append(e)
     sharps = sharps_table(wallets)
     data = {
         "updated": now.isoformat(),
@@ -95,6 +98,7 @@ def write(path: Path, now: datetime, live: list, wallets: dict, book: list,
             "overall": summary(book),
             "by_sport": {k: summary(v) for k, v in sorted(by_sport.items())},
             "by_kind": {k: summary(v) for k, v in sorted(by_kind.items())},
+            "by_type": {k: summary(v) for k, v in sorted(by_type.items())},
         },
         "alerts": sorted(book, key=lambda e: e["alerted_at"], reverse=True)[:300],
     }

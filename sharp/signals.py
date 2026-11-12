@@ -4,6 +4,8 @@ from __future__ import annotations
 from collections import defaultdict
 from dataclasses import dataclass, field
 
+from .markets import pick_label
+
 
 @dataclass
 class SideFlow:
@@ -98,7 +100,7 @@ def find_signals(flows: dict, markets: dict, grades: dict, cfg: dict) -> list[di
                 continue
             signals.append({
                 "kind": kind, "condition_id": cid, "outcome_index": f.outcome_index,
-                "outcome": f.outcome or m["outcomes"][f.outcome_index],
+                "outcome": pick_label(m, f.outcome_index, f.outcome),
                 "sharp_usd": round(total, 2), "opposing_usd": round(opposing, 2),
                 "wallets": wallet_info, "price": price, "market": m,
             })
