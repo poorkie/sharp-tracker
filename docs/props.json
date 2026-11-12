@@ -1,0 +1,380 @@
+{
+ "cutoff": "2026-09-01",
+ "table": {
+  "ELITE:moneyline": {
+   "bets": 827,
+   "staked": 4737239,
+   "pnl": 645821,
+   "roi_dollar": 0.1363,
+   "roi_flat": 0.0951,
+   "hit_rate": 0.543,
+   "avg_price": 0.521
+  },
+  "ELITE:spread": {
+   "bets": 1193,
+   "staked": 4019956,
+   "pnl": 245755,
+   "roi_dollar": 0.0611,
+   "roi_flat": 0.0614,
+   "hit_rate": 0.506,
+   "avg_price": 0.472
+  },
+  "ELITE:total": {
+   "bets": 1193,
+   "staked": 3775179,
+   "pnl": 410126,
+   "roi_dollar": 0.1086,
+   "roi_flat": 0.0735,
+   "hit_rate": 0.513,
+   "avg_price": 0.483
+  },
+  "ELITE:player_prop": {
+   "bets": 267,
+   "staked": 157004,
+   "pnl": 26365,
+   "roi_dollar": 0.1679,
+   "roi_flat": 0.0515,
+   "hit_rate": 0.629,
+   "avg_price": 0.578
+  },
+  "ELITE:team_prop": {
+   "bets": 451,
+   "staked": 202432,
+   "pnl": 26950,
+   "roi_dollar": 0.1331,
+   "roi_flat": 0.0743,
+   "hit_rate": 0.537,
+   "avg_price": 0.519
+  },
+  "ELITE:other": {
+   "bets": 40,
+   "staked": 5262,
+   "pnl": -116,
+   "roi_dollar": -0.022,
+   "roi_flat": -0.0091,
+   "hit_rate": 0.7,
+   "avg_price": 0.735
+  },
+  "ELITE:ALL": {
+   "bets": 3971,
+   "staked": 12897073,
+   "pnl": 1354901,
+   "roi_dollar": 0.1051,
+   "roi_flat": 0.0722,
+   "hit_rate": 0.53,
+   "avg_price": 0.501
+  },
+  "SHARP:moneyline": {
+   "bets": 1281,
+   "staked": 7599704,
+   "pnl": -748091,
+   "roi_dollar": -0.0984,
+   "roi_flat": -0.0115,
+   "hit_rate": 0.521,
+   "avg_price": 0.49
+  },
+  "SHARP:spread": {
+   "bets": 738,
+   "staked": 3549459,
+   "pnl": -15132,
+   "roi_dollar": -0.0043,
+   "roi_flat": -0.0221,
+   "hit_rate": 0.484,
+   "avg_price": 0.485
+  },
+  "SHARP:total": {
+   "bets": 845,
+   "staked": 2149627,
+   "pnl": -67549,
+   "roi_dollar": -0.0314,
+   "roi_flat": 0.0907,
+   "hit_rate": 0.473,
+   "avg_price": 0.437
+  },
+  "SHARP:player_prop": {
+   "bets": 553,
+   "staked": 140314,
+   "pnl": 11854,
+   "roi_dollar": 0.0845,
+   "roi_flat": 0.079,
+   "hit_rate": 0.785,
+   "avg_price": 0.723
+  },
+  "SHARP:team_prop": {
+   "bets": 195,
+   "staked": 72112,
+   "pnl": -15663,
+   "roi_dollar": -0.2172,
+   "roi_flat": 2.4997,
+   "hit_rate": 0.385,
+   "avg_price": 0.36
+  },
+  "SHARP:other": {
+   "bets": 1,
+   "staked": 14,
+   "pnl": 6,
+   "roi_dollar": 0.4075,
+   "roi_flat": 0.4075,
+   "hit_rate": 1.0,
+   "avg_price": 0.711
+  },
+  "SHARP:ALL": {
+   "bets": 3613,
+   "staked": 13511230,
+   "pnl": -834575,
+   "roi_dollar": -0.0618,
+   "roi_flat": 0.1597,
+   "hit_rate": 0.536,
+   "avg_price": 0.505
+  },
+  "NONE:moneyline": {
+   "bets": 20290,
+   "staked": 206763593,
+   "pnl": 2732857,
+   "roi_dollar": 0.0132,
+   "roi_flat": 0.1402,
+   "hit_rate": 0.532,
+   "avg_price": 0.536
+  },
+  "NONE:spread": {
+   "bets": 17018,
+   "staked": 77651360,
+   "pnl": -254888,
+   "roi_dollar": -0.0033,
+   "roi_flat": -0.0263,
+   "hit_rate": 0.512,
+   "avg_price": 0.514
+  },
+  "NONE:total": {
+   "bets": 13673,
+   "staked": 54891577,
+   "pnl": -929699,
+   "roi_dollar": -0.0169,
+   "roi_flat": -0.0183,
+   "hit_rate": 0.514,
+   "avg_price": 0.519
+  },
+  "NONE:player_prop": {
+   "bets": 1231,
+   "staked": 545892,
+   "pnl": 25687,
+   "roi_dollar": 0.0471,
+   "roi_flat": 0.0691,
+   "hit_rate": 0.616,
+   "avg_price": 0.586
+  },
+  "NONE:team_prop": {
+   "bets": 2196,
+   "staked": 2722834,
+   "pnl": 179774,
+   "roi_dollar": 0.066,
+   "roi_flat": -0.0112,
+   "hit_rate": 0.551,
+   "avg_price": 0.556
+  },
+  "NONE:other": {
+   "bets": 151,
+   "staked": 125020,
+   "pnl": -18972,
+   "roi_dollar": -0.1518,
+   "roi_flat": -0.1391,
+   "hit_rate": 0.603,
+   "avg_price": 0.614
+  },
+  "NONE:ALL": {
+   "bets": 54559,
+   "staked": 342700277,
+   "pnl": 1734759,
+   "roi_dollar": 0.0051,
+   "roi_flat": 0.0401,
+   "hit_rate": 0.524,
+   "avg_price": 0.527
+  },
+  "UNGRADED:moneyline": {
+   "bets": 30131,
+   "staked": 242260033,
+   "pnl": 11300639,
+   "roi_dollar": 0.0466,
+   "roi_flat": 0.1671,
+   "hit_rate": 0.512,
+   "avg_price": 0.507
+  },
+  "UNGRADED:spread": {
+   "bets": 52398,
+   "staked": 113775043,
+   "pnl": 4545088,
+   "roi_dollar": 0.0399,
+   "roi_flat": 0.4128,
+   "hit_rate": 0.476,
+   "avg_price": 0.497
+  },
+  "UNGRADED:total": {
+   "bets": 41472,
+   "staked": 60231036,
+   "pnl": 2121330,
+   "roi_dollar": 0.0352,
+   "roi_flat": 0.0702,
+   "hit_rate": 0.47,
+   "avg_price": 0.489
+  },
+  "UNGRADED:player_prop": {
+   "bets": 3703,
+   "staked": 713753,
+   "pnl": 996,
+   "roi_dollar": 0.0014,
+   "roi_flat": -0.0088,
+   "hit_rate": 0.522,
+   "avg_price": 0.52
+  },
+  "UNGRADED:team_prop": {
+   "bets": 7284,
+   "staked": 2864422,
+   "pnl": -27129,
+   "roi_dollar": -0.0095,
+   "roi_flat": 0.0916,
+   "hit_rate": 0.492,
+   "avg_price": 0.498
+  },
+  "UNGRADED:other": {
+   "bets": 162,
+   "staked": 21176,
+   "pnl": -1262,
+   "roi_dollar": -0.0596,
+   "roi_flat": -0.1268,
+   "hit_rate": 0.525,
+   "avg_price": 0.497
+  },
+  "UNGRADED:ALL": {
+   "bets": 135150,
+   "staked": 419865463,
+   "pnl": 17939662,
+   "roi_dollar": 0.0427,
+   "roi_flat": 0.2234,
+   "hit_rate": 0.484,
+   "avg_price": 0.498
+  }
+ },
+ "elite_money_share": {
+  "moneyline": 0.367,
+  "spread": 0.312,
+  "total": 0.293,
+  "team_prop": 0.016,
+  "player_prop": 0.012,
+  "other": 0.0
+ },
+ "elite_median_bet": {
+  "moneyline": 901,
+  "spread": 1103,
+  "total": 1000,
+  "team_prop": 52,
+  "player_prop": 131,
+  "other": 72
+ },
+ "prop_market_volume": {
+  "markets": 400,
+  "median": 243,
+  "p25": 31,
+  "p75": 1486
+ },
+ "examples": {
+  "moneyline": [
+   "Kings vs. Spurs",
+   "Will Newcastle United FC win on 2026-11-02?",
+   "Will Newcastle United FC win on 2026-11-02?",
+   "Will Newcastle United FC vs. Everton FC end in a draw?",
+   "Will Everton FC win on 2026-11-02?",
+   "Will Newcastle United FC vs. Everton FC end in a draw?",
+   "Will Everton FC win on 2026-11-02?",
+   "Will Liverpool FC vs. Arsenal FC end in a draw?"
+  ],
+  "total": [
+   "Brentford FC vs. Chelsea FC: O/U 2.5",
+   "Hull City AFC vs. Everton FC: O/U 2.5",
+   "Newcastle United FC vs. Everton FC: O/U 2.5",
+   "Newcastle United FC vs. Everton FC: O/U 2.5",
+   "Liverpool FC vs. Arsenal FC: O/U 2.5",
+   "Liverpool FC vs. Arsenal FC: O/U 2.5",
+   "Aston Villa FC vs. Fulham FC: O/U 2.5",
+   "Aston Villa FC vs. Fulham FC: O/U 2.5"
+  ],
+  "team_prop": [
+   "Brentford FC vs. Chelsea FC: Both Teams to Score",
+   "Bucks vs. Knicks: 1H Moneyline",
+   "Exact Score: Manchester United FC 0 - 0 Aston Villa FC?",
+   "Aston Villa FC vs. Fulham FC: Fulham FC O/U 1.5",
+   "1H Spread: Bears (-2.5)",
+   "Tottenham Hotspur FC vs. Coventry City FC: Coventry City FC O/U 0.5",
+   "Tottenham Hotspur FC vs. Coventry City FC: Both Teams to Score",
+   "Leeds United FC vs. Manchester United FC: Both Teams to Score"
+  ],
+  "spread": [
+   "Spread: Aston Villa FC (-1.5)",
+   "Spread: AFC Bournemouth (-1.5)",
+   "Spread: AFC Bournemouth (-1.5)",
+   "Spread: Manchester City FC (-1.5)",
+   "Spread: Chelsea FC (-1.5)",
+   "Spread: Chelsea FC (-1.5)",
+   "Spread: Sunderland AFC (-1.5)",
+   "Spread: Liverpool FC (-1.5)"
+  ],
+  "player_prop": [
+   "Manchester City FC to score first vs. Sunderland AFC?",
+   "Jayson Tatum: Assists O/U 5.5",
+   "Leeds United FC vs. Newcastle United FC: Neither team to score first?",
+   "Manchester United FC to score first vs. Everton FC?",
+   "James Harden: Assists O/U 6.5",
+   "Bam Adebayo: Points O/U 18.5",
+   "Bam Adebayo: Rebounds O/U 9.5",
+   "Bam Adebayo: Points O/U 18.5"
+  ],
+  "other": [
+   "Arsenal FC leading at halftime?",
+   "Fulham FC leading at halftime?",
+   "Manchester City FC leading at halftime?",
+   "Everton FC leading at halftime?",
+   "Los Angeles Angels to win the 1st inning?",
+   "Toronto Blue Jays to win the 1st inning?",
+   "Baltimore Orioles to win the 5th inning?",
+   "Baltimore Orioles to win the 1st inning?"
+  ]
+ },
+ "row_fields": [
+  "_wallet",
+  "archived",
+  "avg_price",
+  "condition_id",
+  "current_price",
+  "current_size",
+  "current_value",
+  "end_date",
+  "entry_cost_usdc",
+  "entry_fees_usdc",
+  "event_id",
+  "event_slug",
+  "first_entry_at",
+  "icon",
+  "last_event_at",
+  "mergeable",
+  "name",
+  "negative_risk",
+  "opposite_outcome",
+  "opposite_token_id",
+  "outcome",
+  "outcome_index",
+  "percent_pnl",
+  "percent_realized_pnl",
+  "profile_image",
+  "proxy_wallet",
+  "realized_pnl",
+  "redeemable",
+  "slug",
+  "status",
+  "title",
+  "token_id",
+  "total_cost_usdc",
+  "total_pnl",
+  "total_size",
+  "unrealized_pnl",
+  "verified"
+ ]
+}
