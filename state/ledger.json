@@ -578,5 +578,75 @@
   "sport": "nba",
   "updates": 1,
   "url": "https://polymarket.com/event/nba-mil-orl-2026-11-13"
+ },
+ {
+  "alerted_at": "2026-11-13T23:10:17.867569+00:00",
+  "book_fair": 0.7369,
+  "books": [
+   {
+    "book": "MyBookie.ag",
+    "price": -319,
+    "prob": 0.7613
+   },
+   {
+    "book": "BetMGM",
+    "price": -325,
+    "prob": 0.7647
+   },
+   {
+    "book": "FanDuel",
+    "price": -330,
+    "prob": 0.7674
+   },
+   {
+    "book": "Bovada",
+    "price": -330,
+    "prob": 0.7674
+   },
+   {
+    "book": "LowVig.ag",
+    "price": -331,
+    "prob": 0.768
+   },
+   {
+    "book": "BetOnline.ag",
+    "price": -335,
+    "prob": 0.7701
+   },
+   {
+    "book": "BetRivers",
+    "price": -335,
+    "prob": 0.7701
+   },
+   {
+    "book": "BetUS",
+    "price": -335,
+    "prob": 0.7701
+   },
+   {
+    "book": "DraftKings",
+    "price": -337,
+    "prob": 0.7712
+   }
+  ],
+  "close_price": 0.745,
+  "clv": null,
+  "condition_id": "0xc31a3f047367e05c7c92b9553b7cf00252bb86b3291cf3dda9e6868644a0de6b",
+  "entry_price": 0.745,
+  "event_title": "Knicks vs. Pacers",
+  "game_start": "2026-11-14T00:00:00+00:00",
+  "id": "0xc31a3f04-0-1794611417",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "moneyline",
+  "max_prob": 0.7796,
+  "n_wallets": 2,
+  "outcome": "Knicks",
+  "outcome_index": 0,
+  "pnl_100": null,
+  "question": "Knicks vs. Pacers",
+  "result": null,
+  "sharp_usd": 2288.3,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-nyk-ind-2026-11-13"
  }
 ]
