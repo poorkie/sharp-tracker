@@ -201,6 +201,13 @@
   "game_start": "2026-11-13T01:15:00+00:00",
   "id": "0x3e226608-1-1794486621",
   "kind": "CONSENSUS",
+  "lock": {
+   "at": "2026-11-13T01:00:19.707915+00:00",
+   "late": false,
+   "price": 0.545,
+   "reason": "Elite still in, price OK",
+   "verdict": "PLAY"
+  },
   "n_wallets": 3,
   "outcome": "Giants",
   "outcome_index": 1,
@@ -265,6 +272,13 @@
   "game_start": "2026-11-13T01:15:00+00:00",
   "id": "0x741ce947-1-1794504452",
   "kind": "ELITE_CONSENSUS",
+  "lock": {
+   "at": "2026-11-13T01:00:19.707915+00:00",
+   "late": false,
+   "price": 0.525,
+   "reason": "Elite still in, price OK",
+   "verdict": "PLAY"
+  },
   "market_type": "spreads",
   "max_prob": 0.558,
   "n_wallets": 2,
@@ -289,6 +303,13 @@
   "game_start": "2026-11-13T01:15:00+00:00",
   "id": "0xa867a352-1-1794508219",
   "kind": "ELITE_CONSENSUS",
+  "lock": {
+   "at": "2026-11-13T01:00:19.707915+00:00",
+   "late": false,
+   "price": 0.475,
+   "reason": "Elite still in, price OK",
+   "verdict": "PLAY"
+  },
   "market_type": "totals",
   "max_prob": 0.5166,
   "n_wallets": 2,
