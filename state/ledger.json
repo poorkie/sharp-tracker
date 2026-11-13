@@ -629,7 +629,7 @@
     "prob": 0.7712
    }
   ],
-  "close_price": 0.735,
+  "close_price": 0.725,
   "clv": null,
   "condition_id": "0xc31a3f047367e05c7c92b9553b7cf00252bb86b3291cf3dda9e6868644a0de6b",
   "entry_price": 0.745,
@@ -672,5 +672,29 @@
   "sharp_usd": 3472.43,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-uta-hou-2026-11-13"
+ },
+ {
+  "alerted_at": "2026-11-13T23:30:18.746834+00:00",
+  "book_fair": null,
+  "books": [],
+  "close_price": 0.375,
+  "clv": null,
+  "condition_id": "0x41f94101d57bf028eff62f2cc3714adb79722553dc59c1676071459c0b009e45",
+  "entry_price": 0.375,
+  "event_title": "LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs",
+  "game_start": "2026-11-14T19:00:00+00:00",
+  "id": "0x41f94101-0-1794612618",
+  "kind": "ELITE",
+  "market_type": "moneyline",
+  "max_prob": 0.4,
+  "n_wallets": 1,
+  "outcome": "Bilibili Gaming",
+  "outcome_index": 0,
+  "pnl_100": null,
+  "question": "LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs",
+  "result": null,
+  "sharp_usd": 9163.48,
+  "sport": "lol",
+  "url": "https://polymarket.com/event/lol-blg-gen-2026-11-14"
  }
 ]
