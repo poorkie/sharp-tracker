@@ -291,7 +291,7 @@
    }
   ],
   "close_price": 0.655,
-  "clv": null,
+  "clv": -0.01,
   "condition_id": "0xdde6e7a34ee10ceb51438a9d549e15845457709d94dbe007376dc5fad926e108",
   "entry_price": 0.665,
   "event_title": "Hornets vs. Suns",
@@ -301,6 +301,7 @@
   "lock": {
    "at": "2026-11-13T01:50:17.249592+00:00",
    "late": false,
+   "pnl_100": 52.67,
    "price": 0.655,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -309,9 +310,9 @@
   "n_wallets": 2,
   "outcome": "Suns",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": 50.38,
   "question": "Hornets vs. Suns",
-  "result": null,
+  "result": "WIN",
   "sharp_usd": 4990.39,
   "sport": "nba",
   "updates": 1,
