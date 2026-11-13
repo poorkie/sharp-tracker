@@ -482,5 +482,29 @@
   "sharp_usd": 9456.83,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-uta-hou-2026-11-13"
+ },
+ {
+  "alerted_at": "2026-11-13T19:50:17.933530+00:00",
+  "book_fair": null,
+  "books": [],
+  "close_price": 0.495,
+  "clv": null,
+  "condition_id": "0x4ad8596bd50da48fb4fef4ea09f6b3cfd31c9bfc07e0c6dd93ef5c3de7c39458",
+  "entry_price": 0.495,
+  "event_title": "Bucks vs. Magic",
+  "game_start": "2026-11-14T00:00:00+00:00",
+  "id": "0x4ad8596b-0-1794599417",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "totals",
+  "max_prob": 0.511,
+  "n_wallets": 3,
+  "outcome": "Over 223.5",
+  "outcome_index": 0,
+  "pnl_100": null,
+  "question": "Bucks vs. Magic: O/U 223.5",
+  "result": null,
+  "sharp_usd": 3874.34,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-mil-orl-2026-11-13"
  }
 ]
