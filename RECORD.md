@@ -1,6 +1,6 @@
 # Sharp Tracker: graded record
 
-Updated 2026-11-13 17:50 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
+Updated 2026-11-13 18:00 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
 
 ## Overall
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
@@ -29,7 +29,7 @@ Updated 2026-11-13 17:50 UTC. Every alert is logged at the price when it fired a
 | 2026-11-12 18:30 | NFL | [Under 40.5: Commanders vs. Giants](https://polymarket.com/event/nfl-was-nyg-2026-11-13) | 0.48 | 0.47 | – | 2 / $4,070 | LOSS (-100) |
 | 2026-11-12 17:27 | NFL | [Commanders +2.5: Commanders vs. Giants](https://polymarket.com/event/nfl-was-nyg-2026-11-13) | 0.53 | 0.52 | – | 2 / $28,905 | WIN (+90) |
 | 2026-11-12 16:25 | NBA | [Suns: Hornets vs. Suns](https://polymarket.com/event/nba-cha-phx-2026-11-12) | 0.67 | 0.66 | 66% | 2 / $4,990 | WIN (+50) |
-| 2026-11-12 15:50 | CFB | [Florida State: Florida State vs. Pittsburgh](https://polymarket.com/event/cfb-flst-pitt-2026-11-13) | 0.39 | 0.40 | – | 3 / $5,554 | pending |
+| 2026-11-12 15:50 | CFB | [Florida State: Florida State vs. Pittsburgh](https://polymarket.com/event/cfb-flst-pitt-2026-11-13) | 0.39 | 0.39 | – | 3 / $5,554 | pending |
 | 2026-11-12 12:30 | NFL | [Giants: Commanders vs. Giants](https://polymarket.com/event/nfl-was-nyg-2026-11-13) | 0.54 | 0.55 | – | 3 / $4,415 | LOSS (-100) |
 | 2026-11-12 02:50 | NHL | [Ducks: Predators vs. Ducks](https://polymarket.com/event/nhl-nsh-ana-2026-11-11) | 0.56 | 0.56 | – | 3 / $6,523 | LOSS (-100) |
 | 2026-11-12 02:40 | NBA | [Trail Blazers: Thunder vs. Trail Blazers](https://polymarket.com/event/nba-okc-por-2026-11-11) | 0.57 | 0.58 | – | 3 / $18,170 | WIN (+74) |
