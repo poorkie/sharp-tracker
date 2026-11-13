@@ -194,7 +194,7 @@
   "alerted_at": "2026-11-12T12:30:21.168717+00:00",
   "book_fair": null,
   "close_price": 0.545,
-  "clv": null,
+  "clv": 0.01,
   "condition_id": "0x3e2266088f5b074f7c6e5805ac2eb29b03a65aabce5c7f557d209f92edb92321",
   "entry_price": 0.535,
   "event_title": "Commanders vs. Giants",
@@ -204,6 +204,7 @@
   "lock": {
    "at": "2026-11-13T01:00:19.707915+00:00",
    "late": false,
+   "pnl_100": -100.0,
    "price": 0.545,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -211,9 +212,9 @@
   "n_wallets": 3,
   "outcome": "Giants",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": -100.0,
   "question": "Commanders vs. Giants",
-  "result": null,
+  "result": "LOSS",
   "sharp_usd": 4414.81,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-was-nyg-2026-11-13"
@@ -321,7 +322,7 @@
   "book_fair": null,
   "books": [],
   "close_price": 0.515,
-  "clv": null,
+  "clv": -0.01,
   "condition_id": "0x741ce9470a95cb442d0d967f15b9432750615b62f97f53dbe478bbbe24fd8074",
   "entry_price": 0.525,
   "event_title": "Commanders vs. Giants",
@@ -331,6 +332,7 @@
   "lock": {
    "at": "2026-11-13T01:00:19.707915+00:00",
    "late": false,
+   "pnl_100": 90.48,
    "price": 0.525,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -340,9 +342,9 @@
   "n_wallets": 2,
   "outcome": "Commanders +2.5",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": 90.48,
   "question": "Spread: Giants (-2.5)",
-  "result": null,
+  "result": "WIN",
   "sharp_usd": 28904.99,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-was-nyg-2026-11-13"
