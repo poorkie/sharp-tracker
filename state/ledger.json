@@ -412,5 +412,75 @@
   "sharp_usd": 3201.43,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-tor-phi-2026-11-12"
+ },
+ {
+  "alerted_at": "2026-11-13T19:00:29.025725+00:00",
+  "book_fair": 0.8856,
+  "books": [
+   {
+    "book": "FanDuel",
+    "price": -1100,
+    "prob": 0.9167
+   },
+   {
+    "book": "LowVig.ag",
+    "price": -1174,
+    "prob": 0.9215
+   },
+   {
+    "book": "DraftKings",
+    "price": -1180,
+    "prob": 0.9219
+   },
+   {
+    "book": "BetOnline.ag",
+    "price": -1200,
+    "prob": 0.9231
+   },
+   {
+    "book": "Bovada",
+    "price": -1200,
+    "prob": 0.9231
+   },
+   {
+    "book": "BetUS",
+    "price": -1200,
+    "prob": 0.9231
+   },
+   {
+    "book": "BetMGM",
+    "price": -1200,
+    "prob": 0.9231
+   },
+   {
+    "book": "MyBookie.ag",
+    "price": -1205,
+    "prob": 0.9234
+   },
+   {
+    "book": "BetRivers",
+    "price": -1250,
+    "prob": 0.9259
+   }
+  ],
+  "close_price": 0.905,
+  "clv": null,
+  "condition_id": "0xe2d82c8a571f1cb972a63ccd9fc1bbd0ca3d0da14c41c4986dc222f37def627c",
+  "entry_price": 0.905,
+  "event_title": "Jazz vs. Rockets",
+  "game_start": "2026-11-14T01:30:00+00:00",
+  "id": "0xe2d82c8a-1-1794596429",
+  "kind": "ELITE",
+  "market_type": "moneyline",
+  "max_prob": 0.93,
+  "n_wallets": 1,
+  "outcome": "Rockets",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Jazz vs. Rockets",
+  "result": null,
+  "sharp_usd": 9456.83,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-uta-hou-2026-11-13"
  }
 ]
