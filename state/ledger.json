@@ -222,7 +222,7 @@
  {
   "alerted_at": "2026-11-12T15:50:26.548677+00:00",
   "book_fair": null,
-  "close_price": 0.385,
+  "close_price": 0.395,
   "clv": null,
   "condition_id": "0xd2a03fad445e7a40ec8674bf35feb854bf94d155e6120d8b7336a58d8d6259cd",
   "entry_price": 0.385,
@@ -505,6 +505,76 @@
   "question": "Bucks vs. Magic: O/U 223.5",
   "result": null,
   "sharp_usd": 3874.34,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-mil-orl-2026-11-13"
+ },
+ {
+  "alerted_at": "2026-11-13T20:50:29.073332+00:00",
+  "book_fair": 0.2346,
+  "books": [
+   {
+    "book": "LowVig.ag",
+    "price": 315,
+    "prob": 0.241
+   },
+   {
+    "book": "DraftKings",
+    "price": 312,
+    "prob": 0.2427
+   },
+   {
+    "book": "BetUS",
+    "price": 312,
+    "prob": 0.2427
+   },
+   {
+    "book": "BetOnline.ag",
+    "price": 310,
+    "prob": 0.2439
+   },
+   {
+    "book": "BetMGM",
+    "price": 310,
+    "prob": 0.2439
+   },
+   {
+    "book": "FanDuel",
+    "price": 300,
+    "prob": 0.25
+   },
+   {
+    "book": "Bovada",
+    "price": 300,
+    "prob": 0.25
+   },
+   {
+    "book": "BetRivers",
+    "price": 290,
+    "prob": 0.2564
+   },
+   {
+    "book": "MyBookie.ag",
+    "price": 285,
+    "prob": 0.2597
+   }
+  ],
+  "close_price": 0.225,
+  "clv": null,
+  "condition_id": "0xe41b983a07d8ad2009cc7c251b571291194aefc0ce9b91bda4396e28b32de85d",
+  "entry_price": 0.225,
+  "event_title": "Bucks vs. Magic",
+  "game_start": "2026-11-14T00:00:00+00:00",
+  "id": "0xe41b983a-0-1794603029",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "moneyline",
+  "max_prob": 0.25,
+  "n_wallets": 2,
+  "outcome": "Bucks",
+  "outcome_index": 0,
+  "pnl_100": null,
+  "question": "Bucks vs. Magic",
+  "result": null,
+  "sharp_usd": 2045.81,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-mil-orl-2026-11-13"
  }
