@@ -222,7 +222,7 @@
  {
   "alerted_at": "2026-11-12T15:50:26.548677+00:00",
   "book_fair": null,
-  "close_price": 0.405,
+  "close_price": 0.425,
   "clv": null,
   "condition_id": "0xd2a03fad445e7a40ec8674bf35feb854bf94d155e6120d8b7336a58d8d6259cd",
   "entry_price": 0.385,
@@ -488,7 +488,7 @@
   "alerted_at": "2026-11-13T19:50:17.933530+00:00",
   "book_fair": null,
   "books": [],
-  "close_price": 0.505,
+  "close_price": 0.495,
   "clv": null,
   "condition_id": "0x4ad8596bd50da48fb4fef4ea09f6b3cfd31c9bfc07e0c6dd93ef5c3de7c39458",
   "entry_price": 0.495,
@@ -629,7 +629,7 @@
     "prob": 0.7712
    }
   ],
-  "close_price": 0.745,
+  "close_price": 0.735,
   "clv": null,
   "condition_id": "0xc31a3f047367e05c7c92b9553b7cf00252bb86b3291cf3dda9e6868644a0de6b",
   "entry_price": 0.745,
@@ -648,5 +648,29 @@
   "sharp_usd": 2288.3,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-nyk-ind-2026-11-13"
+ },
+ {
+  "alerted_at": "2026-11-13T23:20:15.276080+00:00",
+  "book_fair": null,
+  "books": [],
+  "close_price": 0.525,
+  "clv": null,
+  "condition_id": "0xa3467197947d863aa43b99d3bc7ba9f21b3b938cb7c891bf216883f2dd18723c",
+  "entry_price": 0.525,
+  "event_title": "Jazz vs. Rockets",
+  "game_start": "2026-11-14T01:30:00+00:00",
+  "id": "0xa3467197-1-1794612015",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "totals",
+  "max_prob": 0.6039,
+  "n_wallets": 2,
+  "outcome": "Under 222.5",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Jazz vs. Rockets: O/U 222.5",
+  "result": null,
+  "sharp_usd": 3472.43,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-uta-hou-2026-11-13"
  }
 ]
