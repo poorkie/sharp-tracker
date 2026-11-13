@@ -263,18 +263,17 @@ function renderActivity() {
     `<button class="${k === actTier ? "on" : ""}" data-t="${k}">${l}</button>`).join("");
   t.onclick = e => { if (e.target.dataset.t) { actTier = e.target.dataset.t; renderActivity(); } };
   const typ = {spreads: "Spread", totals: "O/U", moneyline: "ML"};
-  $("#activity").innerHTML = `<tr><th>When</th><th>Wallet</th><th>Tier</th><th>Bet</th><th>Game</th><th>Action</th><th>Amount</th><th>Paid</th><th>Now</th><th>Wallet record</th></tr>` +
+  $("#activity").innerHTML = `<tr><th>When</th><th>Wallet</th><th>Record</th><th>Bet</th><th>Action</th><th>Amount</th><th>Paid</th><th>Now</th></tr>` +
     (rows.map(r => `<tr>
       <td title="${new Date(r.ts).toLocaleString()}">${ago(r.ts)}</td>
-      <td><a href="https://polymarket.com/profile/${esc(r.wallet)}" target="_blank" rel="noopener">${short(r.wallet)}</a>${r.person !== r.wallet || rows.some(x => x.person === r.person && x.wallet !== r.wallet) ? ` <span class="tag link" title="Looks like the same person as another wallet">🔗</span>` : ""}</td>
-      <td><span class="tier ${r.tier}">${r.tier}</span></td>
-      <td class="pk"><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.pick)}</b></a> <span class="mute">${esc(r.sport.toUpperCase())} ${typ[r.market_type] || ""}</span>${r.is_pick ? ` <span class="tag" style="color:var(--green)">PICK</span>` : ""}</td>
-      <td class="pk mute">${esc(r.event_title)}<br><span style="font-size:11px">${when(r.game_start)}</span></td>
+      <td><span class="tier ${r.tier}">${r.tier}</span> <a href="https://polymarket.com/profile/${esc(r.wallet)}" target="_blank" rel="noopener">${short(r.wallet)}</a>${r.person !== r.wallet || rows.some(x => x.person === r.person && x.wallet !== r.wallet) ? ` <span class="tag link" title="Looks like the same person as another wallet">🔗</span>` : ""}</td>
+      <td><span class="${sign(r.roi || 0)}">${pct(r.roi || 0, 0)}</span> <span class="mute" style="font-size:11px">ROI · ${r.n} bets</span></td>
+      <td class="pk"><a href="${esc(r.url)}" target="_blank" rel="noopener"><b>${esc(r.pick)}</b></a> <span class="mute">${esc(r.sport.toUpperCase())} ${typ[r.market_type] || ""}</span>${r.is_pick ? ` <span class="tag" style="color:var(--green)">PICK</span>` : ""}
+        <br><span class="mute" style="font-size:12px">${esc(r.event_title)} · ${when(r.game_start)}</span></td>
       <td>${r.side === "BUY" ? `<span class="pos">BUY</span>` : r.side === "SELL" ? `<span class="neg">SELL</span>` : `<span class="tag">holding</span>`}</td>
       <td>${money(r.usd)}</td><td>${cents(r.price)}</td>
-      <td class="${r.now == null ? "" : r.now <= r.price + 0.005 ? "pos" : "neg"}">${cents(r.now)}</td>
-      <td class="mute">ROI ${pct(r.roi || 0, 0)} · n=${r.n}</td></tr>`).join("") ||
-    `<tr><td colspan="10" class="mute">No activity from ${actTier === "ELITE" ? "Elite" : "graded"} wallets on upcoming games yet.</td></tr>`);
+      <td class="${r.now == null ? "" : r.now <= r.price + 0.005 ? "pos" : "neg"}">${cents(r.now)}</td></tr>`).join("") ||
+    `<tr><td colspan="8" class="mute">No activity from ${actTier === "ELITE" ? "Elite" : "graded"} wallets on upcoming games yet.</td></tr>`);
 }
 
 function renderSharps() {
