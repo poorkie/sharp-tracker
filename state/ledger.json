@@ -230,6 +230,13 @@
   "game_start": "2026-11-14T00:00:00+00:00",
   "id": "0xd2a03fad-0-1794498626",
   "kind": "CONSENSUS",
+  "lock": {
+   "at": "2026-11-13T23:50:17.132024+00:00",
+   "late": false,
+   "price": 0.425,
+   "reason": "Elite still in, price OK",
+   "verdict": "PLAY"
+  },
   "n_wallets": 3,
   "outcome": "Florida State",
   "outcome_index": 0,
@@ -488,7 +495,7 @@
   "alerted_at": "2026-11-13T19:50:17.933530+00:00",
   "book_fair": null,
   "books": [],
-  "close_price": 0.495,
+  "close_price": 0.505,
   "clv": null,
   "condition_id": "0x4ad8596bd50da48fb4fef4ea09f6b3cfd31c9bfc07e0c6dd93ef5c3de7c39458",
   "entry_price": 0.495,
@@ -496,6 +503,13 @@
   "game_start": "2026-11-14T00:00:00+00:00",
   "id": "0x4ad8596b-0-1794599417",
   "kind": "ELITE_CONSENSUS",
+  "lock": {
+   "at": "2026-11-13T23:50:17.132024+00:00",
+   "late": false,
+   "price": 0.505,
+   "reason": "Elite still in, price OK",
+   "verdict": "PLAY"
+  },
   "market_type": "totals",
   "max_prob": 0.511,
   "n_wallets": 3,
@@ -566,6 +580,13 @@
   "game_start": "2026-11-14T00:00:00+00:00",
   "id": "0xe41b983a-0-1794603029",
   "kind": "ELITE_CONSENSUS",
+  "lock": {
+   "at": "2026-11-13T23:50:17.132024+00:00",
+   "late": false,
+   "price": 0.215,
+   "reason": "Elite still in, price OK",
+   "verdict": "PLAY"
+  },
   "market_type": "moneyline",
   "max_prob": 0.25,
   "n_wallets": 2,
@@ -637,6 +658,13 @@
   "game_start": "2026-11-14T00:00:00+00:00",
   "id": "0xc31a3f04-0-1794611417",
   "kind": "ELITE_CONSENSUS",
+  "lock": {
+   "at": "2026-11-13T23:50:17.132024+00:00",
+   "late": false,
+   "price": 0.725,
+   "reason": "Elite still in, price OK",
+   "verdict": "PLAY"
+  },
   "market_type": "moneyline",
   "max_prob": 0.7796,
   "n_wallets": 2,
