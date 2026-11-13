@@ -352,7 +352,7 @@
   "book_fair": null,
   "books": [],
   "close_price": 0.475,
-  "clv": null,
+  "clv": -0.01,
   "condition_id": "0xa867a35213560e293f4ad77e5cd86e9fb90a53d417f2b465ea49218f3d5b1e9d",
   "entry_price": 0.485,
   "event_title": "Commanders vs. Giants",
@@ -362,6 +362,7 @@
   "lock": {
    "at": "2026-11-13T01:00:19.707915+00:00",
    "late": false,
+   "pnl_100": -100.0,
    "price": 0.475,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -371,9 +372,9 @@
   "n_wallets": 2,
   "outcome": "Under 40.5",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": -100.0,
   "question": "Commanders vs. Giants: O/U 40.5",
-  "result": null,
+  "result": "LOSS",
   "sharp_usd": 4069.63,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-was-nyg-2026-11-13"
