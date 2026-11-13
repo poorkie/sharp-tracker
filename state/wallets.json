@@ -35557,6 +35557,102 @@
    }
   }
  },
+ "0x306e06d4457dc86d88671a788c77b17e8c213a7c": {
+  "graded_at": "2026-11-13T14:00:20.649157+00:00",
+  "grades": {
+   "atp": {
+    "avg_price": 0.496,
+    "hit_edge": 0.101,
+    "hit_rate": 0.596,
+    "n": 228,
+    "pnl": 1274.11,
+    "roi": 0.0108,
+    "shrunk_roi": 0.0047,
+    "sport": "atp",
+    "staked": 118070.44,
+    "t_stat": 0.76,
+    "tier": "NONE"
+   },
+   "epl": {
+    "avg_price": 0.508,
+    "hit_edge": 0.024,
+    "hit_rate": 0.532,
+    "n": 47,
+    "pnl": -501.04,
+    "roi": -0.0055,
+    "shrunk_roi": -0.0168,
+    "sport": "epl",
+    "staked": 90486.24,
+    "t_stat": -1.24,
+    "tier": "NONE"
+   },
+   "mlb": {
+    "avg_price": 0.379,
+    "hit_edge": 0.121,
+    "hit_rate": 0.5,
+    "n": 2,
+    "pnl": -1.13,
+    "roi": -0.0247,
+    "shrunk_roi": -0.0297,
+    "sport": "mlb",
+    "staked": 45.62,
+    "t_stat": -0.08,
+    "tier": "NONE"
+   },
+   "nba": {
+    "avg_price": 0.508,
+    "hit_edge": -0.075,
+    "hit_rate": 0.432,
+    "n": 37,
+    "pnl": -236.22,
+    "roi": -0.0049,
+    "shrunk_roi": -0.018,
+    "sport": "nba",
+    "staked": 47749.18,
+    "t_stat": -1.3,
+    "tier": "NONE"
+   },
+   "nfl": {
+    "avg_price": 0.496,
+    "hit_edge": 0.196,
+    "hit_rate": 0.692,
+    "n": 13,
+    "pnl": 1404.86,
+    "roi": 0.0747,
+    "shrunk_roi": -0.0043,
+    "sport": "nfl",
+    "staked": 18795.33,
+    "t_stat": 0.72,
+    "tier": "NONE"
+   },
+   "nhl": {
+    "avg_price": 0.433,
+    "hit_edge": -0.1,
+    "hit_rate": 0.333,
+    "n": 3,
+    "pnl": 37.82,
+    "roi": 0.0423,
+    "shrunk_roi": -0.025,
+    "sport": "nhl",
+    "staked": 894.42,
+    "t_stat": 0.91,
+    "tier": "NONE"
+   },
+   "wta": {
+    "avg_price": 0.524,
+    "hit_edge": -0.045,
+    "hit_rate": 0.479,
+    "n": 190,
+    "pnl": -23304.28,
+    "roi": -0.1995,
+    "shrunk_roi": -0.17,
+    "sport": "wta",
+    "staked": 116812.78,
+    "t_stat": -3.45,
+    "tier": "NONE"
+   }
+  }
+ },
  "0x309ccb4b7f963ad7757ac6ab7b62d7d8dc51e6fb": {
   "fp": [
    "3f7aa6a4:dfe",
