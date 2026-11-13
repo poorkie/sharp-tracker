@@ -13820,6 +13820,76 @@
    }
   }
  },
+ "0x15b181a96458073f16bab64afed8f2054e9af636": {
+  "graded_at": "2026-11-13T21:00:19.651892+00:00",
+  "grades": {
+   "dota2": {
+    "avg_price": 0.236,
+    "hit_edge": -0.236,
+    "hit_rate": 0.0,
+    "n": 5,
+    "pnl": -1083.6,
+    "roi": -1.0001,
+    "shrunk_roi": -0.1378,
+    "sport": "dota2",
+    "staked": 1083.45,
+    "t_stat": -8175.17,
+    "tier": "NONE"
+   },
+   "lol": {
+    "avg_price": 0.408,
+    "hit_edge": -0.194,
+    "hit_rate": 0.214,
+    "n": 28,
+    "pnl": -1011.59,
+    "roi": -0.2171,
+    "shrunk_roi": -0.1071,
+    "sport": "lol",
+    "staked": 4658.79,
+    "t_stat": -3.6,
+    "tier": "NONE"
+   },
+   "nba": {
+    "avg_price": 0.48,
+    "hit_edge": 0.52,
+    "hit_rate": 1.0,
+    "n": 2,
+    "pnl": 956.25,
+    "roi": 1.1919,
+    "shrunk_roi": 0.0282,
+    "sport": "nba",
+    "staked": 802.27,
+    "t_stat": 1.64,
+    "tier": "NONE"
+   },
+   "nfl": {
+    "avg_price": 0.497,
+    "hit_edge": 0.503,
+    "hit_rate": 1.0,
+    "n": 1,
+    "pnl": 502.5,
+    "roi": 1.0103,
+    "shrunk_roi": -0.0046,
+    "sport": "nfl",
+    "staked": 497.4,
+    "t_stat": 0.0,
+    "tier": "NONE"
+   },
+   "nhl": {
+    "avg_price": 0.492,
+    "hit_edge": 0.508,
+    "hit_rate": 1.0,
+    "n": 1,
+    "pnl": 82.67,
+    "roi": 1.0307,
+    "shrunk_roi": -0.0041,
+    "sport": "nhl",
+    "staked": 80.2,
+    "t_stat": 0.0,
+    "tier": "NONE"
+   }
+  }
+ },
  "0x15e06a47d9c665bda1703ff965ea76f8e56e8d86": {
   "fp": [
    "c6306bde:b90",
@@ -70437,6 +70507,24 @@
     "sport": "mlb",
     "staked": 12690882.36,
     "t_stat": 0.18,
+    "tier": "NONE"
+   }
+  }
+ },
+ "0x65e7f7aea33c7531a2eee0f057047a00eebc31c8": {
+  "graded_at": "2026-11-13T21:00:19.651892+00:00",
+  "grades": {
+   "lol": {
+    "avg_price": 0.814,
+    "hit_edge": 0.186,
+    "hit_rate": 1.0,
+    "n": 1,
+    "pnl": 18742.51,
+    "roi": 0.2169,
+    "shrunk_roi": -0.024,
+    "sport": "lol",
+    "staked": 86425.56,
+    "t_stat": 0.0,
     "tier": "NONE"
    }
   }
