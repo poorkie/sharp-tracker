@@ -795,6 +795,13 @@
   "game_start": "2026-11-14T21:30:00+00:00",
   "id": "0xa7a657b2-1-1794625822",
   "kind": "ELITE_CONSENSUS",
+  "lock": {
+   "at": "2026-11-14T21:20:26.493135+00:00",
+   "late": false,
+   "price": 0.395,
+   "reason": "Elite money left",
+   "verdict": "PASS"
+  },
   "market_type": "moneyline",
   "max_prob": 0.43,
   "n_wallets": 2,
