@@ -754,6 +754,13 @@
   "game_start": "2026-11-14T03:30:00+00:00",
   "id": "0xf1cf6b5e-1-1794624016",
   "kind": "ELITE_CONSENSUS",
+  "lock": {
+   "at": "2026-11-14T03:20:16.648543+00:00",
+   "late": false,
+   "price": 0.535,
+   "reason": "price ran past worth-it",
+   "verdict": "PASS"
+  },
   "market_type": "totals",
   "max_prob": 0.5332,
   "n_wallets": 2,
