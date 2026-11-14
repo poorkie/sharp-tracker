@@ -1,25 +1,25 @@
 # Sharp Tracker: graded record
 
-Updated 2026-11-14 02:50 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
+Updated 2026-11-14 03:00 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
 
 ## Overall
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
-| All alerts | 6-8 | -5.09u | -36.4% | +0.1¢ | 21% | 8 |
+| All alerts | 6-11 | -8.09u | -47.6% | -0.1¢ | 24% | 5 |
 
 ## By signal
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
 | CONSENSUS | 4-5 | -3.50u | -38.9% | +0.0¢ | 22% | 1 |
 | ELITE | 0-1 | -1.00u | -100.0% | +4.0¢ | 100% | 2 |
-| ELITE_CONSENSUS | 2-2 | -0.59u | -14.8% | -0.8¢ | 0% | 5 |
+| ELITE_CONSENSUS | 2-5 | -3.59u | -51.3% | -0.7¢ | 14% | 2 |
 
 ## By sport
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
 | CFB | 0-0 | +0.00u | +0.0% | +0.0¢ | 0% | 1 |
 | LOL | 0-0 | +0.00u | +0.0% | +0.0¢ | 0% | 1 |
-| NBA | 5-3 | -1.00u | -12.4% | +0.4¢ | 25% | 6 |
+| NBA | 5-6 | -4.00u | -36.3% | +0.1¢ | 27% | 3 |
 | NFL | 1-2 | -1.10u | -36.5% | -0.3¢ | 33% | 0 |
 | NHL | 0-3 | -3.00u | -100.0% | -0.3¢ | 0% | 0 |
 
@@ -29,9 +29,9 @@ Updated 2026-11-14 02:50 UTC. Every alert is logged at the price when it fired a
 | 2026-11-14 02:40 | NBA | [Under 222.5: Thunder vs. Clippers](https://polymarket.com/event/nba-okc-lac-2026-11-13) | 0.53 | 0.53 | – | 2 / $2,634 | pending |
 | 2026-11-13 23:30 | LOL | [Bilibili Gaming: LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs](https://polymarket.com/event/lol-blg-gen-2026-11-14) | 0.38 | 0.38 | – | 1 / $9,163 | pending |
 | 2026-11-13 23:20 | NBA | [Under 222.5: Jazz vs. Rockets](https://polymarket.com/event/nba-uta-hou-2026-11-13) | 0.53 | 0.53 | – | 2 / $3,472 | pending |
-| 2026-11-13 23:10 | NBA | [Knicks: Knicks vs. Pacers](https://polymarket.com/event/nba-nyk-ind-2026-11-13) | 0.74 | 0.72 | 74% | 2 / $2,288 | pending |
-| 2026-11-13 20:50 | NBA | [Bucks: Bucks vs. Magic](https://polymarket.com/event/nba-mil-orl-2026-11-13) | 0.23 | 0.21 | 23% | 2 / $3,177 | pending |
-| 2026-11-13 19:50 | NBA | [Over 223.5: Bucks vs. Magic](https://polymarket.com/event/nba-mil-orl-2026-11-13) | 0.49 | 0.51 | – | 3 / $3,874 | pending |
+| 2026-11-13 23:10 | NBA | [Knicks: Knicks vs. Pacers](https://polymarket.com/event/nba-nyk-ind-2026-11-13) | 0.74 | 0.72 | 74% | 2 / $2,288 | LOSS (-100) |
+| 2026-11-13 20:50 | NBA | [Bucks: Bucks vs. Magic](https://polymarket.com/event/nba-mil-orl-2026-11-13) | 0.23 | 0.21 | 23% | 2 / $3,177 | LOSS (-100) |
+| 2026-11-13 19:50 | NBA | [Over 223.5: Bucks vs. Magic](https://polymarket.com/event/nba-mil-orl-2026-11-13) | 0.49 | 0.51 | – | 3 / $3,874 | LOSS (-100) |
 | 2026-11-13 19:00 | NBA | [Rockets: Jazz vs. Rockets](https://polymarket.com/event/nba-uta-hou-2026-11-13) | 0.91 | 0.91 | 89% | 1 / $22,917 | pending |
 | 2026-11-12 20:00 | NBA | [Raptors +6.5: Raptors vs. 76ers](https://polymarket.com/event/nba-tor-phi-2026-11-12) | 0.47 | 0.47 | – | 2 / $3,201 | LOSS (-100) |
 | 2026-11-12 18:30 | NFL | [Under 40.5: Commanders vs. Giants](https://polymarket.com/event/nfl-was-nyg-2026-11-13) | 0.48 | 0.47 | – | 2 / $4,070 | LOSS (-100) |
