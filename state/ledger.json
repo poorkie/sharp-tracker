@@ -746,7 +746,7 @@
   "alerted_at": "2026-11-14T02:40:16.338993+00:00",
   "book_fair": null,
   "books": [],
-  "close_price": 0.525,
+  "close_price": 0.535,
   "clv": null,
   "condition_id": "0xf1cf6b5eca386089a41dc1a15e171dc6a98e590c88e747e6096e7a7e493f89db",
   "entry_price": 0.525,
@@ -765,5 +765,29 @@
   "sharp_usd": 2634.35,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-okc-lac-2026-11-13"
+ },
+ {
+  "alerted_at": "2026-11-14T03:10:22.882592+00:00",
+  "book_fair": null,
+  "books": [],
+  "close_price": 0.395,
+  "clv": null,
+  "condition_id": "0xa7a657b2bf862236533c46f2a213ebcc8e5ce2039be457559f06abe0f0b6402b",
+  "entry_price": 0.395,
+  "event_title": "WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina",
+  "game_start": "2026-11-14T21:30:00+00:00",
+  "id": "0xa7a657b2-1-1794625822",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "moneyline",
+  "max_prob": 0.43,
+  "n_wallets": 2,
+  "outcome": "Elina Svitolina",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina",
+  "result": null,
+  "sharp_usd": 2000.0,
+  "sport": "wta",
+  "url": "https://polymarket.com/event/wta-noskova-svitoli-2026-11-14"
  }
 ]
