@@ -105609,6 +105609,63 @@
    }
   }
  },
+ "0x82ffc6546ce2d53184cf9e4336fcc517774f6f16": {
+  "graded_at": "2026-11-14T18:00:25.316919+00:00",
+  "grades": {
+   "cfb": {
+    "avg_price": 0.419,
+    "hit_edge": -0.133,
+    "hit_rate": 0.286,
+    "n": 7,
+    "pnl": 1883.58,
+    "roi": 0.0944,
+    "shrunk_roi": -0.0115,
+    "sport": "cfb",
+    "staked": 19959.66,
+    "t_stat": 0.1,
+    "tier": "NONE"
+   },
+   "lol": {
+    "avg_price": 0.001,
+    "hit_edge": -0.001,
+    "hit_rate": 0.0,
+    "n": 1,
+    "pnl": -6.99,
+    "roi": -1.059,
+    "shrunk_roi": -0.0551,
+    "sport": "lol",
+    "staked": 6.6,
+    "t_stat": 0.0,
+    "tier": "NONE"
+   },
+   "mlb": {
+    "avg_price": 0.487,
+    "hit_edge": 0.513,
+    "hit_rate": 1.0,
+    "n": 1,
+    "pnl": 1028.37,
+    "roi": 1.0529,
+    "shrunk_roi": -0.0036,
+    "sport": "mlb",
+    "staked": 976.74,
+    "t_stat": 0.0,
+    "tier": "NONE"
+   },
+   "nfl": {
+    "avg_price": 0.487,
+    "hit_edge": 0.084,
+    "hit_rate": 0.571,
+    "n": 7,
+    "pnl": -1950.97,
+    "roi": -0.181,
+    "shrunk_roi": -0.0525,
+    "sport": "nfl",
+    "staked": 10776.41,
+    "t_stat": 0.4,
+    "tier": "NONE"
+   }
+  }
+ },
  "0x83255595ba1fadd2e734cb30a0fb8110301a19cc": {
   "graded_at": "2026-11-12T19:20:15.205601+00:00",
   "grades": {}
@@ -113366,6 +113423,37 @@
     "sport": "wta",
     "staked": 92574.06,
     "t_stat": -1.16,
+    "tier": "NONE"
+   }
+  }
+ },
+ "0x8dc5667e182f4ba1ac9c8a6ed02db849e05fc07d": {
+  "graded_at": "2026-11-14T18:00:25.316919+00:00",
+  "grades": {
+   "dota2": {
+    "avg_price": 0.612,
+    "hit_edge": -0.025,
+    "hit_rate": 0.587,
+    "n": 566,
+    "pnl": 16772.07,
+    "roi": 0.0272,
+    "shrunk_roi": 0.0235,
+    "sport": "dota2",
+    "staked": 615637.62,
+    "t_stat": -1.96,
+    "tier": "NONE"
+   },
+   "lol": {
+    "avg_price": 0.709,
+    "hit_edge": -0.041,
+    "hit_rate": 0.668,
+    "n": 226,
+    "pnl": -18319.2,
+    "roi": -0.0447,
+    "shrunk_roi": -0.0425,
+    "sport": "lol",
+    "staked": 409863.07,
+    "t_stat": -1.8,
     "tier": "NONE"
    }
   }
