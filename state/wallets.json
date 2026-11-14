@@ -42465,6 +42465,24 @@
    }
   }
  },
+ "0x32bcc6f511ec7b53e0259763fd19937fe0de9600": {
+  "graded_at": "2026-11-14T08:20:16.908333+00:00",
+  "grades": {
+   "lol": {
+    "avg_price": 0.55,
+    "hit_edge": -0.133,
+    "hit_rate": 0.417,
+    "n": 36,
+    "pnl": -475.26,
+    "roi": -0.6844,
+    "shrunk_roi": -0.34,
+    "sport": "lol",
+    "staked": 694.41,
+    "t_stat": -0.92,
+    "tier": "NONE"
+   }
+  }
+ },
  "0x32ed517a571c01b6e9adecf61ba81ca48ff2f960": {
   "fp": [
    "64c33da0:bc6",
@@ -91339,6 +91357,24 @@
     "sport": "nba",
     "staked": 204.58,
     "t_stat": 0.19,
+    "tier": "NONE"
+   }
+  }
+ },
+ "0x748d960f16772eef859c31e96587876bc7c98a86": {
+  "graded_at": "2026-11-14T08:20:16.908333+00:00",
+  "grades": {
+   "lol": {
+    "avg_price": 0.566,
+    "hit_edge": 0.234,
+    "hit_rate": 0.8,
+    "n": 5,
+    "pnl": 154.23,
+    "roi": 0.558,
+    "shrunk_roi": 0.0353,
+    "sport": "lol",
+    "staked": 276.41,
+    "t_stat": 0.72,
     "tier": "NONE"
    }
   }
@@ -175653,6 +175689,50 @@
     "sport": "wta",
     "staked": 25232.53,
     "t_stat": 1.06,
+    "tier": "NONE"
+   }
+  }
+ },
+ "0xe05173d9dfb3469ceeff73228aea66ed16dfdf86": {
+  "graded_at": "2026-11-14T08:20:16.908333+00:00",
+  "grades": {
+   "epl": {
+    "avg_price": 0.494,
+    "hit_edge": -0.161,
+    "hit_rate": 0.333,
+    "n": 6,
+    "pnl": -2473.38,
+    "roi": -0.1302,
+    "shrunk_roi": -0.0431,
+    "sport": "epl",
+    "staked": 18993.19,
+    "t_stat": -1.58,
+    "tier": "NONE"
+   },
+   "mlb": {
+    "avg_price": 0.562,
+    "hit_edge": 0.438,
+    "hit_rate": 1.0,
+    "n": 2,
+    "pnl": 4365.13,
+    "roi": 0.4163,
+    "shrunk_roi": -0.0087,
+    "sport": "mlb",
+    "staked": 10484.53,
+    "t_stat": 2.52,
+    "tier": "NONE"
+   },
+   "nhl": {
+    "avg_price": 0.473,
+    "hit_edge": -0.029,
+    "hit_rate": 0.444,
+    "n": 9,
+    "pnl": 6172.62,
+    "roi": 0.2681,
+    "shrunk_roi": 0.0247,
+    "sport": "nhl",
+    "staked": 23026.37,
+    "t_stat": 0.0,
     "tier": "NONE"
    }
   }
