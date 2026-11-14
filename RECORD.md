@@ -1,6 +1,6 @@
 # Sharp Tracker: graded record
 
-Updated 2026-11-14 22:00 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
+Updated 2026-11-14 22:10 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
 
 ## Overall
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
@@ -28,7 +28,7 @@ Updated 2026-11-14 22:00 UTC. Every alert is logged at the price when it fired a
 | Alerted (UTC) | Sport | Pick | Entry | Close | Books fair | Sharps | Result |
 |---|---|---|---|---|---|---|---|
 | 2026-11-14 19:40 | NBA | [Grizzlies -1.5: Nets vs. Grizzlies](https://polymarket.com/event/nba-bkn-mem-2026-11-14) | 0.48 | 0.52 | – | 2 / $4,756 | pending |
-| 2026-11-14 18:50 | NBA | [Cavaliers +4.5: Mavericks vs. Cavaliers](https://polymarket.com/event/nba-dal-cle-2026-11-14) | 0.52 | 0.47 | – | 2 / $3,128 | pending |
+| 2026-11-14 18:50 | NBA | [Cavaliers +4.5: Mavericks vs. Cavaliers](https://polymarket.com/event/nba-dal-cle-2026-11-14) | 0.52 | 0.46 | – | 2 / $3,128 | pending |
 | 2026-11-14 10:20 | NBA | [Pelicans +9.5: Nuggets vs. Pelicans](https://polymarket.com/event/nba-den-nop-2026-11-14) | 0.36 | 0.40 | – | 2 / $7,579 | pending |
 | 2026-11-14 06:10 | NHL | [Canadiens: Avalanche vs. Canadiens](https://polymarket.com/event/nhl-col-mon-2026-11-14) | 0.54 | 0.56 | 52% | 1 / $6,493 | pending |
 | 2026-11-14 06:00 | NFL | [Titans +10.5: Jaguars vs. Titans](https://polymarket.com/event/nfl-jax-ten-2026-11-15) | 0.49 | 0.49 | – | 1 / $5,595 | pending |
