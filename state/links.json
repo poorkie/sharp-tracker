@@ -23,8 +23,8 @@
  {
   "a": "0x21f333307ac6d2e65ac82f014b3dd2b64cbc35e3",
   "b": "0xc660ae71765d0d9eaf5fa8328c1c959841d2bd28",
-  "both": 6,
-  "together": 6,
+  "both": 7,
+  "together": 7,
   "why": "same timing"
  },
  {
@@ -32,6 +32,13 @@
   "b": "0x9703676286b93c2eca71ca96e8757104519a69c2",
   "both": 23,
   "together": 19,
+  "why": "same timing"
+ },
+ {
+  "a": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
+  "b": "0xc660ae71765d0d9eaf5fa8328c1c959841d2bd28",
+  "both": 10,
+  "together": 8,
   "why": "same timing"
  },
  {
