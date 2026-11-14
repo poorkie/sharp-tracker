@@ -1,6 +1,6 @@
 # Sharp Tracker: graded record
 
-Updated 2026-11-14 04:30 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
+Updated 2026-11-14 04:40 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
 
 ## Overall
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
@@ -27,7 +27,7 @@ Updated 2026-11-14 04:30 UTC. Every alert is logged at the price when it fired a
 ## Last 50 alerts
 | Alerted (UTC) | Sport | Pick | Entry | Close | Books fair | Sharps | Result |
 |---|---|---|---|---|---|---|---|
-| 2026-11-14 03:10 | WTA | [Elina Svitolina: WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina](https://polymarket.com/event/wta-noskova-svitoli-2026-11-14) | 0.40 | 0.40 | – | 2 / $2,000 | pending |
+| 2026-11-14 03:10 | WTA | [Elina Svitolina: WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina](https://polymarket.com/event/wta-noskova-svitoli-2026-11-14) | 0.40 | 0.39 | – | 2 / $2,000 | pending |
 | 2026-11-14 02:40 | NBA | [Under 222.5: Thunder vs. Clippers](https://polymarket.com/event/nba-okc-lac-2026-11-13) | 0.53 | 0.54 | – | 2 / $2,634 | pending |
 | 2026-11-13 23:30 | LOL | [Bilibili Gaming: LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs](https://polymarket.com/event/lol-blg-gen-2026-11-14) | 0.38 | 0.38 | – | 1 / $9,163 | pending |
 | 2026-11-13 23:20 | NBA | [Under 222.5: Jazz vs. Rockets](https://polymarket.com/event/nba-uta-hou-2026-11-13) | 0.53 | 0.53 | – | 2 / $3,472 | LOSS (-100) |
