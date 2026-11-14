@@ -223,7 +223,7 @@
   "alerted_at": "2026-11-12T15:50:26.548677+00:00",
   "book_fair": null,
   "close_price": 0.425,
-  "clv": null,
+  "clv": 0.04,
   "condition_id": "0xd2a03fad445e7a40ec8674bf35feb854bf94d155e6120d8b7336a58d8d6259cd",
   "entry_price": 0.385,
   "event_title": "Florida State vs. Pittsburgh",
@@ -233,6 +233,7 @@
   "lock": {
    "at": "2026-11-13T23:50:17.132024+00:00",
    "late": false,
+   "pnl_100": 135.29,
    "price": 0.425,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -240,9 +241,9 @@
   "n_wallets": 3,
   "outcome": "Florida State",
   "outcome_index": 0,
-  "pnl_100": null,
+  "pnl_100": 159.74,
   "question": "Florida State vs. Pittsburgh",
-  "result": null,
+  "result": "WIN",
   "sharp_usd": 5554.28,
   "sport": "cfb",
   "url": "https://polymarket.com/event/cfb-flst-pitt-2026-11-13"
