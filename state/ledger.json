@@ -733,6 +733,13 @@
   "game_start": "2026-11-14T19:00:00+00:00",
   "id": "0x41f94101-0-1794612618",
   "kind": "ELITE",
+  "lock": {
+   "at": "2026-11-14T18:50:15.851803+00:00",
+   "late": false,
+   "price": 0.385,
+   "reason": "Elite still in, price OK",
+   "verdict": "PLAY"
+  },
   "market_type": "moneyline",
   "max_prob": 0.4,
   "n_wallets": 1,
@@ -942,5 +949,29 @@
   "sport": "nba",
   "updates": 1,
   "url": "https://polymarket.com/event/nba-den-nop-2026-11-14"
+ },
+ {
+  "alerted_at": "2026-11-14T18:50:15.851803+00:00",
+  "book_fair": null,
+  "books": [],
+  "close_price": 0.515,
+  "clv": null,
+  "condition_id": "0x653a21913e1ffa847ecdd9392408219084cf54e9b62904c2501fade8b6e52ed6",
+  "entry_price": 0.515,
+  "event_title": "Mavericks vs. Cavaliers",
+  "game_start": "2026-11-15T00:30:00+00:00",
+  "id": "0x653a2191-1-1794682215",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "spreads",
+  "max_prob": 0.5835,
+  "n_wallets": 2,
+  "outcome": "Cavaliers +4.5",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Spread: Mavericks (-4.5)",
+  "result": null,
+  "sharp_usd": 3128.35,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-dal-cle-2026-11-14"
  }
 ]
