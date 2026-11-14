@@ -1,25 +1,25 @@
 # Sharp Tracker: graded record
 
-Updated 2026-11-14 10:10 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
+Updated 2026-11-14 10:20 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
 
 ## Overall
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
-| All alerts | 8-13 | -8.39u | -39.9% | +0.2¢ | 29% | 5 |
+| All alerts | 8-13 | -8.39u | -39.9% | +0.2¢ | 29% | 6 |
 
 ## By signal
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
 | CONSENSUS | 5-5 | -1.90u | -19.0% | +0.4¢ | 30% | 0 |
 | ELITE | 1-1 | -0.90u | -44.8% | +2.0¢ | 50% | 4 |
-| ELITE_CONSENSUS | 2-7 | -5.59u | -62.1% | -0.4¢ | 22% | 1 |
+| ELITE_CONSENSUS | 2-7 | -5.59u | -62.1% | -0.4¢ | 22% | 2 |
 
 ## By sport
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
 | CFB | 1-0 | +1.60u | +159.7% | +4.0¢ | 100% | 0 |
 | LOL | 0-0 | +0.00u | +0.0% | +0.0¢ | 0% | 1 |
-| NBA | 6-8 | -5.89u | -42.1% | +0.1¢ | 29% | 0 |
+| NBA | 6-8 | -5.89u | -42.1% | +0.1¢ | 29% | 1 |
 | NFL | 1-2 | -1.10u | -36.5% | -0.3¢ | 33% | 2 |
 | NHL | 0-3 | -3.00u | -100.0% | -0.3¢ | 0% | 1 |
 | WTA | 0-0 | +0.00u | +0.0% | +0.0¢ | 0% | 1 |
@@ -27,6 +27,7 @@ Updated 2026-11-14 10:10 UTC. Every alert is logged at the price when it fired a
 ## Last 50 alerts
 | Alerted (UTC) | Sport | Pick | Entry | Close | Books fair | Sharps | Result |
 |---|---|---|---|---|---|---|---|
+| 2026-11-14 10:20 | NBA | [Pelicans +9.5: Nuggets vs. Pelicans](https://polymarket.com/event/nba-den-nop-2026-11-14) | 0.36 | 0.36 | – | 2 / $4,844 | pending |
 | 2026-11-14 06:10 | NHL | [Canadiens: Avalanche vs. Canadiens](https://polymarket.com/event/nhl-col-mon-2026-11-14) | 0.54 | 0.54 | 52% | 1 / $6,493 | pending |
 | 2026-11-14 06:00 | NFL | [Titans +10.5: Jaguars vs. Titans](https://polymarket.com/event/nfl-jax-ten-2026-11-15) | 0.49 | 0.49 | – | 1 / $5,595 | pending |
 | 2026-11-14 06:00 | NFL | [Packers -2.5: Vikings vs. Packers](https://polymarket.com/event/nfl-min-gb-2026-11-15) | 0.54 | 0.54 | – | 1 / $5,500 | pending |

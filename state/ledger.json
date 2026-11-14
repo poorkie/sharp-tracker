@@ -917,5 +917,29 @@
   "sharp_usd": 6492.65,
   "sport": "nhl",
   "url": "https://polymarket.com/event/nhl-col-mon-2026-11-14"
+ },
+ {
+  "alerted_at": "2026-11-14T10:20:17.258018+00:00",
+  "book_fair": null,
+  "books": [],
+  "close_price": 0.365,
+  "clv": null,
+  "condition_id": "0xd2e4296ca1829990b51f153cfc462b1c02287944100c07c4f6192db135a009ef",
+  "entry_price": 0.365,
+  "event_title": "Nuggets vs. Pelicans",
+  "game_start": "2026-11-15T00:00:00+00:00",
+  "id": "0xd2e4296c-1-1794651617",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "spreads",
+  "max_prob": 0.4073,
+  "n_wallets": 2,
+  "outcome": "Pelicans +9.5",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Spread: Nuggets (-9.5)",
+  "result": null,
+  "sharp_usd": 4844.39,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-den-nop-2026-11-14"
  }
 ]
