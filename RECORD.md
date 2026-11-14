@@ -1,17 +1,17 @@
 # Sharp Tracker: graded record
 
-Updated 2026-11-14 05:50 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
+Updated 2026-11-14 06:00 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
 
 ## Overall
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
-| All alerts | 8-12 | -7.39u | -36.9% | +0.1¢ | 25% | 3 |
+| All alerts | 8-12 | -7.39u | -36.9% | +0.1¢ | 25% | 5 |
 
 ## By signal
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
 | CONSENSUS | 5-5 | -1.90u | -19.0% | +0.4¢ | 30% | 0 |
-| ELITE | 1-1 | -0.90u | -44.8% | +2.0¢ | 50% | 1 |
+| ELITE | 1-1 | -0.90u | -44.8% | +2.0¢ | 50% | 3 |
 | ELITE_CONSENSUS | 2-6 | -4.59u | -57.4% | -0.6¢ | 12% | 2 |
 
 ## By sport
@@ -20,13 +20,15 @@ Updated 2026-11-14 05:50 UTC. Every alert is logged at the price when it fired a
 | CFB | 1-0 | +1.60u | +159.7% | +4.0¢ | 100% | 0 |
 | LOL | 0-0 | +0.00u | +0.0% | +0.0¢ | 0% | 1 |
 | NBA | 6-7 | -4.89u | -37.6% | +0.1¢ | 23% | 1 |
-| NFL | 1-2 | -1.10u | -36.5% | -0.3¢ | 33% | 0 |
+| NFL | 1-2 | -1.10u | -36.5% | -0.3¢ | 33% | 2 |
 | NHL | 0-3 | -3.00u | -100.0% | -0.3¢ | 0% | 0 |
 | WTA | 0-0 | +0.00u | +0.0% | +0.0¢ | 0% | 1 |
 
 ## Last 50 alerts
 | Alerted (UTC) | Sport | Pick | Entry | Close | Books fair | Sharps | Result |
 |---|---|---|---|---|---|---|---|
+| 2026-11-14 06:00 | NFL | [Titans +10.5: Jaguars vs. Titans](https://polymarket.com/event/nfl-jax-ten-2026-11-15) | 0.49 | 0.49 | – | 1 / $5,595 | pending |
+| 2026-11-14 06:00 | NFL | [Packers -2.5: Vikings vs. Packers](https://polymarket.com/event/nfl-min-gb-2026-11-15) | 0.54 | 0.54 | – | 1 / $5,500 | pending |
 | 2026-11-14 03:10 | WTA | [Elina Svitolina: WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina](https://polymarket.com/event/wta-noskova-svitoli-2026-11-14) | 0.40 | 0.39 | – | 2 / $2,000 | pending |
 | 2026-11-14 02:40 | NBA | [Under 222.5: Thunder vs. Clippers](https://polymarket.com/event/nba-okc-lac-2026-11-13) | 0.53 | 0.54 | – | 2 / $2,634 | pending |
 | 2026-11-13 23:30 | LOL | [Bilibili Gaming: LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs](https://polymarket.com/event/lol-blg-gen-2026-11-14) | 0.38 | 0.38 | – | 1 / $9,163 | pending |
