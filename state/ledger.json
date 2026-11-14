@@ -847,5 +847,75 @@
   "sharp_usd": 5500.0,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-min-gb-2026-11-15"
+ },
+ {
+  "alerted_at": "2026-11-14T06:10:19.942528+00:00",
+  "book_fair": 0.5174,
+  "books": [
+   {
+    "book": "BetRivers",
+    "price": -114,
+    "prob": 0.5327
+   },
+   {
+    "book": "BetOnline.ag",
+    "price": -115,
+    "prob": 0.5349
+   },
+   {
+    "book": "LowVig.ag",
+    "price": -115,
+    "prob": 0.5349
+   },
+   {
+    "book": "BetUS",
+    "price": -115,
+    "prob": 0.5349
+   },
+   {
+    "book": "FanDuel",
+    "price": -118,
+    "prob": 0.5413
+   },
+   {
+    "book": "DraftKings",
+    "price": -118,
+    "prob": 0.5413
+   },
+   {
+    "book": "BetMGM",
+    "price": -118,
+    "prob": 0.5413
+   },
+   {
+    "book": "MyBookie.ag",
+    "price": -118,
+    "prob": 0.5413
+   },
+   {
+    "book": "Bovada",
+    "price": -122,
+    "prob": 0.5495
+   }
+  ],
+  "close_price": 0.535,
+  "clv": null,
+  "condition_id": "0x5c94e40aec16a9208079b29ab5771de84c0490684aa7e94850af4ad835cfa81a",
+  "entry_price": 0.535,
+  "event_title": "Avalanche vs. Canadiens",
+  "game_start": "2026-11-15T00:00:00+00:00",
+  "id": "0x5c94e40a-1-1794636619",
+  "kind": "ELITE",
+  "market_type": "moneyline",
+  "max_prob": 0.55,
+  "n_wallets": 1,
+  "outcome": "Canadiens",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Avalanche vs. Canadiens",
+  "result": null,
+  "sharp_usd": 6492.65,
+  "sport": "nhl",
+  "url": "https://polymarket.com/event/nhl-col-mon-2026-11-14"
  }
 ]
