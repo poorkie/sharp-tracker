@@ -472,7 +472,7 @@
    }
   ],
   "close_price": 0.905,
-  "clv": null,
+  "clv": 0.0,
   "condition_id": "0xe2d82c8a571f1cb972a63ccd9fc1bbd0ca3d0da14c41c4986dc222f37def627c",
   "entry_price": 0.905,
   "event_title": "Jazz vs. Rockets",
@@ -482,6 +482,7 @@
   "lock": {
    "at": "2026-11-14T01:20:15.725008+00:00",
    "late": false,
+   "pnl_100": 10.5,
    "price": 0.905,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -491,9 +492,9 @@
   "n_wallets": 1,
   "outcome": "Rockets",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": 10.5,
   "question": "Jazz vs. Rockets",
-  "result": null,
+  "result": "WIN",
   "sharp_usd": 22916.82,
   "sport": "nba",
   "updates": 1,
@@ -693,7 +694,7 @@
   "book_fair": null,
   "books": [],
   "close_price": 0.525,
-  "clv": null,
+  "clv": 0.0,
   "condition_id": "0xa3467197947d863aa43b99d3bc7ba9f21b3b938cb7c891bf216883f2dd18723c",
   "entry_price": 0.525,
   "event_title": "Jazz vs. Rockets",
@@ -703,6 +704,7 @@
   "lock": {
    "at": "2026-11-14T01:20:15.725008+00:00",
    "late": false,
+   "pnl_100": -100.0,
    "price": 0.525,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -712,9 +714,9 @@
   "n_wallets": 2,
   "outcome": "Under 222.5",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": -100.0,
   "question": "Jazz vs. Rockets: O/U 222.5",
-  "result": null,
+  "result": "LOSS",
   "sharp_usd": 3472.43,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-uta-hou-2026-11-13"
