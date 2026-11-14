@@ -738,5 +738,29 @@
   "sharp_usd": 9163.48,
   "sport": "lol",
   "url": "https://polymarket.com/event/lol-blg-gen-2026-11-14"
+ },
+ {
+  "alerted_at": "2026-11-14T02:40:16.338993+00:00",
+  "book_fair": null,
+  "books": [],
+  "close_price": 0.525,
+  "clv": null,
+  "condition_id": "0xf1cf6b5eca386089a41dc1a15e171dc6a98e590c88e747e6096e7a7e493f89db",
+  "entry_price": 0.525,
+  "event_title": "Thunder vs. Clippers",
+  "game_start": "2026-11-14T03:30:00+00:00",
+  "id": "0xf1cf6b5e-1-1794624016",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "totals",
+  "max_prob": 0.5332,
+  "n_wallets": 2,
+  "outcome": "Under 222.5",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Thunder vs. Clippers: O/U 222.5",
+  "result": null,
+  "sharp_usd": 2634.35,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-okc-lac-2026-11-13"
  }
 ]
