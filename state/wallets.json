@@ -62909,6 +62909,102 @@
    }
   }
  },
+ "0x4dd9f4e262188622c2805ae7096d5a6db26d5d16": {
+  "graded_at": "2026-11-14T17:20:18.480008+00:00",
+  "grades": {
+   "cbb": {
+    "avg_price": 0.498,
+    "hit_edge": -0.114,
+    "hit_rate": 0.385,
+    "n": 26,
+    "pnl": -195.61,
+    "roi": -0.0929,
+    "shrunk_roi": -0.0548,
+    "sport": "cbb",
+    "staked": 2105.13,
+    "t_stat": -1.39,
+    "tier": "NONE"
+   },
+   "dota2": {
+    "avg_price": 0.414,
+    "hit_edge": 0.036,
+    "hit_rate": 0.45,
+    "n": 60,
+    "pnl": -10429.07,
+    "roi": -0.2832,
+    "shrunk_roi": -0.1819,
+    "sport": "dota2",
+    "staked": 36819.58,
+    "t_stat": 0.32,
+    "tier": "NONE"
+   },
+   "epl": {
+    "avg_price": 0.264,
+    "hit_edge": -0.264,
+    "hit_rate": 0.0,
+    "n": 3,
+    "pnl": -391.63,
+    "roi": -1.0176,
+    "shrunk_roi": -0.0989,
+    "sport": "epl",
+    "staked": 384.86,
+    "t_stat": -239.6,
+    "tier": "NONE"
+   },
+   "lol": {
+    "avg_price": 0.39,
+    "hit_edge": -0.045,
+    "hit_rate": 0.344,
+    "n": 61,
+    "pnl": 2140.88,
+    "roi": 0.0569,
+    "shrunk_roi": 0.0225,
+    "sport": "lol",
+    "staked": 37606.14,
+    "t_stat": -0.02,
+    "tier": "NONE"
+   },
+   "nba": {
+    "avg_price": 0.492,
+    "hit_edge": -0.254,
+    "hit_rate": 0.238,
+    "n": 21,
+    "pnl": -365.4,
+    "roi": -0.2023,
+    "shrunk_roi": -0.0893,
+    "sport": "nba",
+    "staked": 1806.11,
+    "t_stat": -2.9,
+    "tier": "NONE"
+   },
+   "nfl": {
+    "avg_price": 0.374,
+    "hit_edge": 0.026,
+    "hit_rate": 0.4,
+    "n": 5,
+    "pnl": 87.27,
+    "roi": 0.329,
+    "shrunk_roi": 0.0099,
+    "sport": "nfl",
+    "staked": 265.23,
+    "t_stat": 0.09,
+    "tier": "NONE"
+   },
+   "nhl": {
+    "avg_price": 0.501,
+    "hit_edge": -0.287,
+    "hit_rate": 0.214,
+    "n": 14,
+    "pnl": -639.15,
+    "roi": -0.4623,
+    "shrunk_roi": -0.1421,
+    "sport": "nhl",
+    "staked": 1382.46,
+    "t_stat": -2.89,
+    "tier": "NONE"
+   }
+  }
+ },
  "0x4df332e27f9ee3224f52ce30e3ce15c1075e788f": {
   "graded_at": "2026-11-12T18:40:32.498999+00:00",
   "grades": {
