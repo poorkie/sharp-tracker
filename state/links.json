@@ -2,8 +2,8 @@
  {
   "a": "0x0a77bc0638f13892c8b1d1d2c13ba178540f9d74",
   "b": "0x21f333307ac6d2e65ac82f014b3dd2b64cbc35e3",
-  "both": 20,
-  "together": 16,
+  "both": 21,
+  "together": 17,
   "why": "same timing"
  },
  {
@@ -16,8 +16,8 @@
  {
   "a": "0x0d2d845a6ff64e31e04a70afce8a573940767ff5",
   "b": "0x21f333307ac6d2e65ac82f014b3dd2b64cbc35e3",
-  "both": 48,
-  "together": 39,
+  "both": 51,
+  "together": 42,
   "why": "same timing"
  },
  {
@@ -50,6 +50,13 @@
  },
  {
   "a": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
+  "b": "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3",
+  "both": 10,
+  "together": 8,
+  "why": "same timing"
+ },
+ {
+  "a": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
   "b": "0xc660ae71765d0d9eaf5fa8328c1c959841d2bd28",
   "both": 10,
   "together": 8,
@@ -58,7 +65,7 @@
  {
   "a": "0x893575c7d99542163c6b6e8a0fe5af0b6d217daa",
   "b": "0xe963d57ab09233f3cb2bf1546660a1b4638e6753",
-  "both": 7,
+  "both": 8,
   "together": 7,
   "why": "same timing"
  },
