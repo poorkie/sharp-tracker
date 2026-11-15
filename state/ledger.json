@@ -1542,5 +1542,70 @@
   "sharp_usd": 444508.47,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-ne-det-2026-11-15"
+ },
+ {
+  "alerted_at": "2026-11-15T14:30:18.224580+00:00",
+  "book_fair": 0.6176,
+  "books": [
+   {
+    "book": "FanDuel",
+    "price": -172,
+    "prob": 0.6324
+   },
+   {
+    "book": "BetRivers",
+    "price": -177,
+    "prob": 0.639
+   },
+   {
+    "book": "MyBookie.ag",
+    "price": -177,
+    "prob": 0.639
+   },
+   {
+    "book": "DraftKings",
+    "price": -180,
+    "prob": 0.6429
+   },
+   {
+    "book": "BetUS",
+    "price": -180,
+    "prob": 0.6429
+   },
+   {
+    "book": "BetOnline.ag",
+    "price": -185,
+    "prob": 0.6491
+   },
+   {
+    "book": "LowVig.ag",
+    "price": -185,
+    "prob": 0.6491
+   },
+   {
+    "book": "BetMGM",
+    "price": -185,
+    "prob": 0.6491
+   }
+  ],
+  "close_price": 0.625,
+  "clv": null,
+  "condition_id": "0x1d5ff8b0c2a7a10f7502d0484533808ccfaa9c65de11a18e1115a1b08aad8dae",
+  "entry_price": 0.625,
+  "event_title": "Chiefs vs. Falcons",
+  "game_start": "2026-11-15T18:00:00+00:00",
+  "id": "0x1d5ff8b0-0-1794753018",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "moneyline",
+  "max_prob": 0.6598,
+  "n_wallets": 5,
+  "outcome": "Chiefs",
+  "outcome_index": 0,
+  "pnl_100": null,
+  "question": "Chiefs vs. Falcons",
+  "result": null,
+  "sharp_usd": 70215.26,
+  "sport": "nfl",
+  "url": "https://polymarket.com/event/nfl-kc-atl-2026-11-15"
  }
 ]
