@@ -1,18 +1,18 @@
 # Sharp Tracker: graded record
 
-Updated 2026-11-15 13:30 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
+Updated 2026-11-15 13:40 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
 
 ## Overall
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
-| All alerts | 13-15 | -3.45u | -12.3% | +0.2¢ | 36% | 9 |
+| All alerts | 13-15 | -3.45u | -12.3% | +0.2¢ | 36% | 11 |
 
 ## By signal
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
 | CONSENSUS | 5-5 | -1.90u | -19.0% | +0.4¢ | 30% | 0 |
 | ELITE | 2-2 | -0.23u | -5.7% | +1.5¢ | 75% | 6 |
-| ELITE_CONSENSUS | 6-8 | -1.32u | -9.4% | -0.2¢ | 29% | 3 |
+| ELITE_CONSENSUS | 6-8 | -1.32u | -9.4% | -0.2¢ | 29% | 5 |
 
 ## By sport
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
@@ -20,14 +20,16 @@ Updated 2026-11-15 13:30 UTC. Every alert is logged at the price when it fired a
 | CFB | 1-0 | +1.60u | +159.7% | +4.0¢ | 100% | 0 |
 | LOL | 1-0 | +1.67u | +166.7% | +1.0¢ | 100% | 0 |
 | NBA | 9-8 | -2.15u | -12.6% | +0.2¢ | 35% | 0 |
-| NFL | 1-2 | -1.10u | -36.5% | -0.3¢ | 33% | 9 |
+| NFL | 1-2 | -1.10u | -36.5% | -0.3¢ | 33% | 11 |
 | NHL | 0-5 | -5.00u | -100.0% | +0.0¢ | 20% | 0 |
 | WTA | 1-0 | +1.53u | +153.2% | +0.0¢ | 0% | 0 |
 
 ## Last 50 alerts
 | Alerted (UTC) | Sport | Pick | Entry | Close | Books fair | Sharps | Result |
 |---|---|---|---|---|---|---|---|
-| 2026-11-15 13:20 | NFL | [49ers: 49ers vs. Cowboys](https://polymarket.com/event/nfl-sf-dal-2026-11-15) | 0.65 | 0.64 | 66% | 1 / $6,379 | pending |
+| 2026-11-15 13:40 | NFL | [Dolphins +10.5: Dolphins vs. Colts](https://polymarket.com/event/nfl-mia-ind-2026-11-15) | 0.72 | 0.72 | – | 2 / $22,268 | pending |
+| 2026-11-15 13:40 | NFL | [Cowboys +4.5: 49ers vs. Cowboys](https://polymarket.com/event/nfl-sf-dal-2026-11-15) | 0.54 | 0.54 | – | 2 / $9,292 | pending |
+| 2026-11-15 13:20 | NFL | [49ers: 49ers vs. Cowboys](https://polymarket.com/event/nfl-sf-dal-2026-11-15) | 0.65 | 0.65 | 66% | 1 / $6,379 | pending |
 | 2026-11-15 12:20 | NFL | [Saints -1.5: Panthers vs. Saints](https://polymarket.com/event/nfl-car-no-2026-11-15) | 0.47 | 0.47 | – | 3 / $26,851 | pending |
 | 2026-11-15 11:30 | NFL | [Seahawks: Seahawks vs. Raiders](https://polymarket.com/event/nfl-sea-lv-2026-11-15) | 0.72 | 0.71 | 71% | 2 / $49,410 | pending |
 | 2026-11-15 11:10 | NFL | [Falcons +2.5: Chiefs vs. Falcons](https://polymarket.com/event/nfl-kc-atl-2026-11-15) | 0.42 | 0.42 | – | 1 / $9,216 | pending |
