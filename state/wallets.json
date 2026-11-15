@@ -169229,6 +169229,63 @@
    }
   }
  },
+ "0xc89e59bd2587ced304890c8035a108dbc18d0770": {
+  "graded_at": "2026-11-15T13:10:14.964684+00:00",
+  "grades": {
+   "atp": {
+    "avg_price": 0.709,
+    "hit_edge": -0.209,
+    "hit_rate": 0.5,
+    "n": 4,
+    "pnl": -897.82,
+    "roi": -0.2383,
+    "shrunk_roi": -0.0489,
+    "sport": "atp",
+    "staked": 3767.7,
+    "t_stat": -0.72,
+    "tier": "NONE"
+   },
+   "dota2": {
+    "avg_price": 0.53,
+    "hit_edge": 0.006,
+    "hit_rate": 0.536,
+    "n": 28,
+    "pnl": 461.71,
+    "roi": 0.036,
+    "shrunk_roi": -0.0028,
+    "sport": "dota2",
+    "staked": 12813.07,
+    "t_stat": -1.59,
+    "tier": "NONE"
+   },
+   "lol": {
+    "avg_price": 0.479,
+    "hit_edge": 0.521,
+    "hit_rate": 1.0,
+    "n": 5,
+    "pnl": 1862.89,
+    "roi": 0.4899,
+    "shrunk_roi": 0.0278,
+    "sport": "lol",
+    "staked": 3802.23,
+    "t_stat": 1.77,
+    "tier": "NONE"
+   },
+   "wta": {
+    "avg_price": 0.818,
+    "hit_edge": 0.182,
+    "hit_rate": 1.0,
+    "n": 1,
+    "pnl": 24.55,
+    "roi": 0.0317,
+    "shrunk_roi": -0.0285,
+    "sport": "wta",
+    "staked": 774.2,
+    "t_stat": 0.0,
+    "tier": "NONE"
+   }
+  }
+ },
  "0xc8b438e4a1c10643ea0ea3e59bcaadc73174f05d": {
   "fp": [
    "ae2d7a00:7ee",
