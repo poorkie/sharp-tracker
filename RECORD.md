@@ -1,17 +1,17 @@
 # Sharp Tracker: graded record
 
-Updated 2026-11-15 03:10 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
+Updated 2026-11-15 03:20 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
 
 ## Overall
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
-| All alerts | 11-13 | -3.45u | -14.4% | +0.4¢ | 33% | 8 |
+| All alerts | 11-14 | -4.45u | -17.8% | +0.4¢ | 36% | 7 |
 
 ## By signal
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
 | CONSENSUS | 5-5 | -1.90u | -19.0% | +0.4¢ | 30% | 0 |
-| ELITE | 2-1 | +0.77u | +25.7% | +1.7¢ | 67% | 5 |
+| ELITE | 2-2 | -0.23u | -5.7% | +1.5¢ | 75% | 4 |
 | ELITE_CONSENSUS | 4-7 | -2.32u | -21.1% | +0.0¢ | 27% | 3 |
 
 ## By sport
@@ -21,7 +21,7 @@ Updated 2026-11-15 03:10 UTC. Every alert is logged at the price when it fired a
 | LOL | 1-0 | +1.67u | +166.7% | +1.0¢ | 100% | 0 |
 | NBA | 7-8 | -4.15u | -27.7% | +0.4¢ | 33% | 2 |
 | NFL | 1-2 | -1.10u | -36.5% | -0.3¢ | 33% | 4 |
-| NHL | 0-3 | -3.00u | -100.0% | -0.3¢ | 0% | 2 |
+| NHL | 0-4 | -4.00u | -100.0% | +0.0¢ | 25% | 1 |
 | WTA | 1-0 | +1.53u | +153.2% | +0.0¢ | 0% | 0 |
 
 ## Last 50 alerts
@@ -33,7 +33,7 @@ Updated 2026-11-15 03:10 UTC. Every alert is logged at the price when it fired a
 | 2026-11-14 19:40 | NBA | [Grizzlies -1.5: Nets vs. Grizzlies](https://polymarket.com/event/nba-bkn-mem-2026-11-14) | 0.48 | 0.59 | – | 2 / $4,756 | pending |
 | 2026-11-14 18:50 | NBA | [Cavaliers +4.5: Mavericks vs. Cavaliers](https://polymarket.com/event/nba-dal-cle-2026-11-14) | 0.52 | 0.38 | – | 2 / $3,128 | pending |
 | 2026-11-14 10:20 | NBA | [Pelicans +9.5: Nuggets vs. Pelicans](https://polymarket.com/event/nba-den-nop-2026-11-14) | 0.36 | 0.41 | – | 2 / $7,579 | WIN (+174) |
-| 2026-11-14 06:10 | NHL | [Canadiens: Avalanche vs. Canadiens](https://polymarket.com/event/nhl-col-mon-2026-11-14) | 0.54 | 0.55 | 52% | 1 / $6,493 | pending |
+| 2026-11-14 06:10 | NHL | [Canadiens: Avalanche vs. Canadiens](https://polymarket.com/event/nhl-col-mon-2026-11-14) | 0.54 | 0.55 | 52% | 1 / $6,493 | LOSS (-100) |
 | 2026-11-14 06:00 | NFL | [Titans +10.5: Jaguars vs. Titans](https://polymarket.com/event/nfl-jax-ten-2026-11-15) | 0.49 | 0.49 | – | 1 / $5,595 | pending |
 | 2026-11-14 06:00 | NFL | [Packers -2.5: Vikings vs. Packers](https://polymarket.com/event/nfl-min-gb-2026-11-15) | 0.54 | 0.53 | – | 1 / $5,500 | pending |
 | 2026-11-14 03:10 | WTA | [Elina Svitolina: WTA Finals, Final Stage: Linda Noskova vs Elina Svitolina](https://polymarket.com/event/wta-noskova-svitoli-2026-11-14) | 0.40 | 0.40 | – | 2 / $2,000 | WIN (+153) |

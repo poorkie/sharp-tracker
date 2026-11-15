@@ -914,7 +914,7 @@
    }
   ],
   "close_price": 0.545,
-  "clv": null,
+  "clv": 0.01,
   "condition_id": "0x5c94e40aec16a9208079b29ab5771de84c0490684aa7e94850af4ad835cfa81a",
   "entry_price": 0.535,
   "event_title": "Avalanche vs. Canadiens",
@@ -924,6 +924,7 @@
   "lock": {
    "at": "2026-11-14T23:50:22.744537+00:00",
    "late": false,
+   "pnl_100": -100.0,
    "price": 0.545,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -933,9 +934,9 @@
   "n_wallets": 1,
   "outcome": "Canadiens",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": -100.0,
   "question": "Avalanche vs. Canadiens",
-  "result": null,
+  "result": "LOSS",
   "sharp_usd": 6492.65,
   "sport": "nhl",
   "url": "https://polymarket.com/event/nhl-col-mon-2026-11-14"
