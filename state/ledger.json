@@ -1227,5 +1227,29 @@
   "sharp_usd": 12827.33,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-ne-det-2026-11-15"
+ },
+ {
+  "alerted_at": "2026-11-15T11:10:14.223561+00:00",
+  "book_fair": null,
+  "books": [],
+  "close_price": 0.425,
+  "clv": null,
+  "condition_id": "0x82a91489832bae00b1abe91f3a0cb50f12b94d400b7ec22541bb60eddc090906",
+  "entry_price": 0.425,
+  "event_title": "Chiefs vs. Falcons",
+  "game_start": "2026-11-15T18:00:00+00:00",
+  "id": "0x82a91489-1-1794741014",
+  "kind": "ELITE",
+  "market_type": "spreads",
+  "max_prob": 0.46,
+  "n_wallets": 1,
+  "outcome": "Falcons +2.5",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Spread: Chiefs (-2.5)",
+  "result": null,
+  "sharp_usd": 9216.27,
+  "sport": "nfl",
+  "url": "https://polymarket.com/event/nfl-kc-atl-2026-11-15"
  }
 ]
