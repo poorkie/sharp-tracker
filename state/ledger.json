@@ -945,7 +945,7 @@
   "book_fair": null,
   "books": [],
   "close_price": 0.405,
-  "clv": null,
+  "clv": 0.04,
   "condition_id": "0xd2e4296ca1829990b51f153cfc462b1c02287944100c07c4f6192db135a009ef",
   "entry_price": 0.365,
   "event_title": "Nuggets vs. Pelicans",
@@ -955,6 +955,7 @@
   "lock": {
    "at": "2026-11-14T23:50:22.744537+00:00",
    "late": false,
+   "pnl_100": 146.91,
    "price": 0.405,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -964,9 +965,9 @@
   "n_wallets": 2,
   "outcome": "Pelicans +9.5",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": 173.97,
   "question": "Spread: Nuggets (-9.5)",
-  "result": null,
+  "result": "WIN",
   "sharp_usd": 7579.14,
   "sport": "nba",
   "updates": 1,
