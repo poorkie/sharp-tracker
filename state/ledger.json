@@ -1025,5 +1025,29 @@
   "sharp_usd": 4756.0,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-bkn-mem-2026-11-14"
+ },
+ {
+  "alerted_at": "2026-11-15T00:40:15.565154+00:00",
+  "book_fair": null,
+  "books": [],
+  "close_price": 0.535,
+  "clv": null,
+  "condition_id": "0x323cf3027831c93f43b54798743043f91f80d1e8afc8764b1d2dd15cfe36f3b0",
+  "entry_price": 0.535,
+  "event_title": "Dolphins vs. Colts",
+  "game_start": "2026-11-15T18:00:00+00:00",
+  "id": "0x323cf302-0-1794703215",
+  "kind": "ELITE",
+  "market_type": "totals",
+  "max_prob": 0.56,
+  "n_wallets": 1,
+  "outcome": "Over 36.5",
+  "outcome_index": 0,
+  "pnl_100": null,
+  "question": "Dolphins vs. Colts: O/U 36.5",
+  "result": null,
+  "sharp_usd": 5495.77,
+  "sport": "nfl",
+  "url": "https://polymarket.com/event/nfl-mia-ind-2026-11-15"
  }
 ]
