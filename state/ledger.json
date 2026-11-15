@@ -726,7 +726,7 @@
   "book_fair": null,
   "books": [],
   "close_price": 0.385,
-  "clv": null,
+  "clv": 0.01,
   "condition_id": "0x41f94101d57bf028eff62f2cc3714adb79722553dc59c1676071459c0b009e45",
   "entry_price": 0.375,
   "event_title": "LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs",
@@ -736,6 +736,7 @@
   "lock": {
    "at": "2026-11-14T18:50:15.851803+00:00",
    "late": false,
+   "pnl_100": 159.74,
    "price": 0.385,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -745,9 +746,9 @@
   "n_wallets": 1,
   "outcome": "Bilibili Gaming",
   "outcome_index": 0,
-  "pnl_100": null,
+  "pnl_100": 166.67,
   "question": "LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs",
-  "result": null,
+  "result": "WIN",
   "sharp_usd": 9163.48,
   "sport": "lol",
   "url": "https://polymarket.com/event/lol-blg-gen-2026-11-14"
