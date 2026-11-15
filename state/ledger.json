@@ -1492,7 +1492,7 @@
   "book_fair": null,
   "books": [],
   "close_price": 0.695,
-  "clv": null,
+  "clv": -0.03,
   "condition_id": "0x17f755b491010e4f9531fec1f77898f5c2830bafb1bfc77f1930d6c715e1c63d",
   "entry_price": 0.725,
   "event_title": "Dolphins vs. Colts",
@@ -1502,6 +1502,7 @@
   "lock": {
    "at": "2026-11-15T17:50:24.792793+00:00",
    "late": false,
+   "pnl_100": 43.88,
    "price": 0.695,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -1511,9 +1512,9 @@
   "n_wallets": 3,
   "outcome": "Dolphins +10.5",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": 37.93,
   "question": "Spread: Colts (-10.5)",
-  "result": null,
+  "result": "WIN",
   "sharp_usd": 37242.04,
   "sport": "nfl",
   "updates": 1,
@@ -2103,7 +2104,7 @@
    }
   ],
   "close_price": 0.665,
-  "clv": null,
+  "clv": 0.0,
   "condition_id": "0x340ce16ed1978267c696c90d986e62ff729dbfb6d0090b5e1acadcad8df6e6aa",
   "entry_price": 0.665,
   "event_title": "Dolphins vs. Colts",
@@ -2113,6 +2114,7 @@
   "lock": {
    "at": "2026-11-15T17:50:24.792793+00:00",
    "late": false,
+   "pnl_100": 50.38,
    "price": 0.665,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -2122,9 +2124,9 @@
   "n_wallets": 2,
   "outcome": "Colts",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": 50.38,
   "question": "Dolphins vs. Colts",
-  "result": null,
+  "result": "WIN",
   "sharp_usd": 67990.42,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-mia-ind-2026-11-15"
