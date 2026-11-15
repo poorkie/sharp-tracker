@@ -1673,5 +1673,70 @@
   "sharp_usd": 118721.24,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-min-gb-2026-11-15"
+ },
+ {
+  "alerted_at": "2026-11-15T15:10:22.137902+00:00",
+  "book_fair": 0.3718,
+  "books": [
+   {
+    "book": "MyBookie.ag",
+    "price": 165,
+    "prob": 0.3774
+   },
+   {
+    "book": "LowVig.ag",
+    "price": 161,
+    "prob": 0.3831
+   },
+   {
+    "book": "BetOnline.ag",
+    "price": 161,
+    "prob": 0.3831
+   },
+   {
+    "book": "DraftKings",
+    "price": 160,
+    "prob": 0.3846
+   },
+   {
+    "book": "BetUS",
+    "price": 159,
+    "prob": 0.3861
+   },
+   {
+    "book": "BetRivers",
+    "price": 155,
+    "prob": 0.3922
+   },
+   {
+    "book": "BetMGM",
+    "price": 155,
+    "prob": 0.3922
+   },
+   {
+    "book": "FanDuel",
+    "price": 152,
+    "prob": 0.3968
+   }
+  ],
+  "close_price": 0.355,
+  "clv": null,
+  "condition_id": "0x2c4bc1dc34eaa1cb08943f536d4ce630384f3e93e028f6fa7a20933438334853",
+  "entry_price": 0.355,
+  "event_title": "Steelers vs. Bengals",
+  "game_start": "2026-11-16T01:20:00+00:00",
+  "id": "0x2c4bc1dc-0-1794755422",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "moneyline",
+  "max_prob": 0.39,
+  "n_wallets": 2,
+  "outcome": "Steelers",
+  "outcome_index": 0,
+  "pnl_100": null,
+  "question": "Steelers vs. Bengals",
+  "result": null,
+  "sharp_usd": 2100.84,
+  "sport": "nfl",
+  "url": "https://polymarket.com/event/nfl-pit-cin-2026-11-16"
  }
 ]
