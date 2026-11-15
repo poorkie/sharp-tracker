@@ -1345,5 +1345,75 @@
   "sharp_usd": 26851.28,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-car-no-2026-11-15"
+ },
+ {
+  "alerted_at": "2026-11-15T13:20:16.324792+00:00",
+  "book_fair": 0.6575,
+  "books": [
+   {
+    "book": "LowVig.ag",
+    "price": -208,
+    "prob": 0.6753
+   },
+   {
+    "book": "BetOnline.ag",
+    "price": -208,
+    "prob": 0.6753
+   },
+   {
+    "book": "MyBookie.ag",
+    "price": -208,
+    "prob": 0.6753
+   },
+   {
+    "book": "BetUS",
+    "price": -215,
+    "prob": 0.6825
+   },
+   {
+    "book": "Bovada",
+    "price": -215,
+    "prob": 0.6825
+   },
+   {
+    "book": "DraftKings",
+    "price": -218,
+    "prob": 0.6855
+   },
+   {
+    "book": "FanDuel",
+    "price": -220,
+    "prob": 0.6875
+   },
+   {
+    "book": "BetMGM",
+    "price": -220,
+    "prob": 0.6875
+   },
+   {
+    "book": "BetRivers",
+    "price": -225,
+    "prob": 0.6923
+   }
+  ],
+  "close_price": 0.645,
+  "clv": null,
+  "condition_id": "0xe10e72af1e0a1fdbd4d3544a61d0fb5142ffe28529138a3dcad6a3ea0e93d056",
+  "entry_price": 0.645,
+  "event_title": "49ers vs. Cowboys",
+  "game_start": "2026-11-15T21:25:00+00:00",
+  "id": "0xe10e72af-0-1794748816",
+  "kind": "ELITE",
+  "market_type": "moneyline",
+  "max_prob": 0.67,
+  "n_wallets": 1,
+  "outcome": "49ers",
+  "outcome_index": 0,
+  "pnl_100": null,
+  "question": "49ers vs. Cowboys",
+  "result": null,
+  "sharp_usd": 6379.37,
+  "sport": "nfl",
+  "url": "https://polymarket.com/event/nfl-sf-dal-2026-11-15"
  }
 ]
