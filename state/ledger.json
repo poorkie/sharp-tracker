@@ -1463,6 +1463,13 @@
   "game_start": "2026-11-15T21:25:00+00:00",
   "id": "0xe10e72af-0-1794748816",
   "kind": "ELITE",
+  "lock": {
+   "at": "2026-11-15T21:10:27.380717+00:00",
+   "late": false,
+   "price": 0.635,
+   "reason": "Elite still in, price OK",
+   "verdict": "PLAY"
+  },
   "market_type": "moneyline",
   "max_prob": 0.67,
   "n_wallets": 1,
@@ -1519,6 +1526,13 @@
   "game_start": "2026-11-15T21:25:00+00:00",
   "id": "0xb89444f4-1-1794750015",
   "kind": "ELITE_CONSENSUS",
+  "lock": {
+   "at": "2026-11-15T21:10:27.380717+00:00",
+   "late": false,
+   "price": 0.545,
+   "reason": "Elite still in, price OK",
+   "verdict": "PLAY"
+  },
   "market_type": "spreads",
   "max_prob": 0.5662,
   "n_wallets": 3,
@@ -1821,7 +1835,7 @@
   "book_fair": null,
   "books": [],
   "close_price": 0.455,
-  "clv": null,
+  "clv": 0.0,
   "condition_id": "0xaa4ff7e5972b54e1bb147cf87ca42227969985c05ab62387af8e9a9df2cc7375",
   "entry_price": 0.455,
   "event_title": "Chiefs vs. Falcons",
@@ -1831,6 +1845,7 @@
   "lock": {
    "at": "2026-11-15T17:50:24.792793+00:00",
    "late": false,
+   "pnl_100": -100.0,
    "price": 0.455,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -1840,9 +1855,9 @@
   "n_wallets": 1,
   "outcome": "Under 46.5",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": -100.0,
   "question": "Chiefs vs. Falcons: O/U 46.5",
-  "result": null,
+  "result": "LOSS",
   "sharp_usd": 15871.15,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-kc-atl-2026-11-15"
