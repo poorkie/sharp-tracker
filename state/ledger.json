@@ -979,7 +979,7 @@
   "book_fair": null,
   "books": [],
   "close_price": 0.375,
-  "clv": null,
+  "clv": -0.14,
   "condition_id": "0x653a21913e1ffa847ecdd9392408219084cf54e9b62904c2501fade8b6e52ed6",
   "entry_price": 0.515,
   "event_title": "Mavericks vs. Cavaliers",
@@ -989,6 +989,7 @@
   "lock": {
    "at": "2026-11-15T00:20:27.733040+00:00",
    "late": false,
+   "pnl_100": 166.67,
    "price": 0.375,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -998,9 +999,9 @@
   "n_wallets": 2,
   "outcome": "Cavaliers +4.5",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": 94.17,
   "question": "Spread: Mavericks (-4.5)",
-  "result": null,
+  "result": "WIN",
   "sharp_usd": 3128.35,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-dal-cle-2026-11-14"
