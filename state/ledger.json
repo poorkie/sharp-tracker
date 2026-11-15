@@ -1251,5 +1251,75 @@
   "sharp_usd": 9216.27,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-kc-atl-2026-11-15"
+ },
+ {
+  "alerted_at": "2026-11-15T11:30:20.517562+00:00",
+  "book_fair": 0.7126,
+  "books": [
+   {
+    "book": "BetUS",
+    "price": -280,
+    "prob": 0.7368
+   },
+   {
+    "book": "LowVig.ag",
+    "price": -280,
+    "prob": 0.7368
+   },
+   {
+    "book": "BetOnline.ag",
+    "price": -280,
+    "prob": 0.7368
+   },
+   {
+    "book": "DraftKings",
+    "price": -285,
+    "prob": 0.7403
+   },
+   {
+    "book": "Bovada",
+    "price": -285,
+    "prob": 0.7403
+   },
+   {
+    "book": "BetMGM",
+    "price": -295,
+    "prob": 0.7468
+   },
+   {
+    "book": "FanDuel",
+    "price": -300,
+    "prob": 0.75
+   },
+   {
+    "book": "MyBookie.ag",
+    "price": -300,
+    "prob": 0.75
+   },
+   {
+    "book": "BetRivers",
+    "price": -315,
+    "prob": 0.759
+   }
+  ],
+  "close_price": 0.725,
+  "clv": null,
+  "condition_id": "0x6619c2b5337061520e670b00bc7d630e12c95f0ca1fcc8076cfabd5d388df1a7",
+  "entry_price": 0.725,
+  "event_title": "Seahawks vs. Raiders",
+  "game_start": "2026-11-15T21:05:00+00:00",
+  "id": "0x6619c2b5-0-1794742220",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "moneyline",
+  "max_prob": 0.73,
+  "n_wallets": 2,
+  "outcome": "Seahawks",
+  "outcome_index": 0,
+  "pnl_100": null,
+  "question": "Seahawks vs. Raiders",
+  "result": null,
+  "sharp_usd": 49409.61,
+  "sport": "nfl",
+  "url": "https://polymarket.com/event/nfl-sea-lv-2026-11-15"
  }
 ]
