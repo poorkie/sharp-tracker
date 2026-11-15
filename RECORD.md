@@ -1,18 +1,18 @@
 # Sharp Tracker: graded record
 
-Updated 2026-11-15 10:40 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
+Updated 2026-11-15 10:50 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
 
 ## Overall
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
-| All alerts | 13-15 | -3.45u | -12.3% | +0.2¢ | 36% | 4 |
+| All alerts | 13-15 | -3.45u | -12.3% | +0.2¢ | 36% | 5 |
 
 ## By signal
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
 | CONSENSUS | 5-5 | -1.90u | -19.0% | +0.4¢ | 30% | 0 |
 | ELITE | 2-2 | -0.23u | -5.7% | +1.5¢ | 75% | 4 |
-| ELITE_CONSENSUS | 6-8 | -1.32u | -9.4% | -0.2¢ | 29% | 0 |
+| ELITE_CONSENSUS | 6-8 | -1.32u | -9.4% | -0.2¢ | 29% | 1 |
 
 ## By sport
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
@@ -20,13 +20,14 @@ Updated 2026-11-15 10:40 UTC. Every alert is logged at the price when it fired a
 | CFB | 1-0 | +1.60u | +159.7% | +4.0¢ | 100% | 0 |
 | LOL | 1-0 | +1.67u | +166.7% | +1.0¢ | 100% | 0 |
 | NBA | 9-8 | -2.15u | -12.6% | +0.2¢ | 35% | 0 |
-| NFL | 1-2 | -1.10u | -36.5% | -0.3¢ | 33% | 4 |
+| NFL | 1-2 | -1.10u | -36.5% | -0.3¢ | 33% | 5 |
 | NHL | 0-5 | -5.00u | -100.0% | +0.0¢ | 20% | 0 |
 | WTA | 1-0 | +1.53u | +153.2% | +0.0¢ | 0% | 0 |
 
 ## Last 50 alerts
 | Alerted (UTC) | Sport | Pick | Entry | Close | Books fair | Sharps | Result |
 |---|---|---|---|---|---|---|---|
+| 2026-11-15 10:50 | NFL | [Under 50.5: Patriots vs. Lions](https://polymarket.com/event/nfl-ne-det-2026-11-15) | 0.51 | 0.51 | – | 3 / $12,827 | pending |
 | 2026-11-15 01:10 | NFL | [Bills: Bills vs. Jets](https://polymarket.com/event/nfl-buf-nyj-2026-11-15) | 0.79 | 0.79 | 79% | 1 / $45,000 | pending |
 | 2026-11-15 01:10 | NHL | [Ducks: Islanders vs. Ducks](https://polymarket.com/event/nhl-nyi-ana-2026-11-14) | 0.51 | 0.51 | 50% | 2 / $3,098 | LOSS (-100) |
 | 2026-11-15 00:40 | NFL | [Over 36.5: Dolphins vs. Colts](https://polymarket.com/event/nfl-mia-ind-2026-11-15) | 0.54 | 0.54 | – | 1 / $5,496 | pending |
