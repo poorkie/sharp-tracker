@@ -1056,5 +1056,140 @@
   "sharp_usd": 5495.77,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-mia-ind-2026-11-15"
+ },
+ {
+  "alerted_at": "2026-11-15T01:10:20.267453+00:00",
+  "book_fair": 0.7866,
+  "books": [
+   {
+    "book": "DraftKings",
+    "price": -395,
+    "prob": 0.798
+   },
+   {
+    "book": "BetUS",
+    "price": -440,
+    "prob": 0.8148
+   },
+   {
+    "book": "MyBookie.ag",
+    "price": -447,
+    "prob": 0.8172
+   },
+   {
+    "book": "BetMGM",
+    "price": -450,
+    "prob": 0.8182
+   },
+   {
+    "book": "BetRivers",
+    "price": -455,
+    "prob": 0.8198
+   },
+   {
+    "book": "FanDuel",
+    "price": -460,
+    "prob": 0.8214
+   },
+   {
+    "book": "BetOnline.ag",
+    "price": -475,
+    "prob": 0.8261
+   },
+   {
+    "book": "LowVig.ag",
+    "price": -475,
+    "prob": 0.8261
+   }
+  ],
+  "close_price": 0.785,
+  "clv": null,
+  "condition_id": "0xba45b9805fe8d9497c5117efe1ae4f28ecdf359788cf2c91de6dad9d00c1486f",
+  "entry_price": 0.785,
+  "event_title": "Bills vs. Jets",
+  "game_start": "2026-11-15T18:00:00+00:00",
+  "id": "0xba45b980-0-1794705020",
+  "kind": "ELITE",
+  "market_type": "moneyline",
+  "max_prob": 0.82,
+  "n_wallets": 1,
+  "outcome": "Bills",
+  "outcome_index": 0,
+  "pnl_100": null,
+  "question": "Bills vs. Jets",
+  "result": null,
+  "sharp_usd": 45000.0,
+  "sport": "nfl",
+  "url": "https://polymarket.com/event/nfl-buf-nyj-2026-11-15"
+ },
+ {
+  "alerted_at": "2026-11-15T01:10:20.267453+00:00",
+  "book_fair": 0.5,
+  "books": [
+   {
+    "book": "BetOnline.ag",
+    "price": -106,
+    "prob": 0.5146
+   },
+   {
+    "book": "LowVig.ag",
+    "price": -106,
+    "prob": 0.5146
+   },
+   {
+    "book": "DraftKings",
+    "price": -108,
+    "prob": 0.5192
+   },
+   {
+    "book": "BetRivers",
+    "price": -109,
+    "prob": 0.5215
+   },
+   {
+    "book": "BetUS",
+    "price": -110,
+    "prob": 0.5238
+   },
+   {
+    "book": "FanDuel",
+    "price": -110,
+    "prob": 0.5238
+   },
+   {
+    "book": "BetMGM",
+    "price": -110,
+    "prob": 0.5238
+   },
+   {
+    "book": "Bovada",
+    "price": -115,
+    "prob": 0.5349
+   },
+   {
+    "book": "MyBookie.ag",
+    "price": -115,
+    "prob": 0.5349
+   }
+  ],
+  "close_price": 0.505,
+  "clv": null,
+  "condition_id": "0xbde42d97c464effaac840f9b9105ae05b6fab0a3315a6154da1abfec425621de",
+  "entry_price": 0.505,
+  "event_title": "Islanders vs. Ducks",
+  "game_start": "2026-11-15T03:00:00+00:00",
+  "id": "0xbde42d97-1-1794705020",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "moneyline",
+  "max_prob": 0.54,
+  "n_wallets": 2,
+  "outcome": "Ducks",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Islanders vs. Ducks",
+  "result": null,
+  "sharp_usd": 3097.93,
+  "sport": "nhl",
+  "url": "https://polymarket.com/event/nhl-nyi-ana-2026-11-14"
  }
 ]
