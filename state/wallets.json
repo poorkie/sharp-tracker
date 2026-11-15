@@ -157516,6 +157516,102 @@
    }
   }
  },
+ "0xbbd9de1ad99315ebb306572f62d5825a4477de31": {
+  "graded_at": "2026-11-15T07:10:15.364118+00:00",
+  "grades": {
+   "atp": {
+    "avg_price": 0.57,
+    "hit_edge": -0.37,
+    "hit_rate": 0.2,
+    "n": 5,
+    "pnl": -3190.83,
+    "roi": -0.6525,
+    "shrunk_roi": -0.0992,
+    "sport": "atp",
+    "staked": 4889.94,
+    "t_stat": -3.1,
+    "tier": "NONE"
+   },
+   "dota2": {
+    "avg_price": 0.656,
+    "hit_edge": -0.047,
+    "hit_rate": 0.609,
+    "n": 363,
+    "pnl": -9447.96,
+    "roi": -0.0129,
+    "shrunk_roi": -0.0146,
+    "sport": "dota2",
+    "staked": 731509.6,
+    "t_stat": -1.84,
+    "tier": "NONE"
+   },
+   "epl": {
+    "avg_price": 0.611,
+    "hit_edge": -0.04,
+    "hit_rate": 0.571,
+    "n": 7,
+    "pnl": 468.3,
+    "roi": 0.0659,
+    "shrunk_roi": -0.0157,
+    "sport": "epl",
+    "staked": 7109.79,
+    "t_stat": 0.15,
+    "tier": "NONE"
+   },
+   "lol": {
+    "avg_price": 0.638,
+    "hit_edge": -0.138,
+    "hit_rate": 0.5,
+    "n": 20,
+    "pnl": -2247.53,
+    "roi": -0.0772,
+    "shrunk_roi": -0.0457,
+    "sport": "lol",
+    "staked": 29123.36,
+    "t_stat": -1.74,
+    "tier": "NONE"
+   },
+   "nba": {
+    "avg_price": 0.68,
+    "hit_edge": -0.68,
+    "hit_rate": 0.0,
+    "n": 1,
+    "pnl": -2819.35,
+    "roi": -1.0097,
+    "shrunk_roi": -0.0539,
+    "sport": "nba",
+    "staked": 2792.14,
+    "t_stat": 0.0,
+    "tier": "NONE"
+   },
+   "nfl": {
+    "avg_price": 0.806,
+    "hit_edge": -0.056,
+    "hit_rate": 0.75,
+    "n": 4,
+    "pnl": 1051.7,
+    "roi": 0.1026,
+    "shrunk_roi": -0.0179,
+    "sport": "nfl",
+    "staked": 10250.4,
+    "t_stat": -0.12,
+    "tier": "NONE"
+   },
+   "wta": {
+    "avg_price": 0.785,
+    "hit_edge": 0.215,
+    "hit_rate": 1.0,
+    "n": 2,
+    "pnl": 850.69,
+    "roi": 0.2517,
+    "shrunk_roi": -0.0166,
+    "sport": "wta",
+    "staked": 3379.39,
+    "t_stat": 4.29,
+    "tier": "NONE"
+   }
+  }
+ },
  "0xbc11a64ab34a03a043fbe80598fa065ee87eeec6": {
   "graded_at": "2026-11-12T20:00:24.934529+00:00",
   "grades": {}
