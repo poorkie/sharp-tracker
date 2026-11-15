@@ -1177,7 +1177,7 @@
    }
   ],
   "close_price": 0.505,
-  "clv": null,
+  "clv": 0.0,
   "condition_id": "0xbde42d97c464effaac840f9b9105ae05b6fab0a3315a6154da1abfec425621de",
   "entry_price": 0.505,
   "event_title": "Islanders vs. Ducks",
@@ -1187,6 +1187,7 @@
   "lock": {
    "at": "2026-11-15T02:50:15.565984+00:00",
    "late": false,
+   "pnl_100": -100.0,
    "price": 0.505,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -1196,9 +1197,9 @@
   "n_wallets": 2,
   "outcome": "Ducks",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": -100.0,
   "question": "Islanders vs. Ducks",
-  "result": null,
+  "result": "LOSS",
   "sharp_usd": 3097.93,
   "sport": "nhl",
   "url": "https://polymarket.com/event/nhl-nyi-ana-2026-11-14"
