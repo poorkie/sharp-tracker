@@ -1,6 +1,6 @@
 # Sharp Tracker: graded record
 
-Updated 2026-11-15 17:10 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
+Updated 2026-11-15 17:20 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
 
 ## Overall
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
@@ -27,7 +27,7 @@ Updated 2026-11-15 17:10 UTC. Every alert is logged at the price when it fired a
 ## Last 50 alerts
 | Alerted (UTC) | Sport | Pick | Entry | Close | Books fair | Sharps | Result |
 |---|---|---|---|---|---|---|---|
-| 2026-11-15 17:10 | NFL | [Panthers: Panthers vs. Saints](https://polymarket.com/event/nfl-car-no-2026-11-15) | 0.52 | 0.52 | 50% | 4 / $705,356 | pending |
+| 2026-11-15 17:10 | NFL | [Panthers: Panthers vs. Saints](https://polymarket.com/event/nfl-car-no-2026-11-15) | 0.52 | 0.51 | 50% | 4 / $705,356 | pending |
 | 2026-11-15 16:50 | NFL | [Under 46.5: Chiefs vs. Falcons](https://polymarket.com/event/nfl-kc-atl-2026-11-15) | 0.46 | 0.46 | – | 1 / $15,871 | pending |
 | 2026-11-15 15:10 | NFL | [Steelers: Steelers vs. Bengals](https://polymarket.com/event/nfl-pit-cin-2026-11-16) | 0.35 | 0.35 | 37% | 2 / $2,101 | pending |
 | 2026-11-15 15:00 | NFL | [Vikings: Vikings vs. Packers](https://polymarket.com/event/nfl-min-gb-2026-11-15) | 0.43 | 0.43 | 43% | 4 / $179,194 | pending |
