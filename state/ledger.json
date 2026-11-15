@@ -820,7 +820,7 @@
   "book_fair": null,
   "books": [],
   "close_price": 0.495,
-  "clv": null,
+  "clv": 0.0,
   "condition_id": "0xb270e47243545807d3376068d57b8a4cb3323c85691388c3b5c7db0a9f56e786",
   "entry_price": 0.495,
   "event_title": "Jaguars vs. Titans",
@@ -830,6 +830,7 @@
   "lock": {
    "at": "2026-11-15T17:50:24.792793+00:00",
    "late": false,
+   "pnl_100": -100.0,
    "price": 0.495,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -839,9 +840,9 @@
   "n_wallets": 4,
   "outcome": "Titans +10.5",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": -100.0,
   "question": "Spread: Jaguars (-10.5)",
-  "result": null,
+  "result": "LOSS",
   "sharp_usd": 34291.36,
   "sport": "nfl",
   "updates": 2,
@@ -1131,7 +1132,7 @@
    }
   ],
   "close_price": 0.785,
-  "clv": null,
+  "clv": 0.0,
   "condition_id": "0xba45b9805fe8d9497c5117efe1ae4f28ecdf359788cf2c91de6dad9d00c1486f",
   "entry_price": 0.785,
   "event_title": "Bills vs. Jets",
@@ -1141,6 +1142,7 @@
   "lock": {
    "at": "2026-11-15T17:50:24.792793+00:00",
    "late": false,
+   "pnl_100": 27.39,
    "price": 0.785,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -1150,9 +1152,9 @@
   "n_wallets": 1,
   "outcome": "Bills",
   "outcome_index": 0,
-  "pnl_100": null,
+  "pnl_100": 27.39,
   "question": "Bills vs. Jets",
-  "result": null,
+  "result": "WIN",
   "sharp_usd": 45000.0,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-buf-nyj-2026-11-15"
@@ -1272,7 +1274,7 @@
   "book_fair": null,
   "books": [],
   "close_price": 0.425,
-  "clv": null,
+  "clv": 0.0,
   "condition_id": "0x82a91489832bae00b1abe91f3a0cb50f12b94d400b7ec22541bb60eddc090906",
   "entry_price": 0.425,
   "event_title": "Chiefs vs. Falcons",
@@ -1282,6 +1284,7 @@
   "lock": {
    "at": "2026-11-15T17:50:24.792793+00:00",
    "late": false,
+   "pnl_100": -100.0,
    "price": 0.425,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -1291,9 +1294,9 @@
   "n_wallets": 1,
   "outcome": "Falcons +2.5",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": -100.0,
   "question": "Spread: Chiefs (-2.5)",
-  "result": null,
+  "result": "LOSS",
   "sharp_usd": 9216.27,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-kc-atl-2026-11-15"
@@ -1380,7 +1383,7 @@
   "book_fair": null,
   "books": [],
   "close_price": 0.465,
-  "clv": null,
+  "clv": -0.01,
   "condition_id": "0x35ebf9df56bde4e0134c4f88492f95a4756c5ad8705c6200bf2357639e3bbbde",
   "entry_price": 0.475,
   "event_title": "Panthers vs. Saints",
@@ -1390,6 +1393,7 @@
   "lock": {
    "at": "2026-11-15T17:50:24.792793+00:00",
    "late": false,
+   "pnl_100": -100.0,
    "price": 0.465,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -1399,9 +1403,9 @@
   "n_wallets": 3,
   "outcome": "Saints -1.5",
   "outcome_index": 0,
-  "pnl_100": null,
+  "pnl_100": -100.0,
   "question": "Spread: Saints (-1.5)",
-  "result": null,
+  "result": "LOSS",
   "sharp_usd": 26851.28,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-car-no-2026-11-15"
@@ -1666,7 +1670,7 @@
    }
   ],
   "close_price": 0.635,
-  "clv": null,
+  "clv": 0.01,
   "condition_id": "0x1d5ff8b0c2a7a10f7502d0484533808ccfaa9c65de11a18e1115a1b08aad8dae",
   "entry_price": 0.625,
   "event_title": "Chiefs vs. Falcons",
@@ -1676,6 +1680,7 @@
   "lock": {
    "at": "2026-11-15T17:50:24.792793+00:00",
    "late": false,
+   "pnl_100": 57.48,
    "price": 0.635,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -1685,9 +1690,9 @@
   "n_wallets": 5,
   "outcome": "Chiefs",
   "outcome_index": 0,
-  "pnl_100": null,
+  "pnl_100": 60.0,
   "question": "Chiefs vs. Falcons",
-  "result": null,
+  "result": "WIN",
   "sharp_usd": 228715.25,
   "sport": "nfl",
   "updates": 1,
@@ -1910,7 +1915,7 @@
    }
   ],
   "close_price": 0.505,
-  "clv": null,
+  "clv": -0.01,
   "condition_id": "0xc7db52dccbf7f07ec89a8380323d87a7dc996baac7b916fddfe838016a2eaeeb",
   "entry_price": 0.515,
   "event_title": "Panthers vs. Saints",
@@ -1920,6 +1925,7 @@
   "lock": {
    "at": "2026-11-15T17:50:24.792793+00:00",
    "late": false,
+   "pnl_100": 98.02,
    "price": 0.505,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -1929,9 +1935,9 @@
   "n_wallets": 4,
   "outcome": "Panthers",
   "outcome_index": 0,
-  "pnl_100": null,
+  "pnl_100": 94.17,
   "question": "Panthers vs. Saints",
-  "result": null,
+  "result": "WIN",
   "sharp_usd": 705355.55,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-car-no-2026-11-15"
@@ -2019,7 +2025,7 @@
    }
   ],
   "close_price": 0.175,
-  "clv": null,
+  "clv": 0.0,
   "condition_id": "0x3edef02994f4d87944cb374f81bd892ee2af73869906f4d89f5ac9da98e6ad7c",
   "entry_price": 0.175,
   "event_title": "Jaguars vs. Titans",
@@ -2029,6 +2035,7 @@
   "lock": {
    "at": "2026-11-15T17:50:24.792793+00:00",
    "late": false,
+   "pnl_100": -100.0,
    "price": 0.175,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -2038,9 +2045,9 @@
   "n_wallets": 3,
   "outcome": "Titans",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": -100.0,
   "question": "Jaguars vs. Titans",
-  "result": null,
+  "result": "LOSS",
   "sharp_usd": 62918.83,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-jax-ten-2026-11-15"
@@ -2220,7 +2227,7 @@
   "alerted_at": "2026-11-15T20:30:31.888731+00:00",
   "book_fair": null,
   "books": [],
-  "close_price": 0.505,
+  "close_price": 0.525,
   "clv": null,
   "condition_id": "0x7a0d6ff012e4ed0249e525b5480fbf9c3590ee56d516ac961ddf85a4d57002b1",
   "entry_price": 0.445,
