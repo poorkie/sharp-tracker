@@ -2189,5 +2189,29 @@
   "sharp_usd": 2438.97,
   "sport": "nhl",
   "url": "https://polymarket.com/event/nhl-edm-phi-2026-11-15"
+ },
+ {
+  "alerted_at": "2026-11-15T20:30:31.888731+00:00",
+  "book_fair": null,
+  "books": [],
+  "close_price": 0.445,
+  "clv": null,
+  "condition_id": "0x7a0d6ff012e4ed0249e525b5480fbf9c3590ee56d516ac961ddf85a4d57002b1",
+  "entry_price": 0.445,
+  "event_title": "Knicks vs. Raptors",
+  "game_start": "2026-11-15T23:00:00+00:00",
+  "id": "0x7a0d6ff0-1-1794774631",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "spreads",
+  "max_prob": 0.4854,
+  "n_wallets": 2,
+  "outcome": "Raptors +4.5",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Spread: Knicks (-4.5)",
+  "result": null,
+  "sharp_usd": 2901.76,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-nyk-tor-2026-11-15"
  }
 ]
