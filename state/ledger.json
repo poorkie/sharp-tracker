@@ -1463,5 +1463,70 @@
   "sharp_usd": 9292.17,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-sf-dal-2026-11-15"
+ },
+ {
+  "alerted_at": "2026-11-15T14:10:23.234839+00:00",
+  "book_fair": 0.5655,
+  "books": [
+   {
+    "book": "FanDuel",
+    "price": -138,
+    "prob": 0.5798
+   },
+   {
+    "book": "BetOnline.ag",
+    "price": -141,
+    "prob": 0.5851
+   },
+   {
+    "book": "LowVig.ag",
+    "price": -141,
+    "prob": 0.5851
+   },
+   {
+    "book": "BetMGM",
+    "price": -145,
+    "prob": 0.5918
+   },
+   {
+    "book": "DraftKings",
+    "price": -148,
+    "prob": 0.5968
+   },
+   {
+    "book": "BetRivers",
+    "price": -148,
+    "prob": 0.5968
+   },
+   {
+    "book": "BetUS",
+    "price": -150,
+    "prob": 0.6
+   },
+   {
+    "book": "MyBookie.ag",
+    "price": -155,
+    "prob": 0.6078
+   }
+  ],
+  "close_price": 0.585,
+  "clv": null,
+  "condition_id": "0xecbfaf9f3950fe3bb70053492cb4d6714bec94a488680ac59ff544e939ce78ba",
+  "entry_price": 0.585,
+  "event_title": "Patriots vs. Lions",
+  "game_start": "2026-11-15T14:30:00+00:00",
+  "id": "0xecbfaf9f-1-1794751823",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "moneyline",
+  "max_prob": 0.61,
+  "n_wallets": 3,
+  "outcome": "Lions",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Patriots vs. Lions",
+  "result": null,
+  "sharp_usd": 444508.47,
+  "sport": "nfl",
+  "url": "https://polymarket.com/event/nfl-ne-det-2026-11-15"
  }
 ]

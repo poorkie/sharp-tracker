@@ -1,42 +1,21 @@
 {
  "americanfootball_nfl": {
-  "at": "2026-11-15T11:30:20.517562+00:00",
+  "at": "2026-11-15T14:10:23.234839+00:00",
   "games": [
    {
     "away_team": "New England Patriots",
     "bookmakers": [
      {
       "key": "draftkings",
-      "last_update": "2026-11-15T11:31:03Z",
+      "last_update": "2026-11-15T14:11:05Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:31:03Z",
+        "last_update": "2026-11-15T14:11:04Z",
         "outcomes": [
          {
           "name": "Detroit Lions",
-          "price": -142
-         },
-         {
-          "name": "New England Patriots",
-          "price": 120
-         }
-        ]
-       }
-      ],
-      "title": "DraftKings"
-     },
-     {
-      "key": "fanduel",
-      "last_update": "2026-11-15T11:30:49Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
-        "outcomes": [
-         {
-          "name": "Detroit Lions",
-          "price": -146
+          "price": -148
          },
          {
           "name": "New England Patriots",
@@ -45,15 +24,36 @@
         ]
        }
       ],
+      "title": "DraftKings"
+     },
+     {
+      "key": "fanduel",
+      "last_update": "2026-11-15T14:11:06Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-15T14:11:06Z",
+        "outcomes": [
+         {
+          "name": "Detroit Lions",
+          "price": -138
+         },
+         {
+          "name": "New England Patriots",
+          "price": 118
+         }
+        ]
+       }
+      ],
       "title": "FanDuel"
      },
      {
       "key": "betmgm",
-      "last_update": "2026-11-15T11:29:33Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:29:33Z",
+        "last_update": "2026-11-15T14:10:50Z",
         "outcomes": [
          {
           "name": "Detroit Lions",
@@ -70,19 +70,19 @@
      },
      {
       "key": "mybookieag",
-      "last_update": "2026-11-15T11:30:34Z",
+      "last_update": "2026-11-15T14:09:53Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:34Z",
+        "last_update": "2026-11-15T14:09:52Z",
         "outcomes": [
          {
           "name": "Detroit Lions",
-          "price": -153
+          "price": -155
          },
          {
           "name": "New England Patriots",
-          "price": 130
+          "price": 131
          }
         ]
        }
@@ -91,11 +91,11 @@
      },
      {
       "key": "betus",
-      "last_update": "2026-11-15T11:30:50Z",
+      "last_update": "2026-11-15T14:11:08Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
+        "last_update": "2026-11-15T14:11:08Z",
         "outcomes": [
          {
           "name": "Detroit Lions",
@@ -112,19 +112,19 @@
      },
      {
       "key": "betonlineag",
-      "last_update": "2026-11-15T11:30:20Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:19Z",
+        "last_update": "2026-11-15T14:10:49Z",
         "outcomes": [
          {
           "name": "Detroit Lions",
-          "price": -150
+          "price": -141
          },
          {
           "name": "New England Patriots",
-          "price": 130
+          "price": 121
          }
         ]
        }
@@ -133,19 +133,19 @@
      },
      {
       "key": "lowvig",
-      "last_update": "2026-11-15T11:30:21Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:21Z",
+        "last_update": "2026-11-15T14:10:50Z",
         "outcomes": [
          {
           "name": "Detroit Lions",
-          "price": -150
+          "price": -141
          },
          {
           "name": "New England Patriots",
-          "price": 130
+          "price": 121
          }
         ]
        }
@@ -154,11 +154,11 @@
      },
      {
       "key": "betrivers",
-      "last_update": "2026-11-15T11:30:05Z",
+      "last_update": "2026-11-15T14:11:07Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:05Z",
+        "last_update": "2026-11-15T14:11:06Z",
         "outcomes": [
          {
           "name": "Detroit Lions",
@@ -166,33 +166,12 @@
          },
          {
           "name": "New England Patriots",
-          "price": 120
+          "price": 118
          }
         ]
        }
       ],
       "title": "BetRivers"
-     },
-     {
-      "key": "bovada",
-      "last_update": "2026-11-15T11:26:24Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-15T11:26:24Z",
-        "outcomes": [
-         {
-          "name": "Detroit Lions",
-          "price": -150
-         },
-         {
-          "name": "New England Patriots",
-          "price": 130
-         }
-        ]
-       }
-      ],
-      "title": "Bovada"
      }
     ],
     "commence_time": "2026-11-15T14:30:00Z",
@@ -206,19 +185,19 @@
     "bookmakers": [
      {
       "key": "draftkings",
-      "last_update": "2026-11-15T11:31:03Z",
+      "last_update": "2026-11-15T14:11:05Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:31:03Z",
+        "last_update": "2026-11-15T14:11:04Z",
         "outcomes": [
          {
           "name": "Atlanta Falcons",
-          "price": 145
+          "price": 150
          },
          {
           "name": "Kansas City Chiefs",
-          "price": -175
+          "price": -180
          }
         ]
        }
@@ -227,11 +206,11 @@
      },
      {
       "key": "fanduel",
-      "last_update": "2026-11-15T11:30:49Z",
+      "last_update": "2026-11-15T14:11:06Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
+        "last_update": "2026-11-15T14:11:06Z",
         "outcomes": [
          {
           "name": "Atlanta Falcons",
@@ -248,11 +227,11 @@
      },
      {
       "key": "betus",
-      "last_update": "2026-11-15T11:30:50Z",
+      "last_update": "2026-11-15T14:11:08Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
+        "last_update": "2026-11-15T14:11:08Z",
         "outcomes": [
          {
           "name": "Atlanta Falcons",
@@ -269,19 +248,19 @@
      },
      {
       "key": "betonlineag",
-      "last_update": "2026-11-15T11:30:20Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:19Z",
+        "last_update": "2026-11-15T14:10:49Z",
         "outcomes": [
          {
           "name": "Atlanta Falcons",
-          "price": 157
+          "price": 161
          },
          {
           "name": "Kansas City Chiefs",
-          "price": -180
+          "price": -185
          }
         ]
        }
@@ -290,19 +269,19 @@
      },
      {
       "key": "lowvig",
-      "last_update": "2026-11-15T11:30:21Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:21Z",
+        "last_update": "2026-11-15T14:10:50Z",
         "outcomes": [
          {
           "name": "Atlanta Falcons",
-          "price": 157
+          "price": 161
          },
          {
           "name": "Kansas City Chiefs",
-          "price": -180
+          "price": -185
          }
         ]
        }
@@ -311,11 +290,11 @@
      },
      {
       "key": "betrivers",
-      "last_update": "2026-11-15T11:30:05Z",
+      "last_update": "2026-11-15T14:11:07Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:05Z",
+        "last_update": "2026-11-15T14:11:06Z",
         "outcomes": [
          {
           "name": "Atlanta Falcons",
@@ -332,19 +311,19 @@
      },
      {
       "key": "mybookieag",
-      "last_update": "2026-11-15T11:30:34Z",
+      "last_update": "2026-11-15T14:09:53Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:34Z",
+        "last_update": "2026-11-15T14:09:52Z",
         "outcomes": [
          {
           "name": "Atlanta Falcons",
-          "price": 164
+          "price": 150
          },
          {
           "name": "Kansas City Chiefs",
-          "price": -196
+          "price": -177
          }
         ]
        }
@@ -353,36 +332,15 @@
      },
      {
       "key": "betmgm",
-      "last_update": "2026-11-15T11:29:33Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:29:33Z",
+        "last_update": "2026-11-15T14:10:50Z",
         "outcomes": [
          {
           "name": "Atlanta Falcons",
           "price": 150
-         },
-         {
-          "name": "Kansas City Chiefs",
-          "price": -175
-         }
-        ]
-       }
-      ],
-      "title": "BetMGM"
-     },
-     {
-      "key": "bovada",
-      "last_update": "2026-11-15T11:26:24Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-15T11:26:24Z",
-        "outcomes": [
-         {
-          "name": "Atlanta Falcons",
-          "price": 160
          },
          {
           "name": "Kansas City Chiefs",
@@ -391,7 +349,7 @@
         ]
        }
       ],
-      "title": "Bovada"
+      "title": "BetMGM"
      }
     ],
     "commence_time": "2026-11-15T18:00:00Z",
@@ -405,11 +363,11 @@
     "bookmakers": [
      {
       "key": "draftkings",
-      "last_update": "2026-11-15T11:31:03Z",
+      "last_update": "2026-11-15T14:11:05Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:31:03Z",
+        "last_update": "2026-11-15T14:11:04Z",
         "outcomes": [
          {
           "name": "Buffalo Bills",
@@ -426,19 +384,19 @@
      },
      {
       "key": "fanduel",
-      "last_update": "2026-11-15T11:30:49Z",
+      "last_update": "2026-11-15T14:11:06Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
+        "last_update": "2026-11-15T14:11:06Z",
         "outcomes": [
          {
           "name": "Buffalo Bills",
-          "price": -460
+          "price": -450
          },
          {
           "name": "New York Jets",
-          "price": 360
+          "price": 350
          }
         ]
        }
@@ -447,19 +405,19 @@
      },
      {
       "key": "betus",
-      "last_update": "2026-11-15T11:30:50Z",
+      "last_update": "2026-11-15T14:11:08Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
+        "last_update": "2026-11-15T14:11:08Z",
         "outcomes": [
          {
           "name": "Buffalo Bills",
-          "price": -425
+          "price": -440
          },
          {
           "name": "New York Jets",
-          "price": 333
+          "price": 345
          }
         ]
        }
@@ -468,19 +426,19 @@
      },
      {
       "key": "betonlineag",
-      "last_update": "2026-11-15T11:30:20Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:19Z",
+        "last_update": "2026-11-15T14:10:49Z",
         "outcomes": [
          {
           "name": "Buffalo Bills",
-          "price": -465
+          "price": -460
          },
          {
           "name": "New York Jets",
-          "price": 361
+          "price": 358
          }
         ]
        }
@@ -489,19 +447,19 @@
      },
      {
       "key": "lowvig",
-      "last_update": "2026-11-15T11:30:21Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:21Z",
+        "last_update": "2026-11-15T14:10:50Z",
         "outcomes": [
          {
           "name": "Buffalo Bills",
-          "price": -465
+          "price": -460
          },
          {
           "name": "New York Jets",
-          "price": 361
+          "price": 358
          }
         ]
        }
@@ -510,11 +468,11 @@
      },
      {
       "key": "betrivers",
-      "last_update": "2026-11-15T11:30:05Z",
+      "last_update": "2026-11-15T14:11:07Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:05Z",
+        "last_update": "2026-11-15T14:11:06Z",
         "outcomes": [
          {
           "name": "Buffalo Bills",
@@ -531,19 +489,19 @@
      },
      {
       "key": "mybookieag",
-      "last_update": "2026-11-15T11:30:34Z",
+      "last_update": "2026-11-15T14:09:53Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:34Z",
+        "last_update": "2026-11-15T14:09:52Z",
         "outcomes": [
          {
           "name": "Buffalo Bills",
-          "price": -437
+          "price": -450
          },
          {
           "name": "New York Jets",
-          "price": 347
+          "price": 350
          }
         ]
        }
@@ -552,11 +510,11 @@
      },
      {
       "key": "betmgm",
-      "last_update": "2026-11-15T11:29:33Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:29:33Z",
+        "last_update": "2026-11-15T14:10:50Z",
         "outcomes": [
          {
           "name": "Buffalo Bills",
@@ -570,27 +528,6 @@
        }
       ],
       "title": "BetMGM"
-     },
-     {
-      "key": "bovada",
-      "last_update": "2026-11-15T11:26:24Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-15T11:26:24Z",
-        "outcomes": [
-         {
-          "name": "Buffalo Bills",
-          "price": -460
-         },
-         {
-          "name": "New York Jets",
-          "price": 355
-         }
-        ]
-       }
-      ],
-      "title": "Bovada"
      }
     ],
     "commence_time": "2026-11-15T18:00:00Z",
@@ -604,19 +541,19 @@
     "bookmakers": [
      {
       "key": "draftkings",
-      "last_update": "2026-11-15T11:31:03Z",
+      "last_update": "2026-11-15T14:11:05Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:31:03Z",
+        "last_update": "2026-11-15T14:11:04Z",
         "outcomes": [
          {
           "name": "Carolina Panthers",
-          "price": 110
+          "price": -105
          },
          {
           "name": "New Orleans Saints",
-          "price": -130
+          "price": -115
          }
         ]
        }
@@ -625,19 +562,19 @@
      },
      {
       "key": "betus",
-      "last_update": "2026-11-15T11:30:50Z",
+      "last_update": "2026-11-15T14:11:08Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
+        "last_update": "2026-11-15T14:11:08Z",
         "outcomes": [
          {
           "name": "Carolina Panthers",
-          "price": 107
+          "price": 100
          },
          {
           "name": "New Orleans Saints",
-          "price": -127
+          "price": -120
          }
         ]
        }
@@ -646,19 +583,19 @@
      },
      {
       "key": "fanduel",
-      "last_update": "2026-11-15T11:30:49Z",
+      "last_update": "2026-11-15T14:11:06Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
+        "last_update": "2026-11-15T14:11:06Z",
         "outcomes": [
          {
           "name": "Carolina Panthers",
-          "price": 114
+          "price": -108
          },
          {
           "name": "New Orleans Saints",
-          "price": -134
+          "price": -108
          }
         ]
        }
@@ -667,19 +604,19 @@
      },
      {
       "key": "betonlineag",
-      "last_update": "2026-11-15T11:30:20Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:19Z",
+        "last_update": "2026-11-15T14:10:50Z",
         "outcomes": [
          {
           "name": "Carolina Panthers",
-          "price": 115
+          "price": 100
          },
          {
           "name": "New Orleans Saints",
-          "price": -135
+          "price": -120
          }
         ]
        }
@@ -688,19 +625,19 @@
      },
      {
       "key": "lowvig",
-      "last_update": "2026-11-15T11:30:21Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:21Z",
+        "last_update": "2026-11-15T14:10:50Z",
         "outcomes": [
          {
           "name": "Carolina Panthers",
-          "price": 115
+          "price": 100
          },
          {
           "name": "New Orleans Saints",
-          "price": -135
+          "price": -120
          }
         ]
        }
@@ -709,19 +646,19 @@
      },
      {
       "key": "betrivers",
-      "last_update": "2026-11-15T11:30:05Z",
+      "last_update": "2026-11-15T14:11:07Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:05Z",
+        "last_update": "2026-11-15T14:11:06Z",
         "outcomes": [
          {
           "name": "Carolina Panthers",
-          "price": 108
+          "price": -105
          },
          {
           "name": "New Orleans Saints",
-          "price": -132
+          "price": -118
          }
         ]
        }
@@ -730,19 +667,19 @@
      },
      {
       "key": "mybookieag",
-      "last_update": "2026-11-15T11:30:34Z",
+      "last_update": "2026-11-15T14:09:53Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:34Z",
+        "last_update": "2026-11-15T14:09:52Z",
         "outcomes": [
          {
           "name": "Carolina Panthers",
-          "price": 108
+          "price": 103
          },
          {
           "name": "New Orleans Saints",
-          "price": -128
+          "price": -121
          }
         ]
        }
@@ -751,45 +688,24 @@
      },
      {
       "key": "betmgm",
-      "last_update": "2026-11-15T11:29:33Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:29:33Z",
+        "last_update": "2026-11-15T14:10:50Z",
         "outcomes": [
          {
           "name": "Carolina Panthers",
-          "price": 110
+          "price": -105
          },
          {
           "name": "New Orleans Saints",
-          "price": -130
+          "price": -115
          }
         ]
        }
       ],
       "title": "BetMGM"
-     },
-     {
-      "key": "bovada",
-      "last_update": "2026-11-15T11:26:24Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-15T11:26:24Z",
-        "outcomes": [
-         {
-          "name": "Carolina Panthers",
-          "price": 107
-         },
-         {
-          "name": "New Orleans Saints",
-          "price": -127
-         }
-        ]
-       }
-      ],
-      "title": "Bovada"
      }
     ],
     "commence_time": "2026-11-15T18:00:00Z",
@@ -803,11 +719,11 @@
     "bookmakers": [
      {
       "key": "draftkings",
-      "last_update": "2026-11-15T11:31:03Z",
+      "last_update": "2026-11-15T14:11:05Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:31:03Z",
+        "last_update": "2026-11-15T14:11:04Z",
         "outcomes": [
          {
           "name": "Cleveland Browns",
@@ -824,19 +740,19 @@
      },
      {
       "key": "fanduel",
-      "last_update": "2026-11-15T11:30:49Z",
+      "last_update": "2026-11-15T14:11:06Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
+        "last_update": "2026-11-15T14:11:06Z",
         "outcomes": [
          {
           "name": "Cleveland Browns",
-          "price": 188
+          "price": 190
          },
          {
           "name": "Houston Texans",
-          "price": -220
+          "price": -230
          }
         ]
        }
@@ -845,11 +761,11 @@
      },
      {
       "key": "betus",
-      "last_update": "2026-11-15T11:30:50Z",
+      "last_update": "2026-11-15T14:11:08Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
+        "last_update": "2026-11-15T14:11:08Z",
         "outcomes": [
          {
           "name": "Cleveland Browns",
@@ -866,11 +782,11 @@
      },
      {
       "key": "betonlineag",
-      "last_update": "2026-11-15T11:30:20Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:19Z",
+        "last_update": "2026-11-15T14:10:49Z",
         "outcomes": [
          {
           "name": "Cleveland Browns",
@@ -887,11 +803,11 @@
      },
      {
       "key": "lowvig",
-      "last_update": "2026-11-15T11:30:21Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:21Z",
+        "last_update": "2026-11-15T14:10:50Z",
         "outcomes": [
          {
           "name": "Cleveland Browns",
@@ -908,11 +824,11 @@
      },
      {
       "key": "betrivers",
-      "last_update": "2026-11-15T11:30:05Z",
+      "last_update": "2026-11-15T14:11:07Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:05Z",
+        "last_update": "2026-11-15T14:11:07Z",
         "outcomes": [
          {
           "name": "Cleveland Browns",
@@ -929,19 +845,19 @@
      },
      {
       "key": "mybookieag",
-      "last_update": "2026-11-15T11:30:34Z",
+      "last_update": "2026-11-15T14:09:53Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:34Z",
+        "last_update": "2026-11-15T14:09:52Z",
         "outcomes": [
          {
           "name": "Cleveland Browns",
-          "price": 188
+          "price": 193
          },
          {
           "name": "Houston Texans",
-          "price": -224
+          "price": -229
          }
         ]
        }
@@ -950,11 +866,11 @@
      },
      {
       "key": "betmgm",
-      "last_update": "2026-11-15T11:29:33Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:29:33Z",
+        "last_update": "2026-11-15T14:10:50Z",
         "outcomes": [
          {
           "name": "Cleveland Browns",
@@ -968,27 +884,6 @@
        }
       ],
       "title": "BetMGM"
-     },
-     {
-      "key": "bovada",
-      "last_update": "2026-11-15T11:26:24Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-15T11:26:24Z",
-        "outcomes": [
-         {
-          "name": "Cleveland Browns",
-          "price": 190
-         },
-         {
-          "name": "Houston Texans",
-          "price": -230
-         }
-        ]
-       }
-      ],
-      "title": "Bovada"
      }
     ],
     "commence_time": "2026-11-15T18:00:00Z",
@@ -1002,11 +897,11 @@
     "bookmakers": [
      {
       "key": "draftkings",
-      "last_update": "2026-11-15T11:31:03Z",
+      "last_update": "2026-11-15T14:11:05Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:31:03Z",
+        "last_update": "2026-11-15T14:11:04Z",
         "outcomes": [
          {
           "name": "Green Bay Packers",
@@ -1023,11 +918,11 @@
      },
      {
       "key": "betus",
-      "last_update": "2026-11-15T11:30:50Z",
+      "last_update": "2026-11-15T14:11:08Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:50Z",
+        "last_update": "2026-11-15T14:11:08Z",
         "outcomes": [
          {
           "name": "Green Bay Packers",
@@ -1044,11 +939,11 @@
      },
      {
       "key": "fanduel",
-      "last_update": "2026-11-15T11:30:49Z",
+      "last_update": "2026-11-15T14:11:06Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
+        "last_update": "2026-11-15T14:11:06Z",
         "outcomes": [
          {
           "name": "Green Bay Packers",
@@ -1065,19 +960,19 @@
      },
      {
       "key": "betonlineag",
-      "last_update": "2026-11-15T11:30:20Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:19Z",
+        "last_update": "2026-11-15T14:10:50Z",
         "outcomes": [
          {
           "name": "Green Bay Packers",
-          "price": -150
+          "price": -144
          },
          {
           "name": "Minnesota Vikings",
-          "price": 130
+          "price": 124
          }
         ]
        }
@@ -1086,19 +981,19 @@
      },
      {
       "key": "lowvig",
-      "last_update": "2026-11-15T11:30:21Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:21Z",
+        "last_update": "2026-11-15T14:10:50Z",
         "outcomes": [
          {
           "name": "Green Bay Packers",
-          "price": -150
+          "price": -144
          },
          {
           "name": "Minnesota Vikings",
-          "price": 130
+          "price": 124
          }
         ]
        }
@@ -1107,11 +1002,11 @@
      },
      {
       "key": "betrivers",
-      "last_update": "2026-11-15T11:30:05Z",
+      "last_update": "2026-11-15T14:11:07Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:05Z",
+        "last_update": "2026-11-15T14:11:06Z",
         "outcomes": [
          {
           "name": "Green Bay Packers",
@@ -1128,19 +1023,19 @@
      },
      {
       "key": "mybookieag",
-      "last_update": "2026-11-15T11:30:34Z",
+      "last_update": "2026-11-15T14:09:53Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:34Z",
+        "last_update": "2026-11-15T14:09:52Z",
         "outcomes": [
          {
           "name": "Green Bay Packers",
-          "price": -144
+          "price": -145
          },
          {
           "name": "Minnesota Vikings",
-          "price": 122
+          "price": 123
          }
         ]
        }
@@ -1149,11 +1044,11 @@
      },
      {
       "key": "betmgm",
-      "last_update": "2026-11-15T11:29:33Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:29:33Z",
+        "last_update": "2026-11-15T14:10:50Z",
         "outcomes": [
          {
           "name": "Green Bay Packers",
@@ -1167,27 +1062,6 @@
        }
       ],
       "title": "BetMGM"
-     },
-     {
-      "key": "bovada",
-      "last_update": "2026-11-15T11:26:24Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-15T11:26:24Z",
-        "outcomes": [
-         {
-          "name": "Green Bay Packers",
-          "price": -150
-         },
-         {
-          "name": "Minnesota Vikings",
-          "price": 130
-         }
-        ]
-       }
-      ],
-      "title": "Bovada"
      }
     ],
     "commence_time": "2026-11-15T18:00:00Z",
@@ -1201,11 +1075,11 @@
     "bookmakers": [
      {
       "key": "draftkings",
-      "last_update": "2026-11-15T11:31:03Z",
+      "last_update": "2026-11-15T14:11:05Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:31:03Z",
+        "last_update": "2026-11-15T14:11:04Z",
         "outcomes": [
          {
           "name": "Indianapolis Colts",
@@ -1222,11 +1096,11 @@
      },
      {
       "key": "fanduel",
-      "last_update": "2026-11-15T11:30:49Z",
+      "last_update": "2026-11-15T14:11:06Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
+        "last_update": "2026-11-15T14:11:06Z",
         "outcomes": [
          {
           "name": "Indianapolis Colts",
@@ -1243,19 +1117,19 @@
      },
      {
       "key": "betus",
-      "last_update": "2026-11-15T11:30:50Z",
+      "last_update": "2026-11-15T14:11:08Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
+        "last_update": "2026-11-15T14:11:08Z",
         "outcomes": [
          {
           "name": "Indianapolis Colts",
-          "price": -205
+          "price": -215
          },
          {
           "name": "Miami Dolphins",
-          "price": 175
+          "price": 183
          }
         ]
        }
@@ -1264,19 +1138,19 @@
      },
      {
       "key": "betonlineag",
-      "last_update": "2026-11-15T11:30:20Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:19Z",
+        "last_update": "2026-11-15T14:10:49Z",
         "outcomes": [
          {
           "name": "Indianapolis Colts",
-          "price": -205
+          "price": -212
          },
          {
           "name": "Miami Dolphins",
-          "price": 177
+          "price": 181
          }
         ]
        }
@@ -1285,19 +1159,19 @@
      },
      {
       "key": "lowvig",
-      "last_update": "2026-11-15T11:30:21Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:21Z",
+        "last_update": "2026-11-15T14:10:50Z",
         "outcomes": [
          {
           "name": "Indianapolis Colts",
-          "price": -205
+          "price": -212
          },
          {
           "name": "Miami Dolphins",
-          "price": 177
+          "price": 181
          }
         ]
        }
@@ -1306,19 +1180,19 @@
      },
      {
       "key": "betrivers",
-      "last_update": "2026-11-15T11:30:05Z",
+      "last_update": "2026-11-15T14:11:07Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:05Z",
+        "last_update": "2026-11-15T14:11:07Z",
         "outcomes": [
          {
           "name": "Indianapolis Colts",
-          "price": -220
+          "price": -200
          },
          {
           "name": "Miami Dolphins",
-          "price": 175
+          "price": 160
          }
         ]
        }
@@ -1327,19 +1201,19 @@
      },
      {
       "key": "mybookieag",
-      "last_update": "2026-11-15T11:30:34Z",
+      "last_update": "2026-11-15T14:09:53Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:34Z",
+        "last_update": "2026-11-15T14:09:52Z",
         "outcomes": [
          {
           "name": "Indianapolis Colts",
-          "price": -216
+          "price": -231
          },
          {
           "name": "Miami Dolphins",
-          "price": 180
+          "price": 193
          }
         ]
        }
@@ -1348,45 +1222,24 @@
      },
      {
       "key": "betmgm",
-      "last_update": "2026-11-15T11:29:33Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:29:33Z",
+        "last_update": "2026-11-15T14:10:50Z",
         "outcomes": [
          {
           "name": "Indianapolis Colts",
-          "price": -210
+          "price": -220
          },
          {
           "name": "Miami Dolphins",
-          "price": 175
+          "price": 180
          }
         ]
        }
       ],
       "title": "BetMGM"
-     },
-     {
-      "key": "bovada",
-      "last_update": "2026-11-15T11:26:24Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-15T11:26:24Z",
-        "outcomes": [
-         {
-          "name": "Indianapolis Colts",
-          "price": -205
-         },
-         {
-          "name": "Miami Dolphins",
-          "price": 172
-         }
-        ]
-       }
-      ],
-      "title": "Bovada"
      }
     ],
     "commence_time": "2026-11-15T18:00:00Z",
@@ -1400,11 +1253,11 @@
     "bookmakers": [
      {
       "key": "draftkings",
-      "last_update": "2026-11-15T11:31:03Z",
+      "last_update": "2026-11-15T14:11:05Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:31:03Z",
+        "last_update": "2026-11-15T14:11:04Z",
         "outcomes": [
          {
           "name": "Jacksonville Jaguars",
@@ -1421,19 +1274,19 @@
      },
      {
       "key": "betus",
-      "last_update": "2026-11-15T11:30:50Z",
+      "last_update": "2026-11-15T14:11:08Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
+        "last_update": "2026-11-15T14:11:08Z",
         "outcomes": [
          {
           "name": "Jacksonville Jaguars",
-          "price": -590
+          "price": -600
          },
          {
           "name": "Tennessee Titans",
-          "price": 445
+          "price": 450
          }
         ]
        }
@@ -1442,11 +1295,11 @@
      },
      {
       "key": "fanduel",
-      "last_update": "2026-11-15T11:30:49Z",
+      "last_update": "2026-11-15T14:11:06Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
+        "last_update": "2026-11-15T14:11:06Z",
         "outcomes": [
          {
           "name": "Jacksonville Jaguars",
@@ -1463,78 +1316,15 @@
      },
      {
       "key": "betonlineag",
-      "last_update": "2026-11-15T11:30:20Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:19Z",
-        "outcomes": [
-         {
-          "name": "Jacksonville Jaguars",
-          "price": -575
-         },
-         {
-          "name": "Tennessee Titans",
-          "price": 431
-         }
-        ]
-       }
-      ],
-      "title": "BetOnline.ag"
-     },
-     {
-      "key": "lowvig",
-      "last_update": "2026-11-15T11:30:21Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-15T11:30:21Z",
-        "outcomes": [
-         {
-          "name": "Jacksonville Jaguars",
-          "price": -575
-         },
-         {
-          "name": "Tennessee Titans",
-          "price": 431
-         }
-        ]
-       }
-      ],
-      "title": "LowVig.ag"
-     },
-     {
-      "key": "betrivers",
-      "last_update": "2026-11-15T11:30:05Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-15T11:30:05Z",
+        "last_update": "2026-11-15T14:10:49Z",
         "outcomes": [
          {
           "name": "Jacksonville Jaguars",
           "price": -625
-         },
-         {
-          "name": "Tennessee Titans",
-          "price": 425
-         }
-        ]
-       }
-      ],
-      "title": "BetRivers"
-     },
-     {
-      "key": "mybookieag",
-      "last_update": "2026-11-15T11:30:34Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-15T11:30:34Z",
-        "outcomes": [
-         {
-          "name": "Jacksonville Jaguars",
-          "price": -619
          },
          {
           "name": "Tennessee Titans",
@@ -1543,15 +1333,78 @@
         ]
        }
       ],
+      "title": "BetOnline.ag"
+     },
+     {
+      "key": "lowvig",
+      "last_update": "2026-11-15T14:10:50Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-15T14:10:50Z",
+        "outcomes": [
+         {
+          "name": "Jacksonville Jaguars",
+          "price": -625
+         },
+         {
+          "name": "Tennessee Titans",
+          "price": 461
+         }
+        ]
+       }
+      ],
+      "title": "LowVig.ag"
+     },
+     {
+      "key": "betrivers",
+      "last_update": "2026-11-15T14:11:07Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-15T14:11:07Z",
+        "outcomes": [
+         {
+          "name": "Jacksonville Jaguars",
+          "price": -625
+         },
+         {
+          "name": "Tennessee Titans",
+          "price": 420
+         }
+        ]
+       }
+      ],
+      "title": "BetRivers"
+     },
+     {
+      "key": "mybookieag",
+      "last_update": "2026-11-15T14:09:53Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-15T14:09:52Z",
+        "outcomes": [
+         {
+          "name": "Jacksonville Jaguars",
+          "price": -637
+         },
+         {
+          "name": "Tennessee Titans",
+          "price": 472
+         }
+        ]
+       }
+      ],
       "title": "MyBookie.ag"
      },
      {
       "key": "betmgm",
-      "last_update": "2026-11-15T11:29:33Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:29:33Z",
+        "last_update": "2026-11-15T14:10:50Z",
         "outcomes": [
          {
           "name": "Jacksonville Jaguars",
@@ -1565,27 +1418,6 @@
        }
       ],
       "title": "BetMGM"
-     },
-     {
-      "key": "bovada",
-      "last_update": "2026-11-15T11:26:24Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-15T11:26:24Z",
-        "outcomes": [
-         {
-          "name": "Jacksonville Jaguars",
-          "price": -585
-         },
-         {
-          "name": "Tennessee Titans",
-          "price": 435
-         }
-        ]
-       }
-      ],
-      "title": "Bovada"
      }
     ],
     "commence_time": "2026-11-15T18:00:00Z",
@@ -1599,19 +1431,19 @@
     "bookmakers": [
      {
       "key": "draftkings",
-      "last_update": "2026-11-15T11:31:03Z",
+      "last_update": "2026-11-15T14:11:05Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:31:03Z",
+        "last_update": "2026-11-15T14:11:04Z",
         "outcomes": [
          {
           "name": "Arizona Cardinals",
-          "price": 390
+          "price": 370
          },
          {
           "name": "Los Angeles Rams",
-          "price": -520
+          "price": -485
          }
         ]
        }
@@ -1620,19 +1452,19 @@
      },
      {
       "key": "betus",
-      "last_update": "2026-11-15T11:30:50Z",
+      "last_update": "2026-11-15T14:11:08Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:50Z",
+        "last_update": "2026-11-15T14:11:08Z",
         "outcomes": [
          {
           "name": "Arizona Cardinals",
-          "price": 370
+          "price": 378
          },
          {
           "name": "Los Angeles Rams",
-          "price": -470
+          "price": -480
          }
         ]
        }
@@ -1641,11 +1473,11 @@
      },
      {
       "key": "fanduel",
-      "last_update": "2026-11-15T11:30:49Z",
+      "last_update": "2026-11-15T14:11:06Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
+        "last_update": "2026-11-15T14:11:06Z",
         "outcomes": [
          {
           "name": "Arizona Cardinals",
@@ -1662,19 +1494,19 @@
      },
      {
       "key": "lowvig",
-      "last_update": "2026-11-15T11:30:21Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:21Z",
+        "last_update": "2026-11-15T14:10:50Z",
         "outcomes": [
          {
           "name": "Arizona Cardinals",
-          "price": 350
+          "price": 386
          },
          {
           "name": "Los Angeles Rams",
-          "price": -450
+          "price": -505
          }
         ]
        }
@@ -1683,19 +1515,19 @@
      },
      {
       "key": "betonlineag",
-      "last_update": "2026-11-15T11:30:20Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:19Z",
+        "last_update": "2026-11-15T14:10:50Z",
         "outcomes": [
          {
           "name": "Arizona Cardinals",
-          "price": 350
+          "price": 386
          },
          {
           "name": "Los Angeles Rams",
-          "price": -450
+          "price": -505
          }
         ]
        }
@@ -1704,11 +1536,11 @@
      },
      {
       "key": "betrivers",
-      "last_update": "2026-11-15T11:30:05Z",
+      "last_update": "2026-11-15T14:11:07Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:05Z",
+        "last_update": "2026-11-15T14:11:07Z",
         "outcomes": [
          {
           "name": "Arizona Cardinals",
@@ -1725,19 +1557,19 @@
      },
      {
       "key": "mybookieag",
-      "last_update": "2026-11-15T11:30:34Z",
+      "last_update": "2026-11-15T14:09:53Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:34Z",
+        "last_update": "2026-11-15T14:09:52Z",
         "outcomes": [
          {
           "name": "Arizona Cardinals",
-          "price": 400
+          "price": 430
          },
          {
           "name": "Los Angeles Rams",
-          "price": -526
+          "price": -575
          }
         ]
        }
@@ -1746,45 +1578,24 @@
      },
      {
       "key": "betmgm",
-      "last_update": "2026-11-15T11:29:33Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:29:33Z",
+        "last_update": "2026-11-15T14:10:50Z",
         "outcomes": [
          {
           "name": "Arizona Cardinals",
-          "price": 375
+          "price": 400
          },
          {
           "name": "Los Angeles Rams",
-          "price": -475
+          "price": -500
          }
         ]
        }
       ],
       "title": "BetMGM"
-     },
-     {
-      "key": "bovada",
-      "last_update": "2026-11-15T11:26:24Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-15T11:26:24Z",
-        "outcomes": [
-         {
-          "name": "Arizona Cardinals",
-          "price": 360
-         },
-         {
-          "name": "Los Angeles Rams",
-          "price": -470
-         }
-        ]
-       }
-      ],
-      "title": "Bovada"
      }
     ],
     "commence_time": "2026-11-15T21:05:00Z",
@@ -1798,19 +1609,19 @@
     "bookmakers": [
      {
       "key": "draftkings",
-      "last_update": "2026-11-15T11:31:03Z",
+      "last_update": "2026-11-15T14:11:05Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:31:03Z",
+        "last_update": "2026-11-15T14:11:04Z",
         "outcomes": [
          {
           "name": "Las Vegas Raiders",
-          "price": 230
+          "price": 235
          },
          {
           "name": "Seattle Seahawks",
-          "price": -285
+          "price": -290
          }
         ]
        }
@@ -1819,11 +1630,11 @@
      },
      {
       "key": "betus",
-      "last_update": "2026-11-15T11:30:50Z",
+      "last_update": "2026-11-15T14:11:08Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:50Z",
+        "last_update": "2026-11-15T14:11:08Z",
         "outcomes": [
          {
           "name": "Las Vegas Raiders",
@@ -1840,19 +1651,19 @@
      },
      {
       "key": "fanduel",
-      "last_update": "2026-11-15T11:30:49Z",
+      "last_update": "2026-11-15T14:11:06Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
+        "last_update": "2026-11-15T14:11:06Z",
         "outcomes": [
          {
           "name": "Las Vegas Raiders",
-          "price": 245
+          "price": 250
          },
          {
           "name": "Seattle Seahawks",
-          "price": -300
+          "price": -310
          }
         ]
        }
@@ -1861,11 +1672,11 @@
      },
      {
       "key": "lowvig",
-      "last_update": "2026-11-15T11:30:21Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:21Z",
+        "last_update": "2026-11-15T14:10:50Z",
         "outcomes": [
          {
           "name": "Las Vegas Raiders",
@@ -1882,11 +1693,11 @@
      },
      {
       "key": "betonlineag",
-      "last_update": "2026-11-15T11:30:20Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:19Z",
+        "last_update": "2026-11-15T14:10:50Z",
         "outcomes": [
          {
           "name": "Las Vegas Raiders",
@@ -1903,11 +1714,11 @@
      },
      {
       "key": "betrivers",
-      "last_update": "2026-11-15T11:30:05Z",
+      "last_update": "2026-11-15T14:11:07Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:05Z",
+        "last_update": "2026-11-15T14:11:07Z",
         "outcomes": [
          {
           "name": "Las Vegas Raiders",
@@ -1924,57 +1735,15 @@
      },
      {
       "key": "betmgm",
-      "last_update": "2026-11-15T11:29:33Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:29:33Z",
+        "last_update": "2026-11-15T14:10:50Z",
         "outcomes": [
          {
           "name": "Las Vegas Raiders",
-          "price": 240
-         },
-         {
-          "name": "Seattle Seahawks",
-          "price": -295
-         }
-        ]
-       }
-      ],
-      "title": "BetMGM"
-     },
-     {
-      "key": "mybookieag",
-      "last_update": "2026-11-15T11:30:34Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-15T11:30:34Z",
-        "outcomes": [
-         {
-          "name": "Las Vegas Raiders",
-          "price": 246
-         },
-         {
-          "name": "Seattle Seahawks",
-          "price": -300
-         }
-        ]
-       }
-      ],
-      "title": "MyBookie.ag"
-     },
-     {
-      "key": "bovada",
-      "last_update": "2026-11-15T11:26:24Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-15T11:26:24Z",
-        "outcomes": [
-         {
-          "name": "Las Vegas Raiders",
-          "price": 235
+          "price": 230
          },
          {
           "name": "Seattle Seahawks",
@@ -1983,7 +1752,28 @@
         ]
        }
       ],
-      "title": "Bovada"
+      "title": "BetMGM"
+     },
+     {
+      "key": "mybookieag",
+      "last_update": "2026-11-15T14:09:53Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-15T14:09:52Z",
+        "outcomes": [
+         {
+          "name": "Las Vegas Raiders",
+          "price": 253
+         },
+         {
+          "name": "Seattle Seahawks",
+          "price": -315
+         }
+        ]
+       }
+      ],
+      "title": "MyBookie.ag"
      }
     ],
     "commence_time": "2026-11-15T21:05:00Z",
@@ -1997,11 +1787,11 @@
     "bookmakers": [
      {
       "key": "draftkings",
-      "last_update": "2026-11-15T11:31:03Z",
+      "last_update": "2026-11-15T14:11:05Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:31:03Z",
+        "last_update": "2026-11-15T14:11:04Z",
         "outcomes": [
          {
           "name": "Dallas Cowboys",
@@ -2018,11 +1808,11 @@
      },
      {
       "key": "fanduel",
-      "last_update": "2026-11-15T11:30:49Z",
+      "last_update": "2026-11-15T14:11:06Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
+        "last_update": "2026-11-15T14:11:06Z",
         "outcomes": [
          {
           "name": "Dallas Cowboys",
@@ -2039,19 +1829,19 @@
      },
      {
       "key": "betus",
-      "last_update": "2026-11-15T11:30:50Z",
+      "last_update": "2026-11-15T14:11:08Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:50Z",
+        "last_update": "2026-11-15T14:11:08Z",
         "outcomes": [
          {
           "name": "Dallas Cowboys",
-          "price": 183
+          "price": 175
          },
          {
           "name": "San Francisco 49ers",
-          "price": -215
+          "price": -205
          }
         ]
        }
@@ -2060,19 +1850,19 @@
      },
      {
       "key": "lowvig",
-      "last_update": "2026-11-15T11:30:21Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:21Z",
+        "last_update": "2026-11-15T14:10:50Z",
         "outcomes": [
          {
           "name": "Dallas Cowboys",
-          "price": 179
+          "price": 177
          },
          {
           "name": "San Francisco 49ers",
-          "price": -208
+          "price": -205
          }
         ]
        }
@@ -2081,19 +1871,19 @@
      },
      {
       "key": "betonlineag",
-      "last_update": "2026-11-15T11:30:20Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:19Z",
+        "last_update": "2026-11-15T14:10:50Z",
         "outcomes": [
          {
           "name": "Dallas Cowboys",
-          "price": 179
+          "price": 177
          },
          {
           "name": "San Francisco 49ers",
-          "price": -208
+          "price": -205
          }
         ]
        }
@@ -2102,11 +1892,11 @@
      },
      {
       "key": "betrivers",
-      "last_update": "2026-11-15T11:30:05Z",
+      "last_update": "2026-11-15T14:11:07Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:05Z",
+        "last_update": "2026-11-15T14:11:07Z",
         "outcomes": [
          {
           "name": "Dallas Cowboys",
@@ -2123,11 +1913,11 @@
      },
      {
       "key": "mybookieag",
-      "last_update": "2026-11-15T11:30:34Z",
+      "last_update": "2026-11-15T14:09:53Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:34Z",
+        "last_update": "2026-11-15T14:09:52Z",
         "outcomes": [
          {
           "name": "Dallas Cowboys",
@@ -2144,11 +1934,11 @@
      },
      {
       "key": "betmgm",
-      "last_update": "2026-11-15T11:29:33Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:29:33Z",
+        "last_update": "2026-11-15T14:10:50Z",
         "outcomes": [
          {
           "name": "Dallas Cowboys",
@@ -2162,27 +1952,6 @@
        }
       ],
       "title": "BetMGM"
-     },
-     {
-      "key": "bovada",
-      "last_update": "2026-11-15T11:26:24Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-15T11:26:24Z",
-        "outcomes": [
-         {
-          "name": "Dallas Cowboys",
-          "price": 176
-         },
-         {
-          "name": "San Francisco 49ers",
-          "price": -215
-         }
-        ]
-       }
-      ],
-      "title": "Bovada"
      }
     ],
     "commence_time": "2026-11-15T21:25:00Z",
@@ -2196,19 +1965,19 @@
     "bookmakers": [
      {
       "key": "draftkings",
-      "last_update": "2026-11-15T11:31:03Z",
+      "last_update": "2026-11-15T14:11:05Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:31:03Z",
+        "last_update": "2026-11-15T14:11:05Z",
         "outcomes": [
          {
           "name": "Cincinnati Bengals",
-          "price": -185
+          "price": -192
          },
          {
           "name": "Pittsburgh Steelers",
-          "price": 154
+          "price": 160
          }
         ]
        }
@@ -2217,19 +1986,19 @@
      },
      {
       "key": "betus",
-      "last_update": "2026-11-15T11:30:50Z",
+      "last_update": "2026-11-15T14:11:08Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:50Z",
+        "last_update": "2026-11-15T14:11:08Z",
         "outcomes": [
          {
           "name": "Cincinnati Bengals",
-          "price": -190
+          "price": -185
          },
          {
           "name": "Pittsburgh Steelers",
-          "price": 163
+          "price": 159
          }
         ]
        }
@@ -2238,19 +2007,19 @@
      },
      {
       "key": "fanduel",
-      "last_update": "2026-11-15T11:30:49Z",
+      "last_update": "2026-11-15T14:11:06Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
+        "last_update": "2026-11-15T14:11:06Z",
         "outcomes": [
          {
           "name": "Cincinnati Bengals",
-          "price": -178
+          "price": -180
          },
          {
           "name": "Pittsburgh Steelers",
-          "price": 150
+          "price": 152
          }
         ]
        }
@@ -2259,19 +2028,19 @@
      },
      {
       "key": "lowvig",
-      "last_update": "2026-11-15T11:30:21Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:21Z",
+        "last_update": "2026-11-15T14:10:50Z",
         "outcomes": [
          {
           "name": "Cincinnati Bengals",
-          "price": -188
+          "price": -185
          },
          {
           "name": "Pittsburgh Steelers",
-          "price": 164
+          "price": 161
          }
         ]
        }
@@ -2280,19 +2049,19 @@
      },
      {
       "key": "betonlineag",
-      "last_update": "2026-11-15T11:30:20Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:19Z",
+        "last_update": "2026-11-15T14:10:50Z",
         "outcomes": [
          {
           "name": "Cincinnati Bengals",
-          "price": -188
+          "price": -185
          },
          {
           "name": "Pittsburgh Steelers",
-          "price": 164
+          "price": 161
          }
         ]
        }
@@ -2301,11 +2070,11 @@
      },
      {
       "key": "betrivers",
-      "last_update": "2026-11-15T11:30:05Z",
+      "last_update": "2026-11-15T14:11:07Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:05Z",
+        "last_update": "2026-11-15T14:11:07Z",
         "outcomes": [
          {
           "name": "Cincinnati Bengals",
@@ -2322,19 +2091,19 @@
      },
      {
       "key": "mybookieag",
-      "last_update": "2026-11-15T11:30:34Z",
+      "last_update": "2026-11-15T14:09:53Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:34Z",
+        "last_update": "2026-11-15T14:09:52Z",
         "outcomes": [
          {
           "name": "Cincinnati Bengals",
-          "price": -190
+          "price": -196
          },
          {
           "name": "Pittsburgh Steelers",
-          "price": 153
+          "price": 165
          }
         ]
        }
@@ -2343,11 +2112,11 @@
      },
      {
       "key": "betmgm",
-      "last_update": "2026-11-15T11:29:33Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:29:33Z",
+        "last_update": "2026-11-15T14:10:50Z",
         "outcomes": [
          {
           "name": "Cincinnati Bengals",
@@ -2361,27 +2130,6 @@
        }
       ],
       "title": "BetMGM"
-     },
-     {
-      "key": "bovada",
-      "last_update": "2026-11-15T11:26:24Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-15T11:26:24Z",
-        "outcomes": [
-         {
-          "name": "Cincinnati Bengals",
-          "price": -185
-         },
-         {
-          "name": "Pittsburgh Steelers",
-          "price": 160
-         }
-        ]
-       }
-      ],
-      "title": "Bovada"
      }
     ],
     "commence_time": "2026-11-16T01:20:00Z",
@@ -2395,11 +2143,11 @@
     "bookmakers": [
      {
       "key": "draftkings",
-      "last_update": "2026-11-15T11:31:03Z",
+      "last_update": "2026-11-15T14:11:05Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:31:03Z",
+        "last_update": "2026-11-15T14:11:05Z",
         "outcomes": [
          {
           "name": "Baltimore Ravens",
@@ -2416,11 +2164,11 @@
      },
      {
       "key": "betus",
-      "last_update": "2026-11-15T11:30:50Z",
+      "last_update": "2026-11-15T14:11:08Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:50Z",
+        "last_update": "2026-11-15T14:11:08Z",
         "outcomes": [
          {
           "name": "Baltimore Ravens",
@@ -2437,19 +2185,19 @@
      },
      {
       "key": "fanduel",
-      "last_update": "2026-11-15T11:30:49Z",
+      "last_update": "2026-11-15T14:11:06Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
+        "last_update": "2026-11-15T14:11:06Z",
         "outcomes": [
          {
           "name": "Baltimore Ravens",
-          "price": -225
+          "price": -220
          },
          {
           "name": "Los Angeles Chargers",
-          "price": 188
+          "price": 184
          }
         ]
        }
@@ -2458,19 +2206,19 @@
      },
      {
       "key": "lowvig",
-      "last_update": "2026-11-15T11:30:21Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:21Z",
+        "last_update": "2026-11-15T14:10:50Z",
         "outcomes": [
          {
           "name": "Baltimore Ravens",
-          "price": -210
+          "price": -215
          },
          {
           "name": "Los Angeles Chargers",
-          "price": 180
+          "price": 183
          }
         ]
        }
@@ -2479,19 +2227,19 @@
      },
      {
       "key": "betonlineag",
-      "last_update": "2026-11-15T11:30:20Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:19Z",
+        "last_update": "2026-11-15T14:10:50Z",
         "outcomes": [
          {
           "name": "Baltimore Ravens",
-          "price": -210
+          "price": -215
          },
          {
           "name": "Los Angeles Chargers",
-          "price": 180
+          "price": 183
          }
         ]
        }
@@ -2500,11 +2248,11 @@
      },
      {
       "key": "betrivers",
-      "last_update": "2026-11-15T11:30:05Z",
+      "last_update": "2026-11-15T14:11:07Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:05Z",
+        "last_update": "2026-11-15T14:11:07Z",
         "outcomes": [
          {
           "name": "Baltimore Ravens",
@@ -2521,11 +2269,11 @@
      },
      {
       "key": "betmgm",
-      "last_update": "2026-11-15T11:29:33Z",
+      "last_update": "2026-11-15T14:10:50Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:29:33Z",
+        "last_update": "2026-11-15T14:10:50Z",
         "outcomes": [
          {
           "name": "Baltimore Ravens",
@@ -2541,33 +2289,12 @@
       "title": "BetMGM"
      },
      {
-      "key": "bovada",
-      "last_update": "2026-11-15T11:26:24Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-15T11:26:24Z",
-        "outcomes": [
-         {
-          "name": "Baltimore Ravens",
-          "price": -220
-         },
-         {
-          "name": "Los Angeles Chargers",
-          "price": 180
-         }
-        ]
-       }
-      ],
-      "title": "Bovada"
-     },
-     {
       "key": "mybookieag",
-      "last_update": "2026-11-15T11:30:34Z",
+      "last_update": "2026-11-15T14:09:53Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:34Z",
+        "last_update": "2026-11-15T14:09:52Z",
         "outcomes": [
          {
           "name": "Baltimore Ravens",
@@ -2594,11 +2321,11 @@
     "bookmakers": [
      {
       "key": "draftkings",
-      "last_update": "2026-11-15T11:31:03Z",
+      "last_update": "2026-11-15T14:11:05Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:31:03Z",
+        "last_update": "2026-11-15T14:11:05Z",
         "outcomes": [
          {
           "name": "Houston Texans",
@@ -2615,11 +2342,11 @@
      },
      {
       "key": "fanduel",
-      "last_update": "2026-11-15T11:30:49Z",
+      "last_update": "2026-11-15T14:11:06Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
+        "last_update": "2026-11-15T14:11:06Z",
         "outcomes": [
          {
           "name": "Houston Texans",
@@ -2636,11 +2363,11 @@
      },
      {
       "key": "betrivers",
-      "last_update": "2026-11-15T11:30:05Z",
+      "last_update": "2026-11-15T14:11:07Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:05Z",
+        "last_update": "2026-11-15T14:11:07Z",
         "outcomes": [
          {
           "name": "Houston Texans",
@@ -2657,11 +2384,11 @@
      },
      {
       "key": "mybookieag",
-      "last_update": "2026-11-15T11:30:34Z",
+      "last_update": "2026-11-15T14:09:53Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:34Z",
+        "last_update": "2026-11-15T14:09:52Z",
         "outcomes": [
          {
           "name": "Houston Texans",
@@ -2688,11 +2415,11 @@
     "bookmakers": [
      {
       "key": "draftkings",
-      "last_update": "2026-11-15T11:31:03Z",
+      "last_update": "2026-11-15T14:11:05Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:31:03Z",
+        "last_update": "2026-11-15T14:11:05Z",
         "outcomes": [
          {
           "name": "Arizona Cardinals",
@@ -2709,11 +2436,11 @@
      },
      {
       "key": "fanduel",
-      "last_update": "2026-11-15T11:30:49Z",
+      "last_update": "2026-11-15T14:11:06Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
+        "last_update": "2026-11-15T14:11:06Z",
         "outcomes": [
          {
           "name": "Arizona Cardinals",
@@ -2730,11 +2457,11 @@
      },
      {
       "key": "betrivers",
-      "last_update": "2026-11-15T11:30:05Z",
+      "last_update": "2026-11-15T14:11:07Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:05Z",
+        "last_update": "2026-11-15T14:11:07Z",
         "outcomes": [
          {
           "name": "Arizona Cardinals",
@@ -2751,11 +2478,11 @@
      },
      {
       "key": "mybookieag",
-      "last_update": "2026-11-15T11:30:34Z",
+      "last_update": "2026-11-15T14:09:53Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:34Z",
+        "last_update": "2026-11-15T14:09:52Z",
         "outcomes": [
          {
           "name": "Arizona Cardinals",
@@ -2782,11 +2509,11 @@
     "bookmakers": [
      {
       "key": "draftkings",
-      "last_update": "2026-11-15T11:31:03Z",
+      "last_update": "2026-11-15T14:11:05Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:31:03Z",
+        "last_update": "2026-11-15T14:11:05Z",
         "outcomes": [
          {
           "name": "Baltimore Ravens",
@@ -2803,11 +2530,11 @@
      },
      {
       "key": "fanduel",
-      "last_update": "2026-11-15T11:30:49Z",
+      "last_update": "2026-11-15T14:11:06Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
+        "last_update": "2026-11-15T14:11:06Z",
         "outcomes": [
          {
           "name": "Baltimore Ravens",
@@ -2824,11 +2551,11 @@
      },
      {
       "key": "betrivers",
-      "last_update": "2026-11-15T11:30:05Z",
+      "last_update": "2026-11-15T14:11:07Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:05Z",
+        "last_update": "2026-11-15T14:11:07Z",
         "outcomes": [
          {
           "name": "Baltimore Ravens",
@@ -2845,11 +2572,11 @@
      },
      {
       "key": "mybookieag",
-      "last_update": "2026-11-15T11:30:34Z",
+      "last_update": "2026-11-15T14:09:53Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:34Z",
+        "last_update": "2026-11-15T14:09:52Z",
         "outcomes": [
          {
           "name": "Baltimore Ravens",
@@ -2876,11 +2603,11 @@
     "bookmakers": [
      {
       "key": "draftkings",
-      "last_update": "2026-11-15T11:31:03Z",
+      "last_update": "2026-11-15T14:11:05Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:31:03Z",
+        "last_update": "2026-11-15T14:11:05Z",
         "outcomes": [
          {
           "name": "Buffalo Bills",
@@ -2897,11 +2624,11 @@
      },
      {
       "key": "fanduel",
-      "last_update": "2026-11-15T11:30:49Z",
+      "last_update": "2026-11-15T14:11:06Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
+        "last_update": "2026-11-15T14:11:06Z",
         "outcomes": [
          {
           "name": "Buffalo Bills",
@@ -2918,11 +2645,11 @@
      },
      {
       "key": "betrivers",
-      "last_update": "2026-11-15T11:30:05Z",
+      "last_update": "2026-11-15T14:11:07Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:05Z",
+        "last_update": "2026-11-15T14:11:07Z",
         "outcomes": [
          {
           "name": "Buffalo Bills",
@@ -2939,11 +2666,11 @@
      },
      {
       "key": "mybookieag",
-      "last_update": "2026-11-15T11:30:34Z",
+      "last_update": "2026-11-15T14:09:53Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:34Z",
+        "last_update": "2026-11-15T14:09:52Z",
         "outcomes": [
          {
           "name": "Buffalo Bills",
@@ -2970,11 +2697,11 @@
     "bookmakers": [
      {
       "key": "draftkings",
-      "last_update": "2026-11-15T11:31:03Z",
+      "last_update": "2026-11-15T14:11:05Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:31:03Z",
+        "last_update": "2026-11-15T14:11:05Z",
         "outcomes": [
          {
           "name": "Chicago Bears",
@@ -2991,11 +2718,11 @@
      },
      {
       "key": "fanduel",
-      "last_update": "2026-11-15T11:30:49Z",
+      "last_update": "2026-11-15T14:11:06Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
+        "last_update": "2026-11-15T14:11:06Z",
         "outcomes": [
          {
           "name": "Chicago Bears",
@@ -3012,11 +2739,11 @@
      },
      {
       "key": "betrivers",
-      "last_update": "2026-11-15T11:30:05Z",
+      "last_update": "2026-11-15T14:11:07Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:05Z",
+        "last_update": "2026-11-15T14:11:07Z",
         "outcomes": [
          {
           "name": "Chicago Bears",
@@ -3033,11 +2760,11 @@
      },
      {
       "key": "mybookieag",
-      "last_update": "2026-11-15T11:30:34Z",
+      "last_update": "2026-11-15T14:09:53Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:34Z",
+        "last_update": "2026-11-15T14:09:52Z",
         "outcomes": [
          {
           "name": "Chicago Bears",
@@ -3064,11 +2791,11 @@
     "bookmakers": [
      {
       "key": "draftkings",
-      "last_update": "2026-11-15T11:31:03Z",
+      "last_update": "2026-11-15T14:11:05Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:31:03Z",
+        "last_update": "2026-11-15T14:11:05Z",
         "outcomes": [
          {
           "name": "Dallas Cowboys",
@@ -3085,11 +2812,11 @@
      },
      {
       "key": "fanduel",
-      "last_update": "2026-11-15T11:30:49Z",
+      "last_update": "2026-11-15T14:11:06Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
+        "last_update": "2026-11-15T14:11:06Z",
         "outcomes": [
          {
           "name": "Dallas Cowboys",
@@ -3106,11 +2833,11 @@
      },
      {
       "key": "betrivers",
-      "last_update": "2026-11-15T11:30:05Z",
+      "last_update": "2026-11-15T14:11:07Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:05Z",
+        "last_update": "2026-11-15T14:11:07Z",
         "outcomes": [
          {
           "name": "Dallas Cowboys",
@@ -3127,11 +2854,11 @@
      },
      {
       "key": "mybookieag",
-      "last_update": "2026-11-15T11:30:34Z",
+      "last_update": "2026-11-15T14:09:53Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:34Z",
+        "last_update": "2026-11-15T14:09:53Z",
         "outcomes": [
          {
           "name": "Dallas Cowboys",
@@ -3158,11 +2885,11 @@
     "bookmakers": [
      {
       "key": "draftkings",
-      "last_update": "2026-11-15T11:31:03Z",
+      "last_update": "2026-11-15T14:11:05Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:31:03Z",
+        "last_update": "2026-11-15T14:11:05Z",
         "outcomes": [
          {
           "name": "Detroit Lions",
@@ -3179,11 +2906,11 @@
      },
      {
       "key": "fanduel",
-      "last_update": "2026-11-15T11:30:49Z",
+      "last_update": "2026-11-15T14:11:06Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
+        "last_update": "2026-11-15T14:11:06Z",
         "outcomes": [
          {
           "name": "Detroit Lions",
@@ -3200,11 +2927,11 @@
      },
      {
       "key": "betrivers",
-      "last_update": "2026-11-15T11:30:05Z",
+      "last_update": "2026-11-15T14:11:07Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:05Z",
+        "last_update": "2026-11-15T14:11:07Z",
         "outcomes": [
          {
           "name": "Detroit Lions",
@@ -3221,11 +2948,11 @@
      },
      {
       "key": "mybookieag",
-      "last_update": "2026-11-15T11:30:34Z",
+      "last_update": "2026-11-15T14:09:53Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:34Z",
+        "last_update": "2026-11-15T14:09:53Z",
         "outcomes": [
          {
           "name": "Detroit Lions",
@@ -3252,11 +2979,11 @@
     "bookmakers": [
      {
       "key": "draftkings",
-      "last_update": "2026-11-15T11:31:03Z",
+      "last_update": "2026-11-15T14:11:05Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:31:03Z",
+        "last_update": "2026-11-15T14:11:05Z",
         "outcomes": [
          {
           "name": "Philadelphia Eagles",
@@ -3273,11 +3000,11 @@
      },
      {
       "key": "fanduel",
-      "last_update": "2026-11-15T11:30:49Z",
+      "last_update": "2026-11-15T14:11:06Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
+        "last_update": "2026-11-15T14:11:06Z",
         "outcomes": [
          {
           "name": "Philadelphia Eagles",
@@ -3294,11 +3021,11 @@
      },
      {
       "key": "betrivers",
-      "last_update": "2026-11-15T11:30:05Z",
+      "last_update": "2026-11-15T14:11:07Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:05Z",
+        "last_update": "2026-11-15T14:11:07Z",
         "outcomes": [
          {
           "name": "Philadelphia Eagles",
@@ -3315,11 +3042,11 @@
      },
      {
       "key": "mybookieag",
-      "last_update": "2026-11-15T11:30:34Z",
+      "last_update": "2026-11-15T14:09:53Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:34Z",
+        "last_update": "2026-11-15T14:09:52Z",
         "outcomes": [
          {
           "name": "Philadelphia Eagles",
@@ -3346,11 +3073,11 @@
     "bookmakers": [
      {
       "key": "draftkings",
-      "last_update": "2026-11-15T11:31:03Z",
+      "last_update": "2026-11-15T14:11:05Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:31:03Z",
+        "last_update": "2026-11-15T14:11:05Z",
         "outcomes": [
          {
           "name": "Los Angeles Chargers",
@@ -3367,11 +3094,11 @@
      },
      {
       "key": "fanduel",
-      "last_update": "2026-11-15T11:30:49Z",
+      "last_update": "2026-11-15T14:11:06Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
+        "last_update": "2026-11-15T14:11:06Z",
         "outcomes": [
          {
           "name": "Los Angeles Chargers",
@@ -3388,11 +3115,11 @@
      },
      {
       "key": "betrivers",
-      "last_update": "2026-11-15T11:30:05Z",
+      "last_update": "2026-11-15T14:11:07Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:05Z",
+        "last_update": "2026-11-15T14:11:07Z",
         "outcomes": [
          {
           "name": "Los Angeles Chargers",
@@ -3409,11 +3136,11 @@
      },
      {
       "key": "mybookieag",
-      "last_update": "2026-11-15T11:30:34Z",
+      "last_update": "2026-11-15T14:09:53Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:34Z",
+        "last_update": "2026-11-15T14:09:52Z",
         "outcomes": [
          {
           "name": "Los Angeles Chargers",
@@ -3440,11 +3167,11 @@
     "bookmakers": [
      {
       "key": "draftkings",
-      "last_update": "2026-11-15T11:31:03Z",
+      "last_update": "2026-11-15T14:11:05Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:31:03Z",
+        "last_update": "2026-11-15T14:11:05Z",
         "outcomes": [
          {
           "name": "Denver Broncos",
@@ -3461,11 +3188,11 @@
      },
      {
       "key": "fanduel",
-      "last_update": "2026-11-15T11:30:49Z",
+      "last_update": "2026-11-15T14:11:06Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
+        "last_update": "2026-11-15T14:11:06Z",
         "outcomes": [
          {
           "name": "Denver Broncos",
@@ -3482,11 +3209,11 @@
      },
      {
       "key": "betrivers",
-      "last_update": "2026-11-15T11:30:05Z",
+      "last_update": "2026-11-15T14:11:07Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:05Z",
+        "last_update": "2026-11-15T14:11:07Z",
         "outcomes": [
          {
           "name": "Denver Broncos",
@@ -3503,11 +3230,11 @@
      },
      {
       "key": "mybookieag",
-      "last_update": "2026-11-15T11:30:34Z",
+      "last_update": "2026-11-15T14:09:53Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:34Z",
+        "last_update": "2026-11-15T14:09:53Z",
         "outcomes": [
          {
           "name": "Denver Broncos",
@@ -3534,11 +3261,11 @@
     "bookmakers": [
      {
       "key": "draftkings",
-      "last_update": "2026-11-15T11:31:03Z",
+      "last_update": "2026-11-15T14:11:05Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:31:03Z",
+        "last_update": "2026-11-15T14:11:05Z",
         "outcomes": [
          {
           "name": "Jacksonville Jaguars",
@@ -3555,11 +3282,11 @@
      },
      {
       "key": "fanduel",
-      "last_update": "2026-11-15T11:30:49Z",
+      "last_update": "2026-11-15T14:11:06Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
+        "last_update": "2026-11-15T14:11:06Z",
         "outcomes": [
          {
           "name": "Jacksonville Jaguars",
@@ -3576,11 +3303,11 @@
      },
      {
       "key": "betrivers",
-      "last_update": "2026-11-15T11:30:05Z",
+      "last_update": "2026-11-15T14:11:07Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:05Z",
+        "last_update": "2026-11-15T14:11:07Z",
         "outcomes": [
          {
           "name": "Jacksonville Jaguars",
@@ -3597,11 +3324,11 @@
      },
      {
       "key": "mybookieag",
-      "last_update": "2026-11-15T11:30:34Z",
+      "last_update": "2026-11-15T14:09:53Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:34Z",
+        "last_update": "2026-11-15T14:09:52Z",
         "outcomes": [
          {
           "name": "Jacksonville Jaguars",
@@ -3628,11 +3355,11 @@
     "bookmakers": [
      {
       "key": "draftkings",
-      "last_update": "2026-11-15T11:31:03Z",
+      "last_update": "2026-11-15T14:11:05Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:31:03Z",
+        "last_update": "2026-11-15T14:11:05Z",
         "outcomes": [
          {
           "name": "Minnesota Vikings",
@@ -3649,11 +3376,11 @@
      },
      {
       "key": "fanduel",
-      "last_update": "2026-11-15T11:30:49Z",
+      "last_update": "2026-11-15T14:11:06Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
+        "last_update": "2026-11-15T14:11:06Z",
         "outcomes": [
          {
           "name": "Minnesota Vikings",
@@ -3670,11 +3397,11 @@
      },
      {
       "key": "mybookieag",
-      "last_update": "2026-11-15T11:30:34Z",
+      "last_update": "2026-11-15T14:09:53Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:34Z",
+        "last_update": "2026-11-15T14:09:52Z",
         "outcomes": [
          {
           "name": "Minnesota Vikings",
@@ -3691,11 +3418,11 @@
      },
      {
       "key": "betrivers",
-      "last_update": "2026-11-15T11:30:05Z",
+      "last_update": "2026-11-15T14:11:07Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:05Z",
+        "last_update": "2026-11-15T14:11:07Z",
         "outcomes": [
          {
           "name": "Minnesota Vikings",
@@ -3722,11 +3449,11 @@
     "bookmakers": [
      {
       "key": "draftkings",
-      "last_update": "2026-11-15T11:31:03Z",
+      "last_update": "2026-11-15T14:11:05Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:31:03Z",
+        "last_update": "2026-11-15T14:11:05Z",
         "outcomes": [
          {
           "name": "Cincinnati Bengals",
@@ -3743,11 +3470,11 @@
      },
      {
       "key": "fanduel",
-      "last_update": "2026-11-15T11:30:49Z",
+      "last_update": "2026-11-15T14:11:06Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:49Z",
+        "last_update": "2026-11-15T14:11:06Z",
         "outcomes": [
          {
           "name": "Cincinnati Bengals",
@@ -3764,11 +3491,11 @@
      },
      {
       "key": "betrivers",
-      "last_update": "2026-11-15T11:30:05Z",
+      "last_update": "2026-11-15T14:11:07Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:05Z",
+        "last_update": "2026-11-15T14:11:07Z",
         "outcomes": [
          {
           "name": "Cincinnati Bengals",
@@ -3785,11 +3512,11 @@
      },
      {
       "key": "mybookieag",
-      "last_update": "2026-11-15T11:30:34Z",
+      "last_update": "2026-11-15T14:09:53Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-15T11:30:34Z",
+        "last_update": "2026-11-15T14:09:52Z",
         "outcomes": [
          {
           "name": "Cincinnati Bengals",
