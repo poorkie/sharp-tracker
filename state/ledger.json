@@ -1604,8 +1604,74 @@
   "pnl_100": null,
   "question": "Chiefs vs. Falcons",
   "result": null,
-  "sharp_usd": 70215.26,
+  "sharp_usd": 228715.25,
   "sport": "nfl",
+  "updates": 1,
   "url": "https://polymarket.com/event/nfl-kc-atl-2026-11-15"
+ },
+ {
+  "alerted_at": "2026-11-15T15:00:19.852622+00:00",
+  "book_fair": 0.4291,
+  "books": [
+   {
+    "book": "BetUS",
+    "price": 125,
+    "prob": 0.4444
+   },
+   {
+    "book": "BetRivers",
+    "price": 125,
+    "prob": 0.4444
+   },
+   {
+    "book": "BetMGM",
+    "price": 125,
+    "prob": 0.4444
+   },
+   {
+    "book": "DraftKings",
+    "price": 124,
+    "prob": 0.4464
+   },
+   {
+    "book": "FanDuel",
+    "price": 124,
+    "prob": 0.4464
+   },
+   {
+    "book": "BetOnline.ag",
+    "price": 124,
+    "prob": 0.4464
+   },
+   {
+    "book": "LowVig.ag",
+    "price": 124,
+    "prob": 0.4464
+   },
+   {
+    "book": "MyBookie.ag",
+    "price": 123,
+    "prob": 0.4484
+   }
+  ],
+  "close_price": 0.435,
+  "clv": null,
+  "condition_id": "0x8d432ea906196f359e5b1a3dda5a706a2db4621f672ada9a4b39c5bf9e20fd75",
+  "entry_price": 0.435,
+  "event_title": "Vikings vs. Packers",
+  "game_start": "2026-11-15T18:00:00+00:00",
+  "id": "0x8d432ea9-0-1794754819",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "moneyline",
+  "max_prob": 0.4601,
+  "n_wallets": 3,
+  "outcome": "Vikings",
+  "outcome_index": 0,
+  "pnl_100": null,
+  "question": "Vikings vs. Packers",
+  "result": null,
+  "sharp_usd": 118721.24,
+  "sport": "nfl",
+  "url": "https://polymarket.com/event/nfl-min-gb-2026-11-15"
  }
 ]
