@@ -1763,5 +1763,70 @@
   "sharp_usd": 15871.15,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-kc-atl-2026-11-15"
+ },
+ {
+  "alerted_at": "2026-11-15T17:10:14.606969+00:00",
+  "book_fair": 0.5,
+  "books": [
+   {
+    "book": "DraftKings",
+    "price": -105,
+    "prob": 0.5122
+   },
+   {
+    "book": "BetRivers",
+    "price": -106,
+    "prob": 0.5146
+   },
+   {
+    "book": "FanDuel",
+    "price": -108,
+    "prob": 0.5192
+   },
+   {
+    "book": "Bovada",
+    "price": -108,
+    "prob": 0.5192
+   },
+   {
+    "book": "BetMGM",
+    "price": -110,
+    "prob": 0.5238
+   },
+   {
+    "book": "BetOnline.ag",
+    "price": -113,
+    "prob": 0.5305
+   },
+   {
+    "book": "LowVig.ag",
+    "price": -113,
+    "prob": 0.5305
+   },
+   {
+    "book": "MyBookie.ag",
+    "price": -115,
+    "prob": 0.5349
+   }
+  ],
+  "close_price": 0.515,
+  "clv": null,
+  "condition_id": "0xc7db52dccbf7f07ec89a8380323d87a7dc996baac7b916fddfe838016a2eaeeb",
+  "entry_price": 0.515,
+  "event_title": "Panthers vs. Saints",
+  "game_start": "2026-11-15T18:00:00+00:00",
+  "id": "0xc7db52dc-0-1794762614",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "moneyline",
+  "max_prob": 0.5398,
+  "n_wallets": 4,
+  "outcome": "Panthers",
+  "outcome_index": 0,
+  "pnl_100": null,
+  "question": "Panthers vs. Saints",
+  "result": null,
+  "sharp_usd": 705355.55,
+  "sport": "nfl",
+  "url": "https://polymarket.com/event/nfl-car-no-2026-11-15"
  }
 ]
