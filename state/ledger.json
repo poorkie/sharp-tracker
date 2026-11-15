@@ -1302,7 +1302,7 @@
     "prob": 0.759
    }
   ],
-  "close_price": 0.705,
+  "close_price": 0.715,
   "clv": null,
   "condition_id": "0x6619c2b5337061520e670b00bc7d630e12c95f0ca1fcc8076cfabd5d388df1a7",
   "entry_price": 0.725,
@@ -1321,5 +1321,29 @@
   "sharp_usd": 49409.61,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-sea-lv-2026-11-15"
+ },
+ {
+  "alerted_at": "2026-11-15T12:20:16.767669+00:00",
+  "book_fair": null,
+  "books": [],
+  "close_price": 0.475,
+  "clv": null,
+  "condition_id": "0x35ebf9df56bde4e0134c4f88492f95a4756c5ad8705c6200bf2357639e3bbbde",
+  "entry_price": 0.475,
+  "event_title": "Panthers vs. Saints",
+  "game_start": "2026-11-15T18:00:00+00:00",
+  "id": "0x35ebf9df-0-1794745216",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "spreads",
+  "max_prob": 0.5104,
+  "n_wallets": 3,
+  "outcome": "Saints -1.5",
+  "outcome_index": 0,
+  "pnl_100": null,
+  "question": "Spread: Saints (-1.5)",
+  "result": null,
+  "sharp_usd": 26851.28,
+  "sport": "nfl",
+  "url": "https://polymarket.com/event/nfl-car-no-2026-11-15"
  }
 ]
