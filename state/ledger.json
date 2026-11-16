@@ -2455,5 +2455,29 @@
   "sharp_usd": 5033.4,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-pit-cin-2026-11-16"
+ },
+ {
+  "alerted_at": "2026-11-16T18:40:15.633248+00:00",
+  "book_fair": null,
+  "books": [],
+  "close_price": 0.465,
+  "clv": null,
+  "condition_id": "0x9ea7ecc499930aab2a2f0de6d7732b06410dba583c784437c2ca72af082c90da",
+  "entry_price": 0.465,
+  "event_title": "Magic vs. Celtics",
+  "game_start": "2026-11-17T00:00:00+00:00",
+  "id": "0x9ea7ecc4-0-1794854415",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "totals",
+  "max_prob": 0.4909,
+  "n_wallets": 3,
+  "outcome": "Over 213.5",
+  "outcome_index": 0,
+  "pnl_100": null,
+  "question": "Magic vs. Celtics: O/U 213.5",
+  "result": null,
+  "sharp_usd": 2829.15,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-orl-bos-2026-11-16"
  }
 ]
