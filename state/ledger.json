@@ -2479,5 +2479,29 @@
   "sharp_usd": 2829.15,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-orl-bos-2026-11-16"
+ },
+ {
+  "alerted_at": "2026-11-16T20:10:16.095612+00:00",
+  "book_fair": null,
+  "books": [],
+  "close_price": 0.495,
+  "clv": null,
+  "condition_id": "0xbf1f4fe058e91cade12bc1a3d73b9e6d159ec7a1c29d78642e0765eb44e8b34f",
+  "entry_price": 0.495,
+  "event_title": "Magic vs. Celtics",
+  "game_start": "2026-11-17T00:00:00+00:00",
+  "id": "0xbf1f4fe0-0-1794859816",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "spreads",
+  "max_prob": 0.52,
+  "n_wallets": 2,
+  "outcome": "Celtics -8.5",
+  "outcome_index": 0,
+  "pnl_100": null,
+  "question": "Spread: Celtics (-8.5)",
+  "result": null,
+  "sharp_usd": 2344.0,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-orl-bos-2026-11-16"
  }
 ]
