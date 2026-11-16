@@ -2224,7 +2224,7 @@
    }
   ],
   "close_price": 0.435,
-  "clv": null,
+  "clv": 0.01,
   "condition_id": "0x8f16e8d308ae13bba1b02c7cb995f797da9075b642f41d3181e3507226435531",
   "entry_price": 0.425,
   "event_title": "Oilers vs. Flyers",
@@ -2234,6 +2234,7 @@
   "lock": {
    "at": "2026-11-16T00:20:28.455610+00:00",
    "late": false,
+   "pnl_100": -100.0,
    "price": 0.435,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -2243,9 +2244,9 @@
   "n_wallets": 2,
   "outcome": "Flyers",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": -100.0,
   "question": "Oilers vs. Flyers",
-  "result": null,
+  "result": "LOSS",
   "sharp_usd": 2438.97,
   "sport": "nhl",
   "url": "https://polymarket.com/event/nhl-edm-phi-2026-11-15"
