@@ -2551,5 +2551,29 @@
   "sharp_usd": 2020.25,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-por-min-2026-11-16"
+ },
+ {
+  "alerted_at": "2026-11-16T23:20:18.496272+00:00",
+  "book_fair": null,
+  "books": [],
+  "close_price": 0.475,
+  "clv": null,
+  "condition_id": "0x1999836e3919075b1e7dcc8244a6862ec7ea89f052859378a3ca434204b452b8",
+  "entry_price": 0.475,
+  "event_title": "Warriors vs. Pelicans",
+  "game_start": "2026-11-17T01:00:00+00:00",
+  "id": "0x1999836e-1-1794871218",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "totals",
+  "max_prob": 0.49,
+  "n_wallets": 3,
+  "outcome": "Under 222.5",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Warriors vs. Pelicans: O/U 222.5",
+  "result": null,
+  "sharp_usd": 2318.92,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-gsw-nop-2026-11-16"
  }
 ]
