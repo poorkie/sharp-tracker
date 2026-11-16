@@ -2575,5 +2575,29 @@
   "sharp_usd": 2318.92,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-gsw-nop-2026-11-16"
+ },
+ {
+  "alerted_at": "2026-11-16T23:30:25.046017+00:00",
+  "book_fair": null,
+  "books": [],
+  "close_price": 0.53,
+  "clv": null,
+  "condition_id": "0xcddfc23b0a6cbdb14db162437c5d2210bb20b5d382d3860cfa4b2cb570378fd5",
+  "entry_price": 0.53,
+  "event_title": "Rockets vs. Heat",
+  "game_start": "2026-11-17T00:30:00+00:00",
+  "id": "0xcddfc23b-1-1794871825",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "spreads",
+  "max_prob": 0.552,
+  "n_wallets": 2,
+  "outcome": "Heat +4.5",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Spread: Rockets (-4.5)",
+  "result": null,
+  "sharp_usd": 5561.02,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-hou-mia-2026-11-16"
  }
 ]
