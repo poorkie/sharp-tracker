@@ -1352,7 +1352,7 @@
    }
   ],
   "close_price": 0.725,
-  "clv": null,
+  "clv": 0.0,
   "condition_id": "0x6619c2b5337061520e670b00bc7d630e12c95f0ca1fcc8076cfabd5d388df1a7",
   "entry_price": 0.725,
   "event_title": "Seahawks vs. Raiders",
@@ -1362,6 +1362,7 @@
   "lock": {
    "at": "2026-11-15T20:50:25.976697+00:00",
    "late": false,
+   "pnl_100": 37.93,
    "price": 0.725,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -1371,9 +1372,9 @@
   "n_wallets": 2,
   "outcome": "Seahawks",
   "outcome_index": 0,
-  "pnl_100": null,
+  "pnl_100": 37.93,
   "question": "Seahawks vs. Raiders",
-  "result": null,
+  "result": "WIN",
   "sharp_usd": 49409.61,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-sea-lv-2026-11-15"
@@ -2220,6 +2221,13 @@
   "game_start": "2026-11-16T00:30:00+00:00",
   "id": "0x8f16e8d3-1-1794765623",
   "kind": "ELITE_CONSENSUS",
+  "lock": {
+   "at": "2026-11-16T00:20:28.455610+00:00",
+   "late": false,
+   "price": 0.435,
+   "reason": "Elite still in, price OK",
+   "verdict": "PLAY"
+  },
   "market_type": "moneyline",
   "max_prob": 0.45,
   "n_wallets": 2,
