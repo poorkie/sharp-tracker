@@ -2338,6 +2338,13 @@
   "game_start": "2026-11-16T02:00:00+00:00",
   "id": "0x45efddb3-0-1794787827",
   "kind": "ELITE_CONSENSUS",
+  "lock": {
+   "at": "2026-11-16T01:50:27.734714+00:00",
+   "late": false,
+   "price": 0.835,
+   "reason": "price ran past worth-it",
+   "verdict": "PASS"
+  },
   "market_type": "moneyline",
   "max_prob": 0.8298,
   "n_wallets": 3,
@@ -2393,6 +2400,13 @@
   "game_start": "2026-11-16T02:00:00+00:00",
   "id": "0xbd0c63be-1-1794790821",
   "kind": "ELITE_CONSENSUS",
+  "lock": {
+   "at": "2026-11-16T01:50:27.734714+00:00",
+   "late": false,
+   "price": 0.435,
+   "reason": "Elite still in, price OK",
+   "verdict": "PLAY"
+  },
   "market_type": "spreads",
   "max_prob": 0.482,
   "n_wallets": 2,
