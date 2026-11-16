@@ -1462,7 +1462,7 @@
    }
   ],
   "close_price": 0.635,
-  "clv": null,
+  "clv": -0.01,
   "condition_id": "0xe10e72af1e0a1fdbd4d3544a61d0fb5142ffe28529138a3dcad6a3ea0e93d056",
   "entry_price": 0.645,
   "event_title": "49ers vs. Cowboys",
@@ -1472,6 +1472,7 @@
   "lock": {
    "at": "2026-11-15T21:10:27.380717+00:00",
    "late": false,
+   "pnl_100": 57.48,
    "price": 0.635,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -1481,9 +1482,9 @@
   "n_wallets": 1,
   "outcome": "49ers",
   "outcome_index": 0,
-  "pnl_100": null,
+  "pnl_100": 55.04,
   "question": "49ers vs. Cowboys",
-  "result": null,
+  "result": "WIN",
   "sharp_usd": 6379.37,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-sf-dal-2026-11-15"
@@ -1526,7 +1527,7 @@
   "book_fair": null,
   "books": [],
   "close_price": 0.555,
-  "clv": null,
+  "clv": 0.02,
   "condition_id": "0xb89444f470b749b70246fda605252c7737c0d7caa0083bcfe01a5eebfe6ef6e5",
   "entry_price": 0.535,
   "event_title": "49ers vs. Cowboys",
@@ -1536,6 +1537,7 @@
   "lock": {
    "at": "2026-11-15T21:10:27.380717+00:00",
    "late": false,
+   "pnl_100": -100.0,
    "price": 0.545,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -1545,9 +1547,9 @@
   "n_wallets": 3,
   "outcome": "Cowboys +4.5",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": -100.0,
   "question": "Spread: 49ers (-4.5)",
-  "result": null,
+  "result": "LOSS",
   "sharp_usd": 46031.42,
   "sport": "nfl",
   "updates": 1,
@@ -1827,6 +1829,13 @@
   "game_start": "2026-11-16T01:20:00+00:00",
   "id": "0x2c4bc1dc-0-1794755422",
   "kind": "ELITE_CONSENSUS",
+  "lock": {
+   "at": "2026-11-16T01:10:24.245820+00:00",
+   "late": false,
+   "price": 0.335,
+   "reason": "Elite still in, price OK",
+   "verdict": "PLAY"
+  },
   "market_type": "moneyline",
   "max_prob": 0.39,
   "n_wallets": 2,
@@ -2321,7 +2330,7 @@
     "prob": 0.8485
    }
   ],
-  "close_price": 0.805,
+  "close_price": 0.835,
   "clv": null,
   "condition_id": "0x45efddb3e98e41f6ad47b4dcdb19b15026d57d5e469284f273a3860d2125d102",
   "entry_price": 0.805,
@@ -2353,6 +2362,13 @@
   "game_start": "2026-11-16T01:20:00+00:00",
   "id": "0x40ea206d-1-1794790222",
   "kind": "ELITE_CONSENSUS",
+  "lock": {
+   "at": "2026-11-16T01:10:24.245820+00:00",
+   "late": false,
+   "price": 0.515,
+   "reason": "Elite still in, price OK",
+   "verdict": "PLAY"
+  },
   "market_type": "spreads",
   "max_prob": 0.5409,
   "n_wallets": 2,
@@ -2369,7 +2385,7 @@
   "alerted_at": "2026-11-16T01:00:21.692850+00:00",
   "book_fair": null,
   "books": [],
-  "close_price": 0.475,
+  "close_price": 0.435,
   "clv": null,
   "condition_id": "0xbd0c63be316d821b17dac31cfcfc5a911603e691bf87d23f5d926ede4e3c3a54",
   "entry_price": 0.475,
@@ -2388,5 +2404,36 @@
   "sharp_usd": 8456.88,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-okc-sac-2026-11-15"
+ },
+ {
+  "alerted_at": "2026-11-16T01:10:24.245820+00:00",
+  "book_fair": null,
+  "books": [],
+  "close_price": 0.465,
+  "clv": null,
+  "condition_id": "0x7ffe775eb7d6f3bf50b1f5c2156a616d52363d6586424048b573de4362e8f851",
+  "entry_price": 0.465,
+  "event_title": "Steelers vs. Bengals",
+  "game_start": "2026-11-16T01:20:00+00:00",
+  "id": "0x7ffe775e-1-1794791424",
+  "kind": "ELITE",
+  "lock": {
+   "at": "2026-11-16T01:10:24.245820+00:00",
+   "late": false,
+   "price": 0.465,
+   "reason": "Elite still in, price OK",
+   "verdict": "PLAY"
+  },
+  "market_type": "totals",
+  "max_prob": 0.49,
+  "n_wallets": 1,
+  "outcome": "Under 48.5",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Steelers vs. Bengals: O/U 48.5",
+  "result": null,
+  "sharp_usd": 5033.4,
+  "sport": "nfl",
+  "url": "https://polymarket.com/event/nfl-pit-cin-2026-11-16"
  }
 ]

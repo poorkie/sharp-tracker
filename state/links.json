@@ -93,15 +93,15 @@
  {
   "a": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
   "b": "0xc29198ad764bd6adaf7bb971a3757a689ece5d74",
-  "both": 41,
-  "together": 33,
+  "both": 42,
+  "together": 34,
   "why": "same timing"
  },
  {
-  "a": "0x9703676286b93c2eca71ca96e8757104519a69c2",
-  "b": "0xc29198ad764bd6adaf7bb971a3757a689ece5d74",
-  "both": 8,
-  "together": 7,
+  "a": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
+  "b": "0xd4b5968a5c61a1bae6f664d22df6529ad2fd631e",
+  "both": 7,
+  "together": 6,
   "why": "same timing"
  },
  {
@@ -119,17 +119,10 @@
   "why": "same timing"
  },
  {
-  "a": "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3",
-  "b": "0xf7f0b0b1e9c0fe02ccad926916ee31aef74b912c",
-  "both": 8,
-  "together": 7,
-  "why": "same timing"
- },
- {
   "a": "0xa697d0b3fff7d285a0f92d6ee03a7f97809e59d5",
   "b": "0xc29198ad764bd6adaf7bb971a3757a689ece5d74",
-  "both": 9,
-  "together": 8,
+  "both": 10,
+  "together": 9,
   "why": "same timing"
  },
  {
@@ -142,7 +135,7 @@
  {
   "a": "0xc29198ad764bd6adaf7bb971a3757a689ece5d74",
   "b": "0xf7f0b0b1e9c0fe02ccad926916ee31aef74b912c",
-  "both": 19,
+  "both": 20,
   "together": 17,
   "why": "same timing"
  },
