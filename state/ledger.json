@@ -1819,7 +1819,7 @@
     "prob": 0.3968
    }
   ],
-  "close_price": 0.345,
+  "close_price": 0.335,
   "clv": null,
   "condition_id": "0x2c4bc1dc34eaa1cb08943f536d4ce630384f3e93e028f6fa7a20933438334853",
   "entry_price": 0.355,
@@ -2340,5 +2340,29 @@
   "sharp_usd": 9192.1,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-okc-sac-2026-11-15"
+ },
+ {
+  "alerted_at": "2026-11-16T00:50:22.622085+00:00",
+  "book_fair": null,
+  "books": [],
+  "close_price": 0.515,
+  "clv": null,
+  "condition_id": "0x40ea206d301428cc8ae90fe8a1a84220959464446df96b7bdde7370c2fa0454d",
+  "entry_price": 0.515,
+  "event_title": "Steelers vs. Bengals",
+  "game_start": "2026-11-16T01:20:00+00:00",
+  "id": "0x40ea206d-1-1794790222",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "spreads",
+  "max_prob": 0.5409,
+  "n_wallets": 2,
+  "outcome": "Steelers +4.5",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Spread: Bengals (-4.5)",
+  "result": null,
+  "sharp_usd": 4911.47,
+  "sport": "nfl",
+  "url": "https://polymarket.com/event/nfl-pit-cin-2026-11-16"
  }
 ]
