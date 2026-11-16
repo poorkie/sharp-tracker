@@ -1822,7 +1822,7 @@
    }
   ],
   "close_price": 0.335,
-  "clv": null,
+  "clv": -0.02,
   "condition_id": "0x2c4bc1dc34eaa1cb08943f536d4ce630384f3e93e028f6fa7a20933438334853",
   "entry_price": 0.355,
   "event_title": "Steelers vs. Bengals",
@@ -1832,6 +1832,7 @@
   "lock": {
    "at": "2026-11-16T01:10:24.245820+00:00",
    "late": false,
+   "pnl_100": -100.0,
    "price": 0.335,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -1841,9 +1842,9 @@
   "n_wallets": 2,
   "outcome": "Steelers",
   "outcome_index": 0,
-  "pnl_100": null,
+  "pnl_100": -100.0,
   "question": "Steelers vs. Bengals",
-  "result": null,
+  "result": "LOSS",
   "sharp_usd": 2100.84,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-pit-cin-2026-11-16"
@@ -2364,7 +2365,7 @@
   "book_fair": null,
   "books": [],
   "close_price": 0.515,
-  "clv": null,
+  "clv": 0.0,
   "condition_id": "0x40ea206d301428cc8ae90fe8a1a84220959464446df96b7bdde7370c2fa0454d",
   "entry_price": 0.515,
   "event_title": "Steelers vs. Bengals",
@@ -2374,6 +2375,7 @@
   "lock": {
    "at": "2026-11-16T01:10:24.245820+00:00",
    "late": false,
+   "pnl_100": -100.0,
    "price": 0.515,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -2383,9 +2385,9 @@
   "n_wallets": 2,
   "outcome": "Steelers +4.5",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": -100.0,
   "question": "Spread: Bengals (-4.5)",
-  "result": null,
+  "result": "LOSS",
   "sharp_usd": 4911.47,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-pit-cin-2026-11-16"
