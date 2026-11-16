@@ -3509,89 +3509,26 @@
   ]
  },
  "basketball_nba": {
-  "at": "2026-11-13T22:30:16.914071+00:00",
+  "at": "2026-11-16T00:10:27.495194+00:00",
   "games": [
    {
-    "away_team": "New York Knicks",
+    "away_team": "San Antonio Spurs",
     "bookmakers": [
      {
-      "key": "draftkings",
-      "last_update": "2026-11-13T22:31:03Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:03Z",
-        "outcomes": [
-         {
-          "name": "Indiana Pacers",
-          "price": 271
-         },
-         {
-          "name": "New York Knicks",
-          "price": -337
-         }
-        ]
-       }
-      ],
-      "title": "DraftKings"
-     },
-     {
-      "key": "lowvig",
-      "last_update": "2026-11-13T22:31:22Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:22Z",
-        "outcomes": [
-         {
-          "name": "Indiana Pacers",
-          "price": 274
-         },
-         {
-          "name": "New York Knicks",
-          "price": -331
-         }
-        ]
-       }
-      ],
-      "title": "LowVig.ag"
-     },
-     {
-      "key": "betonlineag",
-      "last_update": "2026-11-13T22:31:23Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:23Z",
-        "outcomes": [
-         {
-          "name": "Indiana Pacers",
-          "price": 270
-         },
-         {
-          "name": "New York Knicks",
-          "price": -335
-         }
-        ]
-       }
-      ],
-      "title": "BetOnline.ag"
-     },
-     {
       "key": "fanduel",
-      "last_update": "2026-11-13T22:31:21Z",
+      "last_update": "2026-11-16T00:11:01Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-13T22:31:21Z",
+        "last_update": "2026-11-16T00:11:01Z",
         "outcomes": [
          {
-          "name": "Indiana Pacers",
-          "price": 265
+          "name": "San Antonio Spurs",
+          "price": -108
          },
          {
-          "name": "New York Knicks",
-          "price": -330
+          "name": "Utah Jazz",
+          "price": -118
          }
         ]
        }
@@ -3599,41 +3536,62 @@
       "title": "FanDuel"
      },
      {
-      "key": "betrivers",
-      "last_update": "2026-11-13T22:31:41Z",
+      "key": "draftkings",
+      "last_update": "2026-11-16T00:10:30Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-13T22:31:41Z",
+        "last_update": "2026-11-16T00:10:30Z",
         "outcomes": [
          {
-          "name": "Indiana Pacers",
-          "price": 255
+          "name": "San Antonio Spurs",
+          "price": -195
          },
          {
-          "name": "New York Knicks",
-          "price": -335
+          "name": "Utah Jazz",
+          "price": 145
          }
         ]
        }
       ],
-      "title": "BetRivers"
+      "title": "DraftKings"
      },
      {
-      "key": "bovada",
-      "last_update": "2026-11-13T22:30:30Z",
+      "key": "betmgm",
+      "last_update": "2026-11-16T00:10:44Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-13T22:30:30Z",
+        "last_update": "2026-11-16T00:10:44Z",
         "outcomes": [
          {
-          "name": "Indiana Pacers",
-          "price": 265
+          "name": "San Antonio Spurs",
+          "price": -185
          },
          {
-          "name": "New York Knicks",
-          "price": -330
+          "name": "Utah Jazz",
+          "price": 140
+         }
+        ]
+       }
+      ],
+      "title": "BetMGM"
+     },
+     {
+      "key": "bovada",
+      "last_update": "2026-11-16T00:09:54Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-16T00:09:54Z",
+        "outcomes": [
+         {
+          "name": "San Antonio Spurs",
+          "price": -120
+         },
+         {
+          "name": "Utah Jazz",
+          "price": -110
          }
         ]
        }
@@ -3641,93 +3599,103 @@
       "title": "Bovada"
      },
      {
-      "key": "betus",
-      "last_update": "2026-11-13T22:31:41Z",
+      "key": "betrivers",
+      "last_update": "2026-11-16T00:11:00Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-13T22:31:41Z",
+        "last_update": "2026-11-16T00:11:00Z",
         "outcomes": [
          {
-          "name": "Indiana Pacers",
-          "price": 272
+          "name": "San Antonio Spurs",
+          "price": -108
          },
          {
-          "name": "New York Knicks",
-          "price": -335
+          "name": "Utah Jazz",
+          "price": -117
          }
         ]
        }
       ],
-      "title": "BetUS"
+      "title": "BetRivers"
      },
      {
       "key": "mybookieag",
-      "last_update": "2026-11-13T22:29:47Z",
+      "last_update": "2026-11-16T00:09:34Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-13T22:29:47Z",
+        "last_update": "2026-11-16T00:09:34Z",
         "outcomes": [
          {
-          "name": "Indiana Pacers",
-          "price": 260
+          "name": "San Antonio Spurs",
+          "price": -182
          },
          {
-          "name": "New York Knicks",
-          "price": -319
+          "name": "Utah Jazz",
+          "price": 135
          }
         ]
        }
       ],
       "title": "MyBookie.ag"
-     },
-     {
-      "key": "betmgm",
-      "last_update": "2026-11-13T22:31:22Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:22Z",
-        "outcomes": [
-         {
-          "name": "Indiana Pacers",
-          "price": 260
-         },
-         {
-          "name": "New York Knicks",
-          "price": -325
-         }
-        ]
-       }
-      ],
-      "title": "BetMGM"
      }
     ],
-    "commence_time": "2026-11-14T00:10:00Z",
-    "home_team": "Indiana Pacers",
-    "id": "6669b911691463c669a5c10574742e8e",
+    "commence_time": "2026-11-15T22:10:00Z",
+    "home_team": "Utah Jazz",
+    "id": "b2ffb781fe21df092fae2cff6c4c8c89",
     "sport_key": "basketball_nba",
     "sport_title": "NBA"
    },
    {
-    "away_team": "Milwaukee Bucks",
+    "away_team": "Dallas Mavericks",
     "bookmakers": [
      {
-      "key": "fanduel",
-      "last_update": "2026-11-13T22:31:21Z",
+      "key": "betmgm",
+      "last_update": "2026-11-16T00:10:44Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-13T22:31:21Z",
+        "last_update": "2026-11-16T00:10:44Z",
         "outcomes": [
          {
-          "name": "Milwaukee Bucks",
-          "price": 330
+          "name": "Boston Celtics",
+          "price": -10000
          },
          {
-          "name": "Orlando Magic",
-          "price": -420
+          "name": "Dallas Mavericks",
+          "price": 3300
+         }
+        ]
+       }
+      ],
+      "title": "BetMGM"
+     }
+    ],
+    "commence_time": "2026-11-15T23:11:00Z",
+    "home_team": "Boston Celtics",
+    "id": "956532b58659658093d93e24e83f5213",
+    "sport_key": "basketball_nba",
+    "sport_title": "NBA"
+   },
+   {
+    "away_team": "New York Knicks",
+    "bookmakers": [
+     {
+      "key": "fanduel",
+      "last_update": "2026-11-16T00:11:01Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-16T00:11:01Z",
+        "outcomes": [
+         {
+          "name": "New York Knicks",
+          "price": -178
+         },
+         {
+          "name": "Toronto Raptors",
+          "price": 138
          }
         ]
        }
@@ -3735,20 +3703,177 @@
       "title": "FanDuel"
      },
      {
-      "key": "betonlineag",
-      "last_update": "2026-11-13T22:31:23Z",
+      "key": "mybookieag",
+      "last_update": "2026-11-16T00:09:34Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-13T22:31:23Z",
+        "last_update": "2026-11-16T00:09:34Z",
         "outcomes": [
          {
-          "name": "Milwaukee Bucks",
-          "price": 316
+          "name": "New York Knicks",
+          "price": -167
          },
          {
-          "name": "Orlando Magic",
-          "price": -400
+          "name": "Toronto Raptors",
+          "price": 135
+         }
+        ]
+       }
+      ],
+      "title": "MyBookie.ag"
+     },
+     {
+      "key": "draftkings",
+      "last_update": "2026-11-16T00:10:30Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-16T00:10:30Z",
+        "outcomes": [
+         {
+          "name": "New York Knicks",
+          "price": -215
+         },
+         {
+          "name": "Toronto Raptors",
+          "price": 160
+         }
+        ]
+       }
+      ],
+      "title": "DraftKings"
+     },
+     {
+      "key": "betmgm",
+      "last_update": "2026-11-16T00:10:44Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-16T00:10:44Z",
+        "outcomes": [
+         {
+          "name": "New York Knicks",
+          "price": -190
+         },
+         {
+          "name": "Toronto Raptors",
+          "price": 145
+         }
+        ]
+       }
+      ],
+      "title": "BetMGM"
+     },
+     {
+      "key": "betrivers",
+      "last_update": "2026-11-16T00:11:00Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-16T00:11:00Z",
+        "outcomes": [
+         {
+          "name": "New York Knicks",
+          "price": -165
+         },
+         {
+          "name": "Toronto Raptors",
+          "price": 130
+         }
+        ]
+       }
+      ],
+      "title": "BetRivers"
+     },
+     {
+      "key": "bovada",
+      "last_update": "2026-11-16T00:09:54Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-16T00:09:54Z",
+        "outcomes": [
+         {
+          "name": "New York Knicks",
+          "price": -230
+         },
+         {
+          "name": "Toronto Raptors",
+          "price": 175
+         }
+        ]
+       }
+      ],
+      "title": "Bovada"
+     }
+    ],
+    "commence_time": "2026-11-15T23:12:00Z",
+    "home_team": "Toronto Raptors",
+    "id": "78f61a78b70b9d79f38eb7648eac1a08",
+    "sport_key": "basketball_nba",
+    "sport_title": "NBA"
+   },
+   {
+    "away_team": "Houston Rockets",
+    "bookmakers": [
+     {
+      "key": "fanduel",
+      "last_update": "2026-11-16T00:11:01Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-16T00:11:01Z",
+        "outcomes": [
+         {
+          "name": "Houston Rockets",
+          "price": -360
+         },
+         {
+          "name": "Washington Wizards",
+          "price": 290
+         }
+        ]
+       }
+      ],
+      "title": "FanDuel"
+     },
+     {
+      "key": "betus",
+      "last_update": "2026-11-16T00:10:44Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-16T00:10:44Z",
+        "outcomes": [
+         {
+          "name": "Houston Rockets",
+          "price": -350
+         },
+         {
+          "name": "Washington Wizards",
+          "price": 280
+         }
+        ]
+       }
+      ],
+      "title": "BetUS"
+     },
+     {
+      "key": "betonlineag",
+      "last_update": "2026-11-16T00:11:00Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-16T00:11:00Z",
+        "outcomes": [
+         {
+          "name": "Houston Rockets",
+          "price": -350
+         },
+         {
+          "name": "Washington Wizards",
+          "price": 280
          }
         ]
        }
@@ -3757,19 +3882,19 @@
      },
      {
       "key": "lowvig",
-      "last_update": "2026-11-13T22:31:22Z",
+      "last_update": "2026-11-16T00:11:01Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-13T22:31:22Z",
+        "last_update": "2026-11-16T00:11:01Z",
         "outcomes": [
          {
-          "name": "Milwaukee Bucks",
-          "price": 321
+          "name": "Houston Rockets",
+          "price": -345
          },
          {
-          "name": "Orlando Magic",
-          "price": -395
+          "name": "Washington Wizards",
+          "price": 285
          }
         ]
        }
@@ -3777,41 +3902,20 @@
       "title": "LowVig.ag"
      },
      {
-      "key": "betrivers",
-      "last_update": "2026-11-13T22:31:41Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:41Z",
-        "outcomes": [
-         {
-          "name": "Milwaukee Bucks",
-          "price": 295
-         },
-         {
-          "name": "Orlando Magic",
-          "price": -385
-         }
-        ]
-       }
-      ],
-      "title": "BetRivers"
-     },
-     {
       "key": "draftkings",
-      "last_update": "2026-11-13T22:31:03Z",
+      "last_update": "2026-11-16T00:10:30Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-13T22:31:03Z",
+        "last_update": "2026-11-16T00:10:30Z",
         "outcomes": [
          {
-          "name": "Milwaukee Bucks",
-          "price": 312
+          "name": "Houston Rockets",
+          "price": -359
          },
          {
-          "name": "Orlando Magic",
-          "price": -395
+          "name": "Washington Wizards",
+          "price": 286
          }
         ]
        }
@@ -3819,20 +3923,62 @@
       "title": "DraftKings"
      },
      {
-      "key": "bovada",
-      "last_update": "2026-11-13T22:30:30Z",
+      "key": "betrivers",
+      "last_update": "2026-11-16T00:11:00Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-13T22:30:30Z",
+        "last_update": "2026-11-16T00:11:00Z",
         "outcomes": [
          {
-          "name": "Milwaukee Bucks",
-          "price": 295
+          "name": "Houston Rockets",
+          "price": -345
          },
          {
-          "name": "Orlando Magic",
-          "price": -390
+          "name": "Washington Wizards",
+          "price": 270
+         }
+        ]
+       }
+      ],
+      "title": "BetRivers"
+     },
+     {
+      "key": "betmgm",
+      "last_update": "2026-11-16T00:10:44Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-16T00:10:44Z",
+        "outcomes": [
+         {
+          "name": "Houston Rockets",
+          "price": -350
+         },
+         {
+          "name": "Washington Wizards",
+          "price": 280
+         }
+        ]
+       }
+      ],
+      "title": "BetMGM"
+     },
+     {
+      "key": "bovada",
+      "last_update": "2026-11-16T00:09:54Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-16T00:09:54Z",
+        "outcomes": [
+         {
+          "name": "Houston Rockets",
+          "price": -360
+         },
+         {
+          "name": "Washington Wizards",
+          "price": 280
          }
         ]
        }
@@ -3840,72 +3986,30 @@
       "title": "Bovada"
      },
      {
-      "key": "betus",
-      "last_update": "2026-11-13T22:31:41Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:41Z",
-        "outcomes": [
-         {
-          "name": "Milwaukee Bucks",
-          "price": 312
-         },
-         {
-          "name": "Orlando Magic",
-          "price": -390
-         }
-        ]
-       }
-      ],
-      "title": "BetUS"
-     },
-     {
       "key": "mybookieag",
-      "last_update": "2026-11-13T22:29:47Z",
+      "last_update": "2026-11-16T00:00:59Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-13T22:29:47Z",
+        "last_update": "2026-11-16T00:00:59Z",
         "outcomes": [
          {
-          "name": "Milwaukee Bucks",
-          "price": 300
+          "name": "Houston Rockets",
+          "price": -330
          },
          {
-          "name": "Orlando Magic",
-          "price": -380
+          "name": "Washington Wizards",
+          "price": 265
          }
         ]
        }
       ],
       "title": "MyBookie.ag"
-     },
-     {
-      "key": "betmgm",
-      "last_update": "2026-11-13T22:31:22Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:22Z",
-        "outcomes": [
-         {
-          "name": "Milwaukee Bucks",
-          "price": 320
-         },
-         {
-          "name": "Orlando Magic",
-          "price": -425
-         }
-        ]
-       }
-      ],
-      "title": "BetMGM"
      }
     ],
-    "commence_time": "2026-11-14T00:10:00Z",
-    "home_team": "Orlando Magic",
-    "id": "76416359b5453c01968e94702a375f16",
+    "commence_time": "2026-11-16T00:12:00Z",
+    "home_team": "Washington Wizards",
+    "id": "488c2bc1e099361f06015cf126f95fd6",
     "sport_key": "basketball_nba",
     "sport_title": "NBA"
    },
@@ -3914,19 +4018,19 @@
     "bookmakers": [
      {
       "key": "fanduel",
-      "last_update": "2026-11-13T22:31:21Z",
+      "last_update": "2026-11-16T00:11:01Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-13T22:31:21Z",
+        "last_update": "2026-11-16T00:11:01Z",
         "outcomes": [
          {
           "name": "Atlanta Hawks",
-          "price": -280
+          "price": -320
          },
          {
-          "name": "Chicago Bulls",
-          "price": 230
+          "name": "Milwaukee Bucks",
+          "price": 260
          }
         ]
        }
@@ -3934,20 +4038,41 @@
       "title": "FanDuel"
      },
      {
-      "key": "betonlineag",
-      "last_update": "2026-11-13T22:31:23Z",
+      "key": "bovada",
+      "last_update": "2026-11-16T00:09:54Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-13T22:31:23Z",
+        "last_update": "2026-11-16T00:09:54Z",
         "outcomes": [
          {
           "name": "Atlanta Hawks",
-          "price": -280
+          "price": -330
          },
          {
-          "name": "Chicago Bulls",
-          "price": 230
+          "name": "Milwaukee Bucks",
+          "price": 265
+         }
+        ]
+       }
+      ],
+      "title": "Bovada"
+     },
+     {
+      "key": "betonlineag",
+      "last_update": "2026-11-16T00:11:00Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-16T00:11:00Z",
+        "outcomes": [
+         {
+          "name": "Atlanta Hawks",
+          "price": -335
+         },
+         {
+          "name": "Milwaukee Bucks",
+          "price": 270
          }
         ]
        }
@@ -3956,19 +4081,19 @@
      },
      {
       "key": "lowvig",
-      "last_update": "2026-11-13T22:31:22Z",
+      "last_update": "2026-11-16T00:11:01Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-13T22:31:22Z",
+        "last_update": "2026-11-16T00:11:01Z",
         "outcomes": [
          {
           "name": "Atlanta Hawks",
-          "price": -277
+          "price": -331
          },
          {
-          "name": "Chicago Bulls",
-          "price": 233
+          "name": "Milwaukee Bucks",
+          "price": 274
          }
         ]
        }
@@ -3976,83 +4101,20 @@
       "title": "LowVig.ag"
      },
      {
-      "key": "draftkings",
-      "last_update": "2026-11-13T22:31:03Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:03Z",
-        "outcomes": [
-         {
-          "name": "Atlanta Hawks",
-          "price": -277
-         },
-         {
-          "name": "Chicago Bulls",
-          "price": 227
-         }
-        ]
-       }
-      ],
-      "title": "DraftKings"
-     },
-     {
-      "key": "bovada",
-      "last_update": "2026-11-13T22:30:30Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:30:30Z",
-        "outcomes": [
-         {
-          "name": "Atlanta Hawks",
-          "price": -270
-         },
-         {
-          "name": "Chicago Bulls",
-          "price": 220
-         }
-        ]
-       }
-      ],
-      "title": "Bovada"
-     },
-     {
-      "key": "betrivers",
-      "last_update": "2026-11-13T22:31:41Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:41Z",
-        "outcomes": [
-         {
-          "name": "Atlanta Hawks",
-          "price": -275
-         },
-         {
-          "name": "Chicago Bulls",
-          "price": 215
-         }
-        ]
-       }
-      ],
-      "title": "BetRivers"
-     },
-     {
       "key": "betus",
-      "last_update": "2026-11-13T22:31:41Z",
+      "last_update": "2026-11-16T00:10:44Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-13T22:31:41Z",
+        "last_update": "2026-11-16T00:10:44Z",
         "outcomes": [
          {
           "name": "Atlanta Hawks",
-          "price": -270
+          "price": -310
          },
          {
-          "name": "Chicago Bulls",
-          "price": 225
+          "name": "Milwaukee Bucks",
+          "price": 255
          }
         ]
        }
@@ -4060,135 +4122,62 @@
       "title": "BetUS"
      },
      {
-      "key": "mybookieag",
-      "last_update": "2026-11-13T22:29:47Z",
+      "key": "betrivers",
+      "last_update": "2026-11-16T00:11:00Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-13T22:29:47Z",
+        "last_update": "2026-11-16T00:11:00Z",
         "outcomes": [
          {
           "name": "Atlanta Hawks",
-          "price": -275
+          "price": -345
          },
          {
-          "name": "Chicago Bulls",
-          "price": 226
+          "name": "Milwaukee Bucks",
+          "price": 270
          }
         ]
        }
       ],
-      "title": "MyBookie.ag"
+      "title": "BetRivers"
      },
      {
       "key": "betmgm",
-      "last_update": "2026-11-13T22:31:22Z",
+      "last_update": "2026-11-16T00:10:44Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-13T22:31:22Z",
+        "last_update": "2026-11-16T00:10:44Z",
         "outcomes": [
          {
           "name": "Atlanta Hawks",
-          "price": -295
+          "price": -325
          },
          {
-          "name": "Chicago Bulls",
-          "price": 230
+          "name": "Milwaukee Bucks",
+          "price": 260
          }
         ]
        }
       ],
       "title": "BetMGM"
-     }
-    ],
-    "commence_time": "2026-11-14T01:10:00Z",
-    "home_team": "Chicago Bulls",
-    "id": "80ffc963f864f3d4fcefa82fd02b7d7b",
-    "sport_key": "basketball_nba",
-    "sport_title": "NBA"
-   },
-   {
-    "away_team": "Cleveland Cavaliers",
-    "bookmakers": [
-     {
-      "key": "fanduel",
-      "last_update": "2026-11-13T22:31:21Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:21Z",
-        "outcomes": [
-         {
-          "name": "Cleveland Cavaliers",
-          "price": 114
-         },
-         {
-          "name": "Miami Heat",
-          "price": -134
-         }
-        ]
-       }
-      ],
-      "title": "FanDuel"
-     },
-     {
-      "key": "betonlineag",
-      "last_update": "2026-11-13T22:31:23Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:23Z",
-        "outcomes": [
-         {
-          "name": "Cleveland Cavaliers",
-          "price": 115
-         },
-         {
-          "name": "Miami Heat",
-          "price": -135
-         }
-        ]
-       }
-      ],
-      "title": "BetOnline.ag"
-     },
-     {
-      "key": "lowvig",
-      "last_update": "2026-11-13T22:31:22Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:22Z",
-        "outcomes": [
-         {
-          "name": "Cleveland Cavaliers",
-          "price": 117
-         },
-         {
-          "name": "Miami Heat",
-          "price": -133
-         }
-        ]
-       }
-      ],
-      "title": "LowVig.ag"
      },
      {
       "key": "draftkings",
-      "last_update": "2026-11-13T22:31:03Z",
+      "last_update": "2026-11-16T00:10:30Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-13T22:31:03Z",
+        "last_update": "2026-11-16T00:10:30Z",
         "outcomes": [
          {
-          "name": "Cleveland Cavaliers",
-          "price": 114
+          "name": "Atlanta Hawks",
+          "price": -336
          },
          {
-          "name": "Miami Heat",
-          "price": -135
+          "name": "Milwaukee Bucks",
+          "price": 270
          }
         ]
        }
@@ -4196,732 +4185,51 @@
       "title": "DraftKings"
      },
      {
-      "key": "betrivers",
-      "last_update": "2026-11-13T22:31:41Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:41Z",
-        "outcomes": [
-         {
-          "name": "Cleveland Cavaliers",
-          "price": 112
-         },
-         {
-          "name": "Miami Heat",
-          "price": -136
-         }
-        ]
-       }
-      ],
-      "title": "BetRivers"
-     },
-     {
-      "key": "bovada",
-      "last_update": "2026-11-13T22:30:30Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:30:30Z",
-        "outcomes": [
-         {
-          "name": "Cleveland Cavaliers",
-          "price": 120
-         },
-         {
-          "name": "Miami Heat",
-          "price": -140
-         }
-        ]
-       }
-      ],
-      "title": "Bovada"
-     },
-     {
-      "key": "betus",
-      "last_update": "2026-11-13T22:31:41Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:41Z",
-        "outcomes": [
-         {
-          "name": "Cleveland Cavaliers",
-          "price": 120
-         },
-         {
-          "name": "Miami Heat",
-          "price": -140
-         }
-        ]
-       }
-      ],
-      "title": "BetUS"
-     },
-     {
       "key": "mybookieag",
-      "last_update": "2026-11-13T22:29:47Z",
+      "last_update": "2026-11-16T00:09:34Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-13T22:29:47Z",
+        "last_update": "2026-11-16T00:09:34Z",
         "outcomes": [
          {
-          "name": "Cleveland Cavaliers",
-          "price": 115
+          "name": "Atlanta Hawks",
+          "price": -319
          },
          {
-          "name": "Miami Heat",
-          "price": -135
+          "name": "Milwaukee Bucks",
+          "price": 260
          }
         ]
        }
       ],
       "title": "MyBookie.ag"
-     },
-     {
-      "key": "betmgm",
-      "last_update": "2026-11-13T22:31:22Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:22Z",
-        "outcomes": [
-         {
-          "name": "Cleveland Cavaliers",
-          "price": 115
-         },
-         {
-          "name": "Miami Heat",
-          "price": -140
-         }
-        ]
-       }
-      ],
-      "title": "BetMGM"
      }
     ],
-    "commence_time": "2026-11-14T01:10:00Z",
-    "home_team": "Miami Heat",
-    "id": "58b860d500be69ebf853926aa1ac8271",
+    "commence_time": "2026-11-16T01:10:00Z",
+    "home_team": "Milwaukee Bucks",
+    "id": "b931a21d34e414ee92b1a4b8e63774aa",
     "sport_key": "basketball_nba",
     "sport_title": "NBA"
    },
    {
-    "away_team": "Memphis Grizzlies",
+    "away_team": "Oklahoma City Thunder",
     "bookmakers": [
      {
       "key": "fanduel",
-      "last_update": "2026-11-13T22:31:21Z",
+      "last_update": "2026-11-16T00:11:01Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-13T22:31:21Z",
+        "last_update": "2026-11-16T00:11:01Z",
         "outcomes": [
          {
-          "name": "Memphis Grizzlies",
-          "price": -164
+          "name": "Oklahoma City Thunder",
+          "price": -560
          },
          {
-          "name": "New Orleans Pelicans",
-          "price": 138
-         }
-        ]
-       }
-      ],
-      "title": "FanDuel"
-     },
-     {
-      "key": "betonlineag",
-      "last_update": "2026-11-13T22:31:23Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:23Z",
-        "outcomes": [
-         {
-          "name": "Memphis Grizzlies",
-          "price": -155
-         },
-         {
-          "name": "New Orleans Pelicans",
-          "price": 135
-         }
-        ]
-       }
-      ],
-      "title": "BetOnline.ag"
-     },
-     {
-      "key": "lowvig",
-      "last_update": "2026-11-13T22:31:22Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:22Z",
-        "outcomes": [
-         {
-          "name": "Memphis Grizzlies",
-          "price": -155
-         },
-         {
-          "name": "New Orleans Pelicans",
-          "price": 136
-         }
-        ]
-       }
-      ],
-      "title": "LowVig.ag"
-     },
-     {
-      "key": "betrivers",
-      "last_update": "2026-11-13T22:31:41Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:41Z",
-        "outcomes": [
-         {
-          "name": "Memphis Grizzlies",
-          "price": -162
-         },
-         {
-          "name": "New Orleans Pelicans",
-          "price": 132
-         }
-        ]
-       }
-      ],
-      "title": "BetRivers"
-     },
-     {
-      "key": "draftkings",
-      "last_update": "2026-11-13T22:31:03Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:03Z",
-        "outcomes": [
-         {
-          "name": "Memphis Grizzlies",
-          "price": -162
-         },
-         {
-          "name": "New Orleans Pelicans",
-          "price": 136
-         }
-        ]
-       }
-      ],
-      "title": "DraftKings"
-     },
-     {
-      "key": "bovada",
-      "last_update": "2026-11-13T22:30:30Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:30:30Z",
-        "outcomes": [
-         {
-          "name": "Memphis Grizzlies",
-          "price": -160
-         },
-         {
-          "name": "New Orleans Pelicans",
-          "price": 135
-         }
-        ]
-       }
-      ],
-      "title": "Bovada"
-     },
-     {
-      "key": "betus",
-      "last_update": "2026-11-13T22:31:41Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:41Z",
-        "outcomes": [
-         {
-          "name": "Memphis Grizzlies",
-          "price": -160
-         },
-         {
-          "name": "New Orleans Pelicans",
-          "price": 138
-         }
-        ]
-       }
-      ],
-      "title": "BetUS"
-     },
-     {
-      "key": "mybookieag",
-      "last_update": "2026-11-13T22:29:47Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:29:47Z",
-        "outcomes": [
-         {
-          "name": "Memphis Grizzlies",
-          "price": -159
-         },
-         {
-          "name": "New Orleans Pelicans",
-          "price": 135
-         }
-        ]
-       }
-      ],
-      "title": "MyBookie.ag"
-     },
-     {
-      "key": "betmgm",
-      "last_update": "2026-11-13T22:31:22Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:22Z",
-        "outcomes": [
-         {
-          "name": "Memphis Grizzlies",
-          "price": -165
-         },
-         {
-          "name": "New Orleans Pelicans",
-          "price": 135
-         }
-        ]
-       }
-      ],
-      "title": "BetMGM"
-     }
-    ],
-    "commence_time": "2026-11-14T01:10:00Z",
-    "home_team": "New Orleans Pelicans",
-    "id": "8a40b260e8fa0d67c1f2bc2b39a24982",
-    "sport_key": "basketball_nba",
-    "sport_title": "NBA"
-   },
-   {
-    "away_team": "Utah Jazz",
-    "bookmakers": [
-     {
-      "key": "fanduel",
-      "last_update": "2026-11-13T22:31:21Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:21Z",
-        "outcomes": [
-         {
-          "name": "Houston Rockets",
-          "price": -1100
-         },
-         {
-          "name": "Utah Jazz",
-          "price": 700
-         }
-        ]
-       }
-      ],
-      "title": "FanDuel"
-     },
-     {
-      "key": "betonlineag",
-      "last_update": "2026-11-13T22:31:23Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:23Z",
-        "outcomes": [
-         {
-          "name": "Houston Rockets",
-          "price": -1200
-         },
-         {
-          "name": "Utah Jazz",
-          "price": 754
-         }
-        ]
-       }
-      ],
-      "title": "BetOnline.ag"
-     },
-     {
-      "key": "lowvig",
-      "last_update": "2026-11-13T22:31:22Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:22Z",
-        "outcomes": [
-         {
-          "name": "Houston Rockets",
-          "price": -1174
-         },
-         {
-          "name": "Utah Jazz",
-          "price": 781
-         }
-        ]
-       }
-      ],
-      "title": "LowVig.ag"
-     },
-     {
-      "key": "betrivers",
-      "last_update": "2026-11-13T22:31:41Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:41Z",
-        "outcomes": [
-         {
-          "name": "Houston Rockets",
-          "price": -1250
-         },
-         {
-          "name": "Utah Jazz",
-          "price": 700
-         }
-        ]
-       }
-      ],
-      "title": "BetRivers"
-     },
-     {
-      "key": "draftkings",
-      "last_update": "2026-11-13T22:31:03Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:03Z",
-        "outcomes": [
-         {
-          "name": "Houston Rockets",
-          "price": -1180
-         },
-         {
-          "name": "Utah Jazz",
-          "price": 740
-         }
-        ]
-       }
-      ],
-      "title": "DraftKings"
-     },
-     {
-      "key": "bovada",
-      "last_update": "2026-11-13T22:30:30Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:30:30Z",
-        "outcomes": [
-         {
-          "name": "Houston Rockets",
-          "price": -1200
-         },
-         {
-          "name": "Utah Jazz",
-          "price": 700
-         }
-        ]
-       }
-      ],
-      "title": "Bovada"
-     },
-     {
-      "key": "betus",
-      "last_update": "2026-11-13T22:31:41Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:41Z",
-        "outcomes": [
-         {
-          "name": "Houston Rockets",
-          "price": -1200
-         },
-         {
-          "name": "Utah Jazz",
-          "price": 750
-         }
-        ]
-       }
-      ],
-      "title": "BetUS"
-     },
-     {
-      "key": "mybookieag",
-      "last_update": "2026-11-13T22:29:47Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:29:47Z",
-        "outcomes": [
-         {
-          "name": "Houston Rockets",
-          "price": -1205
-         },
-         {
-          "name": "Utah Jazz",
-          "price": 690
-         }
-        ]
-       }
-      ],
-      "title": "MyBookie.ag"
-     },
-     {
-      "key": "betmgm",
-      "last_update": "2026-11-13T22:31:22Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:22Z",
-        "outcomes": [
-         {
-          "name": "Houston Rockets",
-          "price": -1200
-         },
-         {
-          "name": "Utah Jazz",
-          "price": 750
-         }
-        ]
-       }
-      ],
-      "title": "BetMGM"
-     }
-    ],
-    "commence_time": "2026-11-14T01:40:00Z",
-    "home_team": "Houston Rockets",
-    "id": "d04acca7f0f369fc53bf04cd3357cb0d",
-    "sport_key": "basketball_nba",
-    "sport_title": "NBA"
-   },
-   {
-    "away_team": "Golden State Warriors",
-    "bookmakers": [
-     {
-      "key": "draftkings",
-      "last_update": "2026-11-13T22:31:03Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:03Z",
-        "outcomes": [
-         {
-          "name": "Golden State Warriors",
-          "price": 487
-         },
-         {
-          "name": "San Antonio Spurs",
-          "price": -670
-         }
-        ]
-       }
-      ],
-      "title": "DraftKings"
-     },
-     {
-      "key": "betonlineag",
-      "last_update": "2026-11-13T22:31:23Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:23Z",
-        "outcomes": [
-         {
-          "name": "Golden State Warriors",
-          "price": 476
-         },
-         {
-          "name": "San Antonio Spurs",
-          "price": -650
-         }
-        ]
-       }
-      ],
-      "title": "BetOnline.ag"
-     },
-     {
-      "key": "lowvig",
-      "last_update": "2026-11-13T22:31:22Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:22Z",
-        "outcomes": [
-         {
-          "name": "Golden State Warriors",
-          "price": 487
-         },
-         {
-          "name": "San Antonio Spurs",
-          "price": -640
-         }
-        ]
-       }
-      ],
-      "title": "LowVig.ag"
-     },
-     {
-      "key": "fanduel",
-      "last_update": "2026-11-13T22:31:21Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:21Z",
-        "outcomes": [
-         {
-          "name": "Golden State Warriors",
-          "price": 490
-         },
-         {
-          "name": "San Antonio Spurs",
-          "price": -670
-         }
-        ]
-       }
-      ],
-      "title": "FanDuel"
-     },
-     {
-      "key": "bovada",
-      "last_update": "2026-11-13T22:30:30Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:30:30Z",
-        "outcomes": [
-         {
-          "name": "Golden State Warriors",
-          "price": 450
-         },
-         {
-          "name": "San Antonio Spurs",
-          "price": -650
-         }
-        ]
-       }
-      ],
-      "title": "Bovada"
-     },
-     {
-      "key": "betrivers",
-      "last_update": "2026-11-13T22:31:41Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:41Z",
-        "outcomes": [
-         {
-          "name": "Golden State Warriors",
+          "name": "Sacramento Kings",
           "price": 420
-         },
-         {
-          "name": "San Antonio Spurs",
-          "price": -590
-         }
-        ]
-       }
-      ],
-      "title": "BetRivers"
-     },
-     {
-      "key": "betus",
-      "last_update": "2026-11-13T22:31:41Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:41Z",
-        "outcomes": [
-         {
-          "name": "Golden State Warriors",
-          "price": 475
-         },
-         {
-          "name": "San Antonio Spurs",
-          "price": -650
-         }
-        ]
-       }
-      ],
-      "title": "BetUS"
-     },
-     {
-      "key": "betmgm",
-      "last_update": "2026-11-13T22:31:22Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:22Z",
-        "outcomes": [
-         {
-          "name": "Golden State Warriors",
-          "price": 475
-         },
-         {
-          "name": "San Antonio Spurs",
-          "price": -650
-         }
-        ]
-       }
-      ],
-      "title": "BetMGM"
-     },
-     {
-      "key": "mybookieag",
-      "last_update": "2026-11-13T22:29:47Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:29:47Z",
-        "outcomes": [
-         {
-          "name": "Golden State Warriors",
-          "price": 440
-         },
-         {
-          "name": "San Antonio Spurs",
-          "price": -649
-         }
-        ]
-       }
-      ],
-      "title": "MyBookie.ag"
-     }
-    ],
-    "commence_time": "2026-11-14T02:40:00Z",
-    "home_team": "San Antonio Spurs",
-    "id": "1fae7f34ec6035dffa74feb148ee26c7",
-    "sport_key": "basketball_nba",
-    "sport_title": "NBA"
-   },
-   {
-    "away_team": "Portland Trail Blazers",
-    "bookmakers": [
-     {
-      "key": "fanduel",
-      "last_update": "2026-11-13T22:31:21Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:21Z",
-        "outcomes": [
-         {
-          "name": "Portland Trail Blazers",
-          "price": -460
-         },
-         {
-          "name": "Sacramento Kings",
-          "price": 360
          }
         ]
        }
@@ -4929,41 +4237,20 @@
       "title": "FanDuel"
      },
      {
-      "key": "lowvig",
-      "last_update": "2026-11-13T22:31:22Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:22Z",
-        "outcomes": [
-         {
-          "name": "Portland Trail Blazers",
-          "price": -450
-         },
-         {
-          "name": "Sacramento Kings",
-          "price": 360
-         }
-        ]
-       }
-      ],
-      "title": "LowVig.ag"
-     },
-     {
       "key": "betonlineag",
-      "last_update": "2026-11-13T22:31:23Z",
+      "last_update": "2026-11-16T00:11:00Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-13T22:31:23Z",
+        "last_update": "2026-11-16T00:11:00Z",
         "outcomes": [
          {
-          "name": "Portland Trail Blazers",
-          "price": -455
+          "name": "Oklahoma City Thunder",
+          "price": -485
          },
          {
           "name": "Sacramento Kings",
-          "price": 354
+          "price": 374
          }
         ]
        }
@@ -4971,78 +4258,36 @@
       "title": "BetOnline.ag"
      },
      {
-      "key": "draftkings",
-      "last_update": "2026-11-13T22:31:03Z",
+      "key": "lowvig",
+      "last_update": "2026-11-16T00:11:01Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-13T22:31:03Z",
+        "last_update": "2026-11-16T00:11:01Z",
         "outcomes": [
          {
-          "name": "Portland Trail Blazers",
-          "price": -468
+          "name": "Oklahoma City Thunder",
+          "price": -479
          },
          {
           "name": "Sacramento Kings",
-          "price": 361
+          "price": 381
          }
         ]
        }
       ],
-      "title": "DraftKings"
-     },
-     {
-      "key": "bovada",
-      "last_update": "2026-11-13T22:30:30Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:30:30Z",
-        "outcomes": [
-         {
-          "name": "Portland Trail Blazers",
-          "price": -470
-         },
-         {
-          "name": "Sacramento Kings",
-          "price": 345
-         }
-        ]
-       }
-      ],
-      "title": "Bovada"
-     },
-     {
-      "key": "betrivers",
-      "last_update": "2026-11-13T22:31:41Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:41Z",
-        "outcomes": [
-         {
-          "name": "Portland Trail Blazers",
-          "price": -480
-         },
-         {
-          "name": "Sacramento Kings",
-          "price": 350
-         }
-        ]
-       }
-      ],
-      "title": "BetRivers"
+      "title": "LowVig.ag"
      },
      {
       "key": "betmgm",
-      "last_update": "2026-11-13T22:31:22Z",
+      "last_update": "2026-11-16T00:10:44Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-13T22:31:22Z",
+        "last_update": "2026-11-16T00:10:44Z",
         "outcomes": [
          {
-          "name": "Portland Trail Blazers",
+          "name": "Oklahoma City Thunder",
           "price": -500
          },
          {
@@ -5056,15 +4301,36 @@
      },
      {
       "key": "betus",
-      "last_update": "2026-11-13T22:31:41Z",
+      "last_update": "2026-11-16T00:10:44Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-13T22:31:41Z",
+        "last_update": "2026-11-16T00:10:44Z",
         "outcomes": [
          {
-          "name": "Portland Trail Blazers",
-          "price": -455
+          "name": "Oklahoma City Thunder",
+          "price": -485
+         },
+         {
+          "name": "Sacramento Kings",
+          "price": 380
+         }
+        ]
+       }
+      ],
+      "title": "BetUS"
+     },
+     {
+      "key": "bovada",
+      "last_update": "2026-11-16T00:09:54Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-16T00:09:54Z",
+        "outcomes": [
+         {
+          "name": "Oklahoma City Thunder",
+          "price": -500
          },
          {
           "name": "Sacramento Kings",
@@ -5073,117 +4339,44 @@
         ]
        }
       ],
-      "title": "BetUS"
+      "title": "Bovada"
      },
      {
       "key": "mybookieag",
-      "last_update": "2026-11-13T22:29:47Z",
+      "last_update": "2026-11-16T00:09:34Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-13T22:29:47Z",
+        "last_update": "2026-11-16T00:09:34Z",
         "outcomes": [
          {
-          "name": "Portland Trail Blazers",
+          "name": "Oklahoma City Thunder",
           "price": -481
          },
          {
           "name": "Sacramento Kings",
-          "price": 350
+          "price": 370
          }
         ]
        }
       ],
       "title": "MyBookie.ag"
-     }
-    ],
-    "commence_time": "2026-11-14T03:10:00Z",
-    "home_team": "Sacramento Kings",
-    "id": "a51c350318d7570c2b74af08eedb9fcd",
-    "sport_key": "basketball_nba",
-    "sport_title": "NBA"
-   },
-   {
-    "away_team": "Oklahoma City Thunder",
-    "bookmakers": [
-     {
-      "key": "fanduel",
-      "last_update": "2026-11-13T22:31:21Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:21Z",
-        "outcomes": [
-         {
-          "name": "Los Angeles Clippers",
-          "price": 225
-         },
-         {
-          "name": "Oklahoma City Thunder",
-          "price": -275
-         }
-        ]
-       }
-      ],
-      "title": "FanDuel"
-     },
-     {
-      "key": "betonlineag",
-      "last_update": "2026-11-13T22:31:23Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:23Z",
-        "outcomes": [
-         {
-          "name": "Los Angeles Clippers",
-          "price": 226
-         },
-         {
-          "name": "Oklahoma City Thunder",
-          "price": -275
-         }
-        ]
-       }
-      ],
-      "title": "BetOnline.ag"
-     },
-     {
-      "key": "lowvig",
-      "last_update": "2026-11-13T22:31:22Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:22Z",
-        "outcomes": [
-         {
-          "name": "Los Angeles Clippers",
-          "price": 229
-         },
-         {
-          "name": "Oklahoma City Thunder",
-          "price": -272
-         }
-        ]
-       }
-      ],
-      "title": "LowVig.ag"
      },
      {
       "key": "draftkings",
-      "last_update": "2026-11-13T22:31:03Z",
+      "last_update": "2026-11-16T00:10:30Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-13T22:31:03Z",
+        "last_update": "2026-11-16T00:10:30Z",
         "outcomes": [
          {
-          "name": "Los Angeles Clippers",
-          "price": 231
+          "name": "Oklahoma City Thunder",
+          "price": -468
          },
          {
-          "name": "Oklahoma City Thunder",
-          "price": -283
+          "name": "Sacramento Kings",
+          "price": 361
          }
         ]
        }
@@ -5191,114 +4384,30 @@
       "title": "DraftKings"
      },
      {
-      "key": "bovada",
-      "last_update": "2026-11-13T22:30:30Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:30:30Z",
-        "outcomes": [
-         {
-          "name": "Los Angeles Clippers",
-          "price": 235
-         },
-         {
-          "name": "Oklahoma City Thunder",
-          "price": -285
-         }
-        ]
-       }
-      ],
-      "title": "Bovada"
-     },
-     {
       "key": "betrivers",
-      "last_update": "2026-11-13T22:31:41Z",
+      "last_update": "2026-11-16T00:11:00Z",
       "markets": [
        {
         "key": "h2h",
-        "last_update": "2026-11-13T22:31:41Z",
+        "last_update": "2026-11-16T00:11:00Z",
         "outcomes": [
          {
-          "name": "Los Angeles Clippers",
-          "price": 230
+          "name": "Oklahoma City Thunder",
+          "price": -530
          },
          {
-          "name": "Oklahoma City Thunder",
-          "price": -295
+          "name": "Sacramento Kings",
+          "price": 380
          }
         ]
        }
       ],
       "title": "BetRivers"
-     },
-     {
-      "key": "betmgm",
-      "last_update": "2026-11-13T22:31:22Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:22Z",
-        "outcomes": [
-         {
-          "name": "Los Angeles Clippers",
-          "price": 230
-         },
-         {
-          "name": "Oklahoma City Thunder",
-          "price": -285
-         }
-        ]
-       }
-      ],
-      "title": "BetMGM"
-     },
-     {
-      "key": "betus",
-      "last_update": "2026-11-13T22:31:41Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:31:41Z",
-        "outcomes": [
-         {
-          "name": "Los Angeles Clippers",
-          "price": 230
-         },
-         {
-          "name": "Oklahoma City Thunder",
-          "price": -275
-         }
-        ]
-       }
-      ],
-      "title": "BetUS"
-     },
-     {
-      "key": "mybookieag",
-      "last_update": "2026-11-13T22:29:47Z",
-      "markets": [
-       {
-        "key": "h2h",
-        "last_update": "2026-11-13T22:29:47Z",
-        "outcomes": [
-         {
-          "name": "Los Angeles Clippers",
-          "price": 220
-         },
-         {
-          "name": "Oklahoma City Thunder",
-          "price": -280
-         }
-        ]
-       }
-      ],
-      "title": "MyBookie.ag"
      }
     ],
-    "commence_time": "2026-11-14T03:40:00Z",
-    "home_team": "Los Angeles Clippers",
-    "id": "5344669fd560d317ffaee0a1d16be7c8",
+    "commence_time": "2026-11-16T02:10:00Z",
+    "home_team": "Sacramento Kings",
+    "id": "f8334b355cf9346d423fa9eb93b425f0",
     "sport_key": "basketball_nba",
     "sport_title": "NBA"
    }
