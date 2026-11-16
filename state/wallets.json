@@ -46535,6 +46535,102 @@
    }
   }
  },
+ "0x2ecb3055976168e95676dc12c10e2000e2d9ecb8": {
+  "graded_at": "2026-11-16T05:50:16.692813+00:00",
+  "grades": {
+   "atp": {
+    "avg_price": 0.532,
+    "hit_edge": 0.128,
+    "hit_rate": 0.66,
+    "n": 53,
+    "pnl": -20303.64,
+    "roi": -0.1429,
+    "shrunk_roi": -0.0944,
+    "sport": "atp",
+    "staked": 142065.09,
+    "t_stat": 1.32,
+    "tier": "NONE"
+   },
+   "cfb": {
+    "avg_price": 0.17,
+    "hit_edge": -0.17,
+    "hit_rate": 0.0,
+    "n": 1,
+    "pnl": -159.75,
+    "roi": -1.0,
+    "shrunk_roi": -0.0537,
+    "sport": "cfb",
+    "staked": 159.75,
+    "t_stat": 0.0,
+    "tier": "NONE"
+   },
+   "mlb": {
+    "avg_price": 0.509,
+    "hit_edge": 0.261,
+    "hit_rate": 0.769,
+    "n": 13,
+    "pnl": 1892.58,
+    "roi": 0.45,
+    "shrunk_roi": 0.0877,
+    "sport": "mlb",
+    "staked": 4205.64,
+    "t_stat": 1.19,
+    "tier": "NONE"
+   },
+   "nba": {
+    "avg_price": 0.458,
+    "hit_edge": 0.012,
+    "hit_rate": 0.471,
+    "n": 17,
+    "pnl": 2781.98,
+    "roi": 0.2225,
+    "shrunk_roi": 0.0453,
+    "sport": "nba",
+    "staked": 12503.72,
+    "t_stat": -0.12,
+    "tier": "NONE"
+   },
+   "nfl": {
+    "avg_price": 0.417,
+    "hit_edge": 0.083,
+    "hit_rate": 0.5,
+    "n": 4,
+    "pnl": 18886.38,
+    "roi": 3.612,
+    "shrunk_roi": 0.3011,
+    "sport": "nfl",
+    "staked": 5228.75,
+    "t_stat": 0.63,
+    "tier": "NONE"
+   },
+   "nhl": {
+    "avg_price": 0.51,
+    "hit_edge": 0.49,
+    "hit_rate": 1.0,
+    "n": 1,
+    "pnl": 3918.09,
+    "roi": 0.9599,
+    "shrunk_roi": -0.0059,
+    "sport": "nhl",
+    "staked": 4081.59,
+    "t_stat": 0.0,
+    "tier": "NONE"
+   },
+   "wta": {
+    "avg_price": 0.644,
+    "hit_edge": 0.356,
+    "hit_rate": 1.0,
+    "n": 2,
+    "pnl": 675.59,
+    "roi": 0.3977,
+    "shrunk_roi": -0.0096,
+    "sport": "wta",
+    "staked": 1698.75,
+    "t_stat": 1.85,
+    "tier": "NONE"
+   }
+  }
+ },
  "0x2eeaf2013ffb52a3a3d62cf11ed5abb6ae791a4c": {
   "fp": [
    "6add298a:be9",
