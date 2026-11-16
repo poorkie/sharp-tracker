@@ -1,17 +1,17 @@
 # Sharp Tracker: graded record
 
-Updated 2026-11-16 04:10 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
+Updated 2026-11-16 04:20 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
 
 ## Overall
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
-| All alerts | 25-25 | -4.71u | -9.4% | +0.1¢ | 32% | 5 |
+| All alerts | 25-26 | -5.71u | -11.2% | +0.1¢ | 31% | 4 |
 
 ## By signal
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
 | CONSENSUS | 5-5 | -1.90u | -19.0% | +0.4¢ | 30% | 0 |
-| ELITE | 6-6 | -2.03u | -16.9% | +0.3¢ | 33% | 1 |
+| ELITE | 6-7 | -3.03u | -23.3% | +0.3¢ | 31% | 0 |
 | ELITE_CONSENSUS | 14-14 | -0.78u | -2.8% | -0.1¢ | 32% | 4 |
 
 ## By sport
@@ -20,14 +20,14 @@ Updated 2026-11-16 04:10 UTC. Every alert is logged at the price when it fired a
 | CFB | 1-0 | +1.60u | +159.7% | +4.0¢ | 100% | 0 |
 | LOL | 1-0 | +1.67u | +166.7% | +1.0¢ | 100% | 0 |
 | NBA | 10-9 | -1.90u | -10.0% | +0.3¢ | 37% | 2 |
-| NFL | 12-10 | -1.61u | -7.3% | -0.3¢ | 23% | 3 |
+| NFL | 12-11 | -2.61u | -11.3% | -0.3¢ | 22% | 2 |
 | NHL | 0-6 | -6.00u | -100.0% | +0.2¢ | 33% | 0 |
 | WTA | 1-0 | +1.53u | +153.2% | +0.0¢ | 0% | 0 |
 
 ## Last 50 alerts
 | Alerted (UTC) | Sport | Pick | Entry | Close | Books fair | Sharps | Result |
 |---|---|---|---|---|---|---|---|
-| 2026-11-16 01:10 | NFL | [Under 48.5: Steelers vs. Bengals](https://polymarket.com/event/nfl-pit-cin-2026-11-16) | 0.47 | 0.47 | – | 1 / $5,033 | pending |
+| 2026-11-16 01:10 | NFL | [Under 48.5: Steelers vs. Bengals](https://polymarket.com/event/nfl-pit-cin-2026-11-16) | 0.47 | 0.47 | – | 1 / $5,033 | LOSS (-100) |
 | 2026-11-16 01:00 | NBA | [Kings +10.5: Thunder vs. Kings](https://polymarket.com/event/nba-okc-sac-2026-11-15) | 0.47 | 0.43 | – | 2 / $8,457 | pending |
 | 2026-11-16 00:50 | NFL | [Steelers +4.5: Steelers vs. Bengals](https://polymarket.com/event/nfl-pit-cin-2026-11-16) | 0.52 | 0.52 | – | 2 / $4,911 | pending |
 | 2026-11-16 00:10 | NBA | [Thunder: Thunder vs. Kings](https://polymarket.com/event/nba-okc-sac-2026-11-15) | 0.81 | 0.83 | 80% | 3 / $9,192 | pending |

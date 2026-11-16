@@ -2426,7 +2426,7 @@
   "book_fair": null,
   "books": [],
   "close_price": 0.465,
-  "clv": null,
+  "clv": 0.0,
   "condition_id": "0x7ffe775eb7d6f3bf50b1f5c2156a616d52363d6586424048b573de4362e8f851",
   "entry_price": 0.465,
   "event_title": "Steelers vs. Bengals",
@@ -2436,6 +2436,7 @@
   "lock": {
    "at": "2026-11-16T01:10:24.245820+00:00",
    "late": false,
+   "pnl_100": -100.0,
    "price": 0.465,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -2445,9 +2446,9 @@
   "n_wallets": 1,
   "outcome": "Under 48.5",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": -100.0,
   "question": "Steelers vs. Bengals: O/U 48.5",
-  "result": null,
+  "result": "LOSS",
   "sharp_usd": 5033.4,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-pit-cin-2026-11-16"
