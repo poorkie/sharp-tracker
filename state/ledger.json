@@ -2334,7 +2334,7 @@
    }
   ],
   "close_price": 0.835,
-  "clv": null,
+  "clv": 0.03,
   "condition_id": "0x45efddb3e98e41f6ad47b4dcdb19b15026d57d5e469284f273a3860d2125d102",
   "entry_price": 0.805,
   "event_title": "Thunder vs. Kings",
@@ -2353,9 +2353,9 @@
   "n_wallets": 3,
   "outcome": "Thunder",
   "outcome_index": 0,
-  "pnl_100": null,
+  "pnl_100": 24.22,
   "question": "Thunder vs. Kings",
-  "result": null,
+  "result": "WIN",
   "sharp_usd": 9192.1,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-okc-sac-2026-11-15"
@@ -2397,7 +2397,7 @@
   "book_fair": null,
   "books": [],
   "close_price": 0.435,
-  "clv": null,
+  "clv": -0.04,
   "condition_id": "0xbd0c63be316d821b17dac31cfcfc5a911603e691bf87d23f5d926ede4e3c3a54",
   "entry_price": 0.475,
   "event_title": "Thunder vs. Kings",
@@ -2407,6 +2407,7 @@
   "lock": {
    "at": "2026-11-16T01:50:27.734714+00:00",
    "late": false,
+   "pnl_100": -100.0,
    "price": 0.435,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -2416,9 +2417,9 @@
   "n_wallets": 2,
   "outcome": "Kings +10.5",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": -100.0,
   "question": "Spread: Thunder (-10.5)",
-  "result": null,
+  "result": "LOSS",
   "sharp_usd": 8456.88,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-okc-sac-2026-11-15"
