@@ -2561,6 +2561,13 @@
   "game_start": "2026-11-17T01:00:00+00:00",
   "id": "0x4a3c8909-0-1794867616",
   "kind": "ELITE_CONSENSUS",
+  "lock": {
+   "at": "2026-11-17T00:50:17.781177+00:00",
+   "late": false,
+   "price": 0.485,
+   "reason": "Elite still in, price OK",
+   "verdict": "PLAY"
+  },
   "market_type": "totals",
   "max_prob": 0.5124,
   "n_wallets": 2,
@@ -2577,7 +2584,7 @@
   "alerted_at": "2026-11-16T23:20:18.496272+00:00",
   "book_fair": null,
   "books": [],
-  "close_price": 0.465,
+  "close_price": 0.475,
   "clv": null,
   "condition_id": "0x1999836e3919075b1e7dcc8244a6862ec7ea89f052859378a3ca434204b452b8",
   "entry_price": 0.475,
@@ -2585,6 +2592,13 @@
   "game_start": "2026-11-17T01:00:00+00:00",
   "id": "0x1999836e-1-1794871218",
   "kind": "ELITE_CONSENSUS",
+  "lock": {
+   "at": "2026-11-17T00:50:17.781177+00:00",
+   "late": false,
+   "price": 0.475,
+   "reason": "Elite still in, price OK",
+   "verdict": "PLAY"
+  },
   "market_type": "totals",
   "max_prob": 0.49,
   "n_wallets": 3,
