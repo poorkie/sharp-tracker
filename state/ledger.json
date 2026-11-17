@@ -2723,5 +2723,29 @@
   "sharp_usd": 28294.74,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-lac-bal-2026-11-17"
+ },
+ {
+  "alerted_at": "2026-11-17T11:00:28.821613+00:00",
+  "book_fair": null,
+  "books": [],
+  "close_price": 0.505,
+  "clv": null,
+  "condition_id": "0x98229ee7d90d02e503a95dd8b983b6530e2cdcb5115cf7c4e7b89c6954508b57",
+  "entry_price": 0.505,
+  "event_title": "ATP World Tour Finals, John McEnroe Group: Arthur Fils vs Rafael Jodar",
+  "game_start": "2026-11-17T13:00:00+00:00",
+  "id": "0x98229ee7-0-1794913228",
+  "kind": "ELITE",
+  "market_type": "moneyline",
+  "max_prob": 0.52,
+  "n_wallets": 1,
+  "outcome": "Arthur Fils",
+  "outcome_index": 0,
+  "pnl_100": null,
+  "question": "ATP World Tour Finals, John McEnroe Group: Arthur Fils vs Rafael Jodar",
+  "result": null,
+  "sharp_usd": 16351.15,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-fils-jodar-2026-11-17"
  }
 ]
