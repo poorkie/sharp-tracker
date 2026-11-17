@@ -2808,7 +2808,7 @@
   "alerted_at": "2026-11-17T19:20:18.399391+00:00",
   "book_fair": null,
   "books": [],
-  "close_price": 0.445,
+  "close_price": 0.435,
   "clv": null,
   "condition_id": "0x99b3902cc076afc62b0db3830fe8a9ccd2de45a73a246d1b88b57a3f7c5afea1",
   "entry_price": 0.455,
@@ -2827,5 +2827,75 @@
   "sharp_usd": 2137.16,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-por-min-2026-11-17"
+ },
+ {
+  "alerted_at": "2026-11-17T19:30:21.398910+00:00",
+  "book_fair": 0.5912,
+  "books": [
+   {
+    "book": "FanDuel",
+    "price": -154,
+    "prob": 0.6063
+   },
+   {
+    "book": "DraftKings",
+    "price": -155,
+    "prob": 0.6078
+   },
+   {
+    "book": "LowVig.ag",
+    "price": -158,
+    "prob": 0.6124
+   },
+   {
+    "book": "BetOnline.ag",
+    "price": -158,
+    "prob": 0.6124
+   },
+   {
+    "book": "MyBookie.ag",
+    "price": -158,
+    "prob": 0.6124
+   },
+   {
+    "book": "BetRivers",
+    "price": -159,
+    "prob": 0.6139
+   },
+   {
+    "book": "BetUS",
+    "price": -160,
+    "prob": 0.6154
+   },
+   {
+    "book": "BetMGM",
+    "price": -160,
+    "prob": 0.6154
+   },
+   {
+    "book": "Bovada",
+    "price": -163,
+    "prob": 0.6198
+   }
+  ],
+  "close_price": 0.585,
+  "clv": null,
+  "condition_id": "0x9dde472149bcd641eed8dc652609b83a21eeab42b86fd2ed233106eecdc2ccc9",
+  "entry_price": 0.585,
+  "event_title": "Kings vs. Bruins",
+  "game_start": "2026-11-18T00:00:00+00:00",
+  "id": "0x9dde4721-1-1794943821",
+  "kind": "ELITE",
+  "market_type": "moneyline",
+  "max_prob": 0.616,
+  "n_wallets": 1,
+  "outcome": "Bruins",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Kings vs. Bruins",
+  "result": null,
+  "sharp_usd": 7432.66,
+  "sport": "nhl",
+  "url": "https://polymarket.com/event/nhl-lak-bos-2026-11-17"
  }
 ]
