@@ -2641,5 +2641,82 @@
   "sharp_usd": 5561.02,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-hou-mia-2026-11-16"
+ },
+ {
+  "alerted_at": "2026-11-17T01:00:25.883714+00:00",
+  "book_fair": 0.6589,
+  "books": [
+   {
+    "book": "BetOnline.ag",
+    "price": -210,
+    "prob": 0.6774
+   },
+   {
+    "book": "Bovada",
+    "price": -210,
+    "prob": 0.6774
+   },
+   {
+    "book": "LowVig.ag",
+    "price": -213,
+    "prob": 0.6805
+   },
+   {
+    "book": "BetUS",
+    "price": -215,
+    "prob": 0.6825
+   },
+   {
+    "book": "MyBookie.ag",
+    "price": -215,
+    "prob": 0.6825
+   },
+   {
+    "book": "DraftKings",
+    "price": -225,
+    "prob": 0.6923
+   },
+   {
+    "book": "BetMGM",
+    "price": -225,
+    "prob": 0.6923
+   },
+   {
+    "book": "FanDuel",
+    "price": -230,
+    "prob": 0.697
+   },
+   {
+    "book": "BetRivers",
+    "price": -240,
+    "prob": 0.7059
+   }
+  ],
+  "close_price": 0.675,
+  "clv": null,
+  "condition_id": "0xe579bd7f0e99a4f7a2eb6c0a885e1ed8cbfa3d274d8009244d0acc508de7a460",
+  "entry_price": 0.675,
+  "event_title": "Chargers vs. Ravens",
+  "game_start": "2026-11-17T01:15:00+00:00",
+  "id": "0xe579bd7f-1-1794877225",
+  "kind": "ELITE_CONSENSUS",
+  "lock": {
+   "at": "2026-11-17T01:00:25.883714+00:00",
+   "late": false,
+   "price": 0.675,
+   "reason": "Elite still in, price OK",
+   "verdict": "PLAY"
+  },
+  "market_type": "moneyline",
+  "max_prob": 0.7013,
+  "n_wallets": 4,
+  "outcome": "Ravens",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Chargers vs. Ravens",
+  "result": null,
+  "sharp_usd": 28294.74,
+  "sport": "nfl",
+  "url": "https://polymarket.com/event/nfl-lac-bal-2026-11-17"
  }
 ]
