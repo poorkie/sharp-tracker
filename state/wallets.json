@@ -192570,6 +192570,102 @@
    }
   }
  },
+ "0xc7ebbf1d86d63eba6847121012f51f046ad1da58": {
+  "graded_at": "2026-11-17T14:00:29.129093+00:00",
+  "grades": {
+   "atp": {
+    "avg_price": 0.728,
+    "hit_edge": -0.178,
+    "hit_rate": 0.55,
+    "n": 20,
+    "pnl": -358.31,
+    "roi": -0.3087,
+    "shrunk_roi": -0.1229,
+    "sport": "atp",
+    "staked": 1160.67,
+    "t_stat": -1.22,
+    "tier": "NONE"
+   },
+   "cfb": {
+    "avg_price": 0.791,
+    "hit_edge": -0.291,
+    "hit_rate": 0.5,
+    "n": 2,
+    "pnl": -57.13,
+    "roi": -0.1734,
+    "shrunk_roi": -0.0368,
+    "sport": "cfb",
+    "staked": 329.48,
+    "t_stat": -0.84,
+    "tier": "NONE"
+   },
+   "epl": {
+    "avg_price": 0.648,
+    "hit_edge": -0.175,
+    "hit_rate": 0.474,
+    "n": 38,
+    "pnl": -1072.56,
+    "roi": -0.3086,
+    "shrunk_roi": -0.1658,
+    "sport": "epl",
+    "staked": 3475.01,
+    "t_stat": -1.74,
+    "tier": "NONE"
+   },
+   "mlb": {
+    "avg_price": 0.689,
+    "hit_edge": -0.189,
+    "hit_rate": 0.5,
+    "n": 6,
+    "pnl": -87.24,
+    "roi": -0.2373,
+    "shrunk_roi": -0.057,
+    "sport": "mlb",
+    "staked": 367.7,
+    "t_stat": -0.77,
+    "tier": "NONE"
+   },
+   "nba": {
+    "avg_price": 0.573,
+    "hit_edge": 0.006,
+    "hit_rate": 0.579,
+    "n": 19,
+    "pnl": 751.3,
+    "roi": 0.2967,
+    "shrunk_roi": 0.0752,
+    "sport": "nba",
+    "staked": 2532.4,
+    "t_stat": -0.14,
+    "tier": "NONE"
+   },
+   "nfl": {
+    "avg_price": 0.77,
+    "hit_edge": -0.77,
+    "hit_rate": 0.0,
+    "n": 1,
+    "pnl": -9.34,
+    "roi": -1.0116,
+    "shrunk_roi": -0.0539,
+    "sport": "nfl",
+    "staked": 9.23,
+    "t_stat": 0.0,
+    "tier": "NONE"
+   },
+   "wta": {
+    "avg_price": 0.772,
+    "hit_edge": 0.228,
+    "hit_rate": 1.0,
+    "n": 3,
+    "pnl": 10.5,
+    "roi": 0.1605,
+    "shrunk_roi": -0.0167,
+    "sport": "wta",
+    "staked": 65.44,
+    "t_stat": 3.06,
+    "tier": "NONE"
+   }
+  }
+ },
  "0xc803153d0d23cd64d15c959c9a8795f7d4a30a38": {
   "graded_at": "2026-11-13T21:40:15.390387+00:00",
   "grades": {
