@@ -1,23 +1,23 @@
 # Sharp Tracker: graded record
 
-Updated 2026-11-17 15:50 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
+Updated 2026-11-17 16:00 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
 
 ## Overall
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
-| All alerts | 30-32 | -7.22u | -11.7% | +0.3¢ | 34% | 1 |
+| All alerts | 31-32 | -6.24u | -9.9% | +0.2¢ | 33% | 0 |
 
 ## By signal
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
 | CONSENSUS | 5-5 | -1.90u | -19.0% | +0.4¢ | 30% | 0 |
-| ELITE | 6-7 | -3.03u | -23.3% | +0.3¢ | 31% | 1 |
+| ELITE | 7-7 | -2.05u | -14.6% | +0.2¢ | 29% | 0 |
 | ELITE_CONSENSUS | 19-20 | -2.29u | -5.9% | +0.2¢ | 36% | 0 |
 
 ## By sport
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
-| ATP | 0-0 | +0.00u | +0.0% | +0.0¢ | 0% | 1 |
+| ATP | 1-0 | +0.98u | +98.0% | -1.0¢ | 0% | 0 |
 | CFB | 1-0 | +1.60u | +159.7% | +4.0¢ | 100% | 0 |
 | LOL | 1-0 | +1.67u | +166.7% | +1.0¢ | 100% | 0 |
 | NBA | 15-12 | -0.41u | -1.5% | +0.7¢ | 44% | 0 |
@@ -28,7 +28,7 @@ Updated 2026-11-17 15:50 UTC. Every alert is logged at the price when it fired a
 ## Last 50 alerts
 | Alerted (UTC) | Sport | Pick | Entry | Close | Books fair | Sharps | Result |
 |---|---|---|---|---|---|---|---|
-| 2026-11-17 11:00 | ATP | [Arthur Fils: ATP World Tour Finals, John McEnroe Group: Arthur Fils vs Rafael Jodar](https://polymarket.com/event/atp-fils-jodar-2026-11-17) | 0.51 | 0.49 | – | 1 / $16,351 | pending |
+| 2026-11-17 11:00 | ATP | [Arthur Fils: ATP World Tour Finals, John McEnroe Group: Arthur Fils vs Rafael Jodar](https://polymarket.com/event/atp-fils-jodar-2026-11-17) | 0.51 | 0.49 | – | 1 / $16,351 | WIN (+98) |
 | 2026-11-17 01:00 | NFL | [Ravens: Chargers vs. Ravens](https://polymarket.com/event/nfl-lac-bal-2026-11-17) | 0.68 | 0.68 | 66% | 4 / $28,295 | LOSS (-100) |
 | 2026-11-16 23:30 | NBA | [Heat +4.5: Rockets vs. Heat](https://polymarket.com/event/nba-hou-mia-2026-11-16) | 0.53 | 0.60 | – | 2 / $5,561 | WIN (+89) |
 | 2026-11-16 23:20 | NBA | [Under 222.5: Warriors vs. Pelicans](https://polymarket.com/event/nba-gsw-nop-2026-11-16) | 0.47 | 0.47 | – | 3 / $2,319 | WIN (+111) |
