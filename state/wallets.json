@@ -91471,6 +91471,102 @@
    }
   }
  },
+ "0x5ad49cd574df6888a0fe1d2b522f334988f06866": {
+  "graded_at": "2026-11-17T23:20:18.785273+00:00",
+  "grades": {
+   "atp": {
+    "avg_price": 0.435,
+    "hit_edge": -0.135,
+    "hit_rate": 0.3,
+    "n": 10,
+    "pnl": -6163.16,
+    "roi": -0.1988,
+    "shrunk_roi": -0.0638,
+    "sport": "atp",
+    "staked": 31001.62,
+    "t_stat": -1.15,
+    "tier": "NONE"
+   },
+   "cfb": {
+    "avg_price": 0.531,
+    "hit_edge": -0.031,
+    "hit_rate": 0.5,
+    "n": 2,
+    "pnl": -67.12,
+    "roi": -0.0137,
+    "shrunk_roi": -0.0292,
+    "sport": "cfb",
+    "staked": 4904.58,
+    "t_stat": -0.27,
+    "tier": "NONE"
+   },
+   "epl": {
+    "avg_price": 0.184,
+    "hit_edge": 0.016,
+    "hit_rate": 0.2,
+    "n": 15,
+    "pnl": -3778.44,
+    "roi": -0.2093,
+    "shrunk_roi": -0.0789,
+    "sport": "epl",
+    "staked": 18052.12,
+    "t_stat": -0.51,
+    "tier": "NONE"
+   },
+   "mlb": {
+    "avg_price": 0.487,
+    "hit_edge": -0.024,
+    "hit_rate": 0.463,
+    "n": 246,
+    "pnl": 17508.77,
+    "roi": 0.0175,
+    "shrunk_roi": 0.0109,
+    "sport": "mlb",
+    "staked": 999500.08,
+    "t_stat": -0.73,
+    "tier": "NONE"
+   },
+   "nba": {
+    "avg_price": 0.487,
+    "hit_edge": 0.513,
+    "hit_rate": 1.0,
+    "n": 2,
+    "pnl": 4743.48,
+    "roi": 0.4662,
+    "shrunk_roi": -0.0064,
+    "sport": "nba",
+    "staked": 10173.92,
+    "t_stat": 1.08,
+    "tier": "NONE"
+   },
+   "nfl": {
+    "avg_price": 0.437,
+    "hit_edge": -0.062,
+    "hit_rate": 0.375,
+    "n": 8,
+    "pnl": -8556.54,
+    "roi": -0.2885,
+    "shrunk_roi": -0.0731,
+    "sport": "nfl",
+    "staked": 29654.73,
+    "t_stat": 0.44,
+    "tier": "NONE"
+   },
+   "nhl": {
+    "avg_price": 0.649,
+    "hit_edge": -0.149,
+    "hit_rate": 0.5,
+    "n": 2,
+    "pnl": -38875.7,
+    "roi": -0.9826,
+    "shrunk_roi": -0.0754,
+    "sport": "nhl",
+    "staked": 39562.13,
+    "t_stat": -0.52,
+    "tier": "NONE"
+   }
+  }
+ },
  "0x5ae14dc9e0cf9df72de8d873dcea05aacb799fad": {
   "fp": [
    "19ccb1b3:0d0",
