@@ -2736,6 +2736,13 @@
   "game_start": "2026-11-17T13:00:00+00:00",
   "id": "0x98229ee7-0-1794913228",
   "kind": "ELITE",
+  "lock": {
+   "at": "2026-11-17T12:50:18.192515+00:00",
+   "late": false,
+   "price": 0.495,
+   "reason": "Elite still in, price OK",
+   "verdict": "PLAY"
+  },
   "market_type": "moneyline",
   "max_prob": 0.52,
   "n_wallets": 1,
