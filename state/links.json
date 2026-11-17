@@ -14,13 +14,6 @@
   "why": "same timing"
  },
  {
-  "a": "0x0a77bc0638f13892c8b1d1d2c13ba178540f9d74",
-  "b": "0xf7f0b0b1e9c0fe02ccad926916ee31aef74b912c",
-  "both": 16,
-  "together": 13,
-  "why": "same timing"
- },
- {
   "a": "0x21f333307ac6d2e65ac82f014b3dd2b64cbc35e3",
   "b": "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3",
   "both": 22,
@@ -107,8 +100,8 @@
  {
   "a": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
   "b": "0xc29198ad764bd6adaf7bb971a3757a689ece5d74",
-  "both": 49,
-  "together": 40,
+  "both": 50,
+  "together": 41,
   "why": "same timing"
  },
  {
@@ -120,9 +113,16 @@
  },
  {
   "a": "0x9703676286b93c2eca71ca96e8757104519a69c2",
+  "b": "0xc29198ad764bd6adaf7bb971a3757a689ece5d74",
+  "both": 10,
+  "together": 8,
+  "why": "same timing"
+ },
+ {
+  "a": "0x9703676286b93c2eca71ca96e8757104519a69c2",
   "b": "0xf7f0b0b1e9c0fe02ccad926916ee31aef74b912c",
-  "both": 21,
-  "together": 17,
+  "both": 22,
+  "together": 18,
   "why": "same timing"
  },
  {
@@ -156,8 +156,8 @@
  {
   "a": "0xc29198ad764bd6adaf7bb971a3757a689ece5d74",
   "b": "0xf7f0b0b1e9c0fe02ccad926916ee31aef74b912c",
-  "both": 26,
-  "together": 21,
+  "both": 27,
+  "together": 22,
   "why": "same timing"
  },
  {
