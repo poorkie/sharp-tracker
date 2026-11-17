@@ -44033,6 +44033,50 @@
    }
   }
  },
+ "0x28ad35da91101c3ff89f81f2e780ea3c7c9a9805": {
+  "graded_at": "2026-11-17T20:30:17.984307+00:00",
+  "grades": {
+   "epl": {
+    "avg_price": 0.15,
+    "hit_edge": -0.15,
+    "hit_rate": 0.0,
+    "n": 1,
+    "pnl": -10.5,
+    "roi": -1.0,
+    "shrunk_roi": -0.0537,
+    "sport": "epl",
+    "staked": 10.5,
+    "t_stat": 0.0,
+    "tier": "NONE"
+   },
+   "nba": {
+    "avg_price": 0.477,
+    "hit_edge": -0.039,
+    "hit_rate": 0.438,
+    "n": 265,
+    "pnl": -1161.52,
+    "roi": -0.0839,
+    "shrunk_roi": -0.0768,
+    "sport": "nba",
+    "staked": 13843.89,
+    "t_stat": -1.68,
+    "tier": "NONE"
+   },
+   "nhl": {
+    "avg_price": 0.554,
+    "hit_edge": 0.008,
+    "hit_rate": 0.562,
+    "n": 16,
+    "pnl": 62.11,
+    "roi": 0.1102,
+    "shrunk_roi": 0.0101,
+    "sport": "nhl",
+    "staked": 563.47,
+    "t_stat": -0.11,
+    "tier": "NONE"
+   }
+  }
+ },
  "0x291de54f32a3ee495ff0c624fa9bfeca23451f97": {
   "graded_at": "2026-11-12T18:24:51.028765+00:00",
   "grades": {
