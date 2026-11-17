@@ -2784,7 +2784,7 @@
   "alerted_at": "2026-11-17T19:20:18.399391+00:00",
   "book_fair": null,
   "books": [],
-  "close_price": 0.445,
+  "close_price": 0.475,
   "clv": null,
   "condition_id": "0xbeb98384f95fbd6ee0a695e4faac9f249c3f1731ff3dfd5bc2ec937df09ddad1",
   "entry_price": 0.475,
@@ -2808,7 +2808,7 @@
   "alerted_at": "2026-11-17T19:20:18.399391+00:00",
   "book_fair": null,
   "books": [],
-  "close_price": 0.465,
+  "close_price": 0.475,
   "clv": null,
   "condition_id": "0x99b3902cc076afc62b0db3830fe8a9ccd2de45a73a246d1b88b57a3f7c5afea1",
   "entry_price": 0.455,
@@ -2897,5 +2897,75 @@
   "sharp_usd": 7432.66,
   "sport": "nhl",
   "url": "https://polymarket.com/event/nhl-lak-bos-2026-11-17"
+ },
+ {
+  "alerted_at": "2026-11-17T23:40:15.432416+00:00",
+  "book_fair": 0.5217,
+  "books": [
+   {
+    "book": "BetOnline.ag",
+    "price": -110,
+    "prob": 0.5238
+   },
+   {
+    "book": "LowVig.ag",
+    "price": -110,
+    "prob": 0.5238
+   },
+   {
+    "book": "DraftKings",
+    "price": -120,
+    "prob": 0.5455
+   },
+   {
+    "book": "BetUS",
+    "price": -120,
+    "prob": 0.5455
+   },
+   {
+    "book": "FanDuel",
+    "price": -120,
+    "prob": 0.5455
+   },
+   {
+    "book": "BetMGM",
+    "price": -120,
+    "prob": 0.5455
+   },
+   {
+    "book": "Bovada",
+    "price": -122,
+    "prob": 0.5495
+   },
+   {
+    "book": "MyBookie.ag",
+    "price": -122,
+    "prob": 0.5495
+   },
+   {
+    "book": "BetRivers",
+    "price": -125,
+    "prob": 0.5556
+   }
+  ],
+  "close_price": 0.515,
+  "clv": null,
+  "condition_id": "0xf6fcff2d85a3d46a825403cfc9a016649b5df0669efc823f05ad3c462648b208",
+  "entry_price": 0.515,
+  "event_title": "Blue Jackets vs. Islanders",
+  "game_start": "2026-11-18T00:00:00+00:00",
+  "id": "0xf6fcff2d-1-1794958815",
+  "kind": "ELITE",
+  "market_type": "moneyline",
+  "max_prob": 0.581,
+  "n_wallets": 1,
+  "outcome": "Islanders",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Blue Jackets vs. Islanders",
+  "result": null,
+  "sharp_usd": 6076.98,
+  "sport": "nhl",
+  "url": "https://polymarket.com/event/nhl-cbj-nyi-2026-11-17"
  }
 ]
