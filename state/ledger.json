@@ -2697,7 +2697,7 @@
    }
   ],
   "close_price": 0.675,
-  "clv": null,
+  "clv": 0.0,
   "condition_id": "0xe579bd7f0e99a4f7a2eb6c0a885e1ed8cbfa3d274d8009244d0acc508de7a460",
   "entry_price": 0.675,
   "event_title": "Chargers vs. Ravens",
@@ -2707,6 +2707,7 @@
   "lock": {
    "at": "2026-11-17T01:00:25.883714+00:00",
    "late": false,
+   "pnl_100": -100.0,
    "price": 0.675,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -2716,9 +2717,9 @@
   "n_wallets": 4,
   "outcome": "Ravens",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": -100.0,
   "question": "Chargers vs. Ravens",
-  "result": null,
+  "result": "LOSS",
   "sharp_usd": 28294.74,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-lac-bal-2026-11-17"
