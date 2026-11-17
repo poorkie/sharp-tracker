@@ -1,6 +1,6 @@
 # Sharp Tracker: graded record
 
-Updated 2026-11-17 00:10 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
+Updated 2026-11-17 00:20 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
 
 ## Overall
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
@@ -27,10 +27,10 @@ Updated 2026-11-17 00:10 UTC. Every alert is logged at the price when it fired a
 ## Last 50 alerts
 | Alerted (UTC) | Sport | Pick | Entry | Close | Books fair | Sharps | Result |
 |---|---|---|---|---|---|---|---|
-| 2026-11-16 23:30 | NBA | [Heat +4.5: Rockets vs. Heat](https://polymarket.com/event/nba-hou-mia-2026-11-16) | 0.53 | 0.59 | – | 2 / $5,561 | pending |
+| 2026-11-16 23:30 | NBA | [Heat +4.5: Rockets vs. Heat](https://polymarket.com/event/nba-hou-mia-2026-11-16) | 0.53 | 0.60 | – | 2 / $5,561 | pending |
 | 2026-11-16 23:20 | NBA | [Under 222.5: Warriors vs. Pelicans](https://polymarket.com/event/nba-gsw-nop-2026-11-16) | 0.47 | 0.47 | – | 3 / $2,319 | pending |
 | 2026-11-16 22:20 | NBA | [Over 228.5: Trail Blazers vs. Timberwolves](https://polymarket.com/event/nba-por-min-2026-11-16) | 0.48 | 0.48 | – | 2 / $2,020 | pending |
-| 2026-11-16 21:40 | NBA | [76ers -5.5: 76ers vs. Nets](https://polymarket.com/event/nba-phi-bkn-2026-11-16) | 0.47 | 0.51 | – | 3 / $3,448 | pending |
+| 2026-11-16 21:40 | NBA | [76ers -5.5: 76ers vs. Nets](https://polymarket.com/event/nba-phi-bkn-2026-11-16) | 0.47 | 0.49 | – | 3 / $3,448 | pending |
 | 2026-11-16 20:10 | NBA | [Celtics -8.5: Magic vs. Celtics](https://polymarket.com/event/nba-orl-bos-2026-11-16) | 0.49 | 0.52 | – | 2 / $2,344 | pending |
 | 2026-11-16 18:40 | NBA | [Over 213.5: Magic vs. Celtics](https://polymarket.com/event/nba-orl-bos-2026-11-16) | 0.47 | 0.51 | – | 3 / $2,829 | pending |
 | 2026-11-16 01:10 | NFL | [Under 48.5: Steelers vs. Bengals](https://polymarket.com/event/nfl-pit-cin-2026-11-16) | 0.47 | 0.47 | – | 1 / $5,033 | LOSS (-100) |
