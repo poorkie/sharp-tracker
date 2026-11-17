@@ -1,6 +1,6 @@
 # Sharp Tracker: graded record
 
-Updated 2026-11-17 23:00 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
+Updated 2026-11-17 23:10 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
 
 ## Overall
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
@@ -28,10 +28,10 @@ Updated 2026-11-17 23:00 UTC. Every alert is logged at the price when it fired a
 ## Last 50 alerts
 | Alerted (UTC) | Sport | Pick | Entry | Close | Books fair | Sharps | Result |
 |---|---|---|---|---|---|---|---|
-| 2026-11-17 19:30 | NHL | [Bruins: Kings vs. Bruins](https://polymarket.com/event/nhl-lak-bos-2026-11-17) | 0.58 | 0.59 | 59% | 1 / $7,433 | pending |
+| 2026-11-17 19:30 | NHL | [Bruins: Kings vs. Bruins](https://polymarket.com/event/nhl-lak-bos-2026-11-17) | 0.58 | 0.60 | 59% | 1 / $7,433 | pending |
 | 2026-11-17 19:20 | NBA | [Trail Blazers +1.5: Trail Blazers vs. Timberwolves](https://polymarket.com/event/nba-por-min-2026-11-17) | 0.47 | 0.45 | – | 3 / $2,224 | pending |
 | 2026-11-17 19:20 | NBA | [Over 227.5: Trail Blazers vs. Timberwolves](https://polymarket.com/event/nba-por-min-2026-11-17) | 0.46 | 0.46 | – | 2 / $2,137 | pending |
-| 2026-11-17 17:30 | NBA | [Raptors +2.5: Knicks vs. Raptors](https://polymarket.com/event/nba-nyk-tor-2026-11-17) | 0.47 | 0.49 | – | 3 / $7,725 | pending |
+| 2026-11-17 17:30 | NBA | [Raptors +2.5: Knicks vs. Raptors](https://polymarket.com/event/nba-nyk-tor-2026-11-17) | 0.47 | 0.51 | – | 3 / $7,725 | pending |
 | 2026-11-17 11:00 | ATP | [Arthur Fils: ATP World Tour Finals, John McEnroe Group: Arthur Fils vs Rafael Jodar](https://polymarket.com/event/atp-fils-jodar-2026-11-17) | 0.51 | 0.49 | – | 1 / $16,351 | WIN (+98) |
 | 2026-11-17 01:00 | NFL | [Ravens: Chargers vs. Ravens](https://polymarket.com/event/nfl-lac-bal-2026-11-17) | 0.68 | 0.68 | 66% | 4 / $28,295 | LOSS (-100) |
 | 2026-11-16 23:30 | NBA | [Heat +4.5: Rockets vs. Heat](https://polymarket.com/event/nba-hou-mia-2026-11-16) | 0.53 | 0.60 | – | 2 / $5,561 | WIN (+89) |
