@@ -16,8 +16,8 @@
  {
   "a": "0x21f333307ac6d2e65ac82f014b3dd2b64cbc35e3",
   "b": "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3",
-  "both": 29,
-  "together": 25,
+  "both": 34,
+  "together": 30,
   "why": "same timing"
  },
  {
@@ -30,15 +30,15 @@
  {
   "a": "0x21f333307ac6d2e65ac82f014b3dd2b64cbc35e3",
   "b": "0xe963d57ab09233f3cb2bf1546660a1b4638e6753",
-  "both": 26,
-  "together": 22,
+  "both": 27,
+  "together": 23,
   "why": "same timing"
  },
  {
   "a": "0x21f333307ac6d2e65ac82f014b3dd2b64cbc35e3",
   "b": "0xf7f0b0b1e9c0fe02ccad926916ee31aef74b912c",
-  "both": 43,
-  "together": 36,
+  "both": 44,
+  "together": 37,
   "why": "same timing"
  },
  {
@@ -86,29 +86,22 @@
  {
   "a": "0x32ed517a571c01b6e9adecf61ba81ca48ff2f960",
   "b": "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3",
-  "both": 21,
-  "together": 19,
+  "both": 24,
+  "together": 22,
   "why": "same timing"
  },
  {
   "a": "0x32ed517a571c01b6e9adecf61ba81ca48ff2f960",
-  "b": "0xaacac528e8af87ca25809824b384e169b558f5d5",
-  "both": 7,
-  "together": 6,
+  "b": "0xe963d57ab09233f3cb2bf1546660a1b4638e6753",
+  "both": 10,
+  "together": 8,
   "why": "same timing"
  },
  {
   "a": "0x32ed517a571c01b6e9adecf61ba81ca48ff2f960",
   "b": "0xf7f0b0b1e9c0fe02ccad926916ee31aef74b912c",
-  "both": 13,
-  "together": 12,
-  "why": "same timing"
- },
- {
-  "a": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
-  "b": "0xc29198ad764bd6adaf7bb971a3757a689ece5d74",
-  "both": 57,
-  "together": 46,
+  "both": 14,
+  "together": 13,
   "why": "same timing"
  },
  {
@@ -123,6 +116,13 @@
   "b": "0x885ffdf360e5b0b6e6acb963fb3f8ba2344c8ed9",
   "both": 7,
   "together": 7,
+  "why": "same timing"
+ },
+ {
+  "a": "0x885ffdf360e5b0b6e6acb963fb3f8ba2344c8ed9",
+  "b": "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3",
+  "both": 8,
+  "together": 8,
   "why": "same timing"
  },
  {
@@ -149,15 +149,15 @@
  {
   "a": "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3",
   "b": "0xc29198ad764bd6adaf7bb971a3757a689ece5d74",
-  "both": 11,
-  "together": 9,
+  "both": 12,
+  "together": 10,
   "why": "same timing"
  },
  {
   "a": "0xaacac528e8af87ca25809824b384e169b558f5d5",
   "b": "0xf7f0b0b1e9c0fe02ccad926916ee31aef74b912c",
-  "both": 10,
-  "together": 8,
+  "both": 11,
+  "together": 9,
   "why": "same timing"
  },
  {
@@ -170,8 +170,8 @@
  {
   "a": "0xe963d57ab09233f3cb2bf1546660a1b4638e6753",
   "b": "0xf7f0b0b1e9c0fe02ccad926916ee31aef74b912c",
-  "both": 15,
-  "together": 13,
+  "both": 16,
+  "together": 14,
   "why": "same timing"
  },
  {

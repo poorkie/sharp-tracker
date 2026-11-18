@@ -3159,5 +3159,89 @@
   "sharp_usd": 5433.0,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-gsw-dal-2026-11-18"
+ },
+ {
+  "alerted_at": "2026-11-18T17:40:17.965647+00:00",
+  "book_fair": 0.6827,
+  "books": [
+   {
+    "book": "Bovada",
+    "price": -170,
+    "prob": 0.6296
+   },
+   {
+    "book": "FanDuel",
+    "price": -194,
+    "prob": 0.6599
+   },
+   {
+    "book": "LowVig.ag",
+    "price": -243,
+    "prob": 0.7085
+   },
+   {
+    "book": "BetOnline.ag",
+    "price": -245,
+    "prob": 0.7101
+   },
+   {
+    "book": "BetUS",
+    "price": -245,
+    "prob": 0.7101
+   },
+   {
+    "book": "MyBookie.ag",
+    "price": -246,
+    "prob": 0.711
+   },
+   {
+    "book": "DraftKings",
+    "price": -249,
+    "prob": 0.7135
+   }
+  ],
+  "close_price": 0.695,
+  "clv": null,
+  "condition_id": "0xf082f47aa62f36fd0a11c791180f72fca8e61ce742b244ff779d8fdbd5791746",
+  "entry_price": 0.695,
+  "event_title": "Wizards vs. Raptors",
+  "game_start": "2026-11-19T00:30:00+00:00",
+  "id": "0xf082f47a-1-1795023617",
+  "kind": "ELITE",
+  "market_type": "moneyline",
+  "max_prob": 0.6976,
+  "n_wallets": 3,
+  "outcome": "Raptors",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Wizards vs. Raptors",
+  "result": null,
+  "sharp_usd": 9368.93,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-was-tor-2026-11-18"
+ },
+ {
+  "alerted_at": "2026-11-18T17:40:17.965647+00:00",
+  "book_fair": null,
+  "books": [],
+  "close_price": 0.495,
+  "clv": null,
+  "condition_id": "0x0eb6dd174f9e95e9da5a442c5f1f80ccd8146b6c52f2a00f85cf7d884b433691",
+  "entry_price": 0.495,
+  "event_title": "Wizards vs. Raptors",
+  "game_start": "2026-11-19T00:30:00+00:00",
+  "id": "0x0eb6dd17-0-1795023617",
+  "kind": "ELITE",
+  "market_type": "spreads",
+  "max_prob": 0.5027,
+  "n_wallets": 2,
+  "outcome": "Raptors -6.5",
+  "outcome_index": 0,
+  "pnl_100": null,
+  "question": "Spread: Raptors (-6.5)",
+  "result": null,
+  "sharp_usd": 7036.51,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-was-tor-2026-11-18"
  }
 ]
