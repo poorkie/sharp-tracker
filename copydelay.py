@@ -101,7 +101,8 @@ def main():
             size, price, ts = float(t["size"]), float(t["price"]), int(t["timestamp"])
             is_elite = tier.get((w, sport)) == "ELITE"
             if t.get("side") == "BUY":
-                hedge = any(s > held[w][idx] + 1 for j, s in held[w].items() if j != idx)
+                mine = held[w][idx]
+                hedge = any(s > mine + 1 for j, s in list(held[w].items()) if j != idx)
                 held[w][idx] += size
                 if not is_elite or hedge:
                     continue
