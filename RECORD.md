@@ -1,6 +1,6 @@
 # Sharp Tracker: graded record
 
-Updated 2026-11-18 18:06 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
+Updated 2026-11-18 18:08 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
 
 ## Overall
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
@@ -28,7 +28,7 @@ Updated 2026-11-18 18:06 UTC. Every alert is logged at the price when it fired a
 ## Last 50 alerts
 | Alerted (UTC) | Sport | Pick | Entry | Close | Books fair | Sharps | Result |
 |---|---|---|---|---|---|---|---|
-| 2026-11-18 17:40 | NBA | [Raptors: Wizards vs. Raptors](https://polymarket.com/event/nba-was-tor-2026-11-18) | 0.69 | 0.62 | 68% | 3 / $9,369 | pending |
+| 2026-11-18 17:40 | NBA | [Raptors: Wizards vs. Raptors](https://polymarket.com/event/nba-was-tor-2026-11-18) | 0.69 | 0.64 | 68% | 3 / $9,369 | pending |
 | 2026-11-18 17:40 | NBA | [Raptors -6.5: Wizards vs. Raptors](https://polymarket.com/event/nba-was-tor-2026-11-18) | 0.49 | 0.43 | – | 2 / $7,037 | pending |
 | 2026-11-18 15:40 | NBA | [Over 222.5: Warriors vs. Mavericks](https://polymarket.com/event/nba-gsw-dal-2026-11-18) | 0.56 | 0.56 | – | 1 / $5,433 | pending |
 | 2026-11-18 06:30 | ATP | [Svyatoslav Gulin: Helsinki: Lorenzo Giustino vs Svyatoslav Gulin](https://polymarket.com/event/atp-giustin-gulin-2026-11-18) | 0.51 | 0.56 | – | 4 / $3,571 | WIN (+96) |
