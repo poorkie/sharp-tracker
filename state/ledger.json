@@ -3014,7 +3014,7 @@
   "book_fair": null,
   "books": [],
   "close_price": 0.475,
-  "clv": null,
+  "clv": 0.0,
   "condition_id": "0x941c3787299be8687b6ebdbb5470cd73c1f869bca79933a7fb1f7dfbedcea745",
   "entry_price": 0.475,
   "event_title": "Jazz vs. Clippers",
@@ -3024,6 +3024,7 @@
   "lock": {
    "at": "2026-11-18T03:20:16.013566+00:00",
    "late": false,
+   "pnl_100": 110.53,
    "price": 0.475,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -3033,9 +3034,9 @@
   "n_wallets": 1,
   "outcome": "Jazz +5.5",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": 110.53,
   "question": "Spread: Clippers (-5.5)",
-  "result": null,
+  "result": "WIN",
   "sharp_usd": 8167.2,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-uta-lac-2026-11-17"
@@ -3101,5 +3102,29 @@
   "sharp_usd": 5741.88,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-cha-lal-2026-11-17"
+ },
+ {
+  "alerted_at": "2026-11-18T06:30:20.801001+00:00",
+  "book_fair": null,
+  "books": [],
+  "close_price": 0.51,
+  "clv": null,
+  "condition_id": "0x03f6cf945d1b562b990bd0f89a3b5209545ca37f7c010a0dba7280e88d26cd61",
+  "entry_price": 0.51,
+  "event_title": "Helsinki: Lorenzo Giustino vs Svyatoslav Gulin",
+  "game_start": "2026-11-18T11:30:00+00:00",
+  "id": "0x03f6cf94-1-1794983420",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "moneyline",
+  "max_prob": 0.52,
+  "n_wallets": 4,
+  "outcome": "Svyatoslav Gulin",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Helsinki: Lorenzo Giustino vs Svyatoslav Gulin",
+  "result": null,
+  "sharp_usd": 3571.13,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-giustin-gulin-2026-11-18"
  }
 ]
