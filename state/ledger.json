@@ -2901,7 +2901,7 @@
    }
   ],
   "close_price": 0.605,
-  "clv": null,
+  "clv": 0.02,
   "condition_id": "0x9dde472149bcd641eed8dc652609b83a21eeab42b86fd2ed233106eecdc2ccc9",
   "entry_price": 0.585,
   "event_title": "Kings vs. Bruins",
@@ -2911,6 +2911,7 @@
   "lock": {
    "at": "2026-11-17T23:50:17.505256+00:00",
    "late": false,
+   "pnl_100": -100.0,
    "price": 0.605,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -2920,9 +2921,9 @@
   "n_wallets": 1,
   "outcome": "Bruins",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": -100.0,
   "question": "Kings vs. Bruins",
-  "result": null,
+  "result": "LOSS",
   "sharp_usd": 7432.66,
   "sport": "nhl",
   "url": "https://polymarket.com/event/nhl-lak-bos-2026-11-17"
@@ -2978,7 +2979,7 @@
    }
   ],
   "close_price": 0.515,
-  "clv": null,
+  "clv": 0.0,
   "condition_id": "0xf6fcff2d85a3d46a825403cfc9a016649b5df0669efc823f05ad3c462648b208",
   "entry_price": 0.515,
   "event_title": "Blue Jackets vs. Islanders",
@@ -2988,6 +2989,7 @@
   "lock": {
    "at": "2026-11-17T23:50:17.505256+00:00",
    "late": false,
+   "pnl_100": 94.17,
    "price": 0.515,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -2997,9 +2999,9 @@
   "n_wallets": 1,
   "outcome": "Islanders",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": 94.17,
   "question": "Blue Jackets vs. Islanders",
-  "result": null,
+  "result": "WIN",
   "sharp_usd": 6076.98,
   "sport": "nhl",
   "url": "https://polymarket.com/event/nhl-cbj-nyi-2026-11-17"

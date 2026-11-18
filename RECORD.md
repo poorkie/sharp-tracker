@@ -1,17 +1,17 @@
 # Sharp Tracker: graded record
 
-Updated 2026-11-18 02:50 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
+Updated 2026-11-18 03:00 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
 
 ## Overall
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
-| All alerts | 31-32 | -6.24u | -9.9% | +0.2¢ | 33% | 7 |
+| All alerts | 32-33 | -6.30u | -9.7% | +0.3¢ | 34% | 5 |
 
 ## By signal
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
 | CONSENSUS | 5-5 | -1.90u | -19.0% | +0.4¢ | 30% | 0 |
-| ELITE | 7-7 | -2.05u | -14.6% | +0.2¢ | 29% | 3 |
+| ELITE | 8-8 | -2.11u | -13.2% | +0.3¢ | 31% | 1 |
 | ELITE_CONSENSUS | 19-20 | -2.29u | -5.9% | +0.2¢ | 36% | 4 |
 
 ## By sport
@@ -22,7 +22,7 @@ Updated 2026-11-18 02:50 UTC. Every alert is logged at the price when it fired a
 | LOL | 1-0 | +1.67u | +166.7% | +1.0¢ | 100% | 0 |
 | NBA | 15-12 | -0.41u | -1.5% | +0.7¢ | 44% | 5 |
 | NFL | 12-14 | -5.61u | -21.6% | -0.4¢ | 19% | 0 |
-| NHL | 0-6 | -6.00u | -100.0% | +0.2¢ | 33% | 2 |
+| NHL | 1-7 | -6.06u | -75.7% | +0.4¢ | 38% | 0 |
 | WTA | 1-0 | +1.53u | +153.2% | +0.0¢ | 0% | 0 |
 
 ## Last 50 alerts
@@ -30,8 +30,8 @@ Updated 2026-11-18 02:50 UTC. Every alert is logged at the price when it fired a
 |---|---|---|---|---|---|---|---|
 | 2026-11-18 02:30 | NBA | [Under 220.5: Hornets vs. Lakers](https://polymarket.com/event/nba-cha-lal-2026-11-17) | 0.47 | 0.49 | – | 2 / $2,290 | pending |
 | 2026-11-18 02:20 | NBA | [Jazz +5.5: Jazz vs. Clippers](https://polymarket.com/event/nba-uta-lac-2026-11-17) | 0.47 | 0.47 | – | 1 / $8,167 | pending |
-| 2026-11-17 23:40 | NHL | [Islanders: Blue Jackets vs. Islanders](https://polymarket.com/event/nhl-cbj-nyi-2026-11-17) | 0.52 | 0.52 | 52% | 1 / $6,077 | pending |
-| 2026-11-17 19:30 | NHL | [Bruins: Kings vs. Bruins](https://polymarket.com/event/nhl-lak-bos-2026-11-17) | 0.58 | 0.60 | 59% | 1 / $7,433 | pending |
+| 2026-11-17 23:40 | NHL | [Islanders: Blue Jackets vs. Islanders](https://polymarket.com/event/nhl-cbj-nyi-2026-11-17) | 0.52 | 0.52 | 52% | 1 / $6,077 | WIN (+94) |
+| 2026-11-17 19:30 | NHL | [Bruins: Kings vs. Bruins](https://polymarket.com/event/nhl-lak-bos-2026-11-17) | 0.58 | 0.60 | 59% | 1 / $7,433 | LOSS (-100) |
 | 2026-11-17 19:20 | NBA | [Trail Blazers +1.5: Trail Blazers vs. Timberwolves](https://polymarket.com/event/nba-por-min-2026-11-17) | 0.47 | 0.42 | – | 4 / $10,310 | pending |
 | 2026-11-17 19:20 | NBA | [Over 227.5: Trail Blazers vs. Timberwolves](https://polymarket.com/event/nba-por-min-2026-11-17) | 0.46 | 0.46 | – | 2 / $2,137 | pending |
 | 2026-11-17 17:30 | NBA | [Raptors +2.5: Knicks vs. Raptors](https://polymarket.com/event/nba-nyk-tor-2026-11-17) | 0.47 | 0.51 | – | 3 / $7,725 | pending |
