@@ -39946,6 +39946,37 @@
    }
   }
  },
+ "0x24d581231d4f38d9a1dbaf8e14ebff7304739e7c": {
+  "graded_at": "2026-11-18T08:20:19.635706+00:00",
+  "grades": {
+   "nba": {
+    "avg_price": 0.424,
+    "hit_edge": -0.028,
+    "hit_rate": 0.397,
+    "n": 63,
+    "pnl": -12850.4,
+    "roi": -0.2427,
+    "shrunk_roi": -0.1601,
+    "sport": "nba",
+    "staked": 52950.0,
+    "t_stat": -1.26,
+    "tier": "NONE"
+   },
+   "wta": {
+    "avg_price": 0.358,
+    "hit_edge": 0.142,
+    "hit_rate": 0.5,
+    "n": 2,
+    "pnl": 389.56,
+    "roi": 0.2547,
+    "shrunk_roi": -0.0164,
+    "sport": "wta",
+    "staked": 1529.39,
+    "t_stat": 0.36,
+    "tier": "NONE"
+   }
+  }
+ },
  "0x24ded84d901a743cfee095f8082b0f9f647183cb": {
   "graded_at": "2026-11-12T18:24:51.028765+00:00",
   "grades": {
