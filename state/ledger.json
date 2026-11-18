@@ -3078,7 +3078,7 @@
   "book_fair": null,
   "books": [],
   "close_price": 0.595,
-  "clv": null,
+  "clv": 0.01,
   "condition_id": "0x9fa7bc4ff40352958643d9f4710964213424b5a048a7765fbe42de95565dd6e1",
   "entry_price": 0.585,
   "event_title": "Hornets vs. Lakers",
@@ -3088,6 +3088,7 @@
   "lock": {
    "at": "2026-11-18T03:50:23.954229+00:00",
    "late": false,
+   "pnl_100": -100.0,
    "price": 0.595,
    "reason": "Elite still in, price OK",
    "verdict": "PLAY"
@@ -3097,9 +3098,9 @@
   "n_wallets": 1,
   "outcome": "Lakers -4.5",
   "outcome_index": 0,
-  "pnl_100": null,
+  "pnl_100": -100.0,
   "question": "Spread: Lakers (-4.5)",
-  "result": null,
+  "result": "LOSS",
   "sharp_usd": 5741.88,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-cha-lal-2026-11-17"
