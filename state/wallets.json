@@ -263113,6 +263113,102 @@
    }
   }
  },
+ "0xfe979bbfb0f14be3c5bc7ba5ba4ee5f8089a361e": {
+  "graded_at": "2026-11-18T11:20:17.261812+00:00",
+  "grades": {
+   "atp": {
+    "avg_price": 0.87,
+    "hit_edge": -0.107,
+    "hit_rate": 0.764,
+    "n": 110,
+    "pnl": -5705.46,
+    "roi": -0.0356,
+    "shrunk_roi": -0.0341,
+    "sport": "atp",
+    "staked": 160446.29,
+    "t_stat": -0.31,
+    "tier": "NONE"
+   },
+   "dota2": {
+    "avg_price": 0.852,
+    "hit_edge": -0.025,
+    "hit_rate": 0.827,
+    "n": 202,
+    "pnl": 3250.62,
+    "roi": 0.0216,
+    "shrunk_roi": 0.013,
+    "sport": "dota2",
+    "staked": 150764.51,
+    "t_stat": 1.43,
+    "tier": "NONE"
+   },
+   "epl": {
+    "avg_price": 0.875,
+    "hit_edge": -0.151,
+    "hit_rate": 0.724,
+    "n": 29,
+    "pnl": 1410.1,
+    "roi": 0.0492,
+    "shrunk_roi": 0.0033,
+    "sport": "epl",
+    "staked": 28640.21,
+    "t_stat": -1.09,
+    "tier": "NONE"
+   },
+   "lol": {
+    "avg_price": 0.822,
+    "hit_edge": -0.125,
+    "hit_rate": 0.697,
+    "n": 267,
+    "pnl": -11159.53,
+    "roi": -0.0244,
+    "shrunk_roi": -0.0251,
+    "sport": "lol",
+    "staked": 458187.0,
+    "t_stat": -0.83,
+    "tier": "NONE"
+   },
+   "mlb": {
+    "avg_price": 0.981,
+    "hit_edge": 0.019,
+    "hit_rate": 1.0,
+    "n": 1,
+    "pnl": 2.55,
+    "roi": 0.0183,
+    "shrunk_roi": -0.0288,
+    "sport": "mlb",
+    "staked": 139.03,
+    "t_stat": 0.0,
+    "tier": "NONE"
+   },
+   "nba": {
+    "avg_price": 0.89,
+    "hit_edge": -0.065,
+    "hit_rate": 0.825,
+    "n": 40,
+    "pnl": 2518.12,
+    "roi": 0.0645,
+    "shrunk_roi": 0.0173,
+    "sport": "nba",
+    "staked": 39029.91,
+    "t_stat": -0.15,
+    "tier": "NONE"
+   },
+   "wta": {
+    "avg_price": 0.86,
+    "hit_edge": -0.099,
+    "hit_rate": 0.761,
+    "n": 67,
+    "pnl": -1557.52,
+    "roi": -0.0172,
+    "shrunk_roi": -0.022,
+    "sport": "wta",
+    "staked": 90342.34,
+    "t_stat": 0.19,
+    "tier": "NONE"
+   }
+  }
+ },
  "0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227": {
   "graded_at": "2026-11-12T20:50:16.812326+00:00",
   "grades": {

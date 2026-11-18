@@ -3109,7 +3109,7 @@
   "alerted_at": "2026-11-18T06:30:20.801001+00:00",
   "book_fair": null,
   "books": [],
-  "close_price": 0.565,
+  "close_price": 0.555,
   "clv": null,
   "condition_id": "0x03f6cf945d1b562b990bd0f89a3b5209545ca37f7c010a0dba7280e88d26cd61",
   "entry_price": 0.51,
@@ -3117,6 +3117,13 @@
   "game_start": "2026-11-18T11:30:00+00:00",
   "id": "0x03f6cf94-1-1794983420",
   "kind": "ELITE_CONSENSUS",
+  "lock": {
+   "at": "2026-11-18T11:20:17.261812+00:00",
+   "late": false,
+   "price": 0.555,
+   "reason": "price ran past worth-it",
+   "verdict": "PASS"
+  },
   "market_type": "moneyline",
   "max_prob": 0.52,
   "n_wallets": 4,
