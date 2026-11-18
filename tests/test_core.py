@@ -202,7 +202,7 @@ def test_alert_format():
     title, body = run.format_alert(sig, view, ZoneInfo("America/Chicago"), max_prob)
     assert title == "SHARP CONSENSUS · NHL"
     assert "Rangers @ 46¢ (+117)" in body and "Poly cheaper by 3.0¢" in body
-    assert "Worth it up to +108 (48¢) · Polymarket ✅ OK" in body
+    assert "Elite avg entry + 3¢: 48¢ · ✅ at or under" in body
     assert "Best book: BookA +110 ✅" in body and "Also: BookB +105" in body
     assert "CST" in body
 
@@ -335,8 +335,12 @@ def test_lock_play_pass_and_locked_record(monkeypatch):
     e1, mk = _pick()
     assert ledger.lock_picks([e1], mk, {"c1:0"}, NOW) and e1["lock"]["verdict"] == "PLAY"
     e2, mk2 = _pick(price=0.46, max_prob=0.40)
+    e2["book_fair"] = 0.42                                         # Poly 4c above the books
     ledger.lock_picks([e2], mk2, {"c1:0"}, NOW)
-    assert e2["lock"]["verdict"] == "PASS" and "price" in e2["lock"]["reason"]
+    assert e2["lock"]["verdict"] == "PASS" and "books" in e2["lock"]["reason"]
+    e5, mk5 = _pick(price=0.46, max_prob=0.40)                     # moved past Elite entry, no book line
+    ledger.lock_picks([e5], mk5, {"c1:0"}, NOW)
+    assert e5["lock"]["verdict"] == "PLAY"
     e3, mk3 = _pick()
     ledger.lock_picks([e3], mk3, set(), NOW)
     assert e3["lock"]["verdict"] == "PASS" and "left" in e3["lock"]["reason"]

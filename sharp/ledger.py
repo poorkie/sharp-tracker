@@ -111,11 +111,16 @@ def update_closing_prices(ledger: list, markets: dict, now: datetime) -> None:
 
 
 def lock_picks(ledger: list, markets: dict, still_in: set, now: datetime,
-               minutes: int = 15) -> list[dict]:
+               minutes: int = 15, fair_margin: float = 0.02) -> list[dict]:
     """Final call shortly before the game. Each open pick gets a locked price
     and a verdict:
-      PLAY  - Elite money is still in and the price is at or under 'worth it'
-      PASS  - the price ran past 'worth it', or the Elite money left
+      PLAY  - Elite money is still in, and Polymarket isn't priced above the
+              sportsbooks' fair price
+      PASS  - the Elite money left, or Polymarket is pricier than the books'
+              no-vig fair price by more than fair_margin
+    A price that moved toward the Elite side is NOT a reason to pass: in the
+    first week those "ran" picks went 7-2 with +4.3c CLV. The market moving
+    their way is confirmation, not a warning.
     The locked record (PLAY picks at the lock price) is the honest number a
     follower could actually have gotten."""
     newly = []
@@ -129,15 +134,18 @@ def lock_picks(ledger: list, markets: dict, still_in: set, now: datetime,
         live = m is not None and now < start and e["outcome_index"] < len(m["prices"])
         price = m["prices"][e["outcome_index"]] if live else e["close_price"]
         key = f"{e['condition_id']}:{e['outcome_index']}"
-        max_prob = e.get("max_prob")
+        fair = e.get("book_fair")
         if key not in still_in:
             verdict, reason = "PASS", "Elite money left"
-        elif max_prob and price > max_prob:
-            verdict, reason = "PASS", "price ran past worth-it"
+        elif fair and price > fair + fair_margin:
+            verdict, reason = "PASS", f"Polymarket {round((price - fair) * 100)}¢ above books' fair price"
         else:
-            verdict, reason = "PLAY", "Elite still in, price OK"
+            moved = price - e["entry_price"]
+            verdict = "PLAY"
+            reason = ("Elite still in; market moved their way" if moved > 0.005
+                      else "Elite still in")
         e["lock"] = {"at": now.isoformat(), "price": price, "verdict": verdict,
-                     "reason": reason, "late": not live}
+                     "reason": reason, "late": not live, "rule": 2}
         newly.append(e)
     return newly
 

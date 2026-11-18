@@ -171,8 +171,8 @@ def format_lock(e, tz) -> tuple[str, str]:
     title = f"🔒 FINAL: {'PLAY' if ok else 'PASS'} · {e['sport'].upper()}"
     lines = [f"{e['outcome']} @ {p * 100:.0f}¢ ({odds.prob_to_american(p)})",
              f"{e['event_title']}", lk["reason"]]
-    if e.get("max_prob"):
-        lines.append(f"Worth it up to {odds.prob_to_american(e['max_prob'])} ({e['max_prob'] * 100:.0f}¢)")
+    if e.get("book_fair"):
+        lines.append(f"Books' fair price: {e['book_fair'] * 100:.0f}¢")
     if ok and e.get("books"):
         b = e["books"][0]
         lines.append(f"Best book at alert: {b['book']} {odds.fmt_american(b['price'])}")
@@ -197,8 +197,8 @@ def format_alert(sig, view, tz, max_prob=None) -> tuple[str, str]:
                      f"{'Poly cheaper' if edge > 0 else 'Poly pricier'} by {abs(edge) * 100:.1f}¢")
     if max_prob:
         ok = p <= max_prob
-        lines.append(f"Worth it up to {odds.prob_to_american(max_prob)} ({max_prob * 100:.0f}¢) · "
-                     f"Polymarket {'✅ OK' if ok else '❌ too high'}")
+        lines.append(f"Elite avg entry + 3¢: {max_prob * 100:.0f}¢ · "
+                     f"{'✅ at or under' if ok else '↗ market already moving their way'}")
     if view and view.get("lines"):
         best = view["lines"][0]
         tag = "✅" if (not max_prob or best["prob"] <= max_prob) else "❌ above max"
