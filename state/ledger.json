@@ -2768,6 +2768,13 @@
   "game_start": "2026-11-18T00:30:00+00:00",
   "id": "0x5a3ee40a-1-1794936621",
   "kind": "ELITE_CONSENSUS",
+  "lock": {
+   "at": "2026-11-18T00:20:16.586503+00:00",
+   "late": false,
+   "price": 0.505,
+   "reason": "Elite still in, price OK",
+   "verdict": "PLAY"
+  },
   "market_type": "spreads",
   "max_prob": 0.5061,
   "n_wallets": 3,
