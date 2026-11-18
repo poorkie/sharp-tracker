@@ -8,7 +8,11 @@ import yaml
 from sharp import grading, ledger, odds, signals
 from sharp.markets import market_type, parse_time
 
+LIVE_CFG = yaml.safe_load((Path(__file__).parent.parent / "config.yaml").read_text())
+# Logic tests use fixed rule settings so tuning config.yaml doesn't break them.
 CFG = yaml.safe_load((Path(__file__).parent.parent / "config.yaml").read_text())
+CFG["consensus"].update({"min_wallets": 2, "min_total_usd": 2000, "alert_tiers": ["ELITE"]})
+CFG["single_elite"].update({"enabled": True, "min_usd": 5000})
 SPORTS = CFG["sports"]
 G = CFG["grading"]
 NOW = datetime(2026, 11, 10, 18, 0, tzinfo=timezone.utc)
@@ -370,3 +374,15 @@ def test_activity_merges_fills_and_sorts_newest_first():
     rows = activity.feed(log, MKT, g, {}, {"c1:0"})
     assert [r["wallet"] for r in rows] == ["b", "a"]
     assert abs(rows[1]["usd"] - 1200) < 1e-6 and rows[1]["is_pick"] and rows[1]["pick"] == "Rangers"
+
+
+def test_live_rules_need_three_elite_people():
+    g = {w: grade("ELITE") for w in ("a", "b", "c")}
+    two = [trade("a", "BUY", 1500), trade("b", "BUY", 1500)]
+    flows = signals.net_flows(two, g, {"c1": "nhl"})
+    assert signals.find_signals(flows, MKT, g, LIVE_CFG) == []
+    flows = signals.net_flows(two + [trade("c", "BUY", 1000)], g, {"c1": "nhl"})
+    s = signals.find_signals(flows, MKT, g, LIVE_CFG)
+    assert len(s) == 1 and s[0]["people"] == 3
+    # three wallets that are one person don't count
+    assert signals.find_signals(flows, MKT, g, LIVE_CFG, {"a": "a", "b": "a", "c": "a"}) == []

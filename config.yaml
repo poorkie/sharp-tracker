@@ -77,9 +77,11 @@ consensus:
   # kept winning out of sample, SHARP did not, so only ELITE counts.
   # Sharp-tier money on the OTHER side still counts against a pick.
   alert_tiers: [ELITE]
-  # Fire when at least this many of those wallets are net-long the
-  # same side of the same game...
-  min_wallets: 2
+  # Fire when at least this many different Elite PEOPLE (linked wallets
+  # count once) are net-long the same side of the same game...
+  # Rule test (Nov 18, games Sep 1-Nov 10): 2+ Elite was +1.1% over 329
+  # bets (no edge); 3+ Elite was +8.9% over 157 (best, still unproven).
+  min_wallets: 3
   # ...with at least this much combined money...
   min_total_usd: 2000
   # ...counting trades from the last N hours...
@@ -90,7 +92,9 @@ consensus:
 
 single_elite:
   # Also alert when one ELITE wallet makes a big bet on its own.
-  enabled: true
+  # Off since Nov 18: +3.6% over 419 bets in the rule test (z +0.9) and
+  # 9-9 live. Not enough evidence to keep making these picks.
+  enabled: false
   min_usd: 5000
 
 # ---- Multi-wallet detection ----------------------------------
