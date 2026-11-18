@@ -3135,5 +3135,29 @@
   "sharp_usd": 3571.13,
   "sport": "atp",
   "url": "https://polymarket.com/event/atp-giustin-gulin-2026-11-18"
+ },
+ {
+  "alerted_at": "2026-11-18T15:40:20.882064+00:00",
+  "book_fair": null,
+  "books": [],
+  "close_price": 0.555,
+  "clv": null,
+  "condition_id": "0x7198b1b5d0d5d495ced811d77427dbf71f0c537328c722c48cfa42231f353cba",
+  "entry_price": 0.555,
+  "event_title": "Warriors vs. Mavericks",
+  "game_start": "2026-11-19T01:00:00+00:00",
+  "id": "0x7198b1b5-0-1795016420",
+  "kind": "ELITE",
+  "market_type": "totals",
+  "max_prob": 0.58,
+  "n_wallets": 1,
+  "outcome": "Over 222.5",
+  "outcome_index": 0,
+  "pnl_100": null,
+  "question": "Warriors vs. Mavericks: O/U 222.5",
+  "result": null,
+  "sharp_usd": 5433.0,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-gsw-dal-2026-11-18"
  }
 ]
