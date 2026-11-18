@@ -3003,5 +3003,29 @@
   "sharp_usd": 6076.98,
   "sport": "nhl",
   "url": "https://polymarket.com/event/nhl-cbj-nyi-2026-11-17"
+ },
+ {
+  "alerted_at": "2026-11-18T02:20:17.708511+00:00",
+  "book_fair": null,
+  "books": [],
+  "close_price": 0.475,
+  "clv": null,
+  "condition_id": "0x941c3787299be8687b6ebdbb5470cd73c1f869bca79933a7fb1f7dfbedcea745",
+  "entry_price": 0.475,
+  "event_title": "Jazz vs. Clippers",
+  "game_start": "2026-11-18T03:30:00+00:00",
+  "id": "0x941c3787-1-1794968417",
+  "kind": "ELITE",
+  "market_type": "spreads",
+  "max_prob": 0.51,
+  "n_wallets": 1,
+  "outcome": "Jazz +5.5",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Spread: Clippers (-5.5)",
+  "result": null,
+  "sharp_usd": 8167.2,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-uta-lac-2026-11-17"
  }
 ]
