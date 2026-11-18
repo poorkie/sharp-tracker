@@ -1,6 +1,6 @@
 # Sharp Tracker: graded record
 
-Updated 2026-11-18 02:30 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
+Updated 2026-11-18 02:40 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
 
 ## Overall
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
@@ -28,7 +28,7 @@ Updated 2026-11-18 02:30 UTC. Every alert is logged at the price when it fired a
 ## Last 50 alerts
 | Alerted (UTC) | Sport | Pick | Entry | Close | Books fair | Sharps | Result |
 |---|---|---|---|---|---|---|---|
-| 2026-11-18 02:30 | NBA | [Under 220.5: Hornets vs. Lakers](https://polymarket.com/event/nba-cha-lal-2026-11-17) | 0.47 | 0.47 | – | 2 / $2,290 | pending |
+| 2026-11-18 02:30 | NBA | [Under 220.5: Hornets vs. Lakers](https://polymarket.com/event/nba-cha-lal-2026-11-17) | 0.47 | 0.48 | – | 2 / $2,290 | pending |
 | 2026-11-18 02:20 | NBA | [Jazz +5.5: Jazz vs. Clippers](https://polymarket.com/event/nba-uta-lac-2026-11-17) | 0.47 | 0.47 | – | 1 / $8,167 | pending |
 | 2026-11-17 23:40 | NHL | [Islanders: Blue Jackets vs. Islanders](https://polymarket.com/event/nhl-cbj-nyi-2026-11-17) | 0.52 | 0.52 | 52% | 1 / $6,077 | pending |
 | 2026-11-17 19:30 | NHL | [Bruins: Kings vs. Bruins](https://polymarket.com/event/nhl-lak-bos-2026-11-17) | 0.58 | 0.60 | 59% | 1 / $7,433 | pending |
