@@ -3018,6 +3018,13 @@
   "game_start": "2026-11-18T03:30:00+00:00",
   "id": "0x941c3787-1-1794968417",
   "kind": "ELITE",
+  "lock": {
+   "at": "2026-11-18T03:20:16.013566+00:00",
+   "late": false,
+   "price": 0.475,
+   "reason": "Elite still in, price OK",
+   "verdict": "PLAY"
+  },
   "market_type": "spreads",
   "max_prob": 0.51,
   "n_wallets": 1,
