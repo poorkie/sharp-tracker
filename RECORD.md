@@ -1,6 +1,6 @@
 # Sharp Tracker: graded record
 
-Updated 2026-11-18 08:00 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
+Updated 2026-11-18 08:10 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
 
 ## Overall
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
@@ -28,7 +28,7 @@ Updated 2026-11-18 08:00 UTC. Every alert is logged at the price when it fired a
 ## Last 50 alerts
 | Alerted (UTC) | Sport | Pick | Entry | Close | Books fair | Sharps | Result |
 |---|---|---|---|---|---|---|---|
-| 2026-11-18 06:30 | ATP | [Svyatoslav Gulin: Helsinki: Lorenzo Giustino vs Svyatoslav Gulin](https://polymarket.com/event/atp-giustin-gulin-2026-11-18) | 0.51 | 0.52 | – | 4 / $3,571 | pending |
+| 2026-11-18 06:30 | ATP | [Svyatoslav Gulin: Helsinki: Lorenzo Giustino vs Svyatoslav Gulin](https://polymarket.com/event/atp-giustin-gulin-2026-11-18) | 0.51 | 0.53 | – | 4 / $3,571 | pending |
 | 2026-11-18 03:40 | NBA | [Lakers -4.5: Hornets vs. Lakers](https://polymarket.com/event/nba-cha-lal-2026-11-17) | 0.58 | 0.59 | – | 1 / $5,742 | LOSS (-100) |
 | 2026-11-18 02:30 | NBA | [Under 220.5: Hornets vs. Lakers](https://polymarket.com/event/nba-cha-lal-2026-11-17) | 0.47 | 0.49 | – | 2 / $2,290 | LOSS (-100) |
 | 2026-11-18 02:20 | NBA | [Jazz +5.5: Jazz vs. Clippers](https://polymarket.com/event/nba-uta-lac-2026-11-17) | 0.47 | 0.47 | – | 1 / $8,167 | WIN (+111) |
