@@ -138880,6 +138880,102 @@
   "graded_at": "2026-11-18T00:40:20.232306+00:00",
   "grades": {}
  },
+ "0x8873852c2fd3d4f207b9b5070f1ea9258e2809fc": {
+  "graded_at": "2026-11-18T23:20:17.702398+00:00",
+  "grades": {
+   "atp": {
+    "avg_price": 0.509,
+    "hit_edge": -0.509,
+    "hit_rate": 0.0,
+    "n": 2,
+    "pnl": -2016.6,
+    "roi": -1.0001,
+    "shrunk_roi": -0.0762,
+    "sport": "atp",
+    "staked": 2016.3,
+    "t_stat": -12162.5,
+    "tier": "NONE"
+   },
+   "cbb": {
+    "avg_price": 0.498,
+    "hit_edge": 0.031,
+    "hit_rate": 0.529,
+    "n": 17,
+    "pnl": 1511.91,
+    "roi": 0.0837,
+    "shrunk_roi": 0.0039,
+    "sport": "cbb",
+    "staked": 18066.32,
+    "t_stat": 0.39,
+    "tier": "NONE"
+   },
+   "cfb": {
+    "avg_price": 0.52,
+    "hit_edge": -0.02,
+    "hit_rate": 0.5,
+    "n": 4,
+    "pnl": 1077.16,
+    "roi": 0.2422,
+    "shrunk_roi": -0.0053,
+    "sport": "cfb",
+    "staked": 4446.59,
+    "t_stat": -0.04,
+    "tier": "NONE"
+   },
+   "epl": {
+    "avg_price": 0.503,
+    "hit_edge": -0.017,
+    "hit_rate": 0.486,
+    "n": 35,
+    "pnl": -3694.67,
+    "roi": -0.0707,
+    "shrunk_roi": -0.049,
+    "sport": "epl",
+    "staked": 52292.23,
+    "t_stat": 0.01,
+    "tier": "NONE"
+   },
+   "nba": {
+    "avg_price": 0.541,
+    "hit_edge": -0.054,
+    "hit_rate": 0.488,
+    "n": 82,
+    "pnl": -21453.2,
+    "roi": -0.1602,
+    "shrunk_roi": -0.1175,
+    "sport": "nba",
+    "staked": 133909.76,
+    "t_stat": -0.93,
+    "tier": "NONE"
+   },
+   "nfl": {
+    "avg_price": 0.418,
+    "hit_edge": -0.168,
+    "hit_rate": 0.25,
+    "n": 4,
+    "pnl": -2465.15,
+    "roi": -0.575,
+    "shrunk_roi": -0.0795,
+    "sport": "nfl",
+    "staked": 4287.02,
+    "t_stat": -1.16,
+    "tier": "NONE"
+   },
+   "wta": {
+    "avg_price": 0.525,
+    "hit_edge": 0.075,
+    "hit_rate": 0.6,
+    "n": 5,
+    "pnl": 1772.74,
+    "roi": 0.2723,
+    "shrunk_roi": 0.0036,
+    "sport": "wta",
+    "staked": 6510.92,
+    "t_stat": -0.11,
+    "tier": "NONE"
+   }
+  }
+ },
  "0x88a6c8e00c4752a8c70d24025fa781fa046a7e77": {
   "graded_at": "2026-11-12T19:20:15.205601+00:00",
   "grades": {
