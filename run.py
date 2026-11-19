@@ -19,7 +19,7 @@ from collections import Counter
 
 import yaml
 
-from sharp import activity, api, clusters, grading, holders, ledger, markets, notify, odds, signals, site
+from sharp import activity, api, clusters, grading, holders, ingame, ledger, markets, notify, odds, signals, site
 
 ROOT = Path(__file__).parent
 STATE = ROOT / "state"
@@ -235,11 +235,14 @@ def main():
     holders_cache = load("holders_cache.json", {})
     cotrade = load("cotrade.json", {})
     act_log = load("activity.json", {})
+    ig_book = load("ingame.json", [])
 
     refresh_candidates(cfg, wallets, queue, meta, now)
     grade_some(cfg, wallets, queue, now, meta)
 
-    upcoming = markets.upcoming_markets(cfg, now)
+    live_list: list = []
+    upcoming = markets.upcoming_markets(cfg, now, live_list)
+    live_by_cid = {m["condition_id"]: m for m in live_list}
     by_cid = {m["condition_id"]: m for m in upcoming}
     since = int((now - timedelta(hours=cfg["consensus"]["window_hours"])).timestamp())
     trades = api.trades_for_conditions(list(by_cid), cfg["min_trade_usd"], since) if by_cid else []
@@ -270,6 +273,25 @@ def main():
     log.info("holders added %d positions; %d linked wallet pairs", n_held, len(links))
 
     activity.record(act_log, trades, holders_cache, tracked, now)
+
+    # in-game paper trading
+    if cfg.get("ingame", {}).get("enabled") and live_by_cid:
+        ig_since = int((now - timedelta(minutes=cfg["ingame"]["max_delay_minutes"] + 5)).timestamp())
+        try:
+            ig_trades = api.trades_for_conditions(list(live_by_cid), cfg["ingame"]["min_usd"] / 4,
+                                                  ig_since, max_rows=5000)
+        except Exception as e:
+            log.error("in-game trades failed: %s", e)
+            ig_trades = []
+        sigs = ingame.detect(ig_trades, live_by_cid, grades, entity, ig_book, now, cfg)
+        for e in ingame.record(ig_book, sigs, live_by_cid, now, cfg):
+            title, body = ingame.format_alert(e)
+            notify.send(channels, title, body, e["url"])
+        log.info("in-game: %d live markets, %d trades, %d Elite bets, %d picks total",
+                 len(live_by_cid), len(ig_trades), len(sigs), len(ig_book))
+    n_ig = ingame.grade(ig_book, now)
+    if n_ig:
+        log.info("graded %d in-game picks", n_ig)
 
     found = signals.find_signals(flows, by_cid, grades, cfg, entity)
     log.info("%d signals", len(found))
@@ -335,6 +357,7 @@ def main():
         save("cotrade.json", cotrade)
         save("links.json", links)
         save("activity.json", act_log)
+        save("ingame.json", ig_book)
         (ROOT / "RECORD.md").write_text(ledger.render_record(book, now))
         live = site.live_board(
             flows, by_cid, grades, set(sent),
@@ -347,7 +370,8 @@ def main():
                    links, cfg["lock"]["minutes_before_start"],
                    activity.feed(act_log, by_cid, grades, entity,
                                  {f"{e['condition_id']}:{e['outcome_index']}" for e in book},
-                                 min_usd=cfg["min_trade_usd"]))
+                                 min_usd=cfg["min_trade_usd"]),
+                   ingame.site_data(ig_book))
 
 
 if __name__ == "__main__":

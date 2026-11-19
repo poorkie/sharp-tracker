@@ -59,6 +59,9 @@ def pick_label(m: dict, idx: int, outcome: str | None = None) -> str:
     if mt == "totals":
         ln = re.search(r"O/U\s*(\d+(?:\.\d+)?)", q, re.I) or LINE.search(q.split(":")[-1])
         return f"{name} {ln.group(1)}" if ln else name
+    if mt and mt.startswith("child"):
+        g = re.search(r"\b(game|map)\s*(\d+)", q, re.I)
+        return f"{name} (Map {g.group(2)})" if g else name
     if mt == "spreads":
         mm = re.search(r"([^:(]+?)\s*\(([+-]?\d+(?:\.\d+)?)\)", q)
         if mm:
@@ -69,9 +72,15 @@ def pick_label(m: dict, idx: int, outcome: str | None = None) -> str:
     return name
 
 
-def upcoming_markets(cfg: dict, now: datetime) -> list[dict]:
+def upcoming_markets(cfg: dict, now: datetime, live_out: list | None = None) -> list[dict]:
+    """Markets for games that haven't started. If live_out is given, markets
+    for games in progress (per cfg["ingame"]) are appended to it as well."""
     horizon = now + timedelta(hours=cfg["lookahead_hours"])
     wanted = set(cfg["market_types"])
+    ig = cfg.get("ingame") or {}
+    ig_types = set(ig.get("market_types", []))
+    ig_skip = set(ig.get("skip_sports", []))
+    ig_hours = timedelta(hours=ig.get("max_hours_after_start", 6))
     out: list[dict] = []
     by_tag: dict[str, list] = {}
     for sport, scfg in cfg["sports"].items():
@@ -97,10 +106,24 @@ def upcoming_markets(cfg: dict, now: datetime) -> list[dict]:
             for m in ev.get("markets") or []:
                 if m.get("closed") or not m.get("conditionId"):
                     continue
-                if market_type(m) not in wanted:
-                    continue
                 start = game_start(m, ev)
-                if not start or not (now < start <= horizon):
+                if not start:
+                    continue
+                mt = market_type(m)
+                if (live_out is not None and ig.get("enabled") and sport not in ig_skip
+                        and mt in ig_types and start <= now <= start + ig_hours):
+                    live_out.append({
+                        "condition_id": m["conditionId"],
+                        "question": m.get("question") or ev.get("title"),
+                        "event_title": ev.get("title") or m.get("question"),
+                        "event_slug": slug, "sport": sport, "market_type": mt,
+                        "outcomes": api.parse_json_list(m.get("outcomes")),
+                        "prices": [float(p) for p in api.parse_json_list(m.get("outcomePrices"))],
+                        "tokens": api.parse_json_list(m.get("clobTokenIds")),
+                        "game_start": start.isoformat(),
+                        "url": f"https://polymarket.com/event/{slug}",
+                    })
+                if mt not in wanted or not (now < start <= horizon):
                     continue
                 out.append({
                     "condition_id": m["conditionId"],

@@ -128,6 +128,23 @@ holders:
   # Unknown wallets holding at least this much get queued for grading.
   discover_usd: 1000
 
+# ---- In-game paper trading ------------------------------------
+# Copy-delay test (Nov 18): Elite bets placed DURING games, copied 1-5 min
+# late, returned ~+9% over ~1,250 bets (z ~ +3.2). Pre-game showed nothing.
+# NFL in-game was -5.9% (z -2.0) and CFB flat, so they're skipped.
+ingame:
+  enabled: true
+  skip_sports: [nfl, cfb]
+  # moneyline = who wins; child_moneyline = esports map/game winners
+  market_types: [moneyline, child_moneyline]
+  max_hours_after_start: 6
+  # Ignore Elite buys smaller than this (fills within 2 min are combined).
+  min_usd: 200
+  # Only act on Elite bets placed within the last N minutes (the edge fades
+  # after ~10 min; scans run every ~10 min).
+  max_delay_minutes: 15
+  price_band: { min: 0.05, max: 0.95 }
+
 # ---- 15-minute lock --------------------------------------------
 lock:
   minutes_before_start: 15

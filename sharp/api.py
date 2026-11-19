@@ -154,6 +154,13 @@ def holders(condition_id: str, per_outcome: int = 50) -> list[dict]:
 CLOB = "https://clob.polymarket.com"
 
 
+def best_ask(token_id: str) -> tuple[float, float] | None:
+    """(price, size) of the cheapest sell order: what a buyer pays right now."""
+    book = get_json(f"{CLOB}/book", {"token_id": token_id}, tries=2) or {}
+    asks = [(float(a["price"]), float(a["size"])) for a in book.get("asks") or []]
+    return min(asks) if asks else None
+
+
 def price_history(token_id: str, start_ts: int, end_ts: int, fidelity_min: int = 5) -> list[dict]:
     """[{t: unix, p: price}, ...] for one outcome token."""
     body = get_json(f"{CLOB}/prices-history", {

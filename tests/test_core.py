@@ -386,3 +386,58 @@ def test_live_rules_need_three_elite_people():
     assert len(s) == 1 and s[0]["people"] == 3
     # three wallets that are one person don't count
     assert signals.find_signals(flows, MKT, g, LIVE_CFG, {"a": "a", "b": "a", "c": "a"}) == []
+
+
+# ---------- in-game paper trading ----------
+
+from sharp import ingame
+
+
+def _live(start_min_ago=40):
+    return {"c1": {**MKT["c1"], "game_start": (NOW - timedelta(minutes=start_min_ago)).isoformat(),
+                   "tokens": ["tokA", "tokB"]}}
+
+
+def _t(w, side, usd, idx=0, price=0.5, min_ago=3):
+    return {"proxy_wallet": w, "condition_id": "c1", "outcome_index": idx, "side": side,
+            "size": usd / price, "price": price, "timestamp": int(NOW.timestamp()) - 60 * min_ago}
+
+
+def test_ingame_detects_elite_live_bets_only():
+    g = {"e": grade("ELITE"), "h": grade("ELITE"), "s": grade("SHARP")}
+    live = _live()
+    trades = [_t("e", "BUY", 300, min_ago=4), _t("e", "BUY", 400, min_ago=3),   # merged: $700
+              _t("s", "BUY", 5000),                                              # not Elite
+              _t("e", "BUY", 900, min_ago=60),                                   # pre-game
+              _t("h", "BUY", 3000, idx=1, min_ago=8), _t("h", "BUY", 500, idx=0, min_ago=2)]  # hedge
+    sigs = ingame.detect(trades, live, g, {}, [], NOW, LIVE_CFG)
+    assert [(x["w"], x["idx"]) for x in sigs] == [("h", 1), ("e", 0)]
+    e = next(x for x in sigs if x["w"] == "e")
+    assert abs(e["usd"] - 700) < 1e-6
+    old = [_t("e", "BUY", 500, min_ago=30)]                                      # too stale to follow
+    assert ingame.detect(old, _live(90), g, {}, [], NOW, LIVE_CFG) == []
+
+
+def test_ingame_record_one_pick_per_side_and_grading(monkeypatch):
+    g = {"e": grade("ELITE"), "f": grade("ELITE"), "x": grade("ELITE")}
+    live = _live()
+    book = []
+    sigs = ingame.detect([_t("e", "BUY", 600), _t("f", "BUY", 800, min_ago=2)], live, g, {}, book, NOW, LIVE_CFG)
+    new = ingame.record(book, sigs, live, NOW, LIVE_CFG, ask=lambda tok: (0.52, 400))
+    assert len(new) == 1 and len(book) == 1 and book[0]["elite_wallets"] == ["e", "f"]
+    assert book[0]["fill_price"] == 0.52 and book[0]["delay_s"] == 180
+    other = ingame.detect([_t("x", "BUY", 900, idx=1)], live, g, {}, book, NOW, LIVE_CFG)
+    assert ingame.record(book, other, live, NOW, LIVE_CFG, ask=lambda tok: (0.48, 400)) == []  # conflict
+    far = ingame.detect([_t("x", "BUY", 900)], {"c1": {**live["c1"], "condition_id": "c1"}}, g, {}, [], NOW, LIVE_CFG)
+    assert ingame.record([], far, live, NOW, LIVE_CFG, ask=lambda tok: (0.98, 400)) == []    # out of band
+    monkeypatch.setattr(ingame.api, "markets_by_condition",
+                        lambda ids, closed: [{"conditionId": "c1", "outcomePrices": '["1","0"]'}])
+    assert ingame.grade(book, NOW + timedelta(hours=2)) == 1
+    assert book[0]["result"] == "WIN" and abs(book[0]["pnl_100"] - 92.31) < 0.01
+    assert ingame.summary(book)["units"] == 0.92
+
+
+def test_map_winner_label():
+    from sharp.markets import pick_label
+    m = {"question": "LoL: T1 vs Gen.G - Game 2 Winner", "market_type": "child_moneyline", "outcomes": ["T1", "Gen.G"]}
+    assert pick_label(m, 0) == "T1 (Map 2)"
