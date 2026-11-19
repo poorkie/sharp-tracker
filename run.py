@@ -157,6 +157,18 @@ def worth_up_to(sig, margin: float) -> float | None:
     return round(min(avg + margin, 0.97), 4)
 
 
+def novig_client(cfg):
+    """Novig Paper trading client, if set up (trading key ID in state/novig.json
+    and NOVIG_TRADING_SEED secret present)."""
+    ncfg = (cfg.get("ingame") or {}).get("novig") or {}
+    seed = os.environ.get("NOVIG_TRADING_SEED", "").strip()
+    st = load("novig.json", {})
+    if not (ncfg.get("enabled") and seed and st.get("trading_key_id")):
+        return None
+    from sharp import novig as nv
+    return nv.Client(st.get("host", nv.PAPER), nv.Key.from_seed(st["trading_key_id"], seed))
+
+
 def people_text(sig) -> str:
     n_people = sig.get("people", len(sig["wallets"]))
     n_w = len(sig["wallets"])
@@ -284,7 +296,12 @@ def main():
             log.error("in-game trades failed: %s", e)
             ig_trades = []
         sigs = ingame.detect(ig_trades, live_by_cid, grades, entity, ig_book, now, cfg)
+        nv_client = novig_client(cfg)
+        nv_cache: dict = {}
         for e in ingame.record(ig_book, sigs, live_by_cid, now, cfg):
+            if nv_client:
+                e["novig"] = ingame.copy_to_novig(e, live_by_cid[e["cid"]], nv_client, nv_cache, cfg)
+                log.info("novig copy %s: %s %s", e["pick"], e["novig"].get("status"), e["novig"].get("reason", ""))
             title, body = ingame.format_alert(e)
             notify.send(channels, title, body, e["url"])
         log.info("in-game: %d live markets, %d trades, %d Elite bets, %d picks total",

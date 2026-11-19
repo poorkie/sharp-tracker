@@ -448,3 +448,62 @@ def test_ingame_keeps_latest_separate_bet():
     trades = [_t("e", "BUY", 300, min_ago=12), _t("e", "BUY", 500, min_ago=3)]   # 9 min apart
     sigs = ingame.detect(trades, _live(), g, {}, [], NOW, LIVE_CFG)
     assert len(sigs) == 1 and abs(sigs[0]["usd"] - 500) < 1e-6
+
+
+# ---------- Novig ----------
+
+import base64 as _b64
+import json as _json
+
+from sharp import novig as nv
+
+
+def test_novig_signer_matches_all_official_vectors():
+    V = _json.loads((Path(__file__).parent.parent / "vendor-docs/novig/signing-vectors.json").read_text())
+    for v in V["vectors"]:
+        i, b = v["input"], v["input"]["body"]
+        body = b.encode() if isinstance(b, str) else _json.dumps(b, separators=(",", ":")).encode()
+        s = nv.canonical_string(str(i["timestamp"]), i["method"], i["path"], i["query"], body)
+        assert s == v["string_to_sign"], v["id"]
+        if v["algorithm"] == "ed25519":
+            k = nv.Key.from_pem("x", V["keypairs"][v["keypair_id"]]["private_key_pkcs8_pem"])
+            assert _b64.b64encode(k.private.sign(s.encode())).decode() == v["signature"], v["id"]
+
+
+def test_novig_pricing_helpers():
+    book = {"orders": {"A": [{"price": "0.47", "qty": 900}], "B": [{"price": "0.51", "qty": 5000}]}}
+    assert nv.best_ask(book, "A") == (0.49, 5000)       # buy A = cross best bid on B
+    assert nv.on_grid(0.4912) == "0.495" and nv.on_grid(0.0412) == "0.042" and nv.on_grid(0.9612) == "0.962"
+    assert nv.Key.from_seed("k", "same").public_pem() == nv.Key.from_seed("k", "same").public_pem()
+
+
+class _FakeNovig:
+    def __init__(self, fills):
+        self.placed, self._fills = [], fills
+    def live_money_markets(self, league):
+        return [{"marketId": "m1", "startsTs": int(NOW.timestamp() * 1000) - 2400_000,
+                 "outcomes": [{"outcomeId": "oR", "name": "New York Rangers"},
+                              {"outcomeId": "oB", "name": "Boston Bruins"}]}]
+    def book(self, mid):
+        return {"orders": {"oB": [{"price": "0.48", "qty": 30000}]}}
+    def place(self, outcome, price, qty, tif):
+        self.placed.append((outcome, price, qty, tif)); return {"orderId": "ord1"}
+    def fills_for_order(self, oid):
+        return self._fills
+
+
+def test_copy_to_novig_and_grade(monkeypatch):
+    monkeypatch.setattr("time.sleep", lambda s: None)
+    live = _live()
+    e = {"idx": 0, "fill_price": 0.50, "result": None}
+    fake = _FakeNovig([{"qty": 19231, "cost": "100.00", "fee": "0.75"}])
+    rec = ingame.copy_to_novig(e, live["c1"], fake, {}, LIVE_CFG)
+    assert fake.placed == [("oR", "0.520", 19231, "IOC")]
+    assert rec["status"] == "filled" and rec["avg_price"] == 0.52 and rec["fee"] == 0.75
+    e.update(novig=rec, cid="c1", alerted_at=(NOW - timedelta(hours=2)).isoformat())
+    monkeypatch.setattr(ingame.api, "markets_by_condition",
+                        lambda ids, closed: [{"conditionId": "c1", "outcomePrices": '["1","0"]'}])
+    ingame.grade([e], NOW)
+    assert abs(e["novig"]["pnl"] - (192.31 - 100 - 0.75)) < 0.01
+    m2 = {**live["c1"], "market_type": "child_moneyline"}
+    assert ingame.copy_to_novig(e, m2, fake, {}, LIVE_CFG)["status"] == "skipped"

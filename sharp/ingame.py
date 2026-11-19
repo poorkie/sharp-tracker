@@ -118,6 +118,69 @@ def record(book: list, sigs: list[dict], live: dict, now: datetime, cfg: dict,
     return new
 
 
+def copy_to_novig(e: dict, m: dict, client, cache: dict, cfg: dict) -> dict:
+    """Try to place the same bet on Novig Paper: find the live match-winner
+    market, buy at the best ask with an IOC order ($100 stake), and record
+    what actually filled. Returns the record stored on the pick."""
+    from . import novig as nv
+    from .odds import team_matches
+    rec = {"status": "skipped"}
+    league = nv.LEAGUES.get(m["sport"])
+    if not league or m["market_type"] != "moneyline" or len(m["outcomes"]) != 2:
+        rec["reason"] = "no Novig equivalent (map/game market or unmapped league)"
+        return rec
+    try:
+        if league not in cache:
+            cache[league] = client.live_money_markets(league)
+        pick, other = m["outcomes"][e["idx"]], m["outcomes"][1 - e["idx"]]
+        start = datetime.fromisoformat(m["game_start"]).timestamp() * 1000
+        market = outcome = None
+        for nm in cache[league]:
+            outs = nm.get("outcomes") or []
+            if len(outs) != 2:
+                continue
+            a = next((o for o in outs if team_matches(pick, o["name"])), None)
+            b = next((o for o in outs if o is not a and team_matches(other, o["name"])), None)
+            starts = nm.get("startsTs") or start
+            if a and b and abs(starts - start) <= 4 * 3600 * 1000:
+                market, outcome = nm, a
+                break
+        if not market:
+            rec["reason"] = "game not found live on Novig"
+            return rec
+        rec.update({"market_id": market["marketId"], "outcome": outcome["name"]})
+        ask = nv.best_ask(client.book(market["marketId"]), outcome["outcomeId"])
+        if not ask:
+            rec.update(status="no_liquidity", reason="nothing offered on Novig")
+            return rec
+        price, avail = ask
+        rec.update(ask=price, ask_contracts=avail)
+        band = cfg["ingame"]["price_band"]
+        if not band["min"] <= price <= band["max"]:
+            rec.update(status="skipped", reason="Novig price outside band")
+            return rec
+        stake = cfg["ingame"].get("novig", {}).get("stake_usd", 100)
+        qty = max(1, round(stake * 100 / price))
+        order = client.place(outcome["outcomeId"], nv.on_grid(price), qty, "IOC")
+        rec["order_id"] = order.get("orderId")
+        import time as _t
+        fills = []
+        for _ in range(4):
+            _t.sleep(1.5)
+            fills = client.fills_for_order(rec["order_id"]) or []
+            if fills:
+                break
+        filled = sum(int(f["qty"]) for f in fills)
+        cost = sum(float(f["cost"]) for f in fills)
+        fee = sum(float(f.get("fee") or 0) for f in fills)
+        rec.update(status="filled" if filled >= qty else ("partial" if filled else "no_fill"),
+                   wanted_contracts=qty, filled_contracts=filled, cost=round(cost, 2),
+                   fee=round(fee, 4), avg_price=round(100 * cost / filled, 4) if filled else None)
+    except Exception as ex:
+        rec.update(status="error", reason=str(ex)[:200])
+    return rec
+
+
 def grade(book: list, now: datetime) -> int:
     pending = [e for e in book if e["result"] is None
                and datetime.fromisoformat(e["alerted_at"]) < now - timedelta(minutes=30)]
@@ -144,6 +207,13 @@ def grade(book: list, now: datetime) -> int:
             e["result"], e["pnl_100"] = "LOSS", -100.0
         else:
             e["result"], e["pnl_100"] = "VOID", 0.0
+        nv = e.get("novig") or {}
+        if nv.get("filled_contracts"):
+            payout = nv["filled_contracts"] * 0.01 if e["result"] == "WIN" else \
+                (nv["cost"] if e["result"] == "VOID" else 0.0)
+            pnl = payout - nv["cost"] - nv.get("fee", 0)
+            nv["pnl"] = round(pnl, 2)
+            nv["roi"] = round(pnl / nv["cost"], 4) if nv["cost"] else None
         n += 1
     return n
 
@@ -160,11 +230,31 @@ def summary(rows: list) -> dict:
             "avg_delay_min": round(sum(delays) / len(delays) / 60, 1) if delays else None}
 
 
+def novig_summary(rows: list) -> dict:
+    tried = [r for r in rows if r.get("novig")]
+    filled = [r for r in tried if (r["novig"].get("filled_contracts") or 0) > 0]
+    done = [r for r in filled if r["novig"].get("pnl") is not None]
+    cost = sum(r["novig"]["cost"] for r in done)
+    pnl = sum(r["novig"]["pnl"] for r in done)
+    gaps = [r["novig"]["avg_price"] - r["fill_price"] for r in filled if r["novig"].get("avg_price")]
+    reasons = defaultdict(int)
+    for r in tried:
+        reasons[r["novig"].get("status")] += 1
+    return {"tried": len(tried), "filled": len(filled), "graded": len(done),
+            "w": sum(r["result"] == "WIN" for r in done), "l": sum(r["result"] == "LOSS" for r in done),
+            "staked": round(cost, 2), "pnl": round(pnl, 2), "roi": round(pnl / cost, 4) if cost else 0.0,
+            "fees": round(sum(r["novig"].get("fee", 0) for r in filled), 2),
+            "avg_price_vs_poly": round(sum(gaps) / len(gaps), 4) if gaps else None,
+            "fill_rate": round(sum(r["novig"]["filled_contracts"] for r in filled) /
+                               max(1, sum(r["novig"]["wanted_contracts"] for r in filled)), 3) if filled else None,
+            "statuses": dict(reasons)}
+
+
 def site_data(book: list) -> dict:
     by_sport = defaultdict(list)
     for e in book:
         by_sport[e["sport"]].append(e)
-    return {"record": summary(book),
+    return {"record": summary(book), "novig": novig_summary(book),
             "by_sport": {k: summary(v) for k, v in sorted(by_sport.items())},
             "picks": sorted(book, key=lambda e: e["alerted_at"], reverse=True)[:300]}
 

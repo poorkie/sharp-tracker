@@ -144,6 +144,12 @@ ingame:
   # after ~10 min; scans run every ~10 min).
   max_delay_minutes: 15
   price_band: { min: 0.05, max: 0.95 }
+  # Also place each in-game pick as a real order on Novig's PAPER exchange
+  # (play money): IOC at the best ask, $100 stake, recording what actually
+  # fills and the fee. Match-winner markets only (Novig has no map markets).
+  novig:
+    enabled: true
+    stake_usd: 100
 
 # ---- 15-minute lock --------------------------------------------
 lock:

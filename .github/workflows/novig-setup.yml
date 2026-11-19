@@ -1,0 +1,37 @@
+name: novig-setup
+
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: ["novig_setup.py", ".github/workflows/novig-setup.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Set up Novig Paper subaccount
+        env:
+          NOVIG_HOST: https://api.paper.novig.com
+          NOVIG_MGMT_KEY_ID: ${{ secrets.NOVIG_MGMT_KEY_ID }}
+          NOVIG_MGMT_PEM: ${{ secrets.NOVIG_MGMT_PEM }}
+          NOVIG_TRADING_SEED: ${{ secrets.NOVIG_TRADING_SEED }}
+        run: python novig_setup.py
+      - name: Save report and public key ID
+        if: always()
+        run: |
+          git config user.name "sharp-tracker-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add NOVIG_SETUP.md state/novig.json 2>/dev/null || true
+          git commit -m "Novig setup report" || exit 0
+          for i in 1 2 3; do git pull --rebase -X theirs -q && git push && exit 0; sleep 5; done

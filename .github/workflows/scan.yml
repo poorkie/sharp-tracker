@@ -37,6 +37,7 @@ jobs:
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
+          NOVIG_TRADING_SEED: ${{ secrets.NOVIG_TRADING_SEED }}
         run: python run.py
       - name: Save state
         run: |
