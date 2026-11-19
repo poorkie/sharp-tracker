@@ -70,5 +70,29 @@
   "result": null,
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-frogli-huliga-2026-11-19"
+ },
+ {
+  "alerted_at": "2026-11-19T15:30:26.819875+00:00",
+  "cid": "0x75b61de9fee27e39a9312935a588d142257fd71566539fa9f3c0f9af3d33c302",
+  "delay_s": 153,
+  "elite_n": 466,
+  "elite_price": 0.38,
+  "elite_roi": 0.5658,
+  "elite_ts": "2026-11-19T15:27:53+00:00",
+  "elite_usd": 951.59,
+  "elite_wallets": [
+   "0x9c76cdb43fb46454da005fbc82047a64a18ec926"
+  ],
+  "event_title": "Metz: Luca Nardi vs Kyrian Jacquet",
+  "fill_price": 0.47,
+  "fill_usd_available": 32.81,
+  "id": "0x75b61de9-0-1795102226",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Luca Nardi",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-nardi-jacquet-2026-11-19"
  }
 ]
