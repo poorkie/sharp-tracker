@@ -1,0 +1,37 @@
+name: fetch-docs
+
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: [".github/workflows/fetch-docs.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download Novig API docs (public pages)
+        run: |
+          mkdir -p vendor-docs/novig
+          cd vendor-docs/novig
+          base=https://docs.novig.com
+          curl -sSfL "$base/llms.txt" -o llms.txt || true
+          curl -sSfL "$base/api-reference/spec-files/openapi-v3.json" -o openapi-v3.json || true
+          for p in api/concepts/account-model api/api-keys api/signing api/quickstart \
+                   api/subaccounts/manage api/execution/orders api/catalog \
+                   api/streaming/private api/environments; do
+            f=$(echo "$p" | tr '/' '_')
+            curl -sSfL "$base/$p.md" -o "$f.md" || curl -sSfL "$base/$p" -o "$f.html" || true
+          done
+          ls -la
+      - name: Save
+        run: |
+          git config user.name "sharp-tracker-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add vendor-docs
+          git commit -m "Fetch Novig API docs" || exit 0
+          for i in 1 2 3; do git pull --rebase -X theirs -q && git push && exit 0; sleep 5; done
