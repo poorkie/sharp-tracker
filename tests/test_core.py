@@ -441,3 +441,10 @@ def test_map_winner_label():
     from sharp.markets import pick_label
     m = {"question": "LoL: T1 vs Gen.G - Game 2 Winner", "market_type": "child_moneyline", "outcomes": ["T1", "Gen.G"]}
     assert pick_label(m, 0) == "T1 (Map 2)"
+
+
+def test_ingame_keeps_latest_separate_bet():
+    g = {"e": grade("ELITE")}
+    trades = [_t("e", "BUY", 300, min_ago=12), _t("e", "BUY", 500, min_ago=3)]   # 9 min apart
+    sigs = ingame.detect(trades, _live(), g, {}, [], NOW, LIVE_CFG)
+    assert len(sigs) == 1 and abs(sigs[0]["usd"] - 500) < 1e-6

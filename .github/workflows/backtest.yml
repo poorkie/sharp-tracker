@@ -8,7 +8,7 @@ on:
         default: "2026-09-01"
   push:
     branches: [main]
-    paths: ["backtest.py", "props.py", "sports_check.py", "rules_test.py", "edge.py", "copydelay.py", ".github/workflows/backtest.yml"]
+    paths: ["backtest.py", "props.py", "sports_check.py", "rules_test.py", "edge.py", "copydelay.py", "early.py", ".github/workflows/backtest.yml"]
 
 permissions:
   contents: write
@@ -34,19 +34,22 @@ jobs:
         id: which
         run: |
           changed=$(git diff --name-only HEAD~1 HEAD 2>/dev/null || true)
-          if echo "$changed" | grep -q '^copydelay.py$'; then s=copydelay.py
+          if echo "$changed" | grep -q '^early.py$'; then s="early.py --cutoff 2026-08-01 --end 2026-11-16"
+          elif echo "$changed" | grep -q '^copydelay.py$'; then s=copydelay.py
           elif echo "$changed" | grep -q '^edge.py$'; then s=edge.py
           elif echo "$changed" | grep -q '^rules_test.py$'; then s=rules_test.py
           elif echo "$changed" | grep -q '^sports_check.py$'; then s=sports_check.py
           elif echo "$changed" | grep -q '^props.py$'; then s=props.py
           else s=backtest.py; fi
           echo "script=$s" >> $GITHUB_OUTPUT
-      - run: python ${{ steps.which.outputs.script }} --cutoff "${{ github.event.inputs.cutoff || '2026-09-01' }}"
+      - run: |
+          s="${{ steps.which.outputs.script }}"
+          case "$s" in *--cutoff*) python $s ;; *) python $s --cutoff "${{ github.event.inputs.cutoff || '2026-09-01' }}" ;; esac
       - name: Save results
         run: |
           git config user.name "sharp-tracker-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add BACKTEST.md docs/backtest.json PROPS.md docs/props.json SPORTS.md docs/sports_check.json RULES.md docs/rules_test.json EDGE.md COPYDELAY.md 2>/dev/null || true
+          git add BACKTEST.md docs/backtest.json PROPS.md docs/props.json SPORTS.md docs/sports_check.json RULES.md docs/rules_test.json EDGE.md COPYDELAY.md EARLY.md 2>/dev/null || true
           git commit -m "backtest results" || exit 0
           for i in 1 2 3 4 5; do
             git pull --rebase -X theirs --quiet && git push && exit 0

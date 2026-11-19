@@ -60,7 +60,7 @@ def detect(trades: list[dict], live: dict, grades: dict, entity: dict,
             cur["usd"] += size * price
             cur["shares"] += size
             cur["ts_last"] = ts
-        elif not cur:
+        else:  # first bet, or a separate later bet: keep the most recent one
             groups[key] = {"w": w, "cid": cid, "idx": idx, "ts_first": ts, "ts_last": ts,
                            "usd": size * price, "shares": size, "grade": g}
     out = []
