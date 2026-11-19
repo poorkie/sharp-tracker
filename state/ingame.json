@@ -22,5 +22,29 @@
   "result": null,
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-angryb-all2-2026-11-19"
+ },
+ {
+  "alerted_at": "2026-11-19T14:30:21.966559+00:00",
+  "cid": "0x0ac576fa351d7a5d95c906eb2cad2f66e96f5cb6b6452d80ab62964602109a6f",
+  "delay_s": 277,
+  "elite_n": 1462,
+  "elite_price": 0.31,
+  "elite_roi": 0.0981,
+  "elite_ts": "2026-11-19T14:25:44+00:00",
+  "elite_usd": 248.0,
+  "elite_wallets": [
+   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1"
+  ],
+  "event_title": "Dota 2: Froglings vs HULIGANI (BO3) - DreamLeague Division 2 Playoffs",
+  "fill_price": 0.91,
+  "fill_usd_available": 56.84,
+  "id": "0x0ac576fa-0-1795098621",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "Froglings (Map 1)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-frogli-huliga-2026-11-19"
  }
 ]
