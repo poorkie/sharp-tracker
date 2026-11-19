@@ -3208,6 +3208,14 @@
   "game_start": "2026-11-19T00:30:00+00:00",
   "id": "0xf082f47a-1-1795023617",
   "kind": "ELITE",
+  "lock": {
+   "at": "2026-11-19T00:19:00.712905+00:00",
+   "late": false,
+   "price": 0.615,
+   "reason": "Elite still in",
+   "rule": 2,
+   "verdict": "PLAY"
+  },
   "market_type": "moneyline",
   "max_prob": 0.6976,
   "n_wallets": 3,
@@ -3232,6 +3240,14 @@
   "game_start": "2026-11-19T00:30:00+00:00",
   "id": "0x0eb6dd17-0-1795023617",
   "kind": "ELITE",
+  "lock": {
+   "at": "2026-11-19T00:19:00.712905+00:00",
+   "late": false,
+   "price": 0.415,
+   "reason": "Elite still in",
+   "rule": 2,
+   "verdict": "PLAY"
+  },
   "market_type": "spreads",
   "max_prob": 0.5027,
   "n_wallets": 2,
