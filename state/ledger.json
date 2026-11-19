@@ -3270,5 +3270,75 @@
   "sharp_usd": 7036.51,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-was-tor-2026-11-18"
+ },
+ {
+  "alerted_at": "2026-11-19T18:20:19.020302+00:00",
+  "book_fair": 0.8448,
+  "books": [
+   {
+    "book": "DraftKings",
+    "price": -690,
+    "prob": 0.8734
+   },
+   {
+    "book": "BetMGM",
+    "price": -700,
+    "prob": 0.875
+   },
+   {
+    "book": "FanDuel",
+    "price": -720,
+    "prob": 0.878
+   },
+   {
+    "book": "Bovada",
+    "price": -725,
+    "prob": 0.8788
+   },
+   {
+    "book": "BetUS",
+    "price": -735,
+    "prob": 0.8802
+   },
+   {
+    "book": "BetOnline.ag",
+    "price": -735,
+    "prob": 0.8802
+   },
+   {
+    "book": "LowVig.ag",
+    "price": -735,
+    "prob": 0.8802
+   },
+   {
+    "book": "MyBookie.ag",
+    "price": -750,
+    "prob": 0.8824
+   },
+   {
+    "book": "BetRivers",
+    "price": -770,
+    "prob": 0.8851
+   }
+  ],
+  "close_price": 0.845,
+  "clv": null,
+  "condition_id": "0x8fea0f418f6acf73de54f3652e4a7c9644e6d2c13819ad3fef90e6ea74270587",
+  "entry_price": 0.845,
+  "event_title": "Colts vs. Texans",
+  "game_start": "2026-11-20T01:15:00+00:00",
+  "id": "0x8fea0f41-1-1795112419",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "moneyline",
+  "max_prob": 0.859,
+  "n_wallets": 3,
+  "outcome": "Texans",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Colts vs. Texans",
+  "result": null,
+  "sharp_usd": 7469.13,
+  "sport": "nfl",
+  "url": "https://polymarket.com/event/nfl-ind-hou-2026-11-20"
  }
 ]
