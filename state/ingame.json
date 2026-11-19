@@ -215,5 +215,29 @@
   "result": null,
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-ch1-frogli-2026-11-19"
+ },
+ {
+  "alerted_at": "2026-11-19T20:50:28.972848+00:00",
+  "cid": "0xe316ba6ac2020447df9ab6cc754474c97fe8cecc9bbabf3d651aea9cb0837d4a",
+  "delay_s": 278,
+  "elite_n": 1968,
+  "elite_price": 0.8065,
+  "elite_roi": 0.0728,
+  "elite_ts": "2026-11-19T20:45:50+00:00",
+  "elite_usd": 1681.48,
+  "elite_wallets": [
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a"
+  ],
+  "event_title": "Dota 2: PuckChamp vs potn9ki (BO3) - European Pro League Group B",
+  "fill_price": 0.72,
+  "fill_usd_available": 192.96,
+  "id": "0xe316ba6a-0-1795121428",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "PuckChamp (Map 2)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-pckcp-p-2026-11-19"
  }
 ]
