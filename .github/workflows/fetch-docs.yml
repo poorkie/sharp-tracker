@@ -23,6 +23,7 @@ jobs:
           base=https://docs.novig.com
           curl -sSfL "$base/llms.txt" -o llms.txt || true
           curl -sSfL "$base/api-reference/spec-files/openapi-v3.json" -o openapi-v3.json || true
+          curl -sSfL "$base/api-reference/spec-files/signing-vectors.json" -o signing-vectors.json || true
           for p in api/concepts/account-model api/api-keys api/signing api/quickstart \
                    api/subaccounts/manage api/execution/orders api/catalog \
                    api/streaming/private api/environments; do
