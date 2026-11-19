@@ -3148,6 +3148,14 @@
   "game_start": "2026-11-19T01:00:00+00:00",
   "id": "0x7198b1b5-0-1795016420",
   "kind": "ELITE",
+  "lock": {
+   "at": "2026-11-19T00:50:17.044770+00:00",
+   "late": false,
+   "price": 0.525,
+   "reason": "Elite still in",
+   "rule": 2,
+   "verdict": "PLAY"
+  },
   "market_type": "totals",
   "max_prob": 0.58,
   "n_wallets": 1,
