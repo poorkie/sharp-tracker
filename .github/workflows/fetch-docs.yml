@@ -5,6 +5,8 @@ on:
   push:
     branches: [main]
     paths: [".github/workflows/fetch-docs.yml"]
+  schedule:
+    - cron: "17 */3 * * *"   # refresh the public catalog snapshot every 3 hours
 
 permissions:
   contents: write
@@ -28,10 +30,24 @@ jobs:
             curl -sSfL "$base/$p.md" -o "$f.md" || curl -sSfL "$base/$p" -o "$f.html" || true
           done
           ls -la
+      - name: Snapshot Novig public catalog (no key needed)
+        run: |
+          mkdir -p vendor-docs/novig/public
+          cd vendor-docs/novig/public
+          for host in https://api.novig.com https://api.paper.novig.com; do
+            tag=$(echo $host | sed 's#https://##; s#\.novig\.com##; s#\.#-#g')
+            for p in types/leagues types/sports types/markets types/markets/live types/event-statuses; do
+              f="$tag-$(echo $p | tr '/' '_').json"
+              curl -sS -m 30 "$host/v3/public/$p" -o "$f" -w "$f %{http_code}\n" || true
+            done
+            curl -sS -m 60 "$host/v3/public/catalog/events?limit=1000" -o "$tag-events.json" -w "events %{http_code}\n" || true
+            curl -sS -m 60 "$host/v3/public/catalog/markets?limit=2000" -o "$tag-markets.json" -w "markets %{http_code}\n" || true
+          done
+          ls -la
       - name: Save
         run: |
           git config user.name "sharp-tracker-bot"
           git config user.email "actions@users.noreply.github.com"
           git add vendor-docs
-          git commit -m "Fetch Novig API docs" || exit 0
+          git commit -m "Fetch Novig API docs + public catalog" || exit 0
           for i in 1 2 3; do git pull --rebase -X theirs -q && git push && exit 0; sleep 5; done
