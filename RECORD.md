@@ -1,17 +1,17 @@
 # Sharp Tracker: graded record
 
-Updated 2026-11-19 03:50 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
+Updated 2026-11-19 04:00 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
 
 ## Overall
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
-| All alerts | 35-39 | -9.13u | -12.3% | +0.1¢ | 35% | 1 |
+| All alerts | 35-40 | -10.13u | -13.5% | +0.1¢ | 35% | 0 |
 
 ## By signal
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
 | CONSENSUS | 5-5 | -1.90u | -19.0% | +0.4¢ | 30% | 0 |
-| ELITE | 9-11 | -4.00u | -20.0% | -0.5¢ | 30% | 1 |
+| ELITE | 9-12 | -5.00u | -23.8% | -0.6¢ | 29% | 0 |
 | ELITE_CONSENSUS | 21-23 | -3.22u | -7.3% | +0.3¢ | 39% | 0 |
 
 ## By sport
@@ -20,7 +20,7 @@ Updated 2026-11-19 03:50 UTC. Every alert is logged at the price when it fired a
 | ATP | 2-0 | +1.94u | +97.0% | +1.8¢ | 50% | 0 |
 | CFB | 1-0 | +1.60u | +159.7% | +4.0¢ | 100% | 0 |
 | LOL | 1-0 | +1.67u | +166.7% | +1.0¢ | 100% | 0 |
-| NBA | 17-18 | -4.20u | -12.0% | +0.1¢ | 43% | 1 |
+| NBA | 17-19 | -5.20u | -14.4% | +0.0¢ | 42% | 0 |
 | NFL | 12-14 | -5.61u | -21.6% | -0.4¢ | 19% | 0 |
 | NHL | 1-7 | -6.06u | -75.7% | +0.4¢ | 38% | 0 |
 | WTA | 1-0 | +1.53u | +153.2% | +0.0¢ | 0% | 0 |
@@ -30,7 +30,7 @@ Updated 2026-11-19 03:50 UTC. Every alert is logged at the price when it fired a
 |---|---|---|---|---|---|---|---|
 | 2026-11-18 17:40 | NBA | [Raptors: Wizards vs. Raptors](https://polymarket.com/event/nba-was-tor-2026-11-18) | 0.69 | 0.61 | 68% | 3 / $9,369 | LOSS (-100) |
 | 2026-11-18 17:40 | NBA | [Raptors -6.5: Wizards vs. Raptors](https://polymarket.com/event/nba-was-tor-2026-11-18) | 0.49 | 0.41 | – | 2 / $7,037 | LOSS (-100) |
-| 2026-11-18 15:40 | NBA | [Over 222.5: Warriors vs. Mavericks](https://polymarket.com/event/nba-gsw-dal-2026-11-18) | 0.56 | 0.53 | – | 1 / $5,433 | pending |
+| 2026-11-18 15:40 | NBA | [Over 222.5: Warriors vs. Mavericks](https://polymarket.com/event/nba-gsw-dal-2026-11-18) | 0.56 | 0.53 | – | 1 / $5,433 | LOSS (-100) |
 | 2026-11-18 06:30 | ATP | [Svyatoslav Gulin: Helsinki: Lorenzo Giustino vs Svyatoslav Gulin](https://polymarket.com/event/atp-giustin-gulin-2026-11-18) | 0.51 | 0.56 | – | 4 / $3,571 | WIN (+96) |
 | 2026-11-18 03:40 | NBA | [Lakers -4.5: Hornets vs. Lakers](https://polymarket.com/event/nba-cha-lal-2026-11-17) | 0.58 | 0.59 | – | 1 / $5,742 | LOSS (-100) |
 | 2026-11-18 02:30 | NBA | [Under 220.5: Hornets vs. Lakers](https://polymarket.com/event/nba-cha-lal-2026-11-17) | 0.47 | 0.49 | – | 2 / $2,290 | LOSS (-100) |
