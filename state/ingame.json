@@ -288,5 +288,29 @@
   "result": null,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-gsw-mem-2026-11-19"
+ },
+ {
+  "alerted_at": "2026-11-20T02:40:20.699984+00:00",
+  "cid": "0xa2e36e8bcbfb990c2877acdb33cfb76e3e27f700c60fd5222a7e1d22c5b854fe",
+  "delay_s": 70,
+  "elite_n": 177,
+  "elite_price": 0.27,
+  "elite_roi": 0.3759,
+  "elite_ts": "2026-11-20T02:39:10+00:00",
+  "elite_usd": 642.02,
+  "elite_wallets": [
+   "0x2942bd170881f23e12d9b13c6ee5cad42e1b59ab"
+  ],
+  "event_title": "Clippers vs. Spurs",
+  "fill_price": 0.302,
+  "fill_usd_available": 302.0,
+  "id": "0xa2e36e8b-0-1795142420",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Clippers",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-lac-sas-2026-11-19"
  }
 ]
