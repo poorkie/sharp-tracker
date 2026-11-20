@@ -561,5 +561,29 @@
   "result": null,
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-gl-xtreme-2026-11-20"
+ },
+ {
+  "alerted_at": "2026-11-20T15:20:29.212337+00:00",
+  "cid": "0xaa06aa2dea36959d6c75ca409500007f72d524a002e5d7285f05c2192ceffaa4",
+  "delay_s": 502,
+  "elite_n": 716,
+  "elite_price": 0.4995,
+  "elite_roi": 0.2284,
+  "elite_ts": "2026-11-20T15:12:07+00:00",
+  "elite_usd": 2154.29,
+  "elite_wallets": [
+   "0x3231d2d67053e5dc3715f6429124741e52866e75"
+  ],
+  "event_title": "Dota 2: Inner Circle vs CyberHero (BO5) - DreamLeague Division 2 Playoffs",
+  "fill_price": 0.55,
+  "fill_usd_available": 204.34,
+  "id": "0xaa06aa2d-0-1795188029",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "Inner Circle (Map 1)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-ic-ch1-2026-11-20"
  }
 ]
