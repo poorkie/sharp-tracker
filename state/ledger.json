@@ -3322,7 +3322,7 @@
    }
   ],
   "close_price": 0.845,
-  "clv": null,
+  "clv": 0.0,
   "condition_id": "0x8fea0f418f6acf73de54f3652e4a7c9644e6d2c13819ad3fef90e6ea74270587",
   "entry_price": 0.845,
   "event_title": "Colts vs. Texans",
@@ -3332,6 +3332,7 @@
   "lock": {
    "at": "2026-11-20T01:00:22.695536+00:00",
    "late": false,
+   "pnl_100": 18.34,
    "price": 0.845,
    "reason": "Elite still in",
    "rule": 2,
@@ -3342,9 +3343,9 @@
   "n_wallets": 3,
   "outcome": "Texans",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": 18.34,
   "question": "Colts vs. Texans",
-  "result": null,
+  "result": "WIN",
   "sharp_usd": 7469.13,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-ind-hou-2026-11-20"

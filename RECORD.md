@@ -1,18 +1,18 @@
 # Sharp Tracker: graded record
 
-Updated 2026-11-20 04:20 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
+Updated 2026-11-20 04:30 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
 
 ## Overall
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
-| All alerts | 35-41 | -11.13u | -14.6% | +0.1¢ | 36% | 1 |
+| All alerts | 36-41 | -10.95u | -14.2% | +0.1¢ | 35% | 0 |
 
 ## By signal
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
 | CONSENSUS | 5-5 | -1.90u | -19.0% | +0.4¢ | 30% | 0 |
 | ELITE | 9-12 | -5.00u | -23.8% | -0.6¢ | 29% | 0 |
-| ELITE_CONSENSUS | 21-24 | -4.22u | -9.4% | +0.3¢ | 40% | 1 |
+| ELITE_CONSENSUS | 22-24 | -4.04u | -8.8% | +0.3¢ | 39% | 0 |
 
 ## By sport
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
@@ -21,7 +21,7 @@ Updated 2026-11-20 04:20 UTC. Every alert is logged at the price when it fired a
 | CFB | 1-0 | +1.60u | +159.7% | +4.0¢ | 100% | 0 |
 | LOL | 1-0 | +1.67u | +166.7% | +1.0¢ | 100% | 0 |
 | NBA | 17-20 | -6.20u | -16.8% | +0.1¢ | 43% | 0 |
-| NFL | 12-14 | -5.61u | -21.6% | -0.4¢ | 19% | 1 |
+| NFL | 13-14 | -5.43u | -20.1% | -0.3¢ | 18% | 0 |
 | NHL | 1-7 | -6.06u | -75.7% | +0.4¢ | 38% | 0 |
 | WTA | 1-0 | +1.53u | +153.2% | +0.0¢ | 0% | 0 |
 
@@ -29,7 +29,7 @@ Updated 2026-11-20 04:20 UTC. Every alert is logged at the price when it fired a
 | Alerted (UTC) | Sport | Pick | Entry | Close | Books fair | Sharps | Result |
 |---|---|---|---|---|---|---|---|
 | 2026-11-19 21:08 | NBA | [Under 225.5: Clippers vs. Spurs](https://polymarket.com/event/nba-lac-sas-2026-11-19) | 0.53 | 0.54 | – | 4 / $2,616 | LOSS (-100) |
-| 2026-11-19 18:20 | NFL | [Texans: Colts vs. Texans](https://polymarket.com/event/nfl-ind-hou-2026-11-20) | 0.84 | 0.84 | 84% | 3 / $7,469 | pending |
+| 2026-11-19 18:20 | NFL | [Texans: Colts vs. Texans](https://polymarket.com/event/nfl-ind-hou-2026-11-20) | 0.84 | 0.84 | 84% | 3 / $7,469 | WIN (+18) |
 | 2026-11-18 17:40 | NBA | [Raptors: Wizards vs. Raptors](https://polymarket.com/event/nba-was-tor-2026-11-18) | 0.69 | 0.61 | 68% | 3 / $9,369 | LOSS (-100) |
 | 2026-11-18 17:40 | NBA | [Raptors -6.5: Wizards vs. Raptors](https://polymarket.com/event/nba-was-tor-2026-11-18) | 0.49 | 0.41 | – | 2 / $7,037 | LOSS (-100) |
 | 2026-11-18 15:40 | NBA | [Over 222.5: Warriors vs. Mavericks](https://polymarket.com/event/nba-gsw-dal-2026-11-18) | 0.56 | 0.53 | – | 1 / $5,433 | LOSS (-100) |
