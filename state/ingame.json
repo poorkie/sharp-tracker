@@ -386,5 +386,54 @@
   "result": null,
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-ts8-nem-2026-11-20"
+ },
+ {
+  "alerted_at": "2026-11-20T12:30:24.034539+00:00",
+  "cid": "0xe32b4073ea2e352e42e5621ef358d26a17aef410152832a1efc4a31b85e35cc0",
+  "delay_s": 188,
+  "elite_n": 716,
+  "elite_price": 0.7356,
+  "elite_roi": 0.2284,
+  "elite_ts": "2026-11-20T12:27:16+00:00",
+  "elite_usd": 2614.95,
+  "elite_wallets": [
+   "0x3231d2d67053e5dc3715f6429124741e52866e75"
+  ],
+  "event_title": "Dota 2: Inner Circle vs Team Allied (BO3) - European Pro League Group A",
+  "fill_price": 0.79,
+  "fill_usd_available": 239.36,
+  "id": "0xe32b4073-0-1795177824",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Inner Circle",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-ic-all2-2026-11-13"
+ },
+ {
+  "alerted_at": "2026-11-20T12:30:24.034539+00:00",
+  "cid": "0xd55fe92d7d4648c39cae58767d8a5f238d19ec6fdcd568b7d03189d85713c89c",
+  "delay_s": 23,
+  "elite_n": 716,
+  "elite_price": 0.88,
+  "elite_roi": 0.2284,
+  "elite_ts": "2026-11-20T12:30:01+00:00",
+  "elite_usd": 16917.42,
+  "elite_wallets": [
+   "0x3231d2d67053e5dc3715f6429124741e52866e75",
+   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1"
+  ],
+  "event_title": "Dota 2: Team Yandex vs PlayTime (BO3) - BLAST Slam Group A",
+  "fill_price": 0.88,
+  "fill_usd_available": 511.28,
+  "id": "0xd55fe92d-0-1795177824",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "Team Yandex (Map 2)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-ty-playti-2026-11-20"
  }
 ]
