@@ -654,8 +654,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "Team Liquid",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 49.25,
+  "result": "WIN",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-liquid-konca-2026-11-20"
  },
@@ -756,8 +756,8 @@
   "idx": 0,
   "market_type": "child_moneyline",
   "pick": "Team Liquid (Map 2)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 61.29,
+  "result": "WIN",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-liquid-konca-2026-11-20"
  },
@@ -784,5 +784,29 @@
   "result": null,
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-4iki-all2-2026-11-20"
+ },
+ {
+  "alerted_at": "2026-11-20T19:30:21.203384+00:00",
+  "cid": "0xbf4c47001965c14e22d107678fc7b2ecd55c47029099a6d607bf6a79dfb20b37",
+  "delay_s": 407,
+  "elite_n": 716,
+  "elite_price": 0.5,
+  "elite_roi": 0.2284,
+  "elite_ts": "2026-11-20T19:23:34+00:00",
+  "elite_usd": 317.33,
+  "elite_wallets": [
+   "0x3231d2d67053e5dc3715f6429124741e52866e75"
+  ],
+  "event_title": "Dota 2: Inner Circle vs CyberHero (BO5) - DreamLeague Division 2 Playoffs",
+  "fill_price": 0.58,
+  "fill_usd_available": 214.6,
+  "id": "0xbf4c4700-0-1795203021",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Inner Circle",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-ic-ch1-2026-11-20"
  }
 ]
