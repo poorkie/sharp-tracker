@@ -85,14 +85,15 @@ def positions(user: str, status: str, max_rows: int) -> list[dict]:
 
 
 def trades_for_conditions(condition_ids: list[str], min_usd: float,
-                          since_ts: int, max_rows: int = 3000) -> list[dict]:
+                          since_ts: int, max_rows: int = 3000,
+                          taker_only: bool = False) -> list[dict]:
     """Trades on up to N markets, newest first, stopping at since_ts.
     Includes maker fills so limit-order sharps aren't missed."""
     out: list[dict] = []
     for i in range(0, len(condition_ids), 20):
         chunk = condition_ids[i:i + 20]
         for row in _paged("/trades", {
-            "condition": ",".join(chunk), "taker_only": "false",
+            "condition": ",".join(chunk), "taker_only": "true" if taker_only else "false",
             "filter_type": "CASH", "filter_amount": min_usd,
         }, max_rows):
             if int(row.get("timestamp", 0)) < since_ts:
