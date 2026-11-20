@@ -70,8 +70,22 @@
   }
  },
  "0x002f80826bbd74ce2b1dd78f402593c59af68b13": {
-  "graded_at": "2026-11-13T12:40:18.642633+00:00",
-  "grades": {}
+  "graded_at": "2026-11-20T12:40:22.671500+00:00",
+  "grades": {
+   "lol": {
+    "avg_price": 0.462,
+    "hit_edge": 0.538,
+    "hit_rate": 1.0,
+    "n": 1,
+    "pnl": 1613.71,
+    "roi": 0.1701,
+    "shrunk_roi": -0.0251,
+    "sport": "lol",
+    "staked": 9488.37,
+    "t_stat": 0.0,
+    "tier": "NONE"
+   }
+  }
  },
  "0x003b310258262931f1ee054b161307eb492dace5": {
   "fp": [
@@ -13737,8 +13751,35 @@
   }
  },
  "0x0c734234adbd52258ce83f3ba3bb2ce9d8789f45": {
-  "graded_at": "2026-11-13T12:40:18.642633+00:00",
-  "grades": {}
+  "graded_at": "2026-11-20T12:40:22.671500+00:00",
+  "grades": {
+   "nba": {
+    "avg_price": 0.652,
+    "hit_edge": 0.071,
+    "hit_rate": 0.722,
+    "n": 18,
+    "pnl": 5874.87,
+    "roi": 0.2226,
+    "shrunk_roi": 0.0484,
+    "sport": "nba",
+    "staked": 26388.43,
+    "t_stat": 1.52,
+    "tier": "NONE"
+   },
+   "nhl": {
+    "avg_price": 0.974,
+    "hit_edge": 0.026,
+    "hit_rate": 1.0,
+    "n": 1,
+    "pnl": 127.6,
+    "roi": 0.0262,
+    "shrunk_roi": -0.0286,
+    "sport": "nhl",
+    "staked": 4872.0,
+    "t_stat": 0.0,
+    "tier": "NONE"
+   }
+  }
  },
  "0x0c84d454825e9f42619497f6158b4753cd43a8ed": {
   "graded_at": "2026-11-17T00:20:15.033010+00:00",
@@ -128655,19 +128696,19 @@
   }
  },
  "0x747cd6e935a57e25c4590bbfbea308751063443b": {
-  "graded_at": "2026-11-13T12:40:18.642633+00:00",
+  "graded_at": "2026-11-20T12:40:22.671500+00:00",
   "grades": {
    "atp": {
-    "avg_price": 0.815,
-    "hit_edge": -0.083,
-    "hit_rate": 0.732,
-    "n": 41,
-    "pnl": -576.47,
-    "roi": -0.0142,
-    "shrunk_roi": -0.022,
+    "avg_price": 0.805,
+    "hit_edge": -0.055,
+    "hit_rate": 0.75,
+    "n": 48,
+    "pnl": -224.52,
+    "roi": -0.0048,
+    "shrunk_roi": -0.0163,
     "sport": "atp",
-    "staked": 40651.4,
-    "t_stat": -0.27,
+    "staked": 46681.04,
+    "t_stat": -0.02,
     "tier": "NONE"
    },
    "epl": {
