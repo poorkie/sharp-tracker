@@ -362,5 +362,29 @@
   "result": null,
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-ch1-angryb-2026-11-20"
+ },
+ {
+  "alerted_at": "2026-11-20T11:10:19.515427+00:00",
+  "cid": "0xfbea5f0c77b6bc68a62f42dd2a36d4c77cfb7b1c56bea114cf38dfd751dfc18b",
+  "delay_s": -63,
+  "elite_n": 2039,
+  "elite_price": 0.8518,
+  "elite_roi": 0.0709,
+  "elite_ts": "2026-11-20T11:11:22+00:00",
+  "elite_usd": 7083.31,
+  "elite_wallets": [
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a"
+  ],
+  "event_title": "Dota 2: Team Spirit vs Team Nemesis (BO3) - BLAST Slam Group B",
+  "fill_price": 0.87,
+  "fill_usd_available": 197.37,
+  "id": "0xfbea5f0c-0-1795173019",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "Team Spirit (Map 1)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-ts8-nem-2026-11-20"
  }
 ]
