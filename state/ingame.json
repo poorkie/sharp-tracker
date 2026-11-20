@@ -263,5 +263,29 @@
   "result": null,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-nyk-min-2026-11-19"
+ },
+ {
+  "alerted_at": "2026-11-20T01:50:18.983930+00:00",
+  "cid": "0xa6319871e39acdb207eceb1962f360b7010cff612222ca1b23456ae43260f4ae",
+  "delay_s": -38,
+  "elite_n": 222,
+  "elite_price": 0.88,
+  "elite_roi": 0.1155,
+  "elite_ts": "2026-11-20T01:50:56+00:00",
+  "elite_usd": 420.23,
+  "elite_wallets": [
+   "0x6db568e61e5e3de7d87f831431b673f38ce2e279"
+  ],
+  "event_title": "Warriors vs. Grizzlies",
+  "fill_price": 0.9,
+  "fill_usd_available": 11177.95,
+  "id": "0xa6319871-1-1795139418",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Grizzlies",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-gsw-mem-2026-11-19"
  }
 ]
