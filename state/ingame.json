@@ -483,8 +483,8 @@
   "idx": 0,
   "market_type": "child_moneyline",
   "pick": "Natus Vincere (Map 1)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 122.22,
+  "result": "WIN",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-navi-og-2026-11-20"
  },
@@ -511,5 +511,30 @@
   "result": null,
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-gl-xtreme-2026-11-20"
+ },
+ {
+  "alerted_at": "2026-11-20T14:50:22.930566+00:00",
+  "cid": "0x0ef8105ca15cbea55715f06e90b65dddda3ffd192f078226233dd78e27b29e84",
+  "delay_s": 498,
+  "elite_n": 716,
+  "elite_price": 0.6,
+  "elite_roi": 0.2284,
+  "elite_ts": "2026-11-20T14:42:04+00:00",
+  "elite_usd": 19379.65,
+  "elite_wallets": [
+   "0x3231d2d67053e5dc3715f6429124741e52866e75",
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a"
+  ],
+  "event_title": "Dota 2: Natus Vincere vs OG (BO3) - BLAST Slam Group A",
+  "fill_price": 0.34,
+  "fill_usd_available": 1079.38,
+  "id": "0x0ef8105c-0-1795186222",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "Natus Vincere (Map 2)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-navi-og-2026-11-20"
  }
 ]
