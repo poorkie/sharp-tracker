@@ -3354,7 +3354,7 @@
   "book_fair": null,
   "books": [],
   "close_price": 0.535,
-  "clv": null,
+  "clv": 0.01,
   "condition_id": "0x2979579b00714298bfd3b7e46da228feedfae4ba60c2bb4b60ae31100918f7e9",
   "entry_price": 0.525,
   "event_title": "Clippers vs. Spurs",
@@ -3364,6 +3364,7 @@
   "lock": {
    "at": "2026-11-20T00:50:18.729938+00:00",
    "late": false,
+   "pnl_100": -100.0,
    "price": 0.535,
    "reason": "Elite still in; market moved their way",
    "rule": 2,
@@ -3374,9 +3375,9 @@
   "n_wallets": 4,
   "outcome": "Under 225.5",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": -100.0,
   "question": "Clippers vs. Spurs: O/U 225.5",
-  "result": null,
+  "result": "LOSS",
   "sharp_usd": 2616.15,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-lac-sas-2026-11-19"
