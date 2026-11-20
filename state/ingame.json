@@ -338,5 +338,29 @@
   "result": "WIN",
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-por-mil-2026-11-19"
+ },
+ {
+  "alerted_at": "2026-11-20T10:40:17.481314+00:00",
+  "cid": "0x79095ff25ab6fa60be766dff6d5267c7b10b36a7468c99043890e9664cc822b5",
+  "delay_s": 217,
+  "elite_n": 2039,
+  "elite_price": 0.6368,
+  "elite_roi": 0.0709,
+  "elite_ts": "2026-11-20T10:36:40+00:00",
+  "elite_usd": 4526.51,
+  "elite_wallets": [
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a"
+  ],
+  "event_title": "Dota 2: CyberHero vs angry birds (BO5) - Asgard Championship Playoffs",
+  "fill_price": 0.69,
+  "fill_usd_available": 110.4,
+  "id": "0x79095ff2-0-1795171217",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "CyberHero (Map 2)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-ch1-angryb-2026-11-20"
  }
 ]
