@@ -171079,32 +171079,32 @@
   }
  },
  "0x9f03e02df1e244d2b5982b2f98c489c248de0a69": {
-  "graded_at": "2026-11-13T02:10:18.416271+00:00",
+  "graded_at": "2026-11-20T02:20:18.368725+00:00",
   "grades": {
    "atp": {
-    "avg_price": 0.499,
-    "hit_edge": 0.101,
-    "hit_rate": 0.6,
-    "n": 5,
-    "pnl": -607.25,
-    "roi": -0.166,
-    "shrunk_roi": -0.0451,
+    "avg_price": 0.647,
+    "hit_edge": 0.038,
+    "hit_rate": 0.684,
+    "n": 19,
+    "pnl": -1111.93,
+    "roi": -0.038,
+    "shrunk_roi": -0.0326,
     "sport": "atp",
-    "staked": 3658.63,
-    "t_stat": -0.38,
+    "staked": 29247.4,
+    "t_stat": -0.52,
     "tier": "NONE"
    },
    "wta": {
-    "avg_price": 0.591,
-    "hit_edge": -0.091,
+    "avg_price": 0.712,
+    "hit_edge": -0.212,
     "hit_rate": 0.5,
-    "n": 2,
-    "pnl": -260.35,
-    "roi": -0.3693,
-    "shrunk_roi": -0.0462,
+    "n": 6,
+    "pnl": -240.11,
+    "roi": -0.03,
+    "shrunk_roi": -0.03,
     "sport": "wta",
-    "staked": 705.01,
-    "t_stat": -0.35,
+    "staked": 8010.24,
+    "t_stat": -0.44,
     "tier": "NONE"
    }
   }
