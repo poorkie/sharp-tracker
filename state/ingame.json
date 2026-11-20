@@ -507,8 +507,8 @@
   "idx": 1,
   "market_type": "child_moneyline",
   "pick": "Xtreme Gaming (Map 1)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-gl-xtreme-2026-11-20"
  },
@@ -536,5 +536,30 @@
   "result": null,
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-navi-og-2026-11-20"
+ },
+ {
+  "alerted_at": "2026-11-20T15:00:23.881464+00:00",
+  "cid": "0x67782c3d5956348ad28eb6ee31d5868213ef922da7fa11168075dd56a03cc6cd",
+  "delay_s": 114,
+  "elite_n": 716,
+  "elite_price": 0.63,
+  "elite_roi": 0.2284,
+  "elite_ts": "2026-11-20T14:58:29+00:00",
+  "elite_usd": 29539.3,
+  "elite_wallets": [
+   "0x3231d2d67053e5dc3715f6429124741e52866e75",
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a"
+  ],
+  "event_title": "Dota 2: GamerLegion vs Xtreme Gaming (BO3) - BLAST Slam Group B",
+  "fill_price": 0.68,
+  "fill_usd_available": 3988.64,
+  "id": "0x67782c3d-0-1795186823",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "GamerLegion (Map 2)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-gl-xtreme-2026-11-20"
  }
 ]
