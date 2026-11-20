@@ -532,8 +532,8 @@
   "idx": 0,
   "market_type": "child_moneyline",
   "pick": "Natus Vincere (Map 2)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-navi-og-2026-11-20"
  },
@@ -557,8 +557,8 @@
   "idx": 0,
   "market_type": "child_moneyline",
   "pick": "GamerLegion (Map 2)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 47.06,
+  "result": "WIN",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-gl-xtreme-2026-11-20"
  },
@@ -610,5 +610,29 @@
   "result": null,
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-navi-og-2026-11-20"
+ },
+ {
+  "alerted_at": "2026-11-20T16:10:23.686604+00:00",
+  "cid": "0x2b60b694bcb0fb131ef20b694116253e9255154fbf6739bac841bb517485ce42",
+  "delay_s": -92,
+  "elite_n": 1473,
+  "elite_price": 0.18,
+  "elite_roi": 0.0974,
+  "elite_ts": "2026-11-20T16:11:55+00:00",
+  "elite_usd": 622.26,
+  "elite_wallets": [
+   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1"
+  ],
+  "event_title": "Dota 2: PARIVISION vs LEGION (BO3) - BLAST Slam Group C",
+  "fill_price": 0.19,
+  "fill_usd_available": 23.19,
+  "id": "0x2b60b694-1-1795191023",
+  "idx": 1,
+  "market_type": "child_moneyline",
+  "pick": "LEGION (Map 1)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-pari-legion1-2026-11-20"
  }
 ]
