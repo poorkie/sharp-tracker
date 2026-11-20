@@ -126324,8 +126324,21 @@
   }
  },
  "0x722478c87c9a1146494e4bf1d25e70fe6a2b1fef": {
-  "graded_at": "2026-11-13T15:27:13.784972+00:00",
+  "graded_at": "2026-11-20T15:30:22.662024+00:00",
   "grades": {
+   "dota2": {
+    "avg_price": 0.66,
+    "hit_edge": -0.66,
+    "hit_rate": 0.0,
+    "n": 1,
+    "pnl": -1226.5,
+    "roi": -1.0172,
+    "shrunk_roi": -0.0541,
+    "sport": "dota2",
+    "staked": 1205.82,
+    "t_stat": 0.0,
+    "tier": "NONE"
+   },
    "lol": {
     "avg_price": 0.593,
     "hit_edge": -0.093,
