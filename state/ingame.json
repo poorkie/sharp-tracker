@@ -710,5 +710,55 @@
   "result": null,
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-pari-legion1-2026-11-20"
+ },
+ {
+  "alerted_at": "2026-11-20T18:10:19.414458+00:00",
+  "cid": "0x3dcd0b67f2c47cb31e4b41fa7d1c66793633d846effbd737edcf5b67004bf3df",
+  "delay_s": 216,
+  "elite_n": 716,
+  "elite_price": 0.4668,
+  "elite_roi": 0.2284,
+  "elite_ts": "2026-11-20T18:06:43+00:00",
+  "elite_usd": 8884.6,
+  "elite_wallets": [
+   "0x3231d2d67053e5dc3715f6429124741e52866e75",
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a",
+   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1"
+  ],
+  "event_title": "Dota 2: Inner Circle vs CyberHero (BO5) - DreamLeague Division 2 Playoffs",
+  "fill_price": 0.64,
+  "fill_usd_available": 467.44,
+  "id": "0x3dcd0b67-0-1795198219",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "Inner Circle (Map 4)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-ic-ch1-2026-11-20"
+ },
+ {
+  "alerted_at": "2026-11-20T18:10:19.414458+00:00",
+  "cid": "0x9cc2cb8000ac88462797d19e4f7efb7ec9ddc4f8a7cf0198ed817a7cd51bdddc",
+  "delay_s": 38,
+  "elite_n": 1029,
+  "elite_price": 0.64,
+  "elite_roi": 0.0892,
+  "elite_ts": "2026-11-20T18:09:41+00:00",
+  "elite_usd": 508.71,
+  "elite_wallets": [
+   "0x80bac5c17aec3f5b3d0f01166b639cd453a02e78"
+  ],
+  "event_title": "Dota 2: Team Liquid vs DO KONCA (BO3) - BLAST Slam Group C",
+  "fill_price": 0.62,
+  "fill_usd_available": 12.4,
+  "id": "0x9cc2cb80-0-1795198219",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "Team Liquid (Map 2)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-liquid-konca-2026-11-20"
  }
 ]
