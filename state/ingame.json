@@ -239,5 +239,29 @@
   "result": "WIN",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-pckcp-p-2026-11-19"
+ },
+ {
+  "alerted_at": "2026-11-20T01:10:25.592588+00:00",
+  "cid": "0xd8c25b81841dd21fcc9b9cdd66062b452cf973c9cb4fcab8cff70ea93a8ea142",
+  "delay_s": -61,
+  "elite_n": 99,
+  "elite_price": 0.52,
+  "elite_roi": 0.6035,
+  "elite_ts": "2026-11-20T01:11:26+00:00",
+  "elite_usd": 737.75,
+  "elite_wallets": [
+   "0x80bac5c17aec3f5b3d0f01166b639cd453a02e78"
+  ],
+  "event_title": "Knicks vs. Timberwolves",
+  "fill_price": 0.51,
+  "fill_usd_available": 8670.55,
+  "id": "0xd8c25b81-0-1795137025",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Knicks",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-nyk-min-2026-11-19"
  }
 ]
