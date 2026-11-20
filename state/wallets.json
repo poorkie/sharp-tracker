@@ -31835,6 +31835,50 @@
    }
   }
  },
+ "0x1be9eb432e3e5f7474a3a544c9941267d46f47e1": {
+  "graded_at": "2026-11-20T12:45:45.153429+00:00",
+  "grades": {
+   "atp": {
+    "avg_price": 0.533,
+    "hit_edge": 0.039,
+    "hit_rate": 0.571,
+    "n": 35,
+    "pnl": 5789.71,
+    "roi": 0.2741,
+    "shrunk_roi": 0.1119,
+    "sport": "atp",
+    "staked": 21120.26,
+    "t_stat": 0.79,
+    "tier": "NONE"
+   },
+   "epl": {
+    "avg_price": 0.43,
+    "hit_edge": 0.57,
+    "hit_rate": 1.0,
+    "n": 1,
+    "pnl": 56.0,
+    "roi": 1.3023,
+    "shrunk_roi": 0.0025,
+    "sport": "epl",
+    "staked": 43.0,
+    "t_stat": 0.0,
+    "tier": "NONE"
+   },
+   "wta": {
+    "avg_price": 0.39,
+    "hit_edge": 0.11,
+    "hit_rate": 0.5,
+    "n": 6,
+    "pnl": 23.99,
+    "roi": 0.0236,
+    "shrunk_roi": -0.023,
+    "sport": "wta",
+    "staked": 1018.3,
+    "t_stat": -0.83,
+    "tier": "NONE"
+   }
+  }
+ },
  "0x1c0180ddfa25ce792b1efb724215cd7cd012e7d0": {
   "graded_at": "2026-11-19T18:30:21.952121+00:00",
   "grades": {
