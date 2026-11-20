@@ -581,8 +581,8 @@
   "idx": 0,
   "market_type": "child_moneyline",
   "pick": "Inner Circle (Map 1)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 81.82,
+  "result": "WIN",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-ic-ch1-2026-11-20"
  },
@@ -634,5 +634,29 @@
   "result": null,
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-pari-legion1-2026-11-20"
+ },
+ {
+  "alerted_at": "2026-11-20T17:00:21.244931+00:00",
+  "cid": "0xac54d12050c4a7baa3f6b16b3eeb085eeea692709627f56ae26a8f2ef1f4632f",
+  "delay_s": 47,
+  "elite_n": 1029,
+  "elite_price": 0.67,
+  "elite_roi": 0.0892,
+  "elite_ts": "2026-11-20T16:59:34+00:00",
+  "elite_usd": 376.54,
+  "elite_wallets": [
+   "0x80bac5c17aec3f5b3d0f01166b639cd453a02e78"
+  ],
+  "event_title": "Dota 2: Team Liquid vs DO KONCA (BO3) - BLAST Slam Group C",
+  "fill_price": 0.67,
+  "fill_usd_available": 6725.04,
+  "id": "0xac54d120-0-1795194021",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Team Liquid",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-liquid-konca-2026-11-20"
  }
 ]
