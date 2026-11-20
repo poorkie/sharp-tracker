@@ -760,5 +760,29 @@
   "result": null,
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-liquid-konca-2026-11-20"
+ },
+ {
+  "alerted_at": "2026-11-20T19:20:18.522596+00:00",
+  "cid": "0x9be6848224cc58b2aece92226ff8e33b9aba9211b87281a80b1a26d13a4eb87a",
+  "delay_s": -37,
+  "elite_n": 716,
+  "elite_price": 0.3958,
+  "elite_roi": 0.2284,
+  "elite_ts": "2026-11-20T19:20:55+00:00",
+  "elite_usd": 442.05,
+  "elite_wallets": [
+   "0x3231d2d67053e5dc3715f6429124741e52866e75"
+  ],
+  "event_title": "Dota 2: 4ikibamboni vs Team Allied (BO3) - European Pro League Group A",
+  "fill_price": 0.51,
+  "fill_usd_available": 10.2,
+  "id": "0x9be68482-0-1795202418",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "4ikibamboni (Map 1)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-4iki-all2-2026-11-20"
  }
 ]
