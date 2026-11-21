@@ -808,5 +808,29 @@
   "result": "LOSS",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-ic-ch1-2026-11-20"
+ },
+ {
+  "alerted_at": "2026-11-21T00:20:25.698205+00:00",
+  "cid": "0x96ec86c9b8273c1a5e3764879eff0a89a8951ea15e93a9674f405e111b684031",
+  "delay_s": 416,
+  "elite_n": 202,
+  "elite_price": 0.5649,
+  "elite_roi": 0.0956,
+  "elite_ts": "2026-11-21T00:13:29+00:00",
+  "elite_usd": 236.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Georgia State Panthers vs. Jacksonville State Gamecocks",
+  "fill_price": 0.66,
+  "fill_usd_available": 333.3,
+  "id": "0x96ec86c9-1-1795220425",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Jacksonville State Gamecocks",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-gast-jaxst-2026-11-20"
  }
 ]
