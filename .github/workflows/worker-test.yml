@@ -1,0 +1,26 @@
+name: worker-test
+# Runs the real-time watcher for 25 minutes on GitHub to check it works
+# before it goes on Railway. Picks it finds are saved like the real thing.
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: ["worker.py", ".github/workflows/worker-test.yml"]
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python worker.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPO: ${{ github.repository }}
+          RUN_MINUTES: "25"

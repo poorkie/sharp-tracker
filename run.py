@@ -248,6 +248,9 @@ def main():
     cotrade = load("cotrade.json", {})
     act_log = load("activity.json", {})
     ig_book = load("ingame.json", [])
+    n_live = ingame.merge_live(ig_book, load("live_picks.json", []))
+    if n_live:
+        log.info("merged %d real-time picks", n_live)
 
     refresh_candidates(cfg, wallets, queue, meta, now)
     grade_some(cfg, wallets, queue, now, meta)

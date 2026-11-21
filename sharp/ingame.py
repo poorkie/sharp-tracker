@@ -181,6 +181,34 @@ def copy_to_novig(e: dict, m: dict, client, cache: dict, cfg: dict) -> dict:
     return rec
 
 
+def merge_live(book: list, live: list) -> int:
+    """Fold picks from the real-time worker into the in-game book. A live
+    pick replaces a slower scan pick on the same market side (the scan may
+    log one before it sees the worker's file). Returns picks added."""
+    ids = {e["id"] for e in book}
+    n = 0
+    for lp in live:
+        if lp["id"] in ids:
+            continue
+        same = next((e for e in book if e["cid"] == lp["cid"] and e["idx"] == lp["idx"]), None)
+        if same:
+            if same.get("source") == "live":
+                continue
+            for w in same["elite_wallets"]:
+                if w not in lp["elite_wallets"]:
+                    lp["elite_wallets"].append(w)
+            if same.get("novig"):
+                lp.setdefault("novig", same["novig"])
+            lp["replaced_scan_fill"] = same["fill_price"]
+            book.remove(same)
+        elif any(e["cid"] == lp["cid"] for e in book):
+            continue                                       # other side already picked
+        book.append(dict(lp))
+        ids.add(lp["id"])
+        n += 1
+    return n
+
+
 def grade(book: list, now: datetime) -> int:
     pending = [e for e in book if e["result"] is None
                and datetime.fromisoformat(e["alerted_at"]) < now - timedelta(minutes=30)]
@@ -224,9 +252,12 @@ def summary(rows: list) -> dict:
     w = sum(r["result"] == "WIN" for r in done)
     pnl = sum(r["pnl_100"] for r in done)
     delays = [r["delay_s"] for r in rows]
-    return {"n": n, "w": w, "l": n - w, "units": round(pnl / 100, 2),
+    slips = [r["fill_price"] - r["elite_price"] for r in rows]
+    return {"avg_slip_c": round(100 * sum(slips) / len(slips), 1) if slips else None,
+            "n": n, "w": w, "l": n - w, "units": round(pnl / 100, 2),
             "roi": round(pnl / (100 * n), 4) if n else 0.0,
             "pending": sum(r["result"] is None for r in rows),
+            "avg_delay_s": round(sum(delays) / len(delays)) if delays else None,
             "avg_delay_min": round(sum(delays) / len(delays) / 60, 1) if delays else None}
 
 
@@ -256,6 +287,8 @@ def site_data(book: list) -> dict:
         by_sport[e["sport"]].append(e)
     return {"record": summary(book), "novig": novig_summary(book),
             "by_sport": {k: summary(v) for k, v in sorted(by_sport.items())},
+            "by_source": {k: summary([e for e in book if (e.get("source") or "scan") == k])
+                          for k in ("live", "scan")},
             "picks": sorted(book, key=lambda e: e["alerted_at"], reverse=True)[:300]}
 
 

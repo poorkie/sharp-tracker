@@ -507,3 +507,25 @@ def test_copy_to_novig_and_grade(monkeypatch):
     assert abs(e["novig"]["pnl"] - (192.31 - 100 - 0.75)) < 0.01
     m2 = {**live["c1"], "market_type": "child_moneyline"}
     assert ingame.copy_to_novig(e, m2, fake, {}, LIVE_CFG)["status"] == "skipped"
+
+
+def test_merge_live_replaces_slow_scan_pick():
+    from sharp import ingame
+    scan = {"id": "a-0-1", "cid": "0xa", "idx": 0, "elite_wallets": ["w1"], "fill_price": 0.70, "sport": "nba", "alerted_at": "2026-11-21T00:00:00+00:00",
+            "elite_price": 0.60, "delay_s": 200, "result": None, "pnl_100": None}
+    other = {"id": "b-1-1", "cid": "0xb", "idx": 1, "elite_wallets": ["w2"], "fill_price": 0.5, "sport": "nba", "alerted_at": "2026-11-21T00:00:00+00:00",
+             "elite_price": 0.5, "delay_s": 100, "result": None, "pnl_100": None, "source": "live"}
+    book = [scan, other]
+    live = [{"id": "a-0-9", "cid": "0xa", "idx": 0, "elite_wallets": ["w3"], "fill_price": 0.61, "sport": "nba", "alerted_at": "2026-11-21T00:00:00+00:00",
+             "elite_price": 0.60, "delay_s": 6, "result": None, "pnl_100": None, "source": "live"},
+            {"id": "b-0-9", "cid": "0xb", "idx": 0, "elite_wallets": ["w4"], "fill_price": 0.5, "sport": "nba", "alerted_at": "2026-11-21T00:00:00+00:00",
+             "elite_price": 0.5, "delay_s": 5, "result": None, "pnl_100": None, "source": "live"},
+            dict(other)]
+    assert ingame.merge_live(book, live) == 1
+    a = [e for e in book if e["cid"] == "0xa"]
+    assert len(a) == 1 and a[0]["fill_price"] == 0.61 and set(a[0]["elite_wallets"]) == {"w1", "w3"}
+    assert a[0]["replaced_scan_fill"] == 0.70
+    assert len([e for e in book if e["cid"] == "0xb"]) == 1      # other side not added
+    assert ingame.merge_live(book, live) == 0                     # idempotent
+    s = ingame.site_data(book)["by_source"]
+    assert s["live"]["pending"] == 2 and s["scan"]["pending"] == 0
