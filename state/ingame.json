@@ -1075,5 +1075,30 @@
   "result": "WIN",
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-sac-lal-2026-11-20"
+ },
+ {
+  "alerted_at": "2026-11-21T10:20:15.876706+00:00",
+  "cid": "0x31402c0548eda16fdd6e3fcca6a61a5a504f8f93faf5eb219b58d1bb879750b4",
+  "delay_s": 74,
+  "elite_n": 716,
+  "elite_price": 0.7852,
+  "elite_roi": 0.2284,
+  "elite_ts": "2026-11-21T10:19:01+00:00",
+  "elite_usd": 2595.67,
+  "elite_wallets": [
+   "0x3231d2d67053e5dc3715f6429124741e52866e75",
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a"
+  ],
+  "event_title": "Dota 2: Power Rangers vs Red John (BO3) - European Pro League Group B",
+  "fill_price": 0.85,
+  "fill_usd_available": 90.8,
+  "id": "0x31402c05-0-1795256415",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "Power Rangers (Map 1)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-pr1-redjoh-2026-11-14"
  }
 ]
