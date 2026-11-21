@@ -1495,5 +1495,88 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-21T18:20:18.163517+00:00",
+  "cid": "0xa1e3a1f7b0f65d07a39906f1e10045dda21dd5b4ffe316f417c79cce85fa8627",
+  "delay_s": 302,
+  "elite_n": 202,
+  "elite_price": 0.57,
+  "elite_roi": 0.0956,
+  "elite_ts": "2026-11-21T18:15:16+00:00",
+  "elite_usd": 228.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Denver Pioneers vs. Eastern Michigan Eagles",
+  "fill_price": 0.54,
+  "fill_usd_available": 408.78,
+  "id": "0xa1e3a1f7-1-1795285218",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Eastern Michigan Eagles",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-den-emich-2026-11-21",
+  "venues": {
+   "kalshi": {
+    "ask": 0.52,
+    "ask_size": 843.01,
+    "fee": 0.0175,
+    "status": "ok",
+    "team": "Eastern Michigan",
+    "ticker": "KXNCAAMBGAME-26NOV21DENEMU-EMU",
+    "url": "https://kalshi.com/markets/kxncaambgame"
+   },
+   "pmus": {
+    "ask": 0.51,
+    "market": "aec-cbb-den-emich-2026-11-21",
+    "raw_ask": 0.5,
+    "raw_bid": 0.49,
+    "side": 1,
+    "status": "ok",
+    "url": "https://polymarket.us/event/cbb-den-emich-2026-11-21"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-21T18:20:18.163517+00:00",
+  "cid": "0x34880216a10b1b79923a8016f6599110aa7905ec2659139c1b1e2e2c4f7985cc",
+  "delay_s": -23,
+  "elite_n": 2039,
+  "elite_price": 0.3,
+  "elite_roi": 0.0709,
+  "elite_ts": "2026-11-21T18:20:41+00:00",
+  "elite_usd": 5744.0,
+  "elite_wallets": [
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a"
+  ],
+  "event_title": "Dota 2: Team Spirit vs Xtreme Gaming (BO3) - BLAST Slam Group B",
+  "fill_price": 0.32,
+  "fill_usd_available": 2198.04,
+  "id": "0x34880216-1-1795285218",
+  "idx": 1,
+  "market_type": "child_moneyline",
+  "pick": "Xtreme Gaming (Map 1)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-ts8-xtreme-2026-11-21",
+  "venues": {
+   "kalshi": {
+    "ask": 0.32,
+    "ask_size": 60.0,
+    "fee": 0.0152,
+    "status": "ok",
+    "team": "Xtreme Gaming",
+    "ticker": "KXDOTA2MAP-26NOV211200XTREMETS-1-XTREME",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-ts8-xtreme-2026-11-21",
+    "status": "not_listed"
+   }
+  }
  }
 ]
