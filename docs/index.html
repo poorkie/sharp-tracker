@@ -120,6 +120,9 @@ footer{color:var(--dim);font-size:12px;margin-top:40px;border-top:1px solid var(
   <section id="tab-ingame" class="hide">
     <div class="stats" id="ig-stats"></div>
     <p class="note"><b>Paper trading, still being tested.</b> When an Elite wallet bets during a live game, a pick is logged at the price you could actually buy at when the alert went out (the best offer on Polymarket's order book), $100 flat, and graded after the game. In testing on Sep 1 to Nov 10 games, copying Elite in-game bets at the price a buyer really got returned about +6% a few seconds late and +5% ten minutes late (about 1,250 bets). This tab shows whether that holds up live. Football is skipped (it lost in testing).</p>
+    <h2>Where you can bet it (US)</h2>
+    <p class="note">The Elites trade on polymarket.com, which isn't open to US users. For every pick we also record what the same side cost on <b>Kalshi</b> and <b>Polymarket US</b> at that moment, and grade it at that price ($100 flat; Kalshi's taker fee included). <b>Price vs. polymarket.com</b>: negative = cheaper there.</p>
+    <div class="tw"><table id="ig-venues"></table></div>
     <h2>Real-time vs. 10-minute scan</h2>
     <p class="note">The real-time watcher checks live games every few seconds. The 10-minute scan catches bets later, after prices have often moved. <b>Price gap</b> = how much more than the Elite you'd have paid.</p>
     <div class="tw"><table id="ig-source"></table></div>
@@ -277,6 +280,13 @@ function renderIngame() {
     Object.entries(ig.by_source || {}).map(([k, s]) => `<tr><td>${srcName[k] || k}</td><td>${s.w}-${s.l}</td>
      <td class="${sign(s.units)}">${(s.units >= 0 ? "+" : "") + s.units.toFixed(2)}u</td><td class="${sign(s.roi)}">${pct(s.roi)}</td>
      <td>${s.pending}</td><td>${dly(s)}</td><td>${gap(s)}</td></tr>`).join("");
+  const vn = {kalshi: "Kalshi", pmus: "Polymarket US"}, V = ig.venues || {};
+  $("#ig-venues").innerHTML = `<tr><th></th><th>Picks priced</th><th>Record</th><th>Units</th><th>ROI</th><th>Same picks on polymarket.com</th><th>Price vs. polymarket.com</th></tr>` +
+    Object.entries(vn).map(([k, name]) => { const v = V[k] || {tried: 0};
+      return `<tr><td>${name}</td><td>${v.priced || 0} of ${v.tried || 0}${v.pending ? ` <span class="mute">(${v.pending} pending)</span>` : ""}</td>
+       <td>${v.n ? v.w + "-" + v.l : "–"}</td><td class="${sign(v.units || 0)}">${v.n ? (v.units >= 0 ? "+" : "") + v.units.toFixed(2) + "u" : "–"}</td>
+       <td class="${sign(v.roi || 0)}">${v.n ? pct(v.roi) : "–"}</td><td class="${sign(v.poly_units_same || 0)}">${v.n ? (v.poly_units_same >= 0 ? "+" : "") + v.poly_units_same.toFixed(2) + "u" : "–"}</td>
+       <td>${v.avg_gap_c != null ? (v.avg_gap_c >= 0 ? "+" : "") + v.avg_gap_c.toFixed(1) + "¢" : "–"}</td></tr>`; }).join("");
   const head = `<tr><th></th><th>Record</th><th>Units</th><th>ROI</th><th>Pending</th><th>Avg delay</th><th>Price gap</th></tr>`;
   $("#ig-sport").innerHTML = head + (Object.entries(ig.by_sport || {}).map(([k, s]) =>
     `<tr><td>${esc(k.toUpperCase())}</td><td>${s.w}-${s.l}</td><td class="${sign(s.units)}">${(s.units >= 0 ? "+" : "") + s.units.toFixed(2)}u</td>
@@ -291,19 +301,22 @@ function renderIngame() {
   const nvCell = e => { const n = e.novig; if (!n) return `<span class="mute">–</span>`;
     if (n.filled_contracts) return `<span class="${n.avg_price <= e.fill_price ? "pos" : ""}">${cents(n.avg_price)}</span> <span class="mute" style="font-size:11px">${n.status === "partial" ? Math.round(100 * n.filled_contracts / n.wanted_contracts) + "% filled" : "filled"}${n.pnl != null ? " · " + (n.pnl >= 0 ? "+" : "-") + "$" + Math.abs(n.pnl).toFixed(0) : ""}</span>`;
     return `<span class="mute" style="font-size:11px" title="${esc(n.reason || "")}">${esc({no_liquidity: "no liquidity", no_fill: "no fill", skipped: "n/a", error: "error"}[n.status] || n.status)}</span>`; };
-  $("#ig-picks").innerHTML = `<tr><th>When</th><th>Bet</th><th>Elite paid</th><th>Your price</th><th>Novig</th><th>Delay</th><th>Elite wallet</th><th>Result</th></tr>` +
+  const vCell = (e, k) => { const v = (e.venues || {})[k]; if (!v) return `<span class="mute">–</span>`;
+    if (v.status === "ok") return `<a href="${esc(v.url)}" target="_blank" rel="noopener" class="${v.ask + (v.fee || 0) <= e.fill_price ? "pos" : ""}">${cents(v.ask)}</a>${v.pnl_100 != null && e.result !== "VOID" ? ` <span class="${sign(v.pnl_100)}" style="font-size:11px">${v.pnl_100 > 0 ? "+" : ""}${Math.round(v.pnl_100)}</span>` : ""}`;
+    return `<span class="mute" style="font-size:11px" title="${esc(v.reason || "")}">${esc({no_liquidity: "no offers", not_listed: "not listed", no_match: "not found", not_offered: "n/a", no_market: "n/a", error: "error"}[v.status] || v.status)}</span>`; };
+  $("#ig-picks").innerHTML = `<tr><th>When</th><th>Bet</th><th>Elite paid</th><th>Your price</th><th>Kalshi</th><th>Poly US</th><th>Delay</th><th>Elite wallet</th><th>Result</th></tr>` +
     ((ig.picks || []).map(e => `<tr>
       <td title="${new Date(e.alerted_at).toLocaleString()}">${ago(e.alerted_at)}</td>
       <td class="pk"><a href="${esc(e.url)}" target="_blank" rel="noopener"><b>${esc(e.pick)}</b></a> <span class="mute">${esc(e.sport.toUpperCase())}</span>
         <br><span class="mute" style="font-size:12px">${esc(e.event_title)}</span></td>
       <td>${cents(e.elite_price)} <span class="mute">${money(e.elite_usd)}</span></td>
       <td class="${e.fill_price <= e.elite_price + 0.005 ? "pos" : ""}">${cents(e.fill_price)} <span class="mute">${amer(e.fill_price)}</span></td>
-      <td>${nvCell(e)}</td>
+      <td>${vCell(e, "kalshi")}</td><td>${vCell(e, "pmus")}</td>
       <td>${e.delay_s < 120 ? e.delay_s + " sec" : Math.round(e.delay_s / 60) + " min"}${e.source === "live" ? ` <span class="tag">⚡</span>` : ""}</td>
       <td><a href="https://polymarket.com/profile/${esc(e.elite_wallets[0])}" target="_blank" rel="noopener">${short(e.elite_wallets[0])}</a>${e.elite_wallets.length > 1 ? ` <span class="tag">+${e.elite_wallets.length - 1}</span>` : ""}
         <span class="mute" style="font-size:11px">${e.elite_roi != null ? pct(e.elite_roi, 0) + " ROI" : ""}</span></td>
       <td><span class="res ${e.result || "pending"}">${e.result || "LIVE"}</span>${e.pnl_100 != null && e.result !== "VOID" ? ` <span class="${sign(e.pnl_100)}">${e.pnl_100 > 0 ? "+" : ""}${Math.round(e.pnl_100)}</span>` : ""}</td>
-    </tr>`).join("") || `<tr><td colspan="8" class="mute">Waiting for the first live Elite bet.</td></tr>`);
+    </tr>`).join("") || `<tr><td colspan="9" class="mute">Waiting for the first live Elite bet.</td></tr>`);
 }
 
 let actSport = "ALL", actTier = "ELITE";
