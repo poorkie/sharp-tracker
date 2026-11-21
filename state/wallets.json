@@ -86962,19 +86962,19 @@
   }
  },
  "0x4aaeea0a4ee87c38f4cdb195d11d47336e68bbd6": {
-  "graded_at": "2026-11-14T14:10:19.636402+00:00",
+  "graded_at": "2026-11-21T14:20:17.497982+00:00",
   "grades": {
    "nhl": {
-    "avg_price": 0.312,
-    "hit_edge": -0.312,
-    "hit_rate": 0.0,
-    "n": 1,
-    "pnl": -498.57,
-    "roi": -1.0346,
-    "shrunk_roi": -0.0545,
+    "avg_price": 0.357,
+    "hit_edge": 0.143,
+    "hit_rate": 0.5,
+    "n": 2,
+    "pnl": 1122.98,
+    "roi": 0.7147,
+    "shrunk_roi": 0.0055,
     "sport": "nhl",
-    "staked": 481.92,
-    "t_stat": 0.0,
+    "staked": 1571.26,
+    "t_stat": 0.18,
     "tier": "NONE"
    }
   }
@@ -128399,8 +128399,22 @@
   }
  },
  "0x6ee0ac5294cc4d0b151b624def691082b7817611": {
-  "graded_at": "2026-11-14T14:20:14.567087+00:00",
-  "grades": {}
+  "graded_at": "2026-11-21T14:20:17.497982+00:00",
+  "grades": {
+   "cfb": {
+    "avg_price": 0.648,
+    "hit_edge": 0.352,
+    "hit_rate": 1.0,
+    "n": 2,
+    "pnl": 1590.92,
+    "roi": 0.2303,
+    "shrunk_roi": -0.0176,
+    "sport": "cfb",
+    "staked": 6908.35,
+    "t_stat": 1.27,
+    "tier": "NONE"
+   }
+  }
  },
  "0x6eedacb57d58b39d42dd47905c9e83e79d420f4e": {
   "graded_at": "2026-11-19T19:40:18.762837+00:00",
@@ -137884,7 +137898,7 @@
   }
  },
  "0x789b2a49b9fdb4fdcf8b491721f107a130e211f8": {
-  "graded_at": "2026-11-14T14:20:14.567087+00:00",
+  "graded_at": "2026-11-21T14:20:17.497982+00:00",
   "grades": {
    "dota2": {
     "avg_price": 0.664,
@@ -137900,16 +137914,16 @@
     "tier": "NONE"
    },
    "lol": {
-    "avg_price": 0.658,
-    "hit_edge": -0.06,
-    "hit_rate": 0.597,
-    "n": 154,
-    "pnl": -20592.3,
-    "roi": -0.1866,
-    "shrunk_roi": -0.1543,
+    "avg_price": 0.657,
+    "hit_edge": -0.064,
+    "hit_rate": 0.594,
+    "n": 155,
+    "pnl": -25803.11,
+    "roi": -0.2233,
+    "shrunk_roi": -0.1836,
     "sport": "lol",
-    "staked": 110366.84,
-    "t_stat": -2.32,
+    "staked": 115577.65,
+    "t_stat": -2.42,
     "tier": "NONE"
    },
    "nba": {
@@ -239643,19 +239657,19 @@
   }
  },
  "0xd9e744b0cf2e8851b041deea6cf6fc624696301f": {
-  "graded_at": "2026-11-14T14:10:19.636402+00:00",
+  "graded_at": "2026-11-21T14:20:17.497982+00:00",
   "grades": {
    "lol": {
-    "avg_price": 0.733,
-    "hit_edge": -0.233,
-    "hit_rate": 0.5,
-    "n": 2,
-    "pnl": -54.33,
-    "roi": -0.0438,
-    "shrunk_roi": -0.0307,
+    "avg_price": 0.699,
+    "hit_edge": -0.366,
+    "hit_rate": 0.333,
+    "n": 3,
+    "pnl": -1297.95,
+    "roi": -0.5276,
+    "shrunk_roi": -0.0647,
     "sport": "lol",
-    "staked": 1239.1,
-    "t_stat": -0.68,
+    "staked": 2459.94,
+    "t_stat": -1.52,
     "tier": "NONE"
    }
   }
