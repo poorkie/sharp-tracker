@@ -1407,5 +1407,49 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-21T16:40:19.043781+00:00",
+  "cid": "0xb7b36b611fd8eaed8c3c564895a07ca6257ce30a8bd8aa9cefe103dd2140dfab",
+  "delay_s": -112,
+  "elite_n": 399,
+  "elite_price": 0.24,
+  "elite_roi": 0.2143,
+  "elite_ts": "2026-11-21T16:42:11+00:00",
+  "elite_usd": 1053.27,
+  "elite_wallets": [
+   "0xf7c2664cb29240811d6a89dd3960ebbc03a79b8d"
+  ],
+  "event_title": "Dota 2: Team Yandex vs Natus Vincere (BO3) - BLAST Slam Group A",
+  "fill_price": 0.26,
+  "fill_usd_available": 1.3,
+  "id": "0xb7b36b61-1-1795279219",
+  "idx": 1,
+  "market_type": "child_moneyline",
+  "pick": "Natus Vincere (Map 2)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-ty-navi-2026-11-21",
+  "venues": {
+   "kalshi": {
+    "ask": 0.27,
+    "ask_size": 110.0,
+    "fee": 0.0138,
+    "status": "ok",
+    "team": "Natus Vincere",
+    "ticker": "KXDOTA2MAP-26NOV210900NAVITY-2-NAVI",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "ask": 0.28,
+    "market": "astatc-dota2-ty-navi-2026-11-21-game2",
+    "raw_ask": 0.73,
+    "raw_bid": 0.72,
+    "side": 1,
+    "status": "ok",
+    "url": "https://polymarket.us/event/dota2-ty-navi-2026-11-21"
+   }
+  }
  }
 ]
