@@ -1,45 +1,54 @@
-"""One-off: see how Kalshi and Polymarket US list live games. Writes PROBE.md."""
-import json, traceback, requests, inspect
+"""One-off #2: find game/map winner markets on Kalshi and Polymarket US. Writes PROBE.md."""
+import json, re, traceback, inspect, requests
 out = []
 def p(*a): out.append(" ".join(str(x) for x in a))
 K = "https://api.elections.kalshi.com/trade-api/v2"
 try:
-    s = requests.get(f"{K}/series", params={"category": "Sports"}, timeout=30).json()
-    ser = s.get("series") or []
-    p("## Kalshi sports series:", len(ser))
-    keys = ("dota", "league of legends", "lol", "nba", "nhl", "college basketball", "ncaa", "tennis", "atp", "wta", "esport", "map")
-    hits = [x for x in ser if any(k in (x.get("title", "") + " " + x.get("ticker", "")).lower() for k in keys)]
-    for x in hits[:80]:
-        p("-", x.get("ticker"), "|", x.get("title"), "|", x.get("tags"))
-    for x in hits[:80]:
-        m = requests.get(f"{K}/markets", params={"series_ticker": x["ticker"], "status": "open", "limit": 3}, timeout=30).json()
-        ms = m.get("markets") or []
-        if ms:
-            p(f"\n### {x['ticker']} sample market")
-            p("```"); p(json.dumps({k: ms[0].get(k) for k in ("ticker", "event_ticker", "title", "yes_sub_title", "no_sub_title", "subtitle", "yes_ask_dollars", "yes_bid_dollars", "no_ask_dollars", "yes_ask_size_fp", "expected_expiration_time", "close_time", "open_time", "rules_primary", "custom_strike", "status")}, indent=1)[:1500]); p("```")
-            if x is hits[0] or True:
-                ob = requests.get(f"{K}/markets/{ms[0]['ticker']}/orderbook", timeout=30).json()
-                p("orderbook:", json.dumps(ob)[:400])
+    ser = requests.get(f"{K}/series", params={"category": "Sports"}, timeout=30).json().get("series") or []
+    want = [x for x in ser if (x.get("tags") or [None])[0] in ("Esports", "Basketball", "Hockey", "Tennis")
+            and re.search(r"GAME|MAP|MATCH", x["ticker"]) and not re.search(r"TOTAL|SPREAD|PLAYOFF|SERIES|1H|2H|QTOTAL|PROP", x["ticker"])]
+    p("## Kalshi candidate series", len(want))
+    for x in want:
+        m = requests.get(f"{K}/markets", params={"series_ticker": x["ticker"], "status": "open", "limit": 200}, timeout=30).json().get("markets") or []
+        p(f"- {x['ticker']} | {x['title']} | {x.get('tags')} | open markets: {len(m)}")
+        if m:
+            s = m[0]
+            p("   e.g.", json.dumps({k: s.get(k) for k in ("ticker", "event_ticker", "title", "yes_sub_title", "yes_ask_dollars", "no_ask_dollars", "expected_expiration_time", "occurrence_datetime", "close_time")}))
+    ev = requests.get(f"{K}/events", params={"series_ticker": "KXLOLGAMES", "status": "open", "limit": 2, "with_nested_markets": "true"}, timeout=30).json()
+    p("events sample:", json.dumps(ev)[:1500])
 except Exception:
     p("Kalshi error", traceback.format_exc())
+
+G = "https://gateway.polymarket.us"
 p("\n## Polymarket US")
 try:
-    import polymarket_us as pm
-    p("module attrs:", [a for a in dir(pm) if not a.startswith("_")])
-    for name in dir(pm):
-        obj = getattr(pm, name)
-        if inspect.isclass(obj) and "client" in name.lower():
-            p("class", name, inspect.signature(obj))
-            for a in dir(obj):
-                if not a.startswith("_"):
-                    p("  .", a)
+    sp = requests.get(f"{G}/v1/sports", timeout=30).json()
+    p("sports:", [(s.get("sport"), s.get("series"), s.get("tags")) for s in sp.get("sports", [])])
+    import polymarket_us, pathlib
+    root = pathlib.Path(polymarket_us.__file__).parent
+    for f in sorted(root.rglob("*.py")):
+        txt = f.read_text()
+        for line in txt.splitlines():
+            if re.search(r'["\'](/v1/[^"\']+)["\']', line) or "f\"/v1" in line or "f'/v1" in line:
+                p("  sdk", f.name, "|", line.strip()[:160])
 except Exception:
-    p("SDK error", traceback.format_exc())
-for base in ("https://api.polymarket.us", "https://gateway.polymarket.us"):
-    for path in ("/v1/markets", "/v1/events", "/v1/sports", "/markets", "/v1/markets?active=true&limit=3"):
-        try:
-            r = requests.get(base + path, params={"limit": 3} if "?" not in path else None, timeout=20)
-            p(f"GET {base}{path} -> {r.status_code}: {r.text[:700]}")
-        except Exception as e:
-            p(f"GET {base}{path} -> {e}")
+    p("PMUS error", traceback.format_exc())
+try:
+    r = requests.get(f"{G}/v1/events", params={"active": "true", "closed": "false", "limit": 50}, timeout=30).json()
+    evs = r.get("events", [])
+    p("active events:", len(evs), "keys:", list(evs[0].keys()) if evs else None)
+    for e in evs[:50]:
+        p("  ev", e.get("slug"), "|", e.get("title"), "|", e.get("seriesSlug"), "|", e.get("startTime"), "| live:", e.get("live"), "| markets:", len(e.get("markets") or []))
+    if evs:
+        p("event full:", json.dumps(evs[0])[:2500])
+    r = requests.get(f"{G}/v1/markets", params={"active": "true", "closed": "false", "limit": 5}, timeout=30).json()
+    mk = (r.get("markets") or [])
+    if mk:
+        p("market full:", json.dumps(mk[0])[:2500])
+        slug = mk[0]["slug"]
+        for path in (f"/v1/markets/{slug}/book", f"/v1/markets/{slug}/bbo", f"/v1/markets/{slug}", f"/v1/book/{slug}", f"/v1/bbo/{slug}", f"/v1/markets/book/{slug}", f"/v1/markets/bbo/{slug}"):
+            rr = requests.get(G + path, timeout=20)
+            p(f"GET {path} -> {rr.status_code}: {rr.text[:500]}")
+except Exception:
+    p("PMUS error", traceback.format_exc())
 open("PROBE.md", "w").write("\n".join(out))
