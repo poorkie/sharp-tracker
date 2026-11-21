@@ -1518,8 +1518,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "Eastern Michigan Eagles",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 85.19,
+  "result": "WIN",
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-den-emich-2026-11-21",
   "venues": {
@@ -1527,6 +1527,7 @@
     "ask": 0.52,
     "ask_size": 843.01,
     "fee": 0.0175,
+    "pnl_100": 86.05,
     "status": "ok",
     "team": "Eastern Michigan",
     "ticker": "KXNCAAMBGAME-26NOV21DENEMU-EMU",
@@ -1535,6 +1536,7 @@
    "pmus": {
     "ask": 0.51,
     "market": "aec-cbb-den-emich-2026-11-21",
+    "pnl_100": 96.08,
     "raw_ask": 0.5,
     "raw_bid": 0.49,
     "side": 1,
