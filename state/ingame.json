@@ -1478,8 +1478,8 @@
   "idx": 0,
   "market_type": "child_moneyline",
   "pick": "PlayTime (Map 2)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 177.78,
+  "result": "WIN",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-playti-og-2026-11-21",
   "venues": {
@@ -1487,6 +1487,7 @@
     "ask": 0.34,
     "ask_size": 2020.0,
     "fee": 0.0157,
+    "pnl_100": 181.14,
     "status": "ok",
     "team": "PlayTime",
     "ticker": "KXDOTA2MAP-26NOV211200OGPLAT-2-PLAT",
@@ -1623,6 +1624,45 @@
     "side": 1,
     "status": "ok",
     "url": "https://polymarket.us/event/nba-mil-phi-2026-11-21"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-21T19:00:23.588844+00:00",
+  "cid": "0x29e47d5354601b507ecfed8284829657754dec217b436d51b5b0a862928841d2",
+  "delay_s": 187,
+  "elite_n": 1029,
+  "elite_price": 0.34,
+  "elite_roi": 0.0892,
+  "elite_ts": "2026-11-21T18:57:16+00:00",
+  "elite_usd": 330.95,
+  "elite_wallets": [
+   "0x80bac5c17aec3f5b3d0f01166b639cd453a02e78"
+  ],
+  "event_title": "Dota 2: PlayTime vs OG (BO3) - BLAST Slam Group A",
+  "fill_price": 0.36,
+  "fill_usd_available": 68.91,
+  "id": "0x29e47d53-0-1795287623",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "PlayTime",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-playti-og-2026-11-21",
+  "venues": {
+   "kalshi": {
+    "ask": 0.38,
+    "ask_size": 330.25,
+    "fee": 0.0165,
+    "status": "ok",
+    "team": "PlayTime",
+    "ticker": "KXDOTA2GAME-26NOV211200OGPLAT-PLAT",
+    "url": "https://kalshi.com/markets/kxdota2game"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-playti-og-2026-11-21",
+    "status": "not_listed"
    }
   }
  }
