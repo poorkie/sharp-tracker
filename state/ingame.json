@@ -1026,5 +1026,29 @@
   "result": null,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-was-chi-2026-11-20"
+ },
+ {
+  "alerted_at": "2026-11-21T03:40:25.550467+00:00",
+  "cid": "0xd2ec06b5026f7da6ba5c3d71c50287854ecd72b0353524e641724e35c202bb6a",
+  "delay_s": 458,
+  "elite_n": 635,
+  "elite_price": 0.52,
+  "elite_roi": 0.1025,
+  "elite_ts": "2026-11-21T03:32:47+00:00",
+  "elite_usd": 1040.0,
+  "elite_wallets": [
+   "0x760907c8840491c8c86fddb843d3f1d801786c4e"
+  ],
+  "event_title": "Rockets vs. Nuggets",
+  "fill_price": 0.56,
+  "fill_usd_available": 12356.81,
+  "id": "0xd2ec06b5-0-1795232425",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Rockets",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-hou-den-2026-11-20"
  }
 ]
