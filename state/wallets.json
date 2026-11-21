@@ -47663,19 +47663,19 @@
   }
  },
  "0x2756f1bb52a672e76fbfa8a1b160daaecf6527b0": {
-  "graded_at": "2026-11-14T04:30:23.220621+00:00",
+  "graded_at": "2026-11-21T04:30:32.321203+00:00",
   "grades": {
    "lol": {
-    "avg_price": 0.288,
-    "hit_edge": -0.288,
-    "hit_rate": 0.0,
-    "n": 6,
-    "pnl": -5952.16,
-    "roi": -1.0047,
-    "shrunk_roi": -0.1571,
+    "avg_price": 0.3,
+    "hit_edge": -0.157,
+    "hit_rate": 0.143,
+    "n": 7,
+    "pnl": -4249.27,
+    "roi": -0.6137,
+    "shrunk_roi": -0.1169,
     "sport": "lol",
-    "staked": 5924.44,
-    "t_stat": -217.4,
+    "staked": 6924.55,
+    "t_stat": -1.6,
     "tier": "NONE"
    }
   }
@@ -90949,8 +90949,21 @@
   }
  },
  "0x503a86e62441e6401dd954f4e6989a244415860a": {
-  "graded_at": "2026-11-14T04:20:19.556680+00:00",
+  "graded_at": "2026-11-21T04:30:32.321203+00:00",
   "grades": {
+   "atp": {
+    "avg_price": 0.799,
+    "hit_edge": 0.201,
+    "hit_rate": 1.0,
+    "n": 1,
+    "pnl": 490.2,
+    "roi": 0.2128,
+    "shrunk_roi": -0.0241,
+    "sport": "atp",
+    "staked": 2303.53,
+    "t_stat": 0.0,
+    "tier": "NONE"
+   },
    "cbb": {
     "avg_price": 0.334,
     "hit_edge": -0.001,
@@ -90991,42 +91004,42 @@
     "tier": "NONE"
    },
    "lol": {
-    "avg_price": 0.452,
-    "hit_edge": -0.017,
-    "hit_rate": 0.435,
-    "n": 356,
-    "pnl": -297.49,
-    "roi": -0.0045,
-    "shrunk_roi": -0.0071,
+    "avg_price": 0.453,
+    "hit_edge": -0.015,
+    "hit_rate": 0.437,
+    "n": 359,
+    "pnl": 450.13,
+    "roi": 0.0066,
+    "shrunk_roi": 0.003,
     "sport": "lol",
-    "staked": 65655.87,
-    "t_stat": -1.49,
+    "staked": 67956.56,
+    "t_stat": -1.46,
     "tier": "NONE"
    },
    "nba": {
-    "avg_price": 0.433,
-    "hit_edge": 0.021,
-    "hit_rate": 0.455,
-    "n": 143,
-    "pnl": 1081.15,
-    "roi": 0.0307,
-    "shrunk_roi": 0.0174,
+    "avg_price": 0.447,
+    "hit_edge": -0.01,
+    "hit_rate": 0.438,
+    "n": 160,
+    "pnl": 570.55,
+    "roi": 0.0146,
+    "shrunk_roi": 0.0056,
     "sport": "nba",
-    "staked": 35271.61,
-    "t_stat": -0.06,
+    "staked": 39192.81,
+    "t_stat": -0.16,
     "tier": "NONE"
    },
    "nfl": {
-    "avg_price": 0.408,
-    "hit_edge": -0.158,
-    "hit_rate": 0.25,
-    "n": 16,
-    "pnl": -206.62,
-    "roi": -0.0278,
-    "shrunk_roi": -0.0294,
+    "avg_price": 0.419,
+    "hit_edge": -0.146,
+    "hit_rate": 0.273,
+    "n": 22,
+    "pnl": -657.84,
+    "roi": -0.0736,
+    "shrunk_roi": -0.0455,
     "sport": "nfl",
-    "staked": 7438.22,
-    "t_stat": -1.5,
+    "staked": 8936.35,
+    "t_stat": -1.38,
     "tier": "NONE"
    }
   }
@@ -101181,7 +101194,7 @@
   "grades": {}
  },
  "0x584b6a95370c498fbfa44297d573e04852c7d53c": {
-  "graded_at": "2026-11-14T04:30:23.220621+00:00",
+  "graded_at": "2026-11-21T04:30:32.321203+00:00",
   "grades": {
    "dota2": {
     "avg_price": 0.971,
@@ -101210,16 +101223,16 @@
     "tier": "NONE"
    },
    "lol": {
-    "avg_price": 0.823,
-    "hit_edge": 0.177,
-    "hit_rate": 1.0,
-    "n": 2,
-    "pnl": 34.29,
-    "roi": 0.2009,
-    "shrunk_roi": -0.019,
+    "avg_price": 0.762,
+    "hit_edge": -0.096,
+    "hit_rate": 0.667,
+    "n": 3,
+    "pnl": -1254.64,
+    "roi": -0.8317,
+    "shrunk_roi": -0.0859,
     "sport": "lol",
-    "staked": 170.66,
-    "t_stat": 46.6,
+    "staked": 1508.49,
+    "t_stat": -0.49,
     "tier": "NONE"
    }
   }
@@ -116293,7 +116306,7 @@
   "grades": {}
  },
  "0x664e438f9e05b2c4ee225755ee993223c0bae82a": {
-  "graded_at": "2026-11-14T04:30:23.220621+00:00",
+  "graded_at": "2026-11-21T04:30:32.321203+00:00",
   "grades": {
    "atp": {
     "avg_price": 0.811,
@@ -116335,16 +116348,16 @@
     "tier": "NONE"
    },
    "lol": {
-    "avg_price": 0.773,
-    "hit_edge": -0.041,
-    "hit_rate": 0.732,
-    "n": 589,
-    "pnl": -81477.79,
-    "roi": -0.0421,
-    "shrunk_roi": -0.0413,
+    "avg_price": 0.772,
+    "hit_edge": -0.044,
+    "hit_rate": 0.727,
+    "n": 594,
+    "pnl": -106007.8,
+    "roi": -0.0539,
+    "shrunk_roi": -0.0524,
     "sport": "lol",
-    "staked": 1934401.58,
-    "t_stat": -2.46,
+    "staked": 1966492.32,
+    "t_stat": -2.67,
     "tier": "NONE"
    },
    "mlb": {
