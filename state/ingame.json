@@ -1002,5 +1002,29 @@
   "result": null,
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-uk-ind-2026-11-20"
+ },
+ {
+  "alerted_at": "2026-11-21T02:30:27.859152+00:00",
+  "cid": "0xa79a100781ef911fdb98a31872e523fb6948eb64808a4839b018467be9979cc1",
+  "delay_s": 229,
+  "elite_n": 222,
+  "elite_price": 0.44,
+  "elite_roi": 0.1155,
+  "elite_ts": "2026-11-21T02:26:38+00:00",
+  "elite_usd": 272.54,
+  "elite_wallets": [
+   "0x6db568e61e5e3de7d87f831431b673f38ce2e279"
+  ],
+  "event_title": "Wizards vs. Bulls",
+  "fill_price": 0.65,
+  "fill_usd_available": 50064.02,
+  "id": "0xa79a1007-0-1795228227",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Wizards",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-was-chi-2026-11-20"
  }
 ]
