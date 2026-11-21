@@ -857,5 +857,29 @@
   "result": null,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-cha-atl-2026-11-20"
+ },
+ {
+  "alerted_at": "2026-11-21T00:50:18.070438+00:00",
+  "cid": "0x6ad48f25a9bead17075c5e0b48465666fed02a82ad934e04af0d9a756f20c006",
+  "delay_s": 49,
+  "elite_n": 635,
+  "elite_price": 0.38,
+  "elite_roi": 0.1025,
+  "elite_ts": "2026-11-21T00:49:29+00:00",
+  "elite_usd": 380.0,
+  "elite_wallets": [
+   "0x760907c8840491c8c86fddb843d3f1d801786c4e"
+  ],
+  "event_title": "Pacers vs. Cavaliers",
+  "fill_price": 0.33,
+  "fill_usd_available": 4583.86,
+  "id": "0x6ad48f25-0-1795222218",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Pacers",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-ind-cle-2026-11-20"
  }
 ]
