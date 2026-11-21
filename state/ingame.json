@@ -890,9 +890,10 @@
   "elite_price": 0.82,
   "elite_roi": 0.1198,
   "elite_ts": "2026-11-21T01:03:11+00:00",
-  "elite_usd": 329.2,
+  "elite_usd": 6524.38,
   "elite_wallets": [
-   "0x1bc32be106439240f59aa25668e613831a5cdc6e"
+   "0x1bc32be106439240f59aa25668e613831a5cdc6e",
+   "0x6db568e61e5e3de7d87f831431b673f38ce2e279"
   ],
   "event_title": "Magic vs. Nets",
   "fill_price": 0.84,
@@ -977,5 +978,29 @@
   "result": null,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-tor-det-2026-11-20"
+ },
+ {
+  "alerted_at": "2026-11-21T02:10:18.574446+00:00",
+  "cid": "0x41b92d1bb279b66750aaeb478ca7165446e0c5d813361ad9c1ef25486f3db36b",
+  "delay_s": 284,
+  "elite_n": 202,
+  "elite_price": 0.51,
+  "elite_roi": 0.0956,
+  "elite_ts": "2026-11-21T02:05:34+00:00",
+  "elite_usd": 204.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Kentucky Wildcats vs. Indiana Hoosiers",
+  "fill_price": 0.27,
+  "fill_usd_available": 100.71,
+  "id": "0x41b92d1b-0-1795227018",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Kentucky Wildcats",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-uk-ind-2026-11-20"
  }
 ]
