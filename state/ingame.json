@@ -1171,8 +1171,8 @@
   "idx": 1,
   "market_type": "child_moneyline",
   "pick": "Astra Invicta (Map 2)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 138.1,
+  "result": "WIN",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-aur1-ai1-2026-11-21"
  },
@@ -1200,5 +1200,30 @@
   "result": null,
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-lgd-1win-2026-11-21"
+ },
+ {
+  "alerted_at": "2026-11-21T13:50:20.692445+00:00",
+  "cid": "0x45f0345d30987aa99419e98b11c127986a0562478cac361ac32b8edf3a3b1ea9",
+  "delay_s": 114,
+  "elite_n": 2039,
+  "elite_price": 0.7107,
+  "elite_roi": 0.0709,
+  "elite_ts": "2026-11-21T13:48:26+00:00",
+  "elite_usd": 85487.86,
+  "elite_wallets": [
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a",
+   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1"
+  ],
+  "event_title": "Dota 2: Aurora vs Astra Invicta (BO3) - BLAST Slam Group D",
+  "fill_price": 0.78,
+  "fill_usd_available": 1723.59,
+  "id": "0x45f0345d-0-1795269020",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Aurora",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-aur1-ai1-2026-11-21"
  }
 ]
