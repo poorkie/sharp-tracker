@@ -1788,5 +1788,45 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-21T20:40:16.523040+00:00",
+  "cid": "0xb77eca8a229fa755fc9024663272fdbaf58392935e488d292bbb84c9487eebab",
+  "delay_s": -52,
+  "elite_n": 2039,
+  "elite_price": 0.3095,
+  "elite_roi": 0.0709,
+  "elite_ts": "2026-11-21T20:41:08+00:00",
+  "elite_usd": 7310.28,
+  "elite_wallets": [
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a",
+   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1"
+  ],
+  "event_title": "Dota 2: Team Spirit vs Xtreme Gaming (BO3) - BLAST Slam Group B",
+  "fill_price": 0.336,
+  "fill_usd_available": 25.54,
+  "id": "0xb77eca8a-1-1795293616",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Xtreme Gaming",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-ts8-xtreme-2026-11-21",
+  "venues": {
+   "kalshi": {
+    "ask": 0.34,
+    "ask_size": 166.25,
+    "fee": 0.0157,
+    "status": "ok",
+    "team": "Xtreme Gaming",
+    "ticker": "KXDOTA2GAME-26NOV211200XTREMETS-XTREME",
+    "url": "https://kalshi.com/markets/kxdota2game"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-ts8-xtreme-2026-11-21",
+    "status": "not_listed"
+   }
+  }
  }
 ]
