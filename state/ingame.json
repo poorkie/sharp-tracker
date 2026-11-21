@@ -1221,8 +1221,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "Aurora",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 28.21,
+  "result": "WIN",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-aur1-ai1-2026-11-21"
  },
@@ -1246,8 +1246,8 @@
   "idx": 0,
   "market_type": "child_moneyline",
   "pick": "Team Nemesis (Map 1)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-nem-gl-2026-11-21"
  },
@@ -1274,5 +1274,94 @@
   "result": null,
   "sport": "atp",
   "url": "https://polymarket.com/event/atp-alcaraz-shelton-2026-11-21"
+ },
+ {
+  "alerted_at": "2026-11-21T15:10:24.048287+00:00",
+  "cid": "0xb755c342bc3cfa885336924e1e39c6fe1f2b6eecc1ebc8c999c093d39f871619",
+  "delay_s": 451,
+  "elite_n": 2039,
+  "elite_price": 0.3598,
+  "elite_roi": 0.0709,
+  "elite_ts": "2026-11-21T15:02:53+00:00",
+  "elite_usd": 10274.87,
+  "elite_wallets": [
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a",
+   "0x80bac5c17aec3f5b3d0f01166b639cd453a02e78"
+  ],
+  "event_title": "Dota 2: Team Nemesis vs GamerLegion (BO3) - BLAST Slam Group B",
+  "fill_price": 0.46,
+  "fill_usd_available": 46.0,
+  "id": "0xb755c342-0-1795273824",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "Team Nemesis (Map 2)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-nem-gl-2026-11-21",
+  "venues": {
+   "kalshi": {
+    "ask": 0.46,
+    "ask_size": 91.27,
+    "fee": 0.0174,
+    "status": "ok",
+    "team": "Team Nemesis",
+    "ticker": "KXDOTA2MAP-26NOV210900GLNEM-2-NEM",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "ask": 0.46,
+    "market": "astatc-dota2-nem-gl-2026-11-21-game2",
+    "raw_ask": 0.46,
+    "raw_bid": 0.45,
+    "side": 0,
+    "status": "ok",
+    "url": "https://polymarket.us/event/dota2-nem-gl-2026-11-21"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-21T15:10:24.048287+00:00",
+  "cid": "0xeea40b80f6a34399a1a053a9e0148472899d3d0757c109996a59beea3c36c21b",
+  "delay_s": -70,
+  "elite_n": 1473,
+  "elite_price": 0.2643,
+  "elite_roi": 0.0974,
+  "elite_ts": "2026-11-21T15:11:34+00:00",
+  "elite_usd": 11554.17,
+  "elite_wallets": [
+   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1"
+  ],
+  "event_title": "Dota 2: Team Yandex vs Natus Vincere (BO3) - BLAST Slam Group A",
+  "fill_price": 0.27,
+  "fill_usd_available": 144.18,
+  "id": "0xeea40b80-1-1795273824",
+  "idx": 1,
+  "market_type": "child_moneyline",
+  "pick": "Natus Vincere (Map 1)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-ty-navi-2026-11-21",
+  "venues": {
+   "kalshi": {
+    "ask": 0.27,
+    "ask_size": 1054.0,
+    "fee": 0.0138,
+    "status": "ok",
+    "team": "Natus Vincere",
+    "ticker": "KXDOTA2MAP-26NOV210900NAVITY-1-NAVI",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "ask": 0.29,
+    "market": "astatc-dota2-ty-navi-2026-11-21-game1",
+    "raw_ask": 0.72,
+    "raw_bid": 0.71,
+    "side": 1,
+    "status": "ok",
+    "url": "https://polymarket.us/event/dota2-ty-navi-2026-11-21"
+   }
+  }
  }
 ]
