@@ -1250,5 +1250,29 @@
   "result": null,
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-nem-gl-2026-11-21"
+ },
+ {
+  "alerted_at": "2026-11-21T14:30:24.108037+00:00",
+  "cid": "0x5501fc55c35ccc9c714880095f601794e8c60ecbb13765400378793c9ce2cbd3",
+  "delay_s": 367,
+  "elite_n": 118,
+  "elite_price": 0.5,
+  "elite_roi": 0.2092,
+  "elite_ts": "2026-11-21T14:24:17+00:00",
+  "elite_usd": 29964.79,
+  "elite_wallets": [
+   "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3"
+  ],
+  "event_title": "ATP World Tour Finals, Final Stage: Carlos Alcaraz vs Ben Shelton",
+  "fill_price": 0.54,
+  "fill_usd_available": 11.16,
+  "id": "0x5501fc55-0-1795271424",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Carlos Alcaraz",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-alcaraz-shelton-2026-11-21"
  }
 ]
