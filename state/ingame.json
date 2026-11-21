@@ -881,5 +881,53 @@
   "result": null,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-ind-cle-2026-11-20"
+ },
+ {
+  "alerted_at": "2026-11-21T01:10:25.878032+00:00",
+  "cid": "0x18e150597c8306aa03c0142dffe805e34acab4fd431f219d2b68a01d295bcefa",
+  "delay_s": 434,
+  "elite_n": 772,
+  "elite_price": 0.82,
+  "elite_roi": 0.1198,
+  "elite_ts": "2026-11-21T01:03:11+00:00",
+  "elite_usd": 329.2,
+  "elite_wallets": [
+   "0x1bc32be106439240f59aa25668e613831a5cdc6e"
+  ],
+  "event_title": "Magic vs. Nets",
+  "fill_price": 0.84,
+  "fill_usd_available": 11658.72,
+  "id": "0x18e15059-0-1795223425",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Magic",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-orl-bkn-2026-11-20"
+ },
+ {
+  "alerted_at": "2026-11-21T01:10:25.878032+00:00",
+  "cid": "0xc23edb716686b45ab445afe7156474af544faf8523c9af87fafab28a35ff6362",
+  "delay_s": 101,
+  "elite_n": 119,
+  "elite_price": 0.6149,
+  "elite_roi": 0.1495,
+  "elite_ts": "2026-11-21T01:08:44+00:00",
+  "elite_usd": 1624.54,
+  "elite_wallets": [
+   "0xdbdd45150249e229eb4ca8aa48a30dca21faa5de"
+  ],
+  "event_title": "Delaware Fightin' Blue Hens vs. CSUN Matadors",
+  "fill_price": 0.57,
+  "fill_usd_available": 11.4,
+  "id": "0xc23edb71-1-1795223425",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "CSUN Matadors",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-del-csunr-2026-11-20"
  }
 ]
