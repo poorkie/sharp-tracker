@@ -1225,5 +1225,29 @@
   "result": null,
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-aur1-ai1-2026-11-21"
+ },
+ {
+  "alerted_at": "2026-11-21T14:00:23.222019+00:00",
+  "cid": "0xcb623dc3a90f0303c435073f81e42dcf3f15f3396882e8ce4ae9c76edb9b080e",
+  "delay_s": 294,
+  "elite_n": 2039,
+  "elite_price": 0.4261,
+  "elite_roi": 0.0709,
+  "elite_ts": "2026-11-21T13:55:29+00:00",
+  "elite_usd": 8658.6,
+  "elite_wallets": [
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a"
+  ],
+  "event_title": "Dota 2: Team Nemesis vs GamerLegion (BO3) - BLAST Slam Group B",
+  "fill_price": 0.34,
+  "fill_usd_available": 646.71,
+  "id": "0xcb623dc3-0-1795269623",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "Team Nemesis (Map 1)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-nem-gl-2026-11-21"
  }
 ]
