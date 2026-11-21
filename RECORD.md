@@ -1,6 +1,6 @@
 # Sharp Tracker: graded record
 
-Updated 2026-11-21 22:30 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
+Updated 2026-11-21 22:40 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
 
 ## Overall
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
@@ -29,7 +29,7 @@ Updated 2026-11-21 22:30 UTC. Every alert is logged at the price when it fired a
 | Alerted (UTC) | Sport | Pick | Entry | Close | Books fair | Sharps | Result |
 |---|---|---|---|---|---|---|---|
 | 2026-11-21 22:20 | NBA | [Over 218.5: Trail Blazers vs. Knicks](https://polymarket.com/event/nba-por-nyk-2026-11-21) | 0.43 | 0.40 | – | 5 / $4,360 | pending |
-| 2026-11-21 22:10 | NBA | [Knicks -5.5: Trail Blazers vs. Knicks](https://polymarket.com/event/nba-por-nyk-2026-11-21) | 0.41 | 0.36 | – | 4 / $4,171 | pending |
+| 2026-11-21 22:10 | NBA | [Knicks -5.5: Trail Blazers vs. Knicks](https://polymarket.com/event/nba-por-nyk-2026-11-21) | 0.41 | 0.35 | – | 4 / $4,171 | pending |
 | 2026-11-19 21:08 | NBA | [Under 225.5: Clippers vs. Spurs](https://polymarket.com/event/nba-lac-sas-2026-11-19) | 0.53 | 0.54 | – | 4 / $2,616 | LOSS (-100) |
 | 2026-11-19 18:20 | NFL | [Texans: Colts vs. Texans](https://polymarket.com/event/nfl-ind-hou-2026-11-20) | 0.84 | 0.84 | 84% | 3 / $7,469 | WIN (+18) |
 | 2026-11-18 17:40 | NBA | [Raptors: Wizards vs. Raptors](https://polymarket.com/event/nba-was-tor-2026-11-18) | 0.69 | 0.61 | 68% | 3 / $9,369 | LOSS (-100) |
