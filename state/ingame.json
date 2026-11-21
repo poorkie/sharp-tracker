@@ -832,5 +832,30 @@
   "result": null,
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-gast-jaxst-2026-11-20"
+ },
+ {
+  "alerted_at": "2026-11-21T00:40:31.950545+00:00",
+  "cid": "0x8045cbc5e564fb705352aaf4421544f346851009cfae0b0d94e44005d095d499",
+  "delay_s": 251,
+  "elite_n": 772,
+  "elite_price": 0.39,
+  "elite_roi": 0.1198,
+  "elite_ts": "2026-11-21T00:36:20+00:00",
+  "elite_usd": 3181.67,
+  "elite_wallets": [
+   "0x1bc32be106439240f59aa25668e613831a5cdc6e",
+   "0x760907c8840491c8c86fddb843d3f1d801786c4e"
+  ],
+  "event_title": "Hornets vs. Hawks",
+  "fill_price": 0.34,
+  "fill_usd_available": 23901.18,
+  "id": "0x8045cbc5-0-1795221631",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Hornets",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-cha-atl-2026-11-20"
  }
 ]
