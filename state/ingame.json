@@ -1733,8 +1733,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "Alexander Zverev",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 69.49,
+  "result": "WIN",
   "sport": "atp",
   "url": "https://polymarket.com/event/atp-zverev-medvede-2026-11-21",
   "venues": {
@@ -1742,6 +1742,7 @@
     "ask": 0.61,
     "ask_size": 280710.28,
     "fee": 0.0167,
+    "pnl_100": 59.57,
     "status": "ok",
     "team": "Alexander Zverev",
     "ticker": "KXATPMATCH-26NOV21ZVEMED-ZVE",
