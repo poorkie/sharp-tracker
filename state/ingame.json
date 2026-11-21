@@ -1100,5 +1100,56 @@
   "result": null,
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-pr1-redjoh-2026-11-14"
+ },
+ {
+  "alerted_at": "2026-11-21T11:10:19.540156+00:00",
+  "cid": "0x55f38a91455c08eff5882ec0feb896bb2dc972b752b54dc29252de8314ed8ea7",
+  "delay_s": 305,
+  "elite_n": 1029,
+  "elite_price": 0.5,
+  "elite_roi": 0.0892,
+  "elite_ts": "2026-11-21T11:05:14+00:00",
+  "elite_usd": 19970.97,
+  "elite_wallets": [
+   "0x80bac5c17aec3f5b3d0f01166b639cd453a02e78",
+   "0x3231d2d67053e5dc3715f6429124741e52866e75",
+   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1"
+  ],
+  "event_title": "Dota 2: LGD Gaming vs 1win (BO3) - BLAST Slam Group D",
+  "fill_price": 0.47,
+  "fill_usd_available": 86.61,
+  "id": "0x55f38a91-0-1795259419",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "LGD Gaming (Map 1)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-lgd-1win-2026-11-21"
+ },
+ {
+  "alerted_at": "2026-11-21T11:10:19.540156+00:00",
+  "cid": "0x033007436ef1eb3d1c0a10c98853e4240756667ac9fe08b2cdbf2d36e8144bab",
+  "delay_s": -82,
+  "elite_n": 1473,
+  "elite_price": 0.4147,
+  "elite_roi": 0.0974,
+  "elite_ts": "2026-11-21T11:11:41+00:00",
+  "elite_usd": 14782.29,
+  "elite_wallets": [
+   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1",
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a"
+  ],
+  "event_title": "Dota 2: Aurora vs Astra Invicta (BO3) - BLAST Slam Group D",
+  "fill_price": 0.41,
+  "fill_usd_available": 4245.93,
+  "id": "0x03300743-1-1795259419",
+  "idx": 1,
+  "market_type": "child_moneyline",
+  "pick": "Astra Invicta (Map 1)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-aur1-ai1-2026-11-21"
  }
 ]
