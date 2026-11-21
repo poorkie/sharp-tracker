@@ -1137,6 +1137,10 @@
             "format": "uuid",
             "type": "string"
           },
+          "ids": {
+            "$ref": "#/components/schemas/VendorIds",
+            "description": "The IDs that data vendors give the competitor."
+          },
           "marketIds": {
             "description": "IDs of the event's markets about this competitor alone, such as its team\ntotal. A market on the whole game, such as a moneyline, lists under\nneither side.",
             "items": {
@@ -1160,6 +1164,7 @@
         },
         "required": [
           "competitorId",
+          "ids",
           "marketIds"
         ],
         "type": "object"
@@ -1340,6 +1345,10 @@
             "format": "uuid",
             "type": "string"
           },
+          "ids": {
+            "$ref": "#/components/schemas/VendorIds",
+            "description": "The IDs that data vendors give the event."
+          },
           "league": {
             "description": "A canonical name from `GET /v3/types/leagues`. One league belongs to one sport.",
             "example": "NFL",
@@ -1366,7 +1375,8 @@
           "sport",
           "league",
           "status",
-          "startsTs"
+          "startsTs",
+          "ids"
         ],
         "type": "object"
       },
@@ -2953,6 +2963,10 @@
                       "format": "uuid",
                       "type": "string"
                     },
+                    "ids": {
+                      "$ref": "#/components/schemas/VendorIds",
+                      "description": "The IDs that data vendors give the event."
+                    },
                     "league": {
                       "description": "A canonical name from `GET /v3/types/leagues`. One league belongs to one sport.",
                       "example": "NFL",
@@ -2979,7 +2993,8 @@
                     "sport",
                     "league",
                     "status",
-                    "startsTs"
+                    "startsTs",
+                    "ids"
                   ],
                   "type": "object"
                 },
@@ -4695,6 +4710,10 @@
             "format": "uuid",
             "type": "string"
           },
+          "ids": {
+            "$ref": "#/components/schemas/VendorIds",
+            "description": "The IDs that data vendors give the player."
+          },
           "marketIds": {
             "description": "IDs of the event's markets about this player.",
             "items": {
@@ -4719,6 +4738,7 @@
         },
         "required": [
           "playerId",
+          "ids",
           "marketIds"
         ],
         "type": "object"
@@ -5215,6 +5235,20 @@
           "Rejected"
         ],
         "type": "string"
+      },
+      "VendorIds": {
+        "description": "The IDs that data vendors give one entity. A vendor with no ID for the\nentity is absent.",
+        "properties": {
+          "oo": {
+            "description": "Optic Odds ID.",
+            "type": "string"
+          },
+          "sr": {
+            "description": "Sportradar ID.",
+            "type": "string"
+          }
+        },
+        "type": "object"
       },
       "Voidability": {
         "description": "How a market settles if it voids. `PUSH` refunds every fill at its cost. `FMV` settles every outcome at its fair market value. The exchange never pushes an `FMV` market. Do not assume a refund.",

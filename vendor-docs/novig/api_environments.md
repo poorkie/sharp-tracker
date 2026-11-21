@@ -17,9 +17,11 @@ export NOVIG_HOST=https://api.paper.novig.com
 | Paper | `https://api.paper.novig.com` | Play | No |
 | Production | `https://api.novig.com` | Real | Yes |
 
-Paper is our play-money exchange. It runs the same API as Production, without the location check.
+Paper is our play-money exchange. It runs the same API as Production, except RFQ, and skips the location check.
 
-In both environments, you create a key on Profile.
+Every `/rfq/v3` route returns `404` on Paper, so register and test your maker on Production.
+
+If you sign in on the web, you create a key on Profile in both environments.
 
 In Paper, use [Profile](https://paper.novig.com/Profile/ProfileScreen) on paper.novig.com. In Production, use [Profile](https://novig.com/Profile/ProfileScreen) on novig.com.
 
@@ -44,6 +46,14 @@ Press **Fill in KYC Data, Accept all Terms, and Start with \$10,000**.
 Open [Profile](https://paper.novig.com/Profile/ProfileScreen), then press **Settings** and **Novig API**.
 
 Production runs a real identity check and a location check, and trades real money.
+
+## Test with an API-only account
+
+If your account has no web login, you can't create a Paper key.
+
+Test on QA instead, at `https://api-qa.novig.us`. QA runs the same v3 API as Paper, so RFQ isn't on QA either.
+
+If we sent you a QA client ID and secret, use them to [create your management key](https://docs.novig.com/api/api-keys.md#create-it-with-a-client-id-and-secret), with `NOVIG_HOST` set to `https://api-qa.novig.us`.
 
 ## Each environment has its own keys
 
