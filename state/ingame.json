@@ -1648,8 +1648,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "PlayTime",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-playti-og-2026-11-21",
   "venues": {
@@ -1657,6 +1657,7 @@
     "ask": 0.38,
     "ask_size": 330.25,
     "fee": 0.0165,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "PlayTime",
     "ticker": "KXDOTA2GAME-26NOV211200OGPLAT-PLAT",
