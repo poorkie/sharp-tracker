@@ -929,5 +929,29 @@
   "result": null,
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-del-csunr-2026-11-20"
+ },
+ {
+  "alerted_at": "2026-11-21T01:20:18.081753+00:00",
+  "cid": "0xa23a00cde01ce10a8423cac639fe3ef1de2751072b67cd8da5dc9b640447045b",
+  "delay_s": -8,
+  "elite_n": 772,
+  "elite_price": 0.1311,
+  "elite_roi": 0.1198,
+  "elite_ts": "2026-11-21T01:20:26+00:00",
+  "elite_usd": 1415.89,
+  "elite_wallets": [
+   "0x1bc32be106439240f59aa25668e613831a5cdc6e"
+  ],
+  "event_title": "Pelicans vs. Thunder",
+  "fill_price": 0.22,
+  "fill_usd_available": 13116.84,
+  "id": "0xa23a00cd-0-1795224018",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Pelicans",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-nop-okc-2026-11-20"
  }
 ]

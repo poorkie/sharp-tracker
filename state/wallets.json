@@ -247831,7 +247831,7 @@
   }
  },
  "0xe1faef87550af372f64bdf5dc14daf0d678e9c2c": {
-  "graded_at": "2026-11-14T01:20:15.725008+00:00",
+  "graded_at": "2026-11-21T01:20:18.081753+00:00",
   "grades": {
    "dota2": {
     "avg_price": 0.77,
@@ -247873,16 +247873,16 @@
     "tier": "NONE"
    },
    "nba": {
-    "avg_price": 0.494,
-    "hit_edge": 0.006,
-    "hit_rate": 0.5,
-    "n": 24,
-    "pnl": -3555.85,
-    "roi": -0.0549,
-    "shrunk_roi": -0.0393,
+    "avg_price": 0.495,
+    "hit_edge": 0.041,
+    "hit_rate": 0.536,
+    "n": 28,
+    "pnl": 2923.28,
+    "roi": 0.0374,
+    "shrunk_roi": -0.0022,
     "sport": "nba",
-    "staked": 64763.56,
-    "t_stat": -0.19,
+    "staked": 78070.84,
+    "t_stat": 0.23,
     "tier": "NONE"
    }
   }
