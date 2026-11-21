@@ -143,6 +143,11 @@ def kalshi_quote(m: dict, idx: int) -> dict:
     except Exception as e:
         return {"status": "error", "reason": str(e)[:120]}
     n = map_number(m) if m["market_type"] == "child_moneyline" else None
+    # pro leagues: polymarket.com says "Bucks", Kalshi says "Milwaukee", so
+    # also match on the team codes in the slug ("nba-mil-phi-..." -> MIL)
+    parts = (m.get("event_slug") or "").split("-")
+    codes = [c.upper() for c in parts[1:3]] if m["sport"] in ("nba", "nhl") and len(parts) > 3 else []
+    code_of = lambda x: (x.get("ticker") or "").rsplit("-", 1)[-1]
     by_event: dict[str, list] = {}
     for mk in mkts:
         by_event.setdefault(mk.get("event_ticker", ""), []).append(mk)
@@ -151,6 +156,9 @@ def kalshi_quote(m: dict, idx: int) -> dict:
             continue
         a = next((x for x in group if team_matches(pick, _kalshi_team(x))), None)
         b = next((x for x in group if x is not a and team_matches(other, _kalshi_team(x))), None)
+        if (not a or not b) and codes:
+            a = next((x for x in group if code_of(x) == codes[idx]), None)
+            b = next((x for x in group if x is not a and code_of(x) == codes[1 - idx]), None)
         if not a or not b:
             continue
         when = a.get("occurrence_datetime") or a.get("expected_expiration_time")

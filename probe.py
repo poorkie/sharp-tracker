@@ -13,7 +13,7 @@ pool += [m for m in up if m["market_type"] == "child_moneyline"][:10]
 out = [f"live {len(live)}, testing {len(pool)} markets"]
 stat = Counter()
 shown = Counter()
-for m in pool[:70]:
+for m in [x for x in pool if x["sport"] in ("nba","nhl")][:40]:
     q = venues.quotes(m, 0)
     for v in ("kalshi", "pmus"):
         stat[(m["sport"], m["market_type"], v, q[v]["status"])] += 1
