@@ -1690,8 +1690,8 @@
   "idx": 1,
   "market_type": "child_moneyline",
   "pick": "Xtreme Gaming (Map 2)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 300.0,
+  "result": "WIN",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-ts8-xtreme-2026-11-21",
   "venues": {
@@ -1699,6 +1699,7 @@
     "ask": 0.28,
     "ask_size": 98.0,
     "fee": 0.0141,
+    "pnl_100": 240.02,
     "status": "ok",
     "team": "Xtreme Gaming",
     "ticker": "KXDOTA2MAP-26NOV211200XTREMETS-2-XTREME",
