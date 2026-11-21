@@ -133960,6 +133960,9 @@
  },
  "0x7540a150c5ebbba824515ed0adced4627046d93b": {
   "fp": [
+   "3acc667b:fcd",
+   "e1eadee7:09b",
+   "1e6b92e0:746",
    "1dd54b5d:c91",
    "9b26fcfa:934",
    "37bf6095:c0d",
@@ -133995,19 +133998,19 @@
    "26880da7:851",
    "2ab8c345:71b"
   ],
-  "graded_at": "2026-11-14T09:20:19.563737+00:00",
+  "graded_at": "2026-11-21T09:20:23.603479+00:00",
   "grades": {
    "dota2": {
-    "avg_price": 0.615,
-    "hit_edge": 0.112,
-    "hit_rate": 0.727,
-    "n": 33,
-    "pnl": 9485.59,
-    "roi": 0.2622,
-    "shrunk_roi": 0.1021,
+    "avg_price": 0.608,
+    "hit_edge": 0.086,
+    "hit_rate": 0.694,
+    "n": 36,
+    "pnl": 10418.67,
+    "roi": 0.2386,
+    "shrunk_roi": 0.0972,
     "sport": "dota2",
-    "staked": 36182.62,
-    "t_stat": 1.46,
+    "staked": 43666.82,
+    "t_stat": 1.28,
     "tier": "SHARP"
    },
    "nba": {
