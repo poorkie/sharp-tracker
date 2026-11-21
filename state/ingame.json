@@ -1122,8 +1122,8 @@
   "idx": 0,
   "market_type": "child_moneyline",
   "pick": "LGD Gaming (Map 1)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-lgd-1win-2026-11-21"
  },
@@ -1175,5 +1175,29 @@
   "result": null,
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-aur1-ai1-2026-11-21"
+ },
+ {
+  "alerted_at": "2026-11-21T12:50:24.394504+00:00",
+  "cid": "0x310bb9718f378883d7dd390a6df225bd9e6a49b3e618cbf3e752f45d36c3acd7",
+  "delay_s": 29,
+  "elite_n": 1029,
+  "elite_price": 0.49,
+  "elite_roi": 0.0892,
+  "elite_ts": "2026-11-21T12:49:55+00:00",
+  "elite_usd": 980.0,
+  "elite_wallets": [
+   "0x80bac5c17aec3f5b3d0f01166b639cd453a02e78"
+  ],
+  "event_title": "Dota 2: LGD Gaming vs 1win (BO3) - BLAST Slam Group D",
+  "fill_price": 0.53,
+  "fill_usd_available": 2795.86,
+  "id": "0x310bb971-0-1795265424",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "LGD Gaming (Map 2)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-lgd-1win-2026-11-21"
  }
 ]
