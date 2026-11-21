@@ -423,13 +423,13 @@ def test_ingame_record_one_pick_per_side_and_grading(monkeypatch):
     live = _live()
     book = []
     sigs = ingame.detect([_t("e", "BUY", 600), _t("f", "BUY", 800, min_ago=2)], live, g, {}, book, NOW, LIVE_CFG)
-    new = ingame.record(book, sigs, live, NOW, LIVE_CFG, ask=lambda tok: (0.52, 400))
+    new = ingame.record(book, sigs, live, NOW, LIVE_CFG, ask=lambda tok: (0.52, 400), quote=False)
     assert len(new) == 1 and len(book) == 1 and book[0]["elite_wallets"] == ["e", "f"]
     assert book[0]["fill_price"] == 0.52 and book[0]["delay_s"] == 180
     other = ingame.detect([_t("x", "BUY", 900, idx=1)], live, g, {}, book, NOW, LIVE_CFG)
-    assert ingame.record(book, other, live, NOW, LIVE_CFG, ask=lambda tok: (0.48, 400)) == []  # conflict
+    assert ingame.record(book, other, live, NOW, LIVE_CFG, ask=lambda tok: (0.48, 400), quote=False) == []  # conflict
     far = ingame.detect([_t("x", "BUY", 900)], {"c1": {**live["c1"], "condition_id": "c1"}}, g, {}, [], NOW, LIVE_CFG)
-    assert ingame.record([], far, live, NOW, LIVE_CFG, ask=lambda tok: (0.98, 400)) == []    # out of band
+    assert ingame.record([], far, live, NOW, LIVE_CFG, ask=lambda tok: (0.98, 400), quote=False) == []    # out of band
     monkeypatch.setattr(ingame.api, "markets_by_condition",
                         lambda ids, closed: [{"conditionId": "c1", "outcomePrices": '["1","0"]'}])
     assert ingame.grade(book, NOW + timedelta(hours=2)) == 1
@@ -529,3 +529,45 @@ def test_merge_live_replaces_slow_scan_pick():
     assert ingame.merge_live(book, live) == 0                     # idempotent
     s = ingame.site_data(book)["by_source"]
     assert s["live"]["pending"] == 2 and s["scan"]["pending"] == 0
+
+
+def test_venue_quotes_match_kalshi_and_pmus(monkeypatch):
+    from sharp import venues
+    venues._cache.clear()
+    m = {"sport": "dota2", "market_type": "child_moneyline", "event_slug": "dota2-nem-gl-2026-11-21",
+         "outcomes": ["Team Nemesis", "GamerLegion"], "question": "Game 2 Winner",
+         "game_start": "2026-11-21T14:00:00+00:00"}
+    kal = [{"ticker": "KXDOTA2MAP-26NOV21NEMGL-2-NEM", "event_ticker": "KXDOTA2MAP-26NOV21NEMGL-2",
+            "rules_primary": "If Team Nemesis wins map 2 of ...", "yes_ask_dollars": "0.4000",
+            "occurrence_datetime": "2026-11-21T16:00:00Z"},
+           {"ticker": "KXDOTA2MAP-26NOV21NEMGL-2-GL", "event_ticker": "KXDOTA2MAP-26NOV21NEMGL-2",
+            "rules_primary": "If GamerLegion wins map 2 of ...", "yes_ask_dollars": "0.6300",
+            "occurrence_datetime": "2026-11-21T16:00:00Z"},
+           {"ticker": "KXDOTA2MAP-26NOV21NEMGL-1-GL", "event_ticker": "KXDOTA2MAP-26NOV21NEMGL-1",
+            "rules_primary": "If GamerLegion wins map 1", "yes_ask_dollars": "0.9000",
+            "occurrence_datetime": "2026-11-21T16:00:00Z"}]
+
+    def fake(url, params=None):
+        if url.endswith("/markets") and "kalshi" in url:
+            return {"markets": kal, "cursor": ""}
+        if "kalshi" in url:
+            t = url.rsplit("/", 1)[1]
+            return {"market": next(x for x in kal if x["ticker"] == t)}
+        if "/events/slug/" in url:
+            return {"event": {"markets": [
+                {"slug": "astatc-dota2-nem-gl-2026-11-21-game2", "question": "Will Team Nemesis win Game 2 vs GamerLegion?"},
+                {"slug": "aec-dota2-nem-gl-2026-11-21", "marketType": "moneyline", "outcomes": '["Team Nemesis","GamerLegion"]'}]}}
+        if url.endswith("/bbo"):
+            return {"marketData": {"bestAsk": {"value": "0.4200"}, "bestBid": {"value": "0.3900"}}}
+        raise AssertionError(url)
+    monkeypatch.setattr(venues, "_get", fake)
+    q = venues.quotes(m, 1)                                   # GamerLegion, map 2
+    assert q["kalshi"]["status"] == "ok" and q["kalshi"]["ask"] == 0.63
+    assert q["kalshi"]["ticker"].endswith("-2-GL")
+    assert q["pmus"]["status"] == "ok" and q["pmus"]["ask"] == 0.61   # 1 - best bid on Nemesis
+    q0 = venues.quotes(m, 0)
+    assert q0["pmus"]["ask"] == 0.42 and q0["kalshi"]["ask"] == 0.40
+    m2 = dict(m, market_type="moneyline", question="Nemesis vs GamerLegion")
+    assert venues.quotes(m2, 1)["pmus"]["ask"] == 0.61
+    assert venues.quotes(dict(m, sport="epl"), 0)["kalshi"]["status"] == "not_offered"
+    assert venues.pnl_100(0.5, "WIN") == 100.0 and venues.pnl_100(0.5, "LOSS") == -100.0

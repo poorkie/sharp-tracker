@@ -74,12 +74,15 @@ def detect(trades: list[dict], live: dict, grades: dict, entity: dict,
 
 
 def record(book: list, sigs: list[dict], live: dict, now: datetime, cfg: dict,
-           ask=None) -> list[dict]:
+           ask=None, quote=None) -> list[dict]:
     """Turn new Elite in-game bets into paper picks. One pick per market
     side; extra Elite bettors on the same side are added to it. A side that
     conflicts with an existing pick on the same market is skipped."""
     band = cfg["ingame"]["price_band"]
     ask = ask or api.best_ask
+    if quote is None and cfg["ingame"].get("venues"):
+        from . import venues
+        quote = venues.quotes
     new = []
     for s in sigs:
         m = live[s["cid"]]
@@ -113,6 +116,8 @@ def record(book: list, sigs: list[dict], live: dict, now: datetime, cfg: dict,
              "fill_price": price, "fill_usd_available": round(price * size, 2),
              "delay_s": int(now.timestamp()) - s["ts_last"],
              "result": None, "pnl_100": None}
+        if quote:
+            e["venues"] = quote(m, s["idx"])
         book.append(e)
         new.append(e)
     return new
@@ -235,6 +240,10 @@ def grade(book: list, now: datetime) -> int:
             e["result"], e["pnl_100"] = "LOSS", -100.0
         else:
             e["result"], e["pnl_100"] = "VOID", 0.0
+        for v in (e.get("venues") or {}).values():
+            if v.get("status") == "ok":
+                from .venues import pnl_100
+                v["pnl_100"] = pnl_100(v["ask"], e["result"], v.get("fee", 0.0))
         nv = e.get("novig") or {}
         if nv.get("filled_contracts"):
             payout = nv["filled_contracts"] * 0.01 if e["result"] == "WIN" else \
@@ -281,11 +290,34 @@ def novig_summary(rows: list) -> dict:
             "statuses": dict(reasons)}
 
 
+def venue_summary(rows: list) -> dict:
+    """How the same picks would have done on Kalshi / Polymarket US."""
+    out = {}
+    for name in ("kalshi", "pmus"):
+        tried = [r for r in rows if (r.get("venues") or {}).get(name)]
+        ok = [r for r in tried if r["venues"][name].get("status") == "ok"]
+        done = [r for r in ok if r["venues"][name].get("pnl_100") is not None and r["result"] in ("WIN", "LOSS")]
+        pnl = sum(r["venues"][name]["pnl_100"] for r in done)
+        same = [r for r in done]
+        poly = sum(r["pnl_100"] for r in same)
+        gaps = [r["venues"][name]["ask"] + r["venues"][name].get("fee", 0) - r["fill_price"] for r in ok]
+        st = defaultdict(int)
+        for r in tried:
+            st[r["venues"][name]["status"]] += 1
+        out[name] = {"tried": len(tried), "priced": len(ok), "n": len(done),
+                     "w": sum(r["result"] == "WIN" for r in done), "l": sum(r["result"] == "LOSS" for r in done),
+                     "units": round(pnl / 100, 2), "roi": round(pnl / (100 * len(done)), 4) if done else 0.0,
+                     "poly_units_same": round(poly / 100, 2),
+                     "avg_gap_c": round(100 * sum(gaps) / len(gaps), 1) if gaps else None,
+                     "pending": sum(r["result"] is None for r in ok), "statuses": dict(st)}
+    return out
+
+
 def site_data(book: list) -> dict:
     by_sport = defaultdict(list)
     for e in book:
         by_sport[e["sport"]].append(e)
-    return {"record": summary(book), "novig": novig_summary(book),
+    return {"record": summary(book), "novig": novig_summary(book), "venues": venue_summary(book),
             "by_sport": {k: summary(v) for k, v in sorted(by_sport.items())},
             "by_source": {k: summary([e for e in book if (e.get("source") or "scan") == k])
                           for k in ("live", "scan")},

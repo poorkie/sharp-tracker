@@ -143,6 +143,7 @@ ingame:
   # Only act on Elite bets placed within the last N minutes (the edge fades
   # after ~10 min; scans run every ~10 min).
   max_delay_minutes: 15
+  venues: true               # also price each pick on Kalshi + Polymarket US
   live_max_delay_s: 120      # real-time watcher only acts on bets this fresh
   price_band: { min: 0.05, max: 0.95 }
   # Also place each in-game pick as a real order on Novig's PAPER exchange

@@ -1,40 +1,31 @@
-"""One-off #3: can a polymarket.com game be found on Polymarket US by slug? Writes PROBE.md."""
-import json, traceback, requests, yaml
+"""One-off #4: real-world test of sharp.venues on current games. Writes PROBE.md."""
+import json, yaml
+from collections import Counter
 from datetime import datetime, timezone
-from sharp import markets
-out = []
-def p(*a): out.append(" ".join(str(x) for x in a))
-G = "https://gateway.polymarket.us"
+from sharp import markets, venues
 cfg = yaml.safe_load(open("config.yaml"))
 now = datetime.now(timezone.utc)
 live = []
 up = markets.upcoming_markets(cfg, now, live)
-p("live", len(live), "upcoming", len(up))
-p("sample market dict keys:", list((live or up)[0].keys()))
-seen = []
-for m in live + up:
-    if m["sport"] in ("dota2", "lol", "nba", "nhl", "cbb", "atp") and m["event_slug"] not in seen:
-        seen.append(m["event_slug"])
-picked = []
-for sp in ("dota2", "lol", "nba", "nhl", "cbb", "atp"):
-    picked += [s for s in seen if s.startswith(sp)][:3]
-for slug in picked:
-    for pre in ("", "aec-", "tec-"):
-        r = requests.get(f"{G}/v1/events/slug/{pre}{slug}", timeout=20)
-        if r.status_code == 200:
-            e = r.json().get("event") or r.json()
-            p(f"HIT {pre}{slug}: {e.get('title')} live={e.get('live')}")
-            for mk in (e.get("markets") or [])[:6]:
-                p("   mk", json.dumps({k: mk.get(k) for k in ("slug", "question", "outcomes", "outcomePrices", "sportsMarketType", "marketType", "groupItemTitle", "active", "closed")})[:400])
-            break
-    else:
-        p(f"miss {slug}")
-# also: how to list game events for a sport
-for params in ({"seriesSlug": "dota2-2025"}, {"series": "64"}, {"tags": "258"}, {"tagId": "258"}, {"sport": "dota2"}, {"category": "sports", "live": "true"}):
-    r = requests.get(f"{G}/v1/events", params={**params, "active": "true", "closed": "false", "limit": 5}, timeout=20)
-    try:
-        ev = r.json().get("events") or []
-        p("list", params, r.status_code, [(x.get("slug"), x.get("live")) for x in ev])
-    except Exception:
-        p("list", params, r.status_code, r.text[:200])
+pool = [m for m in live] + [m for m in up if m["market_type"] == "moneyline" and m["sport"] in ("dota2", "lol", "nba", "nhl", "cbb", "atp")]
+# child moneyline for upcoming esports too
+pool += [m for m in up if m["market_type"] == "child_moneyline"][:10]
+out = [f"live {len(live)}, testing {len(pool)} markets"]
+stat = Counter()
+shown = Counter()
+for m in pool[:70]:
+    q = venues.quotes(m, 0)
+    for v in ("kalshi", "pmus"):
+        stat[(m["sport"], m["market_type"], v, q[v]["status"])] += 1
+    key = (m["sport"], m["market_type"])
+    if shown[key] < 3:
+        shown[key] += 1
+        out.append(f"\n{m['sport']} {m['market_type']} | {m['event_title']} | {m['question']} | pick {m['outcomes'][0]} | poly prices {m['prices']}")
+        out.append("  kalshi: " + json.dumps(q["kalshi"]))
+        out.append("  pmus:   " + json.dumps(q["pmus"]))
+        q1 = venues.quotes(m, 1)
+        out.append(f"  other side: kalshi {q1['kalshi'].get('ask')} pmus {q1['pmus'].get('ask')}")
+out.append("\n## status counts")
+for k, n in sorted(stat.items()):
+    out.append(f"{k}: {n}")
 open("PROBE.md", "w").write("\n".join(out))
