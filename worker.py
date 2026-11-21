@@ -124,6 +124,7 @@ class State:
         self.live: dict = {}
         self.book: list = []          # scan picks + live picks, for conflict checks
         self.loaded_at = 0.0
+        self.loops = self.trades_seen = self.elite_seen = 0
 
     def refresh(self) -> None:
         now = datetime.now(timezone.utc)
@@ -157,6 +158,9 @@ def loop_once(st: State, channels: list[str]) -> list[dict]:
     sigs = ingame.detect(trades, st.live, st.grades, {}, st.book, now, cfg)
     # only act on fresh bets: older ones were (or will be) handled by the scan
     fresh = [s for s in sigs if int(now.timestamp()) - s["ts_last"] <= ig.get("live_max_delay_s", 120)]
+    st.loops += 1
+    st.trades_seen = len(trades)
+    st.elite_seen += len(fresh)
     new = ingame.record(st.book, fresh, st.live, now, cfg)
     for e in new:
         e["source"] = "live"
@@ -182,6 +186,10 @@ def main() -> None:
     while True:
         try:
             if time.time() - st.loaded_at > REFRESH_MIN * 60:
+                if st.loops:
+                    log.info("alive: %d checks in the last %d min, %d recent trades on live games, "
+                             "%d fresh Elite bets", st.loops, REFRESH_MIN, st.trades_seen, st.elite_seen)
+                st.loops = st.elite_seen = 0
                 st.refresh()
             t0 = time.time()
             total += len(loop_once(st, channels))
