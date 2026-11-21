@@ -1296,8 +1296,8 @@
   "idx": 0,
   "market_type": "child_moneyline",
   "pick": "Team Nemesis (Map 2)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-nem-gl-2026-11-21",
   "venues": {
@@ -1305,6 +1305,7 @@
     "ask": 0.46,
     "ask_size": 91.27,
     "fee": 0.0174,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "Team Nemesis",
     "ticker": "KXDOTA2MAP-26NOV210900GLNEM-2-NEM",
@@ -1313,6 +1314,7 @@
    "pmus": {
     "ask": 0.46,
     "market": "astatc-dota2-nem-gl-2026-11-21-game2",
+    "pnl_100": -100.0,
     "raw_ask": 0.46,
     "raw_bid": 0.45,
     "side": 0,
@@ -1373,10 +1375,11 @@
   "elite_price": 0.3969,
   "elite_roi": 0.2284,
   "elite_ts": "2026-11-21T16:22:19+00:00",
-  "elite_usd": 10584.39,
+  "elite_usd": 12924.99,
   "elite_wallets": [
    "0x3231d2d67053e5dc3715f6429124741e52866e75",
-   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a"
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a",
+   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1"
   ],
   "event_title": "Dota 2: PlayTime vs OG (BO3) - BLAST Slam Group A",
   "fill_price": 0.43,
