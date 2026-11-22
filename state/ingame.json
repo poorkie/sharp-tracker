@@ -3109,8 +3109,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "George Washington Revolutionaries",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-geows-wkent-2026-11-22",
   "venues": {
@@ -3118,6 +3118,7 @@
     "ask": 0.37,
     "ask_size": 3353.59,
     "fee": 0.0163,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "George Washington",
     "ticker": "KXNCAAMBGAME-26NOV22WKUGW-GW",
