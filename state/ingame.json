@@ -1836,5 +1836,39 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-22T00:00:26.138801+00:00",
+  "cid": "0x75d6afdaf2b447aacc21efdf4912a9b37f740c8dab6144c8b51d260f15fd82e7",
+  "delay_s": -33,
+  "elite_n": 1142,
+  "elite_price": 0.64,
+  "elite_roi": 0.1775,
+  "elite_ts": "2026-11-22T00:00:59+00:00",
+  "elite_usd": 3200.0,
+  "elite_wallets": [
+   "0x3e04fbc51adb75418129f6ce2091ae633070564d"
+  ],
+  "event_title": "Kings vs. Senators",
+  "fill_price": 0.65,
+  "fill_usd_available": 5271.12,
+  "id": "0x75d6afda-1-1795305626",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Senators",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nhl",
+  "url": "https://polymarket.com/event/nhl-lak-ott-2026-11-21",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/nhl-lak-ott-2026-11-21",
+    "status": "not_listed"
+   }
+  }
  }
 ]
