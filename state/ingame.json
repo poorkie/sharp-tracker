@@ -3164,5 +3164,39 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-22T20:10:22.878385+00:00",
+  "cid": "0xc562d1e0205a4adc2dd8130c7be314a79bf25d32694dc6648c90c5fb923d2203",
+  "delay_s": 30,
+  "elite_n": 481,
+  "elite_price": 0.4663,
+  "elite_roi": 0.101,
+  "elite_ts": "2026-11-22T20:09:52+00:00",
+  "elite_usd": 3939.38,
+  "elite_wallets": [
+   "0xf5fe759cece500f58a431ef8dacea321f6e3e23d"
+  ],
+  "event_title": "San Salvador: Juan Miguel Bolivar Idarraga vs Jody Maginley",
+  "fill_price": 0.5,
+  "fill_usd_available": 5385.47,
+  "id": "0xc562d1e0-1-1795378222",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Jody Maginley",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-idarrag-maginle-2026-11-22",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-idarrag-maginle-2026-11-22",
+    "status": "not_listed"
+   }
+  }
  }
 ]
