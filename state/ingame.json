@@ -2874,8 +2874,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "Juan Carlos Fuentes Vasquez",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 17.65,
+  "result": "WIN",
   "sport": "atp",
   "url": "https://polymarket.com/event/atp-vasquez-urrea-2026-11-22",
   "venues": {
@@ -2909,8 +2909,8 @@
   "idx": 1,
   "market_type": "child_moneyline",
   "pick": "Astra Invicta (Map 1)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 100.0,
+  "result": "WIN",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-lgd-ai1-2026-11-22",
   "venues": {
@@ -2918,6 +2918,7 @@
     "ask": 0.5,
     "ask_size": 286.0,
     "fee": 0.0175,
+    "pnl_100": 93.24,
     "status": "ok",
     "team": "Astra Invicta",
     "ticker": "KXDOTA2MAP-26NOV221200AILGD-1-AI",
@@ -2950,8 +2951,8 @@
   "idx": 1,
   "market_type": "child_moneyline",
   "pick": "Aurora (Map 1)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-1win-aur1-2026-11-22",
   "venues": {
@@ -2959,6 +2960,7 @@
     "ask": 0.42,
     "ask_size": 96.0,
     "fee": 0.0171,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "Aurora",
     "ticker": "KXDOTA2MAP-26NOV221200AUR1WIN-1-AUR",
@@ -3051,9 +3053,11 @@
   "elite_price": 0.532,
   "elite_roi": 0.0974,
   "elite_ts": "2026-11-22T19:09:59+00:00",
-  "elite_usd": 16834.3,
+  "elite_usd": 28951.05,
   "elite_wallets": [
-   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1"
+   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1",
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a",
+   "0x80bac5c17aec3f5b3d0f01166b639cd453a02e78"
   ],
   "event_title": "Dota 2: 1win vs Aurora (BO3) - BLAST Slam Group D",
   "fill_price": 0.55,
@@ -3078,6 +3082,84 @@
    },
    "pmus": {
     "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-1win-aur1-2026-11-22",
+    "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-22T19:20:18.670374+00:00",
+  "cid": "0xa851add1d8a7bab62d4f4459d83c2ec8e8c05e440d1051ff8e6535ff3a9c742d",
+  "delay_s": 391,
+  "elite_n": 119,
+  "elite_price": 0.4309,
+  "elite_roi": 0.1495,
+  "elite_ts": "2026-11-22T19:13:47+00:00",
+  "elite_usd": 1091.11,
+  "elite_wallets": [
+   "0xdbdd45150249e229eb4ca8aa48a30dca21faa5de"
+  ],
+  "event_title": "George Washington Revolutionaries vs. Western Kentucky Hilltoppers",
+  "fill_price": 0.39,
+  "fill_usd_available": 629.42,
+  "id": "0xa851add1-0-1795375218",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "George Washington Revolutionaries",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-geows-wkent-2026-11-22",
+  "venues": {
+   "kalshi": {
+    "ask": 0.37,
+    "ask_size": 3353.59,
+    "fee": 0.0163,
+    "status": "ok",
+    "team": "George Washington",
+    "ticker": "KXNCAAMBGAME-26NOV22WKUGW-GW",
+    "url": "https://kalshi.com/markets/kxncaambgame"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/cbb-geows-wkent-2026-11-22",
+    "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-22T19:20:18.670374+00:00",
+  "cid": "0xf3f2cd22d54c997c2419990de352212d0488852bbc4950129430078af5368350",
+  "delay_s": 367,
+  "elite_n": 1473,
+  "elite_price": 0.6,
+  "elite_roi": 0.0974,
+  "elite_ts": "2026-11-22T19:14:11+00:00",
+  "elite_usd": 24394.1,
+  "elite_wallets": [
+   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1"
+  ],
+  "event_title": "Dota 2: LGD Gaming vs Astra Invicta (BO3) - BLAST Slam Group D",
+  "fill_price": 0.74,
+  "fill_usd_available": 88.8,
+  "id": "0xf3f2cd22-0-1795375218",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "LGD Gaming (Map 2)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-lgd-ai1-2026-11-22",
+  "venues": {
+   "kalshi": {
+    "ask": 0.74,
+    "ask_size": 5.0,
+    "fee": 0.0135,
+    "status": "ok",
+    "team": "LGD Gaming",
+    "ticker": "KXDOTA2MAP-26NOV221200AILGD-2-LGD",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-lgd-ai1-2026-11-22",
     "status": "not_listed"
    }
   }
