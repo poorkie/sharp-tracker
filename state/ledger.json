@@ -3507,6 +3507,14 @@
   "game_start": "2026-11-22T18:00:00+00:00",
   "id": "0x8c9d3ab1-1-1795348828",
   "kind": "ELITE_CONSENSUS",
+  "lock": {
+   "at": "2026-11-22T17:50:22.267617+00:00",
+   "late": false,
+   "price": 0.665,
+   "reason": "Elite still in",
+   "rule": 2,
+   "verdict": "PLAY"
+  },
   "market_type": "moneyline",
   "max_prob": 0.73,
   "n_wallets": 3,
@@ -3531,6 +3539,14 @@
   "game_start": "2026-11-22T18:00:00+00:00",
   "id": "0x7915c5e9-0-1795355418",
   "kind": "ELITE_CONSENSUS",
+  "lock": {
+   "at": "2026-11-22T17:50:22.267617+00:00",
+   "late": false,
+   "price": 0.645,
+   "reason": "Elite still in",
+   "rule": 2,
+   "verdict": "PLAY"
+  },
   "market_type": "spreads",
   "max_prob": 0.6804,
   "n_wallets": 3,
@@ -3555,6 +3571,14 @@
   "game_start": "2026-11-22T18:00:00+00:00",
   "id": "0xa184e6b2-0-1795364424",
   "kind": "ELITE_CONSENSUS",
+  "lock": {
+   "at": "2026-11-22T17:50:22.267617+00:00",
+   "late": false,
+   "price": 0.415,
+   "reason": "Elite still in",
+   "rule": 2,
+   "verdict": "PLAY"
+  },
   "market_type": "spreads",
   "max_prob": 0.5416,
   "n_wallets": 3,
@@ -3625,6 +3649,14 @@
   "game_start": "2026-11-22T18:00:00+00:00",
   "id": "0x6ab8f6b4-0-1795367419",
   "kind": "ELITE_CONSENSUS",
+  "lock": {
+   "at": "2026-11-22T17:50:22.267617+00:00",
+   "late": false,
+   "price": 0.655,
+   "reason": "Elite still in",
+   "rule": 2,
+   "verdict": "PLAY"
+  },
   "market_type": "moneyline",
   "max_prob": 0.6843,
   "n_wallets": 3,
@@ -3650,6 +3682,14 @@
   "game_start": "2026-11-22T18:00:00+00:00",
   "id": "0x363ae1d8-0-1795368021",
   "kind": "ELITE_CONSENSUS",
+  "lock": {
+   "at": "2026-11-22T17:50:22.267617+00:00",
+   "late": false,
+   "price": 0.545,
+   "reason": "Elite still in; market moved their way",
+   "rule": 2,
+   "verdict": "PLAY"
+  },
   "market_type": "spreads",
   "max_prob": 0.565,
   "n_wallets": 3,
