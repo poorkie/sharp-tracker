@@ -27765,19 +27765,32 @@
   "grades": {}
  },
  "0x17b8dd10eb8657c495fe04a469c956fcc301d5d1": {
-  "graded_at": "2026-11-15T11:00:23.612836+00:00",
+  "graded_at": "2026-11-22T11:10:15.673847+00:00",
   "grades": {
    "cfb": {
-    "avg_price": 0.723,
-    "hit_edge": -0.108,
-    "hit_rate": 0.615,
-    "n": 13,
-    "pnl": -155.23,
-    "roi": -0.0584,
-    "shrunk_roi": -0.037,
+    "avg_price": 0.623,
+    "hit_edge": -0.012,
+    "hit_rate": 0.611,
+    "n": 36,
+    "pnl": 11.85,
+    "roi": 0.0029,
+    "shrunk_roi": -0.0144,
     "sport": "cfb",
-    "staked": 2658.2,
-    "t_stat": -0.67,
+    "staked": 4133.13,
+    "t_stat": -0.22,
+    "tier": "NONE"
+   },
+   "nfl": {
+    "avg_price": 0.59,
+    "hit_edge": -0.047,
+    "hit_rate": 0.543,
+    "n": 35,
+    "pnl": 1077.4,
+    "roi": 0.415,
+    "shrunk_roi": 0.1777,
+    "sport": "nfl",
+    "staked": 2595.86,
+    "t_stat": -0.87,
     "tier": "NONE"
    }
   }
