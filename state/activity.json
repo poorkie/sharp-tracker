@@ -1,16 +1,6 @@
 {
  "rows": [
   {
-   "cid": "0x62cfbb499c4aa367e60a30d56ad2e0af173519631892ad13410bfcefafc75580",
-   "i": 0,
-   "price": 0.48,
-   "shares": 500.0,
-   "side": "BUY",
-   "ts": 1795028408,
-   "via": "trade",
-   "w": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294"
-  },
-  {
    "cid": "0x22bd72030a3b39b69009b60a1e276842d8a6669528c65ca6f07eb97d046bb896",
    "i": 0,
    "price": 0.67,
@@ -199999,6 +199989,16 @@
    "ts": 1795324818,
    "via": "holding",
    "w": "0x47c8481b56addccbb8022dea26dd907cd22d86bc"
+  },
+  {
+   "cid": "0xfa1430a74059bc60ffe1406ab77b72a1640439f6fa247b5a7fc49e80f1973e05",
+   "i": 0,
+   "price": 0.85,
+   "shares": 91.33,
+   "side": "HOLD",
+   "ts": 1795325419,
+   "via": "holding",
+   "w": "0xec981ed70ae69c5cbcac08c1ba063e734f6bafcd"
   }
  ],
  "seen": {
@@ -237129,6 +237129,7 @@
   "hold:0xec981ed70ae69c5cbcac08c1ba063e734f6bafcd:0xf69c2985ceaa008260dc3930f7545fab54380d1387fdd171934c5a5bda1a9eeb:1": 1795122024,
   "hold:0xec981ed70ae69c5cbcac08c1ba063e734f6bafcd:0xf6a3ea5663f1e369699b2cde668fc7d2b692145bb846dd0b4eb4337d84c8d3d9:0": 1795280422,
   "hold:0xec981ed70ae69c5cbcac08c1ba063e734f6bafcd:0xf9d519cabfc99b3fd91c213a395386b42ec1a948b2c546b63c6d8ff1d66e4944:1": 1795122024,
+  "hold:0xec981ed70ae69c5cbcac08c1ba063e734f6bafcd:0xfa1430a74059bc60ffe1406ab77b72a1640439f6fa247b5a7fc49e80f1973e05:0": 1795325419,
   "hold:0xec981ed70ae69c5cbcac08c1ba063e734f6bafcd:0xfa21626ea3584489099c1810cadd120dd911d7cf7f5e85c50da140c57071bad3:0": 1795305016,
   "hold:0xec981ed70ae69c5cbcac08c1ba063e734f6bafcd:0xfa21626ea3584489099c1810cadd120dd911d7cf7f5e85c50da140c57071bad3:1": 1795280422,
   "hold:0xec981ed70ae69c5cbcac08c1ba063e734f6bafcd:0xfd0893d0292382587f63a83359ae374ccf3cc1bc26eaeed59365cf5d59ad4e1c:1": 1795122490,

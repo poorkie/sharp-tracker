@@ -1965,8 +1965,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "Texas Southern Tigers",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-no-txs-2026-11-21",
   "venues": {
@@ -1974,6 +1974,7 @@
     "ask": 0.38,
     "ask_size": 11366.09,
     "fee": 0.0165,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "Texas Southern",
     "ticker": "KXNCAAMBGAME-26NOV21UNOTXSO-TXSO",
@@ -1982,6 +1983,7 @@
    "pmus": {
     "ask": 0.37,
     "market": "aec-cbb-no-txs-2026-11-21",
+    "pnl_100": -100.0,
     "raw_ask": 0.64,
     "raw_bid": 0.63,
     "side": 1,
