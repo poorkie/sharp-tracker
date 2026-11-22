@@ -2707,8 +2707,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "Ammar Elamin",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "atp",
   "url": "https://polymarket.com/event/atp-elamin-marek-2026-11-22",
   "venues": {
@@ -3000,6 +3000,45 @@
    },
    "pmus": {
     "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-strode-clark-2026-11-22",
+    "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-22T18:50:17.216875+00:00",
+  "cid": "0xbb9fa03364a605f9f0529fe37ebfb6ee41578d9950bce61f5fae1f4a6bd5903d",
+  "delay_s": 120,
+  "elite_n": 196,
+  "elite_price": 0.2021,
+  "elite_roi": 0.2997,
+  "elite_ts": "2026-11-22T18:48:17+00:00",
+  "elite_usd": 1818.52,
+  "elite_wallets": [
+   "0x58b3380f71bd6c706dd398a5e60bde55fa3a653c"
+  ],
+  "event_title": "ATP World Tour Finals, Final Stage: Alexander Zverev vs Carlos Alcaraz",
+  "fill_price": 0.247,
+  "fill_usd_available": 3404.56,
+  "id": "0xbb9fa033-0-1795373417",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Alexander Zverev",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-zverev-alcaraz-2026-11-22",
+  "venues": {
+   "kalshi": {
+    "ask": 0.26,
+    "ask_size": 208981.52,
+    "fee": 0.0135,
+    "status": "ok",
+    "team": "Alexander Zverev",
+    "ticker": "KXATPMATCH-26NOV22ZVEALC-ZVE",
+    "url": "https://kalshi.com/markets/kxatpmatch"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-zverev-alcaraz-2026-11-22",
     "status": "not_listed"
    }
   }
