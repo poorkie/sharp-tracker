@@ -2220,5 +2220,49 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-22T03:50:18.022056+00:00",
+  "cid": "0x9fe99391f0696e3d14a7d0642b008bbe70be380cabee298f73a13ff690baf5de",
+  "delay_s": 235,
+  "elite_n": 772,
+  "elite_price": 0.83,
+  "elite_roi": 0.1198,
+  "elite_ts": "2026-11-22T03:46:23+00:00",
+  "elite_usd": 415.83,
+  "elite_wallets": [
+   "0x1bc32be106439240f59aa25668e613831a5cdc6e"
+  ],
+  "event_title": "Celtics vs. Kings",
+  "fill_price": 0.84,
+  "fill_usd_available": 60.43,
+  "id": "0x9fe99391-0-1795319418",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Celtics",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-bos-sac-2026-11-21",
+  "venues": {
+   "kalshi": {
+    "ask": 0.83,
+    "ask_size": 268.45,
+    "fee": 0.0099,
+    "status": "ok",
+    "team": "Boston",
+    "ticker": "KXNBAGAME-26NOV21BOSSAC-BOS",
+    "url": "https://kalshi.com/markets/kxnbagame"
+   },
+   "pmus": {
+    "ask": 0.83,
+    "market": "aec-nba-bos-sac-2026-11-21",
+    "raw_ask": 0.83,
+    "raw_bid": 0.82,
+    "side": 0,
+    "status": "ok",
+    "url": "https://polymarket.us/event/nba-bos-sac-2026-11-21"
+   }
+  }
  }
 ]
