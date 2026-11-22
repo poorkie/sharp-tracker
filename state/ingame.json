@@ -3222,8 +3222,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "Astra Invicta",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-lgd-ai1-2026-11-22",
   "venues": {
@@ -3231,6 +3231,7 @@
     "ask": 0.38,
     "ask_size": 1410.97,
     "fee": 0.0165,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "Astra Invicta",
     "ticker": "KXDOTA2GAME-26NOV221200AILGD-AI",
