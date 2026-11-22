@@ -2684,5 +2684,39 @@
     "url": "https://polymarket.us/event/dota2-pari-liquid-2026-11-22"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-22T16:00:24.570356+00:00",
+  "cid": "0xd6a994148a1003540c78fc3406bafa0900adfed5fa301f411cc3af8c396b0695",
+  "delay_s": 394,
+  "elite_n": 460,
+  "elite_price": 0.6,
+  "elite_roi": 0.1498,
+  "elite_ts": "2026-11-22T15:53:50+00:00",
+  "elite_usd": 240.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Monastir 2: Ammar Elamin vs Wojciech Marek",
+  "fill_price": 0.56,
+  "fill_usd_available": 645.5,
+  "id": "0xd6a99414-0-1795363224",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Ammar Elamin",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-elamin-marek-2026-11-22",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-elamin-marek-2026-11-22",
+    "status": "not_listed"
+   }
+  }
  }
 ]
