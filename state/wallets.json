@@ -76363,7 +76363,7 @@
   }
  },
  "0x3e1352a7659c914b6359359ad79b3eaa82769f22": {
-  "graded_at": "2026-11-15T22:30:25.268391+00:00",
+  "graded_at": "2026-11-22T22:40:22.327592+00:00",
   "grades": {
    "cfb": {
     "avg_price": 0.895,
@@ -76418,29 +76418,29 @@
     "tier": "NONE"
    },
    "nfl": {
-    "avg_price": 0.785,
-    "hit_edge": -0.071,
-    "hit_rate": 0.714,
-    "n": 7,
-    "pnl": -6485.1,
-    "roi": -0.2492,
-    "shrunk_roi": -0.0626,
+    "avg_price": 0.793,
+    "hit_edge": -0.043,
+    "hit_rate": 0.75,
+    "n": 8,
+    "pnl": -6110.99,
+    "roi": -0.2174,
+    "shrunk_roi": -0.0612,
     "sport": "nfl",
-    "staked": 26027.02,
-    "t_stat": -0.02,
+    "staked": 28103.52,
+    "t_stat": 0.09,
     "tier": "NONE"
    },
    "nhl": {
-    "avg_price": 0.769,
-    "hit_edge": -0.236,
-    "hit_rate": 0.533,
-    "n": 30,
-    "pnl": -6225.36,
-    "roi": -0.0454,
-    "shrunk_roi": -0.0366,
+    "avg_price": 0.785,
+    "hit_edge": -0.226,
+    "hit_rate": 0.559,
+    "n": 34,
+    "pnl": -6398.65,
+    "roi": -0.0455,
+    "shrunk_roi": -0.0371,
     "sport": "nhl",
-    "staked": 137107.03,
-    "t_stat": -1.02,
+    "staked": 140692.67,
+    "t_stat": -0.99,
     "tier": "NONE"
    }
   }
