@@ -2562,5 +2562,39 @@
     "url": "https://polymarket.us/event/dota2-pari-liquid-2026-11-22"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-22T14:40:17.949867+00:00",
+  "cid": "0x59aeeccd2e4a714e4d1b69e6536288502362fbb4c84e410676b6b406b4c18fc1",
+  "delay_s": 46,
+  "elite_n": 460,
+  "elite_price": 0.54,
+  "elite_roi": 0.1498,
+  "elite_ts": "2026-11-22T14:39:31+00:00",
+  "elite_usd": 216.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Monastir 2: Samir Hamza Reguig vs Jack Karlsson Wistrand",
+  "fill_price": 0.44,
+  "fill_usd_available": 1013.94,
+  "id": "0x59aeeccd-1-1795358417",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Jack Karlsson Wistrand",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-reguig-wistran-2026-11-22",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-reguig-wistran-2026-11-22",
+    "status": "not_listed"
+   }
+  }
  }
 ]
