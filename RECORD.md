@@ -1,18 +1,18 @@
 # Sharp Tracker: graded record
 
-Updated 2026-11-22 21:20 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
+Updated 2026-11-22 21:30 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
 
 ## Overall
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
-| All alerts | 36-43 | -12.95u | -16.4% | -0.1¢ | 34% | 8 |
+| All alerts | 39-45 | -12.53u | -14.9% | -0.1¢ | 33% | 3 |
 
 ## By signal
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
 | CONSENSUS | 5-5 | -1.90u | -19.0% | +0.4¢ | 30% | 0 |
 | ELITE | 9-12 | -5.00u | -23.8% | -0.6¢ | 29% | 0 |
-| ELITE_CONSENSUS | 22-26 | -6.04u | -12.6% | +0.0¢ | 38% | 8 |
+| ELITE_CONSENSUS | 25-28 | -5.62u | -10.6% | +0.0¢ | 36% | 3 |
 
 ## By sport
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
@@ -21,7 +21,7 @@ Updated 2026-11-22 21:20 UTC. Every alert is logged at the price when it fired a
 | CFB | 1-0 | +1.60u | +159.7% | +4.0¢ | 100% | 0 |
 | LOL | 1-0 | +1.67u | +166.7% | +1.0¢ | 100% | 0 |
 | NBA | 17-22 | -8.20u | -21.0% | -0.3¢ | 41% | 0 |
-| NFL | 13-14 | -5.43u | -20.1% | -0.3¢ | 18% | 8 |
+| NFL | 16-16 | -5.01u | -15.7% | -0.3¢ | 19% | 3 |
 | NHL | 1-7 | -6.06u | -75.7% | +0.4¢ | 38% | 0 |
 | WTA | 1-0 | +1.53u | +153.2% | +0.0¢ | 0% | 0 |
 
@@ -31,11 +31,11 @@ Updated 2026-11-22 21:20 UTC. Every alert is logged at the price when it fired a
 | 2026-11-22 21:10 | NFL | [Jaguars -6.5: Jaguars vs. Giants](https://polymarket.com/event/nfl-jax-nyg-2026-11-22) | 0.49 | 0.49 | – | 4 / $36,609 | pending |
 | 2026-11-22 20:50 | NFL | [Under 46.5: Jaguars vs. Giants](https://polymarket.com/event/nfl-jax-nyg-2026-11-22) | 0.56 | 0.56 | – | 3 / $4,653 | pending |
 | 2026-11-22 18:20 | NFL | [Jaguars: Jaguars vs. Giants](https://polymarket.com/event/nfl-jax-nyg-2026-11-22) | 0.71 | 0.72 | 71% | 3 / $19,960 | pending |
-| 2026-11-22 17:20 | NFL | [Bears -10.5: Saints vs. Bears](https://polymarket.com/event/nfl-no-chi-2026-11-22) | 0.54 | 0.55 | – | 3 / $3,646 | pending |
-| 2026-11-22 17:10 | NFL | [Steelers: Steelers vs. Eagles](https://polymarket.com/event/nfl-pit-phi-2026-11-22) | 0.66 | 0.66 | 65% | 3 / $13,963 | pending |
-| 2026-11-22 16:20 | NFL | [Lions -6.5: Buccaneers vs. Lions](https://polymarket.com/event/nfl-tb-det-2026-11-22) | 0.41 | 0.41 | – | 3 / $8,130 | pending |
-| 2026-11-22 13:50 | NFL | [Cowboys -3.5: Titans vs. Cowboys](https://polymarket.com/event/nfl-ten-dal-2026-11-22) | 0.67 | 0.65 | – | 3 / $20,321 | pending |
-| 2026-11-22 12:00 | NFL | [Lions: Buccaneers vs. Lions](https://polymarket.com/event/nfl-tb-det-2026-11-22) | 0.67 | 0.67 | 65% | 3 / $34,459 | pending |
+| 2026-11-22 17:20 | NFL | [Bears -10.5: Saints vs. Bears](https://polymarket.com/event/nfl-no-chi-2026-11-22) | 0.54 | 0.55 | – | 3 / $3,646 | LOSS (-100) |
+| 2026-11-22 17:10 | NFL | [Steelers: Steelers vs. Eagles](https://polymarket.com/event/nfl-pit-phi-2026-11-22) | 0.66 | 0.66 | 65% | 3 / $13,963 | LOSS (-100) |
+| 2026-11-22 16:20 | NFL | [Lions -6.5: Buccaneers vs. Lions](https://polymarket.com/event/nfl-tb-det-2026-11-22) | 0.41 | 0.41 | – | 3 / $8,130 | WIN (+141) |
+| 2026-11-22 13:50 | NFL | [Cowboys -3.5: Titans vs. Cowboys](https://polymarket.com/event/nfl-ten-dal-2026-11-22) | 0.67 | 0.65 | – | 3 / $20,321 | WIN (+50) |
+| 2026-11-22 12:00 | NFL | [Lions: Buccaneers vs. Lions](https://polymarket.com/event/nfl-tb-det-2026-11-22) | 0.67 | 0.67 | 65% | 3 / $34,459 | WIN (+50) |
 | 2026-11-21 22:20 | NBA | [Over 218.5: Trail Blazers vs. Knicks](https://polymarket.com/event/nba-por-nyk-2026-11-21) | 0.43 | 0.39 | – | 5 / $4,360 | LOSS (-100) |
 | 2026-11-21 22:10 | NBA | [Knicks -5.5: Trail Blazers vs. Knicks](https://polymarket.com/event/nba-por-nyk-2026-11-21) | 0.41 | 0.34 | – | 4 / $4,171 | LOSS (-100) |
 | 2026-11-19 21:08 | NBA | [Under 225.5: Clippers vs. Spurs](https://polymarket.com/event/nba-lac-sas-2026-11-19) | 0.53 | 0.54 | – | 4 / $2,616 | LOSS (-100) |

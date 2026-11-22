@@ -2830,8 +2830,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "UIC Flames",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-miaoh-illchi-2026-11-22",
   "venues": {
@@ -2839,6 +2839,7 @@
     "ask": 0.42,
     "ask_size": 40513.19,
     "fee": 0.0171,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "UIC",
     "ticker": "KXNCAAMBGAME-26NOV22MOHUIC-UIC",
@@ -2847,6 +2848,7 @@
    "pmus": {
     "ask": 0.42,
     "market": "aec-cbb-miaoh-illchi-2026-11-22",
+    "pnl_100": -100.0,
     "raw_ask": 0.59,
     "raw_bid": 0.58,
     "side": 1,
@@ -3281,6 +3283,40 @@
     "side": 1,
     "status": "ok",
     "url": "https://polymarket.us/event/nba-det-atl-2026-11-22"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-22T21:30:22.205769+00:00",
+  "cid": "0xe257518ed2a065c706d77a5989850bf212d0795572b09efa59c8759d87c49745",
+  "delay_s": 533,
+  "elite_n": 119,
+  "elite_price": 0.576,
+  "elite_roi": 0.1495,
+  "elite_ts": "2026-11-22T21:21:29+00:00",
+  "elite_usd": 365.35,
+  "elite_wallets": [
+   "0xdbdd45150249e229eb4ca8aa48a30dca21faa5de"
+  ],
+  "event_title": "Albany Great Danes vs. Mercyhurst Lakers",
+  "fill_price": 0.62,
+  "fill_usd_available": 2326.12,
+  "id": "0xe257518e-1-1795383022",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Mercyhurst Lakers",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-albny-mrcy-2026-11-22",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/cbb-albny-mrcy-2026-11-22",
+    "status": "not_listed"
    }
   }
  }
