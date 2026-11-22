@@ -3448,5 +3448,75 @@
   "sharp_usd": 4360.41,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-por-nyk-2026-11-21"
+ },
+ {
+  "alerted_at": "2026-11-22T12:00:28.490719+00:00",
+  "book_fair": 0.6506,
+  "books": [
+   {
+    "book": "DraftKings",
+    "price": -200,
+    "prob": 0.6667
+   },
+   {
+    "book": "FanDuel",
+    "price": -200,
+    "prob": 0.6667
+   },
+   {
+    "book": "BetUS",
+    "price": -205,
+    "prob": 0.6721
+   },
+   {
+    "book": "LowVig.ag",
+    "price": -205,
+    "prob": 0.6721
+   },
+   {
+    "book": "BetOnline.ag",
+    "price": -205,
+    "prob": 0.6721
+   },
+   {
+    "book": "BetMGM",
+    "price": -210,
+    "prob": 0.6774
+   },
+   {
+    "book": "Bovada",
+    "price": -210,
+    "prob": 0.6774
+   },
+   {
+    "book": "MyBookie.ag",
+    "price": -217,
+    "prob": 0.6845
+   },
+   {
+    "book": "BetRivers",
+    "price": -235,
+    "prob": 0.7015
+   }
+  ],
+  "close_price": 0.665,
+  "clv": null,
+  "condition_id": "0x8c9d3ab12a472949eb6852326bfe6004883b2670884035c6c5d2b8a05c0dd99b",
+  "entry_price": 0.665,
+  "event_title": "Buccaneers vs. Lions",
+  "game_start": "2026-11-22T18:00:00+00:00",
+  "id": "0x8c9d3ab1-1-1795348828",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "moneyline",
+  "max_prob": 0.73,
+  "n_wallets": 3,
+  "outcome": "Lions",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Buccaneers vs. Lions",
+  "result": null,
+  "sharp_usd": 34459.16,
+  "sport": "nfl",
+  "url": "https://polymarket.com/event/nfl-tb-det-2026-11-22"
  }
 ]
