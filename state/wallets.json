@@ -236530,6 +236530,102 @@
    }
   }
  },
+ "0xcf872d7c81f391971803fd3a5a3da1c2c9889edf": {
+  "graded_at": "2026-11-22T00:50:16.913878+00:00",
+  "grades": {
+   "atp": {
+    "avg_price": 0.63,
+    "hit_edge": -0.13,
+    "hit_rate": 0.5,
+    "n": 4,
+    "pnl": -50.93,
+    "roi": -0.0404,
+    "shrunk_roi": -0.0309,
+    "sport": "atp",
+    "staked": 1259.48,
+    "t_stat": -0.59,
+    "tier": "NONE"
+   },
+   "cbb": {
+    "avg_price": 0.847,
+    "hit_edge": 0.153,
+    "hit_rate": 1.0,
+    "n": 1,
+    "pnl": 82.11,
+    "roi": 0.181,
+    "shrunk_roi": -0.0249,
+    "sport": "cbb",
+    "staked": 453.59,
+    "t_stat": 0.0,
+    "tier": "NONE"
+   },
+   "cfb": {
+    "avg_price": 0.67,
+    "hit_edge": -0.087,
+    "hit_rate": 0.583,
+    "n": 12,
+    "pnl": 1551.32,
+    "roi": 0.1951,
+    "shrunk_roi": 0.022,
+    "sport": "cfb",
+    "staked": 7950.72,
+    "t_stat": -0.01,
+    "tier": "NONE"
+   },
+   "dota2": {
+    "avg_price": 0.659,
+    "hit_edge": -0.159,
+    "hit_rate": 0.5,
+    "n": 14,
+    "pnl": -271.49,
+    "roi": -0.06,
+    "shrunk_roi": -0.0378,
+    "sport": "dota2",
+    "staked": 4522.96,
+    "t_stat": -0.95,
+    "tier": "NONE"
+   },
+   "lol": {
+    "avg_price": 0.56,
+    "hit_edge": -0.041,
+    "hit_rate": 0.519,
+    "n": 27,
+    "pnl": 3311.22,
+    "roi": 0.1209,
+    "shrunk_roi": 0.0308,
+    "sport": "lol",
+    "staked": 27389.23,
+    "t_stat": -0.75,
+    "tier": "NONE"
+   },
+   "nba": {
+    "avg_price": 0.696,
+    "hit_edge": -0.004,
+    "hit_rate": 0.692,
+    "n": 26,
+    "pnl": 702.9,
+    "roi": 0.0668,
+    "shrunk_roi": 0.0081,
+    "sport": "nba",
+    "staked": 10516.29,
+    "t_stat": 0.01,
+    "tier": "NONE"
+   },
+   "nfl": {
+    "avg_price": 0.706,
+    "hit_edge": -0.206,
+    "hit_rate": 0.5,
+    "n": 2,
+    "pnl": 46.13,
+    "roi": 0.0863,
+    "shrunk_roi": -0.0245,
+    "sport": "nfl",
+    "staked": 534.43,
+    "t_stat": 0.57,
+    "tier": "NONE"
+   }
+  }
+ },
  "0xcfaf6ab1c6e549d5bb4b6ed785b15d83997e6b60": {
   "graded_at": "2026-11-19T20:40:18.549284+00:00",
   "grades": {
