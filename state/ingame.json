@@ -3262,8 +3262,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "Hawks",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 92.31,
+  "result": "WIN",
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-det-atl-2026-11-22",
   "venues": {
@@ -3271,6 +3271,7 @@
     "ask": 0.52,
     "ask_size": 18342.78,
     "fee": 0.0175,
+    "pnl_100": 86.05,
     "status": "ok",
     "team": "Atlanta",
     "ticker": "KXNBAGAME-26NOV22DETATL-ATL",
@@ -3279,6 +3280,7 @@
    "pmus": {
     "ask": 0.52,
     "market": "aec-nba-det-atl-2026-11-22",
+    "pnl_100": 92.31,
     "raw_ask": 0.49,
     "raw_bid": 0.48,
     "side": 1,
