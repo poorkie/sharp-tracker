@@ -1988,5 +1988,49 @@
     "url": "https://polymarket.us/event/cbb-no-txs-2026-11-21"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-22T01:50:16.520716+00:00",
+  "cid": "0xd878ee4681a0a960ba658a7c5d67cb682aaa724f3f87c7441da1b486bada3128",
+  "delay_s": 419,
+  "elite_n": 222,
+  "elite_price": 0.5563,
+  "elite_roi": 0.1155,
+  "elite_ts": "2026-11-22T01:43:17+00:00",
+  "elite_usd": 6064.89,
+  "elite_wallets": [
+   "0x6db568e61e5e3de7d87f831431b673f38ce2e279"
+  ],
+  "event_title": "Grizzlies vs. Timberwolves",
+  "fill_price": 0.39,
+  "fill_usd_available": 4416.86,
+  "id": "0xd878ee46-0-1795312216",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Grizzlies",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-mem-min-2026-11-21",
+  "venues": {
+   "kalshi": {
+    "ask": 0.39,
+    "ask_size": 45256.47,
+    "fee": 0.0167,
+    "status": "ok",
+    "team": "Memphis",
+    "ticker": "KXNBAGAME-26NOV21MEMMIN-MEM",
+    "url": "https://kalshi.com/markets/kxnbagame"
+   },
+   "pmus": {
+    "ask": 0.39,
+    "market": "aec-nba-mem-min-2026-11-21",
+    "raw_ask": 0.39,
+    "raw_bid": 0.38,
+    "side": 0,
+    "status": "ok",
+    "url": "https://polymarket.us/event/nba-mem-min-2026-11-21"
+   }
+  }
  }
 ]
