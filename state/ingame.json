@@ -2742,8 +2742,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "DO KONCA",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 53.85,
+  "result": "WIN",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-legion1-konca-2026-11-22",
   "venues": {
@@ -2751,6 +2751,7 @@
     "ask": 0.64,
     "ask_size": 21.11,
     "fee": 0.0161,
+    "pnl_100": 52.42,
     "status": "ok",
     "team": "DO KONCA",
     "ticker": "KXDOTA2GAME-26NOV220900KONCALEG-KONCA",
@@ -2783,8 +2784,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "Team Liquid",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-pari-liquid-2026-11-22",
   "venues": {
@@ -2792,6 +2793,7 @@
     "ask": 0.38,
     "ask_size": 533.72,
     "fee": 0.0165,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "Team Liquid",
     "ticker": "KXDOTA2GAME-26NOV220900LIQUIDPARI-LIQUID",
@@ -2800,6 +2802,7 @@
    "pmus": {
     "ask": 0.37,
     "market": "aec-dota2-pari-liquid-2026-11-22",
+    "pnl_100": -100.0,
     "raw_ask": 0.64,
     "raw_bid": 0.63,
     "side": 1,
@@ -2922,6 +2925,47 @@
    },
    "pmus": {
     "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-lgd-ai1-2026-11-22",
+    "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-22T18:20:17.941103+00:00",
+  "cid": "0x647f5529e9909c1904790768000502d36c2f275ab29173f618644306b5b536ec",
+  "delay_s": 486,
+  "elite_n": 399,
+  "elite_price": 0.46,
+  "elite_roi": 0.2143,
+  "elite_ts": "2026-11-22T18:12:11+00:00",
+  "elite_usd": 18617.02,
+  "elite_wallets": [
+   "0xf7c2664cb29240811d6a89dd3960ebbc03a79b8d",
+   "0x3231d2d67053e5dc3715f6429124741e52866e75",
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a"
+  ],
+  "event_title": "Dota 2: 1win vs Aurora (BO3) - BLAST Slam Group D",
+  "fill_price": 0.42,
+  "fill_usd_available": 2557.3,
+  "id": "0x647f5529-1-1795371617",
+  "idx": 1,
+  "market_type": "child_moneyline",
+  "pick": "Aurora (Map 1)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-1win-aur1-2026-11-22",
+  "venues": {
+   "kalshi": {
+    "ask": 0.42,
+    "ask_size": 96.0,
+    "fee": 0.0171,
+    "status": "ok",
+    "team": "Aurora",
+    "ticker": "KXDOTA2MAP-26NOV221200AUR1WIN-1-AUR",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-1win-aur1-2026-11-22",
     "status": "not_listed"
    }
   }

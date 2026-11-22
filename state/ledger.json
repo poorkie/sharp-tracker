@@ -3701,5 +3701,75 @@
   "sharp_usd": 3646.5,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-no-chi-2026-11-22"
+ },
+ {
+  "alerted_at": "2026-11-22T18:20:17.941103+00:00",
+  "book_fair": 0.7086,
+  "books": [
+   {
+    "book": "BetRivers",
+    "price": -265,
+    "prob": 0.726
+   },
+   {
+    "book": "DraftKings",
+    "price": -266,
+    "prob": 0.7268
+   },
+   {
+    "book": "FanDuel",
+    "price": -270,
+    "prob": 0.7297
+   },
+   {
+    "book": "BetMGM",
+    "price": -275,
+    "prob": 0.7333
+   },
+   {
+    "book": "Bovada",
+    "price": -280,
+    "prob": 0.7368
+   },
+   {
+    "book": "BetUS",
+    "price": -285,
+    "prob": 0.7403
+   },
+   {
+    "book": "BetOnline.ag",
+    "price": -290,
+    "prob": 0.7436
+   },
+   {
+    "book": "LowVig.ag",
+    "price": -290,
+    "prob": 0.7436
+   },
+   {
+    "book": "MyBookie.ag",
+    "price": -291,
+    "prob": 0.7442
+   }
+  ],
+  "close_price": 0.715,
+  "clv": null,
+  "condition_id": "0xacb4bae086c3641d13b6ef1d90c4a5e24d52b74f50a33fe4523ce0636238ea1f",
+  "entry_price": 0.715,
+  "event_title": "Jaguars vs. Giants",
+  "game_start": "2026-11-22T21:25:00+00:00",
+  "id": "0xacb4bae0-0-1795371617",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "moneyline",
+  "max_prob": 0.7403,
+  "n_wallets": 3,
+  "outcome": "Jaguars",
+  "outcome_index": 0,
+  "pnl_100": null,
+  "question": "Jaguars vs. Giants",
+  "result": null,
+  "sharp_usd": 19959.54,
+  "sport": "nfl",
+  "url": "https://polymarket.com/event/nfl-jax-nyg-2026-11-22"
  }
 ]
