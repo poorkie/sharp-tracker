@@ -2461,8 +2461,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "Maximilian Neuchrist",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "atp",
   "url": "https://polymarket.com/event/atp-aunion-neuchri-2026-11-22",
   "venues": {
@@ -2497,8 +2497,8 @@
   "idx": 1,
   "market_type": "child_moneyline",
   "pick": "DO KONCA (Map 1)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 53.85,
+  "result": "WIN",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-legion1-konca-2026-11-22",
   "venues": {
@@ -2506,6 +2506,7 @@
     "ask": 0.64,
     "ask_size": 346.0,
     "fee": 0.0161,
+    "pnl_100": 52.42,
     "status": "ok",
     "team": "DO KONCA",
     "ticker": "KXDOTA2MAP-26NOV220900KONCALEG-1-KONCA",
@@ -2593,6 +2594,45 @@
    },
    "pmus": {
     "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-reguig-wistran-2026-11-22",
+    "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-22T15:20:17.033777+00:00",
+  "cid": "0x60a756fcc3094d286732b6fb92c3f70c29845abc5f5d7589bf55f64ac6ea2ad0",
+  "delay_s": 180,
+  "elite_n": 2039,
+  "elite_price": 0.6152,
+  "elite_roi": 0.0709,
+  "elite_ts": "2026-11-22T15:17:17+00:00",
+  "elite_usd": 18927.0,
+  "elite_wallets": [
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a"
+  ],
+  "event_title": "Dota 2: LEGION vs DO KONCA (BO3) - BLAST Slam Group C",
+  "fill_price": 0.62,
+  "fill_usd_available": 2006.33,
+  "id": "0x60a756fc-1-1795360817",
+  "idx": 1,
+  "market_type": "child_moneyline",
+  "pick": "DO KONCA (Map 2)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-legion1-konca-2026-11-22",
+  "venues": {
+   "kalshi": {
+    "ask": 0.63,
+    "ask_size": 3209.0,
+    "fee": 0.0163,
+    "status": "ok",
+    "team": "DO KONCA",
+    "ticker": "KXDOTA2MAP-26NOV220900KONCALEG-2-KONCA",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-legion1-konca-2026-11-22",
     "status": "not_listed"
    }
   }
