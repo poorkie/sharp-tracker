@@ -3518,5 +3518,29 @@
   "sharp_usd": 34459.16,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-tb-det-2026-11-22"
+ },
+ {
+  "alerted_at": "2026-11-22T13:50:18.165736+00:00",
+  "book_fair": null,
+  "books": [],
+  "close_price": 0.665,
+  "clv": null,
+  "condition_id": "0x7915c5e99dba4d1e615776e0c161bce1d1b5f8fc53e682cb6e3a3b32a76e2c89",
+  "entry_price": 0.665,
+  "event_title": "Titans vs. Cowboys",
+  "game_start": "2026-11-22T18:00:00+00:00",
+  "id": "0x7915c5e9-0-1795355418",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "spreads",
+  "max_prob": 0.6804,
+  "n_wallets": 3,
+  "outcome": "Cowboys -3.5",
+  "outcome_index": 0,
+  "pnl_100": null,
+  "question": "Spread: Cowboys (-3.5)",
+  "result": null,
+  "sharp_usd": 20321.48,
+  "sport": "nfl",
+  "url": "https://polymarket.com/event/nfl-ten-dal-2026-11-22"
  }
 ]
