@@ -1,6 +1,6 @@
 # Sharp Tracker: graded record
 
-Updated 2026-11-22 19:50 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
+Updated 2026-11-22 20:00 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
 
 ## Overall
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
@@ -28,7 +28,7 @@ Updated 2026-11-22 19:50 UTC. Every alert is logged at the price when it fired a
 ## Last 50 alerts
 | Alerted (UTC) | Sport | Pick | Entry | Close | Books fair | Sharps | Result |
 |---|---|---|---|---|---|---|---|
-| 2026-11-22 18:20 | NFL | [Jaguars: Jaguars vs. Giants](https://polymarket.com/event/nfl-jax-nyg-2026-11-22) | 0.71 | 0.71 | 71% | 3 / $19,960 | pending |
+| 2026-11-22 18:20 | NFL | [Jaguars: Jaguars vs. Giants](https://polymarket.com/event/nfl-jax-nyg-2026-11-22) | 0.71 | 0.72 | 71% | 3 / $19,960 | pending |
 | 2026-11-22 17:20 | NFL | [Bears -10.5: Saints vs. Bears](https://polymarket.com/event/nfl-no-chi-2026-11-22) | 0.54 | 0.55 | – | 3 / $3,646 | pending |
 | 2026-11-22 17:10 | NFL | [Steelers: Steelers vs. Eagles](https://polymarket.com/event/nfl-pit-phi-2026-11-22) | 0.66 | 0.66 | 65% | 3 / $13,963 | pending |
 | 2026-11-22 16:20 | NFL | [Lions -6.5: Buccaneers vs. Lions](https://polymarket.com/event/nfl-tb-det-2026-11-22) | 0.41 | 0.41 | – | 3 / $8,130 | pending |
