@@ -2206,8 +2206,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "Utah",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 75.44,
+  "result": "WIN",
   "sport": "nhl",
   "url": "https://polymarket.com/event/nhl-ana-utah-2026-11-21",
   "venues": {
@@ -2262,6 +2262,40 @@
     "side": 0,
     "status": "ok",
     "url": "https://polymarket.us/event/nba-bos-sac-2026-11-21"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-22T05:00:20.368929+00:00",
+  "cid": "0x910ecd974ced7f71f652b32ff991edeea40d67561726be04ebcabcacfcabf972",
+  "delay_s": 555,
+  "elite_n": 460,
+  "elite_price": 0.73,
+  "elite_roi": 0.1498,
+  "elite_ts": "2026-11-22T04:51:05+00:00",
+  "elite_usd": 292.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Yokohama: Yuki Mochizuki vs Kosuke Ogura",
+  "fill_price": 0.75,
+  "fill_usd_available": 55.5,
+  "id": "0x910ecd97-0-1795323620",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Yuki Mochizuki",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-mochiz-ogura-2026-11-21",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-mochiz-ogura-2026-11-21",
+    "status": "not_listed"
    }
   }
  }
