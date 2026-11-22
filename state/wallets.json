@@ -193975,7 +193975,7 @@
   }
  },
  "0xa7b5bf2089e3de036ae68425461407343466fa78": {
-  "graded_at": "2026-11-15T02:56:42.642883+00:00",
+  "graded_at": "2026-11-22T03:00:26.006223+00:00",
   "grades": {
    "cbb": {
     "avg_price": 0.581,
@@ -194017,16 +194017,16 @@
     "tier": "NONE"
    },
    "nfl": {
-    "avg_price": 0.603,
-    "hit_edge": 0.036,
-    "hit_rate": 0.639,
-    "n": 36,
-    "pnl": 315.36,
-    "roi": 0.0199,
-    "shrunk_roi": -0.0064,
+    "avg_price": 0.605,
+    "hit_edge": 0.052,
+    "hit_rate": 0.658,
+    "n": 38,
+    "pnl": 1849.58,
+    "roi": 0.0936,
+    "shrunk_roi": 0.0302,
     "sport": "nfl",
-    "staked": 15871.82,
-    "t_stat": 0.28,
+    "staked": 19767.32,
+    "t_stat": 0.43,
     "tier": "NONE"
    }
   }

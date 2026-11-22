@@ -2105,5 +2105,39 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-22T03:00:26.006223+00:00",
+  "cid": "0x7fa8ccbcbf94b0a09a08365a7608f54d9d3ed97263576956827f9a3558e2e608",
+  "delay_s": 487,
+  "elite_n": 1142,
+  "elite_price": 0.49,
+  "elite_roi": 0.1775,
+  "elite_ts": "2026-11-22T02:52:19+00:00",
+  "elite_usd": 1088.78,
+  "elite_wallets": [
+   "0x3e04fbc51adb75418129f6ce2091ae633070564d"
+  ],
+  "event_title": "Golden Knights vs. Jets",
+  "fill_price": 0.37,
+  "fill_usd_available": 1.85,
+  "id": "0x7fa8ccbc-1-1795316426",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Jets",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nhl",
+  "url": "https://polymarket.com/event/nhl-las-wpg-2026-11-21",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/nhl-las-wpg-2026-11-21",
+    "status": "not_listed"
+   }
+  }
  }
 ]
