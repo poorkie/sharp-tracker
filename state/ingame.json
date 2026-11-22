@@ -1870,5 +1870,39 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-22T00:40:18.495910+00:00",
+  "cid": "0x0ea46d9b2f6369864a98cd6233bec9bc82b00d993586c4ad09427eb7ecb19efb",
+  "delay_s": 131,
+  "elite_n": 460,
+  "elite_price": 0.501,
+  "elite_roi": 0.1498,
+  "elite_ts": "2026-11-22T00:38:07+00:00",
+  "elite_usd": 204.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Playford: Jesse Delaney vs Chase Ferguson",
+  "fill_price": 0.51,
+  "fill_usd_available": 1874.96,
+  "id": "0x0ea46d9b-0-1795308018",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Jesse Delaney",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-delane-ferguso-2026-11-21",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-delane-ferguso-2026-11-21",
+    "status": "not_listed"
+   }
+  }
  }
 ]
