@@ -2407,5 +2407,39 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-22T12:30:18.444287+00:00",
+  "cid": "0xa09cff59bcc7e168b3c3d4a755766eddb17aa816935d07824bb327a3f60e2927",
+  "delay_s": 124,
+  "elite_n": 460,
+  "elite_price": 0.75,
+  "elite_roi": 0.1498,
+  "elite_ts": "2026-11-22T12:28:14+00:00",
+  "elite_usd": 300.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Ankara: Leonid Sheyngezikht vs Robert Guna",
+  "fill_price": 0.77,
+  "fill_usd_available": 517.86,
+  "id": "0xa09cff59-1-1795350618",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Robert Guna",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-sheynge-guna-2026-11-22",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-sheynge-guna-2026-11-22",
+    "status": "not_listed"
+   }
+  }
  }
 ]
