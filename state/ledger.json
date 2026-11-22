@@ -3566,5 +3566,75 @@
   "sharp_usd": 8130.17,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-tb-det-2026-11-22"
+ },
+ {
+  "alerted_at": "2026-11-22T17:10:19.274893+00:00",
+  "book_fair": 0.6464,
+  "books": [
+   {
+    "book": "DraftKings",
+    "price": -198,
+    "prob": 0.6644
+   },
+   {
+    "book": "MyBookie.ag",
+    "price": -198,
+    "prob": 0.6644
+   },
+   {
+    "book": "BetUS",
+    "price": -200,
+    "prob": 0.6667
+   },
+   {
+    "book": "LowVig.ag",
+    "price": -202,
+    "prob": 0.6689
+   },
+   {
+    "book": "BetOnline.ag",
+    "price": -202,
+    "prob": 0.6689
+   },
+   {
+    "book": "FanDuel",
+    "price": -205,
+    "prob": 0.6721
+   },
+   {
+    "book": "Bovada",
+    "price": -205,
+    "prob": 0.6721
+   },
+   {
+    "book": "BetRivers",
+    "price": -210,
+    "prob": 0.6774
+   },
+   {
+    "book": "BetMGM",
+    "price": -210,
+    "prob": 0.6774
+   }
+  ],
+  "close_price": 0.655,
+  "clv": null,
+  "condition_id": "0x6ab8f6b4d2c5992ce4fe0abd522953301ca3213433beefd5017d1cfbeb4fd69a",
+  "entry_price": 0.655,
+  "event_title": "Steelers vs. Eagles",
+  "game_start": "2026-11-22T18:00:00+00:00",
+  "id": "0x6ab8f6b4-0-1795367419",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "moneyline",
+  "max_prob": 0.6843,
+  "n_wallets": 3,
+  "outcome": "Steelers",
+  "outcome_index": 0,
+  "pnl_100": null,
+  "question": "Steelers vs. Eagles",
+  "result": null,
+  "sharp_usd": 6164.32,
+  "sport": "nfl",
+  "url": "https://polymarket.com/event/nfl-pit-phi-2026-11-22"
  }
 ]

@@ -2619,8 +2619,8 @@
   "idx": 1,
   "market_type": "child_moneyline",
   "pick": "DO KONCA (Map 2)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-legion1-konca-2026-11-22",
   "venues": {
@@ -2628,6 +2628,7 @@
     "ask": 0.63,
     "ask_size": 3209.0,
     "fee": 0.0163,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "DO KONCA",
     "ticker": "KXDOTA2MAP-26NOV220900KONCALEG-2-KONCA",
@@ -2660,8 +2661,8 @@
   "idx": 1,
   "market_type": "child_moneyline",
   "pick": "Team Liquid (Map 2)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 354.55,
+  "result": "WIN",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-pari-liquid-2026-11-22",
   "venues": {
@@ -2669,6 +2670,7 @@
     "ask": 0.23,
     "ask_size": 65.0,
     "fee": 0.0124,
+    "pnl_100": 312.54,
     "status": "ok",
     "team": "Team Liquid",
     "ticker": "KXDOTA2MAP-26NOV220900LIQUIDPARI-2-LIQUID",
@@ -2677,6 +2679,7 @@
    "pmus": {
     "ask": 0.23,
     "market": "astatc-dota2-pari-liquid-2026-11-22-game2",
+    "pnl_100": 334.78,
     "raw_ask": 0.78,
     "raw_bid": 0.77,
     "side": 1,
@@ -2716,6 +2719,136 @@
    "pmus": {
     "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-elamin-marek-2026-11-22",
     "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-22T17:10:19.274893+00:00",
+  "cid": "0x6ed45f7e96ad649bba3214f10ebc856a7a8816f98c4b7fc0f72186d9beceeb70",
+  "delay_s": 483,
+  "elite_n": 2039,
+  "elite_price": 0.5717,
+  "elite_roi": 0.0709,
+  "elite_ts": "2026-11-22T17:02:16+00:00",
+  "elite_usd": 25776.17,
+  "elite_wallets": [
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a",
+   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1"
+  ],
+  "event_title": "Dota 2: LEGION vs DO KONCA (BO3) - BLAST Slam Group C",
+  "fill_price": 0.65,
+  "fill_usd_available": 19.5,
+  "id": "0x6ed45f7e-1-1795367419",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "DO KONCA",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-legion1-konca-2026-11-22",
+  "venues": {
+   "kalshi": {
+    "ask": 0.64,
+    "ask_size": 21.11,
+    "fee": 0.0161,
+    "status": "ok",
+    "team": "DO KONCA",
+    "ticker": "KXDOTA2GAME-26NOV220900KONCALEG-KONCA",
+    "url": "https://kalshi.com/markets/kxdota2game"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-legion1-konca-2026-11-22",
+    "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-22T17:10:19.274893+00:00",
+  "cid": "0x839454b1dbb27ad4c328a14172950e748c6de74ba41eb7b87e88c6e049bae861",
+  "delay_s": 408,
+  "elite_n": 716,
+  "elite_price": 0.38,
+  "elite_roi": 0.2284,
+  "elite_ts": "2026-11-22T17:03:31+00:00",
+  "elite_usd": 16881.61,
+  "elite_wallets": [
+   "0x3231d2d67053e5dc3715f6429124741e52866e75",
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a",
+   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1"
+  ],
+  "event_title": "Dota 2: PARIVISION vs Team Liquid (BO3) - BLAST Slam Group C",
+  "fill_price": 0.38,
+  "fill_usd_available": 784.23,
+  "id": "0x839454b1-1-1795367419",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Team Liquid",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-pari-liquid-2026-11-22",
+  "venues": {
+   "kalshi": {
+    "ask": 0.38,
+    "ask_size": 533.72,
+    "fee": 0.0165,
+    "status": "ok",
+    "team": "Team Liquid",
+    "ticker": "KXDOTA2GAME-26NOV220900LIQUIDPARI-LIQUID",
+    "url": "https://kalshi.com/markets/kxdota2game"
+   },
+   "pmus": {
+    "ask": 0.37,
+    "market": "aec-dota2-pari-liquid-2026-11-22",
+    "raw_ask": 0.64,
+    "raw_bid": 0.63,
+    "side": 1,
+    "status": "ok",
+    "url": "https://polymarket.us/event/dota2-pari-liquid-2026-11-22"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-22T17:10:19.274893+00:00",
+  "cid": "0xc3c38df02ec284712b906c045e737e2f707dd6c3b09d4546c836bfd06c38f475",
+  "delay_s": 389,
+  "elite_n": 202,
+  "elite_price": 0.53,
+  "elite_roi": 0.0956,
+  "elite_ts": "2026-11-22T17:03:50+00:00",
+  "elite_usd": 212.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Miami (OH) RedHawks vs. UIC Flames",
+  "fill_price": 0.42,
+  "fill_usd_available": 537.93,
+  "id": "0xc3c38df0-1-1795367419",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "UIC Flames",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-miaoh-illchi-2026-11-22",
+  "venues": {
+   "kalshi": {
+    "ask": 0.42,
+    "ask_size": 40513.19,
+    "fee": 0.0171,
+    "status": "ok",
+    "team": "UIC",
+    "ticker": "KXNCAAMBGAME-26NOV22MOHUIC-UIC",
+    "url": "https://kalshi.com/markets/kxncaambgame"
+   },
+   "pmus": {
+    "ask": 0.42,
+    "market": "aec-cbb-miaoh-illchi-2026-11-22",
+    "raw_ask": 0.59,
+    "raw_bid": 0.58,
+    "side": 1,
+    "status": "ok",
+    "url": "https://polymarket.us/event/cbb-miaoh-illchi-2026-11-22"
    }
   }
  }
