@@ -1904,5 +1904,44 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-22T01:00:19.512702+00:00",
+  "cid": "0xf67a0d86970f6791f73ed28dc673221e22c0a9263af5a7f045fa4d40d917af01",
+  "delay_s": 215,
+  "elite_n": 772,
+  "elite_price": 0.66,
+  "elite_roi": 0.1198,
+  "elite_ts": "2026-11-22T00:56:44+00:00",
+  "elite_usd": 2481.6,
+  "elite_wallets": [
+   "0x1bc32be106439240f59aa25668e613831a5cdc6e"
+  ],
+  "event_title": "Trail Blazers vs. Knicks",
+  "fill_price": 0.73,
+  "fill_usd_available": 1873.18,
+  "id": "0xf67a0d86-1-1795309219",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Knicks",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-por-nyk-2026-11-21",
+  "venues": {
+   "kalshi": {
+    "ask": 0.74,
+    "ask_size": 193131.9,
+    "fee": 0.0135,
+    "status": "ok",
+    "team": "New York",
+    "ticker": "KXNBAGAME-26NOV21PORNYK-NYK",
+    "url": "https://kalshi.com/markets/kxnbagame"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/nba-por-nyk-2026-11-21",
+    "status": "not_listed"
+   }
+  }
  }
 ]
