@@ -2427,8 +2427,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "Robert Guna",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 29.87,
+  "result": "WIN",
   "sport": "atp",
   "url": "https://polymarket.com/event/atp-sheynge-guna-2026-11-22",
   "venues": {
@@ -2525,10 +2525,11 @@
   "elite_price": 0.6607,
   "elite_roi": 0.2284,
   "elite_ts": "2026-11-22T14:09:58+00:00",
-  "elite_usd": 2884.31,
+  "elite_usd": 38606.67,
   "elite_wallets": [
    "0x3231d2d67053e5dc3715f6429124741e52866e75",
-   "0x40ce68f1564f3c751b12d88a393d8cc0651dbf90"
+   "0x40ce68f1564f3c751b12d88a393d8cc0651dbf90",
+   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1"
   ],
   "event_title": "Dota 2: PARIVISION vs Team Liquid (BO3) - BLAST Slam Group C",
   "fill_price": 0.66,
