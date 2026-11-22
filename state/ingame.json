@@ -2089,8 +2089,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "Troy Trojans",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-troy-valp-2026-11-21",
   "venues": {
@@ -2098,6 +2098,7 @@
     "ask": 0.43,
     "ask_size": 5.26,
     "fee": 0.0172,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "Troy",
     "ticker": "KXNCAAMBGAME-26NOV21VALPTROY-TROY",
