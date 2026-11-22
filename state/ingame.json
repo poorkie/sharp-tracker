@@ -2441,5 +2441,125 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-22T14:10:18.200112+00:00",
+  "cid": "0x13c44fd349b3769e8d9422ff3e76866fdec03c09e299a9ff69f16be41b489c3a",
+  "delay_s": 392,
+  "elite_n": 460,
+  "elite_price": 0.59,
+  "elite_roi": 0.1498,
+  "elite_ts": "2026-11-22T14:03:46+00:00",
+  "elite_usd": 236.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Monastir 2: Pablo Aunion vs Maximilian Neuchrist",
+  "fill_price": 0.51,
+  "fill_usd_available": 559.64,
+  "id": "0x13c44fd3-1-1795356618",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Maximilian Neuchrist",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-aunion-neuchri-2026-11-22",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-aunion-neuchri-2026-11-22",
+    "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-22T14:10:18.200112+00:00",
+  "cid": "0xaf650dcf4ddae605bb5adbc1076d79bf80b399446db1f9949157974df0b89e94",
+  "delay_s": 145,
+  "elite_n": 716,
+  "elite_price": 0.5973,
+  "elite_roi": 0.2284,
+  "elite_ts": "2026-11-22T14:07:53+00:00",
+  "elite_usd": 61237.59,
+  "elite_wallets": [
+   "0x3231d2d67053e5dc3715f6429124741e52866e75",
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a",
+   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1"
+  ],
+  "event_title": "Dota 2: LEGION vs DO KONCA (BO3) - BLAST Slam Group C",
+  "fill_price": 0.65,
+  "fill_usd_available": 6706.91,
+  "id": "0xaf650dcf-1-1795356618",
+  "idx": 1,
+  "market_type": "child_moneyline",
+  "pick": "DO KONCA (Map 1)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-legion1-konca-2026-11-22",
+  "venues": {
+   "kalshi": {
+    "ask": 0.64,
+    "ask_size": 346.0,
+    "fee": 0.0161,
+    "status": "ok",
+    "team": "DO KONCA",
+    "ticker": "KXDOTA2MAP-26NOV220900KONCALEG-1-KONCA",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-legion1-konca-2026-11-22",
+    "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-22T14:10:18.200112+00:00",
+  "cid": "0xde211584f0b829c360fad0c17bef5935849f67124a10fe051e6c2819c8612739",
+  "delay_s": 20,
+  "elite_n": 716,
+  "elite_price": 0.6607,
+  "elite_roi": 0.2284,
+  "elite_ts": "2026-11-22T14:09:58+00:00",
+  "elite_usd": 2884.31,
+  "elite_wallets": [
+   "0x3231d2d67053e5dc3715f6429124741e52866e75",
+   "0x40ce68f1564f3c751b12d88a393d8cc0651dbf90"
+  ],
+  "event_title": "Dota 2: PARIVISION vs Team Liquid (BO3) - BLAST Slam Group C",
+  "fill_price": 0.66,
+  "fill_usd_available": 5124.35,
+  "id": "0xde211584-0-1795356618",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "PARIVISION (Map 1)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-pari-liquid-2026-11-22",
+  "venues": {
+   "kalshi": {
+    "ask": 0.67,
+    "ask_size": 101.0,
+    "fee": 0.0155,
+    "status": "ok",
+    "team": "PARIVISION",
+    "ticker": "KXDOTA2MAP-26NOV220900LIQUIDPARI-1-PARI",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "ask": 0.64,
+    "market": "astatc-dota2-pari-liquid-2026-11-22-game1",
+    "raw_ask": 0.64,
+    "raw_bid": 0.63,
+    "side": 0,
+    "status": "ok",
+    "url": "https://polymarket.us/event/dota2-pari-liquid-2026-11-22"
+   }
+  }
  }
 ]
