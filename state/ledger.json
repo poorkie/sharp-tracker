@@ -3542,5 +3542,29 @@
   "sharp_usd": 20321.48,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-ten-dal-2026-11-22"
+ },
+ {
+  "alerted_at": "2026-11-22T16:20:24.348830+00:00",
+  "book_fair": null,
+  "books": [],
+  "close_price": 0.415,
+  "clv": null,
+  "condition_id": "0xa184e6b235be74f34ea95fcc0f1cd071a873026cb61dcfca45836711e206ee1f",
+  "entry_price": 0.415,
+  "event_title": "Buccaneers vs. Lions",
+  "game_start": "2026-11-22T18:00:00+00:00",
+  "id": "0xa184e6b2-0-1795364424",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "spreads",
+  "max_prob": 0.5416,
+  "n_wallets": 3,
+  "outcome": "Lions -6.5",
+  "outcome_index": 0,
+  "pnl_100": null,
+  "question": "Spread: Lions (-6.5)",
+  "result": null,
+  "sharp_usd": 8130.17,
+  "sport": "nfl",
+  "url": "https://polymarket.com/event/nfl-tb-det-2026-11-22"
  }
 ]
