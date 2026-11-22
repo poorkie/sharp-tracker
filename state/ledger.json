@@ -3760,6 +3760,14 @@
   "game_start": "2026-11-22T21:25:00+00:00",
   "id": "0xacb4bae0-0-1795371617",
   "kind": "ELITE_CONSENSUS",
+  "lock": {
+   "at": "2026-11-22T21:10:19.751248+00:00",
+   "late": false,
+   "price": 0.725,
+   "reason": "Elite still in; market moved their way",
+   "rule": 2,
+   "verdict": "PLAY"
+  },
   "market_type": "moneyline",
   "max_prob": 0.7403,
   "n_wallets": 3,
@@ -3784,6 +3792,14 @@
   "game_start": "2026-11-22T21:25:00+00:00",
   "id": "0x3ec44dda-1-1795380618",
   "kind": "ELITE_CONSENSUS",
+  "lock": {
+   "at": "2026-11-22T21:10:19.751248+00:00",
+   "late": false,
+   "price": 0.555,
+   "reason": "Elite still in",
+   "rule": 2,
+   "verdict": "PLAY"
+  },
   "market_type": "totals",
   "max_prob": 0.5338,
   "n_wallets": 3,
@@ -3793,6 +3809,38 @@
   "question": "Jaguars vs. Giants: O/U 46.5",
   "result": null,
   "sharp_usd": 4653.01,
+  "sport": "nfl",
+  "url": "https://polymarket.com/event/nfl-jax-nyg-2026-11-22"
+ },
+ {
+  "alerted_at": "2026-11-22T21:10:19.751248+00:00",
+  "book_fair": null,
+  "books": [],
+  "close_price": 0.495,
+  "clv": null,
+  "condition_id": "0x21ecf08c86db16c88aca8618b105308caa6840e69e8650e5498532e35be1ecd6",
+  "entry_price": 0.495,
+  "event_title": "Jaguars vs. Giants",
+  "game_start": "2026-11-22T21:25:00+00:00",
+  "id": "0x21ecf08c-0-1795381819",
+  "kind": "ELITE_CONSENSUS",
+  "lock": {
+   "at": "2026-11-22T21:10:19.751248+00:00",
+   "late": false,
+   "price": 0.495,
+   "reason": "Elite still in",
+   "rule": 2,
+   "verdict": "PLAY"
+  },
+  "market_type": "spreads",
+  "max_prob": 0.5032,
+  "n_wallets": 3,
+  "outcome": "Jaguars -6.5",
+  "outcome_index": 0,
+  "pnl_100": null,
+  "question": "Spread: Jaguars (-6.5)",
+  "result": null,
+  "sharp_usd": 12862.58,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-jax-nyg-2026-11-22"
  }

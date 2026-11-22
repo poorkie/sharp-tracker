@@ -3239,5 +3239,49 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-22T21:10:19.751248+00:00",
+  "cid": "0x35e3a46eea4c56646973fb71aaa058336dcdf80d5b430f33fc67d950aa7a5027",
+  "delay_s": -27,
+  "elite_n": 222,
+  "elite_price": 0.4994,
+  "elite_roi": 0.1155,
+  "elite_ts": "2026-11-22T21:10:46+00:00",
+  "elite_usd": 261.04,
+  "elite_wallets": [
+   "0x6db568e61e5e3de7d87f831431b673f38ce2e279"
+  ],
+  "event_title": "Pistons vs. Hawks",
+  "fill_price": 0.52,
+  "fill_usd_available": 7037.51,
+  "id": "0x35e3a46e-1-1795381819",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Hawks",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-det-atl-2026-11-22",
+  "venues": {
+   "kalshi": {
+    "ask": 0.52,
+    "ask_size": 18342.78,
+    "fee": 0.0175,
+    "status": "ok",
+    "team": "Atlanta",
+    "ticker": "KXNBAGAME-26NOV22DETATL-ATL",
+    "url": "https://kalshi.com/markets/kxnbagame"
+   },
+   "pmus": {
+    "ask": 0.52,
+    "market": "aec-nba-det-atl-2026-11-22",
+    "raw_ask": 0.49,
+    "raw_bid": 0.48,
+    "side": 1,
+    "status": "ok",
+    "url": "https://polymarket.us/event/nba-det-atl-2026-11-22"
+   }
+  }
  }
 ]
