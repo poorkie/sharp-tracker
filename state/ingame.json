@@ -2969,5 +2969,39 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-22T18:40:18.493640+00:00",
+  "cid": "0x832d53b0c21ad3b5a7d53b3904e2da59b2957092aea78389c9714fa62213b5d6",
+  "delay_s": 463,
+  "elite_n": 460,
+  "elite_price": 0.66,
+  "elite_roi": 0.1498,
+  "elite_ts": "2026-11-22T18:32:35+00:00",
+  "elite_usd": 264.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "San Salvador: Elijah Strode vs Miles Clark",
+  "fill_price": 0.55,
+  "fill_usd_available": 2397.76,
+  "id": "0x832d53b0-0-1795372818",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Elijah Strode",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-strode-clark-2026-11-22",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-strode-clark-2026-11-22",
+    "status": "not_listed"
+   }
+  }
  }
 ]
