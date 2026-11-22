@@ -1944,5 +1944,49 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-22T01:40:16.000892+00:00",
+  "cid": "0xc037000a253ed64c8ab012c999b5261db7e3d851d824ec1fe9bb74eb9e2e43f2",
+  "delay_s": -40,
+  "elite_n": 119,
+  "elite_price": 0.38,
+  "elite_roi": 0.1495,
+  "elite_ts": "2026-11-22T01:40:56+00:00",
+  "elite_usd": 261.0,
+  "elite_wallets": [
+   "0xdbdd45150249e229eb4ca8aa48a30dca21faa5de"
+  ],
+  "event_title": "New Orleans Privateers vs. Texas Southern Tigers",
+  "fill_price": 0.38,
+  "fill_usd_available": 33.34,
+  "id": "0xc037000a-1-1795311616",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Texas Southern Tigers",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-no-txs-2026-11-21",
+  "venues": {
+   "kalshi": {
+    "ask": 0.38,
+    "ask_size": 11366.09,
+    "fee": 0.0165,
+    "status": "ok",
+    "team": "Texas Southern",
+    "ticker": "KXNCAAMBGAME-26NOV21UNOTXSO-TXSO",
+    "url": "https://kalshi.com/markets/kxncaambgame"
+   },
+   "pmus": {
+    "ask": 0.37,
+    "market": "aec-cbb-no-txs-2026-11-21",
+    "raw_ask": 0.64,
+    "raw_bid": 0.63,
+    "side": 1,
+    "status": "ok",
+    "url": "https://polymarket.us/event/cbb-no-txs-2026-11-21"
+   }
+  }
  }
 ]
