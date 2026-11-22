@@ -93975,6 +93975,8 @@
    "0bc45347:935",
    "7db7cece:f26",
    "39cda330:bb6",
+   "a0d28d10:b9d",
+   "6347ca90:fd3",
    "c33fa83f:261",
    "40be64a2:9b6",
    "a444d436:e68",
@@ -94002,7 +94004,7 @@
    "c3f322d5:36b",
    "9f461b82:5d8"
   ],
-  "graded_at": "2026-11-15T02:20:16.501140+00:00",
+  "graded_at": "2026-11-22T02:30:28.047590+00:00",
   "grades": {
    "cbb": {
     "avg_price": 0.549,
@@ -94018,16 +94020,16 @@
     "tier": "NONE"
    },
    "cfb": {
-    "avg_price": 0.553,
-    "hit_edge": 0.142,
-    "hit_rate": 0.694,
-    "n": 36,
-    "pnl": 40272.8,
-    "roi": 0.2687,
-    "shrunk_roi": 0.1115,
+    "avg_price": 0.555,
+    "hit_edge": 0.12,
+    "hit_rate": 0.676,
+    "n": 37,
+    "pnl": 33786.36,
+    "roi": 0.2163,
+    "shrunk_roi": 0.0883,
     "sport": "cfb",
-    "staked": 149852.88,
-    "t_stat": 1.68,
+    "staked": 156224.63,
+    "t_stat": 1.44,
     "tier": "SHARP"
    },
    "mlb": {
@@ -94058,15 +94060,15 @@
    },
    "nfl": {
     "avg_price": 0.525,
-    "hit_edge": 0.04,
-    "hit_rate": 0.565,
-    "n": 46,
-    "pnl": -6923.51,
-    "roi": -0.0344,
-    "shrunk_roi": -0.0323,
+    "hit_edge": 0.029,
+    "hit_rate": 0.553,
+    "n": 47,
+    "pnl": -10299.3,
+    "roi": -0.0503,
+    "shrunk_roi": -0.041,
     "sport": "nfl",
-    "staked": 201471.06,
-    "t_stat": 0.51,
+    "staked": 204797.3,
+    "t_stat": 0.35,
     "tier": "NONE"
    },
    "nhl": {
@@ -163852,6 +163854,37 @@
     "sport": "lol",
     "staked": 412343.07,
     "t_stat": -1.89,
+    "tier": "NONE"
+   }
+  }
+ },
+ "0x8dddca88d339a7d8772de6cba671c01d4b2b39ee": {
+  "graded_at": "2026-11-22T02:30:28.047590+00:00",
+  "grades": {
+   "lol": {
+    "avg_price": 0.554,
+    "hit_edge": -0.22,
+    "hit_rate": 0.333,
+    "n": 21,
+    "pnl": 218.18,
+    "roi": 0.0186,
+    "shrunk_roi": -0.0133,
+    "sport": "lol",
+    "staked": 11730.12,
+    "t_stat": -1.99,
+    "tier": "NONE"
+   },
+   "nba": {
+    "avg_price": 0.53,
+    "hit_edge": 0.001,
+    "hit_rate": 0.53,
+    "n": 313,
+    "pnl": -18899.79,
+    "roi": -0.0332,
+    "shrunk_roi": -0.0329,
+    "sport": "nba",
+    "staked": 568998.02,
+    "t_stat": -0.73,
     "tier": "NONE"
    }
   }
