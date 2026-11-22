@@ -3146,8 +3146,8 @@
   "idx": 0,
   "market_type": "child_moneyline",
   "pick": "LGD Gaming (Map 2)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 35.14,
+  "result": "WIN",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-lgd-ai1-2026-11-22",
   "venues": {
@@ -3155,6 +3155,7 @@
     "ask": 0.74,
     "ask_size": 5.0,
     "fee": 0.0135,
+    "pnl_100": 32.71,
     "status": "ok",
     "team": "LGD Gaming",
     "ticker": "KXDOTA2MAP-26NOV221200AILGD-2-LGD",
@@ -3196,6 +3197,45 @@
    },
    "pmus": {
     "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-idarrag-maginle-2026-11-22",
+    "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-22T20:40:20.825138+00:00",
+  "cid": "0x5787cb297aa593f319eb80444200d4391902772c526b142124e0e1cfbcb699dc",
+  "delay_s": -12,
+  "elite_n": 1473,
+  "elite_price": 0.369,
+  "elite_roi": 0.0974,
+  "elite_ts": "2026-11-22T20:40:32+00:00",
+  "elite_usd": 6006.26,
+  "elite_wallets": [
+   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1"
+  ],
+  "event_title": "Dota 2: LGD Gaming vs Astra Invicta (BO3) - BLAST Slam Group D",
+  "fill_price": 0.36,
+  "fill_usd_available": 1301.17,
+  "id": "0x5787cb29-1-1795380020",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Astra Invicta",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-lgd-ai1-2026-11-22",
+  "venues": {
+   "kalshi": {
+    "ask": 0.38,
+    "ask_size": 1410.97,
+    "fee": 0.0165,
+    "status": "ok",
+    "team": "Astra Invicta",
+    "ticker": "KXDOTA2GAME-26NOV221200AILGD-AI",
+    "url": "https://kalshi.com/markets/kxdota2game"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-lgd-ai1-2026-11-22",
     "status": "not_listed"
    }
   }
