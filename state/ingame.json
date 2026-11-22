@@ -2032,5 +2032,39 @@
     "url": "https://polymarket.us/event/nba-mem-min-2026-11-21"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-22T01:51:55.956008+00:00",
+  "cid": "0xcef9800b93865b44c91ad6ea859ca26e957e4a6cdc33ae96d340cf7cf65a3476",
+  "delay_s": -7,
+  "elite_n": 460,
+  "elite_price": 0.73,
+  "elite_roi": 0.1498,
+  "elite_ts": "2026-11-22T01:52:02+00:00",
+  "elite_usd": 292.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Yokohama: Yunseong Chung vs Jumpei Yamasaki",
+  "fill_price": 0.77,
+  "fill_usd_available": 71.61,
+  "id": "0xcef9800b-0-1795312315",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Yunseong Chung",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-chun-yamasak-2026-11-21",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-chun-yamasak-2026-11-21",
+    "status": "not_listed"
+   }
+  }
  }
 ]
