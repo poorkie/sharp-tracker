@@ -4585,5 +4585,49 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-23T20:30:19.784270+00:00",
+  "cid": "0x5873f0e408d6924424cdb3606188993389692da7a060d45b6ef1e3aa9c7f9c35",
+  "delay_s": -27,
+  "elite_n": 171,
+  "elite_price": 0.645,
+  "elite_roi": 0.1557,
+  "elite_ts": "2026-11-23T20:30:46+00:00",
+  "elite_usd": 250.0,
+  "elite_wallets": [
+   "0xe2160eb837cd17de5915d460b1d69b5ba2ac7448"
+  ],
+  "event_title": "Tulsa Golden Hurricane vs. Oregon State Beavers",
+  "fill_price": 0.65,
+  "fill_usd_available": 16.43,
+  "id": "0x5873f0e4-1-1795465819",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Oregon State Beavers",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-tulsa-oregst-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "ask": 0.64,
+    "ask_size": 881.44,
+    "fee": 0.0161,
+    "status": "ok",
+    "team": "Oregon St.",
+    "ticker": "KXNCAAMBGAME-26NOV23TLSAORST-ORST",
+    "url": "https://kalshi.com/markets/kxncaambgame"
+   },
+   "pmus": {
+    "ask": 0.64,
+    "market": "aec-cbb-tulsa-oregst-2026-11-23",
+    "raw_ask": 0.37,
+    "raw_bid": 0.36,
+    "side": 1,
+    "status": "ok",
+    "url": "https://polymarket.us/event/cbb-tulsa-oregst-2026-11-23"
+   }
+  }
  }
 ]
