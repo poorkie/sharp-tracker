@@ -3357,5 +3357,49 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-23T00:00:28.402644+00:00",
+  "cid": "0xbc6e19acb94dbfe771002d0b48b9e9319ff37482e2c246114bac75fad428bf0a",
+  "delay_s": 401,
+  "elite_n": 119,
+  "elite_price": 0.46,
+  "elite_roi": 0.1495,
+  "elite_ts": "2026-11-22T23:53:47+00:00",
+  "elite_usd": 433.21,
+  "elite_wallets": [
+   "0xdbdd45150249e229eb4ca8aa48a30dca21faa5de"
+  ],
+  "event_title": "Temple Owls vs. Stephen F. Austin Lumberjacks",
+  "fill_price": 0.64,
+  "fill_usd_available": 585.89,
+  "id": "0xbc6e19ac-0-1795392028",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Temple Owls",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-templ-sfaus-2026-11-22",
+  "venues": {
+   "kalshi": {
+    "ask": 0.64,
+    "ask_size": 10861.82,
+    "fee": 0.0161,
+    "status": "ok",
+    "team": "Temple",
+    "ticker": "KXNCAAMBGAME-26NOV22TEMSFA-TEM",
+    "url": "https://kalshi.com/markets/kxncaambgame"
+   },
+   "pmus": {
+    "ask": 0.64,
+    "market": "aec-cbb-templ-sfaus-2026-11-22",
+    "raw_ask": 0.64,
+    "raw_bid": 0.63,
+    "side": 0,
+    "status": "ok",
+    "url": "https://polymarket.us/event/cbb-templ-sfaus-2026-11-22"
+   }
+  }
  }
 ]
