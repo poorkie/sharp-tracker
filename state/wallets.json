@@ -17424,19 +17424,19 @@
   }
  },
  "0x0f17aacbaa5e2382b44fddc45a3ed42f84d70724": {
-  "graded_at": "2026-11-16T23:20:18.496272+00:00",
+  "graded_at": "2026-11-23T23:30:23.244869+00:00",
   "grades": {
    "atp": {
     "avg_price": 0.504,
-    "hit_edge": 0.044,
-    "hit_rate": 0.548,
-    "n": 1561,
-    "pnl": 14161.45,
-    "roi": 0.0305,
-    "shrunk_roi": 0.029,
+    "hit_edge": 0.05,
+    "hit_rate": 0.555,
+    "n": 1565,
+    "pnl": 18832.42,
+    "roi": 0.0405,
+    "shrunk_roi": 0.0388,
     "sport": "atp",
-    "staked": 463772.75,
-    "t_stat": 0.24,
+    "staked": 464723.59,
+    "t_stat": 0.5,
     "tier": "NONE"
    },
    "epl": {
@@ -17466,16 +17466,16 @@
     "tier": "NONE"
    },
    "wta": {
-    "avg_price": 0.459,
-    "hit_edge": 0.078,
-    "hit_rate": 0.537,
-    "n": 387,
-    "pnl": 1591.96,
-    "roi": 0.0164,
-    "shrunk_roi": 0.0121,
+    "avg_price": 0.457,
+    "hit_edge": 0.073,
+    "hit_rate": 0.53,
+    "n": 368,
+    "pnl": 967.64,
+    "roi": 0.0108,
+    "shrunk_roi": 0.0068,
     "sport": "wta",
-    "staked": 97069.64,
-    "t_stat": -0.36,
+    "staked": 89646.72,
+    "t_stat": -0.38,
     "tier": "NONE"
    }
   }
@@ -171064,6 +171064,154 @@
     "sport": "nhl",
     "staked": 21340.74,
     "t_stat": -0.68,
+    "tier": "NONE"
+   }
+  }
+ },
+ "0x8c818a866e6a4e5821a4faac8418903e33e3dcd3": {
+  "graded_at": "2026-11-23T23:30:23.244869+00:00",
+  "grades": {
+   "atp": {
+    "avg_price": 0.42,
+    "hit_edge": 0.044,
+    "hit_rate": 0.464,
+    "n": 97,
+    "pnl": 24243.96,
+    "roi": 0.236,
+    "shrunk_roi": 0.1583,
+    "sport": "atp",
+    "staked": 102728.24,
+    "t_stat": 0.52,
+    "tier": "NONE"
+   },
+   "cbb": {
+    "avg_price": 0.518,
+    "hit_edge": 0.02,
+    "hit_rate": 0.538,
+    "n": 26,
+    "pnl": -79.54,
+    "roi": -0.0024,
+    "shrunk_roi": -0.0191,
+    "sport": "cbb",
+    "staked": 33333.3,
+    "t_stat": -0.61,
+    "tier": "NONE"
+   },
+   "cfb": {
+    "avg_price": 0.459,
+    "hit_edge": -0.209,
+    "hit_rate": 0.25,
+    "n": 12,
+    "pnl": -1757.65,
+    "roi": -0.2315,
+    "shrunk_roi": -0.0765,
+    "sport": "cfb",
+    "staked": 7592.23,
+    "t_stat": -1.32,
+    "tier": "NONE"
+   },
+   "dota2": {
+    "avg_price": 0.44,
+    "hit_edge": -0.44,
+    "hit_rate": 0.0,
+    "n": 1,
+    "pnl": -264.0,
+    "roi": -1.0,
+    "shrunk_roi": -0.0537,
+    "sport": "dota2",
+    "staked": 264.0,
+    "t_stat": 0.0,
+    "tier": "NONE"
+   },
+   "epl": {
+    "avg_price": 0.49,
+    "hit_edge": 0.042,
+    "hit_rate": 0.533,
+    "n": 246,
+    "pnl": 67214.45,
+    "roi": 0.1365,
+    "shrunk_roi": 0.1132,
+    "sport": "epl",
+    "staked": 492358.45,
+    "t_stat": 0.14,
+    "tier": "NONE"
+   },
+   "lol": {
+    "avg_price": 0.296,
+    "hit_edge": 0.037,
+    "hit_rate": 0.333,
+    "n": 3,
+    "pnl": -267.17,
+    "roi": -0.6281,
+    "shrunk_roi": -0.0717,
+    "sport": "lol",
+    "staked": 425.34,
+    "t_stat": -0.86,
+    "tier": "NONE"
+   },
+   "mlb": {
+    "avg_price": 0.422,
+    "hit_edge": -0.004,
+    "hit_rate": 0.418,
+    "n": 189,
+    "pnl": 8708.94,
+    "roi": 0.2377,
+    "shrunk_roi": 0.191,
+    "sport": "mlb",
+    "staked": 36633.92,
+    "t_stat": -0.59,
+    "tier": "NONE"
+   },
+   "nba": {
+    "avg_price": 0.472,
+    "hit_edge": -0.003,
+    "hit_rate": 0.468,
+    "n": 459,
+    "pnl": -33955.49,
+    "roi": -0.0484,
+    "shrunk_roi": -0.0469,
+    "sport": "nba",
+    "staked": 701172.7,
+    "t_stat": -1.39,
+    "tier": "NONE"
+   },
+   "nfl": {
+    "avg_price": 0.469,
+    "hit_edge": -0.005,
+    "hit_rate": 0.464,
+    "n": 28,
+    "pnl": 2444.1,
+    "roi": 0.0996,
+    "shrunk_roi": 0.0234,
+    "sport": "nfl",
+    "staked": 24534.37,
+    "t_stat": -0.04,
+    "tier": "NONE"
+   },
+   "nhl": {
+    "avg_price": 0.685,
+    "hit_edge": 0.037,
+    "hit_rate": 0.721,
+    "n": 61,
+    "pnl": 572.62,
+    "roi": 0.0099,
+    "shrunk_roi": -0.0059,
+    "sport": "nhl",
+    "staked": 58097.49,
+    "t_stat": 0.63,
+    "tier": "NONE"
+   },
+   "wta": {
+    "avg_price": 0.344,
+    "hit_edge": 0.024,
+    "hit_rate": 0.368,
+    "n": 38,
+    "pnl": 11927.33,
+    "roi": 0.2905,
+    "shrunk_roi": 0.1261,
+    "sport": "wta",
+    "staked": 41064.61,
+    "t_stat": -0.85,
     "tier": "NONE"
    }
   }

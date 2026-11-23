@@ -4804,5 +4804,44 @@
     "url": "https://polymarket.us/event/cbb-wash-byu-2026-11-23"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-23T23:30:23.244869+00:00",
+  "cid": "0x7a0239a93ac075c3585bccb166d17bf63a2238f9d6a7d7ba7092dbe8f733933e",
+  "delay_s": 109,
+  "elite_n": 202,
+  "elite_price": 0.62,
+  "elite_roi": 0.0956,
+  "elite_ts": "2026-11-23T23:28:34+00:00",
+  "elite_usd": 252.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Temple Owls vs. UT Martin Skyhawks",
+  "fill_price": 0.76,
+  "fill_usd_available": 894.87,
+  "id": "0x7a0239a9-0-1795476623",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Temple Owls",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-templ-tmrt-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "ask": 0.76,
+    "market": "aec-cbb-templ-tmrt-2026-11-23",
+    "raw_ask": 0.76,
+    "raw_bid": 0.75,
+    "side": 0,
+    "status": "ok",
+    "url": "https://polymarket.us/event/cbb-templ-tmrt-2026-11-23"
+   }
+  }
  }
 ]
