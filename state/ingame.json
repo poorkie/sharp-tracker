@@ -4056,5 +4056,49 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-23T15:20:19.014056+00:00",
+  "cid": "0x74a2267ff720f085aadd83e42dbf86ddf028746f736127c059b8da4eeae34893",
+  "delay_s": 189,
+  "elite_n": 295,
+  "elite_price": 0.63,
+  "elite_roi": 0.1165,
+  "elite_ts": "2026-11-23T15:17:10+00:00",
+  "elite_usd": 543.46,
+  "elite_wallets": [
+   "0x40ce68f1564f3c751b12d88a393d8cc0651dbf90"
+  ],
+  "event_title": "Dota 2: Natus Vincere vs OG (BO3) - BLAST Slam Group A",
+  "fill_price": 0.65,
+  "fill_usd_available": 13793.66,
+  "id": "0x74a2267f-0-1795447219",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "Natus Vincere (Map 2)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-navi-og-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "ask": 0.65,
+    "ask_size": 110.58,
+    "fee": 0.0159,
+    "status": "ok",
+    "team": "Natus Vincere",
+    "ticker": "KXDOTA2MAP-26NOV230900OGNAVI-2-NAVI",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "ask": 0.64,
+    "market": "astatc-dota2-navi-og-2026-11-23-game2",
+    "raw_ask": 0.64,
+    "raw_bid": 0.63,
+    "side": 0,
+    "status": "ok",
+    "url": "https://polymarket.us/event/dota2-navi-og-2026-11-23"
+   }
+  }
  }
 ]
