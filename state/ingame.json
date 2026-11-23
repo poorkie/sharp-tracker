@@ -4629,5 +4629,49 @@
     "url": "https://polymarket.us/event/cbb-tulsa-oregst-2026-11-23"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-23T21:10:27.384861+00:00",
+  "cid": "0xdce143986edcdfaca6e3b5f80e5959961382a2b8aa4d3f20a035e6707b7acdf0",
+  "delay_s": 410,
+  "elite_n": 202,
+  "elite_price": 0.66,
+  "elite_roi": 0.0956,
+  "elite_ts": "2026-11-23T21:03:37+00:00",
+  "elite_usd": 264.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Southern Utah Thunderbirds vs. Arkansas State Red Wolves",
+  "fill_price": 0.73,
+  "fill_usd_available": 657.0,
+  "id": "0xdce14398-1-1795468227",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Arkansas State Red Wolves",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-sutah-arkst-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "ask": 0.73,
+    "ask_size": 2825.07,
+    "fee": 0.0138,
+    "status": "ok",
+    "team": "Arkansas St.",
+    "ticker": "KXNCAAMBGAME-26NOV23ARSTSUU-ARST",
+    "url": "https://kalshi.com/markets/kxncaambgame"
+   },
+   "pmus": {
+    "ask": 0.73,
+    "market": "aec-cbb-sutah-arkst-2026-11-23",
+    "raw_ask": 0.28,
+    "raw_bid": 0.27,
+    "side": 1,
+    "status": "ok",
+    "url": "https://polymarket.us/event/cbb-sutah-arkst-2026-11-23"
+   }
+  }
  }
 ]
