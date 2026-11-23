@@ -3550,8 +3550,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "UT Martin Skyhawks",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-tmrt-utahv-2026-11-22",
   "venues": {
@@ -3562,6 +3562,7 @@
    "pmus": {
     "ask": 0.51,
     "market": "aec-cbb-tmrt-utahv-2026-11-22",
+    "pnl_100": -100.0,
     "raw_ask": 0.51,
     "raw_bid": 0.5,
     "side": 0,
