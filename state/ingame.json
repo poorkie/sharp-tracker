@@ -4280,10 +4280,11 @@
   "elite_price": 0.4397,
   "elite_roi": 0.2284,
   "elite_ts": "2026-11-23T17:02:25+00:00",
-  "elite_usd": 14817.3,
+  "elite_usd": 16222.74,
   "elite_wallets": [
    "0x3231d2d67053e5dc3715f6429124741e52866e75",
-   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a"
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a",
+   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1"
   ],
   "event_title": "Dota 2: Aurora vs LGD Gaming (BO3) - BLAST Slam Group D",
   "fill_price": 0.51,
@@ -4308,6 +4309,40 @@
    },
    "pmus": {
     "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-aur1-lgd-2026-11-23",
+    "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-23T17:20:19.003550+00:00",
+  "cid": "0xf09e9a6e9b04f186dc423c4ea41a803d69a1e62cb3077eb20d4e59211ed66748",
+  "delay_s": 540,
+  "elite_n": 460,
+  "elite_price": 0.6523,
+  "elite_roi": 0.1498,
+  "elite_ts": "2026-11-23T17:11:19+00:00",
+  "elite_usd": 264.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Monastir 2: Robert Strombachs vs Tiago Pereira",
+  "fill_price": 0.5,
+  "fill_usd_available": 1630.84,
+  "id": "0xf09e9a6e-0-1795454419",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Robert Strombachs",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-stromba-pereira-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-stromba-pereira-2026-11-23",
     "status": "not_listed"
    }
   }
