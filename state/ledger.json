@@ -4001,5 +4001,29 @@
   "sharp_usd": 3159.94,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-sas-sac-2026-11-23"
+ },
+ {
+  "alerted_at": "2026-11-23T19:30:23.720906+00:00",
+  "book_fair": null,
+  "books": [],
+  "close_price": 0.495,
+  "clv": null,
+  "condition_id": "0xfb64c2863568a8c3e9151644236d69de2584d19dea0bb3b736c07b19182200e1",
+  "entry_price": 0.495,
+  "event_title": "Trail Blazers vs. 76ers",
+  "game_start": "2026-11-24T00:00:00+00:00",
+  "id": "0xfb64c286-0-1795462223",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "spreads",
+  "max_prob": 0.5246,
+  "n_wallets": 3,
+  "outcome": "76ers -2.5",
+  "outcome_index": 0,
+  "pnl_100": null,
+  "question": "Spread: 76ers (-2.5)",
+  "result": null,
+  "sharp_usd": 4533.5,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-por-phi-2026-11-23"
  }
 ]
