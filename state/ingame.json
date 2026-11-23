@@ -3423,8 +3423,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "Southern Miss Golden Eagles",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 47.06,
+  "result": "WIN",
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-soumis-valp-2026-11-22",
   "venues": {
@@ -3432,6 +3432,7 @@
     "ask": 0.68,
     "ask_size": 14840.75,
     "fee": 0.0152,
+    "pnl_100": 43.84,
     "status": "ok",
     "team": "Southern Miss",
     "ticker": "KXNCAAMBGAME-26NOV22VALPUSM-USM",
