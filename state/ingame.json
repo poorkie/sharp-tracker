@@ -3854,5 +3854,39 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-23T12:30:21.747995+00:00",
+  "cid": "0x5415f5c3fe1ff9349cedcdc6241b930a6e08d3b5e4284c10562271f54ca2d477",
+  "delay_s": 368,
+  "elite_n": 460,
+  "elite_price": 0.61,
+  "elite_roi": 0.1498,
+  "elite_ts": "2026-11-23T12:24:13+00:00",
+  "elite_usd": 244.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Monastir 2: Amaury Raynel vs Mathieu Scaglia",
+  "fill_price": 0.57,
+  "fill_usd_available": 2552.43,
+  "id": "0x5415f5c3-0-1795437021",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Amaury Raynel",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-raynel-scaglia-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-raynel-scaglia-2026-11-23",
+    "status": "not_listed"
+   }
+  }
  }
 ]
