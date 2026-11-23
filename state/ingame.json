@@ -3888,5 +3888,39 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-23T13:50:18.609784+00:00",
+  "cid": "0xdbda1df4e9e7f0eadeb95f8eb7cb0fbde05c49f6b679dbc4ea4321ee132a40df",
+  "delay_s": 68,
+  "elite_n": 460,
+  "elite_price": 0.65,
+  "elite_roi": 0.1498,
+  "elite_ts": "2026-11-23T13:49:10+00:00",
+  "elite_usd": 260.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Ankara: Gabi Boitan vs Robin Catry",
+  "fill_price": 0.95,
+  "fill_usd_available": 20765.27,
+  "id": "0xdbda1df4-1-1795441818",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Robin Catry",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-boitan-catry-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-boitan-catry-2026-11-23",
+    "status": "not_listed"
+   }
+  }
  }
 ]
