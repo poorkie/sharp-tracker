@@ -4514,5 +4514,39 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-23T19:20:17.076046+00:00",
+  "cid": "0x1092031f4205852d5aaebf40815bb469aad9ecdc40fe8830091b7488cef09714",
+  "delay_s": -56,
+  "elite_n": 460,
+  "elite_price": 0.372,
+  "elite_roi": 0.1498,
+  "elite_ts": "2026-11-23T19:21:13+00:00",
+  "elite_usd": 248.52,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Monastir 2: Gabriel Debru vs Sandro Kopp",
+  "fill_price": 0.39,
+  "fill_usd_available": 113.88,
+  "id": "0x1092031f-0-1795461617",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Gabriel Debru",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-debru-kopp-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-debru-kopp-2026-11-23",
+    "status": "not_listed"
+   }
+  }
  }
 ]
