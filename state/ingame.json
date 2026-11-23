@@ -4549,5 +4549,39 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-23T19:50:17.325367+00:00",
+  "cid": "0xcdf9dd80ee457956cbd22ba80a7e7670c99691d235f0e7e95c4820364bf275ae",
+  "delay_s": 292,
+  "elite_n": 460,
+  "elite_price": 0.77,
+  "elite_roi": 0.1498,
+  "elite_ts": "2026-11-23T19:45:25+00:00",
+  "elite_usd": 308.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "San Salvador: Elijah Strode vs Juan Miguel Bolivar Idarraga",
+  "fill_price": 0.8,
+  "fill_usd_available": 2226.66,
+  "id": "0xcdf9dd80-0-1795463417",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Elijah Strode",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-strode-idarrag-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-strode-idarrag-2026-11-23",
+    "status": "not_listed"
+   }
+  }
  }
 ]
