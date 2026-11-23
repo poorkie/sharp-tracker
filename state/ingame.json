@@ -4760,5 +4760,49 @@
     "url": "https://polymarket.us/event/cbb-yale-belm-2026-11-23"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-23T23:20:18.293538+00:00",
+  "cid": "0xa380ac97354fa4b5a1e3f9d2e84bca1c525322942008164b19f6a195cb2645ff",
+  "delay_s": 28,
+  "elite_n": 171,
+  "elite_price": 0.61,
+  "elite_roi": 0.1557,
+  "elite_ts": "2026-11-23T23:19:50+00:00",
+  "elite_usd": 200.0,
+  "elite_wallets": [
+   "0xe2160eb837cd17de5915d460b1d69b5ba2ac7448"
+  ],
+  "event_title": "Washington Huskies vs. BYU Cougars",
+  "fill_price": 0.61,
+  "fill_usd_available": 7032.2,
+  "id": "0xa380ac97-1-1795476018",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "BYU Cougars",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-wash-byu-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "ask": 0.61,
+    "ask_size": 115269.55,
+    "fee": 0.0167,
+    "status": "ok",
+    "team": "BYU",
+    "ticker": "KXNCAAMBGAME-26NOV23WASHBYU-BYU",
+    "url": "https://kalshi.com/markets/kxncaambgame"
+   },
+   "pmus": {
+    "ask": 0.61,
+    "market": "aec-cbb-wash-byu-2026-11-23",
+    "raw_ask": 0.4,
+    "raw_bid": 0.39,
+    "side": 1,
+    "status": "ok",
+    "url": "https://polymarket.us/event/cbb-wash-byu-2026-11-23"
+   }
+  }
  }
 ]
