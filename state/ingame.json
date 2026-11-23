@@ -3814,5 +3814,45 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-23T11:50:16.769389+00:00",
+  "cid": "0x754bfc0185e71ce374864c06fe8589cdea9c6d3268ecf1b25ca0875ea1d7f604",
+  "delay_s": 444,
+  "elite_n": 716,
+  "elite_price": 0.785,
+  "elite_roi": 0.2284,
+  "elite_ts": "2026-11-23T11:42:52+00:00",
+  "elite_usd": 4859.31,
+  "elite_wallets": [
+   "0x3231d2d67053e5dc3715f6429124741e52866e75",
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a"
+  ],
+  "event_title": "Dota 2: Team Synapse vs InterActive Philippines (BO3) - European Pro League Group B",
+  "fill_price": 0.78,
+  "fill_usd_available": 165.59,
+  "id": "0x754bfc01-0-1795434616",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "Team Synapse (Map 2)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-synaps-iac-2026-11-19",
+  "venues": {
+   "kalshi": {
+    "ask": 0.79,
+    "ask_size": 120.0,
+    "fee": 0.0116,
+    "status": "ok",
+    "team": "Team Synapse",
+    "ticker": "KXDOTA2MAP-26NOV230500IAPSYN-2-SYN",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-synaps-iac-2026-11-19",
+    "status": "not_listed"
+   }
+  }
  }
 ]
