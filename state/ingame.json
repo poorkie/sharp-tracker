@@ -3746,5 +3746,39 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-23T09:40:23.721543+00:00",
+  "cid": "0x00a2ead681c64aa7a11f7e2611a7b8dba4fb5cc6cb28abd8c5481d2119492960",
+  "delay_s": 496,
+  "elite_n": 460,
+  "elite_price": 0.67,
+  "elite_roi": 0.1498,
+  "elite_ts": "2026-11-23T09:32:07+00:00",
+  "elite_usd": 268.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Ankara: Adrian Oetzbach vs Robert Guna",
+  "fill_price": 0.61,
+  "fill_usd_available": 256.81,
+  "id": "0x00a2ead6-1-1795426823",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Robert Guna",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-oetzbac-guna-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-oetzbac-guna-2026-11-23",
+    "status": "not_listed"
+   }
+  }
  }
 ]
