@@ -3479,5 +3479,49 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-23T01:40:19.098226+00:00",
+  "cid": "0x28e6cf7726a9a6ec3f90b328c4c75d6067b7978eae5fe68c2419dfbd3c43bd98",
+  "delay_s": 230,
+  "elite_n": 772,
+  "elite_price": 0.86,
+  "elite_roi": 0.1198,
+  "elite_ts": "2026-11-23T01:36:29+00:00",
+  "elite_usd": 1986.6,
+  "elite_wallets": [
+   "0x1bc32be106439240f59aa25668e613831a5cdc6e"
+  ],
+  "event_title": "Nuggets vs. Bulls",
+  "fill_price": 0.92,
+  "fill_usd_available": 4592.8,
+  "id": "0x28e6cf77-0-1795398019",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Nuggets",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-den-chi-2026-11-22",
+  "venues": {
+   "kalshi": {
+    "ask": 0.91,
+    "ask_size": 117.57,
+    "fee": 0.0057,
+    "status": "ok",
+    "team": "Denver",
+    "ticker": "KXNBAGAME-26NOV22DENCHI-DEN",
+    "url": "https://kalshi.com/markets/kxnbagame"
+   },
+   "pmus": {
+    "ask": 0.91,
+    "market": "aec-nba-den-chi-2026-11-22",
+    "raw_ask": 0.91,
+    "raw_bid": 0.9,
+    "side": 0,
+    "status": "ok",
+    "url": "https://polymarket.us/event/nba-den-chi-2026-11-22"
+   }
+  }
  }
 ]
