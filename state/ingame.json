@@ -4459,8 +4459,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "East Carolina Pirates",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-indst-ecar-2026-11-23",
   "venues": {
@@ -4468,6 +4468,7 @@
     "ask": 0.68,
     "ask_size": 9198.72,
     "fee": 0.0152,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "East Carolina",
     "ticker": "KXNCAAMBGAME-26NOV23INSTECU-ECU",
@@ -4476,6 +4477,7 @@
    "pmus": {
     "ask": 0.66,
     "market": "aec-cbb-indst-ecar-2026-11-23",
+    "pnl_100": -100.0,
     "raw_ask": 0.35,
     "raw_bid": 0.34,
     "side": 1,
