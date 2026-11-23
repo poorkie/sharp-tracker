@@ -4673,5 +4673,44 @@
     "url": "https://polymarket.us/event/cbb-sutah-arkst-2026-11-23"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-23T21:20:20.952482+00:00",
+  "cid": "0x9fc3064936873b21b9526e3a5e64190aee206a0bf81d4e620424677f622fa807",
+  "delay_s": 414,
+  "elite_n": 202,
+  "elite_price": 0.55,
+  "elite_roi": 0.0956,
+  "elite_ts": "2026-11-23T21:13:26+00:00",
+  "elite_usd": 214.17,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "William & Mary Tribe vs. IU Indy Jaguars",
+  "fill_price": 0.53,
+  "fill_usd_available": 218.36,
+  "id": "0x9fc30649-0-1795468820",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "William & Mary Tribe",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-wm-iupui-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "ask": 0.52,
+    "ask_size": 179.37,
+    "fee": 0.0175,
+    "status": "ok",
+    "team": "William & Mary",
+    "ticker": "KXNCAAMBGAME-26NOV23WMIUIN-WM",
+    "url": "https://kalshi.com/markets/kxncaambgame"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/cbb-wm-iupui-2026-11-23",
+    "status": "not_listed"
+   }
+  }
  }
 ]
