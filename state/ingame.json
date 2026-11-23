@@ -3678,5 +3678,39 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-23T08:10:33.452325+00:00",
+  "cid": "0x74ffa67463041114d94d56cbc2c06c78696327dd4c873e71229b2717d964f853",
+  "delay_s": 392,
+  "elite_n": 763,
+  "elite_price": 0.3654,
+  "elite_roi": 0.0759,
+  "elite_ts": "2026-11-23T08:04:01+00:00",
+  "elite_usd": 458.99,
+  "elite_wallets": [
+   "0x820a0e91fdf03907ff7d05d0145f9d326f16ca12"
+  ],
+  "event_title": "Yokohama: Ryo Ono vs Lennon Roark Jones",
+  "fill_price": 0.22,
+  "fill_usd_available": 540.58,
+  "id": "0x74ffa674-0-1795421433",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Ryo Ono",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-ono-lennonr-2026-11-22",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-ono-lennonr-2026-11-22",
+    "status": "not_listed"
+   }
+  }
  }
 ]
