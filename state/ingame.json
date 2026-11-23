@@ -3623,8 +3623,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "Celtics",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-bos-gsw-2026-11-22",
   "venues": {
@@ -3632,6 +3632,7 @@
     "ask": 0.62,
     "ask_size": 8096.96,
     "fee": 0.0165,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "Boston",
     "ticker": "KXNBAGAME-26NOV22BOSGSW-BOS",
