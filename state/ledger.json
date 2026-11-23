@@ -4006,7 +4006,7 @@
   "alerted_at": "2026-11-23T19:30:23.720906+00:00",
   "book_fair": null,
   "books": [],
-  "close_price": 0.505,
+  "close_price": 0.515,
   "clv": null,
   "condition_id": "0xfb64c2863568a8c3e9151644236d69de2584d19dea0bb3b736c07b19182200e1",
   "entry_price": 0.495,
@@ -4025,5 +4025,29 @@
   "sharp_usd": 4533.5,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-por-phi-2026-11-23"
+ },
+ {
+  "alerted_at": "2026-11-23T21:50:18.608648+00:00",
+  "book_fair": null,
+  "books": [],
+  "close_price": 0.845,
+  "clv": null,
+  "condition_id": "0x1a54f964637acd52e5c50bab146f124f813a36d06448c68a9da35f90577b8a88",
+  "entry_price": 0.845,
+  "event_title": "Bengals vs. Commanders",
+  "game_start": "2026-11-24T01:15:00+00:00",
+  "id": "0x1a54f964-1-1795470618",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "spreads",
+  "max_prob": 0.8653,
+  "n_wallets": 3,
+  "outcome": "Bengals +3.5",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Spread: Commanders (-3.5)",
+  "result": null,
+  "sharp_usd": 51537.59,
+  "sport": "nfl",
+  "url": "https://polymarket.com/event/nfl-cin-was-2026-11-24"
  }
 ]
