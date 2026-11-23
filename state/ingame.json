@@ -3922,5 +3922,98 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-23T14:10:16.778286+00:00",
+  "cid": "0xc5a7e93b10ab7bbc8c06db5c374a89850472f37ee26f91c05191db5f06d50318",
+  "delay_s": 357,
+  "elite_n": 1029,
+  "elite_price": 0.4,
+  "elite_roi": 0.0892,
+  "elite_ts": "2026-11-23T14:04:19+00:00",
+  "elite_usd": 15842.65,
+  "elite_wallets": [
+   "0x80bac5c17aec3f5b3d0f01166b639cd453a02e78",
+   "0x3231d2d67053e5dc3715f6429124741e52866e75",
+   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1",
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a"
+  ],
+  "event_title": "Dota 2: Team Nemesis vs Xtreme Gaming (BO3) - BLAST Slam Group B",
+  "fill_price": 0.45,
+  "fill_usd_available": 1397.21,
+  "id": "0xc5a7e93b-0-1795443016",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "Team Nemesis (Map 1)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-nem-xtreme-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "ask": 0.44,
+    "ask_size": 59.11,
+    "fee": 0.0172,
+    "status": "ok",
+    "team": "Team Nemesis",
+    "ticker": "KXDOTA2MAP-26NOV230900XTREMENEM-1-NEM",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "ask": 0.44,
+    "market": "astatc-dota2-nem-xtreme-2026-11-23-game1",
+    "raw_ask": 0.44,
+    "raw_bid": 0.43,
+    "side": 0,
+    "status": "ok",
+    "url": "https://polymarket.us/event/dota2-nem-xtreme-2026-11-23"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-23T14:10:16.778286+00:00",
+  "cid": "0x25199d87e8c10661e83b3a89dcbb1e390c0d14948577d0f5bbed7d6e15cfc22a",
+  "delay_s": 260,
+  "elite_n": 1029,
+  "elite_price": 0.33,
+  "elite_roi": 0.0892,
+  "elite_ts": "2026-11-23T14:05:56+00:00",
+  "elite_usd": 16960.04,
+  "elite_wallets": [
+   "0x80bac5c17aec3f5b3d0f01166b639cd453a02e78",
+   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1",
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a"
+  ],
+  "event_title": "Dota 2: Natus Vincere vs OG (BO3) - BLAST Slam Group A",
+  "fill_price": 0.39,
+  "fill_usd_available": 17960.25,
+  "id": "0x25199d87-1-1795443016",
+  "idx": 1,
+  "market_type": "child_moneyline",
+  "pick": "OG (Map 1)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-navi-og-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "ask": 0.38,
+    "ask_size": 3351.0,
+    "fee": 0.0165,
+    "status": "ok",
+    "team": "OG",
+    "ticker": "KXDOTA2MAP-26NOV230900OGNAVI-1-OG",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "ask": 0.35,
+    "market": "astatc-dota2-navi-og-2026-11-23-game1",
+    "raw_ask": 0.66,
+    "raw_bid": 0.65,
+    "side": 1,
+    "status": "ok",
+    "url": "https://polymarket.us/event/dota2-navi-og-2026-11-23"
+   }
+  }
  }
 ]
