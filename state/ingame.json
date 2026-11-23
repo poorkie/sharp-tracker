@@ -3502,8 +3502,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "Nuggets",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 8.7,
+  "result": "WIN",
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-den-chi-2026-11-22",
   "venues": {
@@ -3511,6 +3511,7 @@
     "ask": 0.91,
     "ask_size": 117.57,
     "fee": 0.0057,
+    "pnl_100": 9.21,
     "status": "ok",
     "team": "Denver",
     "ticker": "KXNBAGAME-26NOV22DENCHI-DEN",
@@ -3519,6 +3520,7 @@
    "pmus": {
     "ask": 0.91,
     "market": "aec-nba-den-chi-2026-11-22",
+    "pnl_100": 9.89,
     "raw_ask": 0.91,
     "raw_bid": 0.9,
     "side": 0,
