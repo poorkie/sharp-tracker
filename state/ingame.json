@@ -4188,5 +4188,39 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-23T16:30:24.485731+00:00",
+  "cid": "0x76399a344868943784815b989dc3c14c44eb5f1c8e5b5bf9f6c6f82218cdd9a0",
+  "delay_s": 232,
+  "elite_n": 460,
+  "elite_price": 0.77,
+  "elite_roi": 0.1498,
+  "elite_ts": "2026-11-23T16:26:32+00:00",
+  "elite_usd": 308.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "San Salvador: Karl Poling vs Ben Weintraub",
+  "fill_price": 0.77,
+  "fill_usd_available": 445.83,
+  "id": "0x76399a34-0-1795451424",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Karl Poling",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-poling-weintra-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-poling-weintra-2026-11-23",
+    "status": "not_listed"
+   }
+  }
  }
 ]
