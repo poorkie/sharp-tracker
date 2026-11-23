@@ -3401,5 +3401,44 @@
     "url": "https://polymarket.us/event/cbb-templ-sfaus-2026-11-22"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-23T00:20:16.772144+00:00",
+  "cid": "0x8d6048bcea304a3e0bd50e4c382f22700a3112910dcc63e3d504767fc5a1f47f",
+  "delay_s": 54,
+  "elite_n": 202,
+  "elite_price": 0.69,
+  "elite_roi": 0.0956,
+  "elite_ts": "2026-11-23T00:19:22+00:00",
+  "elite_usd": 276.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Southern Miss Golden Eagles vs. Valparaiso Beacons",
+  "fill_price": 0.68,
+  "fill_usd_available": 7833.4,
+  "id": "0x8d6048bc-0-1795393216",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Southern Miss Golden Eagles",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-soumis-valp-2026-11-22",
+  "venues": {
+   "kalshi": {
+    "ask": 0.68,
+    "ask_size": 14840.75,
+    "fee": 0.0152,
+    "status": "ok",
+    "team": "Southern Miss",
+    "ticker": "KXNCAAMBGAME-26NOV22VALPUSM-USM",
+    "url": "https://kalshi.com/markets/kxncaambgame"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/cbb-soumis-valp-2026-11-22",
+    "status": "not_listed"
+   }
+  }
  }
 ]
