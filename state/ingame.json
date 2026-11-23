@@ -4607,8 +4607,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "Oregon State Beavers",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 53.85,
+  "result": "WIN",
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-tulsa-oregst-2026-11-23",
   "venues": {
@@ -4616,6 +4616,7 @@
     "ask": 0.64,
     "ask_size": 881.44,
     "fee": 0.0161,
+    "pnl_100": 52.42,
     "status": "ok",
     "team": "Oregon St.",
     "ticker": "KXNCAAMBGAME-26NOV23TLSAORST-ORST",
@@ -4624,6 +4625,7 @@
    "pmus": {
     "ask": 0.64,
     "market": "aec-cbb-tulsa-oregst-2026-11-23",
+    "pnl_100": 56.25,
     "raw_ask": 0.37,
     "raw_bid": 0.36,
     "side": 1,
