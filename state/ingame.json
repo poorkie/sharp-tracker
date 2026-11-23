@@ -3524,5 +3524,44 @@
     "url": "https://polymarket.us/event/nba-den-chi-2026-11-22"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-23T02:30:20.562483+00:00",
+  "cid": "0x366289b9224411f7a8ad8b31a3dd9576a32e68db4b087646e2aaea53cba9cd98",
+  "delay_s": 45,
+  "elite_n": 202,
+  "elite_price": 0.5193,
+  "elite_roi": 0.0956,
+  "elite_ts": "2026-11-23T02:29:35+00:00",
+  "elite_usd": 212.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "UT Martin Skyhawks vs. Utah Valley Wolverines",
+  "fill_price": 0.56,
+  "fill_usd_available": 38.08,
+  "id": "0x366289b9-0-1795401020",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "UT Martin Skyhawks",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-tmrt-utahv-2026-11-22",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "ask": 0.51,
+    "market": "aec-cbb-tmrt-utahv-2026-11-22",
+    "raw_ask": 0.51,
+    "raw_bid": 0.5,
+    "side": 0,
+    "status": "ok",
+    "url": "https://polymarket.us/event/cbb-tmrt-utahv-2026-11-22"
+   }
+  }
  }
 ]
