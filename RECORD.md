@@ -1,18 +1,18 @@
 # Sharp Tracker: graded record
 
-Updated 2026-11-23 04:40 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
+Updated 2026-11-23 04:50 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
 
 ## Overall
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
-| All alerts | 40-47 | -13.73u | -15.8% | -0.1¢ | 33% | 1 |
+| All alerts | 41-47 | -13.20u | -15.0% | -0.1¢ | 33% | 0 |
 
 ## By signal
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
 | CONSENSUS | 5-5 | -1.90u | -19.0% | +0.4¢ | 30% | 0 |
 | ELITE | 9-12 | -5.00u | -23.8% | -0.6¢ | 29% | 0 |
-| ELITE_CONSENSUS | 26-30 | -6.82u | -12.2% | +0.0¢ | 36% | 1 |
+| ELITE_CONSENSUS | 27-30 | -6.30u | -11.0% | +0.0¢ | 35% | 0 |
 
 ## By sport
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
@@ -21,14 +21,14 @@ Updated 2026-11-23 04:40 UTC. Every alert is logged at the price when it fired a
 | CFB | 1-0 | +1.60u | +159.7% | +4.0¢ | 100% | 0 |
 | LOL | 1-0 | +1.67u | +166.7% | +1.0¢ | 100% | 0 |
 | NBA | 17-22 | -8.20u | -21.0% | -0.3¢ | 41% | 0 |
-| NFL | 17-18 | -6.21u | -17.7% | -0.3¢ | 20% | 1 |
+| NFL | 18-18 | -5.68u | -15.8% | -0.2¢ | 19% | 0 |
 | NHL | 1-7 | -6.06u | -75.7% | +0.4¢ | 38% | 0 |
 | WTA | 1-0 | +1.53u | +153.2% | +0.0¢ | 0% | 0 |
 
 ## Last 50 alerts
 | Alerted (UTC) | Sport | Pick | Entry | Close | Books fair | Sharps | Result |
 |---|---|---|---|---|---|---|---|
-| 2026-11-23 01:10 | NFL | [49ers: Vikings vs. 49ers](https://polymarket.com/event/nfl-min-sf-2026-11-23) | 0.66 | 0.66 | 65% | 5 / $20,493 | pending |
+| 2026-11-23 01:10 | NFL | [49ers: Vikings vs. 49ers](https://polymarket.com/event/nfl-min-sf-2026-11-23) | 0.66 | 0.66 | 65% | 5 / $20,493 | WIN (+53) |
 | 2026-11-22 21:10 | NFL | [Jaguars -6.5: Jaguars vs. Giants](https://polymarket.com/event/nfl-jax-nyg-2026-11-22) | 0.49 | 0.49 | – | 4 / $36,609 | LOSS (-100) |
 | 2026-11-22 20:50 | NFL | [Under 46.5: Jaguars vs. Giants](https://polymarket.com/event/nfl-jax-nyg-2026-11-22) | 0.56 | 0.56 | – | 3 / $4,653 | WIN (+80) |
 | 2026-11-22 18:20 | NFL | [Jaguars: Jaguars vs. Giants](https://polymarket.com/event/nfl-jax-nyg-2026-11-22) | 0.71 | 0.72 | 71% | 3 / $19,960 | LOSS (-100) |

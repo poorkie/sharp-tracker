@@ -3904,7 +3904,7 @@
    }
   ],
   "close_price": 0.655,
-  "clv": null,
+  "clv": 0.0,
   "condition_id": "0xa7f735ef5dd052af7b34b5cb8a3bff1ab0cf111e2c5f15b836a6cc3aeb75b4a7",
   "entry_price": 0.655,
   "event_title": "Vikings vs. 49ers",
@@ -3914,6 +3914,7 @@
   "lock": {
    "at": "2026-11-23T01:10:20.327689+00:00",
    "late": false,
+   "pnl_100": 52.67,
    "price": 0.655,
    "reason": "Elite still in",
    "rule": 2,
@@ -3924,9 +3925,9 @@
   "n_wallets": 5,
   "outcome": "49ers",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": 52.67,
   "question": "Vikings vs. 49ers",
-  "result": null,
+  "result": "WIN",
   "sharp_usd": 20493.49,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-min-sf-2026-11-23"
