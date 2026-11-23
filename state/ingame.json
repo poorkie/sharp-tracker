@@ -4179,8 +4179,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "Rafael Botran Neutze",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 56.25,
+  "result": "WIN",
   "sport": "atp",
   "url": "https://polymarket.com/event/atp-neutze-faragca-2026-11-23",
   "venues": {
@@ -4403,9 +4403,11 @@
   "elite_price": 0.54,
   "elite_roi": 0.0892,
   "elite_ts": "2026-11-23T18:04:35+00:00",
-  "elite_usd": 1029.98,
+  "elite_usd": 16393.25,
   "elite_wallets": [
-   "0x80bac5c17aec3f5b3d0f01166b639cd453a02e78"
+   "0x80bac5c17aec3f5b3d0f01166b639cd453a02e78",
+   "0x40ce68f1564f3c751b12d88a393d8cc0651dbf90",
+   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1"
   ],
   "event_title": "Dota 2: Aurora vs LGD Gaming (BO3) - BLAST Slam Group D",
   "fill_price": 0.57,
@@ -4431,6 +4433,50 @@
    "pmus": {
     "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-aur1-lgd-2026-11-23",
     "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-23T18:20:17.462573+00:00",
+  "cid": "0x58103707d9581a2c3d9f3e1a49581b3d8c825bc8a6824c105f5f83e0dc14fb4b",
+  "delay_s": 282,
+  "elite_n": 202,
+  "elite_price": 0.7,
+  "elite_roi": 0.0956,
+  "elite_ts": "2026-11-23T18:15:35+00:00",
+  "elite_usd": 209.45,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Indiana State Sycamores vs. East Carolina Pirates",
+  "fill_price": 0.68,
+  "fill_usd_available": 544.68,
+  "id": "0x58103707-1-1795458017",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "East Carolina Pirates",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-indst-ecar-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "ask": 0.68,
+    "ask_size": 9198.72,
+    "fee": 0.0152,
+    "status": "ok",
+    "team": "East Carolina",
+    "ticker": "KXNCAAMBGAME-26NOV23INSTECU-ECU",
+    "url": "https://kalshi.com/markets/kxncaambgame"
+   },
+   "pmus": {
+    "ask": 0.66,
+    "market": "aec-cbb-indst-ecar-2026-11-23",
+    "raw_ask": 0.35,
+    "raw_bid": 0.34,
+    "side": 1,
+    "status": "ok",
+    "url": "https://polymarket.us/event/cbb-indst-ecar-2026-11-23"
    }
   }
  }
