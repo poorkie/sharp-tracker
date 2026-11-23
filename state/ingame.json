@@ -4394,5 +4394,44 @@
     "url": "https://polymarket.us/event/dota2-liquid-konca-2026-11-23"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-23T18:10:17.544720+00:00",
+  "cid": "0x227040b0673d27e3ba67f2d03aaaa4ad4c7c5b3b2e501e03351b2b5994557fb3",
+  "delay_s": 342,
+  "elite_n": 1029,
+  "elite_price": 0.54,
+  "elite_roi": 0.0892,
+  "elite_ts": "2026-11-23T18:04:35+00:00",
+  "elite_usd": 1029.98,
+  "elite_wallets": [
+   "0x80bac5c17aec3f5b3d0f01166b639cd453a02e78"
+  ],
+  "event_title": "Dota 2: Aurora vs LGD Gaming (BO3) - BLAST Slam Group D",
+  "fill_price": 0.57,
+  "fill_usd_available": 3182.78,
+  "id": "0x227040b0-0-1795457417",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "Aurora (Map 2)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-aur1-lgd-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "ask": 0.56,
+    "ask_size": 139.04,
+    "fee": 0.0172,
+    "status": "ok",
+    "team": "Aurora",
+    "ticker": "KXDOTA2MAP-26NOV231200LGDAUR-2-AUR",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-aur1-lgd-2026-11-23",
+    "status": "not_listed"
+   }
+  }
  }
 ]
