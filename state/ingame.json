@@ -3377,8 +3377,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "Temple Owls",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-templ-sfaus-2026-11-22",
   "venues": {
@@ -3386,6 +3386,7 @@
     "ask": 0.64,
     "ask_size": 10861.82,
     "fee": 0.0161,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "Temple",
     "ticker": "KXNCAAMBGAME-26NOV22TEMSFA-TEM",
@@ -3394,6 +3395,7 @@
    "pmus": {
     "ask": 0.64,
     "market": "aec-cbb-templ-sfaus-2026-11-22",
+    "pnl_100": -100.0,
     "raw_ask": 0.64,
     "raw_bid": 0.63,
     "side": 0,
