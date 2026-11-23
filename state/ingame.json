@@ -4041,8 +4041,8 @@
   "idx": 1,
   "market_type": "child_moneyline",
   "pick": "Team Synapse (Map 2)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 13.64,
+  "result": "WIN",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-p-synaps-2026-11-20",
   "venues": {
@@ -4050,6 +4050,7 @@
     "ask": 0.91,
     "ask_size": 57.0,
     "fee": 0.0057,
+    "pnl_100": 9.21,
     "status": "ok",
     "team": "Team Synapse",
     "ticker": "KXDOTA2MAP-26NOV230800SYNP-2-SYN",
@@ -4083,8 +4084,8 @@
   "idx": 0,
   "market_type": "child_moneyline",
   "pick": "Natus Vincere (Map 2)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-navi-og-2026-11-23",
   "venues": {
@@ -4092,6 +4093,7 @@
     "ask": 0.65,
     "ask_size": 110.58,
     "fee": 0.0159,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "Natus Vincere",
     "ticker": "KXDOTA2MAP-26NOV230900OGNAVI-2-NAVI",
@@ -4100,6 +4102,7 @@
    "pmus": {
     "ask": 0.64,
     "market": "astatc-dota2-navi-og-2026-11-23-game2",
+    "pnl_100": -100.0,
     "raw_ask": 0.64,
     "raw_bid": 0.63,
     "side": 0,
@@ -4220,6 +4223,50 @@
    "pmus": {
     "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-poling-weintra-2026-11-23",
     "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-23T16:50:20.424858+00:00",
+  "cid": "0x72a8d656172fa1a742de897dd35eb0317667061549cdb6ce91defe6aa40083ab",
+  "delay_s": 384,
+  "elite_n": 2039,
+  "elite_price": 0.6297,
+  "elite_roi": 0.0709,
+  "elite_ts": "2026-11-23T16:43:56+00:00",
+  "elite_usd": 23681.0,
+  "elite_wallets": [
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a"
+  ],
+  "event_title": "Dota 2: Team Liquid vs DO KONCA (BO3) - BLAST Slam Group C",
+  "fill_price": 0.65,
+  "fill_usd_available": 96.94,
+  "id": "0x72a8d656-0-1795452620",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "Team Liquid (Map 1)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-liquid-konca-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "ask": 0.67,
+    "ask_size": 119.0,
+    "fee": 0.0155,
+    "status": "ok",
+    "team": "Team Liquid",
+    "ticker": "KXDOTA2MAP-26NOV231200KONCALIQUID-1-LIQUID",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "ask": 0.67,
+    "market": "astatc-dota2-liquid-konca-2026-11-23-game1",
+    "raw_ask": 0.67,
+    "raw_bid": 0.66,
+    "side": 0,
+    "status": "ok",
+    "url": "https://polymarket.us/event/dota2-liquid-konca-2026-11-23"
    }
   }
  }
