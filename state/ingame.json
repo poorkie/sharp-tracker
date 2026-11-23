@@ -4247,8 +4247,8 @@
   "idx": 0,
   "market_type": "child_moneyline",
   "pick": "Team Liquid (Map 1)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 53.85,
+  "result": "WIN",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-liquid-konca-2026-11-23",
   "venues": {
@@ -4256,6 +4256,7 @@
     "ask": 0.67,
     "ask_size": 119.0,
     "fee": 0.0155,
+    "pnl_100": 45.88,
     "status": "ok",
     "team": "Team Liquid",
     "ticker": "KXDOTA2MAP-26NOV231200KONCALIQUID-1-LIQUID",
@@ -4264,6 +4265,7 @@
    "pmus": {
     "ask": 0.67,
     "market": "astatc-dota2-liquid-konca-2026-11-23-game1",
+    "pnl_100": 49.25,
     "raw_ask": 0.67,
     "raw_bid": 0.66,
     "side": 0,
@@ -4344,6 +4346,52 @@
    "pmus": {
     "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-stromba-pereira-2026-11-23",
     "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-23T18:00:22.602804+00:00",
+  "cid": "0x6bd24197470b590dcde6f5aade3836529a80221a559eff6cddb15108d0adc8a7",
+  "delay_s": 242,
+  "elite_n": 1029,
+  "elite_price": 0.59,
+  "elite_roi": 0.0892,
+  "elite_ts": "2026-11-23T17:56:20+00:00",
+  "elite_usd": 21490.18,
+  "elite_wallets": [
+   "0x80bac5c17aec3f5b3d0f01166b639cd453a02e78",
+   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1",
+   "0x40ce68f1564f3c751b12d88a393d8cc0651dbf90"
+  ],
+  "event_title": "Dota 2: Team Liquid vs DO KONCA (BO3) - BLAST Slam Group C",
+  "fill_price": 0.71,
+  "fill_usd_available": 8122.45,
+  "id": "0x6bd24197-0-1795456822",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "Team Liquid (Map 2)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-liquid-konca-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "ask": 0.7,
+    "ask_size": 101.0,
+    "fee": 0.0147,
+    "status": "ok",
+    "team": "Team Liquid",
+    "ticker": "KXDOTA2MAP-26NOV231200KONCALIQUID-2-LIQUID",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "ask": 0.75,
+    "market": "astatc-dota2-liquid-konca-2026-11-23-game2",
+    "raw_ask": 0.75,
+    "raw_bid": 0.67,
+    "side": 0,
+    "status": "ok",
+    "url": "https://polymarket.us/event/dota2-liquid-konca-2026-11-23"
    }
   }
  }
