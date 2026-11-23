@@ -84268,19 +84268,19 @@
   }
  },
  "0x45e40dbee6f546c7b318498f8c9778560f5a7e20": {
-  "graded_at": "2026-11-16T13:00:26.649606+00:00",
+  "graded_at": "2026-11-23T13:10:25.616625+00:00",
   "grades": {
    "atp": {
-    "avg_price": 0.511,
-    "hit_edge": -0.039,
-    "hit_rate": 0.472,
-    "n": 426,
-    "pnl": -245562.54,
-    "roi": -0.1055,
-    "shrunk_roi": -0.0991,
+    "avg_price": 0.513,
+    "hit_edge": -0.034,
+    "hit_rate": 0.479,
+    "n": 445,
+    "pnl": -224038.58,
+    "roi": -0.0934,
+    "shrunk_roi": -0.0882,
     "sport": "atp",
-    "staked": 2326756.65,
-    "t_stat": -2.06,
+    "staked": 2398682.83,
+    "t_stat": -2.0,
     "tier": "NONE"
    }
   }
@@ -180127,32 +180127,45 @@
   }
  },
  "0x954d4edda40f40520b2f7657c9333c38a891bf50": {
-  "graded_at": "2026-11-16T13:00:26.649606+00:00",
+  "graded_at": "2026-11-23T13:10:25.616625+00:00",
   "grades": {
    "atp": {
-    "avg_price": 0.757,
-    "hit_edge": -0.015,
-    "hit_rate": 0.742,
-    "n": 31,
-    "pnl": 1032.87,
-    "roi": 0.0648,
-    "shrunk_roi": 0.0114,
+    "avg_price": 0.729,
+    "hit_edge": -0.048,
+    "hit_rate": 0.681,
+    "n": 47,
+    "pnl": 3328.23,
+    "roi": 0.0785,
+    "shrunk_roi": 0.0286,
     "sport": "atp",
-    "staked": 15943.62,
-    "t_stat": -0.27,
+    "staked": 42402.64,
+    "t_stat": -1.29,
+    "tier": "NONE"
+   },
+   "epl": {
+    "avg_price": 0.975,
+    "hit_edge": 0.025,
+    "hit_rate": 1.0,
+    "n": 1,
+    "pnl": 51.85,
+    "roi": 0.0254,
+    "shrunk_roi": -0.0286,
+    "sport": "epl",
+    "staked": 2044.52,
+    "t_stat": 0.0,
     "tier": "NONE"
    },
    "nba": {
-    "avg_price": 0.809,
-    "hit_edge": -0.001,
-    "hit_rate": 0.808,
-    "n": 26,
-    "pnl": -650.65,
-    "roi": -0.1743,
-    "shrunk_roi": -0.0869,
+    "avg_price": 0.848,
+    "hit_edge": -0.025,
+    "hit_rate": 0.822,
+    "n": 45,
+    "pnl": -965.48,
+    "roi": -0.0263,
+    "shrunk_roi": -0.028,
     "sport": "nba",
-    "staked": 3732.09,
-    "t_stat": -0.39,
+    "staked": 36739.58,
+    "t_stat": -0.33,
     "tier": "NONE"
    },
    "wta": {
