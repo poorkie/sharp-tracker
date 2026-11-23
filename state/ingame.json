@@ -3568,5 +3568,78 @@
     "url": "https://polymarket.us/event/cbb-tmrt-utahv-2026-11-22"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-23T03:40:17.028297+00:00",
+  "cid": "0x81c95bec663ed59ff591c69a9578aa139ebb3d64d79fd293f5295ed06245d9ca",
+  "delay_s": 241,
+  "elite_n": 460,
+  "elite_price": 0.62,
+  "elite_roi": 0.1498,
+  "elite_ts": "2026-11-23T03:36:16+00:00",
+  "elite_usd": 248.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Playford: Chen Dong vs Herman Hoeyeraal",
+  "fill_price": 0.5,
+  "fill_usd_available": 2118.76,
+  "id": "0x81c95bec-1-1795405217",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Herman Hoeyeraal",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-dong-hoeyera-2026-11-22",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-dong-hoeyera-2026-11-22",
+    "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-23T03:40:17.028297+00:00",
+  "cid": "0x1d3dcde6b1f58bea1da7868a6409c8f74423ffd499f02759b043c10833edd9a5",
+  "delay_s": 165,
+  "elite_n": 772,
+  "elite_price": 0.7572,
+  "elite_roi": 0.1198,
+  "elite_ts": "2026-11-23T03:37:32+00:00",
+  "elite_usd": 539.86,
+  "elite_wallets": [
+   "0x1bc32be106439240f59aa25668e613831a5cdc6e"
+  ],
+  "event_title": "Celtics vs. Warriors",
+  "fill_price": 0.62,
+  "fill_usd_available": 642.32,
+  "id": "0x1d3dcde6-0-1795405217",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Celtics",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-bos-gsw-2026-11-22",
+  "venues": {
+   "kalshi": {
+    "ask": 0.62,
+    "ask_size": 8096.96,
+    "fee": 0.0165,
+    "status": "ok",
+    "team": "Boston",
+    "ticker": "KXNBAGAME-26NOV22BOSGSW-BOS",
+    "url": "https://kalshi.com/markets/kxnbagame"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/nba-bos-gsw-2026-11-22",
+    "status": "not_listed"
+   }
+  }
  }
 ]
