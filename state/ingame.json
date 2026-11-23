@@ -3440,5 +3440,44 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-23T01:00:20.874467+00:00",
+  "cid": "0x3b3748b734fb393de1e14f5c3fe9ef400e123faaf9a3595361378564f8e33a7d",
+  "delay_s": 1,
+  "elite_n": 51,
+  "elite_price": 0.31,
+  "elite_roi": 0.2442,
+  "elite_ts": "2026-11-23T01:00:19+00:00",
+  "elite_usd": 596.44,
+  "elite_wallets": [
+   "0xaacac528e8af87ca25809824b384e169b558f5d5"
+  ],
+  "event_title": "Pacers vs. Knicks",
+  "fill_price": 0.31,
+  "fill_usd_available": 4772.23,
+  "id": "0x3b3748b7-0-1795395620",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Pacers",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-ind-nyk-2026-11-22",
+  "venues": {
+   "kalshi": {
+    "ask": 0.32,
+    "ask_size": 29907.32,
+    "fee": 0.0152,
+    "status": "ok",
+    "team": "Indiana",
+    "ticker": "KXNBAGAME-26NOV22INDNYK-IND",
+    "url": "https://kalshi.com/markets/kxnbagame"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/nba-ind-nyk-2026-11-22",
+    "status": "not_listed"
+   }
+  }
  }
 ]
