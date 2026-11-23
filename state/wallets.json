@@ -9991,19 +9991,19 @@
   }
  },
  "0x079e15961cbf026546d8068aed05121815ec8254": {
-  "graded_at": "2026-11-16T11:50:26.265824+00:00",
+  "graded_at": "2026-11-23T12:00:23.991117+00:00",
   "grades": {
    "nba": {
-    "avg_price": 0.449,
-    "hit_edge": 0.146,
-    "hit_rate": 0.595,
-    "n": 74,
-    "pnl": 12009.68,
-    "roi": 0.0161,
-    "shrunk_roi": -0.0,
+    "avg_price": 0.443,
+    "hit_edge": 0.147,
+    "hit_rate": 0.59,
+    "n": 78,
+    "pnl": -10917.91,
+    "roi": -0.014,
+    "shrunk_roi": -0.0194,
     "sport": "nba",
-    "staked": 744130.28,
-    "t_stat": 1.0,
+    "staked": 780508.33,
+    "t_stat": 0.96,
     "tier": "NONE"
    }
   }
@@ -73246,7 +73246,7 @@
   }
  },
  "0x38c444b312b25754bee881cbfe907c8a46d07c65": {
-  "graded_at": "2026-11-16T11:50:26.265824+00:00",
+  "graded_at": "2026-11-23T12:00:23.991117+00:00",
   "grades": {
    "atp": {
     "avg_price": 0.24,
@@ -73262,29 +73262,29 @@
     "tier": "NONE"
    },
    "dota2": {
-    "avg_price": 0.517,
-    "hit_edge": -0.017,
+    "avg_price": 0.44,
+    "hit_edge": 0.06,
     "hit_rate": 0.5,
-    "n": 4,
-    "pnl": -1205.77,
-    "roi": -0.8773,
-    "shrunk_roi": -0.107,
+    "n": 16,
+    "pnl": 873.38,
+    "roi": 0.0748,
+    "shrunk_roi": -0.0,
     "sport": "dota2",
-    "staked": 1374.43,
-    "t_stat": -0.17,
+    "staked": 11670.46,
+    "t_stat": 0.28,
     "tier": "NONE"
    },
    "epl": {
-    "avg_price": 0.675,
+    "avg_price": 0.672,
     "hit_edge": -0.018,
-    "hit_rate": 0.657,
-    "n": 102,
-    "pnl": 1138.56,
-    "roi": 0.0426,
-    "shrunk_roi": 0.0222,
+    "hit_rate": 0.654,
+    "n": 104,
+    "pnl": 841.35,
+    "roi": 0.0308,
+    "shrunk_roi": 0.0139,
     "sport": "epl",
-    "staked": 26696.88,
-    "t_stat": -0.34,
+    "staked": 27285.49,
+    "t_stat": -0.43,
     "tier": "NONE"
    },
    "lol": {
@@ -73302,15 +73302,15 @@
    },
    "nba": {
     "avg_price": 0.533,
-    "hit_edge": 0.03,
-    "hit_rate": 0.563,
-    "n": 316,
-    "pnl": -2574.05,
-    "roi": -0.0932,
-    "shrunk_roi": -0.0861,
+    "hit_edge": 0.032,
+    "hit_rate": 0.565,
+    "n": 317,
+    "pnl": -2268.81,
+    "roi": -0.0814,
+    "shrunk_roi": -0.0757,
     "sport": "nba",
-    "staked": 27606.75,
-    "t_stat": 0.74,
+    "staked": 27856.49,
+    "t_stat": 0.81,
     "tier": "NONE"
    }
   }
