@@ -3909,8 +3909,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "Robin Catry",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 5.26,
+  "result": "WIN",
   "sport": "atp",
   "url": "https://polymarket.com/event/atp-boitan-catry-2026-11-23",
   "venues": {
@@ -4014,6 +4014,46 @@
     "side": 1,
     "status": "ok",
     "url": "https://polymarket.us/event/dota2-navi-og-2026-11-23"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-23T14:30:23.713799+00:00",
+  "cid": "0xb534a55e6bc64a18b7e996b294a45f650c9e5b436c280cf34b60c87dca58003b",
+  "delay_s": 520,
+  "elite_n": 716,
+  "elite_price": 0.7641,
+  "elite_roi": 0.2284,
+  "elite_ts": "2026-11-23T14:21:43+00:00",
+  "elite_usd": 7223.3,
+  "elite_wallets": [
+   "0x3231d2d67053e5dc3715f6429124741e52866e75",
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a"
+  ],
+  "event_title": "Dota 2: potn9ki vs Team Synapse (BO3) - European Pro League Group B",
+  "fill_price": 0.88,
+  "fill_usd_available": 66.36,
+  "id": "0xb534a55e-1-1795444223",
+  "idx": 1,
+  "market_type": "child_moneyline",
+  "pick": "Team Synapse (Map 2)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-p-synaps-2026-11-20",
+  "venues": {
+   "kalshi": {
+    "ask": 0.91,
+    "ask_size": 57.0,
+    "fee": 0.0057,
+    "status": "ok",
+    "team": "Team Synapse",
+    "ticker": "KXDOTA2MAP-26NOV230800SYNP-2-SYN",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-p-synaps-2026-11-20",
+    "status": "not_listed"
    }
   }
  }
