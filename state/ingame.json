@@ -3712,5 +3712,39 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-23T08:20:16.274745+00:00",
+  "cid": "0x480dbc73476f4246839be908b1dbbd1ee687b1205ddb64db376aacc28168e4a0",
+  "delay_s": 207,
+  "elite_n": 460,
+  "elite_price": 0.73,
+  "elite_roi": 0.1498,
+  "elite_ts": "2026-11-23T08:16:49+00:00",
+  "elite_usd": 292.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Ankara: Anton Chekhov vs S Mert Ozdemir",
+  "fill_price": 0.79,
+  "fill_usd_available": 3212.35,
+  "id": "0x480dbc73-0-1795422016",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Anton Chekhov",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-chekhov-ozdemir-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-chekhov-ozdemir-2026-11-23",
+    "status": "not_listed"
+   }
+  }
  }
 ]
