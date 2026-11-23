@@ -3849,5 +3849,83 @@
   "sport": "nfl",
   "updates": 1,
   "url": "https://polymarket.com/event/nfl-jax-nyg-2026-11-22"
+ },
+ {
+  "alerted_at": "2026-11-23T01:10:20.327689+00:00",
+  "book_fair": 0.653,
+  "books": [
+   {
+    "book": "BetRivers",
+    "price": -195,
+    "prob": 0.661
+   },
+   {
+    "book": "FanDuel",
+    "price": -200,
+    "prob": 0.6667
+   },
+   {
+    "book": "DraftKings",
+    "price": -205,
+    "prob": 0.6721
+   },
+   {
+    "book": "BetMGM",
+    "price": -210,
+    "prob": 0.6774
+   },
+   {
+    "book": "MyBookie.ag",
+    "price": -212,
+    "prob": 0.6795
+   },
+   {
+    "book": "BetUS",
+    "price": -215,
+    "prob": 0.6825
+   },
+   {
+    "book": "LowVig.ag",
+    "price": -215,
+    "prob": 0.6825
+   },
+   {
+    "book": "BetOnline.ag",
+    "price": -215,
+    "prob": 0.6825
+   },
+   {
+    "book": "Bovada",
+    "price": -230,
+    "prob": 0.697
+   }
+  ],
+  "close_price": 0.655,
+  "clv": null,
+  "condition_id": "0xa7f735ef5dd052af7b34b5cb8a3bff1ab0cf111e2c5f15b836a6cc3aeb75b4a7",
+  "entry_price": 0.655,
+  "event_title": "Vikings vs. 49ers",
+  "game_start": "2026-11-23T01:20:00+00:00",
+  "id": "0xa7f735ef-1-1795396220",
+  "kind": "ELITE_CONSENSUS",
+  "lock": {
+   "at": "2026-11-23T01:10:20.327689+00:00",
+   "late": false,
+   "price": 0.655,
+   "reason": "Elite still in",
+   "rule": 2,
+   "verdict": "PLAY"
+  },
+  "market_type": "moneyline",
+  "max_prob": 0.6837,
+  "n_wallets": 5,
+  "outcome": "49ers",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Vikings vs. 49ers",
+  "result": null,
+  "sharp_usd": 20493.49,
+  "sport": "nfl",
+  "url": "https://polymarket.com/event/nfl-min-sf-2026-11-23"
  }
 ]
