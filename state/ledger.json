@@ -3931,5 +3931,75 @@
   "sharp_usd": 20493.49,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-min-sf-2026-11-23"
+ },
+ {
+  "alerted_at": "2026-11-23T09:10:19.580696+00:00",
+  "book_fair": 0.7969,
+  "books": [
+   {
+    "book": "LowVig.ag",
+    "price": -469,
+    "prob": 0.8243
+   },
+   {
+    "book": "BetOnline.ag",
+    "price": -475,
+    "prob": 0.8261
+   },
+   {
+    "book": "BetUS",
+    "price": -475,
+    "prob": 0.8261
+   },
+   {
+    "book": "DraftKings",
+    "price": -484,
+    "prob": 0.8288
+   },
+   {
+    "book": "FanDuel",
+    "price": -500,
+    "prob": 0.8333
+   },
+   {
+    "book": "BetMGM",
+    "price": -500,
+    "prob": 0.8333
+   },
+   {
+    "book": "MyBookie.ag",
+    "price": -500,
+    "prob": 0.8333
+   },
+   {
+    "book": "Bovada",
+    "price": -510,
+    "prob": 0.8361
+   },
+   {
+    "book": "BetRivers",
+    "price": -530,
+    "prob": 0.8413
+   }
+  ],
+  "close_price": 0.795,
+  "clv": null,
+  "condition_id": "0xa2b12546df25ae7bdb52b8d3f07b9da6e767ad284c8d6e3c07c7f683b940dbcc",
+  "entry_price": 0.795,
+  "event_title": "Spurs vs. Kings",
+  "game_start": "2026-11-24T03:00:00+00:00",
+  "id": "0xa2b12546-0-1795425019",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "moneyline",
+  "max_prob": 0.8218,
+  "n_wallets": 3,
+  "outcome": "Spurs",
+  "outcome_index": 0,
+  "pnl_100": null,
+  "question": "Spurs vs. Kings",
+  "result": null,
+  "sharp_usd": 3159.94,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-sas-sac-2026-11-23"
  }
 ]
