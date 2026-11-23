@@ -4133,8 +4133,8 @@
   "idx": 1,
   "market_type": "child_moneyline",
   "pick": "Xtreme Gaming (Map 2)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 51.52,
+  "result": "WIN",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-nem-xtreme-2026-11-23",
   "venues": {
@@ -4142,6 +4142,7 @@
     "ask": 0.64,
     "ask_size": 4.44,
     "fee": 0.0161,
+    "pnl_100": 52.42,
     "status": "ok",
     "team": "Xtreme Gaming",
     "ticker": "KXDOTA2MAP-26NOV230900XTREMENEM-2-XTREME",
@@ -4150,6 +4151,7 @@
    "pmus": {
     "ask": 0.63,
     "market": "astatc-dota2-nem-xtreme-2026-11-23-game2",
+    "pnl_100": 58.73,
     "raw_ask": 0.38,
     "raw_bid": 0.37,
     "side": 1,
@@ -4267,6 +4269,46 @@
     "side": 0,
     "status": "ok",
     "url": "https://polymarket.us/event/dota2-liquid-konca-2026-11-23"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-23T17:10:18.824918+00:00",
+  "cid": "0x6c5f87c4158f635e758dcddd660fd7c7710e9594f093f1edd6499ea415d4a945",
+  "delay_s": 473,
+  "elite_n": 716,
+  "elite_price": 0.4397,
+  "elite_roi": 0.2284,
+  "elite_ts": "2026-11-23T17:02:25+00:00",
+  "elite_usd": 14817.3,
+  "elite_wallets": [
+   "0x3231d2d67053e5dc3715f6429124741e52866e75",
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a"
+  ],
+  "event_title": "Dota 2: Aurora vs LGD Gaming (BO3) - BLAST Slam Group D",
+  "fill_price": 0.51,
+  "fill_usd_available": 21.95,
+  "id": "0x6c5f87c4-1-1795453818",
+  "idx": 1,
+  "market_type": "child_moneyline",
+  "pick": "LGD Gaming (Map 1)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-aur1-lgd-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "ask": 0.47,
+    "ask_size": 38.0,
+    "fee": 0.0174,
+    "status": "ok",
+    "team": "LGD Gaming",
+    "ticker": "KXDOTA2MAP-26NOV231200LGDAUR-1-LGD",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-aur1-lgd-2026-11-23",
+    "status": "not_listed"
    }
   }
  }
