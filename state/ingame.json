@@ -4954,8 +4954,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "Hornets",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-mem-cha-2026-11-23",
   "venues": {
@@ -4963,6 +4963,7 @@
     "ask": 0.47,
     "ask_size": 876.32,
     "fee": 0.0174,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "Charlotte",
     "ticker": "KXNBAGAME-26NOV23MEMCHA-CHA",
@@ -4971,6 +4972,7 @@
    "pmus": {
     "ask": 0.48,
     "market": "aec-nba-mem-cha-2026-11-23",
+    "pnl_100": -100.0,
     "raw_ask": 0.53,
     "raw_bid": 0.52,
     "side": 1,
