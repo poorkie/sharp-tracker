@@ -4831,8 +4831,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "Temple Owls",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-templ-tmrt-2026-11-23",
   "venues": {
@@ -4843,6 +4843,7 @@
    "pmus": {
     "ask": 0.76,
     "market": "aec-cbb-templ-tmrt-2026-11-23",
+    "pnl_100": -100.0,
     "raw_ask": 0.76,
     "raw_bid": 0.75,
     "side": 0,
@@ -5198,8 +5199,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "Pacers",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 29.87,
+  "result": "WIN",
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-okc-ind-2026-11-23",
   "venues": {
@@ -5207,6 +5208,7 @@
     "ask": 0.69,
     "ask_size": 420.24,
     "fee": 0.015,
+    "pnl_100": 41.84,
     "status": "ok",
     "team": "Indiana",
     "ticker": "KXNBAGAME-26NOV23OKCIND-IND",
@@ -5215,6 +5217,7 @@
    "pmus": {
     "ask": 0.79,
     "market": "aec-nba-okc-ind-2026-11-23",
+    "pnl_100": 26.58,
     "raw_ask": 0.22,
     "raw_bid": 0.21,
     "side": 1,
