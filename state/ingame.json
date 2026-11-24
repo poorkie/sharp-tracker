@@ -5555,10 +5555,11 @@
   "elite_price": 0.63,
   "elite_roi": 0.1165,
   "elite_ts": "2026-11-24T14:54:35+00:00",
-  "elite_usd": 3307.64,
+  "elite_usd": 28629.64,
   "elite_wallets": [
    "0x40ce68f1564f3c751b12d88a393d8cc0651dbf90",
-   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1"
+   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1",
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a"
   ],
   "event_title": "Dota 2: Team Yandex vs 1win (BO3) - BLAST Slam Seeding Matches",
   "fill_price": 0.63,
@@ -5673,6 +5674,45 @@
     "side": 1,
     "status": "ok",
     "url": "https://polymarket.us/event/dota2-gl-pari-2026-11-24"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-24T15:30:21.472914+00:00",
+  "cid": "0xb08c9548acae3801ed033b9e2463e265bfdd89e085bc4ae608542c52be2a5c49",
+  "delay_s": 317,
+  "elite_n": 716,
+  "elite_price": 0.73,
+  "elite_roi": 0.2284,
+  "elite_ts": "2026-11-24T15:25:04+00:00",
+  "elite_usd": 539.47,
+  "elite_wallets": [
+   "0x3231d2d67053e5dc3715f6429124741e52866e75"
+  ],
+  "event_title": "Dota 2: angry birds vs Team Synapse (BO3) - European Pro League Playoffs",
+  "fill_price": 0.7,
+  "fill_usd_available": 3.5,
+  "id": "0xb08c9548-0-1795534221",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "angry birds",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-angryb-synaps-2026-11-24",
+  "venues": {
+   "kalshi": {
+    "ask": 0.71,
+    "ask_size": 12.43,
+    "fee": 0.0144,
+    "status": "ok",
+    "team": "angry birds",
+    "ticker": "KXDOTA2GAME-26NOV240800SYNANG-ANG",
+    "url": "https://kalshi.com/markets/kxdota2game"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-angryb-synaps-2026-11-24",
+    "status": "not_listed"
    }
   }
  }
