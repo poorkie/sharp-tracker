@@ -6222,9 +6222,10 @@
   "elite_price": 0.55,
   "elite_roi": 0.0956,
   "elite_ts": "2026-11-24T20:35:25+00:00",
-  "elite_usd": 224.0,
+  "elite_usd": 474.0,
   "elite_wallets": [
-   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88",
+   "0xe2160eb837cd17de5915d460b1d69b5ba2ac7448"
   ],
   "event_title": "TCU Horned Frogs vs. Miami Hurricanes",
   "fill_price": 0.66,
@@ -6250,6 +6251,45 @@
     "side": 1,
     "status": "ok",
     "url": "https://polymarket.us/event/cbb-tcu-mia-2026-11-24"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-24T21:30:22.167204+00:00",
+  "cid": "0x0cded053f80d8edaef9311ea19817dbfd4985d3f488ddea09853908e9af3039d",
+  "delay_s": 77,
+  "elite_n": 716,
+  "elite_price": 0.4163,
+  "elite_roi": 0.2284,
+  "elite_ts": "2026-11-24T21:29:05+00:00",
+  "elite_usd": 1235.19,
+  "elite_wallets": [
+   "0x3231d2d67053e5dc3715f6429124741e52866e75"
+  ],
+  "event_title": "Dota 2: Power Rangers vs Inner Circle (BO3) - European Pro League Playoffs",
+  "fill_price": 0.39,
+  "fill_usd_available": 180.69,
+  "id": "0x0cded053-0-1795555822",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "Power Rangers (Map 2)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-pr1-ic-2026-11-24",
+  "venues": {
+   "kalshi": {
+    "ask": 0.38,
+    "ask_size": 16.17,
+    "fee": 0.0165,
+    "status": "ok",
+    "team": "Power Rangers",
+    "ticker": "KXDOTA2MAP-26NOV241400ICPRAN-2-PRAN",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-pr1-ic-2026-11-24",
+    "status": "not_listed"
    }
   }
  }
