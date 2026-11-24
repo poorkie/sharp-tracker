@@ -5318,5 +5318,73 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-24T12:10:27.751585+00:00",
+  "cid": "0xd47b8fd2508871b116389ef340b6793c7aa6acd0709215bdcf7eb3527a4b5012",
+  "delay_s": 322,
+  "elite_n": 460,
+  "elite_price": 0.59,
+  "elite_roi": 0.1498,
+  "elite_ts": "2026-11-24T12:05:05+00:00",
+  "elite_usd": 236.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Hersonissos 4: Nikita Mashtakov vs Anas Mazdrashki",
+  "fill_price": 0.6,
+  "fill_usd_available": 291.83,
+  "id": "0xd47b8fd2-1-1795522227",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Anas Mazdrashki",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-mashtak-mazdras-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-mashtak-mazdras-2026-11-23",
+    "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-24T12:10:27.751585+00:00",
+  "cid": "0x6c2aa658fdf29ed3efe819601c150d07c06a16b0aae47e4341fe110069ef2a03",
+  "delay_s": 295,
+  "elite_n": 460,
+  "elite_price": 0.6706,
+  "elite_roi": 0.1498,
+  "elite_ts": "2026-11-24T12:05:32+00:00",
+  "elite_usd": 268.24,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Hersonissos 4: Benjamin Pietri vs Roberto Carballes Baena",
+  "fill_price": 0.62,
+  "fill_usd_available": 1542.53,
+  "id": "0x6c2aa658-1-1795522227",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Roberto Carballes Baena",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-pietri-baena-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-pietri-baena-2026-11-23",
+    "status": "not_listed"
+   }
+  }
  }
 ]
