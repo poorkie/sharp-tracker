@@ -5833,5 +5833,51 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-24T17:50:17.372600+00:00",
+  "cid": "0x711f4681eb06c89a58ba794315ed4157c37e148d1cd04f63994ea059b9f64952",
+  "delay_s": 111,
+  "elite_n": 716,
+  "elite_price": 0.3969,
+  "elite_roi": 0.2284,
+  "elite_ts": "2026-11-24T17:48:26+00:00",
+  "elite_usd": 35790.52,
+  "elite_wallets": [
+   "0x3231d2d67053e5dc3715f6429124741e52866e75",
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a",
+   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1"
+  ],
+  "event_title": "Dota 2: Xtreme Gaming vs Team Liquid (BO3) - BLAST Slam Last Chance Qualifier",
+  "fill_price": 0.48,
+  "fill_usd_available": 24.96,
+  "id": "0x711f4681-0-1795542617",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "Xtreme Gaming (Map 2)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-xtreme-liquid-2026-11-24",
+  "venues": {
+   "kalshi": {
+    "ask": 0.49,
+    "ask_size": 172.0,
+    "fee": 0.0175,
+    "status": "ok",
+    "team": "Xtreme Gaming",
+    "ticker": "KXDOTA2MAP-26NOV241200LIQUIDXTREME-2-XTREME",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "ask": 0.47,
+    "market": "astatc-dota2-xtreme-liquid-2026-11-24-game2",
+    "raw_ask": 0.47,
+    "raw_bid": 0.46,
+    "side": 0,
+    "status": "ok",
+    "url": "https://polymarket.us/event/dota2-xtreme-liquid-2026-11-24"
+   }
+  }
  }
 ]
