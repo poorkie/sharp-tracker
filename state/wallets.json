@@ -122640,19 +122640,19 @@
   }
  },
  "0x630d33fa5a16c1a2392b0227af0c374319b7d066": {
-  "graded_at": "2026-11-17T15:00:27.814863+00:00",
+  "graded_at": "2026-11-24T15:10:21.104614+00:00",
   "grades": {
    "nba": {
-    "avg_price": 0.762,
-    "hit_edge": 0.238,
-    "hit_rate": 1.0,
-    "n": 5,
-    "pnl": 366.7,
-    "roi": 0.1573,
-    "shrunk_roi": -0.0092,
+    "avg_price": 0.731,
+    "hit_edge": -0.148,
+    "hit_rate": 0.583,
+    "n": 12,
+    "pnl": -1413.88,
+    "roi": -0.166,
+    "shrunk_roi": -0.0614,
     "sport": "nba",
-    "staked": 2331.88,
-    "t_stat": 1.96,
+    "staked": 8517.33,
+    "t_stat": -0.1,
     "tier": "NONE"
    },
    "nhl": {
