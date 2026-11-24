@@ -5723,5 +5723,73 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-24T17:30:22.756905+00:00",
+  "cid": "0x2d9435038b6ed5459d8a69c1490f49b836da94ca5db02247c6a1c4bc0f28aba2",
+  "delay_s": 365,
+  "elite_n": 460,
+  "elite_price": 0.375,
+  "elite_roi": 0.1498,
+  "elite_ts": "2026-11-24T17:24:17+00:00",
+  "elite_usd": 300.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Monastir 2: Mathieu Scaglia vs Wissam Abderrahman",
+  "fill_price": 0.39,
+  "fill_usd_available": 1025.51,
+  "id": "0x2d943503-1-1795541422",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Wissam Abderrahman",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-scaglia-abderra-2026-11-24",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-scaglia-abderra-2026-11-24",
+    "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-24T17:30:22.756905+00:00",
+  "cid": "0x351bfb834003e7c247b5dacc7d751594f57b40aa5be75471cd3820a03fa57950",
+  "delay_s": 108,
+  "elite_n": 460,
+  "elite_price": 0.61,
+  "elite_roi": 0.1498,
+  "elite_ts": "2026-11-24T17:28:34+00:00",
+  "elite_usd": 244.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Monastir 2: Alberto Barroso Campos vs Giorgio Tabacco",
+  "fill_price": 0.64,
+  "fill_usd_available": 3230.11,
+  "id": "0x351bfb83-0-1795541422",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Alberto Barroso Campos",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-campos-tabacco-2026-11-24",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-campos-tabacco-2026-11-24",
+    "status": "not_listed"
+   }
+  }
  }
 ]
