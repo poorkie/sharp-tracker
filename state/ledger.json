@@ -4048,7 +4048,7 @@
   "book_fair": null,
   "books": [],
   "close_price": 0.825,
-  "clv": null,
+  "clv": -0.02,
   "condition_id": "0x1a54f964637acd52e5c50bab146f124f813a36d06448c68a9da35f90577b8a88",
   "entry_price": 0.845,
   "event_title": "Bengals vs. Commanders",
@@ -4058,6 +4058,7 @@
   "lock": {
    "at": "2026-11-24T01:00:21.841929+00:00",
    "late": false,
+   "pnl_100": 21.21,
    "price": 0.825,
    "reason": "Elite still in",
    "rule": 2,
@@ -4068,9 +4069,9 @@
   "n_wallets": 3,
   "outcome": "Bengals +3.5",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": 18.34,
   "question": "Spread: Commanders (-3.5)",
-  "result": null,
+  "result": "WIN",
   "sharp_usd": 51537.59,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-cin-was-2026-11-24"
