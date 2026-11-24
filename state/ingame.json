@@ -4785,8 +4785,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "BYU Cougars",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 63.93,
+  "result": "WIN",
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-wash-byu-2026-11-23",
   "venues": {
@@ -4794,6 +4794,7 @@
     "ask": 0.61,
     "ask_size": 115269.55,
     "fee": 0.0167,
+    "pnl_100": 59.57,
     "status": "ok",
     "team": "BYU",
     "ticker": "KXNCAAMBGAME-26NOV23WASHBYU-BYU",
@@ -4802,6 +4803,7 @@
    "pmus": {
     "ask": 0.61,
     "market": "aec-cbb-wash-byu-2026-11-23",
+    "pnl_100": 63.93,
     "raw_ask": 0.4,
     "raw_bid": 0.39,
     "side": 1,
