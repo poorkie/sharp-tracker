@@ -4015,7 +4015,7 @@
   "book_fair": null,
   "books": [],
   "close_price": 0.435,
-  "clv": null,
+  "clv": -0.06,
   "condition_id": "0xfb64c2863568a8c3e9151644236d69de2584d19dea0bb3b736c07b19182200e1",
   "entry_price": 0.495,
   "event_title": "Trail Blazers vs. 76ers",
@@ -4025,6 +4025,7 @@
   "lock": {
    "at": "2026-11-23T23:50:17.889922+00:00",
    "late": false,
+   "pnl_100": -100.0,
    "price": 0.435,
    "reason": "Elite still in",
    "rule": 2,
@@ -4035,9 +4036,9 @@
   "n_wallets": 3,
   "outcome": "76ers -2.5",
   "outcome_index": 0,
-  "pnl_100": null,
+  "pnl_100": -100.0,
   "question": "Spread: 76ers (-2.5)",
-  "result": null,
+  "result": "LOSS",
   "sharp_usd": 4533.5,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-por-phi-2026-11-23"
