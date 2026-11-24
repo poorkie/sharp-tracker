@@ -5096,5 +5096,44 @@
     "url": "https://polymarket.us/event/nba-cle-chi-2026-11-23"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-24T01:10:18.112886+00:00",
+  "cid": "0x582de861b9009acc8c3389079f570c466d368fb24e4bd7761929ec8bdae2cd96",
+  "delay_s": 406,
+  "elite_n": 51,
+  "elite_price": 0.41,
+  "elite_roi": 0.2442,
+  "elite_ts": "2026-11-24T01:03:32+00:00",
+  "elite_usd": 921.27,
+  "elite_wallets": [
+   "0xaacac528e8af87ca25809824b384e169b558f5d5"
+  ],
+  "event_title": "Suns vs. Pelicans",
+  "fill_price": 0.42,
+  "fill_usd_available": 116.56,
+  "id": "0x582de861-1-1795482618",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Pelicans",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-phx-nop-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "ask": 0.43,
+    "ask_size": 62.87,
+    "fee": 0.0172,
+    "status": "ok",
+    "team": "New Orleans",
+    "ticker": "KXNBAGAME-26NOV23PHXNOP-NOP",
+    "url": "https://kalshi.com/markets/kxnbagame"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/nba-phx-nop-2026-11-23",
+    "status": "not_listed"
+   }
+  }
  }
 ]
