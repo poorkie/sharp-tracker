@@ -5299,8 +5299,8 @@
   "idx": 0,
   "market_type": "child_moneyline",
   "pick": "Spirit Academy (Map 2)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 11.11,
+  "result": "WIN",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-spirit1-iac-2026-11-24",
   "venues": {
@@ -5308,6 +5308,7 @@
     "ask": 0.92,
     "ask_size": 25.0,
     "fee": 0.0052,
+    "pnl_100": 8.08,
     "status": "ok",
     "team": "Spirit Academy",
     "ticker": "KXDOTA2MAP-26NOV240500IAPSPIRITAC-2-SPIRITAC",
@@ -5418,6 +5419,95 @@
    "pmus": {
     "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-penisto-krutykh-2026-11-23",
     "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-24T14:10:19.267125+00:00",
+  "cid": "0x51f5d24ad76c6bc67e7aab0aee0c60aaea8b27f03e246101bfac81c61b201776",
+  "delay_s": 288,
+  "elite_n": 1029,
+  "elite_price": 0.33,
+  "elite_roi": 0.0892,
+  "elite_ts": "2026-11-24T14:05:31+00:00",
+  "elite_usd": 330.0,
+  "elite_wallets": [
+   "0x80bac5c17aec3f5b3d0f01166b639cd453a02e78"
+  ],
+  "event_title": "Dota 2: Team Yandex vs 1win (BO3) - BLAST Slam Seeding Matches",
+  "fill_price": 0.36,
+  "fill_usd_available": 4916.42,
+  "id": "0x51f5d24a-1-1795529419",
+  "idx": 1,
+  "market_type": "child_moneyline",
+  "pick": "1win (Map 1)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-ty-1win-2026-11-24",
+  "venues": {
+   "kalshi": {
+    "ask": 0.38,
+    "ask_size": 60.01,
+    "fee": 0.0165,
+    "status": "ok",
+    "team": "1win",
+    "ticker": "KXDOTA2MAP-26NOV2409001WINTY-1-1WIN",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "ask": 0.36,
+    "market": "astatc-dota2-ty-1win-2026-11-24-game1",
+    "raw_ask": 0.65,
+    "raw_bid": 0.64,
+    "side": 1,
+    "status": "ok",
+    "url": "https://polymarket.us/event/dota2-ty-1win-2026-11-24"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-24T14:10:19.267125+00:00",
+  "cid": "0x5810fa6e13a72868d192170c1093a9aad94133959a955d13082e0cf336989031",
+  "delay_s": 60,
+  "elite_n": 716,
+  "elite_price": 0.33,
+  "elite_roi": 0.2284,
+  "elite_ts": "2026-11-24T14:09:19+00:00",
+  "elite_usd": 6490.2,
+  "elite_wallets": [
+   "0x3231d2d67053e5dc3715f6429124741e52866e75",
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a"
+  ],
+  "event_title": "Dota 2: GamerLegion vs PARIVISION (BO3) - BLAST Slam Seeding Matches",
+  "fill_price": 0.29,
+  "fill_usd_available": 183.97,
+  "id": "0x5810fa6e-0-1795529419",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "GamerLegion (Map 1)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-gl-pari-2026-11-24",
+  "venues": {
+   "kalshi": {
+    "ask": 0.29,
+    "ask_size": 1700.0,
+    "fee": 0.0144,
+    "status": "ok",
+    "team": "GamerLegion",
+    "ticker": "KXDOTA2MAP-26NOV240900PARIGL-1-GL",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "ask": 0.29,
+    "market": "astatc-dota2-gl-pari-2026-11-24-game1",
+    "raw_ask": 0.29,
+    "raw_bid": 0.28,
+    "side": 0,
+    "status": "ok",
+    "url": "https://polymarket.us/event/dota2-gl-pari-2026-11-24"
    }
   }
  }
