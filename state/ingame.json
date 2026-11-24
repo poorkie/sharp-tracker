@@ -5546,5 +5546,49 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-24T15:00:27.259983+00:00",
+  "cid": "0xe59fd3e6881eb1220b0c54c457d824b92a992e2cb57d284d930bf468398136fc",
+  "delay_s": 352,
+  "elite_n": 295,
+  "elite_price": 0.63,
+  "elite_roi": 0.1165,
+  "elite_ts": "2026-11-24T14:54:35+00:00",
+  "elite_usd": 945.0,
+  "elite_wallets": [
+   "0x40ce68f1564f3c751b12d88a393d8cc0651dbf90"
+  ],
+  "event_title": "Dota 2: Team Yandex vs 1win (BO3) - BLAST Slam Seeding Matches",
+  "fill_price": 0.63,
+  "fill_usd_available": 4404.95,
+  "id": "0xe59fd3e6-0-1795532427",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "Team Yandex (Map 2)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-ty-1win-2026-11-24",
+  "venues": {
+   "kalshi": {
+    "ask": 0.64,
+    "ask_size": 3284.0,
+    "fee": 0.0161,
+    "status": "ok",
+    "team": "Team Yandex",
+    "ticker": "KXDOTA2MAP-26NOV2409001WINTY-2-TY",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "ask": 0.66,
+    "market": "astatc-dota2-ty-1win-2026-11-24-game2",
+    "raw_ask": 0.66,
+    "raw_bid": 0.65,
+    "side": 0,
+    "status": "ok",
+    "url": "https://polymarket.us/event/dota2-ty-1win-2026-11-24"
+   }
+  }
  }
 ]
