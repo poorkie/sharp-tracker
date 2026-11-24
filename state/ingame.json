@@ -5879,5 +5879,44 @@
     "url": "https://polymarket.us/event/dota2-xtreme-liquid-2026-11-24"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-24T18:00:29.921329+00:00",
+  "cid": "0xf7710538b4cb479a243f52ce11aa6cf12b49c4d94e26b72a104610e9bf9e175c",
+  "delay_s": 204,
+  "elite_n": 716,
+  "elite_price": 0.6308,
+  "elite_roi": 0.2284,
+  "elite_ts": "2026-11-24T17:57:05+00:00",
+  "elite_usd": 517.14,
+  "elite_wallets": [
+   "0x3231d2d67053e5dc3715f6429124741e52866e75"
+  ],
+  "event_title": "Dota 2: PuckChamp vs Zero Tenacity (BO3) - European Pro League Playoffs",
+  "fill_price": 0.62,
+  "fill_usd_available": 89.72,
+  "id": "0xf7710538-1-1795543229",
+  "idx": 1,
+  "market_type": "child_moneyline",
+  "pick": "Zero Tenacity (Map 2)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-pckcp-z10-2026-11-24",
+  "venues": {
+   "kalshi": {
+    "ask": 0.65,
+    "ask_size": 306.24,
+    "fee": 0.0159,
+    "status": "ok",
+    "team": "Zero Tenacity",
+    "ticker": "KXDOTA2MAP-26NOV241100Z10PCKCP-2-Z10",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-pckcp-z10-2026-11-24",
+    "status": "not_listed"
+   }
+  }
  }
 ]
