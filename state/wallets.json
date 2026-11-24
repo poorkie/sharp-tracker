@@ -213426,8 +213426,22 @@
   }
  },
  "0xab55bd7c9e160db23f68e45f55be3fc9aef38248": {
-  "graded_at": "2026-11-17T22:50:16.648342+00:00",
-  "grades": {}
+  "graded_at": "2026-11-24T22:50:19.930067+00:00",
+  "grades": {
+   "nhl": {
+    "avg_price": 0.472,
+    "hit_edge": 0.528,
+    "hit_rate": 1.0,
+    "n": 1,
+    "pnl": 1146.92,
+    "roi": 1.1168,
+    "shrunk_roi": -0.002,
+    "sport": "nhl",
+    "staked": 1026.96,
+    "t_stat": 0.0,
+    "tier": "NONE"
+   }
+  }
  },
  "0xab828a2bcb4a5a93a94cdeedf3cb70b6211babe5": {
   "graded_at": "2026-11-19T20:20:16.901343+00:00",
@@ -215257,6 +215271,10 @@
     "tier": "NONE"
    }
   }
+ },
+ "0xad1a8c77dd06402044f2322521044b696c0de582": {
+  "graded_at": "2026-11-24T22:50:19.930067+00:00",
+  "grades": {}
  },
  "0xad2f5bf835fee93d6e7403a274cdc40f7a2dac6a": {
   "fp": [

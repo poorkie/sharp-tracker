@@ -5992,8 +5992,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "UIC Flames",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-rice-illchi-2026-11-24",
   "venues": {
@@ -6001,6 +6001,7 @@
     "ask": 0.74,
     "ask_size": 8271.47,
     "fee": 0.0135,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "UIC",
     "ticker": "KXNCAAMBGAME-26NOV24UICRICE-UIC",
