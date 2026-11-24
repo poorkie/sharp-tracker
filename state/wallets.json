@@ -184316,6 +184316,50 @@
    }
   }
  },
+ "0x9507b0f30ac85f83eb43df5771575ac830b44bdf": {
+  "graded_at": "2026-11-24T18:50:19.163870+00:00",
+  "grades": {
+   "atp": {
+    "avg_price": 0.724,
+    "hit_edge": 0.276,
+    "hit_rate": 1.0,
+    "n": 1,
+    "pnl": 32.87,
+    "roi": 0.1233,
+    "shrunk_roi": -0.0263,
+    "sport": "atp",
+    "staked": 266.64,
+    "t_stat": 0.0,
+    "tier": "NONE"
+   },
+   "epl": {
+    "avg_price": 0.81,
+    "hit_edge": 0.19,
+    "hit_rate": 1.0,
+    "n": 2,
+    "pnl": 18.81,
+    "roi": 0.1858,
+    "shrunk_roi": -0.0197,
+    "sport": "epl",
+    "staked": 101.29,
+    "t_stat": 2.36,
+    "tier": "NONE"
+   },
+   "nba": {
+    "avg_price": 0.578,
+    "hit_edge": 0.232,
+    "hit_rate": 0.81,
+    "n": 21,
+    "pnl": -487.36,
+    "roi": -0.097,
+    "shrunk_roi": -0.0531,
+    "sport": "nba",
+    "staked": 5024.69,
+    "t_stat": 1.39,
+    "tier": "NONE"
+   }
+  }
+ },
  "0x951634357346bb291df117f9ac410100feea2104": {
   "fp": [
    "023b84d6:9ac",
@@ -305024,19 +305068,19 @@
   }
  },
  "0xf392e3ee4e7399eff39e3217f54de08091a447b1": {
-  "graded_at": "2026-11-17T18:40:27.603266+00:00",
+  "graded_at": "2026-11-24T18:50:19.163870+00:00",
   "grades": {
    "dota2": {
-    "avg_price": 0.485,
-    "hit_edge": -0.11,
-    "hit_rate": 0.375,
-    "n": 8,
-    "pnl": 314.78,
-    "roi": 0.1018,
-    "shrunk_roi": -0.008,
+    "avg_price": 0.523,
+    "hit_edge": -0.123,
+    "hit_rate": 0.4,
+    "n": 10,
+    "pnl": -1197.42,
+    "roi": -0.1997,
+    "shrunk_roi": -0.0639,
     "sport": "dota2",
-    "staked": 3093.47,
-    "t_stat": -1.5,
+    "staked": 5996.16,
+    "t_stat": -1.69,
     "tier": "NONE"
    },
    "epl": {
@@ -305066,16 +305110,16 @@
     "tier": "NONE"
    },
    "nhl": {
-    "avg_price": 0.35,
-    "hit_edge": -0.35,
+    "avg_price": 0.395,
+    "hit_edge": -0.395,
     "hit_rate": 0.0,
-    "n": 4,
-    "pnl": -1041.64,
-    "roi": -0.4534,
-    "shrunk_roi": -0.0685,
+    "n": 6,
+    "pnl": -3354.36,
+    "roi": -0.7251,
+    "shrunk_roi": -0.1207,
     "sport": "nhl",
-    "staked": 2297.25,
-    "t_stat": -3.1,
+    "staked": 4626.1,
+    "t_stat": -5.15,
     "tier": "NONE"
    }
   }
