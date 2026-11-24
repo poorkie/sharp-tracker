@@ -5618,8 +5618,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "Wright State Raiders",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-stbon-wrght-2026-11-24",
   "venues": {
@@ -5627,6 +5627,7 @@
     "ask": 0.43,
     "ask_size": 3575.66,
     "fee": 0.0172,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "Wright St.",
     "ticker": "KXNCAAMBGAME-26NOV24WRSTSBON-WRST",
