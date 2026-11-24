@@ -5965,5 +5965,118 @@
     "url": "https://polymarket.us/event/cbb-sutah-flint-2026-11-24"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-24T19:00:26.296141+00:00",
+  "cid": "0x1b72238abd5d5172d1594607b6f4ada5c595736d9012900d5f7e5ad97f3f8587",
+  "delay_s": 310,
+  "elite_n": 202,
+  "elite_price": 0.65,
+  "elite_roi": 0.0956,
+  "elite_ts": "2026-11-24T18:55:16+00:00",
+  "elite_usd": 214.5,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Rice Owls vs. UIC Flames",
+  "fill_price": 0.76,
+  "fill_usd_available": 290.32,
+  "id": "0x1b72238a-1-1795546826",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "UIC Flames",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-rice-illchi-2026-11-24",
+  "venues": {
+   "kalshi": {
+    "ask": 0.74,
+    "ask_size": 8271.47,
+    "fee": 0.0135,
+    "status": "ok",
+    "team": "UIC",
+    "ticker": "KXNCAAMBGAME-26NOV24UICRICE-UIC",
+    "url": "https://kalshi.com/markets/kxncaambgame"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/cbb-rice-illchi-2026-11-24",
+    "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-24T19:00:26.296141+00:00",
+  "cid": "0x45c11a6e005cc74b90f2eaf24e29b44d86088f2442ab793a403b3caa236bef73",
+  "delay_s": 135,
+  "elite_n": 1029,
+  "elite_price": 0.5801,
+  "elite_roi": 0.0892,
+  "elite_ts": "2026-11-24T18:58:11+00:00",
+  "elite_usd": 17619.72,
+  "elite_wallets": [
+   "0x80bac5c17aec3f5b3d0f01166b639cd453a02e78",
+   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1"
+  ],
+  "event_title": "Dota 2: OG vs Aurora (BO3) - BLAST Slam Last Chance Qualifier",
+  "fill_price": 0.59,
+  "fill_usd_available": 71.85,
+  "id": "0x45c11a6e-1-1795546826",
+  "idx": 1,
+  "market_type": "child_moneyline",
+  "pick": "Aurora (Map 2)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-og-aur1-2026-11-24",
+  "venues": {
+   "kalshi": {
+    "ask": 0.6,
+    "ask_size": 549.0,
+    "fee": 0.0168,
+    "status": "ok",
+    "team": "Aurora",
+    "ticker": "KXDOTA2MAP-26NOV241200AUROG-2-AUR",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-og-aur1-2026-11-24",
+    "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-24T19:00:26.296141+00:00",
+  "cid": "0x4a4ab13a3d32f030ac8f497b113044d52bc2b2a85cf9bc8fccf59fead88f7823",
+  "delay_s": -59,
+  "elite_n": 460,
+  "elite_price": 0.65,
+  "elite_roi": 0.1498,
+  "elite_ts": "2026-11-24T19:01:25+00:00",
+  "elite_usd": 260.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "San Salvador: Juan Miguel Bolivar vs Luciano Emanuel Ambrogi",
+  "fill_price": 0.66,
+  "fill_usd_available": 552.73,
+  "id": "0x4a4ab13a-1-1795546826",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Luciano Emanuel Ambrogi",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-idarrag-ambrogi-2026-11-24",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-idarrag-ambrogi-2026-11-24",
+    "status": "not_listed"
+   }
+  }
  }
 ]
