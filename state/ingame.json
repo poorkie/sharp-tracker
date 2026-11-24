@@ -5946,8 +5946,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "Florida International Golden Panthers",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 42.86,
+  "result": "WIN",
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-sutah-flint-2026-11-24",
   "venues": {
@@ -5955,6 +5955,7 @@
     "ask": 0.7,
     "ask_size": 2447.01,
     "fee": 0.0147,
+    "pnl_100": 39.92,
     "status": "ok",
     "team": "Florida International",
     "ticker": "KXNCAAMBGAME-26NOV24SUUFIU-FIU",
@@ -5963,6 +5964,7 @@
    "pmus": {
     "ask": 0.7,
     "market": "aec-cbb-sutah-flint-2026-11-24",
+    "pnl_100": 42.86,
     "raw_ask": 0.31,
     "raw_bid": 0.3,
     "side": 1,
