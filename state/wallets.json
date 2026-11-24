@@ -56476,19 +56476,32 @@
   }
  },
  "0x2babbc39f654fbbeeb3b31515179d90cf091d84b": {
-  "graded_at": "2026-11-17T20:10:16.273013+00:00",
+  "graded_at": "2026-11-24T20:10:33.124768+00:00",
   "grades": {
    "atp": {
-    "avg_price": 0.522,
-    "hit_edge": -0.522,
-    "hit_rate": 0.0,
-    "n": 1,
-    "pnl": -0.14,
-    "roi": -0.067,
-    "shrunk_roi": -0.0309,
+    "avg_price": 0.59,
+    "hit_edge": -0.064,
+    "hit_rate": 0.526,
+    "n": 57,
+    "pnl": -3010.21,
+    "roi": -0.0314,
+    "shrunk_roi": -0.0308,
     "sport": "atp",
-    "staked": 2.09,
-    "t_stat": 0.0,
+    "staked": 95794.68,
+    "t_stat": -1.16,
+    "tier": "NONE"
+   },
+   "wta": {
+    "avg_price": 0.528,
+    "hit_edge": -0.073,
+    "hit_rate": 0.455,
+    "n": 11,
+    "pnl": -3380.46,
+    "roi": -0.236,
+    "shrunk_roi": -0.0744,
+    "sport": "wta",
+    "staked": 14324.02,
+    "t_stat": -0.56,
     "tier": "NONE"
    }
   }
@@ -269599,7 +269612,7 @@
   }
  },
  "0xdd517b727b1445d9744d23bba5856dd06e5f1041": {
-  "graded_at": "2026-11-17T20:10:16.273013+00:00",
+  "graded_at": "2026-11-24T20:10:33.124768+00:00",
   "grades": {
    "atp": {
     "avg_price": 0.43,
@@ -269654,29 +269667,29 @@
     "tier": "NONE"
    },
    "nba": {
-    "avg_price": 0.502,
-    "hit_edge": -0.017,
-    "hit_rate": 0.485,
-    "n": 33,
-    "pnl": 8971.67,
-    "roi": 0.1416,
-    "shrunk_roi": 0.0476,
+    "avg_price": 0.508,
+    "hit_edge": -0.008,
+    "hit_rate": 0.5,
+    "n": 34,
+    "pnl": 9440.24,
+    "roi": 0.1464,
+    "shrunk_roi": 0.051,
     "sport": "nba",
-    "staked": 63348.94,
-    "t_stat": 0.08,
+    "staked": 64498.77,
+    "t_stat": 0.14,
     "tier": "NONE"
    },
    "nhl": {
-    "avg_price": 0.389,
-    "hit_edge": 0.111,
-    "hit_rate": 0.5,
-    "n": 2,
-    "pnl": 944.68,
-    "roi": 1.0564,
-    "shrunk_roi": 0.0217,
+    "avg_price": 0.388,
+    "hit_edge": 0.012,
+    "hit_rate": 0.4,
+    "n": 5,
+    "pnl": -3304.17,
+    "roi": -0.4765,
+    "shrunk_roi": -0.0796,
     "sport": "nhl",
-    "staked": 894.26,
-    "t_stat": 0.16,
+    "staked": 6934.32,
+    "t_stat": -0.09,
     "tier": "NONE"
    },
    "wta": {
