@@ -5704,8 +5704,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "angry birds",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 42.86,
+  "result": "WIN",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-angryb-synaps-2026-11-24",
   "venues": {
@@ -5713,6 +5713,7 @@
     "ask": 0.71,
     "ask_size": 12.43,
     "fee": 0.0144,
+    "pnl_100": 38.05,
     "status": "ok",
     "team": "angry birds",
     "ticker": "KXDOTA2GAME-26NOV240800SYNANG-ANG",
