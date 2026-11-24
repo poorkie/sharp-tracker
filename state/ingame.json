@@ -5279,5 +5279,44 @@
     "url": "https://polymarket.us/event/nba-uta-lal-2026-11-23"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-24T11:30:25.001003+00:00",
+  "cid": "0x53f7a278e57ced2310c063f0188bf7a095a0004472705fb6199e34feb41e4883",
+  "delay_s": 176,
+  "elite_n": 2039,
+  "elite_price": 0.888,
+  "elite_roi": 0.0709,
+  "elite_ts": "2026-11-24T11:27:29+00:00",
+  "elite_usd": 1921.6,
+  "elite_wallets": [
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a"
+  ],
+  "event_title": "Dota 2: Spirit Academy vs InterActive Philippines (BO3) - European Pro League Playoffs",
+  "fill_price": 0.9,
+  "fill_usd_available": 4.5,
+  "id": "0x53f7a278-0-1795519825",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "Spirit Academy (Map 2)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-spirit1-iac-2026-11-24",
+  "venues": {
+   "kalshi": {
+    "ask": 0.92,
+    "ask_size": 25.0,
+    "fee": 0.0052,
+    "status": "ok",
+    "team": "Spirit Academy",
+    "ticker": "KXDOTA2MAP-26NOV240500IAPSPIRITAC-2-SPIRITAC",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-spirit1-iac-2026-11-24",
+    "status": "not_listed"
+   }
+  }
  }
 ]
