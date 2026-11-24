@@ -5555,9 +5555,10 @@
   "elite_price": 0.63,
   "elite_roi": 0.1165,
   "elite_ts": "2026-11-24T14:54:35+00:00",
-  "elite_usd": 945.0,
+  "elite_usd": 3307.64,
   "elite_wallets": [
-   "0x40ce68f1564f3c751b12d88a393d8cc0651dbf90"
+   "0x40ce68f1564f3c751b12d88a393d8cc0651dbf90",
+   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1"
   ],
   "event_title": "Dota 2: Team Yandex vs 1win (BO3) - BLAST Slam Seeding Matches",
   "fill_price": 0.63,
@@ -5588,6 +5589,90 @@
     "side": 0,
     "status": "ok",
     "url": "https://polymarket.us/event/dota2-ty-1win-2026-11-24"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-24T15:20:17.556890+00:00",
+  "cid": "0xd05bcff9895a198b4513bf9777e7142e30ac536053469b52a736ea58a62d63ba",
+  "delay_s": 277,
+  "elite_n": 202,
+  "elite_price": 0.55,
+  "elite_roi": 0.0956,
+  "elite_ts": "2026-11-24T15:15:40+00:00",
+  "elite_usd": 220.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "St. Bonaventure Bonnies vs. Wright State Raiders",
+  "fill_price": 0.41,
+  "fill_usd_available": 138.58,
+  "id": "0xd05bcff9-1-1795533617",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Wright State Raiders",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-stbon-wrght-2026-11-24",
+  "venues": {
+   "kalshi": {
+    "ask": 0.43,
+    "ask_size": 3575.66,
+    "fee": 0.0172,
+    "status": "ok",
+    "team": "Wright St.",
+    "ticker": "KXNCAAMBGAME-26NOV24WRSTSBON-WRST",
+    "url": "https://kalshi.com/markets/kxncaambgame"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/cbb-stbon-wrght-2026-11-24",
+    "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-24T15:20:17.556890+00:00",
+  "cid": "0x98736f1fd705ac17f4ccc5779a642beec6476b82d943795d52c357881f6e8918",
+  "delay_s": 108,
+  "elite_n": 2039,
+  "elite_price": 0.75,
+  "elite_roi": 0.0709,
+  "elite_ts": "2026-11-24T15:18:29+00:00",
+  "elite_usd": 35066.67,
+  "elite_wallets": [
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a",
+   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1"
+  ],
+  "event_title": "Dota 2: GamerLegion vs PARIVISION (BO3) - BLAST Slam Seeding Matches",
+  "fill_price": 0.81,
+  "fill_usd_available": 16.2,
+  "id": "0x98736f1f-1-1795533617",
+  "idx": 1,
+  "market_type": "child_moneyline",
+  "pick": "PARIVISION (Map 2)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-gl-pari-2026-11-24",
+  "venues": {
+   "kalshi": {
+    "ask": 0.8,
+    "ask_size": 92.0,
+    "fee": 0.0112,
+    "status": "ok",
+    "team": "PARIVISION",
+    "ticker": "KXDOTA2MAP-26NOV240900PARIGL-2-PARI",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "ask": 0.78,
+    "market": "astatc-dota2-gl-pari-2026-11-24-game2",
+    "raw_ask": 0.24,
+    "raw_bid": 0.22,
+    "side": 1,
+    "status": "ok",
+    "url": "https://polymarket.us/event/dota2-gl-pari-2026-11-24"
    }
   }
  }
