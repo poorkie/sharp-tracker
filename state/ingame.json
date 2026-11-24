@@ -6330,5 +6330,49 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-24T23:30:20.616267+00:00",
+  "cid": "0xfe38f71f80cebd47b4ed2e2713de0cbd3b6c6d87864fdba46d15ceeebb28fa73",
+  "delay_s": 286,
+  "elite_n": 202,
+  "elite_price": 0.56,
+  "elite_roi": 0.0956,
+  "elite_ts": "2026-11-24T23:25:34+00:00",
+  "elite_usd": 224.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Michigan Wolverines vs. Creighton Bluejays",
+  "fill_price": 0.38,
+  "fill_usd_available": 3.8,
+  "id": "0xfe38f71f-0-1795563020",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Michigan Wolverines",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-mich-creigh-2026-11-24",
+  "venues": {
+   "kalshi": {
+    "ask": 0.38,
+    "ask_size": 1464.18,
+    "fee": 0.0165,
+    "status": "ok",
+    "team": "Michigan",
+    "ticker": "KXNCAAMBGAME-26NOV24MICHCREI-MICH",
+    "url": "https://kalshi.com/markets/kxncaambgame"
+   },
+   "pmus": {
+    "ask": 0.41,
+    "market": "aec-cbb-mich-creigh-2026-11-24",
+    "raw_ask": 0.41,
+    "raw_bid": 0.4,
+    "side": 0,
+    "status": "ok",
+    "url": "https://polymarket.us/event/cbb-mich-creigh-2026-11-24"
+   }
+  }
  }
 ]
