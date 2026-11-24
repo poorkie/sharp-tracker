@@ -5791,5 +5791,47 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-24T17:40:20.188177+00:00",
+  "cid": "0x84302f397a2fecf6dcafb85623f50999445d2fedf45660f26a7f3783afeaf2a9",
+  "delay_s": 190,
+  "elite_n": 1029,
+  "elite_price": 0.58,
+  "elite_roi": 0.0892,
+  "elite_ts": "2026-11-24T17:37:10+00:00",
+  "elite_usd": 42998.95,
+  "elite_wallets": [
+   "0x80bac5c17aec3f5b3d0f01166b639cd453a02e78",
+   "0x3231d2d67053e5dc3715f6429124741e52866e75",
+   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1",
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a"
+  ],
+  "event_title": "Dota 2: OG vs Aurora (BO3) - BLAST Slam Last Chance Qualifier",
+  "fill_price": 0.67,
+  "fill_usd_available": 7646.33,
+  "id": "0x84302f39-1-1795542020",
+  "idx": 1,
+  "market_type": "child_moneyline",
+  "pick": "Aurora (Map 1)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-og-aur1-2026-11-24",
+  "venues": {
+   "kalshi": {
+    "ask": 0.66,
+    "ask_size": 546.81,
+    "fee": 0.0157,
+    "status": "ok",
+    "team": "Aurora",
+    "ticker": "KXDOTA2MAP-26NOV241200AUROG-1-AUR",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-og-aur1-2026-11-24",
+    "status": "not_listed"
+   }
+  }
  }
 ]
