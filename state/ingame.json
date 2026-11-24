@@ -5386,5 +5386,39 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-24T14:00:26.655142+00:00",
+  "cid": "0x6e259061a8675b955d691109f3c245f4bc4b1f7a8a0798ebdd08443cb479dcb2",
+  "delay_s": 13,
+  "elite_n": 460,
+  "elite_price": 0.73,
+  "elite_roi": 0.1498,
+  "elite_ts": "2026-11-24T14:00:13+00:00",
+  "elite_usd": 281.05,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Hersonissos 4: Ryan Peniston vs Oleksii Krutykh",
+  "fill_price": 0.75,
+  "fill_usd_available": 404.31,
+  "id": "0x6e259061-0-1795528826",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Ryan Peniston",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-penisto-krutykh-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-penisto-krutykh-2026-11-23",
+    "status": "not_listed"
+   }
+  }
  }
 ]
