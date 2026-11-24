@@ -5442,8 +5442,8 @@
   "idx": 1,
   "market_type": "child_moneyline",
   "pick": "1win (Map 1)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 177.78,
+  "result": "WIN",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-ty-1win-2026-11-24",
   "venues": {
@@ -5451,6 +5451,7 @@
     "ask": 0.38,
     "ask_size": 60.01,
     "fee": 0.0165,
+    "pnl_100": 152.21,
     "status": "ok",
     "team": "1win",
     "ticker": "KXDOTA2MAP-26NOV2409001WINTY-1-1WIN",
@@ -5459,6 +5460,7 @@
    "pmus": {
     "ask": 0.36,
     "market": "astatc-dota2-ty-1win-2026-11-24-game1",
+    "pnl_100": 177.78,
     "raw_ask": 0.65,
     "raw_bid": 0.64,
     "side": 1,
@@ -5488,8 +5490,8 @@
   "idx": 0,
   "market_type": "child_moneyline",
   "pick": "GamerLegion (Map 1)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-gl-pari-2026-11-24",
   "venues": {
@@ -5497,6 +5499,7 @@
     "ask": 0.29,
     "ask_size": 1700.0,
     "fee": 0.0144,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "GamerLegion",
     "ticker": "KXDOTA2MAP-26NOV240900PARIGL-1-GL",
@@ -5505,6 +5508,7 @@
    "pmus": {
     "ask": 0.29,
     "market": "astatc-dota2-gl-pari-2026-11-24-game1",
+    "pnl_100": -100.0,
     "raw_ask": 0.29,
     "raw_bid": 0.28,
     "side": 0,
