@@ -4653,8 +4653,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "Arkansas State Red Wolves",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 36.99,
+  "result": "WIN",
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-sutah-arkst-2026-11-23",
   "venues": {
@@ -4662,6 +4662,7 @@
     "ask": 0.73,
     "ask_size": 2825.07,
     "fee": 0.0138,
+    "pnl_100": 34.44,
     "status": "ok",
     "team": "Arkansas St.",
     "ticker": "KXNCAAMBGAME-26NOV23ARSTSUU-ARST",
@@ -4670,6 +4671,7 @@
    "pmus": {
     "ask": 0.73,
     "market": "aec-cbb-sutah-arkst-2026-11-23",
+    "pnl_100": 36.99,
     "raw_ask": 0.28,
     "raw_bid": 0.27,
     "side": 1,
@@ -5132,6 +5134,40 @@
    },
    "pmus": {
     "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/nba-phx-nop-2026-11-23",
+    "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-24T01:20:18.435574+00:00",
+  "cid": "0xa8b9b655949cdf27a2e82cf169db70c93663d7dbf79d57f55cd4e590ab804e39",
+  "delay_s": -74,
+  "elite_n": 460,
+  "elite_price": 0.53,
+  "elite_roi": 0.1498,
+  "elite_ts": "2026-11-24T01:21:32+00:00",
+  "elite_usd": 212.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Yokohama: Kokoro Isomura vs Hikaru Shiraishi",
+  "fill_price": 0.54,
+  "fill_usd_available": 10287.7,
+  "id": "0xa8b9b655-0-1795483218",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Kokoro Isomura",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-isomura-shirais-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-isomura-shirais-2026-11-23",
     "status": "not_listed"
    }
   }
