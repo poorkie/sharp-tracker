@@ -4970,5 +4970,83 @@
     "url": "https://polymarket.us/event/nba-mem-cha-2026-11-23"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-24T00:40:21.256691+00:00",
+  "cid": "0x624eadfdc89078862aa447bcf4d36d1c303535de4b7ec016d2d385c4543aac51",
+  "delay_s": 224,
+  "elite_n": 1142,
+  "elite_price": 0.5,
+  "elite_roi": 0.1775,
+  "elite_ts": "2026-11-24T00:36:37+00:00",
+  "elite_usd": 2777.5,
+  "elite_wallets": [
+   "0x3e04fbc51adb75418129f6ce2091ae633070564d"
+  ],
+  "event_title": "Utah vs. Jets",
+  "fill_price": 0.5,
+  "fill_usd_available": 482.48,
+  "id": "0x624eadfd-0-1795480821",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Utah",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nhl",
+  "url": "https://polymarket.com/event/nhl-utah-wpg-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/nhl-utah-wpg-2026-11-23",
+    "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-24T00:40:21.256691+00:00",
+  "cid": "0x08b3a14c88414512c9d074db808bd94681383b4e08b53613f82877c560ecb234",
+  "delay_s": 160,
+  "elite_n": 222,
+  "elite_price": 0.45,
+  "elite_roi": 0.1155,
+  "elite_ts": "2026-11-24T00:37:41+00:00",
+  "elite_usd": 209.66,
+  "elite_wallets": [
+   "0x6db568e61e5e3de7d87f831431b673f38ce2e279"
+  ],
+  "event_title": "Trail Blazers vs. 76ers",
+  "fill_price": 0.44,
+  "fill_usd_available": 5551.88,
+  "id": "0x08b3a14c-0-1795480821",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Trail Blazers",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-por-phi-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "ask": 0.46,
+    "ask_size": 2912.62,
+    "fee": 0.0174,
+    "status": "ok",
+    "team": "Portland",
+    "ticker": "KXNBAGAME-26NOV23PORPHI-POR",
+    "url": "https://kalshi.com/markets/kxnbagame"
+   },
+   "pmus": {
+    "ask": 0.46,
+    "market": "aec-nba-por-phi-2026-11-23",
+    "raw_ask": 0.46,
+    "raw_bid": 0.45,
+    "side": 0,
+    "status": "ok",
+    "url": "https://polymarket.us/event/nba-por-phi-2026-11-23"
+   }
+  }
  }
 ]
