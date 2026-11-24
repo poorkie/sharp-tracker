@@ -22,6 +22,7 @@
 - [Errors](https://docs.novig.com/api/errors.md): Every error we return, what causes it, and how to fix it.
 - [Trading fees](https://docs.novig.com/api/concepts/fees.md): Takers pay a fee on each fill. Game markets and futures markets have separate schedules.
 - [Maker Credit Program](https://docs.novig.com/maker-credit-program.md): Earn cash credits when your make order supplies liquidity: in-game on straight contracts, on every fill in eligible futures
+- [Taker Rebate Program](https://docs.novig.com/taker-rebate-program.md): Earn a cash rebate on the taker fees you pay, at a rate set each day by your last 30 days of trading
 - [Overview](https://docs.novig.com/api/rfq/overview.md): How makers price Novig parlays through RFQs.
 - [Eligibility](https://docs.novig.com/api/rfq/eligibility.md): Which legs can combine in a parlay RFQ.
 - [Makers](https://docs.novig.com/api/rfq/makers.md): Register a subaccount as an RFQ maker, and check its standing.
