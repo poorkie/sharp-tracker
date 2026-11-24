@@ -4882,5 +4882,93 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-24T00:30:21.652759+00:00",
+  "cid": "0xa713239b131b1263c768a64c3c194993ccbec41ab46de69c0946905506140a41",
+  "delay_s": 316,
+  "elite_n": 177,
+  "elite_price": 0.67,
+  "elite_roi": 0.1585,
+  "elite_ts": "2026-11-24T00:25:05+00:00",
+  "elite_usd": 250.0,
+  "elite_wallets": [
+   "0xe2160eb837cd17de5915d460b1d69b5ba2ac7448"
+  ],
+  "event_title": "Central Arkansas Bears vs. North Florida Ospreys",
+  "fill_price": 0.79,
+  "fill_usd_available": 237.0,
+  "id": "0xa713239b-0-1795480221",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Central Arkansas Bears",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-cark-nfl-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "ask": 0.79,
+    "ask_size": 680.68,
+    "fee": 0.0116,
+    "status": "ok",
+    "team": "Central Arkansas",
+    "ticker": "KXNCAAMBGAME-26NOV23CARKUNF-CARK",
+    "url": "https://kalshi.com/markets/kxncaambgame"
+   },
+   "pmus": {
+    "ask": 0.79,
+    "market": "aec-cbb-cark-nfl-2026-11-23",
+    "raw_ask": 0.79,
+    "raw_bid": 0.78,
+    "side": 0,
+    "status": "ok",
+    "url": "https://polymarket.us/event/cbb-cark-nfl-2026-11-23"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-24T00:30:21.652759+00:00",
+  "cid": "0xc2f71a6f70924ac2b643b8c5c51204cb20b2c44b0c9812c588b681f1c433d790",
+  "delay_s": -50,
+  "elite_n": 222,
+  "elite_price": 0.45,
+  "elite_roi": 0.1155,
+  "elite_ts": "2026-11-24T00:31:11+00:00",
+  "elite_usd": 2827.48,
+  "elite_wallets": [
+   "0x6db568e61e5e3de7d87f831431b673f38ce2e279"
+  ],
+  "event_title": "Grizzlies vs. Hornets",
+  "fill_price": 0.47,
+  "fill_usd_available": 601.6,
+  "id": "0xc2f71a6f-1-1795480221",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Hornets",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-mem-cha-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "ask": 0.47,
+    "ask_size": 876.32,
+    "fee": 0.0174,
+    "status": "ok",
+    "team": "Charlotte",
+    "ticker": "KXNBAGAME-26NOV23MEMCHA-CHA",
+    "url": "https://kalshi.com/markets/kxnbagame"
+   },
+   "pmus": {
+    "ask": 0.48,
+    "market": "aec-nba-mem-cha-2026-11-23",
+    "raw_ask": 0.53,
+    "raw_bid": 0.52,
+    "side": 1,
+    "status": "ok",
+    "url": "https://polymarket.us/event/nba-mem-cha-2026-11-23"
+   }
+  }
  }
 ]
