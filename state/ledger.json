@@ -4109,5 +4109,29 @@
   "sharp_usd": 2122.07,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-sas-sac-2026-11-23"
+ },
+ {
+  "alerted_at": "2026-11-24T21:50:18.617192+00:00",
+  "book_fair": null,
+  "books": [],
+  "close_price": 0.405,
+  "clv": null,
+  "condition_id": "0x274556d0b64a1f874b8fb8796042b8493bdd96c51b02340b27515cbbf003c8df",
+  "entry_price": 0.405,
+  "event_title": "Mavericks vs. Nuggets",
+  "game_start": "2026-11-25T03:00:00+00:00",
+  "id": "0x274556d0-1-1795557018",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "totals",
+  "max_prob": 0.465,
+  "n_wallets": 3,
+  "outcome": "Under 230.5",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Mavericks vs. Nuggets: O/U 230.5",
+  "result": null,
+  "sharp_usd": 2037.43,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-dal-den-2026-11-24"
  }
 ]
