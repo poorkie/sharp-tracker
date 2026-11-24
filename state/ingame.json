@@ -5918,5 +5918,49 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-24T18:10:17.325080+00:00",
+  "cid": "0xbb3c170a279194b8034f4e774d29e846f30b7cf5a2f535188af8378eb7483b01",
+  "delay_s": 94,
+  "elite_n": 177,
+  "elite_price": 0.65,
+  "elite_roi": 0.1585,
+  "elite_ts": "2026-11-24T18:08:43+00:00",
+  "elite_usd": 250.0,
+  "elite_wallets": [
+   "0xe2160eb837cd17de5915d460b1d69b5ba2ac7448"
+  ],
+  "event_title": "Southern Utah Thunderbirds vs. Florida International Golden Panthers",
+  "fill_price": 0.7,
+  "fill_usd_available": 35.0,
+  "id": "0xbb3c170a-1-1795543817",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Florida International Golden Panthers",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-sutah-flint-2026-11-24",
+  "venues": {
+   "kalshi": {
+    "ask": 0.7,
+    "ask_size": 2447.01,
+    "fee": 0.0147,
+    "status": "ok",
+    "team": "Florida International",
+    "ticker": "KXNCAAMBGAME-26NOV24SUUFIU-FIU",
+    "url": "https://kalshi.com/markets/kxncaambgame"
+   },
+   "pmus": {
+    "ask": 0.7,
+    "market": "aec-cbb-sutah-flint-2026-11-24",
+    "raw_ask": 0.31,
+    "raw_bid": 0.3,
+    "side": 1,
+    "status": "ok",
+    "url": "https://polymarket.us/event/cbb-sutah-flint-2026-11-24"
+   }
+  }
  }
 ]
