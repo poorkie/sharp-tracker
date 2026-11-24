@@ -75086,8 +75086,21 @@
   }
  },
  "0x39bc806b81c8853e874c9dccb09f18f4da0928e9": {
-  "graded_at": "2026-11-17T13:00:25.171438+00:00",
+  "graded_at": "2026-11-24T13:00:26.222188+00:00",
   "grades": {
+   "atp": {
+    "avg_price": 0.366,
+    "hit_edge": -0.366,
+    "hit_rate": 0.0,
+    "n": 2,
+    "pnl": -10373.73,
+    "roi": -1.0185,
+    "shrunk_roi": -0.0771,
+    "sport": "atp",
+    "staked": 10185.3,
+    "t_stat": -107.88,
+    "tier": "NONE"
+   },
    "epl": {
     "avg_price": 0.28,
     "hit_edge": -0.28,
