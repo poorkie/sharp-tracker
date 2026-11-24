@@ -194159,19 +194159,19 @@
   }
  },
  "0x9d09ed579dd108cbf50eed6859a6cdbfe2f0214c": {
-  "graded_at": "2026-11-17T11:10:20.765817+00:00",
+  "graded_at": "2026-11-24T11:20:16.484008+00:00",
   "grades": {
    "atp": {
-    "avg_price": 0.512,
-    "hit_edge": 0.488,
-    "hit_rate": 1.0,
-    "n": 1,
-    "pnl": 9750.0,
-    "roi": 0.9512,
-    "shrunk_roi": -0.0061,
+    "avg_price": 0.623,
+    "hit_edge": 0.127,
+    "hit_rate": 0.75,
+    "n": 4,
+    "pnl": 26419.42,
+    "roi": 0.2409,
+    "shrunk_roi": -0.0054,
     "sport": "atp",
-    "staked": 10250.0,
-    "t_stat": 0.0,
+    "staked": 109689.59,
+    "t_stat": 0.46,
     "tier": "NONE"
    }
   }
