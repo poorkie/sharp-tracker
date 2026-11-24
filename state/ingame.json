@@ -5051,5 +5051,50 @@
     "url": "https://polymarket.us/event/nba-por-phi-2026-11-23"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-24T01:00:21.841929+00:00",
+  "cid": "0x4673e011c1de8b070f60db8b92cd7290c6ad80327f4e443b1c7ef44910706213",
+  "delay_s": 20,
+  "elite_n": 377,
+  "elite_price": 0.73,
+  "elite_roi": 0.1158,
+  "elite_ts": "2026-11-24T01:00:01+00:00",
+  "elite_usd": 591.12,
+  "elite_wallets": [
+   "0xc29198ad764bd6adaf7bb971a3757a689ece5d74",
+   "0xaacac528e8af87ca25809824b384e169b558f5d5"
+  ],
+  "event_title": "Cavaliers vs. Bulls",
+  "fill_price": 0.74,
+  "fill_usd_available": 69342.09,
+  "id": "0x4673e011-0-1795482021",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Cavaliers",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-cle-chi-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "ask": 0.75,
+    "ask_size": 394637.16,
+    "fee": 0.0131,
+    "status": "ok",
+    "team": "Cleveland",
+    "ticker": "KXNBAGAME-26NOV23CLECHI-CLE",
+    "url": "https://kalshi.com/markets/kxnbagame"
+   },
+   "pmus": {
+    "ask": 0.75,
+    "market": "aec-nba-cle-chi-2026-11-23",
+    "raw_ask": 0.75,
+    "raw_bid": 0.74,
+    "side": 0,
+    "status": "ok",
+    "url": "https://polymarket.us/event/nba-cle-chi-2026-11-23"
+   }
+  }
  }
 ]
