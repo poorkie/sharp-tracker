@@ -5906,8 +5906,8 @@
   "idx": 1,
   "market_type": "child_moneyline",
   "pick": "Zero Tenacity (Map 2)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 61.29,
+  "result": "WIN",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-pckcp-z10-2026-11-24",
   "venues": {
@@ -5915,6 +5915,7 @@
     "ask": 0.65,
     "ask_size": 306.24,
     "fee": 0.0159,
+    "pnl_100": 50.17,
     "status": "ok",
     "team": "Zero Tenacity",
     "ticker": "KXDOTA2MAP-26NOV241100Z10PCKCP-2-Z10",
