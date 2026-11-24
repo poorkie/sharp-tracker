@@ -6211,5 +6211,44 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-24T20:40:20.449336+00:00",
+  "cid": "0x92cde4b8acff07b704bdcdd10f64deb4131356f9269db1472d93ddffe4dad27d",
+  "delay_s": 295,
+  "elite_n": 202,
+  "elite_price": 0.55,
+  "elite_roi": 0.0956,
+  "elite_ts": "2026-11-24T20:35:25+00:00",
+  "elite_usd": 224.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "TCU Horned Frogs vs. Miami Hurricanes",
+  "fill_price": 0.66,
+  "fill_usd_available": 5.28,
+  "id": "0x92cde4b8-1-1795552820",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Miami Hurricanes",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-tcu-mia-2026-11-24",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "ask": 0.64,
+    "market": "aec-cbb-tcu-mia-2026-11-24",
+    "raw_ask": 0.37,
+    "raw_bid": 0.36,
+    "side": 1,
+    "status": "ok",
+    "url": "https://polymarket.us/event/cbb-tcu-mia-2026-11-24"
+   }
+  }
  }
 ]
