@@ -4843,5 +4843,44 @@
     "url": "https://polymarket.us/event/cbb-templ-tmrt-2026-11-23"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-24T00:10:17.444077+00:00",
+  "cid": "0xbceb62ef09664acf21c54316c0aacb2b2849ebafc00e9fbf43325674ef198325",
+  "delay_s": 172,
+  "elite_n": 177,
+  "elite_price": 0.6095,
+  "elite_roi": 0.1585,
+  "elite_ts": "2026-11-24T00:07:25+00:00",
+  "elite_usd": 250.0,
+  "elite_wallets": [
+   "0xe2160eb837cd17de5915d460b1d69b5ba2ac7448"
+  ],
+  "event_title": "Santa Clara Broncos vs. Illinois State Redbirds",
+  "fill_price": 0.6,
+  "fill_usd_available": 371.53,
+  "id": "0xbceb62ef-0-1795479017",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Santa Clara Broncos",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-sanclr-illst-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "ask": 0.6,
+    "ask_size": 17237.1,
+    "fee": 0.0168,
+    "status": "ok",
+    "team": "Santa Clara",
+    "ticker": "KXNCAAMBGAME-26NOV23ILSTSCU-SCU",
+    "url": "https://kalshi.com/markets/kxncaambgame"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/cbb-sanclr-illst-2026-11-23",
+    "status": "not_listed"
+   }
+  }
  }
 ]
