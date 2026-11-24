@@ -4911,8 +4911,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "Central Arkansas Bears",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 26.58,
+  "result": "WIN",
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-cark-nfl-2026-11-23",
   "venues": {
@@ -4920,6 +4920,7 @@
     "ask": 0.79,
     "ask_size": 680.68,
     "fee": 0.0116,
+    "pnl_100": 24.75,
     "status": "ok",
     "team": "Central Arkansas",
     "ticker": "KXNCAAMBGAME-26NOV23CARKUNF-CARK",
@@ -4928,6 +4929,7 @@
    "pmus": {
     "ask": 0.79,
     "market": "aec-cbb-cark-nfl-2026-11-23",
+    "pnl_100": 26.58,
     "raw_ask": 0.79,
     "raw_bid": 0.78,
     "side": 0,
@@ -5128,8 +5130,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "Pelicans",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-phx-nop-2026-11-23",
   "venues": {
@@ -5137,6 +5139,7 @@
     "ask": 0.43,
     "ask_size": 62.87,
     "fee": 0.0172,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "New Orleans",
     "ticker": "KXNBAGAME-26NOV23PHXNOP-NOP",
@@ -5225,6 +5228,50 @@
     "side": 1,
     "status": "ok",
     "url": "https://polymarket.us/event/nba-okc-ind-2026-11-23"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-24T04:10:28.797132+00:00",
+  "cid": "0xa0f8dfd2fc8b8206debc3b967f8de3410f181becf53e61fbab9eb9d0db208981",
+  "delay_s": 231,
+  "elite_n": 377,
+  "elite_price": 0.94,
+  "elite_roi": 0.1158,
+  "elite_ts": "2026-11-24T04:06:37+00:00",
+  "elite_usd": 652.21,
+  "elite_wallets": [
+   "0xc29198ad764bd6adaf7bb971a3757a689ece5d74"
+  ],
+  "event_title": "Jazz vs. Lakers",
+  "fill_price": 0.94,
+  "fill_usd_available": 15168.15,
+  "id": "0xa0f8dfd2-1-1795493428",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Lakers",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-uta-lal-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "ask": 0.94,
+    "ask_size": 58113.53,
+    "fee": 0.0039,
+    "status": "ok",
+    "team": "Los Angeles L",
+    "ticker": "KXNBAGAME-26NOV23UTALAL-LAL",
+    "url": "https://kalshi.com/markets/kxnbagame"
+   },
+   "pmus": {
+    "ask": 0.94,
+    "market": "aec-nba-uta-lal-2026-11-23",
+    "raw_ask": 0.07,
+    "raw_bid": 0.06,
+    "side": 1,
+    "status": "ok",
+    "url": "https://polymarket.us/event/nba-uta-lal-2026-11-23"
    }
   }
  }
