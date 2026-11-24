@@ -3983,7 +3983,7 @@
    }
   ],
   "close_price": 0.725,
-  "clv": null,
+  "clv": -0.07,
   "condition_id": "0xa2b12546df25ae7bdb52b8d3f07b9da6e767ad284c8d6e3c07c7f683b940dbcc",
   "entry_price": 0.795,
   "event_title": "Spurs vs. Kings",
@@ -3993,6 +3993,7 @@
   "lock": {
    "at": "2026-11-24T02:50:27.744462+00:00",
    "late": false,
+   "pnl_100": 37.93,
    "price": 0.725,
    "reason": "Elite still in",
    "rule": 2,
@@ -4003,9 +4004,9 @@
   "n_wallets": 3,
   "outcome": "Spurs",
   "outcome_index": 0,
-  "pnl_100": null,
+  "pnl_100": 25.79,
   "question": "Spurs vs. Kings",
-  "result": null,
+  "result": "WIN",
   "sharp_usd": 3159.94,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-sas-sac-2026-11-23"
@@ -4081,7 +4082,7 @@
   "book_fair": null,
   "books": [],
   "close_price": 0.405,
-  "clv": null,
+  "clv": 0.0,
   "condition_id": "0x0a071913881ab7be1cfc8c74e15ae9e9c40f4b8de54328a4d84845adaf7e5711",
   "entry_price": 0.405,
   "event_title": "Spurs vs. Kings",
@@ -4091,6 +4092,7 @@
   "lock": {
    "at": "2026-11-24T02:50:27.744462+00:00",
    "late": false,
+   "pnl_100": 146.91,
    "price": 0.405,
    "reason": "Elite still in",
    "rule": 2,
@@ -4101,9 +4103,9 @@
   "n_wallets": 3,
   "outcome": "Spurs -11.5",
   "outcome_index": 0,
-  "pnl_100": null,
+  "pnl_100": 146.91,
   "question": "Spread: Spurs (-11.5)",
-  "result": null,
+  "result": "WIN",
   "sharp_usd": 2122.07,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-sas-sac-2026-11-23"

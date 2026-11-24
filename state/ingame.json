@@ -5253,8 +5253,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "Lakers",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 6.38,
+  "result": "WIN",
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-uta-lal-2026-11-23",
   "venues": {
@@ -5262,6 +5262,7 @@
     "ask": 0.94,
     "ask_size": 58113.53,
     "fee": 0.0039,
+    "pnl_100": 5.94,
     "status": "ok",
     "team": "Los Angeles L",
     "ticker": "KXNBAGAME-26NOV23UTALAL-LAL",
@@ -5270,6 +5271,7 @@
    "pmus": {
     "ask": 0.94,
     "market": "aec-nba-uta-lal-2026-11-23",
+    "pnl_100": 6.38,
     "raw_ask": 0.07,
     "raw_bid": 0.06,
     "side": 1,
