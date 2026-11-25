@@ -7188,8 +7188,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "Johan Nikles",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 69.49,
+  "result": "WIN",
   "sport": "atp",
   "url": "https://polymarket.com/event/atp-nikles-dias-2026-11-23",
   "venues": {
@@ -7244,6 +7244,50 @@
     "side": 0,
     "status": "ok",
     "url": "https://polymarket.us/event/cbb-arzst-lsu-2026-11-25"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-25T21:40:26.781543+00:00",
+  "cid": "0x7d5050a557c07979bc585606e0202ed67860e18d6484eb0d23dc9a668407bd2e",
+  "delay_s": 59,
+  "elite_n": 119,
+  "elite_price": 0.2756,
+  "elite_roi": 0.1495,
+  "elite_ts": "2026-11-25T21:39:27+00:00",
+  "elite_usd": 666.65,
+  "elite_wallets": [
+   "0xdbdd45150249e229eb4ca8aa48a30dca21faa5de"
+  ],
+  "event_title": "Grambling State Tigers vs. New Orleans Privateers",
+  "fill_price": 0.3,
+  "fill_usd_available": 44.1,
+  "id": "0x7d5050a5-0-1795642826",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Grambling State Tigers",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-grmbst-no-2026-11-25",
+  "venues": {
+   "kalshi": {
+    "ask": 0.32,
+    "ask_size": 5563.14,
+    "fee": 0.0152,
+    "status": "ok",
+    "team": "Grambling St.",
+    "ticker": "KXNCAAMBGAME-26NOV25GRAMUNO-GRAM",
+    "url": "https://kalshi.com/markets/kxncaambgame"
+   },
+   "pmus": {
+    "ask": 0.29,
+    "market": "aec-cbb-grmbst-no-2026-11-25",
+    "raw_ask": 0.29,
+    "raw_bid": 0.28,
+    "side": 0,
+    "status": "ok",
+    "url": "https://polymarket.us/event/cbb-grmbst-no-2026-11-25"
    }
   }
  }
