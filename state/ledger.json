@@ -4115,7 +4115,7 @@
   "book_fair": null,
   "books": [],
   "close_price": 0.415,
-  "clv": null,
+  "clv": 0.01,
   "condition_id": "0x274556d0b64a1f874b8fb8796042b8493bdd96c51b02340b27515cbbf003c8df",
   "entry_price": 0.405,
   "event_title": "Mavericks vs. Nuggets",
@@ -4125,6 +4125,7 @@
   "lock": {
    "at": "2026-11-25T02:50:17.544056+00:00",
    "late": false,
+   "pnl_100": 140.96,
    "price": 0.415,
    "reason": "Elite still in; market moved their way",
    "rule": 2,
@@ -4135,9 +4136,9 @@
   "n_wallets": 3,
   "outcome": "Under 230.5",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": 146.91,
   "question": "Mavericks vs. Nuggets: O/U 230.5",
-  "result": null,
+  "result": "WIN",
   "sharp_usd": 2037.43,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-dal-den-2026-11-24"

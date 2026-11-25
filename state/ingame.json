@@ -6519,8 +6519,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "Texas Tech Red Raiders",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-lou-txtech-2026-11-24",
   "venues": {
@@ -6528,6 +6528,7 @@
     "ask": 0.5,
     "ask_size": 177485.84,
     "fee": 0.0175,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "Texas Tech",
     "ticker": "KXNCAAMBGAME-26NOV24LOUTTU-TTU",
@@ -6536,6 +6537,7 @@
    "pmus": {
     "ask": 0.5,
     "market": "aec-cbb-lou-txtech-2026-11-24",
+    "pnl_100": -100.0,
     "raw_ask": 0.51,
     "raw_bid": 0.5,
     "side": 1,
@@ -6676,8 +6678,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "Nuggets",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-dal-den-2026-11-24",
   "venues": {
@@ -6685,6 +6687,7 @@
     "ask": 0.27,
     "ask_size": 1016.76,
     "fee": 0.0138,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "Denver",
     "ticker": "KXNBAGAME-26NOV24DALDEN-DEN",
@@ -6693,6 +6696,7 @@
    "pmus": {
     "ask": 0.28,
     "market": "aec-nba-dal-den-2026-11-24",
+    "pnl_100": -100.0,
     "raw_ask": 0.73,
     "raw_bid": 0.72,
     "side": 1,
