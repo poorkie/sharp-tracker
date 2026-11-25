@@ -7167,5 +7167,83 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-25T20:50:18.159826+00:00",
+  "cid": "0x49fadd20590e15514402116555de298b6da2ee52121af18dc8ccc17e2d3230dd",
+  "delay_s": 369,
+  "elite_n": 460,
+  "elite_price": 0.4956,
+  "elite_roi": 0.1498,
+  "elite_ts": "2026-11-25T20:44:09+00:00",
+  "elite_usd": 390.02,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Florianopolis: Johan Nikles vs Pedro Boscardin Dias",
+  "fill_price": 0.59,
+  "fill_usd_available": 83.78,
+  "id": "0x49fadd20-0-1795639818",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Johan Nikles",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-nikles-dias-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-nikles-dias-2026-11-23",
+    "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-25T20:50:18.159826+00:00",
+  "cid": "0x2c8f171244af4e43f31eaf079455fd7abff831b199203a0f50c16b1be02b10ee",
+  "delay_s": -6,
+  "elite_n": 202,
+  "elite_price": 0.55,
+  "elite_roi": 0.0956,
+  "elite_ts": "2026-11-25T20:50:24+00:00",
+  "elite_usd": 220.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Arizona State Sun Devils vs. LSU Tigers",
+  "fill_price": 0.66,
+  "fill_usd_available": 56.42,
+  "id": "0x2c8f1712-0-1795639818",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Arizona State Sun Devils",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-arzst-lsu-2026-11-25",
+  "venues": {
+   "kalshi": {
+    "ask": 0.65,
+    "ask_size": 2680.27,
+    "fee": 0.0159,
+    "status": "ok",
+    "team": "Arizona St.",
+    "ticker": "KXNCAAMBGAME-26NOV25LSUASU-ASU",
+    "url": "https://kalshi.com/markets/kxncaambgame"
+   },
+   "pmus": {
+    "ask": 0.65,
+    "market": "aec-cbb-arzst-lsu-2026-11-25",
+    "raw_ask": 0.65,
+    "raw_bid": 0.64,
+    "side": 0,
+    "status": "ok",
+    "url": "https://polymarket.us/event/cbb-arzst-lsu-2026-11-25"
+   }
+  }
  }
 ]
