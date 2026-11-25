@@ -7088,5 +7088,44 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-25T19:50:17.515705+00:00",
+  "cid": "0xed0cc1d1d89838715975d225433a509a9abb62113e62216569b48aa0ccc196a6",
+  "delay_s": 121,
+  "elite_n": 716,
+  "elite_price": 0.378,
+  "elite_roi": 0.2284,
+  "elite_ts": "2026-11-25T19:48:16+00:00",
+  "elite_usd": 1242.01,
+  "elite_wallets": [
+   "0x3231d2d67053e5dc3715f6429124741e52866e75"
+  ],
+  "event_title": "Dota 2: PuckChamp vs Inner Circle (BO3) - European Pro League Playoffs",
+  "fill_price": 0.41,
+  "fill_usd_available": 91.3,
+  "id": "0xed0cc1d1-0-1795636217",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "PuckChamp (Map 1)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-pckcp-ic-2026-11-25",
+  "venues": {
+   "kalshi": {
+    "ask": 0.43,
+    "ask_size": 142.0,
+    "fee": 0.0172,
+    "status": "ok",
+    "team": "PuckChamp",
+    "ticker": "KXDOTA2MAP-26NOV251400ICPCKCP-1-PCKCP",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-pckcp-ic-2026-11-25",
+    "status": "not_listed"
+   }
+  }
  }
 ]
