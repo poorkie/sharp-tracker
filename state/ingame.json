@@ -6278,8 +6278,8 @@
   "idx": 0,
   "market_type": "child_moneyline",
   "pick": "Power Rangers (Map 2)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-pr1-ic-2026-11-24",
   "venues": {
@@ -6287,6 +6287,7 @@
     "ask": 0.38,
     "ask_size": 16.17,
     "fee": 0.0165,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "Power Rangers",
     "ticker": "KXDOTA2MAP-26NOV241400ICPRAN-2-PRAN",
@@ -6608,6 +6609,50 @@
    "pmus": {
     "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-moriya-dellave-2026-11-24",
     "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-25T04:20:19.928959+00:00",
+  "cid": "0xb1fb0d1c8e3502ba60f9d72847b5f4d9db62268f79d4ddb1b5df0bb3deddd563",
+  "delay_s": 24,
+  "elite_n": 119,
+  "elite_price": 0.6579,
+  "elite_roi": 0.1495,
+  "elite_ts": "2026-11-25T04:19:55+00:00",
+  "elite_usd": 813.85,
+  "elite_wallets": [
+   "0xdbdd45150249e229eb4ca8aa48a30dca21faa5de"
+  ],
+  "event_title": "Grand Canyon Antelopes vs. Saint Louis Billikens",
+  "fill_price": 0.63,
+  "fill_usd_available": 315.0,
+  "id": "0xb1fb0d1c-0-1795580419",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Grand Canyon Antelopes",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-gcan-stlou-2026-11-24",
+  "venues": {
+   "kalshi": {
+    "ask": 0.66,
+    "ask_size": 13069.5,
+    "fee": 0.0157,
+    "status": "ok",
+    "team": "Grand Canyon",
+    "ticker": "KXNCAAMBGAME-26NOV24SLUGC-GC",
+    "url": "https://kalshi.com/markets/kxncaambgame"
+   },
+   "pmus": {
+    "ask": 0.66,
+    "market": "aec-cbb-gcan-stlou-2026-11-24",
+    "raw_ask": 0.66,
+    "raw_bid": 0.65,
+    "side": 0,
+    "status": "ok",
+    "url": "https://polymarket.us/event/cbb-gcan-stlou-2026-11-24"
    }
   }
  }
