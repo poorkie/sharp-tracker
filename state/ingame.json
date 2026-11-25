@@ -7420,5 +7420,83 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-25T23:20:18.717662+00:00",
+  "cid": "0x7385416fac7a6342135e2e6ca93306f4cd272d25e33fe9ebb3cf6007c85257f5",
+  "delay_s": 245,
+  "elite_n": 460,
+  "elite_price": 0.61,
+  "elite_roi": 0.1498,
+  "elite_ts": "2026-11-25T23:16:13+00:00",
+  "elite_usd": 248.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "San Salvador: Oliver Bonding vs Luis Guto Miguel",
+  "fill_price": 0.65,
+  "fill_usd_available": 4057.42,
+  "id": "0x7385416f-0-1795648818",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Oliver Bonding",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-bonding-miguel-2026-11-25",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-bonding-miguel-2026-11-25",
+    "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-25T23:20:18.717662+00:00",
+  "cid": "0xa67e8fe283a6ac2a9c7a93e097795f17366daf354f4022eb3685f467955ebf35",
+  "delay_s": 107,
+  "elite_n": 119,
+  "elite_price": 0.3052,
+  "elite_roi": 0.1495,
+  "elite_ts": "2026-11-25T23:18:31+00:00",
+  "elite_usd": 236.71,
+  "elite_wallets": [
+   "0xdbdd45150249e229eb4ca8aa48a30dca21faa5de"
+  ],
+  "event_title": "Bethune-Cookman Wildcats vs. Richmond Spiders",
+  "fill_price": 0.25,
+  "fill_usd_available": 117.75,
+  "id": "0xa67e8fe2-0-1795648818",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Bethune-Cookman Wildcats",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-bcook-rich-2026-11-25",
+  "venues": {
+   "kalshi": {
+    "ask": 0.25,
+    "ask_size": 19735.24,
+    "fee": 0.0131,
+    "status": "ok",
+    "team": "Bethune-Cookman",
+    "ticker": "KXNCAAMBGAME-26NOV25COOKRICH-COOK",
+    "url": "https://kalshi.com/markets/kxncaambgame"
+   },
+   "pmus": {
+    "ask": 0.25,
+    "market": "aec-cbb-bcook-rich-2026-11-25",
+    "raw_ask": 0.25,
+    "raw_bid": 0.24,
+    "side": 0,
+    "status": "ok",
+    "url": "https://polymarket.us/event/cbb-bcook-rich-2026-11-25"
+   }
+  }
  }
 ]
