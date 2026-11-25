@@ -6796,8 +6796,8 @@
   "idx": 1,
   "market_type": "child_moneyline",
   "pick": "Power Rangers (Map 1)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 122.22,
+  "result": "WIN",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-z10-pr1-2026-11-25",
   "venues": {
@@ -6805,6 +6805,7 @@
     "ask": 0.47,
     "ask_size": 70.37,
     "fee": 0.0174,
+    "pnl_100": 105.17,
     "status": "ok",
     "team": "Power Rangers",
     "ticker": "KXDOTA2MAP-26NOV250800PRANZ10-1-PRAN",
@@ -6886,6 +6887,79 @@
    },
    "pmus": {
     "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-pino-storck-2026-11-24",
+    "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-25T16:30:23.054659+00:00",
+  "cid": "0x1474d126021a3fac72761a7f169cb1f26fa3e0dc03ad41aaef1f9749cf69b7ae",
+  "delay_s": 793,
+  "elite_n": 716,
+  "elite_price": 0.4825,
+  "elite_roi": 0.2284,
+  "elite_ts": "2026-11-25T16:17:10+00:00",
+  "elite_usd": 3216.57,
+  "elite_wallets": [
+   "0x3231d2d67053e5dc3715f6429124741e52866e75"
+  ],
+  "event_title": "Dota 2: Spirit Academy vs angry birds (BO3) - European Pro League Playoffs",
+  "fill_price": 0.5,
+  "fill_usd_available": 460.98,
+  "id": "0x1474d126-0-1795624223",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "Spirit Academy (Map 1)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-spirit1-angryb-2026-11-25",
+  "venues": {
+   "kalshi": {
+    "ask": 0.5,
+    "ask_size": 75.0,
+    "fee": 0.0175,
+    "status": "ok",
+    "team": "Spirit Academy",
+    "ticker": "KXDOTA2MAP-26NOV251100ANGSPIRITAC-1-SPIRITAC",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-spirit1-angryb-2026-11-25",
+    "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-25T16:30:23.054659+00:00",
+  "cid": "0x4d1f41972d9dfd79ca8397ad69f7d3749801b94b9bf760da5d0ae15ce586cb3a",
+  "delay_s": 516,
+  "elite_n": 460,
+  "elite_price": 0.5364,
+  "elite_roi": 0.1498,
+  "elite_ts": "2026-11-25T16:21:47+00:00",
+  "elite_usd": 216.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "San Salvador: Joaquin Guilleme vs Luciano Emanuel Ambrogi",
+  "fill_price": 0.59,
+  "fill_usd_available": 2.95,
+  "id": "0x4d1f4197-1-1795624223",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Luciano Emanuel Ambrogi",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-guillem-ambrogi-2026-11-25",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-guillem-ambrogi-2026-11-25",
     "status": "not_listed"
    }
   }
