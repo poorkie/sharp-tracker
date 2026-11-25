@@ -6351,8 +6351,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "Michigan Wolverines",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-mich-creigh-2026-11-24",
   "venues": {
@@ -6360,6 +6360,7 @@
     "ask": 0.38,
     "ask_size": 1464.18,
     "fee": 0.0165,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "Michigan",
     "ticker": "KXNCAAMBGAME-26NOV24MICHCREI-MICH",
@@ -6368,6 +6369,7 @@
    "pmus": {
     "ask": 0.41,
     "market": "aec-cbb-mich-creigh-2026-11-24",
+    "pnl_100": -100.0,
     "raw_ask": 0.41,
     "raw_bid": 0.4,
     "side": 0,
