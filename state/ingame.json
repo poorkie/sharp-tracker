@@ -6620,9 +6620,10 @@
   "elite_price": 0.6579,
   "elite_roi": 0.1495,
   "elite_ts": "2026-11-25T04:19:55+00:00",
-  "elite_usd": 813.85,
+  "elite_usd": 1047.85,
   "elite_wallets": [
-   "0xdbdd45150249e229eb4ca8aa48a30dca21faa5de"
+   "0xdbdd45150249e229eb4ca8aa48a30dca21faa5de",
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
   ],
   "event_title": "Grand Canyon Antelopes vs. Saint Louis Billikens",
   "fill_price": 0.63,
@@ -6653,6 +6654,50 @@
     "side": 0,
     "status": "ok",
     "url": "https://polymarket.us/event/cbb-gcan-stlou-2026-11-24"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-25T04:30:26.072976+00:00",
+  "cid": "0xfe6f58d4fa395aee480b05a7e9fb186603a067034a0db6159fc868f66450a77b",
+  "delay_s": 93,
+  "elite_n": 772,
+  "elite_price": 0.24,
+  "elite_roi": 0.1198,
+  "elite_ts": "2026-11-25T04:28:53+00:00",
+  "elite_usd": 964.08,
+  "elite_wallets": [
+   "0x1bc32be106439240f59aa25668e613831a5cdc6e"
+  ],
+  "event_title": "Mavericks vs. Nuggets",
+  "fill_price": 0.27,
+  "fill_usd_available": 1145.9,
+  "id": "0xfe6f58d4-1-1795581026",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Nuggets",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-dal-den-2026-11-24",
+  "venues": {
+   "kalshi": {
+    "ask": 0.27,
+    "ask_size": 1016.76,
+    "fee": 0.0138,
+    "status": "ok",
+    "team": "Denver",
+    "ticker": "KXNBAGAME-26NOV24DALDEN-DEN",
+    "url": "https://kalshi.com/markets/kxnbagame"
+   },
+   "pmus": {
+    "ask": 0.28,
+    "market": "aec-nba-dal-den-2026-11-24",
+    "raw_ask": 0.73,
+    "raw_bid": 0.72,
+    "side": 1,
+    "status": "ok",
+    "url": "https://polymarket.us/event/nba-dal-den-2026-11-24"
    }
   }
  }
