@@ -6470,8 +6470,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "Celtics",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 6.38,
+  "result": "WIN",
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-bos-was-2026-11-24",
   "venues": {
@@ -6479,6 +6479,7 @@
     "ask": 0.94,
     "ask_size": 87382.94,
     "fee": 0.0039,
+    "pnl_100": 5.94,
     "status": "ok",
     "team": "Boston",
     "ticker": "KXNBAGAME-26NOV24BOSWAS-BOS",
@@ -6487,6 +6488,7 @@
    "pmus": {
     "ask": 0.94,
     "market": "aec-nba-bos-was-2026-11-24",
+    "pnl_100": 6.38,
     "raw_ask": 0.94,
     "raw_bid": 0.93,
     "side": 0,
