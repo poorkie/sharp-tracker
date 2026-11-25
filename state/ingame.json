@@ -6706,5 +6706,39 @@
     "url": "https://polymarket.us/event/nba-dal-den-2026-11-24"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-25T08:10:22.770746+00:00",
+  "cid": "0x2f4824aac795e4cca556428104db32758ac1c2c702b59aa3ca03c941de5da7ca",
+  "delay_s": 242,
+  "elite_n": 162,
+  "elite_price": 0.61,
+  "elite_roi": 0.1112,
+  "elite_ts": "2026-11-25T08:06:20+00:00",
+  "elite_usd": 240.95,
+  "elite_wallets": [
+   "0xaacac528e8af87ca25809824b384e169b558f5d5"
+  ],
+  "event_title": "Ankara: Jelle Sels vs Max Wiskandt",
+  "fill_price": 0.65,
+  "fill_usd_available": 2061.98,
+  "id": "0x2f4824aa-1-1795594222",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Max Wiskandt",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-sels-wiskand-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-sels-wiskand-2026-11-23",
+    "status": "not_listed"
+   }
+  }
  }
 ]
