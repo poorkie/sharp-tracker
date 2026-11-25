@@ -4245,5 +4245,75 @@
   "sharp_usd": 15757.51,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-gb-la-2026-11-26"
+ },
+ {
+  "alerted_at": "2026-11-25T19:40:17.984873+00:00",
+  "book_fair": 0.7664,
+  "books": [
+   {
+    "book": "BetRivers",
+    "price": -360,
+    "prob": 0.7826
+   },
+   {
+    "book": "FanDuel",
+    "price": -375,
+    "prob": 0.7895
+   },
+   {
+    "book": "Bovada",
+    "price": -390,
+    "prob": 0.7959
+   },
+   {
+    "book": "MyBookie.ag",
+    "price": -391,
+    "prob": 0.7963
+   },
+   {
+    "book": "DraftKings",
+    "price": -395,
+    "prob": 0.798
+   },
+   {
+    "book": "LowVig.ag",
+    "price": -395,
+    "prob": 0.798
+   },
+   {
+    "book": "BetMGM",
+    "price": -400,
+    "prob": 0.8
+   },
+   {
+    "book": "BetOnline.ag",
+    "price": -400,
+    "prob": 0.8
+   },
+   {
+    "book": "BetUS",
+    "price": -400,
+    "prob": 0.8
+   }
+  ],
+  "close_price": 0.775,
+  "clv": null,
+  "condition_id": "0x9b4c1928772251517d52fededc008e15686dd2436a34f98fdf737f4a19579713",
+  "entry_price": 0.775,
+  "event_title": "Suns vs. Rockets",
+  "game_start": "2026-11-26T01:30:00+00:00",
+  "id": "0x9b4c1928-1-1795635617",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "moneyline",
+  "max_prob": 0.8,
+  "n_wallets": 3,
+  "outcome": "Rockets",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Suns vs. Rockets",
+  "result": null,
+  "sharp_usd": 5703.07,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-phx-hou-2026-11-25"
  }
 ]
