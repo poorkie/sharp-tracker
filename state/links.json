@@ -45,6 +45,13 @@
  },
  {
   "a": "0x21f333307ac6d2e65ac82f014b3dd2b64cbc35e3",
+  "b": "0xc4fe817476491890086330a639ac417d51bf601f",
+  "both": 20,
+  "together": 16,
+  "why": "same timing"
+ },
+ {
+  "a": "0x21f333307ac6d2e65ac82f014b3dd2b64cbc35e3",
   "b": "0xc660ae71765d0d9eaf5fa8328c1c959841d2bd28",
   "both": 19,
   "together": 18,
@@ -81,8 +88,8 @@
  {
   "a": "0x280602b490b2153993679edb4d9d0ffee8e1a138",
   "b": "0x73e83485b8e20b70c53c27bef8ba4c62575dcd6f",
-  "both": 17,
-  "together": 14,
+  "both": 18,
+  "together": 15,
   "why": "same timing"
  },
  {
@@ -95,8 +102,8 @@
  {
   "a": "0x32ed517a571c01b6e9adecf61ba81ca48ff2f960",
   "b": "0x52d93dcf81444f793dda7fedc370f7a35101fb1a",
-  "both": 19,
-  "together": 19,
+  "both": 21,
+  "together": 20,
   "why": "same timing"
  },
  {
@@ -130,8 +137,8 @@
  {
   "a": "0x7e5972bfc25819775ee5a9d4f191919375487b8b",
   "b": "0xc4fe817476491890086330a639ac417d51bf601f",
-  "both": 13,
-  "together": 11,
+  "both": 15,
+  "together": 13,
   "why": "same timing"
  },
  {
