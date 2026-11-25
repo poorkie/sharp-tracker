@@ -7225,8 +7225,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "Arizona State Sun Devils",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-arzst-lsu-2026-11-25",
   "venues": {
@@ -7234,6 +7234,7 @@
     "ask": 0.65,
     "ask_size": 2680.27,
     "fee": 0.0159,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "Arizona St.",
     "ticker": "KXNCAAMBGAME-26NOV25LSUASU-ASU",
@@ -7242,6 +7243,7 @@
    "pmus": {
     "ask": 0.65,
     "market": "aec-cbb-arzst-lsu-2026-11-25",
+    "pnl_100": -100.0,
     "raw_ask": 0.65,
     "raw_bid": 0.64,
     "side": 0,
