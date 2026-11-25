@@ -48164,6 +48164,37 @@
    }
   }
  },
+ "0x246dfbbe9f95c661411a22f5e378501b147f5b52": {
+  "graded_at": "2026-11-25T07:20:19.733070+00:00",
+  "grades": {
+   "atp": {
+    "avg_price": 0.578,
+    "hit_edge": 0.422,
+    "hit_rate": 1.0,
+    "n": 2,
+    "pnl": 6289.8,
+    "roi": 1.3661,
+    "shrunk_roi": 0.0365,
+    "sport": "atp",
+    "staked": 4604.24,
+    "t_stat": 1.7,
+    "tier": "NONE"
+   },
+   "wta": {
+    "avg_price": 0.599,
+    "hit_edge": -0.266,
+    "hit_rate": 0.333,
+    "n": 3,
+    "pnl": -0.95,
+    "roi": -0.0001,
+    "shrunk_roi": -0.0279,
+    "sport": "wta",
+    "staked": 6956.57,
+    "t_stat": -0.31,
+    "tier": "NONE"
+   }
+  }
+ },
  "0x24d581231d4f38d9a1dbaf8e14ebff7304739e7c": {
   "graded_at": "2026-11-18T08:20:19.635706+00:00",
   "grades": {
@@ -309509,6 +309540,63 @@
     "sport": "atp",
     "staked": 2065.77,
     "t_stat": -0.85,
+    "tier": "NONE"
+   }
+  }
+ },
+ "0xf3df419e5d3f4232fe5687fe1192c24a9f218835": {
+  "graded_at": "2026-11-25T07:20:19.733070+00:00",
+  "grades": {
+   "atp": {
+    "avg_price": 0.508,
+    "hit_edge": 0.492,
+    "hit_rate": 1.0,
+    "n": 3,
+    "pnl": 845.61,
+    "roi": 0.8119,
+    "shrunk_roi": 0.0287,
+    "sport": "atp",
+    "staked": 1041.46,
+    "t_stat": 1.78,
+    "tier": "NONE"
+   },
+   "epl": {
+    "avg_price": 0.576,
+    "hit_edge": 0.424,
+    "hit_rate": 1.0,
+    "n": 3,
+    "pnl": 527.17,
+    "roi": 0.8766,
+    "shrunk_roi": 0.0333,
+    "sport": "epl",
+    "staked": 601.36,
+    "t_stat": 2.58,
+    "tier": "NONE"
+   },
+   "nba": {
+    "avg_price": 0.603,
+    "hit_edge": -0.103,
+    "hit_rate": 0.5,
+    "n": 2,
+    "pnl": -922.25,
+    "roi": -0.8778,
+    "shrunk_roi": -0.0704,
+    "sport": "nba",
+    "staked": 1050.66,
+    "t_stat": -0.29,
+    "tier": "NONE"
+   },
+   "nhl": {
+    "avg_price": 0.668,
+    "hit_edge": -0.668,
+    "hit_rate": 0.0,
+    "n": 1,
+    "pnl": -1317.52,
+    "roi": -1.0167,
+    "shrunk_roi": -0.0541,
+    "sport": "nhl",
+    "staked": 1295.91,
+    "t_stat": 0.0,
     "tier": "NONE"
    }
   }
