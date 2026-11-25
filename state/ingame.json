@@ -6536,5 +6536,39 @@
     "url": "https://polymarket.us/event/cbb-lou-txtech-2026-11-24"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-25T02:30:20.543149+00:00",
+  "cid": "0xab942a08d5ad22fb8b95bcb9f6148f5a02787ed603eaca479ca610c91cf4007e",
+  "delay_s": 39,
+  "elite_n": 460,
+  "elite_price": 0.55,
+  "elite_roi": 0.1498,
+  "elite_ts": "2026-11-25T02:29:41+00:00",
+  "elite_usd": 232.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Yokohama: Niels McDonald vs Luca Staeheli",
+  "fill_price": 0.7,
+  "fill_usd_available": 244.8,
+  "id": "0xab942a08-1-1795573820",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Luca Staeheli",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-mcdona-staehel-2026-11-22",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-mcdona-staehel-2026-11-22",
+    "status": "not_listed"
+   }
+  }
  }
 ]
