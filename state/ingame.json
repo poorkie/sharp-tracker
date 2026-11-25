@@ -7047,5 +7047,44 @@
     "url": "https://polymarket.us/event/cbb-marq-vir-2026-11-25"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-25T19:10:17.072465+00:00",
+  "cid": "0xa641d0b36b8515a7e7e33947c3196499a5fc2da5ab8177a802af96075f8d1f7d",
+  "delay_s": 8,
+  "elite_n": 177,
+  "elite_price": 0.8097,
+  "elite_roi": 0.0703,
+  "elite_ts": "2026-11-25T19:10:09+00:00",
+  "elite_usd": 332.0,
+  "elite_wallets": [
+   "0x9d910a16612ac0b6c2d54e7061ac8d4d0a9d6816"
+  ],
+  "event_title": "Dota 2: Spirit Academy vs angry birds (BO3) - European Pro League Playoffs",
+  "fill_price": 0.85,
+  "fill_usd_available": 28.65,
+  "id": "0xa641d0b3-0-1795633817",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Spirit Academy",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-spirit1-angryb-2026-11-25",
+  "venues": {
+   "kalshi": {
+    "ask": 0.84,
+    "ask_size": 9.4,
+    "fee": 0.0094,
+    "status": "ok",
+    "team": "Spirit Academy",
+    "ticker": "KXDOTA2GAME-26NOV251100ANGSPIRITAC-SPIRITAC",
+    "url": "https://kalshi.com/markets/kxdota2game"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-spirit1-angryb-2026-11-25",
+    "status": "not_listed"
+   }
+  }
  }
 ]
