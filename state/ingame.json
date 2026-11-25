@@ -6634,8 +6634,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "Grand Canyon Antelopes",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 58.73,
+  "result": "WIN",
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-gcan-stlou-2026-11-24",
   "venues": {
@@ -6643,6 +6643,7 @@
     "ask": 0.66,
     "ask_size": 13069.5,
     "fee": 0.0157,
+    "pnl_100": 47.99,
     "status": "ok",
     "team": "Grand Canyon",
     "ticker": "KXNCAAMBGAME-26NOV24SLUGC-GC",
@@ -6651,6 +6652,7 @@
    "pmus": {
     "ask": 0.66,
     "market": "aec-cbb-gcan-stlou-2026-11-24",
+    "pnl_100": 51.52,
     "raw_ask": 0.66,
     "raw_bid": 0.65,
     "side": 0,
