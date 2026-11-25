@@ -7127,5 +7127,44 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-25T20:00:22.784602+00:00",
+  "cid": "0xe92bfd1d72e43107d183ddae98326536dca6cc091a5ddb03fd32d79adba24d41",
+  "delay_s": -65,
+  "elite_n": 202,
+  "elite_price": 0.5799,
+  "elite_roi": 0.0956,
+  "elite_ts": "2026-11-25T20:01:27+00:00",
+  "elite_usd": 218.66,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Ole Miss Rebels vs. Arizona Wildcats",
+  "fill_price": 0.57,
+  "fill_usd_available": 51.87,
+  "id": "0xe92bfd1d-0-1795636822",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Ole Miss Rebels",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-miss-arz-2026-11-25",
+  "venues": {
+   "kalshi": {
+    "ask": 0.56,
+    "ask_size": 6919.19,
+    "fee": 0.0172,
+    "status": "ok",
+    "team": "Ole Miss",
+    "ticker": "KXNCAAMBGAME-26NOV25MISSARIZ-MISS",
+    "url": "https://kalshi.com/markets/kxncaambgame"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/cbb-miss-arz-2026-11-25",
+    "status": "not_listed"
+   }
+  }
  }
 ]
