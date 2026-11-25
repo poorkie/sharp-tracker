@@ -7003,5 +7003,49 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-25T19:00:22.852392+00:00",
+  "cid": "0x571c00fd9054a37ef9d22b80733d44194ab2839a8abb3422b37e17d21dfcbcd4",
+  "delay_s": 138,
+  "elite_n": 148,
+  "elite_price": 0.2778,
+  "elite_roi": 0.2279,
+  "elite_ts": "2026-11-25T18:58:04+00:00",
+  "elite_usd": 2046.38,
+  "elite_wallets": [
+   "0xdc41c39b95453c943174f369926018f6963bdd7e"
+  ],
+  "event_title": "Marquette Golden Eagles vs. Virginia Cavaliers",
+  "fill_price": 0.25,
+  "fill_usd_available": 61.0,
+  "id": "0x571c00fd-0-1795633222",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Marquette Golden Eagles",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-marq-vir-2026-11-25",
+  "venues": {
+   "kalshi": {
+    "ask": 0.25,
+    "ask_size": 7854.77,
+    "fee": 0.0131,
+    "status": "ok",
+    "team": "Marquette",
+    "ticker": "KXNCAAMBGAME-26NOV25UVAMARQ-MARQ",
+    "url": "https://kalshi.com/markets/kxncaambgame"
+   },
+   "pmus": {
+    "ask": 0.25,
+    "market": "aec-cbb-marq-vir-2026-11-25",
+    "raw_ask": 0.25,
+    "raw_bid": 0.24,
+    "side": 0,
+    "status": "ok",
+    "url": "https://polymarket.us/event/cbb-marq-vir-2026-11-25"
+   }
+  }
  }
 ]
