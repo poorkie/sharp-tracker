@@ -6740,5 +6740,39 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-25T12:30:19.208423+00:00",
+  "cid": "0xce6c370a1d550508d71c2f7dba105075b3c421af22435b0b942cd355ab7426aa",
+  "delay_s": 42,
+  "elite_n": 460,
+  "elite_price": 0.445,
+  "elite_roi": 0.1498,
+  "elite_ts": "2026-11-25T12:29:37+00:00",
+  "elite_usd": 356.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Ankara: Diego Dedura-Palomero vs Oleg Prihodko",
+  "fill_price": 0.6,
+  "fill_usd_available": 12514.87,
+  "id": "0xce6c370a-0-1795609819",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Diego Dedura-Palomero",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-dedurap-prihodk-2026-11-25",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-dedurap-prihodk-2026-11-25",
+    "status": "not_listed"
+   }
+  }
  }
 ]
