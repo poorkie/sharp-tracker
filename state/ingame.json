@@ -7070,8 +7070,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "Spirit Academy",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 17.65,
+  "result": "WIN",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-spirit1-angryb-2026-11-25",
   "venues": {
@@ -7079,6 +7079,7 @@
     "ask": 0.84,
     "ask_size": 9.4,
     "fee": 0.0094,
+    "pnl_100": 17.73,
     "status": "ok",
     "team": "Spirit Academy",
     "ticker": "KXDOTA2GAME-26NOV251100ANGSPIRITAC-SPIRITAC",
