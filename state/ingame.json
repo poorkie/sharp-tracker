@@ -6374,5 +6374,78 @@
     "url": "https://polymarket.us/event/cbb-mich-creigh-2026-11-24"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-25T00:20:20.861253+00:00",
+  "cid": "0x725854c5959ad528f02a631d883b145cbeea4460807aecc561a13da216d642d0",
+  "delay_s": 832,
+  "elite_n": 460,
+  "elite_price": 0.425,
+  "elite_roi": 0.1498,
+  "elite_ts": "2026-11-25T00:06:28+00:00",
+  "elite_usd": 340.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "San Salvador: Matteo Covato vs Luis Guto Miguel",
+  "fill_price": 0.23,
+  "fill_usd_available": 2202.72,
+  "id": "0x725854c5-0-1795566020",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Matteo Covato",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-covato-miguel-2026-11-23",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-covato-miguel-2026-11-23",
+    "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-25T00:20:20.861253+00:00",
+  "cid": "0x061fd81da435a6c837781771892f724b88333627fb24b55b53db50510939a387",
+  "delay_s": 318,
+  "elite_n": 202,
+  "elite_price": 0.5423,
+  "elite_roi": 0.0956,
+  "elite_ts": "2026-11-25T00:15:02+00:00",
+  "elite_usd": 224.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Boston Terriers vs. Harvard Crimson",
+  "fill_price": 0.36,
+  "fill_usd_available": 176.76,
+  "id": "0x061fd81d-1-1795566020",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Harvard Crimson",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-bostu-harvrd-2026-11-24",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "ask": 0.31,
+    "market": "aec-cbb-bostu-harvrd-2026-11-24",
+    "raw_ask": 0.7,
+    "raw_bid": 0.69,
+    "side": 1,
+    "status": "ok",
+    "url": "https://polymarket.us/event/cbb-bostu-harvrd-2026-11-24"
+   }
+  }
  }
 ]
