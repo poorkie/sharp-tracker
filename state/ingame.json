@@ -6774,5 +6774,45 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-25T13:20:29.337833+00:00",
+  "cid": "0x8535629c6f03dccd97a5ccd2441a2b536edcf3bb5497b481f35ee610c899f16c",
+  "delay_s": 330,
+  "elite_n": 716,
+  "elite_price": 0.5272,
+  "elite_roi": 0.2284,
+  "elite_ts": "2026-11-25T13:14:59+00:00",
+  "elite_usd": 2364.36,
+  "elite_wallets": [
+   "0x3231d2d67053e5dc3715f6429124741e52866e75",
+   "0x40ce68f1564f3c751b12d88a393d8cc0651dbf90"
+  ],
+  "event_title": "Dota 2: Zero Tenacity vs Power Rangers (BO3) - European Pro League Playoffs",
+  "fill_price": 0.45,
+  "fill_usd_available": 281.17,
+  "id": "0x8535629c-1-1795612829",
+  "idx": 1,
+  "market_type": "child_moneyline",
+  "pick": "Power Rangers (Map 1)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-z10-pr1-2026-11-25",
+  "venues": {
+   "kalshi": {
+    "ask": 0.47,
+    "ask_size": 70.37,
+    "fee": 0.0174,
+    "status": "ok",
+    "team": "Power Rangers",
+    "ticker": "KXDOTA2MAP-26NOV250800PRANZ10-1-PRAN",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-z10-pr1-2026-11-25",
+    "status": "not_listed"
+   }
+  }
  }
 ]
