@@ -7110,8 +7110,8 @@
   "idx": 0,
   "market_type": "child_moneyline",
   "pick": "PuckChamp (Map 1)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-pckcp-ic-2026-11-25",
   "venues": {
@@ -7119,6 +7119,7 @@
     "ask": 0.43,
     "ask_size": 142.0,
     "fee": 0.0172,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "PuckChamp",
     "ticker": "KXDOTA2MAP-26NOV251400ICPCKCP-1-PCKCP",
