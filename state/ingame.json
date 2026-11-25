@@ -6492,5 +6492,49 @@
     "url": "https://polymarket.us/event/nba-bos-was-2026-11-24"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-25T02:20:19.782278+00:00",
+  "cid": "0x2709c996380c190879dbb81f5305dca5ff52c5436a0272f147921daa6e9e9017",
+  "delay_s": 221,
+  "elite_n": 202,
+  "elite_price": 0.67,
+  "elite_roi": 0.0956,
+  "elite_ts": "2026-11-25T02:16:38+00:00",
+  "elite_usd": 272.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Louisville Cardinals vs. Texas Tech Red Raiders",
+  "fill_price": 0.5,
+  "fill_usd_available": 916.5,
+  "id": "0x2709c996-1-1795573219",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Texas Tech Red Raiders",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-lou-txtech-2026-11-24",
+  "venues": {
+   "kalshi": {
+    "ask": 0.5,
+    "ask_size": 177485.84,
+    "fee": 0.0175,
+    "status": "ok",
+    "team": "Texas Tech",
+    "ticker": "KXNCAAMBGAME-26NOV24LOUTTU-TTU",
+    "url": "https://kalshi.com/markets/kxncaambgame"
+   },
+   "pmus": {
+    "ask": 0.5,
+    "market": "aec-cbb-lou-txtech-2026-11-24",
+    "raw_ask": 0.51,
+    "raw_bid": 0.5,
+    "side": 1,
+    "status": "ok",
+    "url": "https://polymarket.us/event/cbb-lou-txtech-2026-11-24"
+   }
+  }
  }
 ]
