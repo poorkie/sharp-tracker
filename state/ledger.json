@@ -4175,5 +4175,75 @@
   "sharp_usd": 3410.41,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-det-orl-2026-11-24"
+ },
+ {
+  "alerted_at": "2026-11-25T14:20:19.778960+00:00",
+  "book_fair": 0.4455,
+  "books": [
+   {
+    "book": "MyBookie.ag",
+    "price": 117,
+    "prob": 0.4608
+   },
+   {
+    "book": "Bovada",
+    "price": 117,
+    "prob": 0.4608
+   },
+   {
+    "book": "DraftKings",
+    "price": 116,
+    "prob": 0.463
+   },
+   {
+    "book": "FanDuel",
+    "price": 116,
+    "prob": 0.463
+   },
+   {
+    "book": "LowVig.ag",
+    "price": 116,
+    "prob": 0.463
+   },
+   {
+    "book": "BetOnline.ag",
+    "price": 116,
+    "prob": 0.463
+   },
+   {
+    "book": "BetMGM",
+    "price": 115,
+    "prob": 0.4651
+   },
+   {
+    "book": "BetUS",
+    "price": 115,
+    "prob": 0.4651
+   },
+   {
+    "book": "BetRivers",
+    "price": 112,
+    "prob": 0.4717
+   }
+  ],
+  "close_price": 0.435,
+  "clv": null,
+  "condition_id": "0xba02accd1ec7e114cd94100cc9607f1a00a7c1305a525068e9fbb822b80a6ecd",
+  "entry_price": 0.435,
+  "event_title": "Packers vs. Rams",
+  "game_start": "2026-11-26T01:00:00+00:00",
+  "id": "0xba02accd-0-1795616419",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "moneyline",
+  "max_prob": 0.4872,
+  "n_wallets": 3,
+  "outcome": "Packers",
+  "outcome_index": 0,
+  "pnl_100": null,
+  "question": "Packers vs. Rams",
+  "result": null,
+  "sharp_usd": 15757.51,
+  "sport": "nfl",
+  "url": "https://polymarket.com/event/nfl-gb-la-2026-11-26"
  }
 ]
