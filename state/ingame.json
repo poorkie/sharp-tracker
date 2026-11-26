@@ -8461,8 +8461,8 @@
   "idx": 0,
   "market_type": "child_moneyline",
   "pick": "Team Yandex (Map 2)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 42.86,
+  "result": "WIN",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-ty-gl-2026-11-26",
   "venues": {
@@ -8470,6 +8470,7 @@
     "ask": 0.72,
     "ask_size": 685.03,
     "fee": 0.0141,
+    "pnl_100": 36.22,
     "status": "ok",
     "team": "Team Yandex",
     "ticker": "KXDOTA2MAP-26NOV261200TYGL-2-TY",
@@ -8478,6 +8479,7 @@
    "pmus": {
     "ask": 0.7,
     "market": "astatc-dota2-ty-gl-2026-11-26-game2",
+    "pnl_100": 42.86,
     "raw_ask": 0.7,
     "raw_bid": 0.69,
     "side": 0,
