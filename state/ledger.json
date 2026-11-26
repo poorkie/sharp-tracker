@@ -4227,7 +4227,7 @@
    }
   ],
   "close_price": 0.445,
-  "clv": null,
+  "clv": 0.01,
   "condition_id": "0xba02accd1ec7e114cd94100cc9607f1a00a7c1305a525068e9fbb822b80a6ecd",
   "entry_price": 0.435,
   "event_title": "Packers vs. Rams",
@@ -4237,6 +4237,7 @@
   "lock": {
    "at": "2026-11-26T00:50:18.729390+00:00",
    "late": false,
+   "pnl_100": -100.0,
    "price": 0.445,
    "reason": "Elite still in; market moved their way",
    "rule": 2,
@@ -4247,9 +4248,9 @@
   "n_wallets": 3,
   "outcome": "Packers",
   "outcome_index": 0,
-  "pnl_100": null,
+  "pnl_100": -100.0,
   "question": "Packers vs. Rams",
-  "result": null,
+  "result": "LOSS",
   "sharp_usd": 15757.51,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-gb-la-2026-11-26"
