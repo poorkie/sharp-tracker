@@ -7828,8 +7828,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "Trail Blazers",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 177.78,
+  "result": "WIN",
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-sas-por-2026-11-25",
   "venues": {
@@ -7837,6 +7837,7 @@
     "ask": 0.36,
     "ask_size": 569340.31,
     "fee": 0.0161,
+    "pnl_100": 165.89,
     "status": "ok",
     "team": "Portland",
     "ticker": "KXNBAGAME-26NOV25SASPOR-POR",
@@ -7922,6 +7923,45 @@
    },
    "pmus": {
     "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/cbb-incar-hawaii-2026-11-25",
+    "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-26T06:00:23.585133+00:00",
+  "cid": "0x2cac2d351e8b2945e10b1f1624db3d37e6a9f23a40e9fbda4764270a7a5c8f69",
+  "delay_s": 392,
+  "elite_n": 177,
+  "elite_price": 0.45,
+  "elite_roi": 0.1585,
+  "elite_ts": "2026-11-26T05:53:51+00:00",
+  "elite_usd": 300.0,
+  "elite_wallets": [
+   "0xe2160eb837cd17de5915d460b1d69b5ba2ac7448"
+  ],
+  "event_title": "Clemson Tigers vs. Colorado State Rams",
+  "fill_price": 0.43,
+  "fill_usd_available": 5023.04,
+  "id": "0x2cac2d35-0-1795672823",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Clemson Tigers",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-clmsn-colst-2026-11-26",
+  "venues": {
+   "kalshi": {
+    "ask": 0.43,
+    "ask_size": 57342.75,
+    "fee": 0.0172,
+    "status": "ok",
+    "team": "Clemson",
+    "ticker": "KXNCAAMBGAME-26NOV26CLEMCSU-CLEM",
+    "url": "https://kalshi.com/markets/kxncaambgame"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/cbb-clmsn-colst-2026-11-26",
     "status": "not_listed"
    }
   }
