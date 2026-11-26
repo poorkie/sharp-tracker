@@ -8269,5 +8269,44 @@
     "url": "https://polymarket.us/event/dota2-1win-liquid-2026-11-26"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-26T14:40:16.387570+00:00",
+  "cid": "0xa5f8bf1727dfe8e582dd4880f7d09993b98cbc70c16138df1b2b44fb47954b17",
+  "delay_s": 141,
+  "elite_n": 716,
+  "elite_price": 0.5718,
+  "elite_roi": 0.2284,
+  "elite_ts": "2026-11-26T14:37:55+00:00",
+  "elite_usd": 525.72,
+  "elite_wallets": [
+   "0x3231d2d67053e5dc3715f6429124741e52866e75"
+  ],
+  "event_title": "Dota 2: Power Rangers vs angry birds (BO3) - European Pro League Playoffs",
+  "fill_price": 0.59,
+  "fill_usd_available": 5.9,
+  "id": "0xa5f8bf17-0-1795704016",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "Power Rangers (Map 1)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-pr1-angryb-2026-11-26",
+  "venues": {
+   "kalshi": {
+    "ask": 0.57,
+    "ask_size": 25.0,
+    "fee": 0.0172,
+    "status": "ok",
+    "team": "Power Rangers",
+    "ticker": "KXDOTA2MAP-26NOV260800ANGPRAN-1-PRAN",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-pr1-angryb-2026-11-26",
+    "status": "not_listed"
+   }
+  }
  }
 ]
