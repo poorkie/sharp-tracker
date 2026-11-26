@@ -7740,8 +7740,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "Nets",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 9.89,
+  "result": "WIN",
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-bkn-mil-2026-11-25",
   "venues": {
@@ -7749,6 +7749,7 @@
     "ask": 0.91,
     "ask_size": 638.26,
     "fee": 0.0057,
+    "pnl_100": 9.21,
     "status": "ok",
     "team": "Brooklyn",
     "ticker": "KXNBAGAME-26NOV25BKNMIL-BKN",
@@ -7757,6 +7758,7 @@
    "pmus": {
     "ask": 0.91,
     "market": "aec-nba-bkn-mil-2026-11-25",
+    "pnl_100": 9.89,
     "raw_ask": 0.91,
     "raw_bid": 0.9,
     "side": 0,
