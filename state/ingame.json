@@ -7788,8 +7788,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "Kings",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-sac-gsw-2026-11-25",
   "venues": {
@@ -7797,6 +7797,7 @@
     "ask": 0.27,
     "ask_size": 102452.88,
     "fee": 0.0138,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "Sacramento",
     "ticker": "KXNBAGAME-26NOV25SACGSW-SAC",
@@ -7882,6 +7883,45 @@
    },
    "pmus": {
     "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/cbb-col-gcan-2026-11-25",
+    "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-26T05:40:16.682454+00:00",
+  "cid": "0xf1a47970fa5084f5b1cf3d0fa68e2b23b798f479a5411cc328fef989372d508f",
+  "delay_s": 403,
+  "elite_n": 119,
+  "elite_price": 0.6965,
+  "elite_roi": 0.1495,
+  "elite_ts": "2026-11-26T05:33:33+00:00",
+  "elite_usd": 255.33,
+  "elite_wallets": [
+   "0xdbdd45150249e229eb4ca8aa48a30dca21faa5de"
+  ],
+  "event_title": "Incarnate Word Cardinals vs. Hawaii Rainbow Warriors",
+  "fill_price": 0.67,
+  "fill_usd_available": 6.7,
+  "id": "0xf1a47970-1-1795671616",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Hawaii Rainbow Warriors",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-incar-hawaii-2026-11-25",
+  "venues": {
+   "kalshi": {
+    "ask": 0.67,
+    "ask_size": 1.17,
+    "fee": 0.0155,
+    "status": "ok",
+    "team": "Hawai'i",
+    "ticker": "KXNCAAMBGAME-26NOV26IWHAW-HAW",
+    "url": "https://kalshi.com/markets/kxncaambgame"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/cbb-incar-hawaii-2026-11-25",
     "status": "not_listed"
    }
   }
