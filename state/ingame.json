@@ -8222,5 +8222,49 @@
     "url": "https://polymarket.us/event/dota2-1win-liquid-2026-11-26"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-26T14:10:16.744172+00:00",
+  "cid": "0x8a02d3cf74d13c64017648526cc83b74e9759a1d69bc5d4f7cea81739390f36d",
+  "delay_s": 469,
+  "elite_n": 1043,
+  "elite_price": 0.47,
+  "elite_roi": 0.1052,
+  "elite_ts": "2026-11-26T14:02:27+00:00",
+  "elite_usd": 509.81,
+  "elite_wallets": [
+   "0x80bac5c17aec3f5b3d0f01166b639cd453a02e78"
+  ],
+  "event_title": "Dota 2: 1win vs Team Liquid (BO3) - BLAST Slam Playoffs",
+  "fill_price": 0.5,
+  "fill_usd_available": 2137.45,
+  "id": "0x8a02d3cf-0-1795702216",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "1win (Map 2)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-1win-liquid-2026-11-26",
+  "venues": {
+   "kalshi": {
+    "ask": 0.5,
+    "ask_size": 56.61,
+    "fee": 0.0175,
+    "status": "ok",
+    "team": "1win",
+    "ticker": "KXDOTA2MAP-26NOV260830LIQUID1WIN-2-1WIN",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "ask": 0.49,
+    "market": "astatc-dota2-1win-liquid-2026-11-26-game2",
+    "raw_ask": 0.49,
+    "raw_bid": 0.48,
+    "side": 0,
+    "status": "ok",
+    "url": "https://polymarket.us/event/dota2-1win-liquid-2026-11-26"
+   }
+  }
  }
 ]
