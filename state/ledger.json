@@ -4305,7 +4305,7 @@
    }
   ],
   "close_price": 0.765,
-  "clv": null,
+  "clv": -0.01,
   "condition_id": "0x9b4c1928772251517d52fededc008e15686dd2436a34f98fdf737f4a19579713",
   "entry_price": 0.775,
   "event_title": "Suns vs. Rockets",
@@ -4315,6 +4315,7 @@
   "lock": {
    "at": "2026-11-26T01:20:18.214175+00:00",
    "late": false,
+   "pnl_100": 30.72,
    "price": 0.765,
    "reason": "Elite still in",
    "rule": 2,
@@ -4325,9 +4326,9 @@
   "n_wallets": 3,
   "outcome": "Rockets",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": 29.03,
   "question": "Suns vs. Rockets",
-  "result": null,
+  "result": "WIN",
   "sharp_usd": 5703.07,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-phx-hou-2026-11-25"
