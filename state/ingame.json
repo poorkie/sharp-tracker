@@ -7408,8 +7408,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "Georgia State Panthers",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-flgc-gast-2026-11-25",
   "venues": {
@@ -7417,6 +7417,7 @@
     "ask": 0.16,
     "ask_size": 7111.6,
     "fee": 0.0094,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "Georgia St.",
     "ticker": "KXNCAAMBGAME-26NOV25FGCUGAST-GAST",
