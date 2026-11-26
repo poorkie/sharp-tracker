@@ -4406,5 +4406,78 @@
   "sharp_usd": 7020.51,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-chi-det-2026-11-26"
+ },
+ {
+  "alerted_at": "2026-11-26T19:20:17.919082+00:00",
+  "book_fair": 0.2364,
+  "books": [
+   {
+    "book": "DraftKings",
+    "price": 310,
+    "prob": 0.2439
+   },
+   {
+    "book": "FanDuel",
+    "price": 310,
+    "prob": 0.2439
+   },
+   {
+    "book": "BetMGM",
+    "price": 310,
+    "prob": 0.2439
+   },
+   {
+    "book": "BetUS",
+    "price": 308,
+    "prob": 0.2451
+   },
+   {
+    "book": "BetOnline.ag",
+    "price": 306,
+    "prob": 0.2463
+   },
+   {
+    "book": "LowVig.ag",
+    "price": 306,
+    "prob": 0.2463
+   },
+   {
+    "book": "Bovada",
+    "price": 290,
+    "prob": 0.2564
+   },
+   {
+    "book": "BetRivers",
+    "price": 285,
+    "prob": 0.2597
+   }
+  ],
+  "close_price": 0.245,
+  "clv": null,
+  "condition_id": "0xd63eca3309df3c892e57a9aaa7bc380ea67bb3d4c4ca052c28f1ab14a59a4c23",
+  "entry_price": 0.245,
+  "event_title": "Georgetown Hoyas vs. Texas Longhorns",
+  "game_start": "2026-11-26T19:30:00+00:00",
+  "id": "0xd63eca33-0-1795720817",
+  "kind": "ELITE_CONSENSUS",
+  "lock": {
+   "at": "2026-11-26T19:20:17.919082+00:00",
+   "late": false,
+   "price": 0.245,
+   "reason": "Elite still in",
+   "rule": 2,
+   "verdict": "PLAY"
+  },
+  "market_type": "moneyline",
+  "max_prob": 0.277,
+  "n_wallets": 3,
+  "outcome": "Georgetown Hoyas",
+  "outcome_index": 0,
+  "pnl_100": null,
+  "question": "Georgetown Hoyas vs. Texas Longhorns",
+  "result": null,
+  "sharp_usd": 2572.93,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-george-tx-2026-11-26"
  }
 ]

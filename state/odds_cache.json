@@ -5922,6 +5922,2942 @@
    }
   ]
  },
+ "basketball_ncaab": {
+  "at": "2026-11-26T19:20:17.919082+00:00",
+  "games": [
+   {
+    "away_team": "San Diego St Aztecs",
+    "bookmakers": [
+     {
+      "key": "draftkings",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "Maryland Terrapins",
+          "price": -110
+         },
+         {
+          "name": "San Diego St Aztecs",
+          "price": -120
+         }
+        ]
+       }
+      ],
+      "title": "DraftKings"
+     },
+     {
+      "key": "betrivers",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Maryland Terrapins",
+          "price": -121
+         },
+         {
+          "name": "San Diego St Aztecs",
+          "price": -121
+         }
+        ]
+       }
+      ],
+      "title": "BetRivers"
+     },
+     {
+      "key": "fanduel",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Maryland Terrapins",
+          "price": -113
+         },
+         {
+          "name": "San Diego St Aztecs",
+          "price": -111
+         }
+        ]
+       }
+      ],
+      "title": "FanDuel"
+     },
+     {
+      "key": "betmgm",
+      "last_update": "2026-11-26T19:22:27Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "Maryland Terrapins",
+          "price": -120
+         },
+         {
+          "name": "San Diego St Aztecs",
+          "price": -105
+         }
+        ]
+       }
+      ],
+      "title": "BetMGM"
+     },
+     {
+      "key": "bovada",
+      "last_update": "2026-11-26T19:20:58Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:20:58Z",
+        "outcomes": [
+         {
+          "name": "Maryland Terrapins",
+          "price": -125
+         },
+         {
+          "name": "San Diego St Aztecs",
+          "price": -105
+         }
+        ]
+       }
+      ],
+      "title": "Bovada"
+     }
+    ],
+    "commence_time": "2026-11-26T18:00:11Z",
+    "home_team": "Maryland Terrapins",
+    "id": "fce1d0e39b7353f5d69bc77cf21ee9d1",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB"
+   },
+   {
+    "away_team": "Boston College Eagles",
+    "bookmakers": [
+     {
+      "key": "fanduel",
+      "last_update": "2026-11-26T19:22:29Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Boston College Eagles",
+          "price": -250
+         },
+         {
+          "name": "UCF Knights",
+          "price": 196
+         }
+        ]
+       }
+      ],
+      "title": "FanDuel"
+     },
+     {
+      "key": "draftkings",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "Boston College Eagles",
+          "price": -270
+         },
+         {
+          "name": "UCF Knights",
+          "price": 200
+         }
+        ]
+       }
+      ],
+      "title": "DraftKings"
+     },
+     {
+      "key": "betrivers",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Boston College Eagles",
+          "price": -286
+         },
+         {
+          "name": "UCF Knights",
+          "price": 180
+         }
+        ]
+       }
+      ],
+      "title": "BetRivers"
+     },
+     {
+      "key": "betmgm",
+      "last_update": "2026-11-26T19:22:27Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "Boston College Eagles",
+          "price": -210
+         },
+         {
+          "name": "UCF Knights",
+          "price": 160
+         }
+        ]
+       }
+      ],
+      "title": "BetMGM"
+     },
+     {
+      "key": "bovada",
+      "last_update": "2026-11-26T19:20:58Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:20:58Z",
+        "outcomes": [
+         {
+          "name": "Boston College Eagles",
+          "price": -225
+         },
+         {
+          "name": "UCF Knights",
+          "price": 170
+         }
+        ]
+       }
+      ],
+      "title": "Bovada"
+     }
+    ],
+    "commence_time": "2026-11-26T18:30:00Z",
+    "home_team": "UCF Knights",
+    "id": "a0efacdfc613932ff56223ca6412613e",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB"
+   },
+   {
+    "away_team": "South Carolina Gamecocks",
+    "bookmakers": [
+     {
+      "key": "fanduel",
+      "last_update": "2026-11-26T19:22:29Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Arizona St Sun Devils",
+          "price": -178
+         },
+         {
+          "name": "South Carolina Gamecocks",
+          "price": 140
+         }
+        ]
+       }
+      ],
+      "title": "FanDuel"
+     },
+     {
+      "key": "betmgm",
+      "last_update": "2026-11-26T19:22:27Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "Arizona St Sun Devils",
+          "price": -190
+         },
+         {
+          "name": "South Carolina Gamecocks",
+          "price": 145
+         }
+        ]
+       }
+      ],
+      "title": "BetMGM"
+     },
+     {
+      "key": "draftkings",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "Arizona St Sun Devils",
+          "price": -188
+         },
+         {
+          "name": "South Carolina Gamecocks",
+          "price": 145
+         }
+        ]
+       }
+      ],
+      "title": "DraftKings"
+     },
+     {
+      "key": "betrivers",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Arizona St Sun Devils",
+          "price": -230
+         },
+         {
+          "name": "South Carolina Gamecocks",
+          "price": 150
+         }
+        ]
+       }
+      ],
+      "title": "BetRivers"
+     },
+     {
+      "key": "bovada",
+      "last_update": "2026-11-26T19:20:58Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:20:58Z",
+        "outcomes": [
+         {
+          "name": "Arizona St Sun Devils",
+          "price": -210
+         },
+         {
+          "name": "South Carolina Gamecocks",
+          "price": 160
+         }
+        ]
+       }
+      ],
+      "title": "Bovada"
+     }
+    ],
+    "commence_time": "2026-11-26T19:00:00Z",
+    "home_team": "Arizona St Sun Devils",
+    "id": "b71753c18ee4bb20584550465299033b",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB"
+   },
+   {
+    "away_team": "Georgetown Hoyas",
+    "bookmakers": [
+     {
+      "key": "betonlineag",
+      "last_update": "2026-11-26T19:22:52Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:51Z",
+        "outcomes": [
+         {
+          "name": "Georgetown Hoyas",
+          "price": 306
+         },
+         {
+          "name": "Texas Longhorns",
+          "price": -385
+         }
+        ]
+       }
+      ],
+      "title": "BetOnline.ag"
+     },
+     {
+      "key": "lowvig",
+      "last_update": "2026-11-26T19:22:31Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:30Z",
+        "outcomes": [
+         {
+          "name": "Georgetown Hoyas",
+          "price": 306
+         },
+         {
+          "name": "Texas Longhorns",
+          "price": -385
+         }
+        ]
+       }
+      ],
+      "title": "LowVig.ag"
+     },
+     {
+      "key": "draftkings",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "Georgetown Hoyas",
+          "price": 310
+         },
+         {
+          "name": "Texas Longhorns",
+          "price": -395
+         }
+        ]
+       }
+      ],
+      "title": "DraftKings"
+     },
+     {
+      "key": "fanduel",
+      "last_update": "2026-11-26T19:22:29Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Georgetown Hoyas",
+          "price": 310
+         },
+         {
+          "name": "Texas Longhorns",
+          "price": -385
+         }
+        ]
+       }
+      ],
+      "title": "FanDuel"
+     },
+     {
+      "key": "betrivers",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Georgetown Hoyas",
+          "price": 285
+         },
+         {
+          "name": "Texas Longhorns",
+          "price": -385
+         }
+        ]
+       }
+      ],
+      "title": "BetRivers"
+     },
+     {
+      "key": "betmgm",
+      "last_update": "2026-11-26T19:22:27Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "Georgetown Hoyas",
+          "price": 310
+         },
+         {
+          "name": "Texas Longhorns",
+          "price": -400
+         }
+        ]
+       }
+      ],
+      "title": "BetMGM"
+     },
+     {
+      "key": "betus",
+      "last_update": "2026-11-26T19:22:29Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:29Z",
+        "outcomes": [
+         {
+          "name": "Georgetown Hoyas",
+          "price": 308
+         },
+         {
+          "name": "Texas Longhorns",
+          "price": -385
+         }
+        ]
+       }
+      ],
+      "title": "BetUS"
+     },
+     {
+      "key": "bovada",
+      "last_update": "2026-11-26T19:20:58Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:20:58Z",
+        "outcomes": [
+         {
+          "name": "Georgetown Hoyas",
+          "price": 290
+         },
+         {
+          "name": "Texas Longhorns",
+          "price": -380
+         }
+        ]
+       }
+      ],
+      "title": "Bovada"
+     }
+    ],
+    "commence_time": "2026-11-26T19:30:00Z",
+    "home_team": "Texas Longhorns",
+    "id": "1ea8ceedbe8d577ba3c6ed8239137c4c",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB"
+   },
+   {
+    "away_team": "Tennessee Volunteers",
+    "bookmakers": [
+     {
+      "key": "draftkings",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "Iowa State Cyclones",
+          "price": -205
+         },
+         {
+          "name": "Tennessee Volunteers",
+          "price": 170
+         }
+        ]
+       }
+      ],
+      "title": "DraftKings"
+     },
+     {
+      "key": "bovada",
+      "last_update": "2026-11-26T19:20:58Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:20:58Z",
+        "outcomes": [
+         {
+          "name": "Iowa State Cyclones",
+          "price": -200
+         },
+         {
+          "name": "Tennessee Volunteers",
+          "price": 170
+         }
+        ]
+       }
+      ],
+      "title": "Bovada"
+     },
+     {
+      "key": "lowvig",
+      "last_update": "2026-11-26T19:22:31Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:30Z",
+        "outcomes": [
+         {
+          "name": "Iowa State Cyclones",
+          "price": -205
+         },
+         {
+          "name": "Tennessee Volunteers",
+          "price": 177
+         }
+        ]
+       }
+      ],
+      "title": "LowVig.ag"
+     },
+     {
+      "key": "betonlineag",
+      "last_update": "2026-11-26T19:22:52Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:51Z",
+        "outcomes": [
+         {
+          "name": "Iowa State Cyclones",
+          "price": -205
+         },
+         {
+          "name": "Tennessee Volunteers",
+          "price": 177
+         }
+        ]
+       }
+      ],
+      "title": "BetOnline.ag"
+     },
+     {
+      "key": "fanduel",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Iowa State Cyclones",
+          "price": -194
+         },
+         {
+          "name": "Tennessee Volunteers",
+          "price": 162
+         }
+        ]
+       }
+      ],
+      "title": "FanDuel"
+     },
+     {
+      "key": "betmgm",
+      "last_update": "2026-11-26T19:22:27Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "Iowa State Cyclones",
+          "price": -200
+         },
+         {
+          "name": "Tennessee Volunteers",
+          "price": 165
+         }
+        ]
+       }
+      ],
+      "title": "BetMGM"
+     },
+     {
+      "key": "betus",
+      "last_update": "2026-11-26T19:22:29Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:29Z",
+        "outcomes": [
+         {
+          "name": "Iowa State Cyclones",
+          "price": -205
+         },
+         {
+          "name": "Tennessee Volunteers",
+          "price": 175
+         }
+        ]
+       }
+      ],
+      "title": "BetUS"
+     },
+     {
+      "key": "betrivers",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Iowa State Cyclones",
+          "price": -235
+         },
+         {
+          "name": "Tennessee Volunteers",
+          "price": 185
+         }
+        ]
+       }
+      ],
+      "title": "BetRivers"
+     }
+    ],
+    "commence_time": "2026-11-26T20:30:00Z",
+    "home_team": "Iowa State Cyclones",
+    "id": "ddd97a754132d5db69231a8b2fe84a9b",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB"
+   },
+   {
+    "away_team": "Miami Hurricanes",
+    "bookmakers": [
+     {
+      "key": "draftkings",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "Miami Hurricanes",
+          "price": -115
+         },
+         {
+          "name": "Michigan Wolverines",
+          "price": -105
+         }
+        ]
+       }
+      ],
+      "title": "DraftKings"
+     },
+     {
+      "key": "betrivers",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Miami Hurricanes",
+          "price": -129
+         },
+         {
+          "name": "Michigan Wolverines",
+          "price": 104
+         }
+        ]
+       }
+      ],
+      "title": "BetRivers"
+     },
+     {
+      "key": "bovada",
+      "last_update": "2026-11-26T19:20:58Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:20:58Z",
+        "outcomes": [
+         {
+          "name": "Miami Hurricanes",
+          "price": -115
+         },
+         {
+          "name": "Michigan Wolverines",
+          "price": -105
+         }
+        ]
+       }
+      ],
+      "title": "Bovada"
+     },
+     {
+      "key": "lowvig",
+      "last_update": "2026-11-26T19:22:31Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:30Z",
+        "outcomes": [
+         {
+          "name": "Miami Hurricanes",
+          "price": -115
+         },
+         {
+          "name": "Michigan Wolverines",
+          "price": -105
+         }
+        ]
+       }
+      ],
+      "title": "LowVig.ag"
+     },
+     {
+      "key": "betonlineag",
+      "last_update": "2026-11-26T19:22:52Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:52Z",
+        "outcomes": [
+         {
+          "name": "Miami Hurricanes",
+          "price": -115
+         },
+         {
+          "name": "Michigan Wolverines",
+          "price": -105
+         }
+        ]
+       }
+      ],
+      "title": "BetOnline.ag"
+     },
+     {
+      "key": "fanduel",
+      "last_update": "2026-11-26T19:22:29Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Miami Hurricanes",
+          "price": -122
+         },
+         {
+          "name": "Michigan Wolverines",
+          "price": 102
+         }
+        ]
+       }
+      ],
+      "title": "FanDuel"
+     },
+     {
+      "key": "betmgm",
+      "last_update": "2026-11-26T19:22:27Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "Miami Hurricanes",
+          "price": -118
+         },
+         {
+          "name": "Michigan Wolverines",
+          "price": -102
+         }
+        ]
+       }
+      ],
+      "title": "BetMGM"
+     }
+    ],
+    "commence_time": "2026-11-26T20:30:00Z",
+    "home_team": "Michigan Wolverines",
+    "id": "c388303afe97dac3042dcbfd2cd644a5",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB"
+   },
+   {
+    "away_team": "Arkansas Razorbacks",
+    "bookmakers": [
+     {
+      "key": "betonlineag",
+      "last_update": "2026-11-26T19:22:52Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:52Z",
+        "outcomes": [
+         {
+          "name": "Arkansas Razorbacks",
+          "price": 189
+         },
+         {
+          "name": "Michigan St Spartans",
+          "price": -225
+         }
+        ]
+       }
+      ],
+      "title": "BetOnline.ag"
+     },
+     {
+      "key": "lowvig",
+      "last_update": "2026-11-26T19:22:31Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:30Z",
+        "outcomes": [
+         {
+          "name": "Arkansas Razorbacks",
+          "price": 189
+         },
+         {
+          "name": "Michigan St Spartans",
+          "price": -225
+         }
+        ]
+       }
+      ],
+      "title": "LowVig.ag"
+     },
+     {
+      "key": "fanduel",
+      "last_update": "2026-11-26T19:22:29Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Arkansas Razorbacks",
+          "price": 188
+         },
+         {
+          "name": "Michigan St Spartans",
+          "price": -225
+         }
+        ]
+       }
+      ],
+      "title": "FanDuel"
+     },
+     {
+      "key": "draftkings",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "Arkansas Razorbacks",
+          "price": 185
+         },
+         {
+          "name": "Michigan St Spartans",
+          "price": -225
+         }
+        ]
+       }
+      ],
+      "title": "DraftKings"
+     },
+     {
+      "key": "betrivers",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Arkansas Razorbacks",
+          "price": 195
+         },
+         {
+          "name": "Michigan St Spartans",
+          "price": -265
+         }
+        ]
+       }
+      ],
+      "title": "BetRivers"
+     },
+     {
+      "key": "betmgm",
+      "last_update": "2026-11-26T19:22:27Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "Arkansas Razorbacks",
+          "price": 185
+         },
+         {
+          "name": "Michigan St Spartans",
+          "price": -225
+         }
+        ]
+       }
+      ],
+      "title": "BetMGM"
+     },
+     {
+      "key": "betus",
+      "last_update": "2026-11-26T19:22:29Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:29Z",
+        "outcomes": [
+         {
+          "name": "Arkansas Razorbacks",
+          "price": 190
+         },
+         {
+          "name": "Michigan St Spartans",
+          "price": -225
+         }
+        ]
+       }
+      ],
+      "title": "BetUS"
+     },
+     {
+      "key": "bovada",
+      "last_update": "2026-11-26T19:20:58Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:20:58Z",
+        "outcomes": [
+         {
+          "name": "Arkansas Razorbacks",
+          "price": 185
+         },
+         {
+          "name": "Michigan St Spartans",
+          "price": -225
+         }
+        ]
+       }
+      ],
+      "title": "Bovada"
+     }
+    ],
+    "commence_time": "2026-11-26T21:30:00Z",
+    "home_team": "Michigan St Spartans",
+    "id": "527932f3d90f638641c5371efdae7b50",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB"
+   },
+   {
+    "away_team": "Utah State Aggies",
+    "bookmakers": [
+     {
+      "key": "betonlineag",
+      "last_update": "2026-11-26T19:22:52Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:52Z",
+        "outcomes": [
+         {
+          "name": "USC Trojans",
+          "price": -119
+         },
+         {
+          "name": "Utah State Aggies",
+          "price": -101
+         }
+        ]
+       }
+      ],
+      "title": "BetOnline.ag"
+     },
+     {
+      "key": "lowvig",
+      "last_update": "2026-11-26T19:22:31Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:30Z",
+        "outcomes": [
+         {
+          "name": "USC Trojans",
+          "price": -119
+         },
+         {
+          "name": "Utah State Aggies",
+          "price": -101
+         }
+        ]
+       }
+      ],
+      "title": "LowVig.ag"
+     },
+     {
+      "key": "fanduel",
+      "last_update": "2026-11-26T19:22:29Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "USC Trojans",
+          "price": -122
+         },
+         {
+          "name": "Utah State Aggies",
+          "price": 102
+         }
+        ]
+       }
+      ],
+      "title": "FanDuel"
+     },
+     {
+      "key": "draftkings",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "USC Trojans",
+          "price": -122
+         },
+         {
+          "name": "Utah State Aggies",
+          "price": 102
+         }
+        ]
+       }
+      ],
+      "title": "DraftKings"
+     },
+     {
+      "key": "betmgm",
+      "last_update": "2026-11-26T19:22:27Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "USC Trojans",
+          "price": -120
+         },
+         {
+          "name": "Utah State Aggies",
+          "price": 100
+         }
+        ]
+       }
+      ],
+      "title": "BetMGM"
+     },
+     {
+      "key": "betus",
+      "last_update": "2026-11-26T19:22:29Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:29Z",
+        "outcomes": [
+         {
+          "name": "USC Trojans",
+          "price": -120
+         },
+         {
+          "name": "Utah State Aggies",
+          "price": 100
+         }
+        ]
+       }
+      ],
+      "title": "BetUS"
+     },
+     {
+      "key": "betrivers",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "USC Trojans",
+          "price": -136
+         },
+         {
+          "name": "Utah State Aggies",
+          "price": 108
+         }
+        ]
+       }
+      ],
+      "title": "BetRivers"
+     },
+     {
+      "key": "bovada",
+      "last_update": "2026-11-26T19:20:58Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:20:58Z",
+        "outcomes": [
+         {
+          "name": "USC Trojans",
+          "price": -120
+         },
+         {
+          "name": "Utah State Aggies",
+          "price": 100
+         }
+        ]
+       }
+      ],
+      "title": "Bovada"
+     }
+    ],
+    "commence_time": "2026-11-26T21:30:00Z",
+    "home_team": "USC Trojans",
+    "id": "ee08c726d8d81a0755cfa29f92cdedff",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB"
+   },
+   {
+    "away_team": "Saint Mary's Gaels",
+    "bookmakers": [
+     {
+      "key": "betonlineag",
+      "last_update": "2026-11-26T19:22:52Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:52Z",
+        "outcomes": [
+         {
+          "name": "Saint Mary's Gaels",
+          "price": 289
+         },
+         {
+          "name": "UCLA Bruins",
+          "price": -360
+         }
+        ]
+       }
+      ],
+      "title": "BetOnline.ag"
+     },
+     {
+      "key": "lowvig",
+      "last_update": "2026-11-26T19:22:31Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:30Z",
+        "outcomes": [
+         {
+          "name": "Saint Mary's Gaels",
+          "price": 289
+         },
+         {
+          "name": "UCLA Bruins",
+          "price": -360
+         }
+        ]
+       }
+      ],
+      "title": "LowVig.ag"
+     },
+     {
+      "key": "fanduel",
+      "last_update": "2026-11-26T19:22:29Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Saint Mary's Gaels",
+          "price": 255
+         },
+         {
+          "name": "UCLA Bruins",
+          "price": -310
+         }
+        ]
+       }
+      ],
+      "title": "FanDuel"
+     },
+     {
+      "key": "draftkings",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "Saint Mary's Gaels",
+          "price": 280
+         },
+         {
+          "name": "UCLA Bruins",
+          "price": -355
+         }
+        ]
+       }
+      ],
+      "title": "DraftKings"
+     },
+     {
+      "key": "betrivers",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Saint Mary's Gaels",
+          "price": 270
+         },
+         {
+          "name": "UCLA Bruins",
+          "price": -360
+         }
+        ]
+       }
+      ],
+      "title": "BetRivers"
+     },
+     {
+      "key": "betmgm",
+      "last_update": "2026-11-26T19:22:27Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "Saint Mary's Gaels",
+          "price": 275
+         },
+         {
+          "name": "UCLA Bruins",
+          "price": -350
+         }
+        ]
+       }
+      ],
+      "title": "BetMGM"
+     },
+     {
+      "key": "betus",
+      "last_update": "2026-11-26T19:22:29Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:29Z",
+        "outcomes": [
+         {
+          "name": "Saint Mary's Gaels",
+          "price": 290
+         },
+         {
+          "name": "UCLA Bruins",
+          "price": -360
+         }
+        ]
+       }
+      ],
+      "title": "BetUS"
+     },
+     {
+      "key": "bovada",
+      "last_update": "2026-11-26T19:20:58Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:20:58Z",
+        "outcomes": [
+         {
+          "name": "Saint Mary's Gaels",
+          "price": 265
+         },
+         {
+          "name": "UCLA Bruins",
+          "price": -330
+         }
+        ]
+       }
+      ],
+      "title": "Bovada"
+     }
+    ],
+    "commence_time": "2026-11-26T22:00:00Z",
+    "home_team": "UCLA Bruins",
+    "id": "ae417d224a63774815f9e4816a7d776f",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB"
+   },
+   {
+    "away_team": "TCU Horned Frogs",
+    "bookmakers": [
+     {
+      "key": "draftkings",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "Creighton Bluejays",
+          "price": -125
+         },
+         {
+          "name": "TCU Horned Frogs",
+          "price": 105
+         }
+        ]
+       }
+      ],
+      "title": "DraftKings"
+     },
+     {
+      "key": "betrivers",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Creighton Bluejays",
+          "price": -120
+         },
+         {
+          "name": "TCU Horned Frogs",
+          "price": -105
+         }
+        ]
+       }
+      ],
+      "title": "BetRivers"
+     },
+     {
+      "key": "bovada",
+      "last_update": "2026-11-26T19:20:58Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:20:58Z",
+        "outcomes": [
+         {
+          "name": "Creighton Bluejays",
+          "price": -125
+         },
+         {
+          "name": "TCU Horned Frogs",
+          "price": 105
+         }
+        ]
+       }
+      ],
+      "title": "Bovada"
+     },
+     {
+      "key": "betonlineag",
+      "last_update": "2026-11-26T19:22:52Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:52Z",
+        "outcomes": [
+         {
+          "name": "Creighton Bluejays",
+          "price": -125
+         },
+         {
+          "name": "TCU Horned Frogs",
+          "price": 105
+         }
+        ]
+       }
+      ],
+      "title": "BetOnline.ag"
+     },
+     {
+      "key": "lowvig",
+      "last_update": "2026-11-26T19:22:31Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:30Z",
+        "outcomes": [
+         {
+          "name": "Creighton Bluejays",
+          "price": -125
+         },
+         {
+          "name": "TCU Horned Frogs",
+          "price": 105
+         }
+        ]
+       }
+      ],
+      "title": "LowVig.ag"
+     },
+     {
+      "key": "fanduel",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Creighton Bluejays",
+          "price": -113
+         },
+         {
+          "name": "TCU Horned Frogs",
+          "price": -106
+         }
+        ]
+       }
+      ],
+      "title": "FanDuel"
+     },
+     {
+      "key": "betmgm",
+      "last_update": "2026-11-26T19:22:27Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "Creighton Bluejays",
+          "price": -120
+         },
+         {
+          "name": "TCU Horned Frogs",
+          "price": 100
+         }
+        ]
+       }
+      ],
+      "title": "BetMGM"
+     },
+     {
+      "key": "betus",
+      "last_update": "2026-11-26T19:22:29Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:29Z",
+        "outcomes": [
+         {
+          "name": "Creighton Bluejays",
+          "price": -125
+         },
+         {
+          "name": "TCU Horned Frogs",
+          "price": 105
+         }
+        ]
+       }
+      ],
+      "title": "BetUS"
+     }
+    ],
+    "commence_time": "2026-11-26T23:00:00Z",
+    "home_team": "Creighton Bluejays",
+    "id": "f026af6e32a421c5d3478e37d9198de0",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB"
+   },
+   {
+    "away_team": "DePaul Blue Demons",
+    "bookmakers": [
+     {
+      "key": "betmgm",
+      "last_update": "2026-11-26T19:22:27Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "DePaul Blue Demons",
+          "price": -105
+         },
+         {
+          "name": "Pittsburgh Panthers",
+          "price": -115
+         }
+        ]
+       }
+      ],
+      "title": "BetMGM"
+     },
+     {
+      "key": "fanduel",
+      "last_update": "2026-11-26T19:22:29Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "DePaul Blue Demons",
+          "price": -110
+         },
+         {
+          "name": "Pittsburgh Panthers",
+          "price": -110
+         }
+        ]
+       }
+      ],
+      "title": "FanDuel"
+     },
+     {
+      "key": "betrivers",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "DePaul Blue Demons",
+          "price": -109
+         },
+         {
+          "name": "Pittsburgh Panthers",
+          "price": -114
+         }
+        ]
+       }
+      ],
+      "title": "BetRivers"
+     },
+     {
+      "key": "draftkings",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "DePaul Blue Demons",
+          "price": -108
+         },
+         {
+          "name": "Pittsburgh Panthers",
+          "price": -112
+         }
+        ]
+       }
+      ],
+      "title": "DraftKings"
+     },
+     {
+      "key": "bovada",
+      "last_update": "2026-11-26T19:20:58Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:20:58Z",
+        "outcomes": [
+         {
+          "name": "DePaul Blue Demons",
+          "price": -105
+         },
+         {
+          "name": "Pittsburgh Panthers",
+          "price": -115
+         }
+        ]
+       }
+      ],
+      "title": "Bovada"
+     }
+    ],
+    "commence_time": "2026-11-27T00:00:00Z",
+    "home_team": "Pittsburgh Panthers",
+    "id": "958c447826e0cf914c566770b0f9bdab",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB"
+   },
+   {
+    "away_team": "SMU Mustangs",
+    "bookmakers": [
+     {
+      "key": "betonlineag",
+      "last_update": "2026-11-26T19:22:52Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:52Z",
+        "outcomes": [
+         {
+          "name": "LSU Tigers",
+          "price": -300
+         },
+         {
+          "name": "SMU Mustangs",
+          "price": 245
+         }
+        ]
+       }
+      ],
+      "title": "BetOnline.ag"
+     },
+     {
+      "key": "lowvig",
+      "last_update": "2026-11-26T19:22:31Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:30Z",
+        "outcomes": [
+         {
+          "name": "LSU Tigers",
+          "price": -300
+         },
+         {
+          "name": "SMU Mustangs",
+          "price": 245
+         }
+        ]
+       }
+      ],
+      "title": "LowVig.ag"
+     },
+     {
+      "key": "fanduel",
+      "last_update": "2026-11-26T19:22:29Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "LSU Tigers",
+          "price": -310
+         },
+         {
+          "name": "SMU Mustangs",
+          "price": 250
+         }
+        ]
+       }
+      ],
+      "title": "FanDuel"
+     },
+     {
+      "key": "draftkings",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "LSU Tigers",
+          "price": -310
+         },
+         {
+          "name": "SMU Mustangs",
+          "price": 250
+         }
+        ]
+       }
+      ],
+      "title": "DraftKings"
+     },
+     {
+      "key": "betmgm",
+      "last_update": "2026-11-26T19:22:27Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "LSU Tigers",
+          "price": -300
+         },
+         {
+          "name": "SMU Mustangs",
+          "price": 240
+         }
+        ]
+       }
+      ],
+      "title": "BetMGM"
+     },
+     {
+      "key": "betrivers",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "LSU Tigers",
+          "price": -335
+         },
+         {
+          "name": "SMU Mustangs",
+          "price": 255
+         }
+        ]
+       }
+      ],
+      "title": "BetRivers"
+     },
+     {
+      "key": "betus",
+      "last_update": "2026-11-26T19:22:29Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:29Z",
+        "outcomes": [
+         {
+          "name": "LSU Tigers",
+          "price": -300
+         },
+         {
+          "name": "SMU Mustangs",
+          "price": 250
+         }
+        ]
+       }
+      ],
+      "title": "BetUS"
+     },
+     {
+      "key": "bovada",
+      "last_update": "2026-11-26T19:20:58Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:20:58Z",
+        "outcomes": [
+         {
+          "name": "LSU Tigers",
+          "price": -310
+         },
+         {
+          "name": "SMU Mustangs",
+          "price": 255
+         }
+        ]
+       }
+      ],
+      "title": "Bovada"
+     }
+    ],
+    "commence_time": "2026-11-27T00:00:00Z",
+    "home_team": "LSU Tigers",
+    "id": "8cdf0f9df5b4480c117a9455b60b067b",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB"
+   },
+   {
+    "away_team": "Jacksonville St Gamecocks",
+    "bookmakers": [
+     {
+      "key": "betonlineag",
+      "last_update": "2026-11-26T19:22:52Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:52Z",
+        "outcomes": [
+         {
+          "name": "Jacksonville St Gamecocks",
+          "price": -155
+         },
+         {
+          "name": "UC Davis Aggies",
+          "price": 135
+         }
+        ]
+       }
+      ],
+      "title": "BetOnline.ag"
+     },
+     {
+      "key": "lowvig",
+      "last_update": "2026-11-26T19:22:31Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:30Z",
+        "outcomes": [
+         {
+          "name": "Jacksonville St Gamecocks",
+          "price": -155
+         },
+         {
+          "name": "UC Davis Aggies",
+          "price": 135
+         }
+        ]
+       }
+      ],
+      "title": "LowVig.ag"
+     },
+     {
+      "key": "betmgm",
+      "last_update": "2026-11-26T19:22:27Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "Jacksonville St Gamecocks",
+          "price": -160
+         },
+         {
+          "name": "UC Davis Aggies",
+          "price": 135
+         }
+        ]
+       }
+      ],
+      "title": "BetMGM"
+     },
+     {
+      "key": "draftkings",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "Jacksonville St Gamecocks",
+          "price": -162
+         },
+         {
+          "name": "UC Davis Aggies",
+          "price": 136
+         }
+        ]
+       }
+      ],
+      "title": "DraftKings"
+     },
+     {
+      "key": "fanduel",
+      "last_update": "2026-11-26T19:22:29Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Jacksonville St Gamecocks",
+          "price": -160
+         },
+         {
+          "name": "UC Davis Aggies",
+          "price": 132
+         }
+        ]
+       }
+      ],
+      "title": "FanDuel"
+     },
+     {
+      "key": "betus",
+      "last_update": "2026-11-26T19:22:29Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:29Z",
+        "outcomes": [
+         {
+          "name": "Jacksonville St Gamecocks",
+          "price": -155
+         },
+         {
+          "name": "UC Davis Aggies",
+          "price": 134
+         }
+        ]
+       }
+      ],
+      "title": "BetUS"
+     },
+     {
+      "key": "betrivers",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Jacksonville St Gamecocks",
+          "price": -165
+         },
+         {
+          "name": "UC Davis Aggies",
+          "price": 130
+         }
+        ]
+       }
+      ],
+      "title": "BetRivers"
+     },
+     {
+      "key": "bovada",
+      "last_update": "2026-11-26T19:20:58Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:20:58Z",
+        "outcomes": [
+         {
+          "name": "Jacksonville St Gamecocks",
+          "price": -145
+         },
+         {
+          "name": "UC Davis Aggies",
+          "price": 125
+         }
+        ]
+       }
+      ],
+      "title": "Bovada"
+     }
+    ],
+    "commence_time": "2026-11-27T01:00:00Z",
+    "home_team": "UC Davis Aggies",
+    "id": "8d107304a440a02e1eaf34b9e8eac486",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB"
+   },
+   {
+    "away_team": "Kansas St Wildcats",
+    "bookmakers": [
+     {
+      "key": "draftkings",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "Alabama Crimson Tide",
+          "price": -1100
+         },
+         {
+          "name": "Kansas St Wildcats",
+          "price": 700
+         }
+        ]
+       }
+      ],
+      "title": "DraftKings"
+     },
+     {
+      "key": "betonlineag",
+      "last_update": "2026-11-26T19:22:52Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:52Z",
+        "outcomes": [
+         {
+          "name": "Alabama Crimson Tide",
+          "price": -1050
+         },
+         {
+          "name": "Kansas St Wildcats",
+          "price": 686
+         }
+        ]
+       }
+      ],
+      "title": "BetOnline.ag"
+     },
+     {
+      "key": "lowvig",
+      "last_update": "2026-11-26T19:22:31Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:30Z",
+        "outcomes": [
+         {
+          "name": "Alabama Crimson Tide",
+          "price": -1050
+         },
+         {
+          "name": "Kansas St Wildcats",
+          "price": 686
+         }
+        ]
+       }
+      ],
+      "title": "LowVig.ag"
+     },
+     {
+      "key": "betrivers",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Alabama Crimson Tide",
+          "price": -1000
+         },
+         {
+          "name": "Kansas St Wildcats",
+          "price": 600
+         }
+        ]
+       }
+      ],
+      "title": "BetRivers"
+     },
+     {
+      "key": "fanduel",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Alabama Crimson Tide",
+          "price": -1050
+         },
+         {
+          "name": "Kansas St Wildcats",
+          "price": 720
+         }
+        ]
+       }
+      ],
+      "title": "FanDuel"
+     },
+     {
+      "key": "betmgm",
+      "last_update": "2026-11-26T19:22:27Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "Alabama Crimson Tide",
+          "price": -1100
+         },
+         {
+          "name": "Kansas St Wildcats",
+          "price": 675
+         }
+        ]
+       }
+      ],
+      "title": "BetMGM"
+     },
+     {
+      "key": "betus",
+      "last_update": "2026-11-26T19:22:29Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:29Z",
+        "outcomes": [
+         {
+          "name": "Alabama Crimson Tide",
+          "price": -1050
+         },
+         {
+          "name": "Kansas St Wildcats",
+          "price": 680
+         }
+        ]
+       }
+      ],
+      "title": "BetUS"
+     },
+     {
+      "key": "bovada",
+      "last_update": "2026-11-26T19:20:58Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:20:58Z",
+        "outcomes": [
+         {
+          "name": "Alabama Crimson Tide",
+          "price": -1200
+         },
+         {
+          "name": "Kansas St Wildcats",
+          "price": 700
+         }
+        ]
+       }
+      ],
+      "title": "Bovada"
+     }
+    ],
+    "commence_time": "2026-11-27T02:00:00Z",
+    "home_team": "Alabama Crimson Tide",
+    "id": "ff463f606d0a8912ca36a58b809e5f9e",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB"
+   },
+   {
+    "away_team": "St. John's Red Storm",
+    "bookmakers": [
+     {
+      "key": "draftkings",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "Louisville Cardinals",
+          "price": 105
+         },
+         {
+          "name": "St. John's Red Storm",
+          "price": -125
+         }
+        ]
+       }
+      ],
+      "title": "DraftKings"
+     },
+     {
+      "key": "betrivers",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Louisville Cardinals",
+          "price": 110
+         },
+         {
+          "name": "St. John's Red Storm",
+          "price": -137
+         }
+        ]
+       }
+      ],
+      "title": "BetRivers"
+     },
+     {
+      "key": "lowvig",
+      "last_update": "2026-11-26T19:22:31Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:30Z",
+        "outcomes": [
+         {
+          "name": "Louisville Cardinals",
+          "price": 103
+         },
+         {
+          "name": "St. John's Red Storm",
+          "price": -123
+         }
+        ]
+       }
+      ],
+      "title": "LowVig.ag"
+     },
+     {
+      "key": "betonlineag",
+      "last_update": "2026-11-26T19:22:52Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:52Z",
+        "outcomes": [
+         {
+          "name": "Louisville Cardinals",
+          "price": 103
+         },
+         {
+          "name": "St. John's Red Storm",
+          "price": -123
+         }
+        ]
+       }
+      ],
+      "title": "BetOnline.ag"
+     },
+     {
+      "key": "fanduel",
+      "last_update": "2026-11-26T19:22:29Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Louisville Cardinals",
+          "price": 104
+         },
+         {
+          "name": "St. John's Red Storm",
+          "price": -122
+         }
+        ]
+       }
+      ],
+      "title": "FanDuel"
+     },
+     {
+      "key": "betmgm",
+      "last_update": "2026-11-26T19:22:27Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "Louisville Cardinals",
+          "price": 105
+         },
+         {
+          "name": "St. John's Red Storm",
+          "price": -125
+         }
+        ]
+       }
+      ],
+      "title": "BetMGM"
+     },
+     {
+      "key": "betus",
+      "last_update": "2026-11-26T19:22:29Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:29Z",
+        "outcomes": [
+         {
+          "name": "Louisville Cardinals",
+          "price": 105
+         },
+         {
+          "name": "St. John's Red Storm",
+          "price": -125
+         }
+        ]
+       }
+      ],
+      "title": "BetUS"
+     },
+     {
+      "key": "bovada",
+      "last_update": "2026-11-26T19:20:58Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:20:58Z",
+        "outcomes": [
+         {
+          "name": "Louisville Cardinals",
+          "price": 105
+         },
+         {
+          "name": "St. John's Red Storm",
+          "price": -125
+         }
+        ]
+       }
+      ],
+      "title": "Bovada"
+     }
+    ],
+    "commence_time": "2026-11-27T02:00:00Z",
+    "home_team": "Louisville Cardinals",
+    "id": "3cb03cfb4f93a60fd1ce506ee8555130",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB"
+   },
+   {
+    "away_team": "Omaha Mavericks",
+    "bookmakers": [
+     {
+      "key": "betonlineag",
+      "last_update": "2026-11-26T19:22:52Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:52Z",
+        "outcomes": [
+         {
+          "name": "Omaha Mavericks",
+          "price": 270
+         },
+         {
+          "name": "Pacific Tigers",
+          "price": -335
+         }
+        ]
+       }
+      ],
+      "title": "BetOnline.ag"
+     },
+     {
+      "key": "lowvig",
+      "last_update": "2026-11-26T19:22:31Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:31Z",
+        "outcomes": [
+         {
+          "name": "Omaha Mavericks",
+          "price": 270
+         },
+         {
+          "name": "Pacific Tigers",
+          "price": -335
+         }
+        ]
+       }
+      ],
+      "title": "LowVig.ag"
+     },
+     {
+      "key": "fanduel",
+      "last_update": "2026-11-26T19:22:29Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Omaha Mavericks",
+          "price": 250
+         },
+         {
+          "name": "Pacific Tigers",
+          "price": -310
+         }
+        ]
+       }
+      ],
+      "title": "FanDuel"
+     },
+     {
+      "key": "betus",
+      "last_update": "2026-11-26T19:22:29Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:29Z",
+        "outcomes": [
+         {
+          "name": "Omaha Mavericks",
+          "price": 272
+         },
+         {
+          "name": "Pacific Tigers",
+          "price": -335
+         }
+        ]
+       }
+      ],
+      "title": "BetUS"
+     },
+     {
+      "key": "draftkings",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Omaha Mavericks",
+          "price": 275
+         },
+         {
+          "name": "Pacific Tigers",
+          "price": -345
+         }
+        ]
+       }
+      ],
+      "title": "DraftKings"
+     },
+     {
+      "key": "betmgm",
+      "last_update": "2026-11-26T19:22:27Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "Omaha Mavericks",
+          "price": 260
+         },
+         {
+          "name": "Pacific Tigers",
+          "price": -325
+         }
+        ]
+       }
+      ],
+      "title": "BetMGM"
+     },
+     {
+      "key": "betrivers",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Omaha Mavericks",
+          "price": 285
+         },
+         {
+          "name": "Pacific Tigers",
+          "price": -385
+         }
+        ]
+       }
+      ],
+      "title": "BetRivers"
+     },
+     {
+      "key": "bovada",
+      "last_update": "2026-11-26T19:20:58Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:20:58Z",
+        "outcomes": [
+         {
+          "name": "Omaha Mavericks",
+          "price": 285
+         },
+         {
+          "name": "Pacific Tigers",
+          "price": -370
+         }
+        ]
+       }
+      ],
+      "title": "Bovada"
+     }
+    ],
+    "commence_time": "2026-11-27T03:30:00Z",
+    "home_team": "Pacific Tigers",
+    "id": "f8c8f160933b1de8443aee985386d93f",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB"
+   },
+   {
+    "away_team": "Baylor Bears",
+    "bookmakers": [
+     {
+      "key": "draftkings",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Baylor Bears",
+          "price": 145
+         },
+         {
+          "name": "Gonzaga Bulldogs",
+          "price": -175
+         }
+        ]
+       }
+      ],
+      "title": "DraftKings"
+     },
+     {
+      "key": "betrivers",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Baylor Bears",
+          "price": 143
+         },
+         {
+          "name": "Gonzaga Bulldogs",
+          "price": -180
+         }
+        ]
+       }
+      ],
+      "title": "BetRivers"
+     },
+     {
+      "key": "betonlineag",
+      "last_update": "2026-11-26T19:22:52Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:52Z",
+        "outcomes": [
+         {
+          "name": "Baylor Bears",
+          "price": 140
+         },
+         {
+          "name": "Gonzaga Bulldogs",
+          "price": -160
+         }
+        ]
+       }
+      ],
+      "title": "BetOnline.ag"
+     },
+     {
+      "key": "lowvig",
+      "last_update": "2026-11-26T19:22:31Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:31Z",
+        "outcomes": [
+         {
+          "name": "Baylor Bears",
+          "price": 140
+         },
+         {
+          "name": "Gonzaga Bulldogs",
+          "price": -160
+         }
+        ]
+       }
+      ],
+      "title": "LowVig.ag"
+     },
+     {
+      "key": "fanduel",
+      "last_update": "2026-11-26T19:22:29Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Baylor Bears",
+          "price": 146
+         },
+         {
+          "name": "Gonzaga Bulldogs",
+          "price": -176
+         }
+        ]
+       }
+      ],
+      "title": "FanDuel"
+     },
+     {
+      "key": "betmgm",
+      "last_update": "2026-11-26T19:22:27Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "Baylor Bears",
+          "price": 140
+         },
+         {
+          "name": "Gonzaga Bulldogs",
+          "price": -170
+         }
+        ]
+       }
+      ],
+      "title": "BetMGM"
+     },
+     {
+      "key": "betus",
+      "last_update": "2026-11-26T19:22:29Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:29Z",
+        "outcomes": [
+         {
+          "name": "Baylor Bears",
+          "price": 138
+         },
+         {
+          "name": "Gonzaga Bulldogs",
+          "price": -160
+         }
+        ]
+       }
+      ],
+      "title": "BetUS"
+     },
+     {
+      "key": "bovada",
+      "last_update": "2026-11-26T19:20:58Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:20:58Z",
+        "outcomes": [
+         {
+          "name": "Baylor Bears",
+          "price": 145
+         },
+         {
+          "name": "Gonzaga Bulldogs",
+          "price": -170
+         }
+        ]
+       }
+      ],
+      "title": "Bovada"
+     }
+    ],
+    "commence_time": "2026-11-27T04:30:00Z",
+    "home_team": "Gonzaga Bulldogs",
+    "id": "00ffa84e4fac12fc9b2885305e76ad31",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB"
+   },
+   {
+    "away_team": "Texas Tech Red Raiders",
+    "bookmakers": [
+     {
+      "key": "draftkings",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Oregon Ducks",
+          "price": 400
+         },
+         {
+          "name": "Texas Tech Red Raiders",
+          "price": -535
+         }
+        ]
+       }
+      ],
+      "title": "DraftKings"
+     },
+     {
+      "key": "lowvig",
+      "last_update": "2026-11-26T19:22:31Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:31Z",
+        "outcomes": [
+         {
+          "name": "Oregon Ducks",
+          "price": 400
+         },
+         {
+          "name": "Texas Tech Red Raiders",
+          "price": -525
+         }
+        ]
+       }
+      ],
+      "title": "LowVig.ag"
+     },
+     {
+      "key": "betonlineag",
+      "last_update": "2026-11-26T19:22:52Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:52Z",
+        "outcomes": [
+         {
+          "name": "Oregon Ducks",
+          "price": 400
+         },
+         {
+          "name": "Texas Tech Red Raiders",
+          "price": -525
+         }
+        ]
+       }
+      ],
+      "title": "BetOnline.ag"
+     },
+     {
+      "key": "betrivers",
+      "last_update": "2026-11-26T19:22:28Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Oregon Ducks",
+          "price": 420
+         },
+         {
+          "name": "Texas Tech Red Raiders",
+          "price": -625
+         }
+        ]
+       }
+      ],
+      "title": "BetRivers"
+     },
+     {
+      "key": "fanduel",
+      "last_update": "2026-11-26T19:22:29Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:28Z",
+        "outcomes": [
+         {
+          "name": "Oregon Ducks",
+          "price": 430
+         },
+         {
+          "name": "Texas Tech Red Raiders",
+          "price": -580
+         }
+        ]
+       }
+      ],
+      "title": "FanDuel"
+     },
+     {
+      "key": "betmgm",
+      "last_update": "2026-11-26T19:22:27Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:27Z",
+        "outcomes": [
+         {
+          "name": "Oregon Ducks",
+          "price": 400
+         },
+         {
+          "name": "Texas Tech Red Raiders",
+          "price": -550
+         }
+        ]
+       }
+      ],
+      "title": "BetMGM"
+     },
+     {
+      "key": "betus",
+      "last_update": "2026-11-26T19:22:29Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:22:29Z",
+        "outcomes": [
+         {
+          "name": "Oregon Ducks",
+          "price": 405
+         },
+         {
+          "name": "Texas Tech Red Raiders",
+          "price": -525
+         }
+        ]
+       }
+      ],
+      "title": "BetUS"
+     },
+     {
+      "key": "bovada",
+      "last_update": "2026-11-26T19:20:58Z",
+      "markets": [
+       {
+        "key": "h2h",
+        "last_update": "2026-11-26T19:20:58Z",
+        "outcomes": [
+         {
+          "name": "Oregon Ducks",
+          "price": 400
+         },
+         {
+          "name": "Texas Tech Red Raiders",
+          "price": -575
+         }
+        ]
+       }
+      ],
+      "title": "Bovada"
+     }
+    ],
+    "commence_time": "2026-11-27T04:30:00Z",
+    "home_team": "Oregon Ducks",
+    "id": "3ce2ec8471b46e17dc7b246a086a3e8d",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB"
+   }
+  ]
+ },
  "icehockey_nhl": {
   "at": "2026-11-17T23:40:15.432416+00:00",
   "games": [
