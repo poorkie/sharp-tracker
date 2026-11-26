@@ -8028,8 +8028,8 @@
   "idx": 1,
   "market_type": "child_moneyline",
   "pick": "PuckChamp (Map 1)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-synaps-pckcp-2026-11-26",
   "venues": {
@@ -8037,6 +8037,7 @@
     "ask": 0.47,
     "ask_size": 0.01,
     "fee": 0.0174,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "PuckChamp",
     "ticker": "KXDOTA2MAP-26NOV260500PCKCPSYN-1-PCKCP",
