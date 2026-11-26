@@ -7635,5 +7635,44 @@
     "url": "https://polymarket.us/event/nba-chi-cha-2026-11-25"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-26T02:10:18.061282+00:00",
+  "cid": "0x9e221dbe18b6c4f9827211132111ce063a5de2129a5307cd230a346e474ce9ac",
+  "delay_s": 302,
+  "elite_n": 119,
+  "elite_price": 0.1996,
+  "elite_roi": 0.1495,
+  "elite_ts": "2026-11-26T02:05:16+00:00",
+  "elite_usd": 344.0,
+  "elite_wallets": [
+   "0xdbdd45150249e229eb4ca8aa48a30dca21faa5de"
+  ],
+  "event_title": "Northern Illinois Huskies vs. SIUE Cougars",
+  "fill_price": 0.25,
+  "fill_usd_available": 2.5,
+  "id": "0x9e221dbe-1-1795659018",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "SIUE Cougars",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-nill-siue-2026-11-25",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "ask": 0.22,
+    "market": "aec-cbb-nill-siue-2026-11-25",
+    "raw_ask": 0.83,
+    "raw_bid": 0.78,
+    "side": 1,
+    "status": "ok",
+    "url": "https://polymarket.us/event/cbb-nill-siue-2026-11-25"
+   }
+  }
  }
 ]
