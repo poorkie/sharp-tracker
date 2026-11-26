@@ -7868,8 +7868,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "Colorado Buffaloes",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-col-gcan-2026-11-25",
   "venues": {
@@ -7877,6 +7877,7 @@
     "ask": 0.13,
     "ask_size": 2992.78,
     "fee": 0.0079,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "Colorado",
     "ticker": "KXNCAAMBGAME-26NOV26GCCOLO-COLO",
