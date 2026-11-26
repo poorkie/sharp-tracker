@@ -8071,8 +8071,8 @@
   "idx": 0,
   "market_type": "child_moneyline",
   "pick": "GamerLegion (Map 2)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 117.39,
+  "result": "WIN",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-gl-aur1-2026-11-26",
   "venues": {
@@ -8080,6 +8080,7 @@
     "ask": 0.47,
     "ask_size": 65.0,
     "fee": 0.0174,
+    "pnl_100": 105.17,
     "status": "ok",
     "team": "GamerLegion",
     "ticker": "KXDOTA2MAP-26NOV260500AURGL-2-GL",
