@@ -4380,7 +4380,7 @@
    }
   ],
   "close_price": 0.495,
-  "clv": null,
+  "clv": 0.02,
   "condition_id": "0xb5af1a1657125484fef6159ea091da17942ffc17b551439aa8b8b0cd4180c2a8",
   "entry_price": 0.475,
   "event_title": "Bears vs. Lions",
@@ -4390,6 +4390,7 @@
   "lock": {
    "at": "2026-11-26T17:50:18.962248+00:00",
    "late": false,
+   "pnl_100": -100.0,
    "price": 0.495,
    "reason": "Elite still in; market moved their way",
    "rule": 2,
@@ -4400,9 +4401,9 @@
   "n_wallets": 4,
   "outcome": "Lions",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": -100.0,
   "question": "Bears vs. Lions",
-  "result": null,
+  "result": "LOSS",
   "sharp_usd": 7020.51,
   "sport": "nfl",
   "url": "https://polymarket.com/event/nfl-chi-det-2026-11-26"
