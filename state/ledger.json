@@ -4538,6 +4538,14 @@
   "game_start": "2026-11-26T21:30:00+00:00",
   "id": "0x6dec4720-1-1795727418",
   "kind": "ELITE_CONSENSUS",
+  "lock": {
+   "at": "2026-11-26T21:20:19.217573+00:00",
+   "late": false,
+   "price": 0.795,
+   "reason": "Elite still in",
+   "rule": 2,
+   "verdict": "PLAY"
+  },
   "market_type": "moneyline",
   "max_prob": 0.8292,
   "n_wallets": 3,
@@ -4546,8 +4554,9 @@
   "pnl_100": null,
   "question": "Eagles vs. Cowboys",
   "result": null,
-  "sharp_usd": 10890.0,
+  "sharp_usd": 20610.1,
   "sport": "nfl",
+  "updates": 1,
   "url": "https://polymarket.com/event/nfl-phi-dal-2026-11-26"
  }
 ]
