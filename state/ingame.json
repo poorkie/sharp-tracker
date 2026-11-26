@@ -7362,8 +7362,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "Liberty Flames",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-librty-prnce-2026-11-25",
   "venues": {
@@ -7371,6 +7371,7 @@
     "ask": 0.56,
     "ask_size": 6.0,
     "fee": 0.0172,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "Liberty",
     "ticker": "KXNCAAMBGAME-26NOV25PRINLIB-LIB",
@@ -7379,6 +7380,7 @@
    "pmus": {
     "ask": 0.53,
     "market": "aec-cbb-librty-prnce-2026-11-25",
+    "pnl_100": -100.0,
     "raw_ask": 0.53,
     "raw_bid": 0.52,
     "side": 0,
@@ -7501,6 +7503,45 @@
     "side": 0,
     "status": "ok",
     "url": "https://polymarket.us/event/cbb-bcook-rich-2026-11-25"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-26T01:00:28.719299+00:00",
+  "cid": "0x1086efe8518a09ccfe6c89f4547d59b151ceae74ce0df9727bcd3ac1640631ca",
+  "delay_s": 165,
+  "elite_n": 222,
+  "elite_price": 0.3902,
+  "elite_roi": 0.1155,
+  "elite_ts": "2026-11-26T00:57:43+00:00",
+  "elite_usd": 598.81,
+  "elite_wallets": [
+   "0x6db568e61e5e3de7d87f831431b673f38ce2e279"
+  ],
+  "event_title": "Cavaliers vs. Knicks",
+  "fill_price": 0.43,
+  "fill_usd_available": 1711.9,
+  "id": "0x1086efe8-0-1795654828",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Cavaliers",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-cle-nyk-2026-11-25",
+  "venues": {
+   "kalshi": {
+    "ask": 0.43,
+    "ask_size": 26970.66,
+    "fee": 0.0172,
+    "status": "ok",
+    "team": "Cleveland",
+    "ticker": "KXNBAGAME-26NOV25CLENYK-CLE",
+    "url": "https://kalshi.com/markets/kxnbagame"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/nba-cle-nyk-2026-11-25",
+    "status": "not_listed"
    }
   }
  }
