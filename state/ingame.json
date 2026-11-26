@@ -8397,5 +8397,88 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-26T16:40:23.862456+00:00",
+  "cid": "0xf1f7958bc1fa7985d7afb7fae0946bb875d1a49a1de980798dc039839c7fe13a",
+  "delay_s": 274,
+  "elite_n": 716,
+  "elite_price": 0.7186,
+  "elite_roi": 0.2284,
+  "elite_ts": "2026-11-26T16:35:49+00:00",
+  "elite_usd": 909.23,
+  "elite_wallets": [
+   "0x3231d2d67053e5dc3715f6429124741e52866e75"
+  ],
+  "event_title": "Dota 2: Team Synapse vs Amaru Gaming (BO3) - Esports Pro Circuit  Group A",
+  "fill_price": 0.81,
+  "fill_usd_available": 4.05,
+  "id": "0xf1f7958b-0-1795711223",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "Team Synapse (Map 2)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-synaps-amaru-2026-11-26",
+  "venues": {
+   "kalshi": {
+    "ask": 0.79,
+    "ask_size": 1.0,
+    "fee": 0.0116,
+    "status": "ok",
+    "team": "Team Synapse",
+    "ticker": "KXDOTA2MAP-26NOV261000AMASYN-2-SYN",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-synaps-amaru-2026-11-26",
+    "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-26T16:40:23.862456+00:00",
+  "cid": "0xda0676a017e7b815898ad0dc39c60a5739ae503c419f638ba732cce3fd62204d",
+  "delay_s": 28,
+  "elite_n": 1043,
+  "elite_price": 0.69,
+  "elite_roi": 0.1052,
+  "elite_ts": "2026-11-26T16:39:55+00:00",
+  "elite_usd": 857.74,
+  "elite_wallets": [
+   "0x80bac5c17aec3f5b3d0f01166b639cd453a02e78"
+  ],
+  "event_title": "Dota 2: Team Yandex vs GamerLegion (BO3) - BLAST Slam Playoffs",
+  "fill_price": 0.7,
+  "fill_usd_available": 800.13,
+  "id": "0xda0676a0-0-1795711223",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "Team Yandex (Map 2)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-ty-gl-2026-11-26",
+  "venues": {
+   "kalshi": {
+    "ask": 0.72,
+    "ask_size": 685.03,
+    "fee": 0.0141,
+    "status": "ok",
+    "team": "Team Yandex",
+    "ticker": "KXDOTA2MAP-26NOV261200TYGL-2-TY",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "ask": 0.7,
+    "market": "astatc-dota2-ty-gl-2026-11-26-game2",
+    "raw_ask": 0.7,
+    "raw_bid": 0.69,
+    "side": 0,
+    "status": "ok",
+    "url": "https://polymarket.us/event/dota2-ty-gl-2026-11-26"
+   }
+  }
  }
 ]
