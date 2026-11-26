@@ -7545,5 +7545,49 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-26T01:20:18.214175+00:00",
+  "cid": "0xe9bf9790e9ff9536e9e480d3672a4d712d848e5edb22991b4295500aff460e7b",
+  "delay_s": 341,
+  "elite_n": 772,
+  "elite_price": 0.35,
+  "elite_roi": 0.1198,
+  "elite_ts": "2026-11-26T01:14:37+00:00",
+  "elite_usd": 1805.57,
+  "elite_wallets": [
+   "0x1bc32be106439240f59aa25668e613831a5cdc6e"
+  ],
+  "event_title": "Timberwolves vs. Thunder",
+  "fill_price": 0.51,
+  "fill_usd_available": 6604.51,
+  "id": "0xe9bf9790-1-1795656018",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Thunder",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-min-okc-2026-11-25",
+  "venues": {
+   "kalshi": {
+    "ask": 0.56,
+    "ask_size": 19522.76,
+    "fee": 0.0172,
+    "status": "ok",
+    "team": "Oklahoma City",
+    "ticker": "KXNBAGAME-26NOV25MINOKC-OKC",
+    "url": "https://kalshi.com/markets/kxnbagame"
+   },
+   "pmus": {
+    "ask": 0.57,
+    "market": "aec-nba-min-okc-2026-11-25",
+    "raw_ask": 0.44,
+    "raw_bid": 0.43,
+    "side": 1,
+    "status": "ok",
+    "url": "https://polymarket.us/event/nba-min-okc-2026-11-25"
+   }
+  }
  }
 ]
