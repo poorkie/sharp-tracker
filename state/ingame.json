@@ -7846,5 +7846,44 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-26T05:00:20.991026+00:00",
+  "cid": "0x5c03981ff0bfdcc29d13ef8e693643d980c8830aa67afc16bc4fee82d949e403",
+  "delay_s": 280,
+  "elite_n": 119,
+  "elite_price": 0.11,
+  "elite_roi": 0.1495,
+  "elite_ts": "2026-11-26T04:55:40+00:00",
+  "elite_usd": 248.88,
+  "elite_wallets": [
+   "0xdbdd45150249e229eb4ca8aa48a30dca21faa5de"
+  ],
+  "event_title": "Colorado Buffaloes vs. Grand Canyon Antelopes",
+  "fill_price": 0.14,
+  "fill_usd_available": 64.96,
+  "id": "0x5c03981f-0-1795669220",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Colorado Buffaloes",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-col-gcan-2026-11-25",
+  "venues": {
+   "kalshi": {
+    "ask": 0.13,
+    "ask_size": 2992.78,
+    "fee": 0.0079,
+    "status": "ok",
+    "team": "Colorado",
+    "ticker": "KXNCAAMBGAME-26NOV26GCCOLO-COLO",
+    "url": "https://kalshi.com/markets/kxncaambgame"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/cbb-col-gcan-2026-11-25",
+    "status": "not_listed"
+   }
+  }
  }
 ]
