@@ -7701,8 +7701,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "Stars",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "nhl",
   "url": "https://polymarket.com/event/nhl-nsh-dal-2026-11-25",
   "venues": {
@@ -7710,6 +7710,7 @@
     "ask": 0.23,
     "ask_size": 40.0,
     "fee": 0.0124,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "Dallas",
     "ticker": "KXNHLGAME-26NOV25NSHDAL-DAL",
