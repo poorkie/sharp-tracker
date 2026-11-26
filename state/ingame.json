@@ -8509,8 +8509,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "angry birds",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-pr1-angryb-2026-11-26",
   "venues": {
@@ -8518,6 +8518,7 @@
     "ask": 0.48,
     "ask_size": 0.41,
     "fee": 0.0175,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "angry birds",
     "ticker": "KXDOTA2GAME-26NOV260800ANGPRAN-ANG",
