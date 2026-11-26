@@ -7272,8 +7272,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "Grambling State Tigers",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 233.33,
+  "result": "WIN",
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-grmbst-no-2026-11-25",
   "venues": {
@@ -7281,6 +7281,7 @@
     "ask": 0.32,
     "ask_size": 5563.14,
     "fee": 0.0152,
+    "pnl_100": 198.33,
     "status": "ok",
     "team": "Grambling St.",
     "ticker": "KXNCAAMBGAME-26NOV25GRAMUNO-GRAM",
@@ -7289,6 +7290,7 @@
    "pmus": {
     "ask": 0.29,
     "market": "aec-cbb-grmbst-no-2026-11-25",
+    "pnl_100": 244.83,
     "raw_ask": 0.29,
     "raw_bid": 0.28,
     "side": 0,
@@ -7587,6 +7589,50 @@
     "side": 1,
     "status": "ok",
     "url": "https://polymarket.us/event/nba-min-okc-2026-11-25"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-26T01:30:20.225185+00:00",
+  "cid": "0x62aac7b20e638ea6ebdfb78f2d12ff884594d4ce863d387d3561996c87ad2e06",
+  "delay_s": 497,
+  "elite_n": 222,
+  "elite_price": 0.33,
+  "elite_roi": 0.1155,
+  "elite_ts": "2026-11-26T01:22:03+00:00",
+  "elite_usd": 753.89,
+  "elite_wallets": [
+   "0x6db568e61e5e3de7d87f831431b673f38ce2e279"
+  ],
+  "event_title": "Bulls vs. Hornets",
+  "fill_price": 0.41,
+  "fill_usd_available": 517.42,
+  "id": "0x62aac7b2-0-1795656620",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Bulls",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-chi-cha-2026-11-25",
+  "venues": {
+   "kalshi": {
+    "ask": 0.4,
+    "ask_size": 11675.7,
+    "fee": 0.0168,
+    "status": "ok",
+    "team": "Chicago",
+    "ticker": "KXNBAGAME-26NOV25CHICHA-CHI",
+    "url": "https://kalshi.com/markets/kxnbagame"
+   },
+   "pmus": {
+    "ask": 0.4,
+    "market": "aec-nba-chi-cha-2026-11-25",
+    "raw_ask": 0.4,
+    "raw_bid": 0.39,
+    "side": 0,
+    "status": "ok",
+    "url": "https://polymarket.us/event/nba-chi-cha-2026-11-25"
    }
   }
  }
