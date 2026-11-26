@@ -7530,8 +7530,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "Cavaliers",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-cle-nyk-2026-11-25",
   "venues": {
@@ -7539,6 +7539,7 @@
     "ask": 0.43,
     "ask_size": 26970.66,
     "fee": 0.0172,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "Cleveland",
     "ticker": "KXNBAGAME-26NOV25CLENYK-CLE",
