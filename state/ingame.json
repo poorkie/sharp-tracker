@@ -8334,8 +8334,8 @@
   "idx": 1,
   "market_type": "child_moneyline",
   "pick": "GamerLegion (Map 1)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-ty-gl-2026-11-26",
   "venues": {
@@ -8343,6 +8343,7 @@
     "ask": 0.5,
     "ask_size": 66.0,
     "fee": 0.0175,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "GamerLegion",
     "ticker": "KXDOTA2MAP-26NOV261200TYGL-1-GL",
@@ -8351,6 +8352,7 @@
    "pmus": {
     "ask": 0.5,
     "market": "astatc-dota2-ty-gl-2026-11-26-game1",
+    "pnl_100": -100.0,
     "raw_ask": 0.57,
     "raw_bid": 0.5,
     "side": 1,
@@ -8445,10 +8447,11 @@
   "elite_price": 0.69,
   "elite_roi": 0.1052,
   "elite_ts": "2026-11-26T16:39:55+00:00",
-  "elite_usd": 32928.74,
+  "elite_usd": 34460.29,
   "elite_wallets": [
    "0x80bac5c17aec3f5b3d0f01166b639cd453a02e78",
-   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a"
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a",
+   "0x9d910a16612ac0b6c2d54e7061ac8d4d0a9d6816"
   ],
   "event_title": "Dota 2: Team Yandex vs GamerLegion (BO3) - BLAST Slam Playoffs",
   "fill_price": 0.7,
