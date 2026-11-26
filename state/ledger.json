@@ -4479,5 +4479,75 @@
   "sharp_usd": 2572.93,
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-george-tx-2026-11-26"
+ },
+ {
+  "alerted_at": "2026-11-26T21:10:18.268332+00:00",
+  "book_fair": 0.7855,
+  "books": [
+   {
+    "book": "MyBookie.ag",
+    "price": -429,
+    "prob": 0.811
+   },
+   {
+    "book": "BetUS",
+    "price": -440,
+    "prob": 0.8148
+   },
+   {
+    "book": "Bovada",
+    "price": -440,
+    "prob": 0.8148
+   },
+   {
+    "book": "DraftKings",
+    "price": -447,
+    "prob": 0.8172
+   },
+   {
+    "book": "BetRivers",
+    "price": -455,
+    "prob": 0.8198
+   },
+   {
+    "book": "BetMGM",
+    "price": -475,
+    "prob": 0.8261
+   },
+   {
+    "book": "FanDuel",
+    "price": -490,
+    "prob": 0.8305
+   },
+   {
+    "book": "BetOnline.ag",
+    "price": -490,
+    "prob": 0.8305
+   },
+   {
+    "book": "LowVig.ag",
+    "price": -490,
+    "prob": 0.8305
+   }
+  ],
+  "close_price": 0.795,
+  "clv": null,
+  "condition_id": "0x6dec4720e43ba8dd413f37760e97af043c54926dfbae4ffccd732cca308068ed",
+  "entry_price": 0.795,
+  "event_title": "Eagles vs. Cowboys",
+  "game_start": "2026-11-26T21:30:00+00:00",
+  "id": "0x6dec4720-1-1795727418",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "moneyline",
+  "max_prob": 0.8292,
+  "n_wallets": 3,
+  "outcome": "Cowboys",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Eagles vs. Cowboys",
+  "result": null,
+  "sharp_usd": 10890.0,
+  "sport": "nfl",
+  "url": "https://polymarket.com/event/nfl-phi-dal-2026-11-26"
  }
 ]
