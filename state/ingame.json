@@ -7968,5 +7968,44 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-26T10:10:19.799308+00:00",
+  "cid": "0x7669bae03cd88a2904578084c758a96934941f7bf3682ac6e20d84a38a32930d",
+  "delay_s": -18,
+  "elite_n": 2039,
+  "elite_price": 0.4913,
+  "elite_roi": 0.0709,
+  "elite_ts": "2026-11-26T10:10:37+00:00",
+  "elite_usd": 11931.04,
+  "elite_wallets": [
+   "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a"
+  ],
+  "event_title": "Dota 2: GamerLegion vs Aurora (BO3) - BLAST Slam Playoffs",
+  "fill_price": 0.46,
+  "fill_usd_available": 7227.29,
+  "id": "0x7669bae0-0-1795687819",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "GamerLegion (Map 1)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-gl-aur1-2026-11-26",
+  "venues": {
+   "kalshi": {
+    "ask": 0.47,
+    "ask_size": 5.01,
+    "fee": 0.0174,
+    "status": "ok",
+    "team": "GamerLegion",
+    "ticker": "KXDOTA2MAP-26NOV260500AURGL-1-GL",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-gl-aur1-2026-11-26",
+    "status": "not_listed"
+   }
+  }
  }
 ]
