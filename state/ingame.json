@@ -7484,8 +7484,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "Bethune-Cookman Wildcats",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-bcook-rich-2026-11-25",
   "venues": {
@@ -7493,6 +7493,7 @@
     "ask": 0.25,
     "ask_size": 19735.24,
     "fee": 0.0131,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "Bethune-Cookman",
     "ticker": "KXNCAAMBGAME-26NOV25COOKRICH-COOK",
@@ -7501,6 +7502,7 @@
    "pmus": {
     "ask": 0.25,
     "market": "aec-cbb-bcook-rich-2026-11-25",
+    "pnl_100": -100.0,
     "raw_ask": 0.25,
     "raw_bid": 0.24,
     "side": 0,
@@ -7674,6 +7676,128 @@
     "side": 1,
     "status": "ok",
     "url": "https://polymarket.us/event/cbb-nill-siue-2026-11-25"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-26T03:10:16.154521+00:00",
+  "cid": "0x65d194a01b78b6a251f1d05fb847c60b57c91b727200a01f17fb3f70fa21a7cd",
+  "delay_s": 394,
+  "elite_n": 433,
+  "elite_price": 0.2968,
+  "elite_roi": 0.1103,
+  "elite_ts": "2026-11-26T03:03:42+00:00",
+  "elite_usd": 494.53,
+  "elite_wallets": [
+   "0xfc0847fe2ea938d6e2624650eb29ef8d8142a137"
+  ],
+  "event_title": "Predators vs. Stars",
+  "fill_price": 0.24,
+  "fill_usd_available": 2216.75,
+  "id": "0x65d194a0-1-1795662616",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Stars",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nhl",
+  "url": "https://polymarket.com/event/nhl-nsh-dal-2026-11-25",
+  "venues": {
+   "kalshi": {
+    "ask": 0.23,
+    "ask_size": 40.0,
+    "fee": 0.0124,
+    "status": "ok",
+    "team": "Dallas",
+    "ticker": "KXNHLGAME-26NOV25NSHDAL-DAL",
+    "url": "https://kalshi.com/markets/kxnhlgame"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/nhl-nsh-dal-2026-11-25",
+    "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-26T03:10:16.154521+00:00",
+  "cid": "0x08a6062c81860260a32d4f24768019c242be13c2dc10a001ff44fdf4afb8043d",
+  "delay_s": 72,
+  "elite_n": 772,
+  "elite_price": 0.84,
+  "elite_roi": 0.1198,
+  "elite_ts": "2026-11-26T03:09:04+00:00",
+  "elite_usd": 205.8,
+  "elite_wallets": [
+   "0x1bc32be106439240f59aa25668e613831a5cdc6e"
+  ],
+  "event_title": "Nets vs. Bucks",
+  "fill_price": 0.91,
+  "fill_usd_available": 330.21,
+  "id": "0x08a6062c-0-1795662616",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Nets",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-bkn-mil-2026-11-25",
+  "venues": {
+   "kalshi": {
+    "ask": 0.91,
+    "ask_size": 638.26,
+    "fee": 0.0057,
+    "status": "ok",
+    "team": "Brooklyn",
+    "ticker": "KXNBAGAME-26NOV25BKNMIL-BKN",
+    "url": "https://kalshi.com/markets/kxnbagame"
+   },
+   "pmus": {
+    "ask": 0.91,
+    "market": "aec-nba-bkn-mil-2026-11-25",
+    "raw_ask": 0.91,
+    "raw_bid": 0.9,
+    "side": 0,
+    "status": "ok",
+    "url": "https://polymarket.us/event/nba-bkn-mil-2026-11-25"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-26T03:10:16.154521+00:00",
+  "cid": "0xee10be0394841a8fb2a9730e9209718c0367808d7b0a78306561c12986b5a8f5",
+  "delay_s": -17,
+  "elite_n": 96,
+  "elite_price": 0.26,
+  "elite_roi": 0.5829,
+  "elite_ts": "2026-11-26T03:10:33+00:00",
+  "elite_usd": 202.54,
+  "elite_wallets": [
+   "0x80bac5c17aec3f5b3d0f01166b639cd453a02e78"
+  ],
+  "event_title": "Kings vs. Warriors",
+  "fill_price": 0.27,
+  "fill_usd_available": 5668.34,
+  "id": "0xee10be03-0-1795662616",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Kings",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-sac-gsw-2026-11-25",
+  "venues": {
+   "kalshi": {
+    "ask": 0.27,
+    "ask_size": 102452.88,
+    "fee": 0.0138,
+    "status": "ok",
+    "team": "Sacramento",
+    "ticker": "KXNBAGAME-26NOV25SACGSW-SAC",
+    "url": "https://kalshi.com/markets/kxnbagame"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/nba-sac-gsw-2026-11-25",
+    "status": "not_listed"
    }
   }
  }
