@@ -7908,8 +7908,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "Hawaii Rainbow Warriors",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 49.25,
+  "result": "WIN",
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-incar-hawaii-2026-11-25",
   "venues": {
@@ -7917,6 +7917,7 @@
     "ask": 0.67,
     "ask_size": 1.17,
     "fee": 0.0155,
+    "pnl_100": 45.88,
     "status": "ok",
     "team": "Hawai'i",
     "ticker": "KXNCAAMBGAME-26NOV26IWHAW-HAW",
