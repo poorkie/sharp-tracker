@@ -8007,5 +8007,44 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-26T10:20:19.535564+00:00",
+  "cid": "0xaec4212bbca7ec5a8b28f290863d3c9494114f450d2aa53b94cbb1b863893d67",
+  "delay_s": 149,
+  "elite_n": 716,
+  "elite_price": 0.5313,
+  "elite_roi": 0.2284,
+  "elite_ts": "2026-11-26T10:17:50+00:00",
+  "elite_usd": 1135.75,
+  "elite_wallets": [
+   "0x3231d2d67053e5dc3715f6429124741e52866e75"
+  ],
+  "event_title": "Dota 2: Team Synapse vs PuckChamp (BO3) - European Pro League Playoffs",
+  "fill_price": 0.45,
+  "fill_usd_available": 13.36,
+  "id": "0xaec4212b-1-1795688419",
+  "idx": 1,
+  "market_type": "child_moneyline",
+  "pick": "PuckChamp (Map 1)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-synaps-pckcp-2026-11-26",
+  "venues": {
+   "kalshi": {
+    "ask": 0.47,
+    "ask_size": 0.01,
+    "fee": 0.0174,
+    "status": "ok",
+    "team": "PuckChamp",
+    "ticker": "KXDOTA2MAP-26NOV260500PCKCPSYN-1-PCKCP",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-synaps-pckcp-2026-11-26",
+    "status": "not_listed"
+   }
+  }
  }
 ]
