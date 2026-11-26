@@ -7662,8 +7662,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "SIUE Cougars",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-nill-siue-2026-11-25",
   "venues": {
@@ -7674,6 +7674,7 @@
    "pmus": {
     "ask": 0.22,
     "market": "aec-cbb-nill-siue-2026-11-25",
+    "pnl_100": -100.0,
     "raw_ask": 0.83,
     "raw_bid": 0.78,
     "side": 1,
