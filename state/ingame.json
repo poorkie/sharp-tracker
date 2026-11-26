@@ -8293,8 +8293,8 @@
   "idx": 0,
   "market_type": "child_moneyline",
   "pick": "Power Rangers (Map 1)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-pr1-angryb-2026-11-26",
   "venues": {
@@ -8302,6 +8302,7 @@
     "ask": 0.57,
     "ask_size": 25.0,
     "fee": 0.0172,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "Power Rangers",
     "ticker": "KXDOTA2MAP-26NOV260800ANGPRAN-1-PRAN",
