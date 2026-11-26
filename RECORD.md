@@ -1,6 +1,6 @@
 # Sharp Tracker: graded record
 
-Updated 2026-11-26 15:20 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
+Updated 2026-11-26 15:30 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
 
 ## Overall
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
@@ -28,7 +28,7 @@ Updated 2026-11-26 15:20 UTC. Every alert is logged at the price when it fired a
 ## Last 50 alerts
 | Alerted (UTC) | Sport | Pick | Entry | Close | Books fair | Sharps | Result |
 |---|---|---|---|---|---|---|---|
-| 2026-11-26 00:00 | NFL | [Lions: Bears vs. Lions](https://polymarket.com/event/nfl-chi-det-2026-11-26) | 0.47 | 0.48 | 48% | 4 / $7,021 | pending |
+| 2026-11-26 00:00 | NFL | [Lions: Bears vs. Lions](https://polymarket.com/event/nfl-chi-det-2026-11-26) | 0.47 | 0.49 | 48% | 4 / $7,021 | pending |
 | 2026-11-25 19:40 | NBA | [Rockets: Suns vs. Rockets](https://polymarket.com/event/nba-phx-hou-2026-11-25) | 0.78 | 0.77 | 77% | 3 / $5,703 | WIN (+29) |
 | 2026-11-25 14:20 | NFL | [Packers: Packers vs. Rams](https://polymarket.com/event/nfl-gb-la-2026-11-26) | 0.43 | 0.45 | 45% | 3 / $15,758 | LOSS (-100) |
 | 2026-11-24 23:30 | NBA | [Over 211.5: Pistons vs. Magic](https://polymarket.com/event/nba-det-orl-2026-11-24) | 0.51 | 0.45 | – | 3 / $3,410 | LOSS (-100) |
