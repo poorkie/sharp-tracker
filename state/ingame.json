@@ -7947,8 +7947,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "Clemson Tigers",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-clmsn-colst-2026-11-26",
   "venues": {
@@ -7956,6 +7956,7 @@
     "ask": 0.43,
     "ask_size": 57342.75,
     "fee": 0.0172,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "Clemson",
     "ticker": "KXNCAAMBGAME-26NOV26CLEMCSU-CLEM",
