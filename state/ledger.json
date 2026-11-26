@@ -4315,5 +4315,70 @@
   "sharp_usd": 5703.07,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-phx-hou-2026-11-25"
+ },
+ {
+  "alerted_at": "2026-11-26T00:00:24.477886+00:00",
+  "book_fair": 0.4762,
+  "books": [
+   {
+    "book": "BetRivers",
+    "price": 105,
+    "prob": 0.4878
+   },
+   {
+    "book": "FanDuel",
+    "price": 104,
+    "prob": 0.4902
+   },
+   {
+    "book": "Bovada",
+    "price": 102,
+    "prob": 0.495
+   },
+   {
+    "book": "DraftKings",
+    "price": 101,
+    "prob": 0.4975
+   },
+   {
+    "book": "BetMGM",
+    "price": 100,
+    "prob": 0.5
+   },
+   {
+    "book": "MyBookie.ag",
+    "price": 100,
+    "prob": 0.5
+   },
+   {
+    "book": "BetOnline.ag",
+    "price": 100,
+    "prob": 0.5
+   },
+   {
+    "book": "LowVig.ag",
+    "price": 100,
+    "prob": 0.5
+   }
+  ],
+  "close_price": 0.475,
+  "clv": null,
+  "condition_id": "0xb5af1a1657125484fef6159ea091da17942ffc17b551439aa8b8b0cd4180c2a8",
+  "entry_price": 0.475,
+  "event_title": "Bears vs. Lions",
+  "game_start": "2026-11-26T18:00:00+00:00",
+  "id": "0xb5af1a16-1-1795651224",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "moneyline",
+  "max_prob": 0.5027,
+  "n_wallets": 4,
+  "outcome": "Lions",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Bears vs. Lions",
+  "result": null,
+  "sharp_usd": 7020.51,
+  "sport": "nfl",
+  "url": "https://polymarket.com/event/nfl-chi-det-2026-11-26"
  }
 ]

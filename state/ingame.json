@@ -7152,8 +7152,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "Ole Miss Rebels",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-miss-arz-2026-11-25",
   "venues": {
@@ -7161,6 +7161,7 @@
     "ask": 0.56,
     "ask_size": 6919.19,
     "fee": 0.0172,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "Ole Miss",
     "ticker": "KXNCAAMBGAME-26NOV25MISSARIZ-MISS",
