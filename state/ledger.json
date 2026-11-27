@@ -4533,7 +4533,7 @@
    }
   ],
   "close_price": 0.795,
-  "clv": null,
+  "clv": 0.0,
   "condition_id": "0x6dec4720e43ba8dd413f37760e97af043c54926dfbae4ffccd732cca308068ed",
   "entry_price": 0.795,
   "event_title": "Eagles vs. Cowboys",
@@ -4543,6 +4543,7 @@
   "lock": {
    "at": "2026-11-26T21:20:19.217573+00:00",
    "late": false,
+   "pnl_100": -100.0,
    "price": 0.795,
    "reason": "Elite still in",
    "rule": 2,
@@ -4553,9 +4554,9 @@
   "n_wallets": 3,
   "outcome": "Cowboys",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": -100.0,
   "question": "Eagles vs. Cowboys",
-  "result": null,
+  "result": "LOSS",
   "sharp_usd": 20610.1,
   "sport": "nfl",
   "updates": 1,
