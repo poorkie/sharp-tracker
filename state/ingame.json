@@ -9013,8 +9013,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "PARIVISION",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 49.25,
+  "result": "WIN",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-aur1-pari-2026-11-27",
   "venues": {
@@ -9022,6 +9022,7 @@
     "ask": 0.68,
     "ask_size": 2648.63,
     "fee": 0.0152,
+    "pnl_100": 43.84,
     "status": "ok",
     "team": "PARIVISION",
     "ticker": "KXDOTA2GAME-26NOV271200PARIAUR-PARI",
@@ -9074,6 +9075,94 @@
     "side": 1,
     "status": "ok",
     "url": "https://polymarket.us/event/nhl-ott-tb-2026-11-27"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-27T20:10:18.686650+00:00",
+  "cid": "0x735daccadf4502cb905f2dc16fe39c6b6154d0185a8db81d00cc3a1ec57c4938",
+  "delay_s": 38,
+  "elite_n": 1151,
+  "elite_price": 0.4455,
+  "elite_roi": 0.1731,
+  "elite_ts": "2026-11-27T20:09:40+00:00",
+  "elite_usd": 899.7,
+  "elite_wallets": [
+   "0x3e04fbc51adb75418129f6ce2091ae633070564d"
+  ],
+  "event_title": "Maple Leafs vs. Bruins",
+  "fill_price": 0.29,
+  "fill_usd_available": 4941.61,
+  "id": "0x735dacca-1-1795810218",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Bruins",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nhl",
+  "url": "https://polymarket.com/event/nhl-tor-bos-2026-11-27",
+  "venues": {
+   "kalshi": {
+    "ask": 0.27,
+    "ask_size": 11857.74,
+    "fee": 0.0138,
+    "status": "ok",
+    "team": "Boston",
+    "ticker": "KXNHLGAME-26NOV27TORBOS-BOS",
+    "url": "https://kalshi.com/markets/kxnhlgame"
+   },
+   "pmus": {
+    "ask": 0.28,
+    "market": "aec-nhl-tor-bos-2026-11-27",
+    "raw_ask": 0.73,
+    "raw_bid": 0.72,
+    "side": 1,
+    "status": "ok",
+    "url": "https://polymarket.us/event/nhl-tor-bos-2026-11-27"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-27T20:10:18.686650+00:00",
+  "cid": "0xbcd8bf70c61f0fe958fbc53ea05e447664bf52d7d2957f1afcbd791583312f48",
+  "delay_s": -65,
+  "elite_n": 1151,
+  "elite_price": 0.33,
+  "elite_roi": 0.1731,
+  "elite_ts": "2026-11-27T20:11:23+00:00",
+  "elite_usd": 990.0,
+  "elite_wallets": [
+   "0x3e04fbc51adb75418129f6ce2091ae633070564d"
+  ],
+  "event_title": "Canucks vs. Flyers",
+  "fill_price": 0.33,
+  "fill_usd_available": 1855.84,
+  "id": "0xbcd8bf70-0-1795810218",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Canucks",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nhl",
+  "url": "https://polymarket.com/event/nhl-van-phi-2026-11-27",
+  "venues": {
+   "kalshi": {
+    "ask": 0.33,
+    "ask_size": 6313.11,
+    "fee": 0.0155,
+    "status": "ok",
+    "team": "Vancouver",
+    "ticker": "KXNHLGAME-26NOV27VANPHI-VAN",
+    "url": "https://kalshi.com/markets/kxnhlgame"
+   },
+   "pmus": {
+    "ask": 0.33,
+    "market": "aec-nhl-van-phi-2026-11-27",
+    "raw_ask": 0.33,
+    "raw_bid": 0.32,
+    "side": 0,
+    "status": "ok",
+    "url": "https://polymarket.us/event/nhl-van-phi-2026-11-27"
    }
   }
  }
