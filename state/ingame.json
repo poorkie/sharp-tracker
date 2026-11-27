@@ -8583,8 +8583,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "LSU Tigers",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 132.56,
+  "result": "WIN",
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-lsu-smu-2026-11-26",
   "venues": {
@@ -8592,6 +8592,7 @@
     "ask": 0.42,
     "ask_size": 2933.26,
     "fee": 0.0171,
+    "pnl_100": 128.78,
     "status": "ok",
     "team": "LSU",
     "ticker": "KXNCAAMBGAME-26NOV26SMULSU-LSU",
