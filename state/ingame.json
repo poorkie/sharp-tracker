@@ -8897,8 +8897,8 @@
   "idx": 1,
   "market_type": "child_moneyline",
   "pick": "PARIVISION (Map 1)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 66.67,
+  "result": "WIN",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-aur1-pari-2026-11-27",
   "venues": {
@@ -8906,9 +8906,49 @@
     "ask": 0.62,
     "ask_size": 120.93,
     "fee": 0.0165,
+    "pnl_100": 57.11,
     "status": "ok",
     "team": "PARIVISION",
     "ticker": "KXDOTA2MAP-26NOV271200PARIAUR-1-PARI",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-aur1-pari-2026-11-27",
+    "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-27T17:30:20.352899+00:00",
+  "cid": "0x3f5b516d471f5549c6a475125bfdbba76b1a57b3655da0503c852f64da683f6e",
+  "delay_s": -107,
+  "elite_n": 1491,
+  "elite_price": 0.74,
+  "elite_roi": 0.0886,
+  "elite_ts": "2026-11-27T17:32:07+00:00",
+  "elite_usd": 27777.0,
+  "elite_wallets": [
+   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1"
+  ],
+  "event_title": "Dota 2: Aurora vs PARIVISION (BO3) - BLAST Slam Playoffs",
+  "fill_price": 0.74,
+  "fill_usd_available": 45943.47,
+  "id": "0x3f5b516d-1-1795800620",
+  "idx": 1,
+  "market_type": "child_moneyline",
+  "pick": "PARIVISION (Map 2)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-aur1-pari-2026-11-27",
+  "venues": {
+   "kalshi": {
+    "ask": 0.73,
+    "ask_size": 180.0,
+    "fee": 0.0138,
+    "status": "ok",
+    "team": "PARIVISION",
+    "ticker": "KXDOTA2MAP-26NOV271200PARIAUR-2-PARI",
     "url": "https://kalshi.com/markets/kxdota2map"
    },
    "pmus": {
