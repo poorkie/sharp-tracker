@@ -4561,5 +4561,65 @@
   "sport": "nfl",
   "updates": 1,
   "url": "https://polymarket.com/event/nfl-phi-dal-2026-11-26"
+ },
+ {
+  "alerted_at": "2026-11-27T02:40:17.998874+00:00",
+  "book_fair": 0.4212,
+  "books": [
+   {
+    "book": "FanDuel",
+    "price": 134,
+    "prob": 0.4274
+   },
+   {
+    "book": "BetRivers",
+    "price": 133,
+    "prob": 0.4292
+   },
+   {
+    "book": "Bovada",
+    "price": 130,
+    "prob": 0.4348
+   },
+   {
+    "book": "BetUS",
+    "price": 129,
+    "prob": 0.4367
+   },
+   {
+    "book": "BetMGM",
+    "price": 125,
+    "prob": 0.4444
+   },
+   {
+    "book": "DraftKings",
+    "price": 124,
+    "prob": 0.4464
+   },
+   {
+    "book": "MyBookie.ag",
+    "price": 115,
+    "prob": 0.4651
+   }
+  ],
+  "close_price": 0.415,
+  "clv": null,
+  "condition_id": "0xf93a4fe832882479c324e6166050540c9184d9cc3c18bac675a1504b4662c297",
+  "entry_price": 0.415,
+  "event_title": "76ers vs. Pacers",
+  "game_start": "2026-11-28T00:30:00+00:00",
+  "id": "0xf93a4fe8-1-1795747217",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "moneyline",
+  "max_prob": 0.4233,
+  "n_wallets": 3,
+  "outcome": "Pacers",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "76ers vs. Pacers",
+  "result": null,
+  "sharp_usd": 3126.01,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-phi-ind-2026-11-27"
  }
 ]
