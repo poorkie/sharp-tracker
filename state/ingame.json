@@ -9053,8 +9053,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "Lightning",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "nhl",
   "url": "https://polymarket.com/event/nhl-ott-tb-2026-11-27",
   "venues": {
@@ -9062,6 +9062,7 @@
     "ask": 0.53,
     "ask_size": 19609.48,
     "fee": 0.0174,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "Tampa Bay",
     "ticker": "KXNHLGAME-26NOV27OTTTB-TB",
@@ -9070,6 +9071,7 @@
    "pmus": {
     "ask": 0.53,
     "market": "aec-nhl-ott-tb-2026-11-27",
+    "pnl_100": -100.0,
     "raw_ask": 0.48,
     "raw_bid": 0.47,
     "side": 1,
@@ -9143,8 +9145,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "Canucks",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "nhl",
   "url": "https://polymarket.com/event/nhl-van-phi-2026-11-27",
   "venues": {
@@ -9152,6 +9154,7 @@
     "ask": 0.33,
     "ask_size": 6313.11,
     "fee": 0.0155,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "Vancouver",
     "ticker": "KXNHLGAME-26NOV27VANPHI-VAN",
@@ -9160,6 +9163,7 @@
    "pmus": {
     "ask": 0.33,
     "market": "aec-nhl-van-phi-2026-11-27",
+    "pnl_100": -100.0,
     "raw_ask": 0.33,
     "raw_bid": 0.32,
     "side": 0,
