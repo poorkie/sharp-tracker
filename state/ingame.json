@@ -8978,8 +8978,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "Carole Monnet",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 0.0,
+  "result": "VOID",
   "sport": "wta",
   "url": "https://polymarket.com/event/wta-monnet-erjavec-2026-11-27",
   "venues": {
@@ -9030,6 +9030,50 @@
    "pmus": {
     "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-aur1-pari-2026-11-27",
     "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-27T20:00:24.823293+00:00",
+  "cid": "0x8e03c0aa3c94630402d43be3e6270ffb5e826270ca6543a5ef5043d76f998c01",
+  "delay_s": -89,
+  "elite_n": 68,
+  "elite_price": 0.53,
+  "elite_roi": 0.1238,
+  "elite_ts": "2026-11-27T20:01:53+00:00",
+  "elite_usd": 1060.0,
+  "elite_wallets": [
+   "0xe5241830e8876c115d7dc8311ad9f43d85fdd34f"
+  ],
+  "event_title": "Senators vs. Lightning",
+  "fill_price": 0.53,
+  "fill_usd_available": 26810.06,
+  "id": "0x8e03c0aa-1-1795809624",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Lightning",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nhl",
+  "url": "https://polymarket.com/event/nhl-ott-tb-2026-11-27",
+  "venues": {
+   "kalshi": {
+    "ask": 0.53,
+    "ask_size": 19609.48,
+    "fee": 0.0174,
+    "status": "ok",
+    "team": "Tampa Bay",
+    "ticker": "KXNHLGAME-26NOV27OTTTB-TB",
+    "url": "https://kalshi.com/markets/kxnhlgame"
+   },
+   "pmus": {
+    "ask": 0.53,
+    "market": "aec-nhl-ott-tb-2026-11-27",
+    "raw_ask": 0.48,
+    "raw_bid": 0.47,
+    "side": 1,
+    "status": "ok",
+    "url": "https://polymarket.us/event/nhl-ott-tb-2026-11-27"
    }
   }
  }
