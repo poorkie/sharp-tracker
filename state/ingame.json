@@ -8875,5 +8875,45 @@
     "url": "https://polymarket.us/event/dota2-gl-1win-2026-11-27"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-27T16:20:16.130090+00:00",
+  "cid": "0xb28d1666731921bfb7453edc034fafc729bbeff66e1c40d8c8442ab0afbfaa3b",
+  "delay_s": 392,
+  "elite_n": 1043,
+  "elite_price": 0.5594,
+  "elite_roi": 0.1052,
+  "elite_ts": "2026-11-27T16:13:44+00:00",
+  "elite_usd": 27233.86,
+  "elite_wallets": [
+   "0x80bac5c17aec3f5b3d0f01166b639cd453a02e78",
+   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1"
+  ],
+  "event_title": "Dota 2: Aurora vs PARIVISION (BO3) - BLAST Slam Playoffs",
+  "fill_price": 0.6,
+  "fill_usd_available": 23067.69,
+  "id": "0xb28d1666-1-1795796416",
+  "idx": 1,
+  "market_type": "child_moneyline",
+  "pick": "PARIVISION (Map 1)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-aur1-pari-2026-11-27",
+  "venues": {
+   "kalshi": {
+    "ask": 0.62,
+    "ask_size": 120.93,
+    "fee": 0.0165,
+    "status": "ok",
+    "team": "PARIVISION",
+    "ticker": "KXDOTA2MAP-26NOV271200PARIAUR-1-PARI",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/dota2-aur1-pari-2026-11-27",
+    "status": "not_listed"
+   }
+  }
  }
 ]
