@@ -9167,5 +9167,49 @@
     "url": "https://polymarket.us/event/nhl-van-phi-2026-11-27"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-27T21:10:26.770696+00:00",
+  "cid": "0x055cfe0c3031e520a26de351e560b7d82e93ed739d2d8f1de8ab4285d0a572a7",
+  "delay_s": 382,
+  "elite_n": 1151,
+  "elite_price": 0.53,
+  "elite_roi": 0.1731,
+  "elite_ts": "2026-11-27T21:04:04+00:00",
+  "elite_usd": 530.0,
+  "elite_wallets": [
+   "0x3e04fbc51adb75418129f6ce2091ae633070564d"
+  ],
+  "event_title": "Avalanche vs. Wild",
+  "fill_price": 0.56,
+  "fill_usd_available": 9432.23,
+  "id": "0x055cfe0c-1-1795813826",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Wild",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nhl",
+  "url": "https://polymarket.com/event/nhl-col-min-2026-11-27",
+  "venues": {
+   "kalshi": {
+    "ask": 0.55,
+    "ask_size": 5969.05,
+    "fee": 0.0173,
+    "status": "ok",
+    "team": "Minnesota",
+    "ticker": "KXNHLGAME-26NOV27COLMIN-MIN",
+    "url": "https://kalshi.com/markets/kxnhlgame"
+   },
+   "pmus": {
+    "ask": 0.55,
+    "market": "aec-nhl-col-min-2026-11-27",
+    "raw_ask": 0.46,
+    "raw_bid": 0.45,
+    "side": 1,
+    "status": "ok",
+    "url": "https://polymarket.us/event/nhl-col-min-2026-11-27"
+   }
+  }
  }
 ]
