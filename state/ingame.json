@@ -8827,5 +8827,49 @@
     "url": "https://polymarket.us/event/dota2-gl-1win-2026-11-27"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-27T14:40:31.650699+00:00",
+  "cid": "0x79ddb17cc5ca253dfe9d53b0bc20c7ded0ddce5c4eccc33ed1ddf4d0b7a62efd",
+  "delay_s": -69,
+  "elite_n": 1043,
+  "elite_price": 0.5486,
+  "elite_roi": 0.1052,
+  "elite_ts": "2026-11-27T14:41:40+00:00",
+  "elite_usd": 3839.99,
+  "elite_wallets": [
+   "0x80bac5c17aec3f5b3d0f01166b639cd453a02e78"
+  ],
+  "event_title": "Dota 2: GamerLegion vs 1win (BO3) - BLAST Slam Playoffs",
+  "fill_price": 0.55,
+  "fill_usd_available": 905.65,
+  "id": "0x79ddb17c-1-1795790431",
+  "idx": 1,
+  "market_type": "child_moneyline",
+  "pick": "1win (Map 2)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-gl-1win-2026-11-27",
+  "venues": {
+   "kalshi": {
+    "ask": 0.56,
+    "ask_size": 25.83,
+    "fee": 0.0172,
+    "status": "ok",
+    "team": "1win",
+    "ticker": "KXDOTA2MAP-26NOV2708301WINGL-2-1WIN",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "ask": 0.55,
+    "market": "astatc-dota2-gl-1win-2026-11-27-game2",
+    "raw_ask": 0.47,
+    "raw_bid": 0.45,
+    "side": 1,
+    "status": "ok",
+    "url": "https://polymarket.us/event/dota2-gl-1win-2026-11-27"
+   }
+  }
  }
 ]
