@@ -8803,8 +8803,8 @@
   "idx": 1,
   "market_type": "child_moneyline",
   "pick": "1win (Map 1)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 88.68,
+  "result": "WIN",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-gl-1win-2026-11-27",
   "venues": {
@@ -8812,6 +8812,7 @@
     "ask": 0.51,
     "ask_size": 970.54,
     "fee": 0.0175,
+    "pnl_100": 89.57,
     "status": "ok",
     "team": "1win",
     "ticker": "KXDOTA2MAP-26NOV2708301WINGL-1-1WIN",
@@ -8820,6 +8821,7 @@
    "pmus": {
     "ask": 0.54,
     "market": "astatc-dota2-gl-1win-2026-11-27-game1",
+    "pnl_100": 85.19,
     "raw_ask": 0.47,
     "raw_bid": 0.46,
     "side": 1,
