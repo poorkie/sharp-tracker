@@ -1,6 +1,6 @@
 # Sharp Tracker: graded record
 
-Updated 2026-11-27 12:40 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
+Updated 2026-11-27 12:50 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
 
 ## Overall
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
@@ -30,7 +30,7 @@ Updated 2026-11-27 12:40 UTC. Every alert is logged at the price when it fired a
 | Alerted (UTC) | Sport | Pick | Entry | Close | Books fair | Sharps | Result |
 |---|---|---|---|---|---|---|---|
 | 2026-11-27 12:20 | NBA | [Heat +3.5: Heat vs. Knicks](https://polymarket.com/event/nba-mia-nyk-2026-11-27) | 0.47 | 0.47 | – | 3 / $5,443 | pending |
-| 2026-11-27 02:40 | NBA | [Pacers: 76ers vs. Pacers](https://polymarket.com/event/nba-phi-ind-2026-11-27) | 0.41 | 0.41 | 42% | 3 / $3,126 | pending |
+| 2026-11-27 02:40 | NBA | [Pacers: 76ers vs. Pacers](https://polymarket.com/event/nba-phi-ind-2026-11-27) | 0.41 | 0.39 | 42% | 3 / $3,126 | pending |
 | 2026-11-26 21:10 | NFL | [Cowboys: Eagles vs. Cowboys](https://polymarket.com/event/nfl-phi-dal-2026-11-26) | 0.80 | 0.80 | 79% | 3 / $20,610 | LOSS (-100) |
 | 2026-11-26 19:20 | CBB | [Georgetown Hoyas: Georgetown Hoyas vs. Texas Longhorns](https://polymarket.com/event/cbb-george-tx-2026-11-26) | 0.24 | 0.24 | 24% | 3 / $2,573 | LOSS (-100) |
 | 2026-11-26 00:00 | NFL | [Lions: Bears vs. Lions](https://polymarket.com/event/nfl-chi-det-2026-11-26) | 0.47 | 0.49 | 48% | 4 / $7,021 | LOSS (-100) |
