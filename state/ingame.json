@@ -9211,5 +9211,49 @@
     "url": "https://polymarket.us/event/nhl-col-min-2026-11-27"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-27T22:40:18.885704+00:00",
+  "cid": "0x64bbe01eacd8f7532804818a4dad284fc1dc68a27e2acc7c36b69a7a61a57c66",
+  "delay_s": 181,
+  "elite_n": 68,
+  "elite_price": 0.63,
+  "elite_roi": 0.1238,
+  "elite_ts": "2026-11-27T22:37:17+00:00",
+  "elite_usd": 214.08,
+  "elite_wallets": [
+   "0xe5241830e8876c115d7dc8311ad9f43d85fdd34f"
+  ],
+  "event_title": "Rangers vs. Blackhawks",
+  "fill_price": 0.63,
+  "fill_usd_available": 7290.32,
+  "id": "0x64bbe01e-0-1795819218",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Rangers",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nhl",
+  "url": "https://polymarket.com/event/nhl-nyr-chi-2026-11-27",
+  "venues": {
+   "kalshi": {
+    "ask": 0.62,
+    "ask_size": 7164.01,
+    "fee": 0.0165,
+    "status": "ok",
+    "team": "New York R",
+    "ticker": "KXNHLGAME-26NOV27NYRCHI-NYR",
+    "url": "https://kalshi.com/markets/kxnhlgame"
+   },
+   "pmus": {
+    "ask": 0.62,
+    "market": "aec-nhl-nyr-chi-2026-11-27",
+    "raw_ask": 0.62,
+    "raw_bid": 0.61,
+    "side": 0,
+    "status": "ok",
+    "url": "https://polymarket.us/event/nhl-nyr-chi-2026-11-27"
+   }
+  }
  }
 ]
