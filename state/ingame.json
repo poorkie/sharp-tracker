@@ -8706,8 +8706,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "Team Liquid",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 138.1,
+  "result": "WIN",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-pari-liquid-2026-11-27",
   "venues": {
@@ -8715,6 +8715,7 @@
     "ask": 0.43,
     "ask_size": 4646.28,
     "fee": 0.0172,
+    "pnl_100": 123.61,
     "status": "ok",
     "team": "Team Liquid",
     "ticker": "KXDOTA2GAME-26NOV270500PARILIQUID-LIQUID",
@@ -8723,6 +8724,7 @@
    "pmus": {
     "ask": 0.39,
     "market": "aec-dota2-pari-liquid-2026-11-27",
+    "pnl_100": 156.41,
     "raw_ask": 0.62,
     "raw_bid": 0.61,
     "side": 1,
@@ -8777,6 +8779,51 @@
     "side": 1,
     "status": "ok",
     "url": "https://polymarket.us/event/dota2-pari-liquid-2026-11-27"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-27T13:50:17.255455+00:00",
+  "cid": "0x13c9c6b75d14cde1ba9da235083df2580010e51a784c1e998db35d1102499ef0",
+  "delay_s": 118,
+  "elite_n": 1043,
+  "elite_price": 0.5,
+  "elite_roi": 0.1052,
+  "elite_ts": "2026-11-27T13:48:19+00:00",
+  "elite_usd": 40566.65,
+  "elite_wallets": [
+   "0x80bac5c17aec3f5b3d0f01166b639cd453a02e78",
+   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1"
+  ],
+  "event_title": "Dota 2: GamerLegion vs 1win (BO3) - BLAST Slam Playoffs",
+  "fill_price": 0.53,
+  "fill_usd_available": 61351.99,
+  "id": "0x13c9c6b7-1-1795787417",
+  "idx": 1,
+  "market_type": "child_moneyline",
+  "pick": "1win (Map 1)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-gl-1win-2026-11-27",
+  "venues": {
+   "kalshi": {
+    "ask": 0.51,
+    "ask_size": 970.54,
+    "fee": 0.0175,
+    "status": "ok",
+    "team": "1win",
+    "ticker": "KXDOTA2MAP-26NOV2708301WINGL-1-1WIN",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "ask": 0.54,
+    "market": "astatc-dota2-gl-1win-2026-11-27-game1",
+    "raw_ask": 0.47,
+    "raw_bid": 0.46,
+    "side": 1,
+    "status": "ok",
+    "url": "https://polymarket.us/event/dota2-gl-1win-2026-11-27"
    }
   }
  }
