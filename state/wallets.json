@@ -19322,7 +19322,7 @@
   }
  },
  "0x0f97fb0212e1d8ee44c68df4119312a7faf420de": {
-  "graded_at": "2026-11-20T07:10:21.251579+00:00",
+  "graded_at": "2026-11-27T07:20:19.031693+00:00",
   "grades": {
    "lol": {
     "avg_price": 0.459,
@@ -51866,19 +51866,32 @@
   }
  },
  "0x262ce3ddaecef92269fca2408f55422c812508dc": {
-  "graded_at": "2026-11-20T07:10:21.251579+00:00",
+  "graded_at": "2026-11-27T07:20:19.031693+00:00",
   "grades": {
    "dota2": {
-    "avg_price": 0.305,
-    "hit_edge": 0.195,
+    "avg_price": 0.451,
+    "hit_edge": 0.237,
+    "hit_rate": 0.688,
+    "n": 16,
+    "pnl": 3392.21,
+    "roi": 0.6815,
+    "shrunk_roi": 0.1733,
+    "sport": "dota2",
+    "staked": 4977.86,
+    "t_stat": 1.71,
+    "tier": "NONE"
+   },
+   "epl": {
+    "avg_price": 0.492,
+    "hit_edge": 0.008,
     "hit_rate": 0.5,
     "n": 2,
-    "pnl": 303.57,
-    "roi": 0.1896,
-    "shrunk_roi": -0.0195,
-    "sport": "dota2",
-    "staked": 1600.81,
-    "t_stat": 0.14,
+    "pnl": 27.85,
+    "roi": 0.0137,
+    "shrunk_roi": -0.0279,
+    "sport": "epl",
+    "staked": 2028.07,
+    "t_stat": 0.02,
     "tier": "NONE"
    },
    "lol": {
@@ -51895,16 +51908,16 @@
     "tier": "NONE"
    },
    "nba": {
-    "avg_price": 0.502,
-    "hit_edge": -0.048,
-    "hit_rate": 0.455,
-    "n": 22,
-    "pnl": -1815.67,
-    "roi": -0.1199,
-    "shrunk_roi": -0.0619,
+    "avg_price": 0.503,
+    "hit_edge": -0.103,
+    "hit_rate": 0.4,
+    "n": 25,
+    "pnl": -8281.69,
+    "roi": -0.3832,
+    "shrunk_roi": -0.1659,
     "sport": "nba",
-    "staked": 15144.39,
-    "t_stat": -0.37,
+    "staked": 21609.96,
+    "t_stat": -0.95,
     "tier": "NONE"
    }
   }
@@ -66298,7 +66311,7 @@
   "grades": {}
  },
  "0x30e9a7580ec24e3596698a1e4173958cc8d03224": {
-  "graded_at": "2026-11-20T07:10:21.251579+00:00",
+  "graded_at": "2026-11-27T07:20:19.031693+00:00",
   "grades": {
    "dota2": {
     "avg_price": 0.788,
@@ -80359,7 +80372,7 @@
   }
  },
  "0x3b686b0182b322b62400c614b0beed24550fc6f5": {
-  "graded_at": "2026-11-20T07:10:21.251579+00:00",
+  "graded_at": "2026-11-27T07:20:19.031693+00:00",
   "grades": {
    "lol": {
     "avg_price": 0.392,
@@ -109382,7 +109395,7 @@
   }
  },
  "0x54b00cd9433bc60fd7fed197748f6707d5fadf70": {
-  "graded_at": "2026-11-20T07:10:21.251579+00:00",
+  "graded_at": "2026-11-27T07:20:19.031693+00:00",
   "grades": {
    "atp": {
     "avg_price": 0.97,
@@ -131843,7 +131856,7 @@
   }
  },
  "0x65c5b6df857821d640fd720ec78a26c236212862": {
-  "graded_at": "2026-11-20T07:10:21.251579+00:00",
+  "graded_at": "2026-11-27T07:20:19.031693+00:00",
   "grades": {
    "lol": {
     "avg_price": 0.34,
@@ -158768,7 +158781,7 @@
   }
  },
  "0x79f7b0bc9b693d60dec10c355e671f52c0de2bea": {
-  "graded_at": "2026-11-20T07:10:21.251579+00:00",
+  "graded_at": "2026-11-27T07:20:19.031693+00:00",
   "grades": {
    "lol": {
     "avg_price": 0.459,
@@ -158784,16 +158797,16 @@
     "tier": "NONE"
    },
    "nba": {
-    "avg_price": 0.548,
-    "hit_edge": 0.166,
-    "hit_rate": 0.714,
-    "n": 7,
-    "pnl": 382.69,
-    "roi": 0.3955,
-    "shrunk_roi": 0.0334,
+    "avg_price": 0.51,
+    "hit_edge": 0.074,
+    "hit_rate": 0.583,
+    "n": 12,
+    "pnl": 318.03,
+    "roi": 0.2426,
+    "shrunk_roi": 0.0329,
     "sport": "nba",
-    "staked": 967.69,
-    "t_stat": 1.84,
+    "staked": 1311.11,
+    "t_stat": 0.43,
     "tier": "NONE"
    }
   }
@@ -188923,32 +188936,32 @@
   }
  },
  "0x90e7d1a8550c43873d4b1ba5d025b57c2423ac8e": {
-  "graded_at": "2026-11-20T07:10:21.251579+00:00",
+  "graded_at": "2026-11-27T07:20:19.031693+00:00",
   "grades": {
    "dota2": {
-    "avg_price": 0.393,
-    "hit_edge": -0.143,
-    "hit_rate": 0.25,
-    "n": 8,
-    "pnl": -84.12,
-    "roi": -0.0182,
-    "shrunk_roi": -0.028,
+    "avg_price": 0.445,
+    "hit_edge": -0.073,
+    "hit_rate": 0.371,
+    "n": 35,
+    "pnl": -733.12,
+    "roi": -0.0467,
+    "shrunk_roi": -0.0378,
     "sport": "dota2",
-    "staked": 4610.87,
-    "t_stat": -0.75,
+    "staked": 15705.34,
+    "t_stat": -0.7,
     "tier": "NONE"
    },
    "epl": {
-    "avg_price": 0.442,
-    "hit_edge": 0.225,
-    "hit_rate": 0.667,
-    "n": 6,
-    "pnl": -2206.42,
-    "roi": -0.8476,
-    "shrunk_roi": -0.1366,
+    "avg_price": 0.463,
+    "hit_edge": 0.162,
+    "hit_rate": 0.625,
+    "n": 8,
+    "pnl": -3407.95,
+    "roi": -0.6283,
+    "shrunk_roi": -0.1297,
     "sport": "epl",
-    "staked": 2603.15,
-    "t_stat": 0.91,
+    "staked": 5423.81,
+    "t_stat": 0.77,
     "tier": "NONE"
    },
    "lol": {
@@ -188965,16 +188978,16 @@
     "tier": "NONE"
    },
    "nba": {
-    "avg_price": 0.482,
-    "hit_edge": -0.053,
-    "hit_rate": 0.429,
-    "n": 14,
-    "pnl": -1747.32,
-    "roi": -0.3168,
-    "shrunk_roi": -0.1043,
+    "avg_price": 0.491,
+    "hit_edge": -0.015,
+    "hit_rate": 0.476,
+    "n": 21,
+    "pnl": -234.53,
+    "roi": -0.0188,
+    "shrunk_roi": -0.0261,
     "sport": "nba",
-    "staked": 5515.95,
-    "t_stat": -0.31,
+    "staked": 12498.99,
+    "t_stat": -0.12,
     "tier": "NONE"
    }
   }
@@ -233214,7 +233227,7 @@
   }
  },
  "0xb2c67d24ed10866268536974d39e7e15cc4d9271": {
-  "graded_at": "2026-11-20T07:10:21.251579+00:00",
+  "graded_at": "2026-11-27T07:20:19.031693+00:00",
   "grades": {
    "dota2": {
     "avg_price": 0.791,
@@ -249379,19 +249392,19 @@
   }
  },
  "0xc13be8b69a75368b6bd2ce1975354a462911701e": {
-  "graded_at": "2026-11-20T07:10:21.251579+00:00",
+  "graded_at": "2026-11-27T07:20:19.031693+00:00",
   "grades": {
    "dota2": {
-    "avg_price": 0.575,
-    "hit_edge": 0.032,
-    "hit_rate": 0.608,
-    "n": 158,
-    "pnl": 3055.28,
-    "roi": 0.0818,
-    "shrunk_roi": 0.0592,
+    "avg_price": 0.569,
+    "hit_edge": 0.035,
+    "hit_rate": 0.604,
+    "n": 169,
+    "pnl": 2941.56,
+    "roi": 0.0749,
+    "shrunk_roi": 0.0548,
     "sport": "dota2",
-    "staked": 37367.64,
-    "t_stat": 0.49,
+    "staked": 39274.22,
+    "t_stat": 0.66,
     "tier": "NONE"
    },
    "lol": {
@@ -315642,7 +315655,7 @@
   }
  },
  "0xef07fe3d62195acd4edf278ddfd35991a627bb26": {
-  "graded_at": "2026-11-20T07:10:21.251579+00:00",
+  "graded_at": "2026-11-27T07:20:19.031693+00:00",
   "grades": {
    "dota2": {
     "avg_price": 0.849,
