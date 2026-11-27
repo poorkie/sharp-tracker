@@ -1,18 +1,18 @@
 # Sharp Tracker: graded record
 
-Updated 2026-11-27 18:50 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
+Updated 2026-11-27 19:00 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
 
 ## Overall
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
-| All alerts | 46-53 | -15.53u | -15.7% | -0.3¢ | 32% | 3 |
+| All alerts | 46-53 | -15.53u | -15.7% | -0.3¢ | 32% | 4 |
 
 ## By signal
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
 | CONSENSUS | 5-5 | -1.90u | -19.0% | +0.4¢ | 30% | 0 |
 | ELITE | 9-12 | -5.00u | -23.8% | -0.6¢ | 29% | 0 |
-| ELITE_CONSENSUS | 32-36 | -8.63u | -12.7% | -0.2¢ | 34% | 3 |
+| ELITE_CONSENSUS | 32-36 | -8.63u | -12.7% | -0.2¢ | 34% | 4 |
 
 ## By sport
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
@@ -21,7 +21,7 @@ Updated 2026-11-27 18:50 UTC. Every alert is logged at the price when it fired a
 | CBB | 0-1 | -1.00u | -100.0% | +0.0¢ | 0% | 0 |
 | CFB | 1-0 | +1.60u | +159.7% | +4.0¢ | 100% | 0 |
 | LOL | 1-0 | +1.67u | +166.7% | +1.0¢ | 100% | 0 |
-| NBA | 21-24 | -6.71u | -14.9% | -0.6¢ | 38% | 3 |
+| NBA | 21-24 | -6.71u | -14.9% | -0.6¢ | 38% | 4 |
 | NFL | 19-21 | -8.50u | -21.2% | -0.2¢ | 22% | 0 |
 | NHL | 1-7 | -6.06u | -75.7% | +0.4¢ | 38% | 0 |
 | WTA | 1-0 | +1.53u | +153.2% | +0.0¢ | 0% | 0 |
@@ -29,7 +29,8 @@ Updated 2026-11-27 18:50 UTC. Every alert is logged at the price when it fired a
 ## Last 50 alerts
 | Alerted (UTC) | Sport | Pick | Entry | Close | Books fair | Sharps | Result |
 |---|---|---|---|---|---|---|---|
-| 2026-11-27 18:30 | NBA | [Trail Blazers -9.5: Warriors vs. Trail Blazers](https://polymarket.com/event/nba-gsw-por-2026-11-27) | 0.51 | 0.42 | – | 5 / $4,031 | pending |
+| 2026-11-27 19:00 | NBA | [Mavericks +1.5: Mavericks vs. Suns](https://polymarket.com/event/nba-dal-phx-2026-11-27) | 0.48 | 0.48 | – | 5 / $5,405 | pending |
+| 2026-11-27 18:30 | NBA | [Trail Blazers -9.5: Warriors vs. Trail Blazers](https://polymarket.com/event/nba-gsw-por-2026-11-27) | 0.51 | 0.43 | – | 5 / $4,031 | pending |
 | 2026-11-27 12:20 | NBA | [Heat +3.5: Heat vs. Knicks](https://polymarket.com/event/nba-mia-nyk-2026-11-27) | 0.47 | 0.54 | – | 3 / $5,443 | pending |
 | 2026-11-27 02:40 | NBA | [Pacers: 76ers vs. Pacers](https://polymarket.com/event/nba-phi-ind-2026-11-27) | 0.41 | 0.40 | 42% | 3 / $3,126 | pending |
 | 2026-11-26 21:10 | NFL | [Cowboys: Eagles vs. Cowboys](https://polymarket.com/event/nfl-phi-dal-2026-11-26) | 0.80 | 0.80 | 79% | 3 / $20,610 | LOSS (-100) |
@@ -78,4 +79,3 @@ Updated 2026-11-27 18:50 UTC. Every alert is logged at the price when it fired a
 | 2026-11-16 18:40 | NBA | [Over 213.5: Magic vs. Celtics](https://polymarket.com/event/nba-orl-bos-2026-11-16) | 0.47 | 0.51 | – | 3 / $2,829 | WIN (+115) |
 | 2026-11-16 01:10 | NFL | [Under 48.5: Steelers vs. Bengals](https://polymarket.com/event/nfl-pit-cin-2026-11-16) | 0.47 | 0.47 | – | 1 / $5,033 | LOSS (-100) |
 | 2026-11-16 01:00 | NBA | [Kings +10.5: Thunder vs. Kings](https://polymarket.com/event/nba-okc-sac-2026-11-15) | 0.47 | 0.43 | – | 2 / $8,457 | LOSS (-100) |
-| 2026-11-16 00:50 | NFL | [Steelers +4.5: Steelers vs. Bengals](https://polymarket.com/event/nfl-pit-cin-2026-11-16) | 0.52 | 0.52 | – | 2 / $4,911 | LOSS (-100) |
