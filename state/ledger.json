@@ -4626,7 +4626,7 @@
   "alerted_at": "2026-11-27T12:20:26.643268+00:00",
   "book_fair": null,
   "books": [],
-  "close_price": 0.535,
+  "close_price": 0.505,
   "clv": null,
   "condition_id": "0xdf53aa7730fd3a8893b47ab9e7dd7b41aa0ec4ef962d46f26130b054506b493b",
   "entry_price": 0.475,
@@ -4717,5 +4717,29 @@
   "sharp_usd": 14726.66,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-lal-sas-2026-11-27"
+ },
+ {
+  "alerted_at": "2026-11-27T23:30:19.518924+00:00",
+  "book_fair": null,
+  "books": [],
+  "close_price": 0.495,
+  "clv": null,
+  "condition_id": "0x314e68624d16b0b48167cb35d354fbaff64e64b91552094748bbbdd5af469166",
+  "entry_price": 0.495,
+  "event_title": "Heat vs. Knicks",
+  "game_start": "2026-11-28T00:00:00+00:00",
+  "id": "0x314e6862-1-1795822219",
+  "kind": "ELITE_CONSENSUS",
+  "market_type": "totals",
+  "max_prob": 0.5342,
+  "n_wallets": 4,
+  "outcome": "Under 221.5",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Heat vs. Knicks: O/U 221.5",
+  "result": null,
+  "sharp_usd": 17575.96,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-mia-nyk-2026-11-27"
  }
 ]
