@@ -8658,8 +8658,8 @@
   "idx": 0,
   "market_type": "child_moneyline",
   "pick": "PARIVISION (Map 1)",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "dota2",
   "url": "https://polymarket.com/event/dota2-pari-liquid-2026-11-27",
   "venues": {
@@ -8667,6 +8667,7 @@
     "ask": 0.63,
     "ask_size": 971.49,
     "fee": 0.0163,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "PARIVISION",
     "ticker": "KXDOTA2MAP-26NOV270500PARILIQUID-1-PARI",
@@ -8675,6 +8676,7 @@
    "pmus": {
     "ask": 0.6,
     "market": "astatc-dota2-pari-liquid-2026-11-27-game1",
+    "pnl_100": -100.0,
     "raw_ask": 0.6,
     "raw_bid": 0.59,
     "side": 0,
@@ -8735,9 +8737,11 @@
   "elite_price": 0.33,
   "elite_roi": 0.1052,
   "elite_ts": "2026-11-27T11:05:46+00:00",
-  "elite_usd": 2002.19,
+  "elite_usd": 23661.04,
   "elite_wallets": [
-   "0x80bac5c17aec3f5b3d0f01166b639cd453a02e78"
+   "0x80bac5c17aec3f5b3d0f01166b639cd453a02e78",
+   "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1",
+   "0x40ce68f1564f3c751b12d88a393d8cc0651dbf90"
   ],
   "event_title": "Dota 2: PARIVISION vs Team Liquid (BO3) - BLAST Slam Playoffs",
   "fill_price": 0.35,
