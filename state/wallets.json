@@ -142147,6 +142147,24 @@
   "graded_at": "2026-11-20T22:10:17.485058+00:00",
   "grades": {}
  },
+ "0x6cc1967ec65b586c92125870ff9b5dec21d2c13f": {
+  "graded_at": "2026-11-27T10:20:18.755334+00:00",
+  "grades": {
+   "epl": {
+    "avg_price": 0.389,
+    "hit_edge": 0.111,
+    "hit_rate": 0.5,
+    "n": 4,
+    "pnl": -7821.17,
+    "roi": -0.1296,
+    "shrunk_roi": -0.0391,
+    "sport": "epl",
+    "staked": 60326.96,
+    "t_stat": 0.29,
+    "tier": "NONE"
+   }
+  }
+ },
  "0x6d11cd749eb59c8ffa6d38be80ad0ad0a255c449": {
   "fp": [
    "8b9947b2:680",
