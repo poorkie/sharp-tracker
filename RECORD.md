@@ -1,24 +1,24 @@
 # Sharp Tracker: graded record
 
-Updated 2026-11-27 00:00 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
+Updated 2026-11-27 00:10 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
 
 ## Overall
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
-| All alerts | 46-51 | -13.53u | -14.0% | -0.3¢ | 33% | 2 |
+| All alerts | 46-52 | -14.53u | -14.8% | -0.3¢ | 33% | 1 |
 
 ## By signal
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
 | CONSENSUS | 5-5 | -1.90u | -19.0% | +0.4¢ | 30% | 0 |
 | ELITE | 9-12 | -5.00u | -23.8% | -0.6¢ | 29% | 0 |
-| ELITE_CONSENSUS | 32-34 | -6.63u | -10.0% | -0.2¢ | 35% | 2 |
+| ELITE_CONSENSUS | 32-35 | -7.63u | -11.4% | -0.2¢ | 34% | 1 |
 
 ## By sport
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
 | ATP | 2-0 | +1.94u | +97.0% | +1.8¢ | 50% | 0 |
-| CBB | 0-0 | +0.00u | +0.0% | +0.0¢ | 0% | 1 |
+| CBB | 0-1 | -1.00u | -100.0% | +0.0¢ | 0% | 0 |
 | CFB | 1-0 | +1.60u | +159.7% | +4.0¢ | 100% | 0 |
 | LOL | 1-0 | +1.67u | +166.7% | +1.0¢ | 100% | 0 |
 | NBA | 21-24 | -6.71u | -14.9% | -0.6¢ | 38% | 0 |
@@ -30,7 +30,7 @@ Updated 2026-11-27 00:00 UTC. Every alert is logged at the price when it fired a
 | Alerted (UTC) | Sport | Pick | Entry | Close | Books fair | Sharps | Result |
 |---|---|---|---|---|---|---|---|
 | 2026-11-26 21:10 | NFL | [Cowboys: Eagles vs. Cowboys](https://polymarket.com/event/nfl-phi-dal-2026-11-26) | 0.80 | 0.80 | 79% | 3 / $20,610 | pending |
-| 2026-11-26 19:20 | CBB | [Georgetown Hoyas: Georgetown Hoyas vs. Texas Longhorns](https://polymarket.com/event/cbb-george-tx-2026-11-26) | 0.24 | 0.24 | 24% | 3 / $2,573 | pending |
+| 2026-11-26 19:20 | CBB | [Georgetown Hoyas: Georgetown Hoyas vs. Texas Longhorns](https://polymarket.com/event/cbb-george-tx-2026-11-26) | 0.24 | 0.24 | 24% | 3 / $2,573 | LOSS (-100) |
 | 2026-11-26 00:00 | NFL | [Lions: Bears vs. Lions](https://polymarket.com/event/nfl-chi-det-2026-11-26) | 0.47 | 0.49 | 48% | 4 / $7,021 | LOSS (-100) |
 | 2026-11-25 19:40 | NBA | [Rockets: Suns vs. Rockets](https://polymarket.com/event/nba-phx-hou-2026-11-25) | 0.78 | 0.77 | 77% | 3 / $5,703 | WIN (+29) |
 | 2026-11-25 14:20 | NFL | [Packers: Packers vs. Rams](https://polymarket.com/event/nfl-gb-la-2026-11-26) | 0.43 | 0.45 | 45% | 3 / $15,758 | LOSS (-100) |

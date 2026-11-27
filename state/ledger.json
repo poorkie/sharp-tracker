@@ -4454,7 +4454,7 @@
    }
   ],
   "close_price": 0.245,
-  "clv": null,
+  "clv": 0.0,
   "condition_id": "0xd63eca3309df3c892e57a9aaa7bc380ea67bb3d4c4ca052c28f1ab14a59a4c23",
   "entry_price": 0.245,
   "event_title": "Georgetown Hoyas vs. Texas Longhorns",
@@ -4464,6 +4464,7 @@
   "lock": {
    "at": "2026-11-26T19:20:17.919082+00:00",
    "late": false,
+   "pnl_100": -100.0,
    "price": 0.245,
    "reason": "Elite still in",
    "rule": 2,
@@ -4474,9 +4475,9 @@
   "n_wallets": 3,
   "outcome": "Georgetown Hoyas",
   "outcome_index": 0,
-  "pnl_100": null,
+  "pnl_100": -100.0,
   "question": "Georgetown Hoyas vs. Texas Longhorns",
-  "result": null,
+  "result": "LOSS",
   "sharp_usd": 2572.93,
   "sport": "cbb",
   "url": "https://polymarket.com/event/cbb-george-tx-2026-11-26"
