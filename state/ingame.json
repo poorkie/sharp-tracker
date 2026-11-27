@@ -8726,5 +8726,49 @@
     "url": "https://polymarket.us/event/dota2-pari-liquid-2026-11-27"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-27T11:10:20.664473+00:00",
+  "cid": "0x7c4a52c99cf5423f15e6ecc2cccfb488fed6a939efadf55d01f4fa3d8cd560cd",
+  "delay_s": 274,
+  "elite_n": 1043,
+  "elite_price": 0.33,
+  "elite_roi": 0.1052,
+  "elite_ts": "2026-11-27T11:05:46+00:00",
+  "elite_usd": 2002.19,
+  "elite_wallets": [
+   "0x80bac5c17aec3f5b3d0f01166b639cd453a02e78"
+  ],
+  "event_title": "Dota 2: PARIVISION vs Team Liquid (BO3) - BLAST Slam Playoffs",
+  "fill_price": 0.35,
+  "fill_usd_available": 31781.64,
+  "id": "0x7c4a52c9-1-1795777820",
+  "idx": 1,
+  "market_type": "child_moneyline",
+  "pick": "Team Liquid (Map 2)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-pari-liquid-2026-11-27",
+  "venues": {
+   "kalshi": {
+    "ask": 0.33,
+    "ask_size": 27.0,
+    "fee": 0.0155,
+    "status": "ok",
+    "team": "Team Liquid",
+    "ticker": "KXDOTA2MAP-26NOV270500PARILIQUID-2-LIQUID",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "ask": 0.34,
+    "market": "astatc-dota2-pari-liquid-2026-11-27-game2",
+    "raw_ask": 0.67,
+    "raw_bid": 0.66,
+    "side": 1,
+    "status": "ok",
+    "url": "https://polymarket.us/event/dota2-pari-liquid-2026-11-27"
+   }
+  }
  }
 ]
