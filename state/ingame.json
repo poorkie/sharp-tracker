@@ -8563,5 +8563,78 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-27T00:50:17.869982+00:00",
+  "cid": "0xdf05cce807c9dbe08deb140195940d5e747d2fdfb9007d87e79af47ff3624dde",
+  "delay_s": 383,
+  "elite_n": 177,
+  "elite_price": 0.5401,
+  "elite_roi": 0.1585,
+  "elite_ts": "2026-11-27T00:43:54+00:00",
+  "elite_usd": 359.44,
+  "elite_wallets": [
+   "0xe2160eb837cd17de5915d460b1d69b5ba2ac7448"
+  ],
+  "event_title": "LSU Tigers vs. SMU Mustangs",
+  "fill_price": 0.43,
+  "fill_usd_available": 592.74,
+  "id": "0xdf05cce8-0-1795740617",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "LSU Tigers",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-lsu-smu-2026-11-26",
+  "venues": {
+   "kalshi": {
+    "ask": 0.42,
+    "ask_size": 2933.26,
+    "fee": 0.0171,
+    "status": "ok",
+    "team": "LSU",
+    "ticker": "KXNCAAMBGAME-26NOV26SMULSU-LSU",
+    "url": "https://kalshi.com/markets/kxncaambgame"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/cbb-lsu-smu-2026-11-26",
+    "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-27T00:50:17.869982+00:00",
+  "cid": "0x89c56a501609d5547ca131da09be6a0c0bd18950c1e88074cd019b76ee769317",
+  "delay_s": 179,
+  "elite_n": 162,
+  "elite_price": 0.39,
+  "elite_roi": 0.1112,
+  "elite_ts": "2026-11-27T00:47:18+00:00",
+  "elite_usd": 246.48,
+  "elite_wallets": [
+   "0xaacac528e8af87ca25809824b384e169b558f5d5"
+  ],
+  "event_title": "Playford: Christian Langmo vs Matthew Dellavedova",
+  "fill_price": 0.42,
+  "fill_usd_available": 202.66,
+  "id": "0x89c56a50-1-1795740617",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Matthew Dellavedova",
+  "pnl_100": null,
+  "result": null,
+  "sport": "atp",
+  "url": "https://polymarket.com/event/atp-langmo-dellave-2026-11-26",
+  "venues": {
+   "kalshi": {
+    "reason": "game not found open on Kalshi",
+    "status": "no_match"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/atp-langmo-dellave-2026-11-26",
+    "status": "not_listed"
+   }
+  }
  }
 ]
