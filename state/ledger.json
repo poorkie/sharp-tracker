@@ -4603,7 +4603,7 @@
    }
   ],
   "close_price": 0.385,
-  "clv": null,
+  "clv": -0.03,
   "condition_id": "0xf93a4fe832882479c324e6166050540c9184d9cc3c18bac675a1504b4662c297",
   "entry_price": 0.415,
   "event_title": "76ers vs. Pacers",
@@ -4613,6 +4613,7 @@
   "lock": {
    "at": "2026-11-28T00:20:19.148939+00:00",
    "late": false,
+   "pnl_100": -100.0,
    "price": 0.385,
    "reason": "Elite still in",
    "rule": 2,
@@ -4623,9 +4624,9 @@
   "n_wallets": 3,
   "outcome": "Pacers",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": -100.0,
   "question": "76ers vs. Pacers",
-  "result": null,
+  "result": "LOSS",
   "sharp_usd": 3126.01,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-phi-ind-2026-11-27"
