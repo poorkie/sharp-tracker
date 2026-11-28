@@ -4701,7 +4701,7 @@
   "book_fair": null,
   "books": [],
   "close_price": 0.415,
-  "clv": null,
+  "clv": -0.07,
   "condition_id": "0xaee0f74791bfb71a3dbe6e8a0362610e65add99ce289c757311832931b4e4e8b",
   "entry_price": 0.485,
   "event_title": "Mavericks vs. Suns",
@@ -4711,6 +4711,7 @@
   "lock": {
    "at": "2026-11-28T01:50:25.764650+00:00",
    "late": false,
+   "pnl_100": 140.96,
    "price": 0.415,
    "reason": "Elite still in",
    "rule": 2,
@@ -4721,9 +4722,9 @@
   "n_wallets": 5,
   "outcome": "Mavericks +1.5",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": 106.19,
   "question": "Spread: Suns (-1.5)",
-  "result": null,
+  "result": "WIN",
   "sharp_usd": 5405.06,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-dal-phx-2026-11-27"
