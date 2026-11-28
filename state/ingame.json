@@ -9743,5 +9743,49 @@
     "url": "https://polymarket.us/event/dota2-ty-liquid-2026-11-28"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-28T12:20:27.576876+00:00",
+  "cid": "0x640d964b2899d1b7dab166e4bf7a83ffe57e33001f79e4b3a15139ae33ba928f",
+  "delay_s": 332,
+  "elite_n": 74,
+  "elite_price": 0.61,
+  "elite_roi": 0.2736,
+  "elite_ts": "2026-11-28T12:14:55+00:00",
+  "elite_usd": 915.0,
+  "elite_wallets": [
+   "0xecc1a819084d80c7e53191eb2a59c1f6c2589717"
+  ],
+  "event_title": "Dota 2: Team Yandex vs Team Liquid (BO3) - BLAST Slam Playoffs",
+  "fill_price": 0.61,
+  "fill_usd_available": 2387.14,
+  "id": "0x640d964b-0-1795868427",
+  "idx": 0,
+  "market_type": "child_moneyline",
+  "pick": "Team Yandex (Map 2)",
+  "pnl_100": null,
+  "result": null,
+  "sport": "dota2",
+  "url": "https://polymarket.com/event/dota2-ty-liquid-2026-11-28",
+  "venues": {
+   "kalshi": {
+    "ask": 0.61,
+    "ask_size": 556.0,
+    "fee": 0.0167,
+    "status": "ok",
+    "team": "Team Yandex",
+    "ticker": "KXDOTA2MAP-26NOV280630LIQUIDTY-2-TY",
+    "url": "https://kalshi.com/markets/kxdota2map"
+   },
+   "pmus": {
+    "ask": 0.62,
+    "market": "astatc-dota2-ty-liquid-2026-11-28-game2",
+    "raw_ask": 0.62,
+    "raw_bid": 0.61,
+    "side": 0,
+    "status": "ok",
+    "url": "https://polymarket.us/event/dota2-ty-liquid-2026-11-28"
+   }
+  }
  }
 ]
