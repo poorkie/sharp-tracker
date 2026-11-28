@@ -4674,6 +4674,14 @@
   "game_start": "2026-11-28T02:30:00+00:00",
   "id": "0xcea0081e-0-1795804221",
   "kind": "ELITE_CONSENSUS",
+  "lock": {
+   "at": "2026-11-28T02:20:16.471912+00:00",
+   "late": false,
+   "price": 0.475,
+   "reason": "Elite still in",
+   "rule": 2,
+   "verdict": "PLAY"
+  },
   "market_type": "spreads",
   "max_prob": 0.5158,
   "n_wallets": 5,
@@ -4730,6 +4738,14 @@
   "game_start": "2026-11-28T02:30:00+00:00",
   "id": "0x2bceacd2-1-1795807229",
   "kind": "ELITE_CONSENSUS",
+  "lock": {
+   "at": "2026-11-28T02:20:16.471912+00:00",
+   "late": false,
+   "price": 0.455,
+   "reason": "Elite still in",
+   "rule": 2,
+   "verdict": "PLAY"
+  },
   "market_type": "spreads",
   "max_prob": 0.52,
   "n_wallets": 4,
