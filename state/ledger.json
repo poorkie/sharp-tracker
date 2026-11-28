@@ -4765,5 +4765,83 @@
   "sharp_usd": 17575.96,
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-mia-nyk-2026-11-27"
+ },
+ {
+  "alerted_at": "2026-11-28T00:50:27.322657+00:00",
+  "book_fair": 0.5444,
+  "books": [
+   {
+    "book": "LowVig.ag",
+    "price": -122,
+    "prob": 0.5495
+   },
+   {
+    "book": "BetOnline.ag",
+    "price": -122,
+    "prob": 0.5495
+   },
+   {
+    "book": "BetUS",
+    "price": -130,
+    "prob": 0.5652
+   },
+   {
+    "book": "DraftKings",
+    "price": -130,
+    "prob": 0.5652
+   },
+   {
+    "book": "FanDuel",
+    "price": -132,
+    "prob": 0.569
+   },
+   {
+    "book": "MyBookie.ag",
+    "price": -134,
+    "prob": 0.5726
+   },
+   {
+    "book": "BetMGM",
+    "price": -135,
+    "prob": 0.5745
+   },
+   {
+    "book": "Bovada",
+    "price": -135,
+    "prob": 0.5745
+   },
+   {
+    "book": "BetRivers",
+    "price": -139,
+    "prob": 0.5816
+   }
+  ],
+  "close_price": 0.535,
+  "clv": null,
+  "condition_id": "0x4032393acfef98fe2799d099b1acf9a09314e7367288260d3f6709382b7c787c",
+  "entry_price": 0.535,
+  "event_title": "Penguins vs. Sabres",
+  "game_start": "2026-11-28T01:00:00+00:00",
+  "id": "0x4032393a-1-1795827027",
+  "kind": "ELITE_CONSENSUS",
+  "lock": {
+   "at": "2026-11-28T00:50:27.322657+00:00",
+   "late": false,
+   "price": 0.535,
+   "reason": "Elite still in",
+   "rule": 2,
+   "verdict": "PLAY"
+  },
+  "market_type": "moneyline",
+  "max_prob": 0.5947,
+  "n_wallets": 3,
+  "outcome": "Sabres",
+  "outcome_index": 1,
+  "pnl_100": null,
+  "question": "Penguins vs. Sabres",
+  "result": null,
+  "sharp_usd": 6261.14,
+  "sport": "nhl",
+  "url": "https://polymarket.com/event/nhl-pit-buf-2026-11-27"
  }
 ]
