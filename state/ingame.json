@@ -9593,8 +9593,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "Suns",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-dal-phx-2026-11-27",
   "venues": {
@@ -9602,6 +9602,7 @@
     "ask": 0.46,
     "ask_size": 7355.71,
     "fee": 0.0174,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "Phoenix",
     "ticker": "KXNBAGAME-26NOV27DALPHX-PHX",
@@ -9609,6 +9610,45 @@
    },
    "pmus": {
     "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/nba-dal-phx-2026-11-27",
+    "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-28T04:50:19.003417+00:00",
+  "cid": "0x012a84c4ead01cabff66df01d58f95cd10bc1909443a5ebfd0834338cce2f679",
+  "delay_s": -12,
+  "elite_n": 323,
+  "elite_price": 0.03,
+  "elite_roi": 0.1765,
+  "elite_ts": "2026-11-28T04:50:31+00:00",
+  "elite_usd": 352.71,
+  "elite_wallets": [
+   "0x72638c8d939fd0205925025b1183d8db4a360851"
+  ],
+  "event_title": "Pelicans vs. Clippers",
+  "fill_price": 0.06,
+  "fill_usd_available": 4492.68,
+  "id": "0x012a84c4-1-1795841419",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Clippers",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-nop-lac-2026-11-27",
+  "venues": {
+   "kalshi": {
+    "ask": 0.06,
+    "ask_size": 160187.35,
+    "fee": 0.0039,
+    "status": "ok",
+    "team": "Los Angeles C",
+    "ticker": "KXNBAGAME-26NOV27NOPLAC-LAC",
+    "url": "https://kalshi.com/markets/kxnbagame"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/nba-nop-lac-2026-11-27",
     "status": "not_listed"
    }
   }
