@@ -9501,8 +9501,8 @@
   "idx": 0,
   "market_type": "moneyline",
   "pick": "Grizzlies",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 244.83,
+  "result": "WIN",
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-mem-min-2026-11-27",
   "venues": {
@@ -9510,6 +9510,7 @@
     "ask": 0.29,
     "ask_size": 8618.0,
     "fee": 0.0144,
+    "pnl_100": 228.52,
     "status": "ok",
     "team": "Memphis",
     "ticker": "KXNBAGAME-26NOV27MEMMIN-MEM",
@@ -9518,6 +9519,7 @@
    "pmus": {
     "ask": 0.29,
     "market": "aec-nba-mem-min-2026-11-27",
+    "pnl_100": 244.83,
     "raw_ask": 0.29,
     "raw_bid": 0.28,
     "side": 0,

@@ -1,18 +1,18 @@
 # Sharp Tracker: graded record
 
-Updated 2026-11-28 04:00 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
+Updated 2026-11-28 04:10 UTC. Every alert is logged at the price when it fired and graded automatically, losses included. CLV = price at game start minus alert price; consistently positive CLV is the strongest sign of real edge.
 
 ## Overall
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
-| All alerts | 48-54 | -14.41u | -14.1% | -0.2¢ | 33% | 4 |
+| All alerts | 48-55 | -15.41u | -15.0% | -0.2¢ | 33% | 3 |
 
 ## By signal
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
 |---|---|---|---|---|---|---|
 | CONSENSUS | 5-5 | -1.90u | -19.0% | +0.4¢ | 30% | 0 |
 | ELITE | 9-12 | -5.00u | -23.8% | -0.6¢ | 29% | 0 |
-| ELITE_CONSENSUS | 34-37 | -7.50u | -10.6% | -0.2¢ | 35% | 4 |
+| ELITE_CONSENSUS | 34-38 | -8.50u | -11.8% | -0.2¢ | 35% | 3 |
 
 ## By sport
 | | Record | Units ($100 = 1u) | ROI | Avg CLV | Beat close | Pending |
@@ -23,13 +23,13 @@ Updated 2026-11-28 04:00 UTC. Every alert is logged at the price when it fired a
 | LOL | 1-0 | +1.67u | +166.7% | +1.0¢ | 100% | 0 |
 | NBA | 23-25 | -5.59u | -11.6% | -0.5¢ | 40% | 3 |
 | NFL | 19-21 | -8.50u | -21.2% | -0.2¢ | 22% | 0 |
-| NHL | 1-7 | -6.06u | -75.7% | +0.4¢ | 38% | 1 |
+| NHL | 1-8 | -7.06u | -78.4% | +0.3¢ | 33% | 0 |
 | WTA | 1-0 | +1.53u | +153.2% | +0.0¢ | 0% | 0 |
 
 ## Last 50 alerts
 | Alerted (UTC) | Sport | Pick | Entry | Close | Books fair | Sharps | Result |
 |---|---|---|---|---|---|---|---|
-| 2026-11-28 00:50 | NHL | [Sabres: Penguins vs. Sabres](https://polymarket.com/event/nhl-pit-buf-2026-11-27) | 0.54 | 0.54 | 54% | 3 / $6,261 | pending |
+| 2026-11-28 00:50 | NHL | [Sabres: Penguins vs. Sabres](https://polymarket.com/event/nhl-pit-buf-2026-11-27) | 0.54 | 0.54 | 54% | 3 / $6,261 | LOSS (-100) |
 | 2026-11-27 23:30 | NBA | [Under 221.5: Heat vs. Knicks](https://polymarket.com/event/nba-mia-nyk-2026-11-27) | 0.49 | 0.51 | – | 4 / $17,576 | WIN (+102) |
 | 2026-11-27 19:20 | NBA | [Lakers +5.5: Lakers vs. Spurs](https://polymarket.com/event/nba-lal-sas-2026-11-27) | 0.47 | 0.46 | – | 4 / $14,727 | pending |
 | 2026-11-27 19:00 | NBA | [Mavericks +1.5: Mavericks vs. Suns](https://polymarket.com/event/nba-dal-phx-2026-11-27) | 0.48 | 0.41 | – | 5 / $5,405 | pending |

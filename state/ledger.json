@@ -4844,7 +4844,7 @@
    }
   ],
   "close_price": 0.535,
-  "clv": null,
+  "clv": 0.0,
   "condition_id": "0x4032393acfef98fe2799d099b1acf9a09314e7367288260d3f6709382b7c787c",
   "entry_price": 0.535,
   "event_title": "Penguins vs. Sabres",
@@ -4854,6 +4854,7 @@
   "lock": {
    "at": "2026-11-28T00:50:27.322657+00:00",
    "late": false,
+   "pnl_100": -100.0,
    "price": 0.535,
    "reason": "Elite still in",
    "rule": 2,
@@ -4864,9 +4865,9 @@
   "n_wallets": 3,
   "outcome": "Sabres",
   "outcome_index": 1,
-  "pnl_100": null,
+  "pnl_100": -100.0,
   "question": "Penguins vs. Sabres",
-  "result": null,
+  "result": "LOSS",
   "sharp_usd": 6261.14,
   "sport": "nhl",
   "url": "https://polymarket.com/event/nhl-pit-buf-2026-11-27"
