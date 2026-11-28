@@ -9417,8 +9417,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "Spurs",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": 69.49,
+  "result": "WIN",
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-lal-sas-2026-11-27",
   "venues": {
@@ -9426,6 +9426,7 @@
     "ask": 0.59,
     "ask_size": 223862.39,
     "fee": 0.0169,
+    "pnl_100": 64.77,
     "status": "ok",
     "team": "San Antonio",
     "ticker": "KXNBAGAME-26NOV27LALSAS-SAS",
@@ -9652,6 +9653,45 @@
    },
    "pmus": {
     "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/nba-nop-lac-2026-11-27",
+    "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-28T05:30:27.731589+00:00",
+  "cid": "0xa0ee553e5f518fa3bcfe3f801910d9eb8951b73d4223df78c5cd619b614abdff",
+  "delay_s": -50,
+  "elite_n": 42,
+  "elite_price": 0.5,
+  "elite_roi": 0.1739,
+  "elite_ts": "2026-11-28T05:31:17+00:00",
+  "elite_usd": 1500.0,
+  "elite_wallets": [
+   "0x760907c8840491c8c86fddb843d3f1d801786c4e"
+  ],
+  "event_title": "Creighton Bluejays vs. Gonzaga Bulldogs",
+  "fill_price": 0.5,
+  "fill_usd_available": 77.99,
+  "id": "0xa0ee553e-0-1795843827",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Creighton Bluejays",
+  "pnl_100": null,
+  "result": null,
+  "sport": "cbb",
+  "url": "https://polymarket.com/event/cbb-creigh-gnzg-2026-11-27",
+  "venues": {
+   "kalshi": {
+    "ask": 0.49,
+    "ask_size": 2087.67,
+    "fee": 0.0175,
+    "status": "ok",
+    "team": "Creighton",
+    "ticker": "KXNCAAMBGAME-26NOV27CREIGONZ-CREI",
+    "url": "https://kalshi.com/markets/kxncaambgame"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/cbb-creigh-gnzg-2026-11-27",
     "status": "not_listed"
    }
   }
