@@ -9300,5 +9300,49 @@
     "status": "not_listed"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-28T01:20:16.569913+00:00",
+  "cid": "0x556075048ecff61d47f5056ec9ca8b6a08df39f0de51d5f90c0314e36ca12757",
+  "delay_s": 194,
+  "elite_n": 111,
+  "elite_price": 0.74,
+  "elite_roi": 0.3076,
+  "elite_ts": "2026-11-28T01:17:02+00:00",
+  "elite_usd": 554.98,
+  "elite_wallets": [
+   "0xdbdd45150249e229eb4ca8aa48a30dca21faa5de"
+  ],
+  "event_title": "Nets vs. Raptors",
+  "fill_price": 0.86,
+  "fill_usd_available": 88969.75,
+  "id": "0x55607504-1-1795828816",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Raptors",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-bkn-tor-2026-11-27",
+  "venues": {
+   "kalshi": {
+    "ask": 0.86,
+    "ask_size": 120775.47,
+    "fee": 0.0084,
+    "status": "ok",
+    "team": "Toronto",
+    "ticker": "KXNBAGAME-26NOV27BKNTOR-TOR",
+    "url": "https://kalshi.com/markets/kxnbagame"
+   },
+   "pmus": {
+    "ask": 0.86,
+    "market": "aec-nba-bkn-tor-2026-11-27",
+    "raw_ask": 0.15,
+    "raw_bid": 0.14,
+    "side": 1,
+    "status": "ok",
+    "url": "https://polymarket.us/event/nba-bkn-tor-2026-11-27"
+   }
+  }
  }
 ]
