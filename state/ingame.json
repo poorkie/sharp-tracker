@@ -9572,5 +9572,44 @@
     "url": "https://polymarket.us/event/nba-den-uta-2026-11-27"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-28T04:20:18.461774+00:00",
+  "cid": "0x16bdda14984f1fe5334e982a9a1429a2c973dd9e8b4b1c0526543d4442956ecd",
+  "delay_s": -82,
+  "elite_n": 626,
+  "elite_price": 0.5765,
+  "elite_roi": 0.084,
+  "elite_ts": "2026-11-28T04:21:40+00:00",
+  "elite_usd": 268.0,
+  "elite_wallets": [
+   "0x0c99d9f172fc4c25fd2aa92f9fc272da5f020c88"
+  ],
+  "event_title": "Mavericks vs. Suns",
+  "fill_price": 0.45,
+  "fill_usd_available": 396.0,
+  "id": "0x16bdda14-1-1795839618",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Suns",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-dal-phx-2026-11-27",
+  "venues": {
+   "kalshi": {
+    "ask": 0.46,
+    "ask_size": 7355.71,
+    "fee": 0.0174,
+    "status": "ok",
+    "team": "Phoenix",
+    "ticker": "KXNBAGAME-26NOV27DALPHX-PHX",
+    "url": "https://kalshi.com/markets/kxnbagame"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/nba-dal-phx-2026-11-27",
+    "status": "not_listed"
+   }
+  }
  }
 ]
