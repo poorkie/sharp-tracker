@@ -177322,6 +177322,24 @@
    }
   }
  },
+ "0x8453ee26d1797921ee3c7b0bea40e1ee2dd50db2": {
+  "graded_at": "2026-11-28T11:20:17.125645+00:00",
+  "grades": {
+   "nba": {
+    "avg_price": 0.24,
+    "hit_edge": -0.24,
+    "hit_rate": 0.0,
+    "n": 1,
+    "pnl": -144.0,
+    "roi": -0.6,
+    "shrunk_roi": -0.0439,
+    "sport": "nba",
+    "staked": 240.0,
+    "t_stat": 0.0,
+    "tier": "NONE"
+   }
+  }
+ },
  "0x8453f6aa62cba5e5302f501849ffaf83dff2ecc3": {
   "graded_at": "2026-11-26T20:00:22.331693+00:00",
   "grades": {
@@ -256300,8 +256318,34 @@
   }
  },
  "0xbfaf95be2231a1ba0556bc340bb49d544984acd1": {
-  "graded_at": "2026-11-21T11:10:19.540156+00:00",
+  "graded_at": "2026-11-28T11:20:17.125645+00:00",
   "grades": {
+   "epl": {
+    "avg_price": 0.606,
+    "hit_edge": -0.606,
+    "hit_rate": 0.0,
+    "n": 2,
+    "pnl": -2207.92,
+    "roi": -0.2659,
+    "shrunk_roi": -0.0412,
+    "sport": "epl",
+    "staked": 8304.87,
+    "t_stat": -1.35,
+    "tier": "NONE"
+   },
+   "nhl": {
+    "avg_price": 0.56,
+    "hit_edge": -0.56,
+    "hit_rate": 0.0,
+    "n": 1,
+    "pnl": -2303.55,
+    "roi": -1.0222,
+    "shrunk_roi": -0.0542,
+    "sport": "nhl",
+    "staked": 2253.57,
+    "t_stat": 0.0,
+    "tier": "NONE"
+   },
    "wta": {
     "avg_price": 0.895,
     "hit_edge": -0.895,
@@ -294322,6 +294366,37 @@
     "sport": "wta",
     "staked": 3788.02,
     "t_stat": -0.34,
+    "tier": "NONE"
+   }
+  }
+ },
+ "0xdc0c10f8a06444274b09537a9d5884dfb3ad4a2d": {
+  "graded_at": "2026-11-28T11:20:17.125645+00:00",
+  "grades": {
+   "epl": {
+    "avg_price": 0.21,
+    "hit_edge": -0.21,
+    "hit_rate": 0.0,
+    "n": 1,
+    "pnl": -28.57,
+    "roi": -0.1429,
+    "shrunk_roi": -0.0328,
+    "sport": "epl",
+    "staked": 199.9,
+    "t_stat": 0.0,
+    "tier": "NONE"
+   },
+   "nba": {
+    "avg_price": 0.542,
+    "hit_edge": 0.058,
+    "hit_rate": 0.6,
+    "n": 5,
+    "pnl": 7602.23,
+    "roi": 0.6183,
+    "shrunk_roi": 0.042,
+    "sport": "nba",
+    "staked": 12295.3,
+    "t_stat": 0.08,
     "tier": "NONE"
    }
   }
