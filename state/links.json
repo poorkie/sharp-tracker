@@ -37,6 +37,13 @@
  },
  {
   "a": "0x21f333307ac6d2e65ac82f014b3dd2b64cbc35e3",
+  "b": "0x5213eb85fcd465c8927a8382f95dd2dc22306a35",
+  "both": 7,
+  "together": 6,
+  "why": "same timing"
+ },
+ {
+  "a": "0x21f333307ac6d2e65ac82f014b3dd2b64cbc35e3",
   "b": "0x72638c8d939fd0205925025b1183d8db4a360851",
   "both": 11,
   "together": 9,
@@ -108,8 +115,8 @@
  {
   "a": "0x5213eb85fcd465c8927a8382f95dd2dc22306a35",
   "b": "0xeaac36f714563e13d88db7a4f0a0898388f2d71d",
-  "both": 13,
-  "together": 12,
+  "both": 14,
+  "together": 13,
   "why": "same timing"
  },
  {
