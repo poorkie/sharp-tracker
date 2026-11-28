@@ -9346,5 +9346,132 @@
     "url": "https://polymarket.us/event/nba-bkn-tor-2026-11-27"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-28T02:50:16.937471+00:00",
+  "cid": "0xa7c766a4e39c93fbf9c6f32a9993b6c416a31392e2b4f6bd7b940529746b333a",
+  "delay_s": 459,
+  "elite_n": 426,
+  "elite_price": 0.8821,
+  "elite_roi": 0.1147,
+  "elite_ts": "2026-11-28T02:42:37+00:00",
+  "elite_usd": 333.42,
+  "elite_wallets": [
+   "0xfc0847fe2ea938d6e2624650eb29ef8d8142a137"
+  ],
+  "event_title": "Kraken vs. Oilers",
+  "fill_price": 0.79,
+  "fill_usd_available": 40401.22,
+  "id": "0xa7c766a4-1-1795834216",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Oilers",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nhl",
+  "url": "https://polymarket.com/event/nhl-sea-edm-2026-11-27",
+  "venues": {
+   "kalshi": {
+    "ask": 0.62,
+    "ask_size": 8086.59,
+    "fee": 0.0165,
+    "status": "ok",
+    "team": "Edmonton",
+    "ticker": "KXNHLGAME-26NOV28EDMSEA-EDM",
+    "url": "https://kalshi.com/markets/kxnhlgame"
+   },
+   "pmus": {
+    "ask": 0.79,
+    "market": "aec-nhl-sea-edm-2026-11-27",
+    "raw_ask": 0.22,
+    "raw_bid": 0.21,
+    "side": 1,
+    "status": "ok",
+    "url": "https://polymarket.us/event/nhl-sea-edm-2026-11-27"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-28T02:50:16.937471+00:00",
+  "cid": "0xa0a1d391918df41b7a4dae06ac2a3be562422a30f045571eff842bbca4e50f4e",
+  "delay_s": 323,
+  "elite_n": 111,
+  "elite_price": 0.67,
+  "elite_roi": 0.3076,
+  "elite_ts": "2026-11-28T02:44:53+00:00",
+  "elite_usd": 502.51,
+  "elite_wallets": [
+   "0xdbdd45150249e229eb4ca8aa48a30dca21faa5de"
+  ],
+  "event_title": "Lakers vs. Spurs",
+  "fill_price": 0.59,
+  "fill_usd_available": 35222.5,
+  "id": "0xa0a1d391-1-1795834216",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Spurs",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-lal-sas-2026-11-27",
+  "venues": {
+   "kalshi": {
+    "ask": 0.59,
+    "ask_size": 223862.39,
+    "fee": 0.0169,
+    "status": "ok",
+    "team": "San Antonio",
+    "ticker": "KXNBAGAME-26NOV27LALSAS-SAS",
+    "url": "https://kalshi.com/markets/kxnbagame"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/nba-lal-sas-2026-11-27",
+    "status": "not_listed"
+   }
+  }
+ },
+ {
+  "alerted_at": "2026-11-28T02:50:16.937471+00:00",
+  "cid": "0x55f52a4222151c5d4691dc47cdf52df92a925e22f802626558b14cce6d4455e9",
+  "delay_s": 15,
+  "elite_n": 323,
+  "elite_price": 0.5416,
+  "elite_roi": 0.1765,
+  "elite_ts": "2026-11-28T02:50:01+00:00",
+  "elite_usd": 3790.93,
+  "elite_wallets": [
+   "0x72638c8d939fd0205925025b1183d8db4a360851"
+  ],
+  "event_title": "Hawks vs. Celtics",
+  "fill_price": 0.5,
+  "fill_usd_available": 1453.0,
+  "id": "0x55f52a42-1-1795834216",
+  "idx": 1,
+  "market_type": "moneyline",
+  "pick": "Celtics",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-atl-bos-2026-11-27",
+  "venues": {
+   "kalshi": {
+    "ask": 0.5,
+    "ask_size": 2.15,
+    "fee": 0.0175,
+    "status": "ok",
+    "team": "Boston",
+    "ticker": "KXNBAGAME-26NOV27ATLBOS-BOS",
+    "url": "https://kalshi.com/markets/kxnbagame"
+   },
+   "pmus": {
+    "ask": 0.5,
+    "market": "aec-nba-atl-bos-2026-11-27",
+    "raw_ask": 0.51,
+    "raw_bid": 0.5,
+    "side": 1,
+    "status": "ok",
+    "url": "https://polymarket.us/event/nba-atl-bos-2026-11-27"
+   }
+  }
  }
 ]
