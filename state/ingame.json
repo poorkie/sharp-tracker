@@ -9261,5 +9261,44 @@
     "url": "https://polymarket.us/event/nhl-nyr-chi-2026-11-27"
    }
   }
+ },
+ {
+  "alerted_at": "2026-11-28T00:40:21.068422+00:00",
+  "cid": "0x6556ae7178bfbdb828806ee82d09f965a2c1bb680bc7befad9a1ab9e7dbe5a3c",
+  "delay_s": -23,
+  "elite_n": 703,
+  "elite_price": 0.63,
+  "elite_roi": 0.0756,
+  "elite_ts": "2026-11-28T00:40:44+00:00",
+  "elite_usd": 4400.0,
+  "elite_wallets": [
+   "0xd6a3f0ec6c4a8ad680d580610c82ca57ff139489"
+  ],
+  "event_title": "Heat vs. Knicks",
+  "fill_price": 0.64,
+  "fill_usd_available": 2480.67,
+  "id": "0x6556ae71-0-1795826421",
+  "idx": 0,
+  "market_type": "moneyline",
+  "pick": "Heat",
+  "pnl_100": null,
+  "result": null,
+  "sport": "nba",
+  "url": "https://polymarket.com/event/nba-mia-nyk-2026-11-27",
+  "venues": {
+   "kalshi": {
+    "ask": 0.65,
+    "ask_size": 217836.7,
+    "fee": 0.0159,
+    "status": "ok",
+    "team": "Miami",
+    "ticker": "KXNBAGAME-26NOV27MIANYK-MIA",
+    "url": "https://kalshi.com/markets/kxnbagame"
+   },
+   "pmus": {
+    "reason": "404 Client Error: Not Found for url: https://gateway.polymarket.us/v1/events/slug/nba-mia-nyk-2026-11-27",
+    "status": "not_listed"
+   }
+  }
  }
 ]
