@@ -233033,19 +233033,19 @@
   }
  },
  "0xac715194f101aa682a63e56d979e58e6b2e40b92": {
-  "graded_at": "2026-11-21T04:40:15.998686+00:00",
+  "graded_at": "2026-11-28T04:41:09.921310+00:00",
   "grades": {
    "epl": {
-    "avg_price": 0.94,
-    "hit_edge": 0.06,
-    "hit_rate": 1.0,
-    "n": 3,
-    "pnl": 7828.33,
-    "roi": 0.0697,
-    "shrunk_roi": -0.023,
+    "avg_price": 0.815,
+    "hit_edge": -0.065,
+    "hit_rate": 0.75,
+    "n": 4,
+    "pnl": 5488.32,
+    "roi": 0.0479,
+    "shrunk_roi": -0.0229,
     "sport": "epl",
-    "staked": 112369.89,
-    "t_stat": 4.41,
+    "staked": 114645.65,
+    "t_stat": -0.76,
     "tier": "NONE"
    }
   }
