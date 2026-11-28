@@ -9635,8 +9635,8 @@
   "idx": 1,
   "market_type": "moneyline",
   "pick": "Clippers",
-  "pnl_100": null,
-  "result": null,
+  "pnl_100": -100.0,
+  "result": "LOSS",
   "sport": "nba",
   "url": "https://polymarket.com/event/nba-nop-lac-2026-11-27",
   "venues": {
@@ -9644,6 +9644,7 @@
     "ask": 0.06,
     "ask_size": 160187.35,
     "fee": 0.0039,
+    "pnl_100": -100.0,
     "status": "ok",
     "team": "Los Angeles C",
     "ticker": "KXNBAGAME-26NOV27NOPLAC-LAC",

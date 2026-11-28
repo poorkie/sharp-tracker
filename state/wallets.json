@@ -195745,7 +195745,7 @@
   }
  },
  "0x91c702f141502ecf64a18dd8b4fb07037b6a28cc": {
-  "graded_at": "2026-11-21T05:10:24.567295+00:00",
+  "graded_at": "2026-11-28T05:20:21.124152+00:00",
   "grades": {
    "cbb": {
     "avg_price": 0.99,
@@ -195761,16 +195761,16 @@
     "tier": "NONE"
    },
    "cfb": {
-    "avg_price": 0.991,
-    "hit_edge": 0.009,
+    "avg_price": 0.977,
+    "hit_edge": 0.023,
     "hit_rate": 1.0,
-    "n": 4,
-    "pnl": 577.84,
-    "roi": 0.006,
-    "shrunk_roi": -0.0267,
+    "n": 5,
+    "pnl": 1198.89,
+    "roi": 0.0116,
+    "shrunk_roi": -0.0254,
     "sport": "cfb",
-    "staked": 96049.8,
-    "t_stat": 1.33,
+    "staked": 103428.2,
+    "t_stat": 1.54,
     "tier": "NONE"
    },
    "mlb": {
